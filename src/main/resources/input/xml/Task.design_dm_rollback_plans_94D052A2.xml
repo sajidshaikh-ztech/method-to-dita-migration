@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" TypeName="Task" Url="process.adv.eya_oracle.base/tasks/design_dm_rollback_plans_94D052A2.html" Name="design_dm_rollback_plans" BackPath="./../../" Type="Task" NodeiconUrl="" performingRoleName="Conversion Lead" DisplayName="Design data migration rollback plan" Id="_RKXFQNFEEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" lang="en" nodeId="d12a927b">
+<copyright nodeId="5acb5a2b">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="930fe461">design_dm_rollback_plans</attribute>
+<attribute name="guid" nodeId="64c3f0fd">_RKXFQNFEEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="942caee3">Design data migration rollback plan</attribute>
+<attribute name="briefDescription" nodeId="3ada4779">For on-premises implementations, define the steps needed to back out of the migration if an unrecoverable error occurs.</attribute>
+<attribute name="suppressed" nodeId="3d3a5dbd">false</attribute>
+<attribute name="orderingGuide" nodeId="8fc78bed"></attribute>
+<attribute name="isAbstract" nodeId="6dc7d04c">false</attribute>
+<attribute name="shapeicon" nodeId="2414607a"></attribute>
+<attribute name="nodeicon" nodeId="3c684dee"></attribute>
+<attribute name="variabilityType" nodeId="13a1e980">na</attribute>
+<reference name="presentation" nodeId="39d5c86c">
+<Element Type="TaskDescription" TypeName="Task Description" NodeiconUrl="" DisplayName="Design data migration rollback plan" Id="-F6186Uce9CPh4Jlfzmad_A" ShapeiconUrl="images/guidance.gif" nodeId="3942a0f0" Url="" Name=",_rwh-MP9AEemAafrUcKTLow" BackPath="">
+<copyright nodeId="7e2abd04">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="73bf781e">,_rwh-MP9AEemAafrUcKTLow</attribute>
+<attribute name="guid" nodeId="d85b8b9c">-F6186Uce9CPh4Jlfzmad_A</attribute>
+<attribute name="presentationName" nodeId="611559ba">Design data migration rollback plan</attribute>
+<attribute name="briefDescription" nodeId="b00deaad"></attribute>
+<attribute name="suppressed" nodeId="eea62e53">false</attribute>
+<attribute name="orderingGuide" nodeId="43868a01"></attribute>
+<attribute name="authors" nodeId="1a9d3c29"></attribute>
+<attribute name="changeDate" nodeId="282c4902">Tue Oct 22 11:41:42 EDT 2024</attribute>
+<attribute name="changeDescription" nodeId="2218a7e">MAY 2024 - Baseline Version</attribute>
+<attribute name="version" nodeId="8ef14057"></attribute>
+<attribute name="mainDescription" nodeId="f034a4c4">Roll back steps should include halting the migration process and deleting any data that has been loaded into the target
+system.</attribute>
+<attribute name="externalId" nodeId="c7a74478"></attribute>
+<attribute name="keyConsiderations" nodeId="32a7afa3"></attribute>
+<attribute name="longPresentationName" nodeId="edb778e0"></attribute>
+<attribute name="purpose" nodeId="bb8552a6"></attribute>
+<attribute name="alternatives" nodeId="802c11d"></attribute>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="performedBy" nodeId="17df7b4c">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Conversion Lead" Id="_dnKZsDyfEeqFL87Rj0GF5A" ShapeiconUrl="images/role.gif" nodeId="a1f18f20" Url="core.default.role_def.base/roles/conversion_lead_D4ACE143.html" Name="conversion_lead" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="mandatoryInput" nodeId="c01aeda8">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Data Flow Diagram (DFD)" Id="_3FwdwKy1EeSOBpYsYCrh6Q" ShapeiconUrl="images/artifact.gif" nodeId="343d93ec" Url="core.i_t.common.base/workproducts/data_flow_diag_5D2BD70A.html" Name="data_flow_diag" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Data Mapping Specifications" Id="_IcRXQGXhEeSU9pNl520DCw" ShapeiconUrl="images/artifact.gif" nodeId="2d2ccb8" Url="core.i_t.common.base/workproducts/data_map_specs_C4F66F61.html" Name="data_map_specs" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="output" nodeId="98345c7d">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Rollback Plan" Id="_TOLlcPdmEeOgTqoejOJlgA" ShapeiconUrl="images/artifact.gif" nodeId="727baff7" Url="core.ops.common.base/workproducts/rollback_plan_2FC382BC.html" Name="rollback_plan" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="Task_TaskDescriptors" nodeId="162c1eca">
+<Element TypeName="Task Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_MerLgdE_Ee6Y56Jk6jqfOA,_aUjc4AMpEe-soaJ5TjzXsA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/design_dm_rollback_plans_94D052A2.html" Name="design_dm_rollback_plans" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Design data migration rollback plan" Id="_aUjc4AMpEe-soaJ5TjzXsA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="9768fb56"></Element>
+</referenceList>
+<reference name="performingRole" nodeId="34ff2d86">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Conversion Lead" Id="_dnKZsDyfEeqFL87Rj0GF5A" ShapeiconUrl="images/role.gif" nodeId="842d2ae4" Url="core.default.role_def.base/roles/conversion_lead_D4ACE143.html" Name="conversion_lead" BackPath="./../../"></Element>
+</reference>
+<referenceList name="customCategories" nodeId="b99e3378">
+<Element Type="CustomCategory" TypeName="Custom Category" NodeiconUrl="" DisplayName="Tasks" Id="_0Sj48KDNEeOMmqbYX27PPA" ShapeiconUrl="core.default.nav_view.base/customcategories/resources/cat_task51.png" nodeId="d714e08c" Url="core.default.nav_view.base/customcategories/task_list_CDC9CEA6.html" Name="task_list" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="e962e59d">
+<Element TypeName="Task Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_MerLgdE_Ee6Y56Jk6jqfOA,_aUjc4AMpEe-soaJ5TjzXsA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/design_dm_rollback_plans_94D052A2.html" Name="design_dm_rollback_plans" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Design data migration rollback plan" Id="_aUjc4AMpEe-soaJ5TjzXsA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="5d5fab6">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Data Conversion" Id="_K4NTYZLKEe6Ji6GnvvUfqw" relProcessPath="_K4NTYZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw" nodeId="e99ab945" Url="process.adv.eya_oracle.base/capabilitypatterns/data_conv_wkstrm_3E4842D.html" Name="data_conv_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="41900d70">data_conv_wkstrm</attribute>
+<attribute name="guid" nodeId="f83dc877">_K4NTYZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="f3983347">Data Conversion</attribute>
+<attribute name="briefDescription" nodeId="35380014"></attribute>
+<attribute name="suppressed" nodeId="cbc3f667">false</attribute>
+<attribute name="orderingGuide" nodeId="e3465e9a"></attribute>
+<attribute name="isAbstract" nodeId="9ae812d5">false</attribute>
+<attribute name="shapeicon" nodeId="41b9f283"></attribute>
+<attribute name="nodeicon" nodeId="2f1f513f"></attribute>
+<attribute name="prefix" nodeId="b7d2412b">workstream</attribute>
+<attribute name="isPlanned" nodeId="bf1f0389">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="7ab50f54">false</attribute>
+<attribute name="isOptional" nodeId="25ec2c3b">false</attribute>
+<attribute name="isRepeatable" nodeId="94b7703">false</attribute>
+<attribute name="isOngoing" nodeId="f96d6355">false</attribute>
+<attribute name="isEventDriven" nodeId="6f6f6a74">false</attribute>
+<attribute name="variabilityType" nodeId="63da6173">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Document Data Mapping and Conversion Specifications" Id="_MerLgdE_Ee6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_MerLgdE_Ee6Y56Jk6jqfOA" nodeId="4c5dfc3a" Url="process.adv.eya_oracle.base/capabilitypatterns/doc_data_map_conv_spec_A6041C48.html" Name="doc_data_map_conv_spec" BackPath="./../../">
+<attribute name="name" nodeId="4d2ab2b">doc_data_map_conv_spec</attribute>
+<attribute name="guid" nodeId="e4ccf4ee">_MerLgdE_Ee6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="e5ec61b">Document Data Mapping and Conversion Specifications</attribute>
+<attribute name="briefDescription" nodeId="64e9264">Understand the data flows, map data to processes and define the data conversion specifications.</attribute>
+<attribute name="suppressed" nodeId="cd71c62b">false</attribute>
+<attribute name="orderingGuide" nodeId="66cb4983"></attribute>
+<attribute name="isAbstract" nodeId="eded1800">false</attribute>
+<attribute name="shapeicon" nodeId="c0c475cd"></attribute>
+<attribute name="nodeicon" nodeId="94aec2f5"></attribute>
+<attribute name="prefix" nodeId="e9052006"></attribute>
+<attribute name="isPlanned" nodeId="c98b2898">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="f1b99add">false</attribute>
+<attribute name="isOptional" nodeId="9d9190ad">false</attribute>
+<attribute name="isRepeatable" nodeId="a9b9c3ea">false</attribute>
+<attribute name="isOngoing" nodeId="b289e9f5">false</attribute>
+<attribute name="isEventDriven" nodeId="7fb80edf">false</attribute>
+<attribute name="variabilityType" nodeId="bd959dae">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_MerLgdE_Ee6Y56Jk6jqfOA,_aUjc4AMpEe-soaJ5TjzXsA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/design_dm_rollback_plans_94D052A2.html" Name="design_dm_rollback_plans" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Design data migration rollback plan" Id="_aUjc4AMpEe-soaJ5TjzXsA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="e0ed795e">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="205f7d20" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="fdcb5d4b">eya_oracle</attribute>
+<attribute name="guid" nodeId="1780b12c">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="51e8e3a9">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="c06b7a7"></attribute>
+<attribute name="suppressed" nodeId="8724f2b4">false</attribute>
+<attribute name="orderingGuide" nodeId="22d9e676"></attribute>
+<attribute name="isAbstract" nodeId="ebcfe455">false</attribute>
+<attribute name="shapeicon" nodeId="21810cb1"></attribute>
+<attribute name="nodeicon" nodeId="b345873e"></attribute>
+<attribute name="prefix" nodeId="db149717"></attribute>
+<attribute name="isPlanned" nodeId="9d8cf249">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="9c5fd5b4">false</attribute>
+<attribute name="isOptional" nodeId="f4ae7eb3">false</attribute>
+<attribute name="isRepeatable" nodeId="faad5ea1">false</attribute>
+<attribute name="isOngoing" nodeId="9038e9e8">false</attribute>
+<attribute name="isEventDriven" nodeId="76e9fe8d">false</attribute>
+<attribute name="variabilityType" nodeId="8f3ccc34">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Confirm and Design" Id="_bRCPsIs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA" nodeId="3704a4d7" Url="process.adv.eya_oracle.base/deliveryprocesses/confirm_and_design_29FFDB9.html" Name="confirm_and_design" BackPath="./../../">
+<attribute name="name" nodeId="e0b17d5">confirm_and_design</attribute>
+<attribute name="guid" nodeId="3d729b29">_bRCPsIs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="7c6bbea1">Confirm and Design</attribute>
+<attribute name="briefDescription" nodeId="8937157f">Define business requirements, map process flows and facilitate fit-gap workshops. Define technology and testing strategies. Develop the master configuration workbook, RICEFW inventory and prepare for progressive build cycles.</attribute>
+<attribute name="suppressed" nodeId="4a97ae7e">false</attribute>
+<attribute name="orderingGuide" nodeId="858d48bc"></attribute>
+<attribute name="isAbstract" nodeId="63c4592d">false</attribute>
+<attribute name="shapeicon" nodeId="acd0cec3"></attribute>
+<attribute name="nodeicon" nodeId="62fac1cd"></attribute>
+<attribute name="prefix" nodeId="ddd4091c"></attribute>
+<attribute name="isPlanned" nodeId="4da8b6ff">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="2ff127cf">false</attribute>
+<attribute name="isOptional" nodeId="49c3346">false</attribute>
+<attribute name="isRepeatable" nodeId="31a2085d">false</attribute>
+<attribute name="isOngoing" nodeId="7df8342e">false</attribute>
+<attribute name="isEventDriven" nodeId="41b89bfb">false</attribute>
+<attribute name="variabilityType" nodeId="257c2b18">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Document Data Mapping and Conversion Specifications" Id="_5-KZkdpFEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA,_5-KZkdpFEe6TH6yb1zVWhw" nodeId="7221f959" Url="process.adv.eya_oracle.base/deliveryprocesses/doc_data_map_conv_spec_D490D6E3.html" Name="doc_data_map_conv_spec" BackPath="./../../">
+<attribute name="name" nodeId="31fb5c5">doc_data_map_conv_spec</attribute>
+<attribute name="guid" nodeId="6f2126cb">_5-KZkdpFEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="5e7b0cb">Document Data Mapping and Conversion Specifications</attribute>
+<attribute name="briefDescription" nodeId="d700c664">Understand the data flows, map data to processes and define the data conversion specifications.</attribute>
+<attribute name="suppressed" nodeId="12292045">false</attribute>
+<attribute name="orderingGuide" nodeId="3b51f852"></attribute>
+<attribute name="isAbstract" nodeId="1decde69">false</attribute>
+<attribute name="shapeicon" nodeId="965a35e8"></attribute>
+<attribute name="nodeicon" nodeId="e6164b74"></attribute>
+<attribute name="prefix" nodeId="a20e2d8d"></attribute>
+<attribute name="isPlanned" nodeId="350ababf">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="58ae0a66">false</attribute>
+<attribute name="isOptional" nodeId="585631fd">false</attribute>
+<attribute name="isRepeatable" nodeId="c1def9a0">false</attribute>
+<attribute name="isOngoing" nodeId="b926b1f5">false</attribute>
+<attribute name="isEventDriven" nodeId="6382736d">false</attribute>
+<attribute name="variabilityType" nodeId="d12472be">extends</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

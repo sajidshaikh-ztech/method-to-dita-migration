@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop integration test scripts" Id="_uQnu0CmVEeW4VNZE0V9FcA" ShapeiconUrl="images/task.gif" lang="en" nodeId="bff3f0fd" Url="practice.ita.delv.it_test.base/tasks/develop_int_test_scripts_EABEC7AF.html" Name="develop_int_test_scripts" BackPath="./../../">
+<copyright nodeId="b1c4cb1">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="37af406b">develop_int_test_scripts</attribute>
+<attribute name="guid" nodeId="b548d9c">_uQnu0CmVEeW4VNZE0V9FcA</attribute>
+<attribute name="presentationName" nodeId="6a050868">Develop integration test scripts</attribute>
+<attribute name="briefDescription" nodeId="3a1a824b">Select test cases to implement and create the step-by-step instructions to perform the execution conditions defined in the test case.</attribute>
+<attribute name="suppressed" nodeId="e77ce306">false</attribute>
+<attribute name="orderingGuide" nodeId="768ebed7"></attribute>
+<attribute name="isAbstract" nodeId="cc732b19">false</attribute>
+<attribute name="shapeicon" nodeId="756620cb"></attribute>
+<attribute name="nodeicon" nodeId="e0627aa9"></attribute>
+<attribute name="variabilityType" nodeId="e8c7a693">extends</attribute>
+<reference name="presentation" nodeId="4d4bcf47">
+<Element Type="TaskDescription" TypeName="Task Description" NodeiconUrl="" DisplayName="Develop integration test scripts" Id="-nOZgxgz2tiRjkx8Zh1EZpA" ShapeiconUrl="images/guidance.gif" nodeId="b46e79f" Url="" Name="develop_int_test_scripts,_uQnu0CmVEeW4VNZE0V9FcA" BackPath="">
+<copyright nodeId="22494b7c">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="78e783f6">develop_int_test_scripts,_uQnu0CmVEeW4VNZE0V9FcA</attribute>
+<attribute name="guid" nodeId="87b28d87">-nOZgxgz2tiRjkx8Zh1EZpA</attribute>
+<attribute name="presentationName" nodeId="12cfe637">Develop integration test scripts</attribute>
+<attribute name="briefDescription" nodeId="a30d0541"></attribute>
+<attribute name="suppressed" nodeId="ae159a7e">false</attribute>
+<attribute name="orderingGuide" nodeId="dabf6eb3"></attribute>
+<attribute name="authors" nodeId="3c1cb8a"></attribute>
+<attribute name="changeDate" nodeId="3d4eda83"></attribute>
+<attribute name="changeDescription" nodeId="a65adac8">APR 2018 - linked to new Pairwise Testing concept</attribute>
+<attribute name="version" nodeId="ac5a90e1"></attribute>
+<attribute name="mainDescription" nodeId="fbb755f7"></attribute>
+<attribute name="externalId" nodeId="88deae31"></attribute>
+<attribute name="keyConsiderations" nodeId="92d39595">&lt;ul&gt;
+    &lt;li&gt;
+        Test scripts for automated testing are&amp;nbsp;written in a variety of computer programming languages
+    &lt;/li&gt;
+    &lt;li&gt;
+        Developing test scripts for manual testing may not be necessary when performing manual testing if step-by-step
+        instructions to implement the test execution conditions are already defined in the test case
+    &lt;/li&gt;
+    &lt;li&gt;
+        Automated test scripts are often reused for regression testing
+    &lt;/li&gt;
+    &lt;li&gt;
+        A test case usually has one but could have more than one corresponding test script
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="longPresentationName" nodeId="c78b7103"></attribute>
+<attribute name="purpose" nodeId="849cc549">&lt;p&gt;
+    To provide a repeatable process for executing test cases that validate behavior between integrated components fulfills
+    solution requirements.
+&lt;/p&gt;</attribute>
+<attribute name="alternatives" nodeId="f1fe105e"></attribute>
+</Element>
+</reference>
+<reference name="variabilityBasedOnElement" nodeId="6d4611bb">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop test scripts" Id="_3WXmIOYDEeOqmb5IikO7mw" ShapeiconUrl="images/task.gif" nodeId="2b0e80da" Url="practice.ita.delv.it_test.base/tasks/develop_test_scripts_33684688.html" Name="develop_test_scripts" BackPath="./../../"></Element>
+</reference>
+<referenceList sortValue="Manual" name="conceptsAndPapers" nodeId="c0857e07">
+<Element Type="Concept" TypeName="Concept" NodeiconUrl="" DisplayName="Pairwise Testing" Id="_WcUvoDj4EeivAriDNRLMAA" ShapeiconUrl="images/concept.gif" nodeId="54c439d7" Url="practice.ita.delv.it_test.base/guidances/concepts/pairwise_testing_26C19AA9.html" Name="pairwise_testing" BackPath="./../../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="performedBy" nodeId="c2738793">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Tester" Id="_LCfPjjRjEeO6HZrLUe5nxQ" ShapeiconUrl="images/role.gif" nodeId="d8db60ba" Url="core.default.role_def.base/roles/tester_B8C2206D.html" Name="tester" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="mandatoryInput" nodeId="5a23d20c">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Requirements Traceability Matrix" Id="_7I8toC9GEeSJ-4uKHZ771A" ShapeiconUrl="images/artifact.gif" nodeId="ab0f1d56" Url="core.gen.common.base/workproducts/rqmts_traceability_matrix_6BABB1C5.html" Name="rqmts_traceability_matrix" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Test Case" Id="_ufvyIHncEeSYMYqbqbHk3g" ShapeiconUrl="images/artifact.gif" nodeId="c788739a" Url="core.i_t.common.base/workproducts/test_case_8FD80E72.html" Name="test_case" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Test Scenario" Id="_5czZEOYBEeOqmb5IikO7mw" ShapeiconUrl="images/artifact.gif" nodeId="b1110e02" Url="core.i_t.common.base/workproducts/test_scenario_917A181F.html" Name="test_scenario" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product Slot" NodeiconUrl="" DisplayName="[Process Design]" Id="_35cwsHw0Eea7x-I3DI3_Yg" ShapeiconUrl="images/artifact.gif" nodeId="62270ad2" Url="core.default.slots.base/workproducts/proc_design_slot_E55B4437.html" Name="proc_design_slot" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="output" nodeId="8571398e">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Requirements Traceability Matrix" Id="_7I8toC9GEeSJ-4uKHZ771A" ShapeiconUrl="images/artifact.gif" nodeId="528005f4" Url="core.gen.common.base/workproducts/rqmts_traceability_matrix_6BABB1C5.html" Name="rqmts_traceability_matrix" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Test Script" Id="_7HV9YOYDEeOqmb5IikO7mw" ShapeiconUrl="images/artifact.gif" nodeId="655e45ba" Url="core.i_t.common.base/workproducts/test_script_43C76873.html" Name="test_script" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="Task_TaskDescriptors" nodeId="820cd0a2">
+<Element TypeName="Task Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_LJrQ0eW9EeOeOeyRJA3ZBg,_YFW7oCmXEeW4VNZE0V9FcA" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/develop_int_test_scripts_EABEC7AF.html" Name="develop_int_test_scripts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop integration test scripts" Id="_YFW7oCmXEeW4VNZE0V9FcA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="f2e60c7f"></Element>
+</referenceList>
+<referenceList name="customCategories" nodeId="2047f50d">
+<Element Type="CustomCategory" TypeName="Custom Category" NodeiconUrl="" DisplayName="Tasks" Id="_0Sj48KDNEeOMmqbYX27PPA" ShapeiconUrl="core.default.nav_view.base/customcategories/resources/cat_task51.png" nodeId="8f3c2b70" Url="core.default.nav_view.base/customcategories/task_list_CDC9CEA6.html" Name="task_list" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="d5099d70">
+<Element TypeName="Task Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_LJrQ0eW9EeOeOeyRJA3ZBg,_YFW7oCmXEeW4VNZE0V9FcA" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/develop_int_test_scripts_EABEC7AF.html" Name="develop_int_test_scripts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop integration test scripts" Id="_YFW7oCmXEeW4VNZE0V9FcA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="ba4cf460">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="IT Testing (Levels)" Id="_HkiWIeW9EeOeOeyRJA3ZBg" relProcessPath="_HkiWIeW9EeOeOeyRJA3ZBg" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg" nodeId="d2024363" Url="practice.ita.delv.it_test.assign/capabilitypatterns/it_test_levels_9A95B916.html" Name="it_test_levels" BackPath="./../../">
+<attribute name="name" nodeId="ad0d6981">it_test_levels</attribute>
+<attribute name="guid" nodeId="124573ed">_HkiWIeW9EeOeOeyRJA3ZBg</attribute>
+<attribute name="presentationName" nodeId="55ce15d0">IT Testing (Levels)</attribute>
+<attribute name="briefDescription" nodeId="d17aac07"></attribute>
+<attribute name="suppressed" nodeId="bb8072fb">false</attribute>
+<attribute name="orderingGuide" nodeId="9c7c2627"></attribute>
+<attribute name="isAbstract" nodeId="343c6623">false</attribute>
+<attribute name="shapeicon" nodeId="d4d67846"></attribute>
+<attribute name="nodeicon" nodeId="89a4634"></attribute>
+<attribute name="prefix" nodeId="8491dfae"></attribute>
+<attribute name="isPlanned" nodeId="6f38d3f1">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="e9f9be69">false</attribute>
+<attribute name="isOptional" nodeId="6c415a11">false</attribute>
+<attribute name="isRepeatable" nodeId="bd1eefb">false</attribute>
+<attribute name="isOngoing" nodeId="72af7d20">false</attribute>
+<attribute name="isEventDriven" nodeId="f0a182d6">false</attribute>
+<attribute name="variabilityType" nodeId="203b778c">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Design Integration Tests" Id="_LJrQ0eW9EeOeOeyRJA3ZBg" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_LJrQ0eW9EeOeOeyRJA3ZBg" nodeId="b412b76f" Url="practice.ita.delv.it_test.assign/capabilitypatterns/Design Integration Tests_356827BB.html" Name="Design Integration Tests" BackPath="./../../">
+<attribute name="name" nodeId="bfccc9e">Design Integration Tests</attribute>
+<attribute name="guid" nodeId="5d91aefd">_LJrQ0eW9EeOeOeyRJA3ZBg</attribute>
+<attribute name="presentationName" nodeId="d2d1e3c3">Design Integration Tests</attribute>
+<attribute name="briefDescription" nodeId="662b4067">Define how interactions between component parts of the target solution are verified against solution requirements.</attribute>
+<attribute name="suppressed" nodeId="a4f28c94">false</attribute>
+<attribute name="orderingGuide" nodeId="bf5df1e6"></attribute>
+<attribute name="isAbstract" nodeId="8609b38e">false</attribute>
+<attribute name="shapeicon" nodeId="60954fcf"></attribute>
+<attribute name="nodeicon" nodeId="639c1828"></attribute>
+<attribute name="prefix" nodeId="b2104570"></attribute>
+<attribute name="isPlanned" nodeId="1d09f491">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="ea3fc517">false</attribute>
+<attribute name="isOptional" nodeId="4ea029d">false</attribute>
+<attribute name="isRepeatable" nodeId="51e29cc">false</attribute>
+<attribute name="isOngoing" nodeId="3cf690ad">false</attribute>
+<attribute name="isEventDriven" nodeId="fb86c9e4">false</attribute>
+<attribute name="variabilityType" nodeId="f2652423">na</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

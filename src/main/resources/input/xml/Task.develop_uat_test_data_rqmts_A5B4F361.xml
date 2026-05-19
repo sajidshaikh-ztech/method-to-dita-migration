@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop user acceptance test data requirements" Id="_8WaogDcBEeWiCuaOJ9Py2A" ShapeiconUrl="images/task.gif" lang="en" nodeId="36525203" Url="practice.ita.delv.it_test.base/tasks/develop_uat_test_data_rqmts_A5B4F361.html" Name="develop_uat_test_data_rqmts" BackPath="./../../">
+<copyright nodeId="a496e955">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="2c20b7aa">develop_uat_test_data_rqmts</attribute>
+<attribute name="guid" nodeId="8acd8808">_8WaogDcBEeWiCuaOJ9Py2A</attribute>
+<attribute name="presentationName" nodeId="3686121f">Develop user acceptance test data requirements</attribute>
+<attribute name="briefDescription" nodeId="81e51621">Define data needs to conduct tests based on the test scope and test type to be conducted during the test effort.</attribute>
+<attribute name="suppressed" nodeId="fb1721fb">false</attribute>
+<attribute name="orderingGuide" nodeId="36feadb9"></attribute>
+<attribute name="isAbstract" nodeId="2af3b90b">false</attribute>
+<attribute name="shapeicon" nodeId="206fc8e2"></attribute>
+<attribute name="nodeicon" nodeId="ec863938"></attribute>
+<attribute name="variabilityType" nodeId="27868181">extends</attribute>
+<reference name="presentation" nodeId="3c93a7ac">
+<Element Type="TaskDescription" TypeName="Task Description" NodeiconUrl="" DisplayName="Develop user acceptance test data requirements" Id="-uWRib7OJx8LKeUXHuY66vg" ShapeiconUrl="images/guidance.gif" nodeId="b71d249c" Url="" Name=",_8WaogDcBEeWiCuaOJ9Py2A" BackPath="">
+<copyright nodeId="b18b0535">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="b77776ac">,_8WaogDcBEeWiCuaOJ9Py2A</attribute>
+<attribute name="guid" nodeId="bf39c117">-uWRib7OJx8LKeUXHuY66vg</attribute>
+<attribute name="presentationName" nodeId="553f126f">Develop user acceptance test data requirements</attribute>
+<attribute name="briefDescription" nodeId="ec3649a7"></attribute>
+<attribute name="suppressed" nodeId="167a81a2">false</attribute>
+<attribute name="orderingGuide" nodeId="ec8d7eaa"></attribute>
+<attribute name="authors" nodeId="31298438"></attribute>
+<attribute name="changeDate" nodeId="6e0c1763"></attribute>
+<attribute name="changeDescription" nodeId="be42989f">OCT 2015 - Grammatical and style errors in the steps were fixed.</attribute>
+<attribute name="version" nodeId="b66dc791"></attribute>
+<attribute name="mainDescription" nodeId="419074a1">&lt;p&gt;
+    Analyze the test scenarios and prepare the criteria to create or obtain the required test data. The criteria provided
+    should be as specific as possible to verify data accuracy.
+&lt;/p&gt;
+&lt;p&gt;
+    When performing this task,&amp;nbsp;consider the following:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        What data is needed?&amp;nbsp;
+    &lt;/li&gt;
+    &lt;li&gt;
+        How much data is needed?
+    &lt;/li&gt;
+    &lt;li&gt;
+        When is the data needed?
+    &lt;/li&gt;
+    &lt;li&gt;
+        Does the data need to be refreshed after a specified period of time?
+    &lt;/li&gt;
+    &lt;li&gt;
+        In what test environment is the data needed?
+    &lt;/li&gt;
+    &lt;li&gt;
+        Are there any dependencies or integration points to address?
+    &lt;/li&gt;
+    &lt;li&gt;
+        Who will need the data?&amp;nbsp;&amp;nbsp;
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="externalId" nodeId="6bf901a1"></attribute>
+<attribute name="keyConsiderations" nodeId="bc88fffb">&lt;p&gt;
+    For large scale projects, data requirements may vary depending on several factors, such as the number of test
+    environments, the test levels and types performed, or the size of the project team. In these situations, data
+    requirements are collated, consolidated and reviewed with stakeholders. On smaller scale projects, in less formal
+    settings, individual data requests may be submitted and fulfilled on an as need basis. In many cases, too much may
+    increase cost and time associated to creating or obtaining data while an insufficient amount of data may impact test
+    effectiveness.
+&lt;/p&gt;</attribute>
+<attribute name="longPresentationName" nodeId="801f89d0"></attribute>
+<attribute name="purpose" nodeId="66158fc6">&lt;p&gt;
+    To understand what data is needed to test that solution behavior aligns with user requirements.
+&lt;/p&gt;</attribute>
+<attribute name="alternatives" nodeId="18c3a30d"></attribute>
+</Element>
+</reference>
+<reference name="variabilityBasedOnElement" nodeId="818c21f3">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop test data requirements" Id="_IWks4OYGEeOqmb5IikO7mw" ShapeiconUrl="images/task.gif" nodeId="4743aed3" Url="practice.ita.delv.it_test.base/tasks/develop_test_data_rqmts_B38235FD.html" Name="develop_test_data_rqmts" BackPath="./../../"></Element>
+</reference>
+<referenceList sortValue="Manual" name="performedBy" nodeId="f9b6f462">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Tester" Id="_LCfPjjRjEeO6HZrLUe5nxQ" ShapeiconUrl="images/role.gif" nodeId="cd77e523" Url="core.default.role_def.base/roles/tester_B8C2206D.html" Name="tester" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="mandatoryInput" nodeId="b2e68a9a">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Test Case" Id="_ufvyIHncEeSYMYqbqbHk3g" ShapeiconUrl="images/artifact.gif" nodeId="f7946bdf" Url="core.i_t.common.base/workproducts/test_case_8FD80E72.html" Name="test_case" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Test Plan" Id="_Kme30OX3EeOqmb5IikO7mw" ShapeiconUrl="images/artifact.gif" nodeId="215ed80" Url="core.i_t.common.base/workproducts/test_plan_4519A68.html" Name="test_plan" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Test Scenario" Id="_5czZEOYBEeOqmb5IikO7mw" ShapeiconUrl="images/artifact.gif" nodeId="f6b88a5" Url="core.i_t.common.base/workproducts/test_scenario_917A181F.html" Name="test_scenario" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="output" nodeId="3ff35cd8">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_geehAOYGEeOqmb5IikO7mw" ShapeiconUrl="images/artifact.gif" nodeId="1499e45d" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="Task_TaskDescriptors" nodeId="14653a83">
+<Element TypeName="Task Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_H1-eaJK6EeSEOeG-bGncjA,_hIdgQDc_EeWp1olIN1xWiA" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/develop_uat_test_data_rqmts_A5B4F361.html" Name="develop_uat_test_data_rqmts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop user acceptance test data requirements" Id="_hIdgQDc_EeWp1olIN1xWiA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="3621589b"></Element>
+</referenceList>
+<referenceList name="customCategories" nodeId="13c9b5c2">
+<Element Type="CustomCategory" TypeName="Custom Category" NodeiconUrl="" DisplayName="Tasks" Id="_0Sj48KDNEeOMmqbYX27PPA" ShapeiconUrl="core.default.nav_view.base/customcategories/resources/cat_task51.png" nodeId="a5538542" Url="core.default.nav_view.base/customcategories/task_list_CDC9CEA6.html" Name="task_list" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="1f632f4">
+<Element TypeName="Task Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_H1-eaJK6EeSEOeG-bGncjA,_hIdgQDc_EeWp1olIN1xWiA" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/develop_uat_test_data_rqmts_A5B4F361.html" Name="develop_uat_test_data_rqmts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop user acceptance test data requirements" Id="_hIdgQDc_EeWp1olIN1xWiA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="119b83ec">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="IT Testing (Levels)" Id="_HkiWIeW9EeOeOeyRJA3ZBg" relProcessPath="_HkiWIeW9EeOeOeyRJA3ZBg" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg" nodeId="da71c2d6" Url="practice.ita.delv.it_test.assign/capabilitypatterns/it_test_levels_9A95B916.html" Name="it_test_levels" BackPath="./../../">
+<attribute name="name" nodeId="43ed681b">it_test_levels</attribute>
+<attribute name="guid" nodeId="f5803648">_HkiWIeW9EeOeOeyRJA3ZBg</attribute>
+<attribute name="presentationName" nodeId="15b6a6ab">IT Testing (Levels)</attribute>
+<attribute name="briefDescription" nodeId="3e739a8"></attribute>
+<attribute name="suppressed" nodeId="b15caeea">false</attribute>
+<attribute name="orderingGuide" nodeId="adcc7375"></attribute>
+<attribute name="isAbstract" nodeId="86ec3837">false</attribute>
+<attribute name="shapeicon" nodeId="8c6aacd"></attribute>
+<attribute name="nodeicon" nodeId="d39e3316"></attribute>
+<attribute name="prefix" nodeId="455e13d4"></attribute>
+<attribute name="isPlanned" nodeId="d0059fb5">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="eb7d4063">false</attribute>
+<attribute name="isOptional" nodeId="d0b7ed0b">false</attribute>
+<attribute name="isRepeatable" nodeId="96fc7e4a">false</attribute>
+<attribute name="isOngoing" nodeId="7d80b426">false</attribute>
+<attribute name="isEventDriven" nodeId="e9d4d804">false</attribute>
+<attribute name="variabilityType" nodeId="9d46fda">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Design User Acceptance Tests" Id="_H1-eaJK6EeSEOeG-bGncjA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_H1-eaJK6EeSEOeG-bGncjA" nodeId="e4c403c2" Url="practice.ita.delv.it_test.assign/capabilitypatterns/Design User Acceptance Tests_BCFE1573.html" Name="Design User Acceptance Tests" BackPath="./../../">
+<attribute name="name" nodeId="51ef1867">Design User Acceptance Tests</attribute>
+<attribute name="guid" nodeId="a6c21a6e">_H1-eaJK6EeSEOeG-bGncjA</attribute>
+<attribute name="presentationName" nodeId="d91b1cf7">Design User Acceptance Tests</attribute>
+<attribute name="briefDescription" nodeId="5be11b3d">Define how business users can validate that the solution requirements meet user acceptance criteria.</attribute>
+<attribute name="suppressed" nodeId="8224e91e">false</attribute>
+<attribute name="orderingGuide" nodeId="4a6b8363"></attribute>
+<attribute name="isAbstract" nodeId="7a9443cb">false</attribute>
+<attribute name="shapeicon" nodeId="f342ba38"></attribute>
+<attribute name="nodeicon" nodeId="50c34cdb"></attribute>
+<attribute name="prefix" nodeId="9029800f"></attribute>
+<attribute name="isPlanned" nodeId="a2af9719">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="a7705672">false</attribute>
+<attribute name="isOptional" nodeId="5d156cb">false</attribute>
+<attribute name="isRepeatable" nodeId="e847cfad">false</attribute>
+<attribute name="isOngoing" nodeId="ded28424">false</attribute>
+<attribute name="isEventDriven" nodeId="9b105c49">false</attribute>
+<attribute name="variabilityType" nodeId="1179fd3c">na</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

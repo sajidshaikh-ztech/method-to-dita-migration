@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element Type="Guideline" TypeName="Guideline" NodeiconUrl="" DisplayName="Scheduling Considerations" Id="_HQk-AMd6EeSxtoQEtGSLYg" ShapeiconUrl="images/guidance.gif" lang="en" nodeId="c5c7e3ee" Url="practice.mgmt.proj.pm_small.base/guidances/guidelines/scheduling_considerations_B8EE86F6.html" Name="scheduling_considerations" BackPath="./../../../">
+<copyright nodeId="4a3e6f0e">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="cd44bd92">scheduling_considerations</attribute>
+<attribute name="guid" nodeId="df3940a6">_HQk-AMd6EeSxtoQEtGSLYg</attribute>
+<attribute name="presentationName" nodeId="ef0c71ad">Scheduling Considerations</attribute>
+<attribute name="briefDescription" nodeId="fe64fe5a"></attribute>
+<attribute name="suppressed" nodeId="1ca031">false</attribute>
+<attribute name="orderingGuide" nodeId="d7b2d967"></attribute>
+<attribute name="isAbstract" nodeId="b74b0d05">false</attribute>
+<attribute name="shapeicon" nodeId="902b9a25"></attribute>
+<attribute name="nodeicon" nodeId="47a4594b"></attribute>
+<attribute name="variabilityType" nodeId="1b6655a9">na</attribute>
+<reference name="presentation" nodeId="325d6dfd">
+<Element Type="ContentDescription" TypeName="Content Description" NodeiconUrl="" DisplayName="Scheduling Considerations" Id="-ERQoOGywPLEnyrsQwjQcsg" ShapeiconUrl="images/guidance.gif" nodeId="8250fd27" Url="" Name="new_guideline,_HQk-AMd6EeSxtoQEtGSLYg" BackPath="">
+<copyright nodeId="1e5af6cd">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="2e8e0176">new_guideline,_HQk-AMd6EeSxtoQEtGSLYg</attribute>
+<attribute name="guid" nodeId="309af4ac">-ERQoOGywPLEnyrsQwjQcsg</attribute>
+<attribute name="presentationName" nodeId="e1ce6483">Scheduling Considerations</attribute>
+<attribute name="briefDescription" nodeId="585faffd"></attribute>
+<attribute name="suppressed" nodeId="71cd4b74">false</attribute>
+<attribute name="orderingGuide" nodeId="bcc0afde"></attribute>
+<attribute name="authors" nodeId="47230ee1"></attribute>
+<attribute name="changeDate" nodeId="4330a843">Fri Mar 24 12:04:26 EDT 2023</attribute>
+<attribute name="changeDescription" nodeId="a03fe779">MAR 2023 - deleted redundant brief description|MAR 2015-initial release</attribute>
+<attribute name="version" nodeId="45b73d78"></attribute>
+<attribute name="mainDescription" nodeId="fb5648d2">&lt;p&gt;
+    Common considerations when developing a project schedule include:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Activity dependency types
+    &lt;/li&gt;
+    &lt;li&gt;
+        Leads and Lags
+    &lt;/li&gt;
+    &lt;li&gt;
+        Resource Leveling&amp;nbsp;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Schedule compression
+    &lt;/li&gt;
+    &lt;li&gt;
+        Critical path method (CPM)
+    &lt;/li&gt;
+    &lt;li&gt;
+        Risk analysis (or what-if scenario analysis)
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;
+    Activity dependency types
+&lt;/h3&gt;
+&lt;p&gt;
+    &lt;strong&gt;Finish-to-start (FS)&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    This dependency indicates that the finish date of the predecessor task determines the start date of the successor
+    tasks.&lt;br /&gt;
+    &lt;br /&gt;
+    &lt;strong&gt;Start-to-start (SS)&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    This dependency indicates that the start date of the predecessor task determines the start date of the successor
+    tasks.&lt;br /&gt;
+    &lt;br /&gt;
+    &lt;strong&gt;Finish-to-finish (FF)&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    This dependency indicates that the finish date of the predecessor task determines the finish date of the successor
+    task.&lt;br /&gt;
+    &lt;br /&gt;
+    &lt;strong&gt;Start-to-finish (SF)&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    This dependency indicates that the start date of the predecessor task determines the finish date of the successor task.
+&lt;/p&gt;
+&lt;h3&gt;
+    Leads and Lags
+&lt;/h3&gt;
+&lt;p&gt;
+    Here is a simple illustration of adding a lead:
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;img alt=&quot;&quot; src=&quot;./../../../practice.mgmt.proj.pm_small.base/guidances/guidelines/resources/leads_lags.png&quot; width=&quot;600&quot; height=&quot;371&quot; /&gt;
+&lt;/p&gt;
+&lt;h3&gt;
+    Resource Leveling
+&lt;/h3&gt;
+&lt;p&gt;
+    Here is a simple example&amp;nbsp;that levels overallocated resources:
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;img alt=&quot;&quot; src=&quot;./../../../practice.mgmt.proj.pm_small.base/guidances/guidelines/resources/res_leveling.png&quot; width=&quot;600&quot; height=&quot;411&quot; /&gt;
+&lt;/p&gt;
+&lt;h3&gt;
+    Schedule Compression
+&lt;/h3&gt;
+&lt;p&gt;
+    Schedule compression is used to shorten project schedule without changing project scope.
+&lt;/p&gt;
+&lt;p&gt;
+    Two main techniques are used:
+&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;
+        Crashing
+    &lt;/li&gt;
+    &lt;li&gt;
+        Fast tracking
+    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;
+    Critical Path Method
+&lt;/h3&gt;
+&lt;p&gt;
+    The critical path (CP) is the longest duration path through a network of project activities that has no “float” or
+    “slack,” i.e., any delay to the activities on this path delays the entire project.
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        The critical path therefore determines the minimum time required to complete the project.
+    &lt;/li&gt;
+    &lt;li&gt;
+        “Critical” does not refer to the level of importance of these tasks but to how their scheduling will affect the
+        project’s finish date.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;
+    Risk or &quot;What If&quot; Scenario Analysis
+&lt;/h3&gt;
+&lt;p&gt;
+    &lt;strong&gt;Risk&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    The potential that a chosen action or activity (including the choice of inaction) will lead to a loss (an undesirable
+    outcome).
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Assumption&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    A proposition that is taken for granted, as if it were true based upon presupposition without preponderance of the
+    facts.&lt;br /&gt;
+    &lt;br /&gt;
+    &lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;br /&gt;
+    &amp;nbsp;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;br /&gt;
+&lt;/p&gt;</attribute>
+<attribute name="externalId" nodeId="bd473bf"></attribute>
+<attribute name="keyConsiderations" nodeId="22328226"></attribute>
+<attribute name="longPresentationName" nodeId="3e03c87"></attribute>
+</Element>
+</reference>
+<referenceList name="Guideline_BreakdownElements" nodeId="a293c8d0">
+<Element TypeName="Task Descriptor" queryString="?proc=_c2F1QZLKEe6Ji6GnvvUfqw&amp;path=_c2F1QZLKEe6Ji6GnvvUfqw,_oGw9UcUUEe6pmdl9Vi4qww,_9psVECaBEe-PpfYzLEtY7A" ConcreteType="Task" Url="practice.mgmt.proj.pm_mini.base/tasks/develop_schedule_44BF7AB6.html" Name="develop_schedule" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop project schedule" Id="_9psVECaBEe-PpfYzLEtY7A" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="6c458f25"></Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_XoXcwWUjEeWWhIMIEcteog&amp;path=_XoXcwWUjEeWWhIMIEcteog,_cDCRQWUjEeWWhIMIEcteog,_dZBz0WUjEeWWhIMIEcteog,__1XPsGUkEeWWhIMIEcteog" ConcreteType="Task" Url="practice.mgmt.proj.pm_mini.base/tasks/develop_schedule_44BF7AB6.html" Name="develop_schedule" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop project schedule" Id="__1XPsGUkEeWWhIMIEcteog" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="c8a30297"></Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_NdTLoWSOEeWJx47Q3R5FDw&amp;path=_NdTLoWSOEeWJx47Q3R5FDw,_SK_p0WSOEeWJx47Q3R5FDw,_TcqtEWSOEeWJx47Q3R5FDw,_vETiAGSPEeWH_LoPPeg8Xw" ConcreteType="Task" Url="practice.mgmt.proj.pm_mini.base/tasks/develop_schedule_44BF7AB6.html" Name="develop_schedule" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop project schedule" Id="_vETiAGSPEeWH_LoPPeg8Xw" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="7f191432"></Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_NdTLoWSOEeWJx47Q3R5FDw&amp;path=_NdTLoWSOEeWJx47Q3R5FDw,_SK_p0WSOEeWJx47Q3R5FDw,_UoY5UWSOEeWJx47Q3R5FDw,_2pTkgWSPEeWH_LoPPeg8Xw,_9M_7AGSPEeWH_LoPPeg8Xw" ConcreteType="Task" Url="practice.mgmt.proj.pm_mini.base/tasks/develop_schedule_44BF7AB6.html" Name="develop_schedule" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop project schedule" Id="_9M_7AGSPEeWH_LoPPeg8Xw" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="52fc68c6"></Element>
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Project Management" Id="_NdTLoWSOEeWJx47Q3R5FDw" relProcessPath="_NdTLoWSOEeWJx47Q3R5FDw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_NdTLoWSOEeWJx47Q3R5FDw&amp;path=_NdTLoWSOEeWJx47Q3R5FDw" nodeId="571a2709" Url="practice.mgmt.proj.pm_med.assign/capabilitypatterns/pm_med_AEB6C9BD.html" Name="pm_med" BackPath="./../../">
+<attribute name="name" nodeId="1aac7548">pm_med</attribute>
+<attribute name="guid" nodeId="1cfcba40">_NdTLoWSOEeWJx47Q3R5FDw</attribute>
+<attribute name="presentationName" nodeId="9193993b">Project Management</attribute>
+<attribute name="briefDescription" nodeId="153f2238"></attribute>
+<attribute name="suppressed" nodeId="330b9c96">false</attribute>
+<attribute name="orderingGuide" nodeId="726230df"></attribute>
+<attribute name="isAbstract" nodeId="e513f26e">false</attribute>
+<attribute name="shapeicon" nodeId="18a7171e"></attribute>
+<attribute name="nodeicon" nodeId="9d0a128e"></attribute>
+<attribute name="prefix" nodeId="e8c01c81"></attribute>
+<attribute name="isPlanned" nodeId="7d581f43">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="c36ed298">false</attribute>
+<attribute name="isOptional" nodeId="edaedc91">false</attribute>
+<attribute name="isRepeatable" nodeId="ec178374">false</attribute>
+<attribute name="isOngoing" nodeId="6c7368c">false</attribute>
+<attribute name="isEventDriven" nodeId="c2171b4e">false</attribute>
+<attribute name="variabilityType" nodeId="866c902f">na</attribute>
+</Element>
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Project Management (small)" Id="_XoXcwWUjEeWWhIMIEcteog" relProcessPath="_XoXcwWUjEeWWhIMIEcteog" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_XoXcwWUjEeWWhIMIEcteog&amp;path=_XoXcwWUjEeWWhIMIEcteog" nodeId="26f7cae3" Url="practice.mgmt.proj.pm_small.assign/capabilitypatterns/pm_small_CFBEC99A.html" Name="pm_small" BackPath="./../../">
+<attribute name="name" nodeId="417d984">pm_small</attribute>
+<attribute name="guid" nodeId="8b606cdd">_XoXcwWUjEeWWhIMIEcteog</attribute>
+<attribute name="presentationName" nodeId="68f547c1">Project Management (small)</attribute>
+<attribute name="briefDescription" nodeId="1fc9915a"></attribute>
+<attribute name="suppressed" nodeId="d8bf69c3">false</attribute>
+<attribute name="orderingGuide" nodeId="c39040d"></attribute>
+<attribute name="isAbstract" nodeId="3623788c">false</attribute>
+<attribute name="shapeicon" nodeId="1f23eb64"></attribute>
+<attribute name="nodeicon" nodeId="3418e8e1"></attribute>
+<attribute name="prefix" nodeId="90d64b36"></attribute>
+<attribute name="isPlanned" nodeId="3b1d3421">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="49b84c04">false</attribute>
+<attribute name="isOptional" nodeId="8aee7975">false</attribute>
+<attribute name="isRepeatable" nodeId="229dd1cf">false</attribute>
+<attribute name="isOngoing" nodeId="bc827450">false</attribute>
+<attribute name="isEventDriven" nodeId="b6bb5dff">false</attribute>
+<attribute name="variabilityType" nodeId="240d72b7">na</attribute>
+</Element>
+</referenceList>
+<referenceList name="Guideline_ContentElements" nodeId="621cf012">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop project schedule" Id="_RRj48HiIEeignMo4fzPYYw" ShapeiconUrl="images/task.gif" nodeId="6b3535c0" Url="practice.mgmt.proj.pm_mini.base/tasks/develop_schedule_44BF7AB6.html" Name="develop_schedule" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="contentElements" nodeId="41475ffa">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop project schedule" Id="_RRj48HiIEeignMo4fzPYYw" ShapeiconUrl="images/task.gif" nodeId="ad7493f2" Url="practice.mgmt.proj.pm_mini.base/tasks/develop_schedule_44BF7AB6.html" Name="develop_schedule" BackPath="./../../"></Element>
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Project Management" Id="_NdTLoWSOEeWJx47Q3R5FDw" relProcessPath="_NdTLoWSOEeWJx47Q3R5FDw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_NdTLoWSOEeWJx47Q3R5FDw&amp;path=_NdTLoWSOEeWJx47Q3R5FDw" nodeId="76e45a4e" Url="practice.mgmt.proj.pm_med.assign/capabilitypatterns/pm_med_AEB6C9BD.html" Name="pm_med" BackPath="./../../">
+<attribute name="name" nodeId="98ccf1b6">pm_med</attribute>
+<attribute name="guid" nodeId="fb9754a4">_NdTLoWSOEeWJx47Q3R5FDw</attribute>
+<attribute name="presentationName" nodeId="46b5f64">Project Management</attribute>
+<attribute name="briefDescription" nodeId="cd5777a7"></attribute>
+<attribute name="suppressed" nodeId="9751d38e">false</attribute>
+<attribute name="orderingGuide" nodeId="d09e6db"></attribute>
+<attribute name="isAbstract" nodeId="ac3c1f95">false</attribute>
+<attribute name="shapeicon" nodeId="fba31519"></attribute>
+<attribute name="nodeicon" nodeId="8c8d5a7a"></attribute>
+<attribute name="prefix" nodeId="920fab0"></attribute>
+<attribute name="isPlanned" nodeId="950f393d">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="7c7f1447">false</attribute>
+<attribute name="isOptional" nodeId="40fcb1aa">false</attribute>
+<attribute name="isRepeatable" nodeId="b405bb2e">false</attribute>
+<attribute name="isOngoing" nodeId="883e2d4d">false</attribute>
+<attribute name="isEventDriven" nodeId="b3f768d6">false</attribute>
+<attribute name="variabilityType" nodeId="e714c237">na</attribute>
+</Element>
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Project Management (small)" Id="_XoXcwWUjEeWWhIMIEcteog" relProcessPath="_XoXcwWUjEeWWhIMIEcteog" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_XoXcwWUjEeWWhIMIEcteog&amp;path=_XoXcwWUjEeWWhIMIEcteog" nodeId="a3095100" Url="practice.mgmt.proj.pm_small.assign/capabilitypatterns/pm_small_CFBEC99A.html" Name="pm_small" BackPath="./../../">
+<attribute name="name" nodeId="b1a5f4cb">pm_small</attribute>
+<attribute name="guid" nodeId="c91f3446">_XoXcwWUjEeWWhIMIEcteog</attribute>
+<attribute name="presentationName" nodeId="eba5fe3f">Project Management (small)</attribute>
+<attribute name="briefDescription" nodeId="e0491575"></attribute>
+<attribute name="suppressed" nodeId="42c5ec32">false</attribute>
+<attribute name="orderingGuide" nodeId="4f46090c"></attribute>
+<attribute name="isAbstract" nodeId="b36f25f9">false</attribute>
+<attribute name="shapeicon" nodeId="22995b2e"></attribute>
+<attribute name="nodeicon" nodeId="368cccaa"></attribute>
+<attribute name="prefix" nodeId="a8a2ce81"></attribute>
+<attribute name="isPlanned" nodeId="8a2fb49d">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="3f90e1cf">false</attribute>
+<attribute name="isOptional" nodeId="99df9fdd">false</attribute>
+<attribute name="isRepeatable" nodeId="f7e7cd6c">false</attribute>
+<attribute name="isOngoing" nodeId="25446940">false</attribute>
+<attribute name="isEventDriven" nodeId="67ea9061">false</attribute>
+<attribute name="variabilityType" nodeId="e722e874">na</attribute>
+</Element>
+</referenceList>
+</Element>

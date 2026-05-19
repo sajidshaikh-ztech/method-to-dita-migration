@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Transition Lead" Id="_C2LiJz8gEeOOEPaNsP0t0A" ShapeiconUrl="images/role.gif" lang="en" nodeId="656ccfb7" Url="core.default.role_def.base/roles/transition_lead_D1C56254.html" Name="transition_lead" BackPath="./../../">
+<diagram>&lt;p&gt;&lt;map name=&quot;Transition_Lead&quot;&gt;&lt;area href=&quot;./../../process.adv.eya_oracle.base/tasks/create_cut_deploy_trans_des_plan_28A05931.html&quot; shape=&quot;rect&quot; coords=&quot;210, 10, 242, 42&quot; alt=&quot;Create cutover deployment transitional design plan&quot; title=&quot;Create cutover deployment transitional design plan&quot;/&gt;&lt;area href=&quot;./../../process.adv.eya_oracle.base/tasks/define_bus_cutover_approach_D82B90CD.html&quot; shape=&quot;rect&quot; coords=&quot;312, 10, 344, 42&quot; alt=&quot;Define business cutover and deployment approach&quot; title=&quot;Define business cutover and deployment approach&quot;/&gt;&lt;area href=&quot;./../../process.adv.eya_oracle.base/tasks/define_contingency_plan_38E05216.html&quot; shape=&quot;rect&quot; coords=&quot;414, 10, 446, 42&quot; alt=&quot;Define contingency plan&quot; title=&quot;Define contingency plan&quot;/&gt;&lt;area href=&quot;./../../process.adv.eya_oracle.base/tasks/define_rollback_plan_4E0131FA.html&quot; shape=&quot;rect&quot; coords=&quot;516, 10, 548, 42&quot; alt=&quot;Define rollback plan&quot; title=&quot;Define rollback plan&quot;/&gt;&lt;area href=&quot;./../../process.adv.eya_oracle.base/tasks/define_tech_cutover_depl_app_84450B2B.html&quot; shape=&quot;rect&quot; coords=&quot;618, 10, 650, 42&quot; alt=&quot;Define technology cutover and deployment approach&quot; title=&quot;Define technology cutover and deployment approach&quot;/&gt;&lt;area href=&quot;./../../process.adv.eya_oracle.base/tasks/define_tech_cutover_runbook_items_C9A03B93.html&quot; shape=&quot;rect&quot; coords=&quot;720, 10, 752, 42&quot; alt=&quot;Define technology cutover runbook items&quot; title=&quot;Define technology cutover runbook items&quot;/&gt;&lt;area href=&quot;./../../process.adv.eya_oracle.base/tasks/determine_readiness_criteria_D977AD9D.html&quot; shape=&quot;rect&quot; coords=&quot;822, 10, 854, 42&quot; alt=&quot;Determine readiness criteria&quot; title=&quot;Determine readiness criteria&quot;/&gt;&lt;area href=&quot;./../../process.adv.eya_oracle.base/tasks/develop_go_no-go_checklist_7165AF99.html&quot; shape=&quot;rect&quot; coords=&quot;210, 72, 242, 104&quot; alt=&quot;Develop go/no-go checklist&quot; title=&quot;Develop go/no-go checklist&quot;/&gt;&lt;area href=&quot;./../../practice.ita.delv.deploy.base/tasks/perform_cutover_using_runbook_9ABBFDDF.html&quot; shape=&quot;rect&quot; coords=&quot;312, 72, 344, 104&quot; alt=&quot;Perform cutover using the runbook&quot; title=&quot;Perform cutover using the runbook&quot;/&gt;&lt;area href=&quot;./../../process.adv.eya_oracle.base/tasks/review_cutover_plan_teams_A2705D40.html&quot; shape=&quot;rect&quot; coords=&quot;414, 72, 446, 104&quot; alt=&quot;Review cutover plan with all stakeholders&quot; title=&quot;Review cutover plan with all stakeholders&quot;/&gt;&lt;area href=&quot;./../../practice.pm.delv.benefit_realiz_track.base/tasks/transition_benefits_to_bau_5DD584A2.html&quot; shape=&quot;rect&quot; coords=&quot;516, 72, 548, 104&quot; alt=&quot;Transition benefits realization to Business As Usual (BAU)&quot; title=&quot;Transition benefits realization to Business As Usual (BAU)&quot;/&gt;&lt;area href=&quot;./../../practice.ita.delv.deploy.base/tasks/verify_cutover_runbook_complete_7811BE16.html&quot; shape=&quot;rect&quot; coords=&quot;618, 72, 650, 104&quot; alt=&quot;Verify cutover runbook items have been completed&quot; title=&quot;Verify cutover runbook items have been completed&quot;/&gt;&lt;/map&gt;&lt;img border=&quot;0&quot; src=&quot;transition_lead_D1C56254.jpg&quot; alt=&quot;Transition_Lead&quot; title=&quot;Transition_Lead&quot; usemap=&quot;#Transition_Lead&quot;/&gt;&lt;/p&gt;</diagram>
+<copyright nodeId="6996d8a4">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="eb971abe">transition_lead</attribute>
+<attribute name="guid" nodeId="ac933752">_C2LiJz8gEeOOEPaNsP0t0A</attribute>
+<attribute name="presentationName" nodeId="c51667b7">Transition Lead</attribute>
+<attribute name="briefDescription" nodeId="ad6be84a">Role responsible for planning and overseeing the move from development to on-going operations of the production system.</attribute>
+<attribute name="suppressed" nodeId="4295a4d2">false</attribute>
+<attribute name="orderingGuide" nodeId="4c15a4dd"></attribute>
+<attribute name="isAbstract" nodeId="825e14e0">false</attribute>
+<attribute name="shapeicon" nodeId="810e456"></attribute>
+<attribute name="nodeicon" nodeId="db009690"></attribute>
+<attribute name="variabilityType" nodeId="288fe42">na</attribute>
+<reference name="presentation" nodeId="8ed1501c">
+<Element Type="RoleDescription" TypeName="Role Description" NodeiconUrl="" DisplayName="" Id="-S4fOAuE1Fenz5dRSMAKatg" ShapeiconUrl="images/guidance.gif" nodeId="337eb6c1" Url="" Name="transition_lead,_C2LiJz8gEeOOEPaNsP0t0A" BackPath="">
+<attribute name="name" nodeId="45135096">transition_lead,_C2LiJz8gEeOOEPaNsP0t0A</attribute>
+<attribute name="guid" nodeId="3607f6c9">-S4fOAuE1Fenz5dRSMAKatg</attribute>
+<attribute name="presentationName" nodeId="dc648e0d"></attribute>
+<attribute name="briefDescription" nodeId="2eb15609"></attribute>
+<attribute name="suppressed" nodeId="36b0fc8b">false</attribute>
+<attribute name="orderingGuide" nodeId="cec658b8"></attribute>
+<attribute name="authors" nodeId="dee45b92"></attribute>
+<attribute name="changeDate" nodeId="8a0ce53"></attribute>
+<attribute name="changeDescription" nodeId="1a3421e1"></attribute>
+<attribute name="version" nodeId="43796fcc"></attribute>
+<attribute name="mainDescription" nodeId="eb63fe7"></attribute>
+<attribute name="externalId" nodeId="ae6e2581"></attribute>
+<attribute name="keyConsiderations" nodeId="3f4b0c87"></attribute>
+<attribute name="longPresentationName" nodeId="2613cbf7"></attribute>
+<attribute name="skills" nodeId="86883bdf"></attribute>
+<attribute name="assignmentApproaches" nodeId="26084a73"></attribute>
+<attribute name="synonyms" nodeId="cdc9116f"></attribute>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="modifies" nodeId="dd88966c">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Benefits BAU Handover Plan" Id="_ZqmyEAH1EeSX1fKLd9Hpdw" ShapeiconUrl="images/artifact.gif" nodeId="35d4e56" Url="core.bus.common.base/workproducts/benefits_bau_handover_A1173DD2.html" Name="benefits_bau_handover" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Contingency Plan" Id="_JFfeMPdmEeOgTqoejOJlgA" ShapeiconUrl="images/artifact.gif" nodeId="d9452fac" Url="core.ops.common.base/workproducts/contingency_plan_7F6741B2.html" Name="contingency_plan" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Cutover Completion Sign-off" Id="_ZwkeoPF3EeOFgpTUvzaUCQ" ShapeiconUrl="images/artifact.gif" nodeId="1cb57214" Url="core.ops.common.base/workproducts/cutover_completion_signoff_5737BE4B.html" Name="cutover_completion_signoff" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Cutover Go/No-Go Checklist" Id="_F4lyIPF4EeOFgpTUvzaUCQ" ShapeiconUrl="images/artifact.gif" nodeId="afb5f703" Url="core.ops.common.base/workproducts/cutover_go_nogo_chklist_ADE23C36.html" Name="cutover_go_nogo_chklist" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Cutover Readiness Criteria" Id="_EWo3MPF4EeOFgpTUvzaUCQ" ShapeiconUrl="images/artifact.gif" nodeId="36375e41" Url="core.ops.common.base/workproducts/readiness_criteria_6CDC630D.html" Name="readiness_criteria" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Cutover Runbook" Id="_CEoYUPF4EeOFgpTUvzaUCQ" ShapeiconUrl="images/artifact.gif" nodeId="c95003b1" Url="core.ops.common.base/workproducts/cutover_runbook_28E93E5B.html" Name="cutover_runbook" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Cutover and Deployment Approach" Id="_DsttgPDVEeOFgpTUvzaUCQ" ShapeiconUrl="images/artifact.gif" nodeId="e3d60d21" Url="core.ops.common.base/workproducts/cutover_deploy_approach_284EDC70.html" Name="cutover_deploy_approach" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Cutover and Deployment Plan" Id="_kkusYPDVEeOFgpTUvzaUCQ" ShapeiconUrl="images/artifact.gif" nodeId="963a5233" Url="core.ops.common.base/workproducts/cutover_deploy_plan_9BE3B58D.html" Name="cutover_deploy_plan" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Rollback Plan" Id="_TOLlcPdmEeOgTqoejOJlgA" ShapeiconUrl="images/artifact.gif" nodeId="c0cf0f6b" Url="core.ops.common.base/workproducts/rollback_plan_2FC382BC.html" Name="rollback_plan" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="Role_Primary_Tasks" nodeId="32686f56">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Create cutover deployment transitional design plan" Id="_XjlPoDHEEe-ymZgH1AiGoQ" ShapeiconUrl="images/task.gif" nodeId="7befd83b" Url="process.adv.eya_oracle.base/tasks/create_cut_deploy_trans_des_plan_28A05931.html" Name="create_cut_deploy_trans_des_plan" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Define business cutover and deployment approach" Id="_JjbkEDHDEe-ymZgH1AiGoQ" ShapeiconUrl="images/task.gif" nodeId="bd387787" Url="process.adv.eya_oracle.base/tasks/define_bus_cutover_approach_D82B90CD.html" Name="define_bus_cutover_approach" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Define rollback plan" Id="_0pJbIDHFEe-ymZgH1AiGoQ" ShapeiconUrl="images/task.gif" nodeId="e6e6b46d" Url="process.adv.eya_oracle.base/tasks/define_rollback_plan_4E0131FA.html" Name="define_rollback_plan" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Define technology cutover and deployment approach" Id="_o9L1MDHDEe-ymZgH1AiGoQ" ShapeiconUrl="images/task.gif" nodeId="3133b889" Url="process.adv.eya_oracle.base/tasks/define_tech_cutover_depl_app_84450B2B.html" Name="define_tech_cutover_depl_app" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Define contingency plan" Id="_L7TTADHGEe-ymZgH1AiGoQ" ShapeiconUrl="images/task.gif" nodeId="18167f2d" Url="process.adv.eya_oracle.base/tasks/define_contingency_plan_38E05216.html" Name="define_contingency_plan" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Define technology cutover runbook items" Id="_DqKYsDHFEe-ymZgH1AiGoQ" ShapeiconUrl="images/task.gif" nodeId="23db236f" Url="process.adv.eya_oracle.base/tasks/define_tech_cutover_runbook_items_C9A03B93.html" Name="define_tech_cutover_runbook_items" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Determine readiness criteria" Id="_vVEH0DHEEe-ymZgH1AiGoQ" ShapeiconUrl="images/task.gif" nodeId="5a39a26c" Url="process.adv.eya_oracle.base/tasks/determine_readiness_criteria_D977AD9D.html" Name="determine_readiness_criteria" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop go/no-go checklist" Id="_Y0_-wDHFEe-ymZgH1AiGoQ" ShapeiconUrl="images/task.gif" nodeId="451775b9" Url="process.adv.eya_oracle.base/tasks/develop_go_no-go_checklist_7165AF99.html" Name="develop_go_no-go_checklist" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Perform cutover using the runbook" Id="_U8gSsPF3EeOFgpTUvzaUCQ" ShapeiconUrl="images/task.gif" nodeId="bada5884" Url="practice.ita.delv.deploy.base/tasks/perform_cutover_using_runbook_9ABBFDDF.html" Name="perform_cutover_using_runbook" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Review cutover plan with all stakeholders" Id="_bAdUkNEsEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="94a2a917" Url="process.adv.eya_oracle.base/tasks/review_cutover_plan_teams_A2705D40.html" Name="review_cutover_plan_teams" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Transition benefits realization to Business As Usual (BAU)" Id="_XN5imroMEeW9SL9ktJfVTw" ShapeiconUrl="images/task.gif" nodeId="30e52585" Url="practice.pm.delv.benefit_realiz_track.base/tasks/transition_benefits_to_bau_5DD584A2.html" Name="transition_benefits_to_bau" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Verify cutover runbook items have been completed" Id="_X1TEwPF3EeOFgpTUvzaUCQ" ShapeiconUrl="images/task.gif" nodeId="482fbf98" Url="practice.ita.delv.deploy.base/tasks/verify_cutover_runbook_complete_7811BE16.html" Name="verify_cutover_runbook_complete" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="Role_Secondary_Tasks" nodeId="dbfab59b">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Create cutover deployment transitional design plan" Id="_XjlPoDHEEe-ymZgH1AiGoQ" ShapeiconUrl="images/task.gif" nodeId="d1d6c043" Url="process.adv.eya_oracle.base/tasks/create_cut_deploy_trans_des_plan_28A05931.html" Name="create_cut_deploy_trans_des_plan" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Determine readiness criteria" Id="_vVEH0DHEEe-ymZgH1AiGoQ" ShapeiconUrl="images/task.gif" nodeId="1cccf9b2" Url="process.adv.eya_oracle.base/tasks/determine_readiness_criteria_D977AD9D.html" Name="determine_readiness_criteria" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop go/no-go checklist" Id="_Y0_-wDHFEe-ymZgH1AiGoQ" ShapeiconUrl="images/task.gif" nodeId="e87ec354" Url="process.adv.eya_oracle.base/tasks/develop_go_no-go_checklist_7165AF99.html" Name="develop_go_no-go_checklist" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Define contingency plan" Id="_L7TTADHGEe-ymZgH1AiGoQ" ShapeiconUrl="images/task.gif" nodeId="b7ed5d9e" Url="process.adv.eya_oracle.base/tasks/define_contingency_plan_38E05216.html" Name="define_contingency_plan" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Finalize cutover and deployment approach" Id="_l6_LoNEwEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="79e79412" Url="process.adv.eya_oracle.base/tasks/fin_cutover_deploy_approach_11A5ACC7.html" Name="fin_cutover_deploy_approach" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Finalize cutover runbook" Id="_XLYuMNExEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="b3c5f2a9" Url="process.adv.eya_oracle.base/tasks/fin_cutover_runbook_65523543.html" Name="fin_cutover_runbook" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="Role_RoleDescriptors" nodeId="5ecfc128">
+<Element TypeName="Role Descriptor" queryString="?proc=_iSP8oeQDEeWwNZsaOQRXmQ&amp;path=_iSP8oeQDEeWwNZsaOQRXmQ,_rJYkkeSOEei5Ca-1RnJ26Q,_rJiVo-SOEei5Ca-1RnJ26Q" ConcreteType="Role" Url="core.default.role_def.base/roles/transition_lead_D1C56254.html" Name="transition_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Transition Lead" Id="_rJiVo-SOEei5Ca-1RnJ26Q" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="9ec621b5"></Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_gXnmQfRSEe-NS_lmVU2vSQ" ConcreteType="Role" Url="core.default.role_def.base/roles/transition_lead_D1C56254.html" Name="transition_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Transition Lead" Id="_gXnmQfRSEe-NS_lmVU2vSQ" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="edfd0f5"></Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_UUXh8dEqEe6Y56Jk6jqfOA,_-OK08dErEe6Y56Jk6jqfOA" ConcreteType="Role" Url="core.default.role_def.base/roles/transition_lead_D1C56254.html" Name="transition_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Transition Lead" Id="_-OK08dErEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="793fee46"></Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_tw8_IdEsEe6Y56Jk6jqfOA,_74GgANEsEe6Y56Jk6jqfOA" ConcreteType="Role" Url="core.default.role_def.base/roles/transition_lead_D1C56254.html" Name="transition_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Transition Lead" Id="_74GgANEsEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="559e0972"></Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_hUwHYDHHEe-ymZgH1AiGoQ_C2LiJz8gEeOOEPaNsP0t0A" ConcreteType="Role" Url="core.default.role_def.base/roles/transition_lead_D1C56254.html" Name="transition_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Transition Lead" Id="_hUwHYDHHEe-ymZgH1AiGoQ_C2LiJz8gEeOOEPaNsP0t0A" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="5e96b8f0"></Element>
+</referenceList>
+<referenceList name="additionallyPerforms" nodeId="8dbd1454">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Create cutover deployment transitional design plan" Id="_XjlPoDHEEe-ymZgH1AiGoQ" ShapeiconUrl="images/task.gif" nodeId="150639a1" Url="process.adv.eya_oracle.base/tasks/create_cut_deploy_trans_des_plan_28A05931.html" Name="create_cut_deploy_trans_des_plan" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Determine readiness criteria" Id="_vVEH0DHEEe-ymZgH1AiGoQ" ShapeiconUrl="images/task.gif" nodeId="4c4eb773" Url="process.adv.eya_oracle.base/tasks/determine_readiness_criteria_D977AD9D.html" Name="determine_readiness_criteria" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop go/no-go checklist" Id="_Y0_-wDHFEe-ymZgH1AiGoQ" ShapeiconUrl="images/task.gif" nodeId="92c74891" Url="process.adv.eya_oracle.base/tasks/develop_go_no-go_checklist_7165AF99.html" Name="develop_go_no-go_checklist" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Define contingency plan" Id="_L7TTADHGEe-ymZgH1AiGoQ" ShapeiconUrl="images/task.gif" nodeId="ead0e7ce" Url="process.adv.eya_oracle.base/tasks/define_contingency_plan_38E05216.html" Name="define_contingency_plan" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Finalize cutover and deployment approach" Id="_l6_LoNEwEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="abfc6c56" Url="process.adv.eya_oracle.base/tasks/fin_cutover_deploy_approach_11A5ACC7.html" Name="fin_cutover_deploy_approach" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Finalize cutover runbook" Id="_XLYuMNExEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="4cc39d4b" Url="process.adv.eya_oracle.base/tasks/fin_cutover_runbook_65523543.html" Name="fin_cutover_runbook" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="978ceadb">
+<Element TypeName="Role Descriptor" queryString="?proc=_iSP8oeQDEeWwNZsaOQRXmQ&amp;path=_iSP8oeQDEeWwNZsaOQRXmQ,_rJYkkeSOEei5Ca-1RnJ26Q,_rJiVo-SOEei5Ca-1RnJ26Q" ConcreteType="Role" Url="core.default.role_def.base/roles/transition_lead_D1C56254.html" Name="transition_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Transition Lead" Id="_rJiVo-SOEei5Ca-1RnJ26Q" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="d5cb0eee">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Benefit Realization Tracking" Id="_iSP8oeQDEeWwNZsaOQRXmQ" relProcessPath="_iSP8oeQDEeWwNZsaOQRXmQ" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_iSP8oeQDEeWwNZsaOQRXmQ&amp;path=_iSP8oeQDEeWwNZsaOQRXmQ" nodeId="68dd688c" Url="practice.pm.delv.benefit_realiz_track.assign/capabilitypatterns/benefit_realiz_track_13CBA640.html" Name="benefit_realiz_track" BackPath="./../../">
+<attribute name="name" nodeId="b0dce7af">benefit_realiz_track</attribute>
+<attribute name="guid" nodeId="4a5c967b">_iSP8oeQDEeWwNZsaOQRXmQ</attribute>
+<attribute name="presentationName" nodeId="d71e20c5">Benefit Realization Tracking</attribute>
+<attribute name="briefDescription" nodeId="567a2e25"></attribute>
+<attribute name="suppressed" nodeId="697005a4">false</attribute>
+<attribute name="orderingGuide" nodeId="d043fe7b"></attribute>
+<attribute name="isAbstract" nodeId="43249981">false</attribute>
+<attribute name="shapeicon" nodeId="532b1fa4"></attribute>
+<attribute name="nodeicon" nodeId="593b073c"></attribute>
+<attribute name="prefix" nodeId="9cf24826"></attribute>
+<attribute name="isPlanned" nodeId="fc502465">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="1e6c4564">false</attribute>
+<attribute name="isOptional" nodeId="75204943">false</attribute>
+<attribute name="isRepeatable" nodeId="7c7f50a1">false</attribute>
+<attribute name="isOngoing" nodeId="5654f937">false</attribute>
+<attribute name="isEventDriven" nodeId="90a41891">false</attribute>
+<attribute name="variabilityType" nodeId="7f40f030">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Track and Monitor Benefits Realization" Id="_rJYkkeSOEei5Ca-1RnJ26Q" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_iSP8oeQDEeWwNZsaOQRXmQ&amp;path=_iSP8oeQDEeWwNZsaOQRXmQ,_rJYkkeSOEei5Ca-1RnJ26Q" nodeId="19fac44e" Url="practice.pm.delv.benefit_realiz_track.assign/capabilitypatterns/track_monitor_benefits_723EACCC.html" Name="track_monitor_benefits" BackPath="./../../">
+<attribute name="name" nodeId="9d8e141f">track_monitor_benefits</attribute>
+<attribute name="guid" nodeId="fc20c1ad">_rJYkkeSOEei5Ca-1RnJ26Q</attribute>
+<attribute name="presentationName" nodeId="7907d237">Track and Monitor Benefits Realization</attribute>
+<attribute name="briefDescription" nodeId="26da3f5c">Define and implement a process to track and monitor expected benefits achievement against realization plan and close when benefits have been fully realized.</attribute>
+<attribute name="suppressed" nodeId="e3fe629a">false</attribute>
+<attribute name="orderingGuide" nodeId="c25d8d47"></attribute>
+<attribute name="isAbstract" nodeId="68a0b8f3">false</attribute>
+<attribute name="shapeicon" nodeId="f7039155"></attribute>
+<attribute name="nodeicon" nodeId="3309fd58"></attribute>
+<attribute name="prefix" nodeId="4d317a31"></attribute>
+<attribute name="isPlanned" nodeId="48d6788f">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="605f6b62">false</attribute>
+<attribute name="isOptional" nodeId="cafa6c6">false</attribute>
+<attribute name="isRepeatable" nodeId="1a61241">false</attribute>
+<attribute name="isOngoing" nodeId="d43faae1">false</attribute>
+<attribute name="isEventDriven" nodeId="990f2965">false</attribute>
+<attribute name="variabilityType" nodeId="643f3d7b">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_gXnmQfRSEe-NS_lmVU2vSQ" ConcreteType="Role" Url="core.default.role_def.base/roles/transition_lead_D1C56254.html" Name="transition_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Transition Lead" Id="_gXnmQfRSEe-NS_lmVU2vSQ" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="48983586"></Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_UUXh8dEqEe6Y56Jk6jqfOA,_-OK08dErEe6Y56Jk6jqfOA" ConcreteType="Role" Url="core.default.role_def.base/roles/transition_lead_D1C56254.html" Name="transition_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Transition Lead" Id="_-OK08dErEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="d6fc314c">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Development" Id="_N-58wdAOEe6H-rjlu9wPlA" relProcessPath="_N-58wdAOEe6H-rjlu9wPlA" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA" nodeId="cbed3339" Url="process.adv.eya_oracle.base/capabilitypatterns/development_wkstrm_21C01F87.html" Name="development_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="be309a03">development_wkstrm</attribute>
+<attribute name="guid" nodeId="9aada209">_N-58wdAOEe6H-rjlu9wPlA</attribute>
+<attribute name="presentationName" nodeId="2bab26ce">Development</attribute>
+<attribute name="briefDescription" nodeId="1cc2073c"></attribute>
+<attribute name="suppressed" nodeId="ef703882">false</attribute>
+<attribute name="orderingGuide" nodeId="57e98ab7"></attribute>
+<attribute name="isAbstract" nodeId="348ba721">false</attribute>
+<attribute name="shapeicon" nodeId="c4ada5a7"></attribute>
+<attribute name="nodeicon" nodeId="37f0daef"></attribute>
+<attribute name="prefix" nodeId="a02d9341">workstream</attribute>
+<attribute name="isPlanned" nodeId="8e9304f0">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="fd281222">false</attribute>
+<attribute name="isOptional" nodeId="2bffcbb5">false</attribute>
+<attribute name="isRepeatable" nodeId="97cf2182">false</attribute>
+<attribute name="isOngoing" nodeId="b717e4ca">false</attribute>
+<attribute name="isEventDriven" nodeId="bf5f54c3">false</attribute>
+<attribute name="variabilityType" nodeId="a663a093">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Confirm Cutover Readiness" Id="_UUXh8dEqEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_UUXh8dEqEe6Y56Jk6jqfOA" nodeId="cebbaaa6" Url="process.adv.eya_oracle.base/capabilitypatterns/confirm_cutover_readiness_437A7987.html" Name="confirm_cutover_readiness" BackPath="./../../">
+<attribute name="name" nodeId="774b7ef4">confirm_cutover_readiness</attribute>
+<attribute name="guid" nodeId="906d2b87">_UUXh8dEqEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="d52518e">Confirm Cutover Readiness</attribute>
+<attribute name="briefDescription" nodeId="49ba8de2">Confirm that all essential elements are ready for go-live, including service management, production infrastructure, code and configurations, monitoring, data migration and end users, and role access.</attribute>
+<attribute name="suppressed" nodeId="ef9ac3fc">false</attribute>
+<attribute name="orderingGuide" nodeId="406b0cec"></attribute>
+<attribute name="isAbstract" nodeId="2a9161bb">false</attribute>
+<attribute name="shapeicon" nodeId="847e026c"></attribute>
+<attribute name="nodeicon" nodeId="c847a2b2"></attribute>
+<attribute name="prefix" nodeId="881209e7"></attribute>
+<attribute name="isPlanned" nodeId="fc9ae761">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d3726367">false</attribute>
+<attribute name="isOptional" nodeId="4ea8dcd9">false</attribute>
+<attribute name="isRepeatable" nodeId="35e88215">false</attribute>
+<attribute name="isOngoing" nodeId="810be382">false</attribute>
+<attribute name="isEventDriven" nodeId="2ed66cb0">false</attribute>
+<attribute name="variabilityType" nodeId="40d2f610">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_UUXh8dEqEe6Y56Jk6jqfOA,_-OK08dErEe6Y56Jk6jqfOA" ConcreteType="Role" Url="core.default.role_def.base/roles/transition_lead_D1C56254.html" Name="transition_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Transition Lead" Id="_-OK08dErEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="b2f926de">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="e744c0ca" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="b32d44f3">eya_oracle</attribute>
+<attribute name="guid" nodeId="8ab15571">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="32452f14">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="1c4a2164"></attribute>
+<attribute name="suppressed" nodeId="ff7c1d4a">false</attribute>
+<attribute name="orderingGuide" nodeId="969656d0"></attribute>
+<attribute name="isAbstract" nodeId="92fc166e">false</attribute>
+<attribute name="shapeicon" nodeId="2ab7e3af"></attribute>
+<attribute name="nodeicon" nodeId="340f6032"></attribute>
+<attribute name="prefix" nodeId="91c9423e"></attribute>
+<attribute name="isPlanned" nodeId="47d5e0a0">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="ff20276b">false</attribute>
+<attribute name="isOptional" nodeId="928a7f59">false</attribute>
+<attribute name="isRepeatable" nodeId="b2fbb316">false</attribute>
+<attribute name="isOngoing" nodeId="304924d7">false</attribute>
+<attribute name="isEventDriven" nodeId="39258115">false</attribute>
+<attribute name="variabilityType" nodeId="dd48fa90">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Deploy" Id="_fuFp0Ys6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA" nodeId="cf850bb3" Url="process.adv.eya_oracle.base/deliveryprocesses/deploy_DA41E608.html" Name="deploy" BackPath="./../../">
+<attribute name="name" nodeId="8704860f">deploy</attribute>
+<attribute name="guid" nodeId="3a4c28a3">_fuFp0Ys6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="a06d2e10">Deploy</attribute>
+<attribute name="briefDescription" nodeId="d636a560">Deploy trainings to impacted stakeholders. Conduct data migration activities, confirm cutover readiness and perform the cutover.</attribute>
+<attribute name="suppressed" nodeId="c9a5694f">false</attribute>
+<attribute name="orderingGuide" nodeId="7cb29525"></attribute>
+<attribute name="isAbstract" nodeId="a465c663">false</attribute>
+<attribute name="shapeicon" nodeId="80c6653c"></attribute>
+<attribute name="nodeicon" nodeId="f21ea752"></attribute>
+<attribute name="prefix" nodeId="64e2a8d6"></attribute>
+<attribute name="isPlanned" nodeId="47531946">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="9375e341">false</attribute>
+<attribute name="isOptional" nodeId="36b74dc">false</attribute>
+<attribute name="isRepeatable" nodeId="aff34451">false</attribute>
+<attribute name="isOngoing" nodeId="8280f059">false</attribute>
+<attribute name="isEventDriven" nodeId="eee824c7">false</attribute>
+<attribute name="variabilityType" nodeId="11c54d38">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Confirm Cutover Readiness" Id="_3OXrEdsMEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_3OXrEdsMEe6TH6yb1zVWhw" nodeId="b37735d7" Url="process.adv.eya_oracle.base/deliveryprocesses/confirm_cutover_readiness_6B14FA7C.html" Name="confirm_cutover_readiness" BackPath="./../../">
+<attribute name="name" nodeId="b8e5877c">confirm_cutover_readiness</attribute>
+<attribute name="guid" nodeId="45fe2606">_3OXrEdsMEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="d5e97f5e">Confirm Cutover Readiness</attribute>
+<attribute name="briefDescription" nodeId="d4a16ba2">Confirm that all essential elements are ready for go-live, including service management, production infrastructure, code and configurations, monitoring, data migration and end users, and role access.</attribute>
+<attribute name="suppressed" nodeId="8ab49d7f">false</attribute>
+<attribute name="orderingGuide" nodeId="5ba1410"></attribute>
+<attribute name="isAbstract" nodeId="5295ca8b">false</attribute>
+<attribute name="shapeicon" nodeId="56d1cd9"></attribute>
+<attribute name="nodeicon" nodeId="5a36aa8"></attribute>
+<attribute name="prefix" nodeId="d1bff85b"></attribute>
+<attribute name="isPlanned" nodeId="318a75f5">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="aa1dd512">false</attribute>
+<attribute name="isOptional" nodeId="465a32b4">false</attribute>
+<attribute name="isRepeatable" nodeId="8ff93bf7">false</attribute>
+<attribute name="isOngoing" nodeId="a2879c6d">false</attribute>
+<attribute name="isEventDriven" nodeId="a65bb610">false</attribute>
+<attribute name="variabilityType" nodeId="bdbf1734">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_tw8_IdEsEe6Y56Jk6jqfOA,_74GgANEsEe6Y56Jk6jqfOA" ConcreteType="Role" Url="core.default.role_def.base/roles/transition_lead_D1C56254.html" Name="transition_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Transition Lead" Id="_74GgANEsEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="bbdf60ed">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Development" Id="_N-58wdAOEe6H-rjlu9wPlA" relProcessPath="_N-58wdAOEe6H-rjlu9wPlA" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA" nodeId="b68d0bb8" Url="process.adv.eya_oracle.base/capabilitypatterns/development_wkstrm_21C01F87.html" Name="development_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="e78c8236">development_wkstrm</attribute>
+<attribute name="guid" nodeId="183ce7f5">_N-58wdAOEe6H-rjlu9wPlA</attribute>
+<attribute name="presentationName" nodeId="f474ad60">Development</attribute>
+<attribute name="briefDescription" nodeId="2a337de0"></attribute>
+<attribute name="suppressed" nodeId="aace123b">false</attribute>
+<attribute name="orderingGuide" nodeId="6d13c246"></attribute>
+<attribute name="isAbstract" nodeId="b786617b">false</attribute>
+<attribute name="shapeicon" nodeId="8abfab60"></attribute>
+<attribute name="nodeicon" nodeId="f06ac0dd"></attribute>
+<attribute name="prefix" nodeId="cf5e2234">workstream</attribute>
+<attribute name="isPlanned" nodeId="a9966452">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="8777e71f">false</attribute>
+<attribute name="isOptional" nodeId="9fffe320">false</attribute>
+<attribute name="isRepeatable" nodeId="46d3448c">false</attribute>
+<attribute name="isOngoing" nodeId="df1966f9">false</attribute>
+<attribute name="isEventDriven" nodeId="30358b9b">false</attribute>
+<attribute name="variabilityType" nodeId="9c4fe1f8">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Perform Cutover" Id="_tw8_IdEsEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_tw8_IdEsEe6Y56Jk6jqfOA" nodeId="eeb05470" Url="process.adv.eya_oracle.base/capabilitypatterns/perform_cutover_CC2B4AD2.html" Name="perform_cutover" BackPath="./../../">
+<attribute name="name" nodeId="c85a899c">perform_cutover</attribute>
+<attribute name="guid" nodeId="7aaa253a">_tw8_IdEsEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="415ba3c2">Perform Cutover</attribute>
+<attribute name="briefDescription" nodeId="dbafe4ee">Complete the activities required to transition to production.</attribute>
+<attribute name="suppressed" nodeId="58c3d186">false</attribute>
+<attribute name="orderingGuide" nodeId="624ab2de"></attribute>
+<attribute name="isAbstract" nodeId="bfc841a">false</attribute>
+<attribute name="shapeicon" nodeId="99681242"></attribute>
+<attribute name="nodeicon" nodeId="b459d69e"></attribute>
+<attribute name="prefix" nodeId="b2675c54"></attribute>
+<attribute name="isPlanned" nodeId="e7394514">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="3ab1856d">false</attribute>
+<attribute name="isOptional" nodeId="46df0e14">false</attribute>
+<attribute name="isRepeatable" nodeId="5b89d453">false</attribute>
+<attribute name="isOngoing" nodeId="6629998a">false</attribute>
+<attribute name="isEventDriven" nodeId="555b6fdd">false</attribute>
+<attribute name="variabilityType" nodeId="33134422">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_tw8_IdEsEe6Y56Jk6jqfOA,_74GgANEsEe6Y56Jk6jqfOA" ConcreteType="Role" Url="core.default.role_def.base/roles/transition_lead_D1C56254.html" Name="transition_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Transition Lead" Id="_74GgANEsEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="2c979841">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="ac4fe04" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="a2195119">eya_oracle</attribute>
+<attribute name="guid" nodeId="4eb0a253">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="83a769c">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="3b5260f5"></attribute>
+<attribute name="suppressed" nodeId="198d92ad">false</attribute>
+<attribute name="orderingGuide" nodeId="a069b2df"></attribute>
+<attribute name="isAbstract" nodeId="cf1bf946">false</attribute>
+<attribute name="shapeicon" nodeId="76cdebf9"></attribute>
+<attribute name="nodeicon" nodeId="ca056f42"></attribute>
+<attribute name="prefix" nodeId="1dc86d9c"></attribute>
+<attribute name="isPlanned" nodeId="d973d494">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="9f87bfc2">false</attribute>
+<attribute name="isOptional" nodeId="21ce638a">false</attribute>
+<attribute name="isRepeatable" nodeId="b8010b36">false</attribute>
+<attribute name="isOngoing" nodeId="af293439">false</attribute>
+<attribute name="isEventDriven" nodeId="29cdae21">false</attribute>
+<attribute name="variabilityType" nodeId="79dc4574">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Deploy" Id="_fuFp0Ys6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA" nodeId="c3b3343a" Url="process.adv.eya_oracle.base/deliveryprocesses/deploy_DA41E608.html" Name="deploy" BackPath="./../../">
+<attribute name="name" nodeId="f1b1a48d">deploy</attribute>
+<attribute name="guid" nodeId="5d2bcaca">_fuFp0Ys6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="a84facaf">Deploy</attribute>
+<attribute name="briefDescription" nodeId="e9d3d98f">Deploy trainings to impacted stakeholders. Conduct data migration activities, confirm cutover readiness and perform the cutover.</attribute>
+<attribute name="suppressed" nodeId="becccd3b">false</attribute>
+<attribute name="orderingGuide" nodeId="2c305559"></attribute>
+<attribute name="isAbstract" nodeId="11d7a63b">false</attribute>
+<attribute name="shapeicon" nodeId="348dfaa6"></attribute>
+<attribute name="nodeicon" nodeId="44a30e53"></attribute>
+<attribute name="prefix" nodeId="82c1f9a5"></attribute>
+<attribute name="isPlanned" nodeId="3af7ed6">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="4fc03390">false</attribute>
+<attribute name="isOptional" nodeId="6d539c0d">false</attribute>
+<attribute name="isRepeatable" nodeId="67d87e89">false</attribute>
+<attribute name="isOngoing" nodeId="cf67848f">false</attribute>
+<attribute name="isEventDriven" nodeId="5064516e">false</attribute>
+<attribute name="variabilityType" nodeId="f6e12b70">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Perform Cutover" Id="_4Ar40dsMEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_4Ar40dsMEe6TH6yb1zVWhw" nodeId="df3d0f3a" Url="process.adv.eya_oracle.base/deliveryprocesses/perform_cutover_D871D46A.html" Name="perform_cutover" BackPath="./../../">
+<attribute name="name" nodeId="1f822a17">perform_cutover</attribute>
+<attribute name="guid" nodeId="aec45acb">_4Ar40dsMEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="a07f057f">Perform Cutover</attribute>
+<attribute name="briefDescription" nodeId="b8c59d05">Complete the activities required to transition to production.</attribute>
+<attribute name="suppressed" nodeId="38085d81">false</attribute>
+<attribute name="orderingGuide" nodeId="78681b2f"></attribute>
+<attribute name="isAbstract" nodeId="c22e9230">false</attribute>
+<attribute name="shapeicon" nodeId="5eb16665"></attribute>
+<attribute name="nodeicon" nodeId="e303af91"></attribute>
+<attribute name="prefix" nodeId="df797a8"></attribute>
+<attribute name="isPlanned" nodeId="51da2ee1">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="bfe2cccd">false</attribute>
+<attribute name="isOptional" nodeId="ca392ee7">false</attribute>
+<attribute name="isRepeatable" nodeId="16228a5f">false</attribute>
+<attribute name="isOngoing" nodeId="b4c88e01">false</attribute>
+<attribute name="isEventDriven" nodeId="2dfffa31">false</attribute>
+<attribute name="variabilityType" nodeId="39a8cc90">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_hUwHYDHHEe-ymZgH1AiGoQ_C2LiJz8gEeOOEPaNsP0t0A" ConcreteType="Role" Url="core.default.role_def.base/roles/transition_lead_D1C56254.html" Name="transition_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Transition Lead" Id="_hUwHYDHHEe-ymZgH1AiGoQ_C2LiJz8gEeOOEPaNsP0t0A" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="a1c6f27c">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="c00c39cc" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="50bf247d">eya_oracle</attribute>
+<attribute name="guid" nodeId="57eb105b">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="8de2166c">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="96eedbc6"></attribute>
+<attribute name="suppressed" nodeId="7c4a476">false</attribute>
+<attribute name="orderingGuide" nodeId="c82c2b9a"></attribute>
+<attribute name="isAbstract" nodeId="e8a1f662">false</attribute>
+<attribute name="shapeicon" nodeId="d531a680"></attribute>
+<attribute name="nodeicon" nodeId="edb60140"></attribute>
+<attribute name="prefix" nodeId="6b693367"></attribute>
+<attribute name="isPlanned" nodeId="a16fc2b2">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="6c50b822">false</attribute>
+<attribute name="isOptional" nodeId="b4b3e04f">false</attribute>
+<attribute name="isRepeatable" nodeId="5c0df02d">false</attribute>
+<attribute name="isOngoing" nodeId="d66f0f9a">false</attribute>
+<attribute name="isEventDriven" nodeId="723fa560">false</attribute>
+<attribute name="variabilityType" nodeId="3f2cc2f0">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Test" Id="_esTcsYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA" nodeId="1153a504" Url="process.adv.eya_oracle.base/deliveryprocesses/test_E5EB30E9.html" Name="test" BackPath="./../../">
+<attribute name="name" nodeId="cc239292">test</attribute>
+<attribute name="guid" nodeId="732f0961">_esTcsYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="d6f2ac43">Test</attribute>
+<attribute name="briefDescription" nodeId="1f3658fb">Perform tests on the integrated Oracle services solution and prepare for cutover and deployment. Additionally, design and prepare training materials.</attribute>
+<attribute name="suppressed" nodeId="c0d560ab">false</attribute>
+<attribute name="orderingGuide" nodeId="3ecaad3b"></attribute>
+<attribute name="isAbstract" nodeId="388a164f">false</attribute>
+<attribute name="shapeicon" nodeId="31087b1f"></attribute>
+<attribute name="nodeicon" nodeId="212005d7"></attribute>
+<attribute name="prefix" nodeId="e5d8f6"></attribute>
+<attribute name="isPlanned" nodeId="168867b">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="eaab86bb">false</attribute>
+<attribute name="isOptional" nodeId="d07bc8c8">false</attribute>
+<attribute name="isRepeatable" nodeId="8abdd6b7">false</attribute>
+<attribute name="isOngoing" nodeId="4be06215">false</attribute>
+<attribute name="isEventDriven" nodeId="25dd38fb">false</attribute>
+<attribute name="variabilityType" nodeId="ab6f8401">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Prepare for Cutover and Deployment" Id="_vkzykdplEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw" nodeId="22316d24" Url="process.adv.eya_oracle.base/deliveryprocesses/prepare_cutover_deployment_CE7AA5F6.html" Name="prepare_cutover_deployment" BackPath="./../../">
+<attribute name="name" nodeId="ac62dad">prepare_cutover_deployment</attribute>
+<attribute name="guid" nodeId="4511b8ed">_vkzykdplEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="46890790">Prepare for Cutover and Deployment</attribute>
+<attribute name="briefDescription" nodeId="16de730a">Define the approach, plan and governance tasks to manage the transition of the target state Oracle solution into the production environment.</attribute>
+<attribute name="suppressed" nodeId="9bbe639a">false</attribute>
+<attribute name="orderingGuide" nodeId="d31fd06e"></attribute>
+<attribute name="isAbstract" nodeId="19f51817">false</attribute>
+<attribute name="shapeicon" nodeId="2bc9c6e8"></attribute>
+<attribute name="nodeicon" nodeId="2e5ae450"></attribute>
+<attribute name="prefix" nodeId="845b4f5f"></attribute>
+<attribute name="isPlanned" nodeId="160d6947">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="e2fb0807">false</attribute>
+<attribute name="isOptional" nodeId="d3593c7f">false</attribute>
+<attribute name="isRepeatable" nodeId="6c065a14">false</attribute>
+<attribute name="isOngoing" nodeId="73855ccd">false</attribute>
+<attribute name="isEventDriven" nodeId="e04dacfc">false</attribute>
+<attribute name="variabilityType" nodeId="d4e74d02">extends</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

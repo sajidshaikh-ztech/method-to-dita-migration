@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Define business cutover and deployment approach" Id="_JjbkEDHDEe-ymZgH1AiGoQ" ShapeiconUrl="images/task.gif" lang="en" nodeId="faa2e0f4" Url="process.adv.eya_oracle.base/tasks/define_bus_cutover_approach_D82B90CD.html" Name="define_bus_cutover_approach" BackPath="./../../">
+<copyright nodeId="5562b5fe">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="1f181d7">define_bus_cutover_approach</attribute>
+<attribute name="guid" nodeId="c212b7e6">_JjbkEDHDEe-ymZgH1AiGoQ</attribute>
+<attribute name="presentationName" nodeId="5d84c9b4">Define business cutover and deployment approach</attribute>
+<attribute name="briefDescription" nodeId="71102cc0">Document a high-level process to prepare the organization for impending changes and manage the business and organizational aspects of the cutover and deployment.</attribute>
+<attribute name="suppressed" nodeId="f94c1f79">false</attribute>
+<attribute name="orderingGuide" nodeId="8337f21c"></attribute>
+<attribute name="isAbstract" nodeId="9b40651e">false</attribute>
+<attribute name="shapeicon" nodeId="6f139a47"></attribute>
+<attribute name="nodeicon" nodeId="d833e194"></attribute>
+<attribute name="variabilityType" nodeId="142a687d">extendsReplaces</attribute>
+<reference name="presentation" nodeId="878e878c">
+<Element Type="TaskDescription" TypeName="Task Description" NodeiconUrl="" DisplayName="" Id="-G8oG3a2Gph9rzGa4k2g9sw" ShapeiconUrl="images/guidance.gif" nodeId="64471fe5" Url="" Name="define_bus_cutover_approach,_JjbkEDHDEe-ymZgH1AiGoQ" BackPath="">
+<attribute name="name" nodeId="5e847bf7">define_bus_cutover_approach,_JjbkEDHDEe-ymZgH1AiGoQ</attribute>
+<attribute name="guid" nodeId="ced7f0">-G8oG3a2Gph9rzGa4k2g9sw</attribute>
+<attribute name="presentationName" nodeId="139a0653"></attribute>
+<attribute name="briefDescription" nodeId="de64d8b"></attribute>
+<attribute name="suppressed" nodeId="f8c92026">false</attribute>
+<attribute name="orderingGuide" nodeId="a04e6d95"></attribute>
+<attribute name="authors" nodeId="d393805d"></attribute>
+<attribute name="changeDate" nodeId="806659ed"></attribute>
+<attribute name="changeDescription" nodeId="895ba102">MAR 2017 - removed optional inputs: Business Procedures, Test Plan, Change Impact Analysis, Organization Structure|AUGUST 2014 - baseline version</attribute>
+<attribute name="version" nodeId="fe920c6b"></attribute>
+<attribute name="mainDescription" nodeId="33db5b1f">&lt;p&gt;
+    The cutover and deployment approach provides a high-level overview of changes that will result from introduction of a
+    new solution and how the organization will manage through the transition to new capabilities, processes and tools. It
+    describes the resulting changes, and how the changes will affect roles and responsibilities within the organization.
+    The business cutover and deployment approach presents possible options for conducting the transition, outlines a
+    high-level timeline, and includes an overview of the transition governance structure and processes.
+&lt;/p&gt;
+&lt;p&gt;
+    Defining the business approach encompasses functional and organizational aspects of the cutover and deployment. (The
+    organization’s approach for application, data and technology infrastructure transition aspects are captured and
+    documented in a separate section of the approach document. The two sections work in tandem and are the basis for a more
+    detailed cutover and deployment plan.)
+&lt;/p&gt;
+&lt;p&gt;
+    The business approach outlines the preparations for managing the organization and process aspects of the cutover and
+    deployment. It includes:&amp;nbsp;
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Technology team touch points and contacts, to enable communication and teamwork&amp;nbsp;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Business readiness management, to confirm accountabilities and governance&amp;nbsp;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Change impact analysis, to confirm stakeholders and impacts&amp;nbsp;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Procedures, to confirm alignment of current and future business processes&amp;nbsp;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Training and development, to confirm that staff can be educated on future process&amp;nbsp;organization design, to
+        confirm that future processes can be staffed and managed
+    &lt;/li&gt;
+    &lt;li&gt;
+        Talent management, to confirm plans to manage future staff and resource needs&amp;nbsp;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Deployment and post-go-live support, to confirm plans for cutover and future business continuity
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    These additional business concerns should also be considered when drafting the approach:&amp;nbsp;
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        The organization’s change history and lessons learned from previous transitions&amp;nbsp;
+    &lt;/li&gt;
+    &lt;li&gt;
+        The organization’s commitment to building or maintaining a continuous improvement capability
+    &lt;/li&gt;
+    &lt;li&gt;
+        Alignment of the new solution to organization and program strategy&amp;nbsp;
+    &lt;/li&gt;
+    &lt;li&gt;
+        The stakeholders and resources who will have a role in transition activities&amp;nbsp;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Training that will be required&amp;nbsp;
+    &lt;/li&gt;
+    &lt;li&gt;
+        The level of complexity within each business unit or country that could require longer lead times due to
+        legislation, labor situations, complexity or level of effort&amp;nbsp;
+    &lt;/li&gt;
+    &lt;li&gt;
+        The budget available and level of investment required for each option
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="externalId" nodeId="e52c06f"></attribute>
+<attribute name="keyConsiderations" nodeId="b5dd6a6d">&lt;p&gt;
+    Development and execution of a realistic cutover and deployment approach is a critical activity to confirm that the
+    enhanced capabilities, processes and tools are established successfully. The approach will drive realization of
+    benefits, enable the program to maintain an appropriate level of visibility and momentum, and determine the level of
+    risk inherent in the upcoming transition.
+&lt;/p&gt;
+&lt;p&gt;
+    When building the approach, it is important to:&amp;nbsp;
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Align the approach to all components of the organization’s operating model to clarify when changes will be
+        implemented and determine how changes made later in the timeline can be rolled out to business units or countries
+        that have already been transitioned.&amp;nbsp;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Draw on the expertise within the business and technology teams to validate the feasibility of the transition
+        approach and the subsequent detailed transition plan.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Manage the program as an integrated set of projects, in order to better manage dependencies.&amp;nbsp;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Consider all stakeholders and outline how each will be engaged in transition activities throughout the
+        project.&amp;nbsp;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Fully train stakeholders in transition activities overall and individually-assigned area of responsibility.&amp;nbsp;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Have business and IT managers fully engaged with stakeholders throughout the transition period.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Include a high level communications plan that outlines the appropriate communication mechanisms and messaging
+        levels for each target audience.&amp;nbsp;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Focus on the areas where overruns or higher costs can occur, such as systems and interface development, scope
+        change, recruitment, site set-up, level of clean-up needed and knowledge transfer.&lt;br /&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="longPresentationName" nodeId="b2723867"></attribute>
+<attribute name="purpose" nodeId="ab6432d4">To provide stakeholders with a collective view of business changes resulting from the solution, describe how the changes
+will be made during the cutover and deployment and how they will affect stakeholders&apos; roles and responsibilities.</attribute>
+<attribute name="alternatives" nodeId="4af71a8f"></attribute>
+<referenceList sortValue="Manual" name="sections" nodeId="79b6f426">
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Describe new or enhanced capabilities, processes and tools" Id="_1KpnwDRrEeSkyf5U6VEU9Q" ShapeiconUrl="images/guidance.gif" nodeId="a5e7d4e1" Url="" Name="Describe new or enhanced capabilities, processes and tools" BackPath="">
+<copyright nodeId="9ca049bf">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="1e279b1e">Describe new or enhanced capabilities, processes and tools</attribute>
+<attribute name="guid" nodeId="febefd89">_1KpnwDRrEeSkyf5U6VEU9Q</attribute>
+<attribute name="presentationName" nodeId="88d70ffc">Describe new or enhanced capabilities, processes and tools</attribute>
+<attribute name="briefDescription" nodeId="96d7f484"></attribute>
+<attribute name="suppressed" nodeId="58eede1f">false</attribute>
+<attribute name="orderingGuide" nodeId="f42d3d03"></attribute>
+<attribute name="variabilityType" nodeId="dac7cd6f">na</attribute>
+<attribute name="sectionName" nodeId="eb1b18a6"></attribute>
+<attribute name="sectionDescription" nodeId="38a42f3e">&lt;ul&gt;
+    &lt;li&gt;
+        Define high-level scope
+    &lt;/li&gt;
+    &lt;li&gt;
+        Define effort required to manage the transition
+    &lt;/li&gt;
+    &lt;li&gt;
+        Document changes to roles and processes
+    &lt;/li&gt;
+    &lt;li&gt;
+        Define risks and mitigation options
+    &lt;/li&gt;
+    &lt;li&gt;
+        Document non-functional considerations, e.g., regulatory, legal, union
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="6a7299b8">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_kIocEPdiEe6iq-NE7oCrEw" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_bus_cutover_approach_D82B90CD.html" Name="define_bus_cutover_approach" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define business cutover and deployment approach" Id="_kIocEPdiEe6iq-NE7oCrEw" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="9916466d"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Create a business transition activity framework" Id="_jEOREDRvEeSkyf5U6VEU9Q" ShapeiconUrl="images/guidance.gif" nodeId="6fa58f97" Url="" Name="Create a business transition activity framework" BackPath="">
+<copyright nodeId="1d003817">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="47117655">Create a business transition activity framework</attribute>
+<attribute name="guid" nodeId="ec03f610">_jEOREDRvEeSkyf5U6VEU9Q</attribute>
+<attribute name="presentationName" nodeId="307bfe7a">Create a business transition activity framework</attribute>
+<attribute name="briefDescription" nodeId="caa1cc96"></attribute>
+<attribute name="suppressed" nodeId="5dfb405b">false</attribute>
+<attribute name="orderingGuide" nodeId="e274bf9c"></attribute>
+<attribute name="variabilityType" nodeId="2c4595c8">na</attribute>
+<attribute name="sectionName" nodeId="4cb15883"></attribute>
+<attribute name="sectionDescription" nodeId="6a5b4869">&lt;ul&gt;
+    &lt;li&gt;
+        Define high-level business activities
+    &lt;/li&gt;
+    &lt;li&gt;
+        Align activities with the overall business and technology calendars
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="90e3c48">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_kIocEPdiEe6iq-NE7oCrEw" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_bus_cutover_approach_D82B90CD.html" Name="define_bus_cutover_approach" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define business cutover and deployment approach" Id="_kIocEPdiEe6iq-NE7oCrEw" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="eee39eb1"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Create high-level business transition activity milestones and timeline" Id="_tgXf0DRvEeSkyf5U6VEU9Q" ShapeiconUrl="images/guidance.gif" nodeId="a01c31b7" Url="" Name="Create high-level business transition activity milestones and timeline" BackPath="">
+<copyright nodeId="cb8f80f1">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="13ae1152">Create high-level business transition activity milestones and timeline</attribute>
+<attribute name="guid" nodeId="76b4db38">_tgXf0DRvEeSkyf5U6VEU9Q</attribute>
+<attribute name="presentationName" nodeId="d1136461">Create high-level business transition activity milestones and timeline</attribute>
+<attribute name="briefDescription" nodeId="c8c65fb9"></attribute>
+<attribute name="suppressed" nodeId="6384310d">false</attribute>
+<attribute name="orderingGuide" nodeId="67d85411"></attribute>
+<attribute name="variabilityType" nodeId="fb11f93a">na</attribute>
+<attribute name="sectionName" nodeId="c75c2033"></attribute>
+<attribute name="sectionDescription" nodeId="3b3186e6">&lt;ul&gt;
+    &lt;li&gt;
+        Identify and map stakeholders
+    &lt;/li&gt;
+    &lt;li&gt;
+        Identify transition governance forums and cadences
+    &lt;/li&gt;
+    &lt;li&gt;
+        Determine roles, responsibilities and reporting lines
+    &lt;/li&gt;
+    &lt;li&gt;
+        Determine support needed for deployment, by domain area
+    &lt;/li&gt;
+    &lt;li&gt;
+        Determine support needed for post-go-live (or transition to operations), by domain area
+    &lt;/li&gt;
+    &lt;li&gt;
+        Document a high-level communication plan for the entire transitioning organization
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="50c9a83c">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_kIocEPdiEe6iq-NE7oCrEw" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_bus_cutover_approach_D82B90CD.html" Name="define_bus_cutover_approach" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define business cutover and deployment approach" Id="_kIocEPdiEe6iq-NE7oCrEw" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="b0258c61"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Describe the high-level business and technology transition governance structure and processes" Id="_2QJTYDRvEeSkyf5U6VEU9Q" ShapeiconUrl="images/guidance.gif" nodeId="d392bf2e" Url="" Name="Describe the high-level business and technology transition governance structure and processes" BackPath="">
+<copyright nodeId="37f34290">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="a24869d3">Describe the high-level business and technology transition governance structure and processes</attribute>
+<attribute name="guid" nodeId="510e540c">_2QJTYDRvEeSkyf5U6VEU9Q</attribute>
+<attribute name="presentationName" nodeId="1e80c236">Describe the high-level business and technology transition governance structure and processes</attribute>
+<attribute name="briefDescription" nodeId="4d428dfb"></attribute>
+<attribute name="suppressed" nodeId="3232508b">false</attribute>
+<attribute name="orderingGuide" nodeId="209538f9"></attribute>
+<attribute name="variabilityType" nodeId="3dceed54">na</attribute>
+<attribute name="sectionName" nodeId="9aeb9b90"></attribute>
+<attribute name="sectionDescription" nodeId="abf8d75">&lt;ul&gt;
+    &lt;li&gt;
+        Identify and map stakeholders
+    &lt;/li&gt;
+    &lt;li&gt;
+        Identify transition governance forums and cadences
+    &lt;/li&gt;
+    &lt;li&gt;
+        &amp;nbsp;Determine roles, responsibilities and reporting lines
+    &lt;/li&gt;
+    &lt;li&gt;
+        Determine support needed for deployment, by domain area
+    &lt;/li&gt;
+    &lt;li&gt;
+        Determine support needed for post-go-live (or transition to operations), by domain area
+    &lt;/li&gt;
+    &lt;li&gt;
+        Document a high-level communication plan for the entire transitioning organization
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="dda650a2">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_kIocEPdiEe6iq-NE7oCrEw" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_bus_cutover_approach_D82B90CD.html" Name="define_bus_cutover_approach" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define business cutover and deployment approach" Id="_kIocEPdiEe6iq-NE7oCrEw" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="e465a693"></Element>
+</referenceList>
+</Element>
+</referenceList>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="performedBy" nodeId="10e3b478">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Transition Lead" Id="_C2LiJz8gEeOOEPaNsP0t0A" ShapeiconUrl="images/role.gif" nodeId="a91380e7" Url="core.default.role_def.base/roles/transition_lead_D1C56254.html" Name="transition_lead" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="mandatoryInput" nodeId="c8aa8be0">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Functional Requirement" Id="_JUXPcMRiEeapHOG_ozfrTg" ShapeiconUrl="images/artifact.gif" nodeId="7f9b969a" Url="core.gen.common.base/workproducts/func_rqmt_95C4EC3B.html" Name="func_rqmt" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Non-Functional Requirements" Id="_jbA9YAIPEeS9erBHLNmxUg" ShapeiconUrl="images/artifact.gif" nodeId="60360c8" Url="core.gen.common.base/workproducts/non_func_rqmts_18CC3776.html" Name="non_func_rqmts" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="output" nodeId="421d8d07">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Cutover and Deployment Approach" Id="_DsttgPDVEeOFgpTUvzaUCQ" ShapeiconUrl="images/artifact.gif" nodeId="62c69273" Url="core.ops.common.base/workproducts/cutover_deploy_approach_284EDC70.html" Name="cutover_deploy_approach" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="steps" nodeId="84543126">
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Describe new or enhanced capabilities, processes and tools" Id="_1KpnwDRrEeSkyf5U6VEU9Q" ShapeiconUrl="images/guidance.gif" nodeId="448dcc55" Url="" Name="Describe new or enhanced capabilities, processes and tools" BackPath="">
+<copyright nodeId="b5d4194d">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="c1f605fa">Describe new or enhanced capabilities, processes and tools</attribute>
+<attribute name="guid" nodeId="241e9042">_1KpnwDRrEeSkyf5U6VEU9Q</attribute>
+<attribute name="presentationName" nodeId="cbd331d1">Describe new or enhanced capabilities, processes and tools</attribute>
+<attribute name="briefDescription" nodeId="e0f2adfd"></attribute>
+<attribute name="suppressed" nodeId="e6222c63">false</attribute>
+<attribute name="orderingGuide" nodeId="3c922b28"></attribute>
+<attribute name="variabilityType" nodeId="3f74a3ac">na</attribute>
+<attribute name="sectionName" nodeId="b715dc37"></attribute>
+<attribute name="sectionDescription" nodeId="41bb530f">&lt;ul&gt;
+    &lt;li&gt;
+        Define high-level scope
+    &lt;/li&gt;
+    &lt;li&gt;
+        Define effort required to manage the transition
+    &lt;/li&gt;
+    &lt;li&gt;
+        Document changes to roles and processes
+    &lt;/li&gt;
+    &lt;li&gt;
+        Define risks and mitigation options
+    &lt;/li&gt;
+    &lt;li&gt;
+        Document non-functional considerations, e.g., regulatory, legal, union
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="9a9f5f8e">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_kIocEPdiEe6iq-NE7oCrEw" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_bus_cutover_approach_D82B90CD.html" Name="define_bus_cutover_approach" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define business cutover and deployment approach" Id="_kIocEPdiEe6iq-NE7oCrEw" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="53e182f3"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Create a business transition activity framework" Id="_jEOREDRvEeSkyf5U6VEU9Q" ShapeiconUrl="images/guidance.gif" nodeId="28356d3c" Url="" Name="Create a business transition activity framework" BackPath="">
+<copyright nodeId="93f95d26">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="55d92a9a">Create a business transition activity framework</attribute>
+<attribute name="guid" nodeId="1f5e7470">_jEOREDRvEeSkyf5U6VEU9Q</attribute>
+<attribute name="presentationName" nodeId="394c9e43">Create a business transition activity framework</attribute>
+<attribute name="briefDescription" nodeId="9493fdc9"></attribute>
+<attribute name="suppressed" nodeId="62063ad4">false</attribute>
+<attribute name="orderingGuide" nodeId="a5df2953"></attribute>
+<attribute name="variabilityType" nodeId="433354a9">na</attribute>
+<attribute name="sectionName" nodeId="2fe19975"></attribute>
+<attribute name="sectionDescription" nodeId="48f1ffd3">&lt;ul&gt;
+    &lt;li&gt;
+        Define high-level business activities
+    &lt;/li&gt;
+    &lt;li&gt;
+        Align activities with the overall business and technology calendars
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="3cc46d34">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_kIocEPdiEe6iq-NE7oCrEw" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_bus_cutover_approach_D82B90CD.html" Name="define_bus_cutover_approach" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define business cutover and deployment approach" Id="_kIocEPdiEe6iq-NE7oCrEw" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="bb1daaed"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Create high-level business transition activity milestones and timeline" Id="_tgXf0DRvEeSkyf5U6VEU9Q" ShapeiconUrl="images/guidance.gif" nodeId="7594ecea" Url="" Name="Create high-level business transition activity milestones and timeline" BackPath="">
+<copyright nodeId="70e6026f">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="d4e387b">Create high-level business transition activity milestones and timeline</attribute>
+<attribute name="guid" nodeId="71af6ea6">_tgXf0DRvEeSkyf5U6VEU9Q</attribute>
+<attribute name="presentationName" nodeId="146f895c">Create high-level business transition activity milestones and timeline</attribute>
+<attribute name="briefDescription" nodeId="e45bf3d7"></attribute>
+<attribute name="suppressed" nodeId="1e3d2156">false</attribute>
+<attribute name="orderingGuide" nodeId="e112c537"></attribute>
+<attribute name="variabilityType" nodeId="3c814e32">na</attribute>
+<attribute name="sectionName" nodeId="1bca8490"></attribute>
+<attribute name="sectionDescription" nodeId="3ee38c6e">&lt;ul&gt;
+    &lt;li&gt;
+        Identify and map stakeholders
+    &lt;/li&gt;
+    &lt;li&gt;
+        Identify transition governance forums and cadences
+    &lt;/li&gt;
+    &lt;li&gt;
+        Determine roles, responsibilities and reporting lines
+    &lt;/li&gt;
+    &lt;li&gt;
+        Determine support needed for deployment, by domain area
+    &lt;/li&gt;
+    &lt;li&gt;
+        Determine support needed for post-go-live (or transition to operations), by domain area
+    &lt;/li&gt;
+    &lt;li&gt;
+        Document a high-level communication plan for the entire transitioning organization
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="352466ec">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_kIocEPdiEe6iq-NE7oCrEw" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_bus_cutover_approach_D82B90CD.html" Name="define_bus_cutover_approach" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define business cutover and deployment approach" Id="_kIocEPdiEe6iq-NE7oCrEw" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="820ca809"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Describe the high-level business and technology transition governance structure and processes" Id="_2QJTYDRvEeSkyf5U6VEU9Q" ShapeiconUrl="images/guidance.gif" nodeId="95da06bd" Url="" Name="Describe the high-level business and technology transition governance structure and processes" BackPath="">
+<copyright nodeId="a0ce00cf">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="310caf97">Describe the high-level business and technology transition governance structure and processes</attribute>
+<attribute name="guid" nodeId="f5d4a0a9">_2QJTYDRvEeSkyf5U6VEU9Q</attribute>
+<attribute name="presentationName" nodeId="b101720b">Describe the high-level business and technology transition governance structure and processes</attribute>
+<attribute name="briefDescription" nodeId="265dd8a8"></attribute>
+<attribute name="suppressed" nodeId="db2b2f55">false</attribute>
+<attribute name="orderingGuide" nodeId="53ef096b"></attribute>
+<attribute name="variabilityType" nodeId="12604ddc">na</attribute>
+<attribute name="sectionName" nodeId="417dad2a"></attribute>
+<attribute name="sectionDescription" nodeId="30a63a55">&lt;ul&gt;
+    &lt;li&gt;
+        Identify and map stakeholders
+    &lt;/li&gt;
+    &lt;li&gt;
+        Identify transition governance forums and cadences
+    &lt;/li&gt;
+    &lt;li&gt;
+        &amp;nbsp;Determine roles, responsibilities and reporting lines
+    &lt;/li&gt;
+    &lt;li&gt;
+        Determine support needed for deployment, by domain area
+    &lt;/li&gt;
+    &lt;li&gt;
+        Determine support needed for post-go-live (or transition to operations), by domain area
+    &lt;/li&gt;
+    &lt;li&gt;
+        Document a high-level communication plan for the entire transitioning organization
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="efd0d2c7">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_kIocEPdiEe6iq-NE7oCrEw" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_bus_cutover_approach_D82B90CD.html" Name="define_bus_cutover_approach" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define business cutover and deployment approach" Id="_kIocEPdiEe6iq-NE7oCrEw" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="7910e1fd"></Element>
+</referenceList>
+</Element>
+</referenceList>
+<referenceList name="Task_TaskDescriptors" nodeId="3f65f809">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_kIocEPdiEe6iq-NE7oCrEw" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_bus_cutover_approach_D82B90CD.html" Name="define_bus_cutover_approach" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define business cutover and deployment approach" Id="_kIocEPdiEe6iq-NE7oCrEw" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="9d4f5b23"></Element>
+</referenceList>
+<referenceList name="VariabilityElement_ImmediateVarieties" nodeId="3e7a30ad"></referenceList>
+<referenceList name="customCategories" nodeId="f75c2a07">
+<Element Type="CustomCategory" TypeName="Custom Category" NodeiconUrl="" DisplayName="Tasks" Id="_0Sj48KDNEeOMmqbYX27PPA" ShapeiconUrl="core.default.nav_view.base/customcategories/resources/cat_task51.png" nodeId="f7257989" Url="core.default.nav_view.base/customcategories/task_list_CDC9CEA6.html" Name="task_list" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="d16ac615">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_kIocEPdiEe6iq-NE7oCrEw" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_bus_cutover_approach_D82B90CD.html" Name="define_bus_cutover_approach" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define business cutover and deployment approach" Id="_kIocEPdiEe6iq-NE7oCrEw" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="2eeae071">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="fbbcb6fb" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="ba5a4961">eya_oracle</attribute>
+<attribute name="guid" nodeId="8d1d467e">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="be1a77d5">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="2e18140b"></attribute>
+<attribute name="suppressed" nodeId="748362e6">false</attribute>
+<attribute name="orderingGuide" nodeId="230fd916"></attribute>
+<attribute name="isAbstract" nodeId="edd359a6">false</attribute>
+<attribute name="shapeicon" nodeId="9bb29fba"></attribute>
+<attribute name="nodeicon" nodeId="5149adac"></attribute>
+<attribute name="prefix" nodeId="b9947679"></attribute>
+<attribute name="isPlanned" nodeId="77075040">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="a9d08c7e">false</attribute>
+<attribute name="isOptional" nodeId="eb102e94">false</attribute>
+<attribute name="isRepeatable" nodeId="6b1b0028">false</attribute>
+<attribute name="isOngoing" nodeId="b2114085">false</attribute>
+<attribute name="isEventDriven" nodeId="1be272b">false</attribute>
+<attribute name="variabilityType" nodeId="283fe07a">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Test" Id="_esTcsYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA" nodeId="8927eb73" Url="process.adv.eya_oracle.base/deliveryprocesses/test_E5EB30E9.html" Name="test" BackPath="./../../">
+<attribute name="name" nodeId="d2f40a4d">test</attribute>
+<attribute name="guid" nodeId="3c91150b">_esTcsYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="37d9f78b">Test</attribute>
+<attribute name="briefDescription" nodeId="3750294c">Perform tests on the integrated Oracle services solution and prepare for cutover and deployment. Additionally, design and prepare training materials.</attribute>
+<attribute name="suppressed" nodeId="1b3e26e6">false</attribute>
+<attribute name="orderingGuide" nodeId="45404ea1"></attribute>
+<attribute name="isAbstract" nodeId="23810f69">false</attribute>
+<attribute name="shapeicon" nodeId="cec03037"></attribute>
+<attribute name="nodeicon" nodeId="f4688a01"></attribute>
+<attribute name="prefix" nodeId="edf4ab4d"></attribute>
+<attribute name="isPlanned" nodeId="6910b9c3">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="6ee8990e">false</attribute>
+<attribute name="isOptional" nodeId="83e2aab9">false</attribute>
+<attribute name="isRepeatable" nodeId="4b32ad7d">false</attribute>
+<attribute name="isOngoing" nodeId="1c797d3a">false</attribute>
+<attribute name="isEventDriven" nodeId="28912cec">false</attribute>
+<attribute name="variabilityType" nodeId="61078e2a">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Prepare for Cutover and Deployment" Id="_vkzykdplEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw" nodeId="3a9bbcb8" Url="process.adv.eya_oracle.base/deliveryprocesses/prepare_cutover_deployment_CE7AA5F6.html" Name="prepare_cutover_deployment" BackPath="./../../">
+<attribute name="name" nodeId="fcc513b0">prepare_cutover_deployment</attribute>
+<attribute name="guid" nodeId="bd44f216">_vkzykdplEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="40fc598f">Prepare for Cutover and Deployment</attribute>
+<attribute name="briefDescription" nodeId="c80ea7a9">Define the approach, plan and governance tasks to manage the transition of the target state Oracle solution into the production environment.</attribute>
+<attribute name="suppressed" nodeId="892dd39d">false</attribute>
+<attribute name="orderingGuide" nodeId="f1a5cc68"></attribute>
+<attribute name="isAbstract" nodeId="22d83ca">false</attribute>
+<attribute name="shapeicon" nodeId="abe5d7db"></attribute>
+<attribute name="nodeicon" nodeId="2a426add"></attribute>
+<attribute name="prefix" nodeId="93e57fb4"></attribute>
+<attribute name="isPlanned" nodeId="4e0960b9">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="cc079a0d">false</attribute>
+<attribute name="isOptional" nodeId="86e5c404">false</attribute>
+<attribute name="isRepeatable" nodeId="5c8ca147">false</attribute>
+<attribute name="isOngoing" nodeId="821bdf0e">false</attribute>
+<attribute name="isEventDriven" nodeId="5669081">false</attribute>
+<attribute name="variabilityType" nodeId="a4b39237">extends</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

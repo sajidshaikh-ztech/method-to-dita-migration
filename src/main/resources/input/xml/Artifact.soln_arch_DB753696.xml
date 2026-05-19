@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Solution Architecture" Id="_Ho1o4JXpEeSkn6Y9U7DN_w" ShapeiconUrl="images/artifact.gif" lang="en" nodeId="15884ee8" Url="core.i_t.common.base/workproducts/soln_arch_DB753696.html" Name="soln_arch" BackPath="./../../">
+<copyright nodeId="92c8f29d">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="3574fbc8">soln_arch</attribute>
+<attribute name="guid" nodeId="bf2fef70">_Ho1o4JXpEeSkn6Y9U7DN_w</attribute>
+<attribute name="presentationName" nodeId="9d2bd7c3">Solution Architecture</attribute>
+<attribute name="briefDescription" nodeId="d761041c">High level integrated view of the solution components and their corresponding integration aspects for supporting the given technical requirements.</attribute>
+<attribute name="suppressed" nodeId="d9a199d3">false</attribute>
+<attribute name="orderingGuide" nodeId="9879d84"></attribute>
+<attribute name="isAbstract" nodeId="6a3a82e4">false</attribute>
+<attribute name="shapeicon" nodeId="ead13cde"></attribute>
+<attribute name="nodeicon" nodeId="1791d414"></attribute>
+<attribute name="variabilityType" nodeId="5d6f7a8b">na</attribute>
+<reference name="presentation" nodeId="2d45998f">
+<Element Type="ArtifactDescription" TypeName="Artifact Description" NodeiconUrl="" DisplayName="Solution Architecture" Id="-4AG3zniutXt1pfWBt6GDWg" ShapeiconUrl="images/guidance.gif" nodeId="543ebb60" Url="" Name="new_artifact,_Ho1o4JXpEeSkn6Y9U7DN_w" BackPath="">
+<copyright nodeId="ede6074">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="6db0701d">new_artifact,_Ho1o4JXpEeSkn6Y9U7DN_w</attribute>
+<attribute name="guid" nodeId="2d90962c">-4AG3zniutXt1pfWBt6GDWg</attribute>
+<attribute name="presentationName" nodeId="493d63d3">Solution Architecture</attribute>
+<attribute name="briefDescription" nodeId="b31f4235"></attribute>
+<attribute name="suppressed" nodeId="9001a73d">false</attribute>
+<attribute name="orderingGuide" nodeId="53fe7828"></attribute>
+<attribute name="authors" nodeId="1b4fa2c4">process.adv.core.base</attribute>
+<attribute name="changeDate" nodeId="84cda8b4">Wed Mar 15 18:11:03 EDT 2017</attribute>
+<attribute name="changeDescription" nodeId="b621a5bd">AUG 2014 - baseline version </attribute>
+<attribute name="version" nodeId="287fbbc"></attribute>
+<attribute name="mainDescription" nodeId="3c81e3f"></attribute>
+<attribute name="externalId" nodeId="a36e5906"></attribute>
+<attribute name="keyConsiderations" nodeId="19da1c68"></attribute>
+<attribute name="longPresentationName" nodeId="a1034b5e"></attribute>
+<attribute name="purpose" nodeId="c056bdf">&lt;p&gt;
+    The purpose of this artifact is to:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Demonstrate to stakeholders how the various technical requirements will be addressed by the solution.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Communicate the end-to-end story of how a proposed solution will work.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Serve as a key reference guide for completing the detailed design and build of the proposed solution.
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="impactOfNotHaving" nodeId="30739638"></attribute>
+<attribute name="reasonsForNotNeeding" nodeId="4d2d1d7b"></attribute>
+<attribute name="briefOutline" nodeId="6fb7482f">&lt;ul&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Solution blueprint&lt;/strong&gt;: Provides the high level view of the solution either using a landscape diagram
+        or an enhanced vision diagram.
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Solution overview&lt;/strong&gt;: Provides the list of solution specific technical requirements (e.g., interface
+        requirements, integration requirements, data requirements, reporting requirements etc.) that must be addressed by
+        the solution.
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Solution integration scope and approach&lt;/strong&gt;: Explains the scope of the integration of the solution
+        with the given environment along with details about the type of integration required between each component and the
+        solution.
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Solution integration views&lt;/strong&gt;: Additional views that might be created to illustrate the solution to
+        various stakeholders.
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="representationOptions" nodeId="807b4a00"></attribute>
+<attribute name="representation" nodeId="ea0d4cf4"></attribute>
+<attribute name="notation" nodeId="70090cd6"></attribute>
+</Element>
+</reference>
+<referenceList name="WorkProduct_WorkProductDescriptors" nodeId="6d45a53">
+<Element TypeName="Work Product Descriptor" queryString="?proc=__kYz8dANEe6H-rjlu9wPlA&amp;path=__kYz8dANEe6H-rjlu9wPlA,_gfXLodGMEe6Y56Jk6jqfOA,_3TylsNGMEe6Y56Jk6jqfOA_Ho1o4JXpEeSkn6Y9U7DN_w" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/soln_arch_DB753696.html" Name="soln_arch" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Solution Architecture" Id="_3TylsNGMEe6Y56Jk6jqfOA_Ho1o4JXpEeSkn6Y9U7DN_w" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="25ab6ba9"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=__kYz8dANEe6H-rjlu9wPlA&amp;path=__kYz8dANEe6H-rjlu9wPlA,_H3Z-cdGMEe6Y56Jk6jqfOA,_ZJl38NGMEe6Y56Jk6jqfOA_Ho1o4JXpEeSkn6Y9U7DN_w" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/soln_arch_DB753696.html" Name="soln_arch" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Solution Architecture" Id="_ZJl38NGMEe6Y56Jk6jqfOA_Ho1o4JXpEeSkn6Y9U7DN_w" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="d117fd10"></Element>
+</referenceList>
+<referenceList name="WorkProduct_OutputFrom_Tasks" nodeId="c9849bf">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Define cloud integration architecture" Id="_41BkYNGLEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="df3b335b" Url="process.adv.eya_oracle.base/tasks/def_cloud_inte_arch_D674103F.html" Name="def_cloud_inte_arch" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop integrated solution architecture" Id="_H0mlQGeMEeSg-t4DVsRJcA" ShapeiconUrl="images/task.gif" nodeId="2f72097e" Url="practice.ita.eff.arch_gov.base/tasks/develop_integrated_soln_arch_F66DBD02.html" Name="develop_integrated_soln_arch" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="WorkProduct_Deliverables" nodeId="f5a35b42">
+<Element ShowFullMethodContent="false" Type="Deliverable" TypeName="Deliverable" NodeiconUrl="" DisplayName="Target State Architecture" Id="_PX9PsNGVEe6Y56Jk6jqfOA" ShapeiconUrl="images/deliverable.gif" nodeId="8c92e021" Url="process.adv.eya_oracle.base/workproducts/target_state_arch_1C1C2548.html" Name="target_state_arch" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="WorkProduct_InputTo_Tasks" nodeId="2084dbce">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Define non-production environments and tools" Id="_2LRecNGMEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="27a41fa6" Url="process.adv.eya_oracle.base/tasks/determine_non_prod_env_feat_CD37DA7D.html" Name="determine_non_prod_env_feat" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Finalize target state architecture" Id="_86vtgNGUEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="8fd5b86a" Url="process.adv.eya_oracle.base/tasks/fin_target_state_arch_6015DB50.html" Name="fin_target_state_arch" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="modifyRoles" nodeId="4ff24202">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Solution Architect" Id="_MaaBsNNoEe-Fuo3rkO5x4w" ShapeiconUrl="images/role.gif" nodeId="779fd3cf" Url="process.adv.eya_oracle.base/roles/soln_architect_1699084C.html" Name="soln_architect" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Technical Lead" Id="_6At4MCygEe-bo7_6LoJ2iQ" ShapeiconUrl="images/role.gif" nodeId="d0d0e609" Url="process.adv.eya_oracle.base/roles/tech_lead_30CEAD95.html" Name="tech_lead" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="mandatoryInputToTasks" nodeId="5bf1156">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Define non-production environments and tools" Id="_2LRecNGMEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="55e3e75e" Url="process.adv.eya_oracle.base/tasks/determine_non_prod_env_feat_CD37DA7D.html" Name="determine_non_prod_env_feat" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Finalize target state architecture" Id="_86vtgNGUEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="870826c7" Url="process.adv.eya_oracle.base/tasks/fin_target_state_arch_6015DB50.html" Name="fin_target_state_arch" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="outputFromTasks" nodeId="30c003b8">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Define cloud integration architecture" Id="_41BkYNGLEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="63949c6e" Url="process.adv.eya_oracle.base/tasks/def_cloud_inte_arch_D674103F.html" Name="def_cloud_inte_arch" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop integrated solution architecture" Id="_H0mlQGeMEeSg-t4DVsRJcA" ShapeiconUrl="images/task.gif" nodeId="4bb4d515" Url="practice.ita.eff.arch_gov.base/tasks/develop_integrated_soln_arch_F66DBD02.html" Name="develop_integrated_soln_arch" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="b2e71df3">
+<Element TypeName="Work Product Descriptor" queryString="?proc=__kYz8dANEe6H-rjlu9wPlA&amp;path=__kYz8dANEe6H-rjlu9wPlA,_gfXLodGMEe6Y56Jk6jqfOA,_3TylsNGMEe6Y56Jk6jqfOA_Ho1o4JXpEeSkn6Y9U7DN_w" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/soln_arch_DB753696.html" Name="soln_arch" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Solution Architecture" Id="_3TylsNGMEe6Y56Jk6jqfOA_Ho1o4JXpEeSkn6Y9U7DN_w" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="d748535b">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Technical Architecture and Integration" Id="__kYz8dANEe6H-rjlu9wPlA" relProcessPath="__kYz8dANEe6H-rjlu9wPlA" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=__kYz8dANEe6H-rjlu9wPlA&amp;path=__kYz8dANEe6H-rjlu9wPlA" nodeId="cd932a99" Url="process.adv.eya_oracle.base/capabilitypatterns/tech_arch_int_wkstrm_FC9A4290.html" Name="tech_arch_int_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="c958bc52">tech_arch_int_wkstrm</attribute>
+<attribute name="guid" nodeId="f1f33b9a">__kYz8dANEe6H-rjlu9wPlA</attribute>
+<attribute name="presentationName" nodeId="d2a2f09a">Technical Architecture and Integration</attribute>
+<attribute name="briefDescription" nodeId="e791f156"></attribute>
+<attribute name="suppressed" nodeId="1bca515a">false</attribute>
+<attribute name="orderingGuide" nodeId="4ba32b78"></attribute>
+<attribute name="isAbstract" nodeId="53db185d">false</attribute>
+<attribute name="shapeicon" nodeId="77e22939"></attribute>
+<attribute name="nodeicon" nodeId="c1899956"></attribute>
+<attribute name="prefix" nodeId="fe22b212">workstream</attribute>
+<attribute name="isPlanned" nodeId="7d1cec62">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d98a1186">false</attribute>
+<attribute name="isOptional" nodeId="6c92c2bd">false</attribute>
+<attribute name="isRepeatable" nodeId="af47fdac">false</attribute>
+<attribute name="isOngoing" nodeId="f32a3b77">false</attribute>
+<attribute name="isEventDriven" nodeId="c40abb11">false</attribute>
+<attribute name="variabilityType" nodeId="52b299c0">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Define Environments Plan and Specifications (On-premises)" Id="_gfXLodGMEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=__kYz8dANEe6H-rjlu9wPlA&amp;path=__kYz8dANEe6H-rjlu9wPlA,_gfXLodGMEe6Y56Jk6jqfOA" nodeId="bc07a883" Url="process.adv.eya_oracle.base/capabilitypatterns/define_env_plan_spec_on_permis_6C07946D.html" Name="define_env_plan_spec_on_permis" BackPath="./../../">
+<attribute name="name" nodeId="e26167e3">define_env_plan_spec_on_permis</attribute>
+<attribute name="guid" nodeId="4b4d9886">_gfXLodGMEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="994ac65a">Define Environments Plan and Specifications (On-premises)</attribute>
+<attribute name="briefDescription" nodeId="a7019559">For on-premises implementations, define the environments and tools needed to support the implementation of the Oracle solution. Determine how many environments will be needed and when.</attribute>
+<attribute name="suppressed" nodeId="cefab615">false</attribute>
+<attribute name="orderingGuide" nodeId="399023cc"></attribute>
+<attribute name="isAbstract" nodeId="728096ac">false</attribute>
+<attribute name="shapeicon" nodeId="ac8cbc9"></attribute>
+<attribute name="nodeicon" nodeId="56630ccd"></attribute>
+<attribute name="prefix" nodeId="567dc8e8"></attribute>
+<attribute name="isPlanned" nodeId="215006c4">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="ea7d15e7">false</attribute>
+<attribute name="isOptional" nodeId="f3ba7dd7">false</attribute>
+<attribute name="isRepeatable" nodeId="777a2fd5">false</attribute>
+<attribute name="isOngoing" nodeId="808803c9">false</attribute>
+<attribute name="isEventDriven" nodeId="f42605d6">false</attribute>
+<attribute name="variabilityType" nodeId="3bc9bb3f">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=__kYz8dANEe6H-rjlu9wPlA&amp;path=__kYz8dANEe6H-rjlu9wPlA,_gfXLodGMEe6Y56Jk6jqfOA,_3TylsNGMEe6Y56Jk6jqfOA_Ho1o4JXpEeSkn6Y9U7DN_w" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/soln_arch_DB753696.html" Name="soln_arch" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Solution Architecture" Id="_3TylsNGMEe6Y56Jk6jqfOA_Ho1o4JXpEeSkn6Y9U7DN_w" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="ebcae6b7">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="cbbd2184" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="e648e3e2">eya_oracle</attribute>
+<attribute name="guid" nodeId="69f353b7">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="2fda7744">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="a936d906"></attribute>
+<attribute name="suppressed" nodeId="11487afe">false</attribute>
+<attribute name="orderingGuide" nodeId="e7623424"></attribute>
+<attribute name="isAbstract" nodeId="65eb3358">false</attribute>
+<attribute name="shapeicon" nodeId="86d93955"></attribute>
+<attribute name="nodeicon" nodeId="94bcacf6"></attribute>
+<attribute name="prefix" nodeId="e81f408"></attribute>
+<attribute name="isPlanned" nodeId="e461aa37">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="9dadf79">false</attribute>
+<attribute name="isOptional" nodeId="ed98f32">false</attribute>
+<attribute name="isRepeatable" nodeId="89644df8">false</attribute>
+<attribute name="isOngoing" nodeId="76cf8e9e">false</attribute>
+<attribute name="isEventDriven" nodeId="f02bebc8">false</attribute>
+<attribute name="variabilityType" nodeId="d6414d64">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Confirm and Design" Id="_bRCPsIs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA" nodeId="bcfc955" Url="process.adv.eya_oracle.base/deliveryprocesses/confirm_and_design_29FFDB9.html" Name="confirm_and_design" BackPath="./../../">
+<attribute name="name" nodeId="e06f279f">confirm_and_design</attribute>
+<attribute name="guid" nodeId="c8aa79cc">_bRCPsIs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="b86e2640">Confirm and Design</attribute>
+<attribute name="briefDescription" nodeId="529a8ac9">Define business requirements, map process flows and facilitate fit-gap workshops. Define technology and testing strategies. Develop the master configuration workbook, RICEFW inventory and prepare for progressive build cycles.</attribute>
+<attribute name="suppressed" nodeId="2d202412">false</attribute>
+<attribute name="orderingGuide" nodeId="88ca6dbb"></attribute>
+<attribute name="isAbstract" nodeId="c90b2d78">false</attribute>
+<attribute name="shapeicon" nodeId="da9725a8"></attribute>
+<attribute name="nodeicon" nodeId="96ef12ae"></attribute>
+<attribute name="prefix" nodeId="d6db894e"></attribute>
+<attribute name="isPlanned" nodeId="8341d99e">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="a321ff7e">false</attribute>
+<attribute name="isOptional" nodeId="c2cf942e">false</attribute>
+<attribute name="isRepeatable" nodeId="ef2c6aaa">false</attribute>
+<attribute name="isOngoing" nodeId="c103b16d">false</attribute>
+<attribute name="isEventDriven" nodeId="4f9a993e">false</attribute>
+<attribute name="variabilityType" nodeId="bd7c72e5">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Define Environments Plan and Specifications (On-premises)" Id="_xE0UIdpiEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA,_xE0UIdpiEe6TH6yb1zVWhw" nodeId="2807ad8" Url="process.adv.eya_oracle.base/deliveryprocesses/define_env_plan_spec_on_permis_F321AC93.html" Name="define_env_plan_spec_on_permis" BackPath="./../../">
+<attribute name="name" nodeId="afbc6d51">define_env_plan_spec_on_permis</attribute>
+<attribute name="guid" nodeId="d4960d2c">_xE0UIdpiEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="eeee4ef9">Define Environments Plan and Specifications (On-premises)</attribute>
+<attribute name="briefDescription" nodeId="dbe27d9d">For on-premises implementations, define the environments and tools needed to support the implementation of the Oracle solution. Determine how many environments will be needed and when.</attribute>
+<attribute name="suppressed" nodeId="2e267585">false</attribute>
+<attribute name="orderingGuide" nodeId="ec3bf408"></attribute>
+<attribute name="isAbstract" nodeId="cd2d47c4">false</attribute>
+<attribute name="shapeicon" nodeId="607795a"></attribute>
+<attribute name="nodeicon" nodeId="39e9f04e"></attribute>
+<attribute name="prefix" nodeId="eecb2c62"></attribute>
+<attribute name="isPlanned" nodeId="e9eab1c7">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="13a4ba3f">false</attribute>
+<attribute name="isOptional" nodeId="91eed59">false</attribute>
+<attribute name="isRepeatable" nodeId="7dee3dd1">false</attribute>
+<attribute name="isOngoing" nodeId="c1f93118">false</attribute>
+<attribute name="isEventDriven" nodeId="23c677e0">false</attribute>
+<attribute name="variabilityType" nodeId="c8acabdd">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=__kYz8dANEe6H-rjlu9wPlA&amp;path=__kYz8dANEe6H-rjlu9wPlA,_H3Z-cdGMEe6Y56Jk6jqfOA,_ZJl38NGMEe6Y56Jk6jqfOA_Ho1o4JXpEeSkn6Y9U7DN_w" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/soln_arch_DB753696.html" Name="soln_arch" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Solution Architecture" Id="_ZJl38NGMEe6Y56Jk6jqfOA_Ho1o4JXpEeSkn6Y9U7DN_w" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="e317a846">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Technical Architecture and Integration" Id="__kYz8dANEe6H-rjlu9wPlA" relProcessPath="__kYz8dANEe6H-rjlu9wPlA" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=__kYz8dANEe6H-rjlu9wPlA&amp;path=__kYz8dANEe6H-rjlu9wPlA" nodeId="993da52c" Url="process.adv.eya_oracle.base/capabilitypatterns/tech_arch_int_wkstrm_FC9A4290.html" Name="tech_arch_int_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="6a18fabc">tech_arch_int_wkstrm</attribute>
+<attribute name="guid" nodeId="75ab3f99">__kYz8dANEe6H-rjlu9wPlA</attribute>
+<attribute name="presentationName" nodeId="8d05d63a">Technical Architecture and Integration</attribute>
+<attribute name="briefDescription" nodeId="d3457909"></attribute>
+<attribute name="suppressed" nodeId="5a6efcf3">false</attribute>
+<attribute name="orderingGuide" nodeId="9dafb73e"></attribute>
+<attribute name="isAbstract" nodeId="6428602d">false</attribute>
+<attribute name="shapeicon" nodeId="59bcad33"></attribute>
+<attribute name="nodeicon" nodeId="38879220"></attribute>
+<attribute name="prefix" nodeId="1de91b89">workstream</attribute>
+<attribute name="isPlanned" nodeId="f8c3731d">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="82bdc1b">false</attribute>
+<attribute name="isOptional" nodeId="c61963b5">false</attribute>
+<attribute name="isRepeatable" nodeId="caa0739d">false</attribute>
+<attribute name="isOngoing" nodeId="275d9eff">false</attribute>
+<attribute name="isEventDriven" nodeId="c74386ae">false</attribute>
+<attribute name="variabilityType" nodeId="53614862">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Design Target State Architecture" Id="_H3Z-cdGMEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=__kYz8dANEe6H-rjlu9wPlA&amp;path=__kYz8dANEe6H-rjlu9wPlA,_H3Z-cdGMEe6Y56Jk6jqfOA" nodeId="707dd0ae" Url="process.adv.eya_oracle.base/capabilitypatterns/design_target_state_arch_50284F64.html" Name="design_target_state_arch" BackPath="./../../">
+<attribute name="name" nodeId="405a4632">design_target_state_arch</attribute>
+<attribute name="guid" nodeId="9054ec73">_H3Z-cdGMEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="8f18ae16">Design Target State Architecture</attribute>
+<attribute name="briefDescription" nodeId="3a093209">Document architectural decisions and the integrated solution architecture.</attribute>
+<attribute name="suppressed" nodeId="6bf4e2b1">false</attribute>
+<attribute name="orderingGuide" nodeId="2e17f11"></attribute>
+<attribute name="isAbstract" nodeId="12ffc45f">false</attribute>
+<attribute name="shapeicon" nodeId="8a80a5b8"></attribute>
+<attribute name="nodeicon" nodeId="fe3aff33"></attribute>
+<attribute name="prefix" nodeId="ff7839ec"></attribute>
+<attribute name="isPlanned" nodeId="51ca6e79">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="6ebd3ce3">false</attribute>
+<attribute name="isOptional" nodeId="76f4e8d5">false</attribute>
+<attribute name="isRepeatable" nodeId="35cbadb0">false</attribute>
+<attribute name="isOngoing" nodeId="5c455dfb">false</attribute>
+<attribute name="isEventDriven" nodeId="1d8d8fa7">false</attribute>
+<attribute name="variabilityType" nodeId="e4bc0956">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=__kYz8dANEe6H-rjlu9wPlA&amp;path=__kYz8dANEe6H-rjlu9wPlA,_H3Z-cdGMEe6Y56Jk6jqfOA,_ZJl38NGMEe6Y56Jk6jqfOA_Ho1o4JXpEeSkn6Y9U7DN_w" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/soln_arch_DB753696.html" Name="soln_arch" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Solution Architecture" Id="_ZJl38NGMEe6Y56Jk6jqfOA_Ho1o4JXpEeSkn6Y9U7DN_w" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="c581c426">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="27764b27" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="34a4eaa1">eya_oracle</attribute>
+<attribute name="guid" nodeId="a48c89a6">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="ad7eb3dc">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="2c880e09"></attribute>
+<attribute name="suppressed" nodeId="e5623b95">false</attribute>
+<attribute name="orderingGuide" nodeId="ea74261f"></attribute>
+<attribute name="isAbstract" nodeId="ada1794f">false</attribute>
+<attribute name="shapeicon" nodeId="38c43cf0"></attribute>
+<attribute name="nodeicon" nodeId="70a6ea1f"></attribute>
+<attribute name="prefix" nodeId="82eeb65b"></attribute>
+<attribute name="isPlanned" nodeId="b211f1cf">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="40bdd8de">false</attribute>
+<attribute name="isOptional" nodeId="d9070fbb">false</attribute>
+<attribute name="isRepeatable" nodeId="43dec439">false</attribute>
+<attribute name="isOngoing" nodeId="28cba9f9">false</attribute>
+<attribute name="isEventDriven" nodeId="fc43da51">false</attribute>
+<attribute name="variabilityType" nodeId="c4f15cd3">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Confirm and Design" Id="_bRCPsIs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA" nodeId="6bd65e6f" Url="process.adv.eya_oracle.base/deliveryprocesses/confirm_and_design_29FFDB9.html" Name="confirm_and_design" BackPath="./../../">
+<attribute name="name" nodeId="c8adb6dc">confirm_and_design</attribute>
+<attribute name="guid" nodeId="c139f8eb">_bRCPsIs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="a697bb58">Confirm and Design</attribute>
+<attribute name="briefDescription" nodeId="35fd8f4d">Define business requirements, map process flows and facilitate fit-gap workshops. Define technology and testing strategies. Develop the master configuration workbook, RICEFW inventory and prepare for progressive build cycles.</attribute>
+<attribute name="suppressed" nodeId="d2c93b4c">false</attribute>
+<attribute name="orderingGuide" nodeId="68896f59"></attribute>
+<attribute name="isAbstract" nodeId="ec430efe">false</attribute>
+<attribute name="shapeicon" nodeId="2b74730e"></attribute>
+<attribute name="nodeicon" nodeId="ef2d98d7"></attribute>
+<attribute name="prefix" nodeId="7aef7448"></attribute>
+<attribute name="isPlanned" nodeId="ed63f78f">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="ed8db7b8">false</attribute>
+<attribute name="isOptional" nodeId="af9782fc">false</attribute>
+<attribute name="isRepeatable" nodeId="cd0d2da5">false</attribute>
+<attribute name="isOngoing" nodeId="9d4d116b">false</attribute>
+<attribute name="isEventDriven" nodeId="5b4caa66">false</attribute>
+<attribute name="variabilityType" nodeId="48c34be1">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Design Target State Architecture" Id="_yyQtYdpiEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA,_yyQtYdpiEe6TH6yb1zVWhw" nodeId="8c38a84b" Url="process.adv.eya_oracle.base/deliveryprocesses/design_target_state_arch_1555DFF4.html" Name="design_target_state_arch" BackPath="./../../">
+<attribute name="name" nodeId="7fda8dc4">design_target_state_arch</attribute>
+<attribute name="guid" nodeId="d53707e">_yyQtYdpiEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="7983c6c6">Design Target State Architecture</attribute>
+<attribute name="briefDescription" nodeId="d0c74adf">Document architectural decisions and the integrated solution architecture.</attribute>
+<attribute name="suppressed" nodeId="56fc3af0">false</attribute>
+<attribute name="orderingGuide" nodeId="ade05baf"></attribute>
+<attribute name="isAbstract" nodeId="15f0d458">false</attribute>
+<attribute name="shapeicon" nodeId="d311f5ef"></attribute>
+<attribute name="nodeicon" nodeId="5775ec35"></attribute>
+<attribute name="prefix" nodeId="b38f412f"></attribute>
+<attribute name="isPlanned" nodeId="8cab2b2d">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="38aa19eb">false</attribute>
+<attribute name="isOptional" nodeId="85611394">false</attribute>
+<attribute name="isRepeatable" nodeId="2652f3b1">false</attribute>
+<attribute name="isOngoing" nodeId="8ea577fc">false</attribute>
+<attribute name="isEventDriven" nodeId="527abcb0">false</attribute>
+<attribute name="variabilityType" nodeId="d54d3669">extends</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

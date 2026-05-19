@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop integration test data requirements" Id="_6LtdQCmUEeW4VNZE0V9FcA" ShapeiconUrl="images/task.gif" lang="en" nodeId="ce4026d3" Url="practice.ita.delv.it_test.base/tasks/deveop_int_test_data_rqmts_53465330.html" Name="deveop_int_test_data_rqmts" BackPath="./../../">
+<copyright nodeId="128e6c1d">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="7ba8a0db">deveop_int_test_data_rqmts</attribute>
+<attribute name="guid" nodeId="445c91d4">_6LtdQCmUEeW4VNZE0V9FcA</attribute>
+<attribute name="presentationName" nodeId="4a658c11">Develop integration test data requirements</attribute>
+<attribute name="briefDescription" nodeId="78512c24">Define data needs to conduct tests based on the test scope and test type to be conducted during the test effort.</attribute>
+<attribute name="suppressed" nodeId="50089328">false</attribute>
+<attribute name="orderingGuide" nodeId="966a5f62"></attribute>
+<attribute name="isAbstract" nodeId="dca4d2fc">false</attribute>
+<attribute name="shapeicon" nodeId="936b5b3"></attribute>
+<attribute name="nodeicon" nodeId="53361389"></attribute>
+<attribute name="variabilityType" nodeId="c11115e">extends</attribute>
+<reference name="presentation" nodeId="9bfff7db">
+<Element Type="TaskDescription" TypeName="Task Description" NodeiconUrl="" DisplayName="Develop integration test data requirements" Id="-9UAq6-4FThw-uPAZUDqfrg" ShapeiconUrl="images/guidance.gif" nodeId="7c6d25dc" Url="" Name="deveop_int_test_data_rqmts,_6LtdQCmUEeW4VNZE0V9FcA" BackPath="">
+<copyright nodeId="d08d10e6">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="5c98690d">deveop_int_test_data_rqmts,_6LtdQCmUEeW4VNZE0V9FcA</attribute>
+<attribute name="guid" nodeId="c1cc315b">-9UAq6-4FThw-uPAZUDqfrg</attribute>
+<attribute name="presentationName" nodeId="891fffa6">Develop integration test data requirements</attribute>
+<attribute name="briefDescription" nodeId="978acd3c"></attribute>
+<attribute name="suppressed" nodeId="69002b96">false</attribute>
+<attribute name="orderingGuide" nodeId="9a9ee770"></attribute>
+<attribute name="authors" nodeId="5478d6a4"></attribute>
+<attribute name="changeDate" nodeId="52d482ec"></attribute>
+<attribute name="changeDescription" nodeId="e42e65cd">OCT 2015 - Grammatical and style errors in the steps were fixed.</attribute>
+<attribute name="version" nodeId="34e25428"></attribute>
+<attribute name="mainDescription" nodeId="f0dfa171">&lt;p&gt;
+    Analyze the test scenarios and prepare the criteria to create or obtain the required test data. The criteria provided
+    should be as specific as possible to verify data accuracy.
+&lt;/p&gt;
+&lt;p&gt;
+    When performing this task,&amp;nbsp;consider the following:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        What data is needed?&amp;nbsp;
+    &lt;/li&gt;
+    &lt;li&gt;
+        How much data is needed?
+    &lt;/li&gt;
+    &lt;li&gt;
+        When is the data needed?
+    &lt;/li&gt;
+    &lt;li&gt;
+        Does the data need to be refreshed after a specified period of time?
+    &lt;/li&gt;
+    &lt;li&gt;
+        In what test environment is the data needed?
+    &lt;/li&gt;
+    &lt;li&gt;
+        Are there any dependencies or integration points to address?
+    &lt;/li&gt;
+    &lt;li&gt;
+        Who will need the data?&amp;nbsp;&amp;nbsp;
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="externalId" nodeId="3369322"></attribute>
+<attribute name="keyConsiderations" nodeId="65b1148f">&lt;p&gt;
+    For large scale projects, data requirements may vary depending on several factors, such as the number of test
+    environments, the test levels and types performed, or the size of the project team. In these situations, data
+    requirements are collated, consolidated and reviewed with stakeholders. On smaller scale projects, in less formal
+    settings, individual data requests may be submitted and fulfilled on an as need basis. In many cases, too much may
+    increase cost and time associated to creating or obtaining data while an insufficient amount of data may impact test
+    effectiveness.
+&lt;/p&gt;</attribute>
+<attribute name="longPresentationName" nodeId="b938fc28"></attribute>
+<attribute name="purpose" nodeId="47e7d2db">&lt;p&gt;
+    To understand what data is needed to test integrated components fulfill solution requirements.
+&lt;/p&gt;</attribute>
+<attribute name="alternatives" nodeId="3866f639"></attribute>
+</Element>
+</reference>
+<reference name="variabilityBasedOnElement" nodeId="cd438d30">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop test data requirements" Id="_IWks4OYGEeOqmb5IikO7mw" ShapeiconUrl="images/task.gif" nodeId="354ed6e7" Url="practice.ita.delv.it_test.base/tasks/develop_test_data_rqmts_B38235FD.html" Name="develop_test_data_rqmts" BackPath="./../../"></Element>
+</reference>
+<referenceList sortValue="Manual" name="performedBy" nodeId="a366f89d">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Tester" Id="_LCfPjjRjEeO6HZrLUe5nxQ" ShapeiconUrl="images/role.gif" nodeId="5767266c" Url="core.default.role_def.base/roles/tester_B8C2206D.html" Name="tester" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="mandatoryInput" nodeId="b201011">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Test Case" Id="_ufvyIHncEeSYMYqbqbHk3g" ShapeiconUrl="images/artifact.gif" nodeId="bb2c3a75" Url="core.i_t.common.base/workproducts/test_case_8FD80E72.html" Name="test_case" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Test Plan" Id="_Kme30OX3EeOqmb5IikO7mw" ShapeiconUrl="images/artifact.gif" nodeId="5ee3c03d" Url="core.i_t.common.base/workproducts/test_plan_4519A68.html" Name="test_plan" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Test Scenario" Id="_5czZEOYBEeOqmb5IikO7mw" ShapeiconUrl="images/artifact.gif" nodeId="e5aa756" Url="core.i_t.common.base/workproducts/test_scenario_917A181F.html" Name="test_scenario" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="output" nodeId="401f7242">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_geehAOYGEeOqmb5IikO7mw" ShapeiconUrl="images/artifact.gif" nodeId="6dbcca84" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="Task_TaskDescriptors" nodeId="62ebab59">
+<Element TypeName="Task Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_LJrQ0eW9EeOeOeyRJA3ZBg,_XQjakCmXEeW4VNZE0V9FcA" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/deveop_int_test_data_rqmts_53465330.html" Name="deveop_int_test_data_rqmts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop integration test data requirements" Id="_XQjakCmXEeW4VNZE0V9FcA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="4dc30b44"></Element>
+</referenceList>
+<referenceList name="customCategories" nodeId="be09829c">
+<Element Type="CustomCategory" TypeName="Custom Category" NodeiconUrl="" DisplayName="Tasks" Id="_0Sj48KDNEeOMmqbYX27PPA" ShapeiconUrl="core.default.nav_view.base/customcategories/resources/cat_task51.png" nodeId="2f8469c2" Url="core.default.nav_view.base/customcategories/task_list_CDC9CEA6.html" Name="task_list" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="87b8dcc9">
+<Element TypeName="Task Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_LJrQ0eW9EeOeOeyRJA3ZBg,_XQjakCmXEeW4VNZE0V9FcA" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/deveop_int_test_data_rqmts_53465330.html" Name="deveop_int_test_data_rqmts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop integration test data requirements" Id="_XQjakCmXEeW4VNZE0V9FcA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="38a17e1b">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="IT Testing (Levels)" Id="_HkiWIeW9EeOeOeyRJA3ZBg" relProcessPath="_HkiWIeW9EeOeOeyRJA3ZBg" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg" nodeId="d17762fe" Url="practice.ita.delv.it_test.assign/capabilitypatterns/it_test_levels_9A95B916.html" Name="it_test_levels" BackPath="./../../">
+<attribute name="name" nodeId="e5c8c59e">it_test_levels</attribute>
+<attribute name="guid" nodeId="489733c7">_HkiWIeW9EeOeOeyRJA3ZBg</attribute>
+<attribute name="presentationName" nodeId="b3eb1597">IT Testing (Levels)</attribute>
+<attribute name="briefDescription" nodeId="1a7df600"></attribute>
+<attribute name="suppressed" nodeId="306a5d7">false</attribute>
+<attribute name="orderingGuide" nodeId="318afb95"></attribute>
+<attribute name="isAbstract" nodeId="39ec6e31">false</attribute>
+<attribute name="shapeicon" nodeId="6d52d957"></attribute>
+<attribute name="nodeicon" nodeId="c67ab304"></attribute>
+<attribute name="prefix" nodeId="ac45b631"></attribute>
+<attribute name="isPlanned" nodeId="906a55c1">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="67136e8d">false</attribute>
+<attribute name="isOptional" nodeId="1bb8985">false</attribute>
+<attribute name="isRepeatable" nodeId="fd452da8">false</attribute>
+<attribute name="isOngoing" nodeId="e99fc5b3">false</attribute>
+<attribute name="isEventDriven" nodeId="227fc017">false</attribute>
+<attribute name="variabilityType" nodeId="1982d04">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Design Integration Tests" Id="_LJrQ0eW9EeOeOeyRJA3ZBg" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_LJrQ0eW9EeOeOeyRJA3ZBg" nodeId="ea208dd6" Url="practice.ita.delv.it_test.assign/capabilitypatterns/Design Integration Tests_356827BB.html" Name="Design Integration Tests" BackPath="./../../">
+<attribute name="name" nodeId="5116a26a">Design Integration Tests</attribute>
+<attribute name="guid" nodeId="d4752683">_LJrQ0eW9EeOeOeyRJA3ZBg</attribute>
+<attribute name="presentationName" nodeId="824a45e1">Design Integration Tests</attribute>
+<attribute name="briefDescription" nodeId="b4d2a05b">Define how interactions between component parts of the target solution are verified against solution requirements.</attribute>
+<attribute name="suppressed" nodeId="73236f6a">false</attribute>
+<attribute name="orderingGuide" nodeId="58184db4"></attribute>
+<attribute name="isAbstract" nodeId="f56cbc8e">false</attribute>
+<attribute name="shapeicon" nodeId="aededd26"></attribute>
+<attribute name="nodeicon" nodeId="da3efd0f"></attribute>
+<attribute name="prefix" nodeId="26d5e6b6"></attribute>
+<attribute name="isPlanned" nodeId="3c25b54a">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d6c8834a">false</attribute>
+<attribute name="isOptional" nodeId="616b6f70">false</attribute>
+<attribute name="isRepeatable" nodeId="e24e5d05">false</attribute>
+<attribute name="isOngoing" nodeId="bd7549a1">false</attribute>
+<attribute name="isEventDriven" nodeId="f9723da1">false</attribute>
+<attribute name="variabilityType" nodeId="aec4fc3c">na</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

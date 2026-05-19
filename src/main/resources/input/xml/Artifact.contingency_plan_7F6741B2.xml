@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Contingency Plan" Id="_JFfeMPdmEeOgTqoejOJlgA" ShapeiconUrl="images/artifact.gif" lang="en" nodeId="9ea69d41" Url="core.ops.common.base/workproducts/contingency_plan_7F6741B2.html" Name="contingency_plan" BackPath="./../../">
+<copyright nodeId="6121f51d">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="1f56b5bb">contingency_plan</attribute>
+<attribute name="guid" nodeId="63dad7f9">_JFfeMPdmEeOgTqoejOJlgA</attribute>
+<attribute name="presentationName" nodeId="ca1cb7f4">Contingency Plan</attribute>
+<attribute name="briefDescription" nodeId="1295757c">Documents a plan to dismiss or stop the process of transitioning a solution into production, if a decision not to proceed is made prior to the start of the transition.   </attribute>
+<attribute name="suppressed" nodeId="450684d5">false</attribute>
+<attribute name="orderingGuide" nodeId="8c1d3a6d"></attribute>
+<attribute name="isAbstract" nodeId="9d2f90a0">false</attribute>
+<attribute name="shapeicon" nodeId="6255da97"></attribute>
+<attribute name="nodeicon" nodeId="13848f54"></attribute>
+<attribute name="variabilityType" nodeId="9bf395b4">na</attribute>
+<reference name="presentation" nodeId="3cd414e1">
+<Element Type="ArtifactDescription" TypeName="Artifact Description" NodeiconUrl="" DisplayName="Contingency Plan" Id="-3BLx67yeEpWVB6HHy7hLjQ" ShapeiconUrl="images/guidance.gif" nodeId="9feee4a2" Url="" Name="contingency_plan,_JFfeMPdmEeOgTqoejOJlgA" BackPath="">
+<copyright nodeId="c9906930">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="a7489676">contingency_plan,_JFfeMPdmEeOgTqoejOJlgA</attribute>
+<attribute name="guid" nodeId="e74cd831">-3BLx67yeEpWVB6HHy7hLjQ</attribute>
+<attribute name="presentationName" nodeId="b23a38ac">Contingency Plan</attribute>
+<attribute name="briefDescription" nodeId="a9bd43d0"></attribute>
+<attribute name="suppressed" nodeId="1f6c6ff3">false</attribute>
+<attribute name="orderingGuide" nodeId="fe297753"></attribute>
+<attribute name="authors" nodeId="e8db4729">process.adv.core.base</attribute>
+<attribute name="changeDate" nodeId="5c98074c">Thu Feb 13 10:22:07 EST 2025</attribute>
+<attribute name="changeDescription" nodeId="31a201f">AUG 2014 - baseline version	</attribute>
+<attribute name="version" nodeId="95902834"></attribute>
+<attribute name="mainDescription" nodeId="851a98f8">&lt;p&gt;
+    The contingency may be an interim state that will be operated until a proper failover environment is configured or the
+    previous state can be restored and may entail the service being unavailable until a more permanent solution is ready.
+&lt;/p&gt;</attribute>
+<attribute name="externalId" nodeId="7adf3358"></attribute>
+<attribute name="keyConsiderations" nodeId="d838a1ce">&lt;ul&gt;
+    &lt;li&gt;
+        It is necessary to plan for a potential no-go decision at any of the decision points during the cutover phase
+    &lt;/li&gt;
+    &lt;li&gt;
+        The contingency plan establishes how to delay the system go-live date or how to proceed with limited functionality
+        or restricted scope
+    &lt;/li&gt;
+    &lt;li&gt;
+        The contingency plan may also outline a detailed roll-back plan which would allow the company to reactivate the
+        legacy system and continue daily business on that system
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="longPresentationName" nodeId="954cf58f"></attribute>
+<attribute name="purpose" nodeId="d6cd40c7">To provide the organization with the ability to quickly respond if plans for a solution transition into product cannot go
+forward.</attribute>
+<attribute name="impactOfNotHaving" nodeId="ede0e069"></attribute>
+<attribute name="reasonsForNotNeeding" nodeId="f2e52a08"></attribute>
+<attribute name="briefOutline" nodeId="9e040617"></attribute>
+<attribute name="representationOptions" nodeId="370a7c2e"></attribute>
+<attribute name="representation" nodeId="3c46bb6e"></attribute>
+<attribute name="notation" nodeId="a6212653"></attribute>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="examples" nodeId="6aaab905">
+<Element Type="Example" TypeName="Example" NodeiconUrl="" DisplayName="Contingency Plan" Id="_cxJlALxtEeSeaIyspVRFEw" ShapeiconUrl="images/example.gif" nodeId="787253d8" Url="core.ops.common.base/guidances/examples/contingency_plan_2D3F315D.html" Name="contingency_plan" BackPath="./../../../"></Element>
+</referenceList>
+<referenceList name="WorkProduct_WorkProductDescriptors" nodeId="2f89ae12">
+<Element TypeName="Work Product Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_hUwHYDHHEe-ymZgH1AiGoQ_JFfeMPdmEeOgTqoejOJlgA" ConcreteType="Artifact" Url="core.ops.common.base/workproducts/contingency_plan_7F6741B2.html" Name="contingency_plan" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Contingency Plan" Id="_hUwHYDHHEe-ymZgH1AiGoQ_JFfeMPdmEeOgTqoejOJlgA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="b75a2f4c"></Element>
+</referenceList>
+<referenceList name="WorkProduct_OutputFrom_Tasks" nodeId="7f305a0f">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Define contingency plan" Id="_L7TTADHGEe-ymZgH1AiGoQ" ShapeiconUrl="images/task.gif" nodeId="8699686a" Url="process.adv.eya_oracle.base/tasks/define_contingency_plan_38E05216.html" Name="define_contingency_plan" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="modifyRoles" nodeId="7dfb3a29">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Solution Architect" Id="_MaaBsNNoEe-Fuo3rkO5x4w" ShapeiconUrl="images/role.gif" nodeId="eec2b2d1" Url="process.adv.eya_oracle.base/roles/soln_architect_1699084C.html" Name="soln_architect" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="outputFromTasks" nodeId="3c3073bf">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Define contingency plan" Id="_L7TTADHGEe-ymZgH1AiGoQ" ShapeiconUrl="images/task.gif" nodeId="cf352398" Url="process.adv.eya_oracle.base/tasks/define_contingency_plan_38E05216.html" Name="define_contingency_plan" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="6bd277fe">
+<Element TypeName="Work Product Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_hUwHYDHHEe-ymZgH1AiGoQ_JFfeMPdmEeOgTqoejOJlgA" ConcreteType="Artifact" Url="core.ops.common.base/workproducts/contingency_plan_7F6741B2.html" Name="contingency_plan" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Contingency Plan" Id="_hUwHYDHHEe-ymZgH1AiGoQ_JFfeMPdmEeOgTqoejOJlgA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="615deb89">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="aa7f6add" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="2b5dcb36">eya_oracle</attribute>
+<attribute name="guid" nodeId="e2752935">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="5a884324">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="d966a145"></attribute>
+<attribute name="suppressed" nodeId="582305c1">false</attribute>
+<attribute name="orderingGuide" nodeId="4ff60423"></attribute>
+<attribute name="isAbstract" nodeId="1dbaace2">false</attribute>
+<attribute name="shapeicon" nodeId="2f3184f5"></attribute>
+<attribute name="nodeicon" nodeId="3146bcf1"></attribute>
+<attribute name="prefix" nodeId="469ca643"></attribute>
+<attribute name="isPlanned" nodeId="577b82cc">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="60d3feeb">false</attribute>
+<attribute name="isOptional" nodeId="b3994901">false</attribute>
+<attribute name="isRepeatable" nodeId="74ecc37">false</attribute>
+<attribute name="isOngoing" nodeId="64c6952e">false</attribute>
+<attribute name="isEventDriven" nodeId="fbce26b6">false</attribute>
+<attribute name="variabilityType" nodeId="9290da40">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Test" Id="_esTcsYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA" nodeId="66a4cd18" Url="process.adv.eya_oracle.base/deliveryprocesses/test_E5EB30E9.html" Name="test" BackPath="./../../">
+<attribute name="name" nodeId="75531084">test</attribute>
+<attribute name="guid" nodeId="b52e1698">_esTcsYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="e752a12e">Test</attribute>
+<attribute name="briefDescription" nodeId="3b01d30b">Perform tests on the integrated Oracle services solution and prepare for cutover and deployment. Additionally, design and prepare training materials.</attribute>
+<attribute name="suppressed" nodeId="1b2a095">false</attribute>
+<attribute name="orderingGuide" nodeId="339f1672"></attribute>
+<attribute name="isAbstract" nodeId="eb8031e5">false</attribute>
+<attribute name="shapeicon" nodeId="3ea50fa8"></attribute>
+<attribute name="nodeicon" nodeId="90d259d9"></attribute>
+<attribute name="prefix" nodeId="1f9057e5"></attribute>
+<attribute name="isPlanned" nodeId="c7c699c7">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="29c48018">false</attribute>
+<attribute name="isOptional" nodeId="7e25b92">false</attribute>
+<attribute name="isRepeatable" nodeId="3ad943e0">false</attribute>
+<attribute name="isOngoing" nodeId="2dc0e527">false</attribute>
+<attribute name="isEventDriven" nodeId="97a3c56">false</attribute>
+<attribute name="variabilityType" nodeId="3320eb17">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Prepare for Cutover and Deployment" Id="_vkzykdplEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw" nodeId="f83650b9" Url="process.adv.eya_oracle.base/deliveryprocesses/prepare_cutover_deployment_CE7AA5F6.html" Name="prepare_cutover_deployment" BackPath="./../../">
+<attribute name="name" nodeId="8613e823">prepare_cutover_deployment</attribute>
+<attribute name="guid" nodeId="dcff0ddb">_vkzykdplEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="ec997af1">Prepare for Cutover and Deployment</attribute>
+<attribute name="briefDescription" nodeId="3d4ccdde">Define the approach, plan and governance tasks to manage the transition of the target state Oracle solution into the production environment.</attribute>
+<attribute name="suppressed" nodeId="e86c1b23">false</attribute>
+<attribute name="orderingGuide" nodeId="50341319"></attribute>
+<attribute name="isAbstract" nodeId="299567c5">false</attribute>
+<attribute name="shapeicon" nodeId="494748e5"></attribute>
+<attribute name="nodeicon" nodeId="24846418"></attribute>
+<attribute name="prefix" nodeId="e593a7"></attribute>
+<attribute name="isPlanned" nodeId="ec879a24">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="c093a14f">false</attribute>
+<attribute name="isOptional" nodeId="c371c5dd">false</attribute>
+<attribute name="isRepeatable" nodeId="ed19e0b3">false</attribute>
+<attribute name="isOngoing" nodeId="9eda51ac">false</attribute>
+<attribute name="isEventDriven" nodeId="839d479d">false</attribute>
+<attribute name="variabilityType" nodeId="e9914cca">extends</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

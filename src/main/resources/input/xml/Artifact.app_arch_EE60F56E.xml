@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Application Architecture" Id="_alBZsDR7EeSv1pZkA0lgHA" ShapeiconUrl="images/artifact.gif" lang="en" nodeId="ff41aa05" Url="core.i_t.common.base/workproducts/app_arch_EE60F56E.html" Name="app_arch" BackPath="./../../">
+<copyright nodeId="6386c907">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="421f4ab2">app_arch</attribute>
+<attribute name="guid" nodeId="2ad6e962">_alBZsDR7EeSv1pZkA0lgHA</attribute>
+<attribute name="presentationName" nodeId="cbc287e3">Application Architecture</attribute>
+<attribute name="briefDescription" nodeId="dbba9c6d">Represents the functional and integration components of the enterprise systems, along with their interdependencies and related information system services. </attribute>
+<attribute name="suppressed" nodeId="8991ee28">false</attribute>
+<attribute name="orderingGuide" nodeId="cff1c046"></attribute>
+<attribute name="isAbstract" nodeId="1f48320d">false</attribute>
+<attribute name="shapeicon" nodeId="a14956ee"></attribute>
+<attribute name="nodeicon" nodeId="6af202c1"></attribute>
+<attribute name="variabilityType" nodeId="e8284d5c">na</attribute>
+<reference name="presentation" nodeId="52bef934">
+<Element Type="ArtifactDescription" TypeName="Artifact Description" NodeiconUrl="" DisplayName="Application Architecture" Id="-tQ6lvkB2FkfxFs-W92gFHQ" ShapeiconUrl="images/guidance.gif" nodeId="6d5a9e0" Url="" Name="new_artifact,_alBZsDR7EeSv1pZkA0lgHA" BackPath="">
+<copyright nodeId="9fcaa95c">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="bdf5a8f4">new_artifact,_alBZsDR7EeSv1pZkA0lgHA</attribute>
+<attribute name="guid" nodeId="f9a27b44">-tQ6lvkB2FkfxFs-W92gFHQ</attribute>
+<attribute name="presentationName" nodeId="4e8f86ee">Application Architecture</attribute>
+<attribute name="briefDescription" nodeId="4524d4ae"></attribute>
+<attribute name="suppressed" nodeId="38e3a87e">false</attribute>
+<attribute name="orderingGuide" nodeId="ab223ce2"></attribute>
+<attribute name="authors" nodeId="fb729380">process.adv.core.base</attribute>
+<attribute name="changeDate" nodeId="f52b577c">Thu May 12 13:58:09 EDT 2022</attribute>
+<attribute name="changeDescription" nodeId="eda2fbfc">FEB 2021 - Updated description to support Enterprise Architecture|NOV 2015 - Corrected grammar and typo|AUG 2014 – baseline version</attribute>
+<attribute name="version" nodeId="84b12de7"></attribute>
+<attribute name="mainDescription" nodeId="b48f9206">&lt;p&gt;
+    The application architecture illustrates the structure, relationships, constraints, rules, and operations. It
+    portrays different architecture tiers such as presentation, business logic and business services, security, third-party
+    communication and indicates the necessary components in each tier. The model should clarify the role (underlying
+    business function or process) that each of these components plays in the context of the overall system. It
+    should reflect the results of process alignment and portfolio rationalization.
+&lt;/p&gt;
+&lt;p&gt;
+    The application architecture helps to define and document:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        The structure of the system 
+    &lt;/li&gt;
+    &lt;li&gt;
+        The recurring interactions and dependencies between sets of components 
+    &lt;/li&gt;
+    &lt;li&gt;
+        The components present within an enterprise, each of which may be made up of smaller components
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    Application architectures can be documented at three levels:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Conceptual level&lt;/strong&gt; - focuses on specifying the high-level components that are required to implement
+        the solution. These specifications are typically box diagrams that portray a conceptual view of the system
+        components/services that are technology and product neutral.
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Logical level&lt;/strong&gt; - focuses on specifying the components&apos; responsibilities and characteristics
+        necessary to deliver the requirements. At this level it is appropriate to show component integration and
+        communication views. These specifications can be technology and/or product neutral.
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Physical level&lt;/strong&gt; - focuses on how to implement the components to meet the previously established
+        specifications.
+    &lt;/li&gt;
+&lt;/ul&gt;&lt;br /&gt;</attribute>
+<attribute name="externalId" nodeId="8d7e9ff4"></attribute>
+<attribute name="keyConsiderations" nodeId="75b77b73">When this artifact is used to document the current state, it may be created in a simplified form.</attribute>
+<attribute name="longPresentationName" nodeId="690cb241"></attribute>
+<attribute name="purpose" nodeId="f4c077f2">&lt;p&gt;
+    The purpose of this artifact is to:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Illustrate how the identified application components and interfaces fit together to communicate an
+        application-centric view of the business functions/processes to the stakeholders, as well as to guide the overall
+        design and development of the solution.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Address the stakeholder concerns related to application.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Help identify candidate architecture roadmap components based upon gaps between the baseline and target
+        architectures.
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="impactOfNotHaving" nodeId="3fd74c16">If this artifact is not produced for the current state it will not be possible to accurately evaluate the current
+environment and it is likely that key details may be overlooked when designing the new solution.&lt;br /&gt;
+&lt;br /&gt;
+If this artifact is not produced for the target solution it will be very difficult to produce a consistent design and there
+is a higher chance of rework being required due to a lack of overall application architecture.&lt;br /&gt;</attribute>
+<attribute name="reasonsForNotNeeding" nodeId="8226a886">If the solution contains no or very little automation this artifact may not be required. In some cases, this artifact may
+already exist for the current systems so it may only need to be validated and not created.</attribute>
+<attribute name="briefOutline" nodeId="2d3cb427">&lt;p&gt;
+    The application architecture consists of:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Introduction:&lt;/strong&gt; Describes the context, purpose, scope, and intended audience of the application
+        architecture.
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Notation:&lt;/strong&gt; If appropriate, describes any notation used in the document.
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Overview of Layers and Components&lt;/strong&gt;. Describes different architecture tiers and systems/components
+        in each tier.
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Component Descriptions&lt;/strong&gt;: Describes in detail each component&apos;s responsibilities and interfaces,
+        required service levels, risk, design rationale, and implementation approach.
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Application Landscape Diagram&lt;/strong&gt;: Identifies and documents applications and components that are used
+        by multiple lines of business across an organization. This technique is commonly leveraged by practitioners for the
+        current-state application assessment.
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Application Component Diagram&lt;/strong&gt;: Describes components, interfaces, services, and relationships in a
+        business functional context. It is common to leverage a multi-tier architecture technique to portray this
+        view. 
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Application Component Metrics&lt;/strong&gt;: Identifies and documents application/system metrics such as total
+        number of users per application, total number of transactions processed per day, etc. This technique can be
+        leveraged for both current-state application assessment and target-state application development.
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Integration Components:&lt;/strong&gt; These include components such as APIs, Runtime clients and
+        Controllers, etc. that play a crucial role with establishing proper communication within the application
+        architecture landscape. It may include components to support application monitoring.
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Integration Patterns:&lt;/strong&gt; These include patterns such as Service Oriented Architecture (SOA),
+        Enterprise Application Integration (EAI), etc. to adopt a standardized and leading industry-based integration
+        approach that an application architecture solution can benefit from.
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="representationOptions" nodeId="467d8004">&lt;p&gt;
+    The model is typically represented in a graphical form and application modeling techniques such as Unified Modeling
+    Language (UML), Building Block notation, Archimate, or simple Box and Line diagrams are leveraged to develop these
+    models. Also consider what tools are available at a client.
+&lt;/p&gt;</attribute>
+<attribute name="representation" nodeId="d6229f13"></attribute>
+<attribute name="notation" nodeId="546aa3c3"></attribute>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="examples" nodeId="277a7c98">
+<Element Type="Example" TypeName="Example" NodeiconUrl="" DisplayName="Application Integration Architecture" Id="_yCDAED3XEeSEJa8A-Lm5Dg" ShapeiconUrl="images/example.gif" nodeId="e7d3ba1a" Url="core.i_t.common.base/guidances/examples/app_integration_arch_43927A26.html" Name="app_integration_arch" BackPath="./../../../"></Element>
+<Element Type="Example" TypeName="Example" NodeiconUrl="" DisplayName="IS Service Catalog" Id="_rpivQD2-EeSEJa8A-Lm5Dg" ShapeiconUrl="images/example.gif" nodeId="3b7d22d3" Url="core.i_t.common.base/guidances/examples/is_service_catalog_18E1A2D4.html" Name="is_service_catalog" BackPath="./../../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="templates" nodeId="d9674e0a">
+<Element Type="Template" TypeName="Template" NodeiconUrl="" DisplayName="Applications Portfolio Catalog" Id="_HlaH8FjAEeSQN43CYcVbPg" ShapeiconUrl="images/template.gif" nodeId="d063460c" Url="core.i_t.common.base/guidances/templates/app_portfolio_catalog_D98F2E30.html" Name="app_portfolio_catalog" BackPath="./../../../"></Element>
+<Element Type="Template" TypeName="Template" NodeiconUrl="" DisplayName="Interface Catalog" Id="_4ZcSEFjVEeSQN43CYcVbPg" ShapeiconUrl="images/template.gif" nodeId="3af91e75" Url="core.i_t.common.base/guidances/templates/interface_catalog_745969A3.html" Name="interface_catalog" BackPath="./../../../"></Element>
+</referenceList>
+<referenceList name="WorkProduct_WorkProductDescriptors" nodeId="a575f791">
+<Element TypeName="Work Product Descriptor" queryString="?proc=__kYz8dANEe6H-rjlu9wPlA&amp;path=__kYz8dANEe6H-rjlu9wPlA,_H3Z-cdGMEe6Y56Jk6jqfOA,_ZJl38NGMEe6Y56Jk6jqfOA_alBZsDR7EeSv1pZkA0lgHA" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/app_arch_EE60F56E.html" Name="app_arch" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Application Architecture" Id="_ZJl38NGMEe6Y56Jk6jqfOA_alBZsDR7EeSv1pZkA0lgHA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="6ed15086"></Element>
+</referenceList>
+<referenceList name="WorkProduct_InputTo_Tasks" nodeId="88afaee3">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop integrated solution architecture" Id="_H0mlQGeMEeSg-t4DVsRJcA" ShapeiconUrl="images/task.gif" nodeId="fee0e037" Url="practice.ita.eff.arch_gov.base/tasks/develop_integrated_soln_arch_F66DBD02.html" Name="develop_integrated_soln_arch" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="mandatoryInputToTasks" nodeId="72a59cae">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop integrated solution architecture" Id="_H0mlQGeMEeSg-t4DVsRJcA" ShapeiconUrl="images/task.gif" nodeId="edebe0aa" Url="practice.ita.eff.arch_gov.base/tasks/develop_integrated_soln_arch_F66DBD02.html" Name="develop_integrated_soln_arch" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="1ad7205f">
+<Element TypeName="Work Product Descriptor" queryString="?proc=__kYz8dANEe6H-rjlu9wPlA&amp;path=__kYz8dANEe6H-rjlu9wPlA,_H3Z-cdGMEe6Y56Jk6jqfOA,_ZJl38NGMEe6Y56Jk6jqfOA_alBZsDR7EeSv1pZkA0lgHA" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/app_arch_EE60F56E.html" Name="app_arch" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Application Architecture" Id="_ZJl38NGMEe6Y56Jk6jqfOA_alBZsDR7EeSv1pZkA0lgHA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="1c3e9414">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Technical Architecture and Integration" Id="__kYz8dANEe6H-rjlu9wPlA" relProcessPath="__kYz8dANEe6H-rjlu9wPlA" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=__kYz8dANEe6H-rjlu9wPlA&amp;path=__kYz8dANEe6H-rjlu9wPlA" nodeId="a48fce1e" Url="process.adv.eya_oracle.base/capabilitypatterns/tech_arch_int_wkstrm_FC9A4290.html" Name="tech_arch_int_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="881ceaba">tech_arch_int_wkstrm</attribute>
+<attribute name="guid" nodeId="1a233593">__kYz8dANEe6H-rjlu9wPlA</attribute>
+<attribute name="presentationName" nodeId="68ad6fd4">Technical Architecture and Integration</attribute>
+<attribute name="briefDescription" nodeId="e5607cc1"></attribute>
+<attribute name="suppressed" nodeId="b1c9fddb">false</attribute>
+<attribute name="orderingGuide" nodeId="3f5abe63"></attribute>
+<attribute name="isAbstract" nodeId="e8d6a7fa">false</attribute>
+<attribute name="shapeicon" nodeId="83013c24"></attribute>
+<attribute name="nodeicon" nodeId="9d298247"></attribute>
+<attribute name="prefix" nodeId="5291ca06">workstream</attribute>
+<attribute name="isPlanned" nodeId="2ebae82b">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="33e21b08">false</attribute>
+<attribute name="isOptional" nodeId="9c447a7">false</attribute>
+<attribute name="isRepeatable" nodeId="4e3d685f">false</attribute>
+<attribute name="isOngoing" nodeId="aec0693f">false</attribute>
+<attribute name="isEventDriven" nodeId="182190dc">false</attribute>
+<attribute name="variabilityType" nodeId="6824813b">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Design Target State Architecture" Id="_H3Z-cdGMEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=__kYz8dANEe6H-rjlu9wPlA&amp;path=__kYz8dANEe6H-rjlu9wPlA,_H3Z-cdGMEe6Y56Jk6jqfOA" nodeId="973f096b" Url="process.adv.eya_oracle.base/capabilitypatterns/design_target_state_arch_50284F64.html" Name="design_target_state_arch" BackPath="./../../">
+<attribute name="name" nodeId="b9b2a903">design_target_state_arch</attribute>
+<attribute name="guid" nodeId="d5b1e54a">_H3Z-cdGMEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="8304679c">Design Target State Architecture</attribute>
+<attribute name="briefDescription" nodeId="595a8df7">Document architectural decisions and the integrated solution architecture.</attribute>
+<attribute name="suppressed" nodeId="28a2ae35">false</attribute>
+<attribute name="orderingGuide" nodeId="5a13e40b"></attribute>
+<attribute name="isAbstract" nodeId="b96359f4">false</attribute>
+<attribute name="shapeicon" nodeId="87e2030a"></attribute>
+<attribute name="nodeicon" nodeId="5d97fe4d"></attribute>
+<attribute name="prefix" nodeId="e3405d6f"></attribute>
+<attribute name="isPlanned" nodeId="4dfdae20">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="78d4b938">false</attribute>
+<attribute name="isOptional" nodeId="d167b445">false</attribute>
+<attribute name="isRepeatable" nodeId="37087a8">false</attribute>
+<attribute name="isOngoing" nodeId="2935eec3">false</attribute>
+<attribute name="isEventDriven" nodeId="f77b9def">false</attribute>
+<attribute name="variabilityType" nodeId="4bc0c397">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=__kYz8dANEe6H-rjlu9wPlA&amp;path=__kYz8dANEe6H-rjlu9wPlA,_H3Z-cdGMEe6Y56Jk6jqfOA,_ZJl38NGMEe6Y56Jk6jqfOA_alBZsDR7EeSv1pZkA0lgHA" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/app_arch_EE60F56E.html" Name="app_arch" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Application Architecture" Id="_ZJl38NGMEe6Y56Jk6jqfOA_alBZsDR7EeSv1pZkA0lgHA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="4ded9764">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="e94d20d4" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="13ae3634">eya_oracle</attribute>
+<attribute name="guid" nodeId="2a5ab745">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="ccdf12f">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="72f07ac"></attribute>
+<attribute name="suppressed" nodeId="7f272b6f">false</attribute>
+<attribute name="orderingGuide" nodeId="39ace6e9"></attribute>
+<attribute name="isAbstract" nodeId="78e06d5">false</attribute>
+<attribute name="shapeicon" nodeId="1812916e"></attribute>
+<attribute name="nodeicon" nodeId="25e1c066"></attribute>
+<attribute name="prefix" nodeId="ce857057"></attribute>
+<attribute name="isPlanned" nodeId="4ba171bf">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="9d125744">false</attribute>
+<attribute name="isOptional" nodeId="d2e1b06e">false</attribute>
+<attribute name="isRepeatable" nodeId="785557c9">false</attribute>
+<attribute name="isOngoing" nodeId="f502fcbb">false</attribute>
+<attribute name="isEventDriven" nodeId="11985d8">false</attribute>
+<attribute name="variabilityType" nodeId="d4d289c2">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Confirm and Design" Id="_bRCPsIs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA" nodeId="3b05aabe" Url="process.adv.eya_oracle.base/deliveryprocesses/confirm_and_design_29FFDB9.html" Name="confirm_and_design" BackPath="./../../">
+<attribute name="name" nodeId="9205dd4f">confirm_and_design</attribute>
+<attribute name="guid" nodeId="992721ad">_bRCPsIs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="f2bd7dd1">Confirm and Design</attribute>
+<attribute name="briefDescription" nodeId="f315c430">Define business requirements, map process flows and facilitate fit-gap workshops. Define technology and testing strategies. Develop the master configuration workbook, RICEFW inventory and prepare for progressive build cycles.</attribute>
+<attribute name="suppressed" nodeId="622e6672">false</attribute>
+<attribute name="orderingGuide" nodeId="87bb8d55"></attribute>
+<attribute name="isAbstract" nodeId="7aa455cb">false</attribute>
+<attribute name="shapeicon" nodeId="e0e3b360"></attribute>
+<attribute name="nodeicon" nodeId="ca2f2464"></attribute>
+<attribute name="prefix" nodeId="9458e33"></attribute>
+<attribute name="isPlanned" nodeId="6f29a96c">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="5edce6ae">false</attribute>
+<attribute name="isOptional" nodeId="b665ef64">false</attribute>
+<attribute name="isRepeatable" nodeId="649126c0">false</attribute>
+<attribute name="isOngoing" nodeId="c974d69d">false</attribute>
+<attribute name="isEventDriven" nodeId="f308c669">false</attribute>
+<attribute name="variabilityType" nodeId="1e2a4c07">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Design Target State Architecture" Id="_yyQtYdpiEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA,_yyQtYdpiEe6TH6yb1zVWhw" nodeId="86ff5615" Url="process.adv.eya_oracle.base/deliveryprocesses/design_target_state_arch_1555DFF4.html" Name="design_target_state_arch" BackPath="./../../">
+<attribute name="name" nodeId="22f97d0c">design_target_state_arch</attribute>
+<attribute name="guid" nodeId="b302d706">_yyQtYdpiEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="c7c22413">Design Target State Architecture</attribute>
+<attribute name="briefDescription" nodeId="d7af55ff">Document architectural decisions and the integrated solution architecture.</attribute>
+<attribute name="suppressed" nodeId="c35515e1">false</attribute>
+<attribute name="orderingGuide" nodeId="b90f0113"></attribute>
+<attribute name="isAbstract" nodeId="70cd4c60">false</attribute>
+<attribute name="shapeicon" nodeId="b5d5b894"></attribute>
+<attribute name="nodeicon" nodeId="23249a96"></attribute>
+<attribute name="prefix" nodeId="88f51d9c"></attribute>
+<attribute name="isPlanned" nodeId="f92f2df1">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="37f6b900">false</attribute>
+<attribute name="isOptional" nodeId="237d7ce7">false</attribute>
+<attribute name="isRepeatable" nodeId="20e4933f">false</attribute>
+<attribute name="isOngoing" nodeId="36a1b374">false</attribute>
+<attribute name="isEventDriven" nodeId="1abb8216">false</attribute>
+<attribute name="variabilityType" nodeId="85c94a39">extends</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" TypeName="Task" Url="process.adv.eya_oracle.base/tasks/conduct_fit_gap_analysis_A3EEB3D0.html" Name="conduct_fit_gap_analysis" BackPath="./../../" Type="Task" NodeiconUrl="" performingRoleName="Functional Architect" DisplayName="Conduct fit gap analysis" Id="_KGxk0M5yEe63wsgFeJIztg" ShapeiconUrl="images/task.gif" lang="en" nodeId="e7664966">
+<copyright nodeId="60f95244">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="266f9026">conduct_fit_gap_analysis</attribute>
+<attribute name="guid" nodeId="e2cee3bd">_KGxk0M5yEe63wsgFeJIztg</attribute>
+<attribute name="presentationName" nodeId="53137bd9">Conduct fit gap analysis</attribute>
+<attribute name="briefDescription" nodeId="fe17203e">Compare requirements to Oracle&apos;s standard functionality and EY&apos;s pre-solutioned process assets and identify any gaps.</attribute>
+<attribute name="suppressed" nodeId="ff03d442">false</attribute>
+<attribute name="orderingGuide" nodeId="bae8f815"></attribute>
+<attribute name="isAbstract" nodeId="7f8b7d5e">false</attribute>
+<attribute name="shapeicon" nodeId="724c59ce"></attribute>
+<attribute name="nodeicon" nodeId="ee6f665b"></attribute>
+<attribute name="variabilityType" nodeId="da8b6d7f">na</attribute>
+<reference name="presentation" nodeId="3e6050d">
+<Element Type="TaskDescription" TypeName="Task Description" NodeiconUrl="" DisplayName="Conduct fit gap analysis" Id="-_f0w8Qj_oe2U8cJY-_PyDQ" ShapeiconUrl="images/guidance.gif" nodeId="9735742e" Url="" Name="conduct_fit_gap_analysis,_KGxk0M5yEe63wsgFeJIztg" BackPath="">
+<copyright nodeId="61fb6b65">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="c28be0e8">conduct_fit_gap_analysis,_KGxk0M5yEe63wsgFeJIztg</attribute>
+<attribute name="guid" nodeId="62cce8b1">-_f0w8Qj_oe2U8cJY-_PyDQ</attribute>
+<attribute name="presentationName" nodeId="9db54144">Conduct fit gap analysis</attribute>
+<attribute name="briefDescription" nodeId="ddf5632a"></attribute>
+<attribute name="suppressed" nodeId="2243da2d">false</attribute>
+<attribute name="orderingGuide" nodeId="195b2666"></attribute>
+<attribute name="authors" nodeId="2f14dd02"></attribute>
+<attribute name="changeDate" nodeId="2ca30438">Mon Oct 14 06:15:16 EDT 2024</attribute>
+<attribute name="changeDescription" nodeId="e9cff201">FEB 2024 - Baseline Version</attribute>
+<attribute name="version" nodeId="358cd70b"></attribute>
+<attribute name="mainDescription" nodeId="fefa410a">&lt;p&gt;
+    Perform a detailed comparison between the requirements and Oracle&apos;s standard (unmodified out-of-the-box base) process
+    flows and EY&apos;s pre-solutioned assets and mark each requirement in the requirements traceability matrix (RTM) as fit,
+    partial fit or no fit based on the following:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Fit:&lt;/strong&gt; Requirements met by Oracle&apos;s standard base functionaltiy or EY&apos;s pre-solutioned assets
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Partial fit:&lt;/strong&gt; Requirements mostly met by Oracle&apos;s standard base functionality or EY&apos;s
+        pre-solutioned assets
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;No fit:&lt;/strong&gt; Unique requirements that are not met by Oracle&apos;s standard base functionality or EY&apos;s
+        pre-solutioned assets
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="externalId" nodeId="ec6b444a"></attribute>
+<attribute name="keyConsiderations" nodeId="693b41c0">&lt;p&gt;
+    For requirements that are a partial fit or no fit, process elaboration workshops may be needed to analyze the gaps,
+    discuss alternatives and finalize next steps.
+&lt;/p&gt;</attribute>
+<attribute name="longPresentationName" nodeId="3db2b858"></attribute>
+<attribute name="purpose" nodeId="44e24134">To determine if the client&apos;s requirements are met by Oracle&apos;s out-of-the-box functionality and EY&apos;s pre-solutioned
+accelerators.</attribute>
+<attribute name="alternatives" nodeId="c80dca44"></attribute>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="performedBy" nodeId="dee73b72">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Functional Architect" Id="_EZAaoMxjEe-ZJLQgqxU0kQ" ShapeiconUrl="images/role.gif" nodeId="a4e7a51a" Url="process.adv.eya_oracle.base/roles/func_architect_A28F4FB1.html" Name="func_architect" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="mandatoryInput" nodeId="c77b8124">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Functional Requirement" Id="_JUXPcMRiEeapHOG_ozfrTg" ShapeiconUrl="images/artifact.gif" nodeId="a9cbf1fb" Url="core.gen.common.base/workproducts/func_rqmt_95C4EC3B.html" Name="func_rqmt" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Non-Functional Requirements" Id="_jbA9YAIPEeS9erBHLNmxUg" ShapeiconUrl="images/artifact.gif" nodeId="855ebfa2" Url="core.gen.common.base/workproducts/non_func_rqmts_18CC3776.html" Name="non_func_rqmts" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Process Workflow Model - Descriptive" Id="_1ngSMP4NEeOEaam52Zfv4w" ShapeiconUrl="images/artifact.gif" nodeId="10be7bab" Url="core.bus.common.base/workproducts/process_workflow_desc_DC38F81E.html" Name="process_workflow_desc" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="output" nodeId="64ae9ab4">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Fit Gap Analysis" Id="_iU7DgOzQEeOSPP8M3ENqOA" ShapeiconUrl="images/artifact.gif" nodeId="654c51a4" Url="core.i_t.common.base/workproducts/fit_gap_analysis_7C6102D7.html" Name="fit_gap_analysis" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Functional Requirement" Id="_JUXPcMRiEeapHOG_ozfrTg" ShapeiconUrl="images/artifact.gif" nodeId="bce09858" Url="core.gen.common.base/workproducts/func_rqmt_95C4EC3B.html" Name="func_rqmt" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Non-Functional Requirements" Id="_jbA9YAIPEeS9erBHLNmxUg" ShapeiconUrl="images/artifact.gif" nodeId="626c461" Url="core.gen.common.base/workproducts/non_func_rqmts_18CC3776.html" Name="non_func_rqmts" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Process Workflow Model - Descriptive" Id="_1ngSMP4NEeOEaam52Zfv4w" ShapeiconUrl="images/artifact.gif" nodeId="2c6d91da" Url="core.bus.common.base/workproducts/process_workflow_desc_DC38F81E.html" Name="process_workflow_desc" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="additionallyPerformedBy" nodeId="d02d5cf3">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Analyst" Id="_W7RhoAk9EeOR5fNLLJCc5g" ShapeiconUrl="images/role.gif" nodeId="8233977d" Url="core.default.role_def.base/roles/analyst_46D75ED7.html" Name="analyst" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Solution Architect" Id="_MaaBsNNoEe-Fuo3rkO5x4w" ShapeiconUrl="images/role.gif" nodeId="29105f00" Url="process.adv.eya_oracle.base/roles/soln_architect_1699084C.html" Name="soln_architect" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="Task_TaskDescriptors" nodeId="b6c8c3da">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_YTuvEcXoEe6pmdl9Vi4qww,_mpfXYM5yEe63wsgFeJIztg" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/conduct_fit_gap_analysis_A3EEB3D0.html" Name="conduct_fit_gap_analysis" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Conduct fit gap analysis" Id="_mpfXYM5yEe63wsgFeJIztg" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="6cfc4313"></Element>
+</referenceList>
+<reference name="performingRole" nodeId="52bc6be9">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Functional Architect" Id="_EZAaoMxjEe-ZJLQgqxU0kQ" ShapeiconUrl="images/role.gif" nodeId="d0cb7f78" Url="process.adv.eya_oracle.base/roles/func_architect_A28F4FB1.html" Name="func_architect" BackPath="./../../"></Element>
+</reference>
+<referenceList name="customCategories" nodeId="5e41f5a7">
+<Element Type="CustomCategory" TypeName="Custom Category" NodeiconUrl="" DisplayName="Tasks" Id="_0Sj48KDNEeOMmqbYX27PPA" ShapeiconUrl="core.default.nav_view.base/customcategories/resources/cat_task51.png" nodeId="f34b996b" Url="core.default.nav_view.base/customcategories/task_list_CDC9CEA6.html" Name="task_list" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="5faae349">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_YTuvEcXoEe6pmdl9Vi4qww,_mpfXYM5yEe63wsgFeJIztg" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/conduct_fit_gap_analysis_A3EEB3D0.html" Name="conduct_fit_gap_analysis" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Conduct fit gap analysis" Id="_mpfXYM5yEe63wsgFeJIztg" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="f29eab97">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Business Functional Design" Id="_C-aFkZLKEe6Ji6GnvvUfqw" relProcessPath="_C-aFkZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw" nodeId="76576967" Url="process.adv.eya_oracle.base/capabilitypatterns/bus_func_design_wkstrm_3B7B6F5B.html" Name="bus_func_design_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="1f6521ed">bus_func_design_wkstrm</attribute>
+<attribute name="guid" nodeId="20cd0176">_C-aFkZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="a23c3125">Business Functional Design</attribute>
+<attribute name="briefDescription" nodeId="2c4c5fa2"></attribute>
+<attribute name="suppressed" nodeId="26e2aced">false</attribute>
+<attribute name="orderingGuide" nodeId="ba73ea90"></attribute>
+<attribute name="isAbstract" nodeId="fdfdf390">false</attribute>
+<attribute name="shapeicon" nodeId="a0537be2"></attribute>
+<attribute name="nodeicon" nodeId="ff632818"></attribute>
+<attribute name="prefix" nodeId="518fc956">workstream</attribute>
+<attribute name="isPlanned" nodeId="98545f71">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="28c86ad9">false</attribute>
+<attribute name="isOptional" nodeId="604d9a5d">false</attribute>
+<attribute name="isRepeatable" nodeId="f75cc62d">false</attribute>
+<attribute name="isOngoing" nodeId="7db16ad4">false</attribute>
+<attribute name="isEventDriven" nodeId="52055eba">false</attribute>
+<attribute name="variabilityType" nodeId="488a31a9">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Conduct Fit Gap Workshops" Id="_YTuvEcXoEe6pmdl9Vi4qww" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_YTuvEcXoEe6pmdl9Vi4qww" nodeId="dd4d74a1" Url="process.adv.eya_oracle.base/capabilitypatterns/conduct_fit_gap_workshops_A4C4E3BE.html" Name="conduct_fit_gap_workshops" BackPath="./../../">
+<attribute name="name" nodeId="8363baf6">conduct_fit_gap_workshops</attribute>
+<attribute name="guid" nodeId="b8ea3ec6">_YTuvEcXoEe6pmdl9Vi4qww</attribute>
+<attribute name="presentationName" nodeId="7ae02459">Conduct Fit Gap Workshops</attribute>
+<attribute name="briefDescription" nodeId="855d1a34">During each of the fit gap workshop sessions, walk the client stakeholders through the Oracle standard (out-of-the-box base) process flows as well as EY&apos;s pre-solutioned business process assets and determine their fit to the client&apos;s requirements.</attribute>
+<attribute name="suppressed" nodeId="bfea06f2">false</attribute>
+<attribute name="orderingGuide" nodeId="a9b60e7d"></attribute>
+<attribute name="isAbstract" nodeId="f5a37c3">false</attribute>
+<attribute name="shapeicon" nodeId="7407832"></attribute>
+<attribute name="nodeicon" nodeId="16204949"></attribute>
+<attribute name="prefix" nodeId="89fd0917"></attribute>
+<attribute name="isPlanned" nodeId="7b66bce2">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d991ecc7">false</attribute>
+<attribute name="isOptional" nodeId="1381f091">false</attribute>
+<attribute name="isRepeatable" nodeId="fc242028">false</attribute>
+<attribute name="isOngoing" nodeId="9080e74f">false</attribute>
+<attribute name="isEventDriven" nodeId="926dbac8">false</attribute>
+<attribute name="variabilityType" nodeId="c2bb86f">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_YTuvEcXoEe6pmdl9Vi4qww,_mpfXYM5yEe63wsgFeJIztg" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/conduct_fit_gap_analysis_A3EEB3D0.html" Name="conduct_fit_gap_analysis" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Conduct fit gap analysis" Id="_mpfXYM5yEe63wsgFeJIztg" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="39c62dfc">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="b8756dcc" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="6ad8af83">eya_oracle</attribute>
+<attribute name="guid" nodeId="8c937b73">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="30fb18d5">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="c32e30a6"></attribute>
+<attribute name="suppressed" nodeId="6fcf244">false</attribute>
+<attribute name="orderingGuide" nodeId="b177a95d"></attribute>
+<attribute name="isAbstract" nodeId="794bc7d8">false</attribute>
+<attribute name="shapeicon" nodeId="e377d8b6"></attribute>
+<attribute name="nodeicon" nodeId="cd46fb0c"></attribute>
+<attribute name="prefix" nodeId="d9765d30"></attribute>
+<attribute name="isPlanned" nodeId="9b6d832b">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="1766d4b8">false</attribute>
+<attribute name="isOptional" nodeId="997fc849">false</attribute>
+<attribute name="isRepeatable" nodeId="a083285e">false</attribute>
+<attribute name="isOngoing" nodeId="9ab414c1">false</attribute>
+<attribute name="isEventDriven" nodeId="ec025360">false</attribute>
+<attribute name="variabilityType" nodeId="c64d4e8f">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Confirm and Design" Id="_bRCPsIs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA" nodeId="bf605292" Url="process.adv.eya_oracle.base/deliveryprocesses/confirm_and_design_29FFDB9.html" Name="confirm_and_design" BackPath="./../../">
+<attribute name="name" nodeId="117fde7">confirm_and_design</attribute>
+<attribute name="guid" nodeId="9d933f0f">_bRCPsIs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="936f95c7">Confirm and Design</attribute>
+<attribute name="briefDescription" nodeId="9f77b5b2">Define business requirements, map process flows and facilitate fit-gap workshops. Define technology and testing strategies. Develop the master configuration workbook, RICEFW inventory and prepare for progressive build cycles.</attribute>
+<attribute name="suppressed" nodeId="a25b2a4b">false</attribute>
+<attribute name="orderingGuide" nodeId="154f5da9"></attribute>
+<attribute name="isAbstract" nodeId="44b899dc">false</attribute>
+<attribute name="shapeicon" nodeId="35f7104"></attribute>
+<attribute name="nodeicon" nodeId="49f1f1b9"></attribute>
+<attribute name="prefix" nodeId="6b971c71"></attribute>
+<attribute name="isPlanned" nodeId="d7665c5e">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="4e79c2fb">false</attribute>
+<attribute name="isOptional" nodeId="83e2e064">false</attribute>
+<attribute name="isRepeatable" nodeId="438635d0">false</attribute>
+<attribute name="isOngoing" nodeId="e4d66ba8">false</attribute>
+<attribute name="isEventDriven" nodeId="bfcbe8b9">false</attribute>
+<attribute name="variabilityType" nodeId="ad16971a">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Conduct Fit Gap Workshops" Id="_WFNZQdpFEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA,_WFNZQdpFEe6TH6yb1zVWhw" nodeId="6b0ed600" Url="process.adv.eya_oracle.base/deliveryprocesses/conduct_fit_gap_workshops_AD582591.html" Name="conduct_fit_gap_workshops" BackPath="./../../">
+<attribute name="name" nodeId="619af060">conduct_fit_gap_workshops</attribute>
+<attribute name="guid" nodeId="334675f1">_WFNZQdpFEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="b8c0e900">Conduct Fit Gap Workshops</attribute>
+<attribute name="briefDescription" nodeId="113e74e2">During each of the fit gap workshop sessions, walk the client stakeholders through the Oracle standard (out-of-the-box base) process flows as well as EY&apos;s pre-solutioned business process assets and determine their fit to the client&apos;s requirements.</attribute>
+<attribute name="suppressed" nodeId="d7b71c29">false</attribute>
+<attribute name="orderingGuide" nodeId="4198665"></attribute>
+<attribute name="isAbstract" nodeId="a169bd3a">false</attribute>
+<attribute name="shapeicon" nodeId="2c6051b"></attribute>
+<attribute name="nodeicon" nodeId="18f7c0a7"></attribute>
+<attribute name="prefix" nodeId="806a7f8d"></attribute>
+<attribute name="isPlanned" nodeId="74881470">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d14f7e3a">false</attribute>
+<attribute name="isOptional" nodeId="2cf3be45">false</attribute>
+<attribute name="isRepeatable" nodeId="523baa09">false</attribute>
+<attribute name="isOngoing" nodeId="f6739b71">false</attribute>
+<attribute name="isEventDriven" nodeId="55b26f82">false</attribute>
+<attribute name="variabilityType" nodeId="1066027a">extends</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

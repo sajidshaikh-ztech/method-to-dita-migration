@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" TypeName="Activity" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA" Url="process.adv.eya_oracle.base/capabilitypatterns/prepare_sit_F7633BE2.html" Name="prepare_sit" BackPath="./../../" Type="Activity" NodeiconUrl="" DisplayName="Prepare for System Integration Testing (SIT)" Id="_45Ha4ckfEe6KPaNasO6mNA" relProcessPath="" ShapeiconUrl="images/activity.gif" lang="en" nodeId="da4143b3">
+<attribute name="name" nodeId="97fcb290">prepare_sit</attribute>
+<attribute name="guid" nodeId="cff9ea12">_45Ha4ckfEe6KPaNasO6mNA</attribute>
+<attribute name="presentationName" nodeId="83d6ff62">Prepare for System Integration Testing (SIT)</attribute>
+<attribute name="briefDescription" nodeId="d29e428">Plan for system integration testing (SIT) cycles 1 through n based on the test strategy and design the test scenarios, cases and scripts as well as the data requirements for conducting the tests.</attribute>
+<attribute name="suppressed" nodeId="2e07b25">false</attribute>
+<attribute name="orderingGuide" nodeId="62d92808"></attribute>
+<attribute name="isAbstract" nodeId="84026efe">false</attribute>
+<attribute name="shapeicon" nodeId="856be56f"></attribute>
+<attribute name="nodeicon" nodeId="5708278e"></attribute>
+<attribute name="prefix" nodeId="1cc367b6"></attribute>
+<attribute name="isPlanned" nodeId="c7b0f40c">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="e8c9351a">false</attribute>
+<attribute name="isOptional" nodeId="1e247fb9">false</attribute>
+<attribute name="isRepeatable" nodeId="4486f715">false</attribute>
+<attribute name="isOngoing" nodeId="1c859fe">false</attribute>
+<attribute name="isEventDriven" nodeId="b98f43a0">false</attribute>
+<attribute name="variabilityType" nodeId="2a942918">na</attribute>
+<tabs nodeId="f642f027">
+<tab name="Description" nodeId="96b95715" url="process.adv.eya_oracle.base/capabilitypatterns/prepare_sit_F7633BE2.html_desc.html"></tab>
+<tab name="WPBS" nodeId="8abcb2a3" url="process.adv.eya_oracle.base/capabilitypatterns/prepare_sit_F7633BE2.html_wpbs.html"></tab>
+<tab name="TBS" nodeId="dd6bc0bc" url="process.adv.eya_oracle.base/capabilitypatterns/prepare_sit_F7633BE2.html_tbs.html"></tab>
+<tab name="WBS" nodeId="b5961c00" url="process.adv.eya_oracle.base/capabilitypatterns/prepare_sit_F7633BE2.html_wbs.html"></tab>
+</tabs>
+<copyright nodeId="787cfb4e">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<reference name="presentation" nodeId="de12c652">
+<Element Type="ActivityDescription" TypeName="Activity Description" NodeiconUrl="" DisplayName="" Id="-lxiCJGW-dmHfwiLOfsi_FQ" ShapeiconUrl="images/guidance.gif" nodeId="f3927ef3" Url="" Name="prepare_sit,_45Ha4ckfEe6KPaNasO6mNA" BackPath="">
+<attribute name="name" nodeId="5663b23">prepare_sit,_45Ha4ckfEe6KPaNasO6mNA</attribute>
+<attribute name="guid" nodeId="d984f83">-lxiCJGW-dmHfwiLOfsi_FQ</attribute>
+<attribute name="presentationName" nodeId="d7df01ca"></attribute>
+<attribute name="briefDescription" nodeId="9fb6372b"></attribute>
+<attribute name="suppressed" nodeId="155865d6">false</attribute>
+<attribute name="orderingGuide" nodeId="74dfc180"></attribute>
+<attribute name="authors" nodeId="ba4d4288"></attribute>
+<attribute name="changeDate" nodeId="78eb0a28"></attribute>
+<attribute name="changeDescription" nodeId="6f426e09"></attribute>
+<attribute name="version" nodeId="2e414b97"></attribute>
+<attribute name="mainDescription" nodeId="376db207"></attribute>
+<attribute name="externalId" nodeId="55f1269d"></attribute>
+<attribute name="keyConsiderations" nodeId="a85ee4e5"></attribute>
+<attribute name="longPresentationName" nodeId="6d5f5e2f"></attribute>
+<attribute name="usageGuidance" nodeId="6e7ea2b2"></attribute>
+<attribute name="purpose" nodeId="c98250df"></attribute>
+<attribute name="alternatives" nodeId="a94ace60"></attribute>
+<attribute name="howtoStaff" nodeId="cbc3e8c3"></attribute>
+</Element>
+</reference>
+<reference name="superActivities" nodeId="83e40a9a">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Testing" Id="_XaP3oZLKEe6Ji6GnvvUfqw" relProcessPath="_XaP3oZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw" nodeId="43b90371" Url="process.adv.eya_oracle.base/capabilitypatterns/testing_wkstrm_4068A774.html" Name="testing_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="c5f32fa2">testing_wkstrm</attribute>
+<attribute name="guid" nodeId="6cdd133e">_XaP3oZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="e580ad5e">Testing</attribute>
+<attribute name="briefDescription" nodeId="e76ab159"></attribute>
+<attribute name="suppressed" nodeId="f7018636">false</attribute>
+<attribute name="orderingGuide" nodeId="8f82c4d9"></attribute>
+<attribute name="isAbstract" nodeId="3e06b243">false</attribute>
+<attribute name="shapeicon" nodeId="5788440c"></attribute>
+<attribute name="nodeicon" nodeId="eb01aa90"></attribute>
+<attribute name="prefix" nodeId="cd22cc86">workstream</attribute>
+<attribute name="isPlanned" nodeId="23885a2f">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="720f84de">false</attribute>
+<attribute name="isOptional" nodeId="e7009303">false</attribute>
+<attribute name="isRepeatable" nodeId="421175dc">false</attribute>
+<attribute name="isOngoing" nodeId="dde5e9c6">false</attribute>
+<attribute name="isEventDriven" nodeId="6e49fee1">false</attribute>
+<attribute name="variabilityType" nodeId="d682a056">na</attribute>
+</Element>
+</reference>
+<referenceList name="VariabilityElement_ImmediateVarieties" nodeId="b18e4a9e">
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Prepare for System Integration Testing (SIT)" Id="_a02xsdplEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_a02xsdplEe6TH6yb1zVWhw" nodeId="20068d9d" Url="process.adv.eya_oracle.base/deliveryprocesses/prepare_sit_FA226AF.html" Name="prepare_sit" BackPath="./../../">
+<attribute name="name" nodeId="530133cb">prepare_sit</attribute>
+<attribute name="guid" nodeId="d3c2e80b">_a02xsdplEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="533e0590">Prepare for System Integration Testing (SIT)</attribute>
+<attribute name="briefDescription" nodeId="4e8b3367">Plan for system integration testing (SIT) cycles 1 through n based on the test strategy and design the test scenarios, cases and scripts as well as the data requirements for conducting the tests.</attribute>
+<attribute name="suppressed" nodeId="d783108e">false</attribute>
+<attribute name="orderingGuide" nodeId="19a29266"></attribute>
+<attribute name="isAbstract" nodeId="c3e241bb">false</attribute>
+<attribute name="shapeicon" nodeId="cd3681ac"></attribute>
+<attribute name="nodeicon" nodeId="54430cf"></attribute>
+<attribute name="prefix" nodeId="5b8570"></attribute>
+<attribute name="isPlanned" nodeId="28823919">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="700dd463">false</attribute>
+<attribute name="isOptional" nodeId="2fc3e70">false</attribute>
+<attribute name="isRepeatable" nodeId="df443b08">false</attribute>
+<attribute name="isOngoing" nodeId="bc9bdd3f">false</attribute>
+<attribute name="isEventDriven" nodeId="a6c7a618">false</attribute>
+<attribute name="variabilityType" nodeId="d089e4c3">extends</attribute>
+</Element>
+</referenceList>
+<breakdown name="Work Breakdown Structure" DisplayName="Prepare for System Integration Testing (SIT)" nodeId="83702b5b">
+<columns nodeId="87fcb41">
+<column id="presentation_name" label="Name" nodeId="8023f772"></column>
+<column id="steps" label="Steps" nodeId="33f7f0f0"></column>
+<column id="id" label="Index" nodeId="84d79503"></column>
+<column id="predecessors" label="Predecessors" nodeId="8524b630"></column>
+<column id="model_info" label="Model Info" nodeId="1f82e070"></column>
+<column id="type" label="Type" nodeId="c9cd476a"></column>
+<column id="prefix" label="Prefix" nodeId="d293a527"></column>
+<column id="is_planned" label="Planned" nodeId="7df692f8"></column>
+<column id="is_repeatable" label="Repeatable" nodeId="a9837b1"></column>
+<column id="is_ongoing" label="Ongoing" nodeId="ccc8198a"></column>
+<column id="is_event_driven" label="Event Driven" nodeId="a43eb2ef"></column>
+<column id="teams" label="Team" nodeId="41848679"></column>
+</columns>
+<Element TypeName="Activity" ModelInfo="extends \&apos;Design Tests, practice.ita.delv.it_test.assign/it_test\&apos;" Index="28" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_BAXyIe2lEe-socSARGFgTg" Url="process.adv.eya_oracle.base/capabilitypatterns/plan_design_tests_3CBA90A6.html" Name="plan_design_tests" BackPath="./../../" Type="Activity" NodeiconUrl="" DisplayName="Plan and Design Tests" Predecessors="" Team="" Id="_BAXyIe2lEe-socSARGFgTg" relProcessPath=",_BAXyIe2lEe-socSARGFgTg" ShapeiconUrl="images/activity.gif" ModelInfoKey="" nodeId="f1295201">
+<attribute name="name" nodeId="7fc6451c">plan_design_tests</attribute>
+<attribute name="guid" nodeId="902f3e0f">_BAXyIe2lEe-socSARGFgTg</attribute>
+<attribute name="presentationName" nodeId="367962ab">Plan and Design Tests</attribute>
+<attribute name="briefDescription" nodeId="98e7c8f7">Plan, design and prepare for system integration testing (SIT).</attribute>
+<attribute name="suppressed" nodeId="fdadf08d">false</attribute>
+<attribute name="orderingGuide" nodeId="5e2c9b7f"></attribute>
+<attribute name="isAbstract" nodeId="adb4a67e">false</attribute>
+<attribute name="shapeicon" nodeId="6da0886b"></attribute>
+<attribute name="nodeicon" nodeId="61957b45"></attribute>
+<attribute name="prefix" nodeId="c3ec51a6"></attribute>
+<attribute name="isPlanned" nodeId="55c5f26f">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d25f8dcb">false</attribute>
+<attribute name="isOptional" nodeId="b2099639">false</attribute>
+<attribute name="isRepeatable" nodeId="762401d6">false</attribute>
+<attribute name="isOngoing" nodeId="8cccee34">false</attribute>
+<attribute name="isEventDriven" nodeId="26d09f8a">false</attribute>
+<attribute name="variabilityType" nodeId="87efe235">extends</attribute>
+<attribute name="prefix" nodeId="9531378f"></attribute>
+<attribute name="isEventDriven" nodeId="1c3e20ca">false</attribute>
+<attribute name="isOngoing" nodeId="cccf2d73">false</attribute>
+<attribute name="isOptional" nodeId="9ff5ba6">false</attribute>
+<attribute name="isPlanned" nodeId="6e1fd19">true</attribute>
+<attribute name="isRepeatable" nodeId="3d620d4b">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="20f1c298">false</attribute>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="29" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_BAXyIe2lEe-socSARGFgTg,_I5-LoO2lEe-socSARGFgTg" ConcreteType="Task" Url="practice.ita.delv.test_mgmt.base/tasks/develop_test_plan_7D8DA5F9.html" Name="develop_test_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop test plan" Predecessors="" Team="" Id="_I5-LoO2lEe-socSARGFgTg" relProcessPath=",_BAXyIe2lEe-socSARGFgTg,_I5-LoO2lEe-socSARGFgTg" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="aa180cac">
+<attribute name="prefix" nodeId="2130660c"></attribute>
+<attribute name="isEventDriven" nodeId="e0e26a88">false</attribute>
+<attribute name="isOngoing" nodeId="5077eb11">false</attribute>
+<attribute name="isOptional" nodeId="b7850866">false</attribute>
+<attribute name="isPlanned" nodeId="bfc7163c">true</attribute>
+<attribute name="isRepeatable" nodeId="84f00378">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="f55f7504">false</attribute>
+<Steps nodeId="f12c6232">
+<Step index="0" nodeId="ba467c7b" selected="true"></Step>
+<Step index="1" nodeId="aa4b3e24" selected="true"></Step>
+<Step index="2" nodeId="3aeb6c3c" selected="true"></Step>
+<Step index="3" nodeId="cbae14f" selected="true"></Step>
+<Step index="4" nodeId="32d95b20" selected="true"></Step>
+<Step index="5" nodeId="9e6f7602" selected="true"></Step>
+<Step index="6" nodeId="b337c15b" selected="true"></Step>
+<Step index="7" nodeId="6ae6d67d" selected="true"></Step>
+</Steps>
+</Element>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="30" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_BAXyIe2lEe-socSARGFgTg,_bEICYGGIEeWXVev_nv_kTg" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/specify_test_environment_B6B97BD.html" Name="specify_test_environment" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Specify test environment" Predecessors="" Team="" Id="_bEICYGGIEeWXVev_nv_kTg" relProcessPath=",_BAXyIe2lEe-socSARGFgTg,_bEICYGGIEeWXVev_nv_kTg" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="29a3a170">
+<attribute name="prefix" nodeId="a08fe3f2"></attribute>
+<attribute name="isEventDriven" nodeId="ca81f23b">false</attribute>
+<attribute name="isOngoing" nodeId="cd68644f">false</attribute>
+<attribute name="isOptional" nodeId="8255f1e2">false</attribute>
+<attribute name="isPlanned" nodeId="49abc7a8">true</attribute>
+<attribute name="isRepeatable" nodeId="6d41aa67">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="a7d03c9f">false</attribute>
+<Steps nodeId="699f57bb"></Steps>
+</Element>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="31" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_BAXyIe2lEe-socSARGFgTg,_bEG0QGGIEeWXVev_nv_kTg" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/develop_test_scenarios_3315A8BB.html" Name="develop_test_scenarios" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop test scenarios" Predecessors="" Team="" Id="_bEG0QGGIEeWXVev_nv_kTg" relProcessPath=",_BAXyIe2lEe-socSARGFgTg,_bEG0QGGIEeWXVev_nv_kTg" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="65296477">
+<attribute name="prefix" nodeId="d2169270"></attribute>
+<attribute name="isEventDriven" nodeId="77ba0d74">false</attribute>
+<attribute name="isOngoing" nodeId="76ce1f3f">false</attribute>
+<attribute name="isOptional" nodeId="51532d53">false</attribute>
+<attribute name="isPlanned" nodeId="b620c282">true</attribute>
+<attribute name="isRepeatable" nodeId="7083ae25">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d69df097">false</attribute>
+<Steps nodeId="5b69220b"></Steps>
+</Element>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="32" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_BAXyIe2lEe-socSARGFgTg,_bEIpc2GIEeWXVev_nv_kTg" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/develop_test_cases_C200988A.html" Name="develop_test_cases" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop test cases" Predecessors="" Team="" Id="_bEIpc2GIEeWXVev_nv_kTg" relProcessPath=",_BAXyIe2lEe-socSARGFgTg,_bEIpc2GIEeWXVev_nv_kTg" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="2cc063d6">
+<attribute name="prefix" nodeId="fd07e281"></attribute>
+<attribute name="isEventDriven" nodeId="c5a58a30">false</attribute>
+<attribute name="isOngoing" nodeId="57da6b44">false</attribute>
+<attribute name="isOptional" nodeId="6bb91157">false</attribute>
+<attribute name="isPlanned" nodeId="4d0f5211">true</attribute>
+<attribute name="isRepeatable" nodeId="d210fb34">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="2a7aef12">false</attribute>
+<Steps nodeId="469ef088"></Steps>
+</Element>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="33" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_BAXyIe2lEe-socSARGFgTg,_bEHbUGGIEeWXVev_nv_kTg" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/develop_test_data_rqmts_B38235FD.html" Name="develop_test_data_rqmts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop test data requirements" Predecessors="" Team="" Id="_bEHbUGGIEeWXVev_nv_kTg" relProcessPath=",_BAXyIe2lEe-socSARGFgTg,_bEHbUGGIEeWXVev_nv_kTg" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="996fd17e">
+<attribute name="prefix" nodeId="9d19a05b"></attribute>
+<attribute name="isEventDriven" nodeId="27fd292b">false</attribute>
+<attribute name="isOngoing" nodeId="d34f4ae2">false</attribute>
+<attribute name="isOptional" nodeId="1315024">false</attribute>
+<attribute name="isPlanned" nodeId="8f7f3d6d">true</attribute>
+<attribute name="isRepeatable" nodeId="826a81f3">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="bf2bbbb5">false</attribute>
+<Steps nodeId="b5d0309a"></Steps>
+</Element>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="34" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_BAXyIe2lEe-socSARGFgTg,_bEE_EmGIEeWXVev_nv_kTg" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/develop_test_scripts_33684688.html" Name="develop_test_scripts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop test scripts" Predecessors="" Team="" Id="_bEE_EmGIEeWXVev_nv_kTg" relProcessPath=",_BAXyIe2lEe-socSARGFgTg,_bEE_EmGIEeWXVev_nv_kTg" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="668317d7">
+<attribute name="prefix" nodeId="37a5511f"></attribute>
+<attribute name="isEventDriven" nodeId="f92b90fa">false</attribute>
+<attribute name="isOngoing" nodeId="2f49e26d">false</attribute>
+<attribute name="isOptional" nodeId="670eab73">false</attribute>
+<attribute name="isPlanned" nodeId="51bf83c0">true</attribute>
+<attribute name="isRepeatable" nodeId="6b6a67ed">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="964d503">false</attribute>
+<Steps nodeId="d47bc08e"></Steps>
+</Element>
+</Element>
+<Element TypeName="Activity" ModelInfo="extends \&apos;Prepare for Testing, practice.ita.delv.it_test.assign/it_test\&apos;" Index="35" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_G0a-8e2mEe-socSARGFgTg" Url="process.adv.eya_oracle.base/capabilitypatterns/prep_sit_data_env_6975D26D.html" Name="prep_sit_data_env" BackPath="./../../" Type="Activity" NodeiconUrl="" DisplayName="Prepare Test Data and Environment" Predecessors="28" Team="" Id="_G0a-8e2mEe-socSARGFgTg" relProcessPath=",_G0a-8e2mEe-socSARGFgTg" ShapeiconUrl="images/activity.gif" ModelInfoKey="" nodeId="f39b8bd2">
+<attribute name="name" nodeId="c341ab53">prep_sit_data_env</attribute>
+<attribute name="guid" nodeId="d858b094">_G0a-8e2mEe-socSARGFgTg</attribute>
+<attribute name="presentationName" nodeId="1d186fc9">Prepare Test Data and Environment</attribute>
+<attribute name="briefDescription" nodeId="1cd1e9ee">Prepare and load the test data and verify that the test environment has been set up per the specifications.</attribute>
+<attribute name="suppressed" nodeId="f41580ba">false</attribute>
+<attribute name="orderingGuide" nodeId="5eb0f2b4"></attribute>
+<attribute name="isAbstract" nodeId="6003f0b1">false</attribute>
+<attribute name="shapeicon" nodeId="6f8c66c7"></attribute>
+<attribute name="nodeicon" nodeId="62421841"></attribute>
+<attribute name="prefix" nodeId="ca298cd7"></attribute>
+<attribute name="isPlanned" nodeId="896d912b">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="895203be">false</attribute>
+<attribute name="isOptional" nodeId="1d1527d6">false</attribute>
+<attribute name="isRepeatable" nodeId="5786282b">false</attribute>
+<attribute name="isOngoing" nodeId="8ae6f9a9">false</attribute>
+<attribute name="isEventDriven" nodeId="32cd0231">false</attribute>
+<attribute name="variabilityType" nodeId="ce916865">extends</attribute>
+<attribute name="prefix" nodeId="520fb9d5"></attribute>
+<attribute name="isEventDriven" nodeId="46a1702">false</attribute>
+<attribute name="isOngoing" nodeId="dd0165cc">false</attribute>
+<attribute name="isOptional" nodeId="ad759625">false</attribute>
+<attribute name="isPlanned" nodeId="660ceb9f">true</attribute>
+<attribute name="isRepeatable" nodeId="732abc1">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="4acdd292">false</attribute>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="36" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_G0a-8e2mEe-socSARGFgTg,_hW5A8GGIEeWXVev_nv_kTg" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/develop_test_exec_schedule_D9B5C878.html" Name="develop_test_exec_schedule" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop test execution schedule" Predecessors="" Team="" Id="_hW5A8GGIEeWXVev_nv_kTg" relProcessPath=",_G0a-8e2mEe-socSARGFgTg,_hW5A8GGIEeWXVev_nv_kTg" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="afccf579">
+<attribute name="prefix" nodeId="c5f4b408"></attribute>
+<attribute name="isEventDriven" nodeId="67474c21">false</attribute>
+<attribute name="isOngoing" nodeId="1d879b6a">false</attribute>
+<attribute name="isOptional" nodeId="97c1411f">false</attribute>
+<attribute name="isPlanned" nodeId="986cee1e">true</attribute>
+<attribute name="isRepeatable" nodeId="ed06857f">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="3643d75c">false</attribute>
+<Steps nodeId="71c610d3"></Steps>
+</Element>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="37" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_G0a-8e2mEe-socSARGFgTg,_hW5A9WGIEeWXVev_nv_kTg" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/prepare_load_test_data_ED88DC7B.html" Name="prepare_load_test_data" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Prepare and load test data" Predecessors="" Team="" Id="_hW5A9WGIEeWXVev_nv_kTg" relProcessPath=",_G0a-8e2mEe-socSARGFgTg,_hW5A9WGIEeWXVev_nv_kTg" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="33b50360">
+<attribute name="prefix" nodeId="6d1d8e5e"></attribute>
+<attribute name="isEventDriven" nodeId="cc8082cb">false</attribute>
+<attribute name="isOngoing" nodeId="3ac838a7">false</attribute>
+<attribute name="isOptional" nodeId="a52cfd65">false</attribute>
+<attribute name="isPlanned" nodeId="66031778">true</attribute>
+<attribute name="isRepeatable" nodeId="bbc2ab86">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="a81df1a5">false</attribute>
+<Steps nodeId="aee8e0d2"></Steps>
+</Element>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="38" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_G0a-8e2mEe-socSARGFgTg,_hW5A8WGIEeWXVev_nv_kTg" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/verify_test_environment_setup_F957F873.html" Name="verify_test_environment_setup" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Verify test environment setup" Predecessors="" Team="" Id="_hW5A8WGIEeWXVev_nv_kTg" relProcessPath=",_G0a-8e2mEe-socSARGFgTg,_hW5A8WGIEeWXVev_nv_kTg" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="f7159d21">
+<attribute name="prefix" nodeId="d47aa326"></attribute>
+<attribute name="isEventDriven" nodeId="2ad74dab">false</attribute>
+<attribute name="isOngoing" nodeId="302ecb06">false</attribute>
+<attribute name="isOptional" nodeId="9cb971c9">false</attribute>
+<attribute name="isPlanned" nodeId="8ab57223">true</attribute>
+<attribute name="isRepeatable" nodeId="1bcb568e">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="7b92aa97">false</attribute>
+<Steps nodeId="affb780b"></Steps>
+</Element>
+</Element>
+</breakdown>
+<diagrams nodeId="309dff07"></diagrams>
+<breakdown name="Team Breakdown Structure" DisplayName="Prepare for System Integration Testing (SIT)" nodeId="b4252131">
+<columns nodeId="1a8879f0">
+<column id="presentation_name" label="Name" nodeId="11c78f0e"></column>
+<column id="model_info" label="Model Info" nodeId="67053442"></column>
+<column id="teams" label="Team" nodeId="eca30fa5"></column>
+<column id="type" label="Type" nodeId="2dac0450"></column>
+<column id="prefix" label="Prefix" nodeId="76993b53"></column>
+<column id="is_planned" label="Planned" nodeId="ac40f5e4"></column>
+</columns>
+<Element TypeName="Role Descriptor" ModelInfo="" Index="" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_qGqW-a65Eeem0Ls7aownrQ" ConcreteType="Role" Url="core.default.role_def.base/roles/analyst_46D75ED7.html" Name="analyst" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Analyst" Team="" Id="_qGqW-a65Eeem0Ls7aownrQ" relProcessPath=",_qGqW-a65Eeem0Ls7aownrQ" ShapeiconUrl="images/roledes_lg_dgm32.gif" ModelInfoKey="" nodeId="7ca714b8">
+<attribute name="prefix" nodeId="8eca37bd"></attribute>
+<attribute name="isEventDriven" nodeId="82281294"></attribute>
+<attribute name="isOngoing" nodeId="c7dc7c60"></attribute>
+<attribute name="isOptional" nodeId="16fbee45">false</attribute>
+<attribute name="isPlanned" nodeId="8296ca2c">true</attribute>
+<attribute name="isRepeatable" nodeId="ba805814"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="4e916c79">false</attribute>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Additional" queryString="?proc=_NRpJ8WGIEeWXVev_nv_kTg&amp;path=_NRpJ8WGIEeWXVev_nv_kTg,_bEE_EWGIEeWXVev_nv_kTg,_bEG0QGGIEeWXVev_nv_kTg" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/develop_test_scenarios_3315A8BB.html" Name="develop_test_scenarios" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop test scenarios" Id="_bEG0QGGIEeWXVev_nv_kTg" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="additionalTasks" nodeId="f3888c75"></Element>
+</Element>
+<Element TypeName="Role Descriptor" ModelInfo="" Index="" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_I5-Loe2lEe-socSARGFgTg" ConcreteType="Role" Url="core.default.role_def.base/roles/test_lead_3E7314F5.html" Name="test_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Test Lead" Team="" Id="_I5-Loe2lEe-socSARGFgTg" relProcessPath=",_I5-Loe2lEe-socSARGFgTg" ShapeiconUrl="images/roledes_lg_dgm32.gif" ModelInfoKey="" nodeId="e8b2fde4">
+<attribute name="prefix" nodeId="b0967cac"></attribute>
+<attribute name="isEventDriven" nodeId="2b657435"></attribute>
+<attribute name="isOngoing" nodeId="42b442f7"></attribute>
+<attribute name="isOptional" nodeId="a2898804">false</attribute>
+<attribute name="isPlanned" nodeId="513f5876">true</attribute>
+<attribute name="isRepeatable" nodeId="4698a23d"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="6ad1ae15">false</attribute>
+<Element TypeName="Work Product Descriptor" ModelInfo="Modifies" queryString="?proc=_NRpJ8WGIEeWXVev_nv_kTg&amp;path=_NRpJ8WGIEeWXVev_nv_kTg,_bEE_EWGIEeWXVev_nv_kTg,_bEICYGGIEeWXVev_nv_kTg_Kme30OX3EeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_plan_4519A68.html" Name="test_plan" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Plan" Id="_bEICYGGIEeWXVev_nv_kTg_Kme30OX3EeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="Modifies" nodeId="41fff8e2"></Element>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Owner" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_BAXyIe2lEe-socSARGFgTg,_I5-LoO2lEe-socSARGFgTg" ConcreteType="Task" Url="practice.ita.delv.test_mgmt.base/tasks/develop_test_plan_7D8DA5F9.html" Name="develop_test_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop test plan" Id="_I5-LoO2lEe-socSARGFgTg" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="primaryTasks" nodeId="4390d6c8"></Element>
+</Element>
+</breakdown>
+<breakdown name="Work Product Breakdown Structure" DisplayName="Prepare for System Integration Testing (SIT)" nodeId="c9695b75">
+<columns nodeId="698b1f0e">
+<column id="presentation_name" label="Name" nodeId="f1a69f6"></column>
+<column id="model_info" label="Model Info" nodeId="98648d89"></column>
+<column id="deliverable" label="Deliverable" nodeId="fe48c4a0"></column>
+<column id="type" label="Type" nodeId="c407c0c6"></column>
+<column id="prefix" label="Prefix" nodeId="6efb6909"></column>
+<column id="is_planned" label="Planned" nodeId="86896813"></column>
+</columns>
+<Element TypeName="Work Product Slot" ModelInfo="Mandatory Input" Index="" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_bEG0QGGIEeWXVev_nv_kTg_gcF_UFTUEeWVYYddjO3kDQ" ConcreteType="Artifact" Url="core.default.slots.base/workproducts/app_design_slot_69A9242F.html" Name="app_design_slot" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="[Application Design]" Team="" Id="_bEG0QGGIEeWXVev_nv_kTg_gcF_UFTUEeWVYYddjO3kDQ" relProcessPath=",_bEG0QGGIEeWXVev_nv_kTg_gcF_UFTUEeWVYYddjO3kDQ" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="c95eea77" Deliverable="">
+<attribute name="prefix" nodeId="5c51f11d"></attribute>
+<attribute name="isEventDriven" nodeId="3b8799db"></attribute>
+<attribute name="isOngoing" nodeId="74c0ebc6"></attribute>
+<attribute name="isOptional" nodeId="ac90452c">false</attribute>
+<attribute name="isPlanned" nodeId="c9f0c251">true</attribute>
+<attribute name="isRepeatable" nodeId="e57cad78"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="e1960b2">false</attribute>
+</Element>
+<Element TypeName="Work Product Slot" ModelInfo="Mandatory Input" Index="" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_hW5A8WGIEeWXVev_nv_kTg_s-WugPsBEeOR0vuuc0PDYA" ConcreteType="Artifact" Url="core.default.slots.base/workproducts/implementation_slot_32D48DE1.html" Name="implementation_slot" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="[Implementation]" Team="" Id="_hW5A8WGIEeWXVev_nv_kTg_s-WugPsBEeOR0vuuc0PDYA" relProcessPath=",_hW5A8WGIEeWXVev_nv_kTg_s-WugPsBEeOR0vuuc0PDYA" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="c38baba1" Deliverable="">
+<attribute name="prefix" nodeId="7780ba4d"></attribute>
+<attribute name="isEventDriven" nodeId="b74ed856"></attribute>
+<attribute name="isOngoing" nodeId="1289bd3f"></attribute>
+<attribute name="isOptional" nodeId="fa67b13d">false</attribute>
+<attribute name="isPlanned" nodeId="38c24ed4">true</attribute>
+<attribute name="isRepeatable" nodeId="9474d338"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="1e3902d4">false</attribute>
+</Element>
+<Element TypeName="Work Product Slot" ModelInfo="Mandatory Input" Index="" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_bEG0QGGIEeWXVev_nv_kTg_35cwsHw0Eea7x-I3DI3_Yg" ConcreteType="Artifact" Url="core.default.slots.base/workproducts/proc_design_slot_E55B4437.html" Name="proc_design_slot" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="[Process Design]" Team="" Id="_bEG0QGGIEeWXVev_nv_kTg_35cwsHw0Eea7x-I3DI3_Yg" relProcessPath=",_bEG0QGGIEeWXVev_nv_kTg_35cwsHw0Eea7x-I3DI3_Yg" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="a9fc858d" Deliverable="">
+<attribute name="prefix" nodeId="b7c641b3"></attribute>
+<attribute name="isEventDriven" nodeId="67256c0a"></attribute>
+<attribute name="isOngoing" nodeId="27d058da"></attribute>
+<attribute name="isOptional" nodeId="65ddc7c0">false</attribute>
+<attribute name="isPlanned" nodeId="e12705ee">true</attribute>
+<attribute name="isRepeatable" nodeId="780b8f43"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="ac2bf691">false</attribute>
+</Element>
+<Element TypeName="Work Product Slot" ModelInfo="Mandatory Input" Index="" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_bEG0QGGIEeWXVev_nv_kTg_fN52YPsBEeOR0vuuc0PDYA" ConcreteType="Artifact" Url="core.default.slots.base/workproducts/rqmts_slot_A6B14D9C.html" Name="rqmts_slot" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="[Requirements]" Team="" Id="_bEG0QGGIEeWXVev_nv_kTg_fN52YPsBEeOR0vuuc0PDYA" relProcessPath=",_bEG0QGGIEeWXVev_nv_kTg_fN52YPsBEeOR0vuuc0PDYA" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="6e9c906b" Deliverable="">
+<attribute name="prefix" nodeId="9eea97"></attribute>
+<attribute name="isEventDriven" nodeId="b0def6f6"></attribute>
+<attribute name="isOngoing" nodeId="fc3b5fa4"></attribute>
+<attribute name="isOptional" nodeId="eadf1c85">false</attribute>
+<attribute name="isPlanned" nodeId="9d545805">true</attribute>
+<attribute name="isRepeatable" nodeId="646e11cb"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="28116a61">false</attribute>
+</Element>
+<Element TypeName="Work Product Slot" ModelInfo="Mandatory Input" Index="" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_bEG0QGGIEeWXVev_nv_kTg_kbiQYFTUEeWVYYddjO3kDQ" ConcreteType="Artifact" Url="core.default.slots.base/workproducts/tech_infra_design_slot_F53D9815.html" Name="tech_infra_design_slot" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="[Technical Infrastructure Design]" Team="" Id="_bEG0QGGIEeWXVev_nv_kTg_kbiQYFTUEeWVYYddjO3kDQ" relProcessPath=",_bEG0QGGIEeWXVev_nv_kTg_kbiQYFTUEeWVYYddjO3kDQ" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="be2d37d6" Deliverable="">
+<attribute name="prefix" nodeId="989085d7"></attribute>
+<attribute name="isEventDriven" nodeId="c15acc1e"></attribute>
+<attribute name="isOngoing" nodeId="e8f52551"></attribute>
+<attribute name="isOptional" nodeId="5475eee4">false</attribute>
+<attribute name="isPlanned" nodeId="d452e8cd">true</attribute>
+<attribute name="isRepeatable" nodeId="d70a3b7b"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="bc892136">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input" Index="" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_hW5A8WGIEeWXVev_nv_kTg_P1pscCcTEeSGhsstDc9s_Q" ConcreteType="Outcome" Url="core.ops.common.base/workproducts/env_built_473D4C1F.html" Name="env_built" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Environment Built" Team="" Id="_hW5A8WGIEeWXVev_nv_kTg_P1pscCcTEeSGhsstDc9s_Q" relProcessPath=",_hW5A8WGIEeWXVev_nv_kTg_P1pscCcTEeSGhsstDc9s_Q" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="b4aa58a3" Deliverable="">
+<attribute name="prefix" nodeId="f09c13ce"></attribute>
+<attribute name="isEventDriven" nodeId="bb92b89f"></attribute>
+<attribute name="isOngoing" nodeId="f04af96"></attribute>
+<attribute name="isOptional" nodeId="d6508e66">false</attribute>
+<attribute name="isPlanned" nodeId="55a1ad48">true</attribute>
+<attribute name="isRepeatable" nodeId="f945e9fd"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="f777ade2">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input" Index="" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_I5-LoO2lEe-socSARGFgTg_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Project Schedule" Team="" Id="_I5-LoO2lEe-socSARGFgTg_IK258o7DEeOoz-o29QgacA" relProcessPath=",_I5-LoO2lEe-socSARGFgTg_IK258o7DEeOoz-o29QgacA" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="bc14dcda" Deliverable="">
+<attribute name="prefix" nodeId="64195972"></attribute>
+<attribute name="isEventDriven" nodeId="3c1d3e81"></attribute>
+<attribute name="isOngoing" nodeId="48ab6301"></attribute>
+<attribute name="isOptional" nodeId="2151e787">false</attribute>
+<attribute name="isPlanned" nodeId="3e646297">true</attribute>
+<attribute name="isRepeatable" nodeId="2e3157c8"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="f586a4b1">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_bEG0QGGIEeWXVev_nv_kTg_7I8toC9GEeSJ-4uKHZ771A" ConcreteType="Artifact" Url="core.gen.common.base/workproducts/rqmts_traceability_matrix_6BABB1C5.html" Name="rqmts_traceability_matrix" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Requirements Traceability Matrix" Team="" Id="_bEG0QGGIEeWXVev_nv_kTg_7I8toC9GEeSJ-4uKHZ771A" relProcessPath=",_bEG0QGGIEeWXVev_nv_kTg_7I8toC9GEeSJ-4uKHZ771A" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="3e033aeb" Deliverable="">
+<attribute name="prefix" nodeId="ad7efaac"></attribute>
+<attribute name="isEventDriven" nodeId="a2644b4a"></attribute>
+<attribute name="isOngoing" nodeId="6eb66fa8"></attribute>
+<attribute name="isOptional" nodeId="c82ef283">false</attribute>
+<attribute name="isPlanned" nodeId="e5181b50">true</attribute>
+<attribute name="isRepeatable" nodeId="7159fe36"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="c828473a">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_bEIpc2GIEeWXVev_nv_kTg_ufvyIHncEeSYMYqbqbHk3g" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_case_8FD80E72.html" Name="test_case" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Test Case" Team="" Id="_bEIpc2GIEeWXVev_nv_kTg_ufvyIHncEeSYMYqbqbHk3g" relProcessPath=",_bEIpc2GIEeWXVev_nv_kTg_ufvyIHncEeSYMYqbqbHk3g" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="47399594" Deliverable="Functional Test Design">
+<attribute name="prefix" nodeId="9806b84c"></attribute>
+<attribute name="isEventDriven" nodeId="697ba11b"></attribute>
+<attribute name="isOngoing" nodeId="38189da0"></attribute>
+<attribute name="isOptional" nodeId="ea70657">false</attribute>
+<attribute name="isPlanned" nodeId="a7efff70">true</attribute>
+<attribute name="isRepeatable" nodeId="86bafe6c"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="4bd19537">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_bEIpc2GIEeWXVev_nv_kTg_ufvyIHncEeSYMYqbqbHk3g" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_case_8FD80E72.html" Name="test_case" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Test Case" Team="" Id="_bEIpc2GIEeWXVev_nv_kTg_ufvyIHncEeSYMYqbqbHk3g" relProcessPath=",_bEIpc2GIEeWXVev_nv_kTg_ufvyIHncEeSYMYqbqbHk3g" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="68fd5985" Deliverable="User Acceptance Testing (UAT) Plan and Design">
+<attribute name="prefix" nodeId="d0df7c78"></attribute>
+<attribute name="isEventDriven" nodeId="bc1b324d"></attribute>
+<attribute name="isOngoing" nodeId="3a7789b6"></attribute>
+<attribute name="isOptional" nodeId="810a72f9">false</attribute>
+<attribute name="isPlanned" nodeId="b1224357">true</attribute>
+<attribute name="isRepeatable" nodeId="e027cbd8"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="6fc11e0f">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_hW5A9WGIEeWXVev_nv_kTg_pV0VIOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_96A6C07E.html" Name="test_data" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Test Data" Team="" Id="_hW5A9WGIEeWXVev_nv_kTg_pV0VIOYGEeOqmb5IikO7mw" relProcessPath=",_hW5A9WGIEeWXVev_nv_kTg_pV0VIOYGEeOqmb5IikO7mw" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="e3ca1348" Deliverable="">
+<attribute name="prefix" nodeId="c799d4d8"></attribute>
+<attribute name="isEventDriven" nodeId="14eea0d"></attribute>
+<attribute name="isOngoing" nodeId="2459bb7"></attribute>
+<attribute name="isOptional" nodeId="b5b36de1">false</attribute>
+<attribute name="isPlanned" nodeId="d6fbd608">true</attribute>
+<attribute name="isRepeatable" nodeId="b7ddb638"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="9b45c260">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_bEHbUGGIEeWXVev_nv_kTg_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Test Data Requirements" Team="" Id="_bEHbUGGIEeWXVev_nv_kTg_geehAOYGEeOqmb5IikO7mw" relProcessPath=",_bEHbUGGIEeWXVev_nv_kTg_geehAOYGEeOqmb5IikO7mw" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="bb3d7cb4" Deliverable="Functional Test Design">
+<attribute name="prefix" nodeId="f4876486"></attribute>
+<attribute name="isEventDriven" nodeId="cf4bfe3f"></attribute>
+<attribute name="isOngoing" nodeId="cc7f29e0"></attribute>
+<attribute name="isOptional" nodeId="8e298d36">false</attribute>
+<attribute name="isPlanned" nodeId="60671115">true</attribute>
+<attribute name="isRepeatable" nodeId="6e688414"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="bc027b04">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_bEHbUGGIEeWXVev_nv_kTg_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Test Data Requirements" Team="" Id="_bEHbUGGIEeWXVev_nv_kTg_geehAOYGEeOqmb5IikO7mw" relProcessPath=",_bEHbUGGIEeWXVev_nv_kTg_geehAOYGEeOqmb5IikO7mw" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="92658013" Deliverable="User Acceptance Testing (UAT) Plan and Design">
+<attribute name="prefix" nodeId="a56c5fcb"></attribute>
+<attribute name="isEventDriven" nodeId="88580a9"></attribute>
+<attribute name="isOngoing" nodeId="e6818b9c"></attribute>
+<attribute name="isOptional" nodeId="632a33e2">false</attribute>
+<attribute name="isPlanned" nodeId="ba2f83ac">true</attribute>
+<attribute name="isRepeatable" nodeId="b823f0e"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="774c64b7">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Output" Index="" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_hW5A8WGIEeWXVev_nv_kTg_-tJpoOYHEeOqmb5IikO7mw" ConcreteType="Outcome" Url="core.i_t.common.base/workproducts/test_env_configured_CCD45C1A.html" Name="test_env_configured" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Test Environment Configured" Team="" Id="_hW5A8WGIEeWXVev_nv_kTg_-tJpoOYHEeOqmb5IikO7mw" relProcessPath=",_hW5A8WGIEeWXVev_nv_kTg_-tJpoOYHEeOqmb5IikO7mw" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="output" nodeId="c89da354" Deliverable="">
+<attribute name="prefix" nodeId="fa32bca7"></attribute>
+<attribute name="isEventDriven" nodeId="f675b240"></attribute>
+<attribute name="isOngoing" nodeId="bde2e191"></attribute>
+<attribute name="isOptional" nodeId="1df6a24e">false</attribute>
+<attribute name="isPlanned" nodeId="821f13b4">true</attribute>
+<attribute name="isRepeatable" nodeId="4b212b9c"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="b53af195">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_bEICYGGIEeWXVev_nv_kTg_CH4gkOYHEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_env_spec_FCDACF29.html" Name="test_env_spec" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Test Environment Specification" Team="" Id="_bEICYGGIEeWXVev_nv_kTg_CH4gkOYHEeOqmb5IikO7mw" relProcessPath=",_bEICYGGIEeWXVev_nv_kTg_CH4gkOYHEeOqmb5IikO7mw" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="d5407cf4" Deliverable="User Acceptance Testing (UAT) Plan and Design">
+<attribute name="prefix" nodeId="fc5c9c12"></attribute>
+<attribute name="isEventDriven" nodeId="3885a124"></attribute>
+<attribute name="isOngoing" nodeId="1fac283"></attribute>
+<attribute name="isOptional" nodeId="a5f703f7">false</attribute>
+<attribute name="isPlanned" nodeId="e8e0d2fb">true</attribute>
+<attribute name="isRepeatable" nodeId="4673274"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="38475bfe">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_hW5A8GGIEeWXVev_nv_kTg_n66ygOYIEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_execution_schedule_3F6252E1.html" Name="test_execution_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Test Execution Schedule" Team="" Id="_hW5A8GGIEeWXVev_nv_kTg_n66ygOYIEeOqmb5IikO7mw" relProcessPath=",_hW5A8GGIEeWXVev_nv_kTg_n66ygOYIEeOqmb5IikO7mw" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="18471774" Deliverable="">
+<attribute name="prefix" nodeId="d0b4925b"></attribute>
+<attribute name="isEventDriven" nodeId="9215eb83"></attribute>
+<attribute name="isOngoing" nodeId="ab3d05ba"></attribute>
+<attribute name="isOptional" nodeId="211fe9fb">false</attribute>
+<attribute name="isPlanned" nodeId="b7b95e0c">true</attribute>
+<attribute name="isRepeatable" nodeId="57c2ef19"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="fb49c7c0">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_bEICYGGIEeWXVev_nv_kTg_Kme30OX3EeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_plan_4519A68.html" Name="test_plan" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Test Plan" Team="" Id="_bEICYGGIEeWXVev_nv_kTg_Kme30OX3EeOqmb5IikO7mw" relProcessPath=",_bEICYGGIEeWXVev_nv_kTg_Kme30OX3EeOqmb5IikO7mw" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="1fc0cb77" Deliverable="User Acceptance Testing (UAT) Plan and Design">
+<attribute name="prefix" nodeId="9a88e457"></attribute>
+<attribute name="isEventDriven" nodeId="d357eb7d"></attribute>
+<attribute name="isOngoing" nodeId="2ecf9050"></attribute>
+<attribute name="isOptional" nodeId="83c0bccd">false</attribute>
+<attribute name="isPlanned" nodeId="c913d0f1">true</attribute>
+<attribute name="isRepeatable" nodeId="eb826788"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="78ead4cd">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_bEG0QGGIEeWXVev_nv_kTg_5czZEOYBEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_scenario_917A181F.html" Name="test_scenario" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Test Scenario" Team="" Id="_bEG0QGGIEeWXVev_nv_kTg_5czZEOYBEeOqmb5IikO7mw" relProcessPath=",_bEG0QGGIEeWXVev_nv_kTg_5czZEOYBEeOqmb5IikO7mw" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="7a2239f8" Deliverable="Functional Test Design">
+<attribute name="prefix" nodeId="cc30cdff"></attribute>
+<attribute name="isEventDriven" nodeId="e6e18ae"></attribute>
+<attribute name="isOngoing" nodeId="cc8478d1"></attribute>
+<attribute name="isOptional" nodeId="85edc17a">false</attribute>
+<attribute name="isPlanned" nodeId="9e34a46f">true</attribute>
+<attribute name="isRepeatable" nodeId="5adf01eb"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="27e20f8d">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_bEG0QGGIEeWXVev_nv_kTg_5czZEOYBEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_scenario_917A181F.html" Name="test_scenario" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Test Scenario" Team="" Id="_bEG0QGGIEeWXVev_nv_kTg_5czZEOYBEeOqmb5IikO7mw" relProcessPath=",_bEG0QGGIEeWXVev_nv_kTg_5czZEOYBEeOqmb5IikO7mw" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="27f3e7b1" Deliverable="User Acceptance Testing (UAT) Plan and Design">
+<attribute name="prefix" nodeId="6d445966"></attribute>
+<attribute name="isEventDriven" nodeId="c4880649"></attribute>
+<attribute name="isOngoing" nodeId="92a95655"></attribute>
+<attribute name="isOptional" nodeId="7d93e620">false</attribute>
+<attribute name="isPlanned" nodeId="d1c09ede">true</attribute>
+<attribute name="isRepeatable" nodeId="37ef741a"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="155fb87a">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_bEE_EmGIEeWXVev_nv_kTg_7HV9YOYDEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_script_43C76873.html" Name="test_script" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Test Script" Team="" Id="_bEE_EmGIEeWXVev_nv_kTg_7HV9YOYDEeOqmb5IikO7mw" relProcessPath=",_bEE_EmGIEeWXVev_nv_kTg_7HV9YOYDEeOqmb5IikO7mw" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="10fa3b43" Deliverable="Functional Test Design">
+<attribute name="prefix" nodeId="355ab83d"></attribute>
+<attribute name="isEventDriven" nodeId="76aba789"></attribute>
+<attribute name="isOngoing" nodeId="c8338d42"></attribute>
+<attribute name="isOptional" nodeId="8175b97">false</attribute>
+<attribute name="isPlanned" nodeId="1de9c963">true</attribute>
+<attribute name="isRepeatable" nodeId="74ee7cd3"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="dc0fa459">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_bEE_EmGIEeWXVev_nv_kTg_7HV9YOYDEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_script_43C76873.html" Name="test_script" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Test Script" Team="" Id="_bEE_EmGIEeWXVev_nv_kTg_7HV9YOYDEeOqmb5IikO7mw" relProcessPath=",_bEE_EmGIEeWXVev_nv_kTg_7HV9YOYDEeOqmb5IikO7mw" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="b6c20576" Deliverable="User Acceptance Testing (UAT) Plan and Design">
+<attribute name="prefix" nodeId="96e78590"></attribute>
+<attribute name="isEventDriven" nodeId="b4b1cde1"></attribute>
+<attribute name="isOngoing" nodeId="4b18d28a"></attribute>
+<attribute name="isOptional" nodeId="e080be5f">false</attribute>
+<attribute name="isPlanned" nodeId="1539ec19">true</attribute>
+<attribute name="isRepeatable" nodeId="a3051f04"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="2033f5aa">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input" Index="" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_bEICYGGIEeWXVev_nv_kTg_NqXr8OW9EeOeOeyRJA3ZBg" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_strategy_603DD4BD.html" Name="test_strategy" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Test Strategy" Team="" Id="_bEICYGGIEeWXVev_nv_kTg_NqXr8OW9EeOeOeyRJA3ZBg" relProcessPath=",_bEICYGGIEeWXVev_nv_kTg_NqXr8OW9EeOeOeyRJA3ZBg" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="8ac0d741" Deliverable="">
+<attribute name="prefix" nodeId="f9a10956"></attribute>
+<attribute name="isEventDriven" nodeId="4b6f6359"></attribute>
+<attribute name="isOngoing" nodeId="71cdb3c2"></attribute>
+<attribute name="isOptional" nodeId="97f0a70d">false</attribute>
+<attribute name="isPlanned" nodeId="23d8e8d4">true</attribute>
+<attribute name="isRepeatable" nodeId="3592e12d"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="899ba60b">false</attribute>
+</Element>
+</breakdown>
+</Element>

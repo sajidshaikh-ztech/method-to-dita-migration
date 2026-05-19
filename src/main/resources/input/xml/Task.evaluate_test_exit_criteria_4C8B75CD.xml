@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" TypeName="Task" Url="practice.ita.delv.test_mgmt.base/tasks/evaluate_test_exit_criteria_4C8B75CD.html" Name="evaluate_test_exit_criteria" BackPath="./../../" Type="Task" NodeiconUrl="" performingRoleName="Test Lead" DisplayName="Evaluate test exit criteria" Id="_3pTmQIBAEeSnjIKMFkkdjQ" ShapeiconUrl="images/task.gif" lang="en" nodeId="f6b3e567">
+<copyright nodeId="5013445f">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="dcb25ba4">evaluate_test_exit_criteria</attribute>
+<attribute name="guid" nodeId="e3eba8c0">_3pTmQIBAEeSnjIKMFkkdjQ</attribute>
+<attribute name="presentationName" nodeId="d44e9f2c">Evaluate test exit criteria</attribute>
+<attribute name="briefDescription" nodeId="24ccafb8">Validate that the exit criteria defined in the test strategy is fulfilled.</attribute>
+<attribute name="suppressed" nodeId="5dd0e64">false</attribute>
+<attribute name="orderingGuide" nodeId="dd87a8be"></attribute>
+<attribute name="isAbstract" nodeId="ff1c6398">false</attribute>
+<attribute name="shapeicon" nodeId="4a55a86b"></attribute>
+<attribute name="nodeicon" nodeId="b35f94da"></attribute>
+<attribute name="variabilityType" nodeId="76ba5101">na</attribute>
+<reference name="presentation" nodeId="10ad6875">
+<Element Type="TaskDescription" TypeName="Task Description" NodeiconUrl="" DisplayName="Evaluate test exit criteria" Id="-_WQmgpCQGpRAA7V-F5oCsw" ShapeiconUrl="images/guidance.gif" nodeId="b32f592b" Url="" Name="evaluate_test_level_exit_criteria,_3pTmQIBAEeSnjIKMFkkdjQ" BackPath="">
+<copyright nodeId="5e56b2cc">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="3c5b9a1d">evaluate_test_level_exit_criteria,_3pTmQIBAEeSnjIKMFkkdjQ</attribute>
+<attribute name="guid" nodeId="43cef99a">-_WQmgpCQGpRAA7V-F5oCsw</attribute>
+<attribute name="presentationName" nodeId="d5b47cb4">Evaluate test exit criteria</attribute>
+<attribute name="briefDescription" nodeId="1a53146"></attribute>
+<attribute name="suppressed" nodeId="51a309a3">false</attribute>
+<attribute name="orderingGuide" nodeId="9e4a4164"></attribute>
+<attribute name="authors" nodeId="8898d21f">process.adv.gdwr_cc.base</attribute>
+<attribute name="changeDate" nodeId="3b52ead0">Sat Apr 14 13:25:26 EDT 2018</attribute>
+<attribute name="changeDescription" nodeId="17a2b1dd">APR 2018 - removed Guidwire specific languageJ|AN 2017 - promoted from Guidewire|JUN 2015 - baseline version</attribute>
+<attribute name="version" nodeId="bf3a5f56"></attribute>
+<attribute name="mainDescription" nodeId="10bbae9f">The exit criteria for each test phase will be defined in the test strategy. Each exit criteria item will be validated
+against the actual data or testing task result.&lt;br /&gt;
+&lt;br /&gt;
+The following are exit criteria items to evaluate:&lt;br /&gt;
+• Test execution &amp;gt; X% &lt;br /&gt;
+• Test cases passed &amp;gt;Y%&lt;br /&gt;
+• Number of open defects by severity&lt;br /&gt;
+• All open defects are reviewed and signed off by the business team&lt;br /&gt;</attribute>
+<attribute name="externalId" nodeId="8300e1d4"></attribute>
+<attribute name="keyConsiderations" nodeId="4dd9de7b"></attribute>
+<attribute name="longPresentationName" nodeId="f927ad2e"></attribute>
+<attribute name="purpose" nodeId="557f9037">To validate that the exit criteria defined in the test strategy is met and the test execution completion&amp;nbsp;can be signed
+off and further testing started or test closure performed.</attribute>
+<attribute name="alternatives" nodeId="74ca8776"></attribute>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="performedBy" nodeId="bbec8de9">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Test Lead" Id="_Z11mxD8eEeOOEPaNsP0t0A" ShapeiconUrl="images/role.gif" nodeId="3199a8a0" Url="core.default.role_def.base/roles/test_lead_3E7314F5.html" Name="test_lead" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="mandatoryInput" nodeId="6369f809">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Defect Tracker" Id="_1QgeIOYJEeOqmb5IikO7mw" ShapeiconUrl="images/artifact.gif" nodeId="24f699a7" Url="core.i_t.common.base/workproducts/defect_tracker_1B140F53.html" Name="defect_tracker" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Test Dashboard" Id="__R1OkOYIEeOqmb5IikO7mw" ShapeiconUrl="images/artifact.gif" nodeId="567ddf0c" Url="core.i_t.common.base/workproducts/test_dashboard_8C718CA3.html" Name="test_dashboard" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Test Logs" Id="_UB49IOYJEeOqmb5IikO7mw" ShapeiconUrl="images/artifact.gif" nodeId="73c041f1" Url="core.i_t.common.base/workproducts/test_logs_CA656907.html" Name="test_logs" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Test Plan" Id="_Kme30OX3EeOqmb5IikO7mw" ShapeiconUrl="images/artifact.gif" nodeId="629bce42" Url="core.i_t.common.base/workproducts/test_plan_4519A68.html" Name="test_plan" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Test Strategy" Id="_NqXr8OW9EeOeOeyRJA3ZBg" ShapeiconUrl="images/artifact.gif" nodeId="9f16574e" Url="core.i_t.common.base/workproducts/test_strategy_603DD4BD.html" Name="test_strategy" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="output" nodeId="c7865443">
+<Element ShowFullMethodContent="false" Type="Outcome" TypeName="Outcome" NodeiconUrl="" DisplayName="Testing Completed" Id="_6nQwwEivEeiSUs2Le4pG9g" ShapeiconUrl="images/outcome.gif" nodeId="335b7179" Url="practice.ita.delv.test_mgmt.base/workproducts/testing_completed_11A99D2E.html" Name="testing_completed" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="Task_TaskDescriptors" nodeId="bdb1543a">
+<Element TypeName="Task Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_rk-WkclnEe6KPaNasO6mNA,_JEuZIMloEe6KPaNasO6mNA" ConcreteType="Task" Url="practice.ita.delv.test_mgmt.base/tasks/evaluate_test_exit_criteria_4C8B75CD.html" Name="evaluate_test_exit_criteria" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Evaluate test exit criteria" Id="_JEuZIMloEe6KPaNasO6mNA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="23b2d291"></Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_SPMxYMl4Ee6KPaNasO6mNA,_SPNYcMl4Ee6KPaNasO6mNA" ConcreteType="Task" Url="practice.ita.delv.test_mgmt.base/tasks/evaluate_test_exit_criteria_4C8B75CD.html" Name="evaluate_test_exit_criteria" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Evaluate test exit criteria" Id="_SPNYcMl4Ee6KPaNasO6mNA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="bc7df84f"></Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_wWob4MPOEe6pmdl9Vi4qww,_r6Y6Ee2oEe-socSARGFgTg,_AX7VQO2pEe-socSARGFgTg" ConcreteType="Task" Url="practice.ita.delv.test_mgmt.base/tasks/evaluate_test_exit_criteria_4C8B75CD.html" Name="evaluate_test_exit_criteria" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Evaluate test exit criteria" Id="_AX7VQO2pEe-socSARGFgTg" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="68b8f823"></Element>
+</referenceList>
+<reference name="performingRole" nodeId="72f92032">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Test Lead" Id="_Z11mxD8eEeOOEPaNsP0t0A" ShapeiconUrl="images/role.gif" nodeId="a038524a" Url="core.default.role_def.base/roles/test_lead_3E7314F5.html" Name="test_lead" BackPath="./../../"></Element>
+</reference>
+<referenceList name="customCategories" nodeId="4a98fa3">
+<Element Type="CustomCategory" TypeName="Custom Category" NodeiconUrl="" DisplayName="Tasks" Id="_0Sj48KDNEeOMmqbYX27PPA" ShapeiconUrl="core.default.nav_view.base/customcategories/resources/cat_task51.png" nodeId="658f2fbe" Url="core.default.nav_view.base/customcategories/task_list_CDC9CEA6.html" Name="task_list" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="8bca9ebb">
+<Element TypeName="Task Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_rk-WkclnEe6KPaNasO6mNA,_JEuZIMloEe6KPaNasO6mNA" ConcreteType="Task" Url="practice.ita.delv.test_mgmt.base/tasks/evaluate_test_exit_criteria_4C8B75CD.html" Name="evaluate_test_exit_criteria" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Evaluate test exit criteria" Id="_JEuZIMloEe6KPaNasO6mNA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="72c56253">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Testing" Id="_XaP3oZLKEe6Ji6GnvvUfqw" relProcessPath="_XaP3oZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw" nodeId="3d8e02ac" Url="process.adv.eya_oracle.base/capabilitypatterns/testing_wkstrm_4068A774.html" Name="testing_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="ccdf3ca1">testing_wkstrm</attribute>
+<attribute name="guid" nodeId="eaed6926">_XaP3oZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="6f645e53">Testing</attribute>
+<attribute name="briefDescription" nodeId="32d1bee9"></attribute>
+<attribute name="suppressed" nodeId="310d3879">false</attribute>
+<attribute name="orderingGuide" nodeId="f28aaf55"></attribute>
+<attribute name="isAbstract" nodeId="c1a5a883">false</attribute>
+<attribute name="shapeicon" nodeId="a549d536"></attribute>
+<attribute name="nodeicon" nodeId="21116a03"></attribute>
+<attribute name="prefix" nodeId="abfe686d">workstream</attribute>
+<attribute name="isPlanned" nodeId="4d6f0a7a">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="e7c6e244">false</attribute>
+<attribute name="isOptional" nodeId="c2806a9a">false</attribute>
+<attribute name="isRepeatable" nodeId="c795a5d3">false</attribute>
+<attribute name="isOngoing" nodeId="b55835e8">false</attribute>
+<attribute name="isEventDriven" nodeId="86724994">false</attribute>
+<attribute name="variabilityType" nodeId="ca6acd47">na</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Conduct System Integration Testing (SIT)" Id="_rk-WkclnEe6KPaNasO6mNA" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_rk-WkclnEe6KPaNasO6mNA" nodeId="a01a896c" Url="process.adv.eya_oracle.base/capabilitypatterns/conduct_sit_A9158E9B.html" Name="conduct_sit" BackPath="./../../">
+<attribute name="name" nodeId="49154708">conduct_sit</attribute>
+<attribute name="guid" nodeId="34f75963">_rk-WkclnEe6KPaNasO6mNA</attribute>
+<attribute name="presentationName" nodeId="64e4ca86">Conduct System Integration Testing (SIT)</attribute>
+<attribute name="briefDescription" nodeId="3a5f8619">Perform system integration test (SIT) cycles 1 through n per the test strategy. </attribute>
+<attribute name="suppressed" nodeId="6891555e">false</attribute>
+<attribute name="orderingGuide" nodeId="cd09fc86"></attribute>
+<attribute name="isAbstract" nodeId="c74407fe">false</attribute>
+<attribute name="shapeicon" nodeId="c38a6305"></attribute>
+<attribute name="nodeicon" nodeId="9a66cdc0"></attribute>
+<attribute name="prefix" nodeId="a78a8824"></attribute>
+<attribute name="isPlanned" nodeId="b52d2bcb">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="6f78ae5">false</attribute>
+<attribute name="isOptional" nodeId="ed887b41">false</attribute>
+<attribute name="isRepeatable" nodeId="379091c2">true</attribute>
+<attribute name="isOngoing" nodeId="b86c08">false</attribute>
+<attribute name="isEventDriven" nodeId="4dff6c99">false</attribute>
+<attribute name="variabilityType" nodeId="9fbf6447">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_rk-WkclnEe6KPaNasO6mNA,_JEuZIMloEe6KPaNasO6mNA" ConcreteType="Task" Url="practice.ita.delv.test_mgmt.base/tasks/evaluate_test_exit_criteria_4C8B75CD.html" Name="evaluate_test_exit_criteria" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Evaluate test exit criteria" Id="_JEuZIMloEe6KPaNasO6mNA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="e281efa6">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="2ac0b516" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="415f9a66">eya_oracle</attribute>
+<attribute name="guid" nodeId="59cadd3a">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="867ce7c">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="ecd82c3d"></attribute>
+<attribute name="suppressed" nodeId="9182164d">false</attribute>
+<attribute name="orderingGuide" nodeId="8b60264"></attribute>
+<attribute name="isAbstract" nodeId="e52e7772">false</attribute>
+<attribute name="shapeicon" nodeId="9e45a78"></attribute>
+<attribute name="nodeicon" nodeId="1e9ada98"></attribute>
+<attribute name="prefix" nodeId="cd593bc7"></attribute>
+<attribute name="isPlanned" nodeId="893dc430">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="9c4eb107">false</attribute>
+<attribute name="isOptional" nodeId="16abf3d1">false</attribute>
+<attribute name="isRepeatable" nodeId="ec04c7b4">false</attribute>
+<attribute name="isOngoing" nodeId="86dcf9f4">false</attribute>
+<attribute name="isEventDriven" nodeId="a420be13">false</attribute>
+<attribute name="variabilityType" nodeId="57eba99e">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Test" Id="_esTcsYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA" nodeId="4c5c1f49" Url="process.adv.eya_oracle.base/deliveryprocesses/test_E5EB30E9.html" Name="test" BackPath="./../../">
+<attribute name="name" nodeId="19aca8">test</attribute>
+<attribute name="guid" nodeId="c936119c">_esTcsYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="107d8162">Test</attribute>
+<attribute name="briefDescription" nodeId="eb73513a">Perform tests on the integrated Oracle services solution and prepare for cutover and deployment. Additionally, design and prepare training materials.</attribute>
+<attribute name="suppressed" nodeId="da1317a3">false</attribute>
+<attribute name="orderingGuide" nodeId="c41f8df"></attribute>
+<attribute name="isAbstract" nodeId="b8a4fa26">false</attribute>
+<attribute name="shapeicon" nodeId="50eed238"></attribute>
+<attribute name="nodeicon" nodeId="50db81e1"></attribute>
+<attribute name="prefix" nodeId="f4c7670a"></attribute>
+<attribute name="isPlanned" nodeId="f4142fcc">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="23bd3288">false</attribute>
+<attribute name="isOptional" nodeId="7d730902">false</attribute>
+<attribute name="isRepeatable" nodeId="30039660">false</attribute>
+<attribute name="isOngoing" nodeId="e408003b">false</attribute>
+<attribute name="isEventDriven" nodeId="6300585d">false</attribute>
+<attribute name="variabilityType" nodeId="d74c6b53">na</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Conduct System Integration Testing (SIT)" Id="_h5NTkTGsEe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_h5NTkTGsEe-TauTqJPNl_g" nodeId="9be5008b" Url="process.adv.eya_oracle.base/deliveryprocesses/conduct_sit_DC87AE6B.html" Name="conduct_sit" BackPath="./../../">
+<attribute name="name" nodeId="219ee9fb">conduct_sit</attribute>
+<attribute name="guid" nodeId="8af73f0c">_h5NTkTGsEe-TauTqJPNl_g</attribute>
+<attribute name="presentationName" nodeId="574ab92f">Conduct System Integration Testing (SIT)</attribute>
+<attribute name="briefDescription" nodeId="84917f17">Perform system integration test (SIT) cycles 1 through n per the test strategy. </attribute>
+<attribute name="suppressed" nodeId="622e14fc">false</attribute>
+<attribute name="orderingGuide" nodeId="b99ddd90"></attribute>
+<attribute name="isAbstract" nodeId="ceb36583">false</attribute>
+<attribute name="shapeicon" nodeId="3f8335ab"></attribute>
+<attribute name="nodeicon" nodeId="6f1ddbb1"></attribute>
+<attribute name="prefix" nodeId="f41a8f1d"></attribute>
+<attribute name="isPlanned" nodeId="a5e038c">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="b17a6d63">false</attribute>
+<attribute name="isOptional" nodeId="b0ac4bde">false</attribute>
+<attribute name="isRepeatable" nodeId="1d31f77">true</attribute>
+<attribute name="isOngoing" nodeId="d0e42530">false</attribute>
+<attribute name="isEventDriven" nodeId="8a55d260">false</attribute>
+<attribute name="variabilityType" nodeId="c7176a1e">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_SPMxYMl4Ee6KPaNasO6mNA,_SPNYcMl4Ee6KPaNasO6mNA" ConcreteType="Task" Url="practice.ita.delv.test_mgmt.base/tasks/evaluate_test_exit_criteria_4C8B75CD.html" Name="evaluate_test_exit_criteria" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Evaluate test exit criteria" Id="_SPNYcMl4Ee6KPaNasO6mNA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="6142fb2d">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Testing" Id="_XaP3oZLKEe6Ji6GnvvUfqw" relProcessPath="_XaP3oZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw" nodeId="102dccd5" Url="process.adv.eya_oracle.base/capabilitypatterns/testing_wkstrm_4068A774.html" Name="testing_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="1ccdde17">testing_wkstrm</attribute>
+<attribute name="guid" nodeId="ddc3f3a6">_XaP3oZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="66ebdd38">Testing</attribute>
+<attribute name="briefDescription" nodeId="63ea6cf1"></attribute>
+<attribute name="suppressed" nodeId="1a5a5c2f">false</attribute>
+<attribute name="orderingGuide" nodeId="5b6d8b94"></attribute>
+<attribute name="isAbstract" nodeId="c4d2e70e">false</attribute>
+<attribute name="shapeicon" nodeId="1a9ad696"></attribute>
+<attribute name="nodeicon" nodeId="c34e3610"></attribute>
+<attribute name="prefix" nodeId="5f0878e7">workstream</attribute>
+<attribute name="isPlanned" nodeId="3d1fda6e">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="9b9afb89">false</attribute>
+<attribute name="isOptional" nodeId="d5351863">false</attribute>
+<attribute name="isRepeatable" nodeId="14bad1c0">false</attribute>
+<attribute name="isOngoing" nodeId="6bfa50cc">false</attribute>
+<attribute name="isEventDriven" nodeId="1cfeca24">false</attribute>
+<attribute name="variabilityType" nodeId="745d8b4f">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Conduct Performance Testing" Id="_SPMxYMl4Ee6KPaNasO6mNA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_SPMxYMl4Ee6KPaNasO6mNA" nodeId="5aa5afe" Url="process.adv.eya_oracle.base/capabilitypatterns/conduct_performance_testing_65626982.html" Name="conduct_performance_testing" BackPath="./../../">
+<attribute name="name" nodeId="7733ab03">conduct_performance_testing</attribute>
+<attribute name="guid" nodeId="ce9db323">_SPMxYMl4Ee6KPaNasO6mNA</attribute>
+<attribute name="presentationName" nodeId="35961ff0">Conduct Performance Testing</attribute>
+<attribute name="briefDescription" nodeId="2e7167ac">Based on the agreed upon scope for performance testing, test the resource usage, speed, effectiveness, stability and scalability of the target state solution.</attribute>
+<attribute name="suppressed" nodeId="83280520">false</attribute>
+<attribute name="orderingGuide" nodeId="5f7cd202"></attribute>
+<attribute name="isAbstract" nodeId="2ec40e4e">false</attribute>
+<attribute name="shapeicon" nodeId="5f38538c"></attribute>
+<attribute name="nodeicon" nodeId="d53dfd85"></attribute>
+<attribute name="prefix" nodeId="c2850051"></attribute>
+<attribute name="isPlanned" nodeId="7fe95ff9">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="c274ef63">false</attribute>
+<attribute name="isOptional" nodeId="f297057">false</attribute>
+<attribute name="isRepeatable" nodeId="bbf4a613">false</attribute>
+<attribute name="isOngoing" nodeId="a3ca59f0">false</attribute>
+<attribute name="isEventDriven" nodeId="ea25b0a">false</attribute>
+<attribute name="variabilityType" nodeId="3fc1a24e">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_SPMxYMl4Ee6KPaNasO6mNA,_SPNYcMl4Ee6KPaNasO6mNA" ConcreteType="Task" Url="practice.ita.delv.test_mgmt.base/tasks/evaluate_test_exit_criteria_4C8B75CD.html" Name="evaluate_test_exit_criteria" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Evaluate test exit criteria" Id="_SPNYcMl4Ee6KPaNasO6mNA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="2f47d080">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="4918f40b" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="d6d623fd">eya_oracle</attribute>
+<attribute name="guid" nodeId="272bb5d4">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="ede500ef">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="f8ab0c29"></attribute>
+<attribute name="suppressed" nodeId="59f5e423">false</attribute>
+<attribute name="orderingGuide" nodeId="6d688186"></attribute>
+<attribute name="isAbstract" nodeId="6a3e710">false</attribute>
+<attribute name="shapeicon" nodeId="da923dd"></attribute>
+<attribute name="nodeicon" nodeId="c6c1b1b"></attribute>
+<attribute name="prefix" nodeId="ca623754"></attribute>
+<attribute name="isPlanned" nodeId="4c0ba80b">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="ecc0e399">false</attribute>
+<attribute name="isOptional" nodeId="3b49e22d">false</attribute>
+<attribute name="isRepeatable" nodeId="2cb6cadb">false</attribute>
+<attribute name="isOngoing" nodeId="ba7c39bc">false</attribute>
+<attribute name="isEventDriven" nodeId="5693624a">false</attribute>
+<attribute name="variabilityType" nodeId="cc2ac600">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Test" Id="_esTcsYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA" nodeId="bfc7b405" Url="process.adv.eya_oracle.base/deliveryprocesses/test_E5EB30E9.html" Name="test" BackPath="./../../">
+<attribute name="name" nodeId="4ac715b">test</attribute>
+<attribute name="guid" nodeId="c1e5e7cb">_esTcsYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="3bec48f6">Test</attribute>
+<attribute name="briefDescription" nodeId="cae77ffc">Perform tests on the integrated Oracle services solution and prepare for cutover and deployment. Additionally, design and prepare training materials.</attribute>
+<attribute name="suppressed" nodeId="ad3de12f">false</attribute>
+<attribute name="orderingGuide" nodeId="3ca23081"></attribute>
+<attribute name="isAbstract" nodeId="4fa75abc">false</attribute>
+<attribute name="shapeicon" nodeId="8d3bfefb"></attribute>
+<attribute name="nodeicon" nodeId="546e0cb1"></attribute>
+<attribute name="prefix" nodeId="9156edb6"></attribute>
+<attribute name="isPlanned" nodeId="a32c4b98">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="993e4bee">false</attribute>
+<attribute name="isOptional" nodeId="3dfa7825">false</attribute>
+<attribute name="isRepeatable" nodeId="42d2fe4">false</attribute>
+<attribute name="isOngoing" nodeId="2851f38d">false</attribute>
+<attribute name="isEventDriven" nodeId="cbf3c42e">false</attribute>
+<attribute name="variabilityType" nodeId="64510c1a">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Conduct Performance Testing" Id="_DRhGoTGuEe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_DRhGoTGuEe-TauTqJPNl_g" nodeId="97c8003d" Url="process.adv.eya_oracle.base/deliveryprocesses/conduct_performance_testing_39D46B83.html" Name="conduct_performance_testing" BackPath="./../../">
+<attribute name="name" nodeId="dd394c4f">conduct_performance_testing</attribute>
+<attribute name="guid" nodeId="c6a687be">_DRhGoTGuEe-TauTqJPNl_g</attribute>
+<attribute name="presentationName" nodeId="45234e51">Conduct Performance Testing</attribute>
+<attribute name="briefDescription" nodeId="41e88ea3">Based on the agreed upon scope for performance testing, test the resource usage, speed, effectiveness, stability and scalability of the target state solution.</attribute>
+<attribute name="suppressed" nodeId="89a868a2">false</attribute>
+<attribute name="orderingGuide" nodeId="4d728f6e"></attribute>
+<attribute name="isAbstract" nodeId="8a9e7629">false</attribute>
+<attribute name="shapeicon" nodeId="71c5cfb2"></attribute>
+<attribute name="nodeicon" nodeId="8bfc3103"></attribute>
+<attribute name="prefix" nodeId="3e14d246"></attribute>
+<attribute name="isPlanned" nodeId="79c7f1de">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="20134dc0">false</attribute>
+<attribute name="isOptional" nodeId="31fcf586">false</attribute>
+<attribute name="isRepeatable" nodeId="7d416cee">false</attribute>
+<attribute name="isOngoing" nodeId="20cb1cb3">false</attribute>
+<attribute name="isEventDriven" nodeId="5d73819f">false</attribute>
+<attribute name="variabilityType" nodeId="3ebaaaa1">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_wWob4MPOEe6pmdl9Vi4qww,_r6Y6Ee2oEe-socSARGFgTg,_AX7VQO2pEe-socSARGFgTg" ConcreteType="Task" Url="practice.ita.delv.test_mgmt.base/tasks/evaluate_test_exit_criteria_4C8B75CD.html" Name="evaluate_test_exit_criteria" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Evaluate test exit criteria" Id="_AX7VQO2pEe-socSARGFgTg" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="a9a4fe5">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Testing" Id="_XaP3oZLKEe6Ji6GnvvUfqw" relProcessPath="_XaP3oZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw" nodeId="7f756e30" Url="process.adv.eya_oracle.base/capabilitypatterns/testing_wkstrm_4068A774.html" Name="testing_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="674ec449">testing_wkstrm</attribute>
+<attribute name="guid" nodeId="962864f4">_XaP3oZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="6e024d86">Testing</attribute>
+<attribute name="briefDescription" nodeId="3b7f5a90"></attribute>
+<attribute name="suppressed" nodeId="68186c7c">false</attribute>
+<attribute name="orderingGuide" nodeId="26e34d7d"></attribute>
+<attribute name="isAbstract" nodeId="25ba9f5b">false</attribute>
+<attribute name="shapeicon" nodeId="4ba6266b"></attribute>
+<attribute name="nodeicon" nodeId="443a8b58"></attribute>
+<attribute name="prefix" nodeId="44ab6e67">workstream</attribute>
+<attribute name="isPlanned" nodeId="10c65f3f">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="9749c980">false</attribute>
+<attribute name="isOptional" nodeId="666e6264">false</attribute>
+<attribute name="isRepeatable" nodeId="d9068f04">false</attribute>
+<attribute name="isOngoing" nodeId="e17ae7ca">false</attribute>
+<attribute name="isEventDriven" nodeId="808de22c">false</attribute>
+<attribute name="variabilityType" nodeId="60b83adc">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Conduct User Acceptance Testing (UAT)" Id="_wWob4MPOEe6pmdl9Vi4qww" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_wWob4MPOEe6pmdl9Vi4qww" nodeId="347df5f3" Url="process.adv.eya_oracle.base/capabilitypatterns/conduct_uat_CADBAA58.html" Name="conduct_uat" BackPath="./../../">
+<attribute name="name" nodeId="41268a39">conduct_uat</attribute>
+<attribute name="guid" nodeId="d4ee0539">_wWob4MPOEe6pmdl9Vi4qww</attribute>
+<attribute name="presentationName" nodeId="3b6f25b4">Conduct User Acceptance Testing (UAT)</attribute>
+<attribute name="briefDescription" nodeId="c7417655">Prepare for and execute user acceptance testing (UAT) per the defined schedule.</attribute>
+<attribute name="suppressed" nodeId="c4eb4444">false</attribute>
+<attribute name="orderingGuide" nodeId="22af2ec9"></attribute>
+<attribute name="isAbstract" nodeId="de58275d">false</attribute>
+<attribute name="shapeicon" nodeId="58a006db"></attribute>
+<attribute name="nodeicon" nodeId="33e85579"></attribute>
+<attribute name="prefix" nodeId="411f8bb6"></attribute>
+<attribute name="isPlanned" nodeId="56c6a129">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="529051ae">false</attribute>
+<attribute name="isOptional" nodeId="833d47e0">false</attribute>
+<attribute name="isRepeatable" nodeId="bf4ad7e">false</attribute>
+<attribute name="isOngoing" nodeId="6df2a034">false</attribute>
+<attribute name="isEventDriven" nodeId="14a3ea8a">false</attribute>
+<attribute name="variabilityType" nodeId="aad31398">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Conduct Testing" Id="_r6Y6Ee2oEe-socSARGFgTg" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_wWob4MPOEe6pmdl9Vi4qww,_r6Y6Ee2oEe-socSARGFgTg" nodeId="c0d970c6" Url="process.adv.eya_oracle.base/capabilitypatterns/conduct_uat_FA8FF90E.html" Name="conduct_uat" BackPath="./../../">
+<attribute name="name" nodeId="3315aa85">conduct_uat</attribute>
+<attribute name="guid" nodeId="5219bebe">_r6Y6Ee2oEe-socSARGFgTg</attribute>
+<attribute name="presentationName" nodeId="d37982bd">Conduct Testing</attribute>
+<attribute name="briefDescription" nodeId="b7414065">Confirm the list of business users who will perform the user acceptance testing (UAT) and conduct the tests.</attribute>
+<attribute name="suppressed" nodeId="4c7a25cc">false</attribute>
+<attribute name="orderingGuide" nodeId="38fcfb7b"></attribute>
+<attribute name="isAbstract" nodeId="a0a6dcae">false</attribute>
+<attribute name="shapeicon" nodeId="5c2dc36"></attribute>
+<attribute name="nodeicon" nodeId="dd95fc22"></attribute>
+<attribute name="prefix" nodeId="de46e08a"></attribute>
+<attribute name="isPlanned" nodeId="b7aa4982">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="4ab5a0c7">false</attribute>
+<attribute name="isOptional" nodeId="8bec80c4">false</attribute>
+<attribute name="isRepeatable" nodeId="afb83b00">false</attribute>
+<attribute name="isOngoing" nodeId="ebb004e0">false</attribute>
+<attribute name="isEventDriven" nodeId="9bb5b29b">false</attribute>
+<attribute name="variabilityType" nodeId="f17295cd">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_wWob4MPOEe6pmdl9Vi4qww,_r6Y6Ee2oEe-socSARGFgTg,_AX7VQO2pEe-socSARGFgTg" ConcreteType="Task" Url="practice.ita.delv.test_mgmt.base/tasks/evaluate_test_exit_criteria_4C8B75CD.html" Name="evaluate_test_exit_criteria" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Evaluate test exit criteria" Id="_AX7VQO2pEe-socSARGFgTg" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="c21bc66c">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="cb9f38fc" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="233368a0">eya_oracle</attribute>
+<attribute name="guid" nodeId="5cc769f8">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="57e99f9">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="514f2287"></attribute>
+<attribute name="suppressed" nodeId="d64659a5">false</attribute>
+<attribute name="orderingGuide" nodeId="22f6d0a6"></attribute>
+<attribute name="isAbstract" nodeId="fd854beb">false</attribute>
+<attribute name="shapeicon" nodeId="9fa679c"></attribute>
+<attribute name="nodeicon" nodeId="2a957d39"></attribute>
+<attribute name="prefix" nodeId="a0e41628"></attribute>
+<attribute name="isPlanned" nodeId="3dd65906">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="f3db74eb">false</attribute>
+<attribute name="isOptional" nodeId="fa4619cb">false</attribute>
+<attribute name="isRepeatable" nodeId="38bb316e">false</attribute>
+<attribute name="isOngoing" nodeId="3a105f64">false</attribute>
+<attribute name="isEventDriven" nodeId="58db55e2">false</attribute>
+<attribute name="variabilityType" nodeId="e40bcde0">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Test" Id="_esTcsYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA" nodeId="8fe6cf6c" Url="process.adv.eya_oracle.base/deliveryprocesses/test_E5EB30E9.html" Name="test" BackPath="./../../">
+<attribute name="name" nodeId="bb6bd75b">test</attribute>
+<attribute name="guid" nodeId="d4471528">_esTcsYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="4bfc6fee">Test</attribute>
+<attribute name="briefDescription" nodeId="c0a524c4">Perform tests on the integrated Oracle services solution and prepare for cutover and deployment. Additionally, design and prepare training materials.</attribute>
+<attribute name="suppressed" nodeId="4c012509">false</attribute>
+<attribute name="orderingGuide" nodeId="2b5cbef2"></attribute>
+<attribute name="isAbstract" nodeId="4798d83c">false</attribute>
+<attribute name="shapeicon" nodeId="6bd29c93"></attribute>
+<attribute name="nodeicon" nodeId="43ac1bc7"></attribute>
+<attribute name="prefix" nodeId="fea9623e"></attribute>
+<attribute name="isPlanned" nodeId="f725a95a">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="f09fb267">false</attribute>
+<attribute name="isOptional" nodeId="d69412e">false</attribute>
+<attribute name="isRepeatable" nodeId="71b89b58">false</attribute>
+<attribute name="isOngoing" nodeId="86d1597e">false</attribute>
+<attribute name="isEventDriven" nodeId="313e4d16">false</attribute>
+<attribute name="variabilityType" nodeId="9f7c62c1">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Conduct User Acceptance Testing (UAT)" Id="_gyCFUdpmEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_gyCFUdpmEe6TH6yb1zVWhw" nodeId="8189606e" Url="process.adv.eya_oracle.base/deliveryprocesses/conduct_uat_559D976E.html" Name="conduct_uat" BackPath="./../../">
+<attribute name="name" nodeId="3ecacfae">conduct_uat</attribute>
+<attribute name="guid" nodeId="92cb300">_gyCFUdpmEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="1f3e3ad8">Conduct User Acceptance Testing (UAT)</attribute>
+<attribute name="briefDescription" nodeId="9c6cdcc0">Prepare for and execute user acceptance testing (UAT) per the defined schedule.</attribute>
+<attribute name="suppressed" nodeId="cd9b18d">false</attribute>
+<attribute name="orderingGuide" nodeId="67eefb54"></attribute>
+<attribute name="isAbstract" nodeId="2894f529">false</attribute>
+<attribute name="shapeicon" nodeId="9ca11451"></attribute>
+<attribute name="nodeicon" nodeId="aff17753"></attribute>
+<attribute name="prefix" nodeId="77d20ce2"></attribute>
+<attribute name="isPlanned" nodeId="fd9a2971">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="404df898">false</attribute>
+<attribute name="isOptional" nodeId="4e0b347f">false</attribute>
+<attribute name="isRepeatable" nodeId="69fc2165">false</attribute>
+<attribute name="isOngoing" nodeId="f69d09ac">false</attribute>
+<attribute name="isEventDriven" nodeId="d3b83156">false</attribute>
+<attribute name="variabilityType" nodeId="284ee82a">extends</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Conduct Testing" Id="_r6Y6Ee2oEe-socSARGFgTg" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_wWob4MPOEe6pmdl9Vi4qww,_r6Y6Ee2oEe-socSARGFgTg" nodeId="8b44796b" Url="process.adv.eya_oracle.base/capabilitypatterns/conduct_uat_FA8FF90E.html" Name="conduct_uat" BackPath="./../../">
+<attribute name="name" nodeId="3c81088d">conduct_uat</attribute>
+<attribute name="guid" nodeId="da4610b2">_r6Y6Ee2oEe-socSARGFgTg</attribute>
+<attribute name="presentationName" nodeId="428df8a">Conduct Testing</attribute>
+<attribute name="briefDescription" nodeId="fb34e7a0">Confirm the list of business users who will perform the user acceptance testing (UAT) and conduct the tests.</attribute>
+<attribute name="suppressed" nodeId="d2fc49d2">false</attribute>
+<attribute name="orderingGuide" nodeId="849a096e"></attribute>
+<attribute name="isAbstract" nodeId="e00e99cb">false</attribute>
+<attribute name="shapeicon" nodeId="1969980b"></attribute>
+<attribute name="nodeicon" nodeId="55dba6cf"></attribute>
+<attribute name="prefix" nodeId="a378a035"></attribute>
+<attribute name="isPlanned" nodeId="63952525">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="ed5811ad">false</attribute>
+<attribute name="isOptional" nodeId="b2213e3">false</attribute>
+<attribute name="isRepeatable" nodeId="bb959aad">false</attribute>
+<attribute name="isOngoing" nodeId="9ce2808f">false</attribute>
+<attribute name="isEventDriven" nodeId="26c1888d">false</attribute>
+<attribute name="variabilityType" nodeId="f7e740f0">na</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

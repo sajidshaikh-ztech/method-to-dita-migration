@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" TypeName="Activity" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA" Url="process.adv.eya_oracle.base/capabilitypatterns/prepare_cutover_deployment_ABC106C4.html" Name="prepare_cutover_deployment" BackPath="./../../" Type="Activity" NodeiconUrl="" DisplayName="Prepare for Cutover and Deployment" Id="_QQPskdEnEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/activity.gif" lang="en" nodeId="3c1376c6">
+<attribute name="name" nodeId="3a5c233a">prepare_cutover_deployment</attribute>
+<attribute name="guid" nodeId="3099874a">_QQPskdEnEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="67abc60">Prepare for Cutover and Deployment</attribute>
+<attribute name="briefDescription" nodeId="d55b225b">Define the approach, plan and governance tasks to manage the transition of the target state Oracle solution into the production environment.</attribute>
+<attribute name="suppressed" nodeId="6cd64582">false</attribute>
+<attribute name="orderingGuide" nodeId="64a14554"></attribute>
+<attribute name="isAbstract" nodeId="9476df52">false</attribute>
+<attribute name="shapeicon" nodeId="8f646977"></attribute>
+<attribute name="nodeicon" nodeId="5eafde5"></attribute>
+<attribute name="prefix" nodeId="5b54428"></attribute>
+<attribute name="isPlanned" nodeId="7cd0e0c7">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d254c352">false</attribute>
+<attribute name="isOptional" nodeId="da6c3361">false</attribute>
+<attribute name="isRepeatable" nodeId="1abf7dc2">false</attribute>
+<attribute name="isOngoing" nodeId="4b381a75">false</attribute>
+<attribute name="isEventDriven" nodeId="6b50a4cc">false</attribute>
+<attribute name="variabilityType" nodeId="55b44cdb">na</attribute>
+<tabs nodeId="c12eef42">
+<tab name="Description" nodeId="88ff1c5b" url="process.adv.eya_oracle.base/capabilitypatterns/prepare_cutover_deployment_ABC106C4.html_desc.html"></tab>
+<tab name="WPBS" nodeId="206176a7" url="process.adv.eya_oracle.base/capabilitypatterns/prepare_cutover_deployment_ABC106C4.html_wpbs.html"></tab>
+<tab name="TBS" nodeId="a8879cd6" url="process.adv.eya_oracle.base/capabilitypatterns/prepare_cutover_deployment_ABC106C4.html_tbs.html"></tab>
+<tab name="WBS" nodeId="6afa3242" url="process.adv.eya_oracle.base/capabilitypatterns/prepare_cutover_deployment_ABC106C4.html_wbs.html"></tab>
+</tabs>
+<copyright nodeId="f554cb47">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<reference name="presentation" nodeId="3097933e">
+<Element Type="ActivityDescription" TypeName="Activity Description" NodeiconUrl="" DisplayName="" Id="-mvLOpoz7A9loLocmROl2GQ" ShapeiconUrl="images/guidance.gif" nodeId="1ae870ae" Url="" Name="prepare_cutover_deployment,_QQPskdEnEe6Y56Jk6jqfOA" BackPath="">
+<attribute name="name" nodeId="3e310ed6">prepare_cutover_deployment,_QQPskdEnEe6Y56Jk6jqfOA</attribute>
+<attribute name="guid" nodeId="bc86b036">-mvLOpoz7A9loLocmROl2GQ</attribute>
+<attribute name="presentationName" nodeId="30f1d4c6"></attribute>
+<attribute name="briefDescription" nodeId="b434d059"></attribute>
+<attribute name="suppressed" nodeId="40e92aa8">false</attribute>
+<attribute name="orderingGuide" nodeId="e73e51a1"></attribute>
+<attribute name="authors" nodeId="7016036f"></attribute>
+<attribute name="changeDate" nodeId="bf937c1a"></attribute>
+<attribute name="changeDescription" nodeId="34ce6799"></attribute>
+<attribute name="version" nodeId="747c1cc5"></attribute>
+<attribute name="mainDescription" nodeId="b48132aa"></attribute>
+<attribute name="externalId" nodeId="e007bddd"></attribute>
+<attribute name="keyConsiderations" nodeId="1bffa97e"></attribute>
+<attribute name="longPresentationName" nodeId="68b45d70"></attribute>
+<attribute name="usageGuidance" nodeId="66119492"></attribute>
+<attribute name="purpose" nodeId="445abd6f"></attribute>
+<attribute name="alternatives" nodeId="3c466de5"></attribute>
+<attribute name="howtoStaff" nodeId="73033549"></attribute>
+</Element>
+</reference>
+<reference name="superActivities" nodeId="838e7cea">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Development" Id="_N-58wdAOEe6H-rjlu9wPlA" relProcessPath="_N-58wdAOEe6H-rjlu9wPlA" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA" nodeId="f9653228" Url="process.adv.eya_oracle.base/capabilitypatterns/development_wkstrm_21C01F87.html" Name="development_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="1f5f383e">development_wkstrm</attribute>
+<attribute name="guid" nodeId="3981842f">_N-58wdAOEe6H-rjlu9wPlA</attribute>
+<attribute name="presentationName" nodeId="89b2832c">Development</attribute>
+<attribute name="briefDescription" nodeId="704a6b6f"></attribute>
+<attribute name="suppressed" nodeId="39ff1dc0">false</attribute>
+<attribute name="orderingGuide" nodeId="1d3fe6e9"></attribute>
+<attribute name="isAbstract" nodeId="35dc9b95">false</attribute>
+<attribute name="shapeicon" nodeId="9e513188"></attribute>
+<attribute name="nodeicon" nodeId="d63c7947"></attribute>
+<attribute name="prefix" nodeId="3c9df708">workstream</attribute>
+<attribute name="isPlanned" nodeId="51e73b67">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d63a2519">false</attribute>
+<attribute name="isOptional" nodeId="d138d44a">false</attribute>
+<attribute name="isRepeatable" nodeId="d41d1df7">false</attribute>
+<attribute name="isOngoing" nodeId="f3db786a">false</attribute>
+<attribute name="isEventDriven" nodeId="b801ef77">false</attribute>
+<attribute name="variabilityType" nodeId="832c826a">na</attribute>
+</Element>
+</reference>
+<referenceList name="VariabilityElement_ImmediateVarieties" nodeId="b1a3f878">
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Prepare for Cutover and Deployment" Id="_vkzykdplEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw" nodeId="7fedbd76" Url="process.adv.eya_oracle.base/deliveryprocesses/prepare_cutover_deployment_CE7AA5F6.html" Name="prepare_cutover_deployment" BackPath="./../../">
+<attribute name="name" nodeId="4eda7b0">prepare_cutover_deployment</attribute>
+<attribute name="guid" nodeId="719e3ec9">_vkzykdplEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="39e28a90">Prepare for Cutover and Deployment</attribute>
+<attribute name="briefDescription" nodeId="672789fe">Define the approach, plan and governance tasks to manage the transition of the target state Oracle solution into the production environment.</attribute>
+<attribute name="suppressed" nodeId="d1daa56">false</attribute>
+<attribute name="orderingGuide" nodeId="b1979cc6"></attribute>
+<attribute name="isAbstract" nodeId="747ea0fd">false</attribute>
+<attribute name="shapeicon" nodeId="6d3b4e9e"></attribute>
+<attribute name="nodeicon" nodeId="ed4ba4e8"></attribute>
+<attribute name="prefix" nodeId="57202e68"></attribute>
+<attribute name="isPlanned" nodeId="687a5842">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="3d3386da">false</attribute>
+<attribute name="isOptional" nodeId="828150c2">false</attribute>
+<attribute name="isRepeatable" nodeId="8a65f3a">false</attribute>
+<attribute name="isOngoing" nodeId="d54d336e">false</attribute>
+<attribute name="isEventDriven" nodeId="f06d5a0b">false</attribute>
+<attribute name="variabilityType" nodeId="de9ddb55">extends</attribute>
+</Element>
+</referenceList>
+<breakdown name="Work Breakdown Structure" DisplayName="Prepare for Cutover and Deployment" nodeId="ab61f198">
+<columns nodeId="78ed5eba">
+<column id="presentation_name" label="Name" nodeId="a661b111"></column>
+<column id="steps" label="Steps" nodeId="dd7eaecc"></column>
+<column id="id" label="Index" nodeId="6f04f886"></column>
+<column id="predecessors" label="Predecessors" nodeId="1bf78b17"></column>
+<column id="model_info" label="Model Info" nodeId="c199be5e"></column>
+<column id="type" label="Type" nodeId="bbcf7e0c"></column>
+<column id="prefix" label="Prefix" nodeId="1d94e029"></column>
+<column id="is_planned" label="Planned" nodeId="694b6750"></column>
+<column id="is_repeatable" label="Repeatable" nodeId="9741a14"></column>
+<column id="is_ongoing" label="Ongoing" nodeId="5dcf3f93"></column>
+<column id="is_event_driven" label="Event Driven" nodeId="ff622162"></column>
+<column id="teams" label="Team" nodeId="ecf8dc41"></column>
+</columns>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="26" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_3e0vcNEoEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_tech_cutover_depl_app_84450B2B.html" Name="define_tech_cutover_depl_app" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define technology cutover and deployment approach" Predecessors="" Team="" Id="_3e0vcNEoEe6Y56Jk6jqfOA" relProcessPath=",_3e0vcNEoEe6Y56Jk6jqfOA" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="bd3271de">
+<attribute name="prefix" nodeId="19c98423"></attribute>
+<attribute name="isEventDriven" nodeId="80b4e1da">false</attribute>
+<attribute name="isOngoing" nodeId="84c9264a">false</attribute>
+<attribute name="isOptional" nodeId="8bd91610">false</attribute>
+<attribute name="isPlanned" nodeId="9f19c061">true</attribute>
+<attribute name="isRepeatable" nodeId="89479bf6">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="ba2ac081">false</attribute>
+<Steps nodeId="9ccbba6a">
+<Step index="0" nodeId="43b05b0a" selected="true"></Step>
+<Step index="1" nodeId="ecbb19f4" selected="true"></Step>
+<Step index="2" nodeId="be47f601" selected="true"></Step>
+<Step index="3" nodeId="b40ce261" selected="true"></Step>
+</Steps>
+</Element>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="27" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_BpyHkNEpEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.pkg_dev.base/tasks/schedule_app_events_and_jobs_BF82FB31.html" Name="schedule_app_events_and_jobs" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Schedule application events and jobs" Predecessors="" Team="" Id="_BpyHkNEpEe6Y56Jk6jqfOA" relProcessPath=",_BpyHkNEpEe6Y56Jk6jqfOA" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="7c660e7a">
+<attribute name="prefix" nodeId="6dddb268"></attribute>
+<attribute name="isEventDriven" nodeId="b7a05d97">false</attribute>
+<attribute name="isOngoing" nodeId="34bcb935">false</attribute>
+<attribute name="isOptional" nodeId="17032876">false</attribute>
+<attribute name="isPlanned" nodeId="9fe23503">true</attribute>
+<attribute name="isRepeatable" nodeId="cf36956a">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="db629593">false</attribute>
+<Steps nodeId="66645ee8">
+<Step index="0" nodeId="9ba29d94" selected="true"></Step>
+<Step index="1" nodeId="17cbc4dc" selected="true"></Step>
+<Step index="2" nodeId="85e2fdaa" selected="true"></Step>
+</Steps>
+</Element>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="28" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_ioWaYNEpEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_tech_cutover_runbook_items_C9A03B93.html" Name="define_tech_cutover_runbook_items" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define technology cutover runbook items" Predecessors="" Team="" Id="_ioWaYNEpEe6Y56Jk6jqfOA" relProcessPath=",_ioWaYNEpEe6Y56Jk6jqfOA" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="bbc39ebc">
+<attribute name="prefix" nodeId="44112e28"></attribute>
+<attribute name="isEventDriven" nodeId="249d4f8e">false</attribute>
+<attribute name="isOngoing" nodeId="3bbfbfe4">false</attribute>
+<attribute name="isOptional" nodeId="d47c8475">false</attribute>
+<attribute name="isPlanned" nodeId="7fb5884d">true</attribute>
+<attribute name="isRepeatable" nodeId="ae8d31b1">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="1ed437b0">false</attribute>
+<Steps nodeId="3064bd05">
+<Step index="0" nodeId="1df47586" selected="true"></Step>
+<Step index="1" nodeId="8c194c94" selected="true"></Step>
+<Step index="2" nodeId="a93862a6" selected="true"></Step>
+<Step index="3" nodeId="224dbfc3" selected="true"></Step>
+<Step index="4" nodeId="52a3361f" selected="true"></Step>
+<Step index="5" nodeId="63c9d8b3" selected="true"></Step>
+<Step index="6" nodeId="ae72ab24" selected="true"></Step>
+<Step index="7" nodeId="84b3cc34" selected="true"></Step>
+<Step index="8" nodeId="46a5c2a7" selected="true"></Step>
+<Step index="9" nodeId="a85c914f" selected="true"></Step>
+<Step index="10" nodeId="48e1ae2b" selected="true"></Step>
+<Step index="11" nodeId="b597ab7" selected="true"></Step>
+<Step index="12" nodeId="446ff91" selected="true"></Step>
+<Step index="13" nodeId="11d41b30" selected="true"></Step>
+</Steps>
+</Element>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="29" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_rshJkNEpEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_rollback_plan_4E0131FA.html" Name="define_rollback_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define rollback plan" Predecessors="" Team="" Id="_rshJkNEpEe6Y56Jk6jqfOA" relProcessPath=",_rshJkNEpEe6Y56Jk6jqfOA" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="7b2ee128">
+<attribute name="prefix" nodeId="14c1f716"></attribute>
+<attribute name="isEventDriven" nodeId="8269d709">false</attribute>
+<attribute name="isOngoing" nodeId="4c174950">false</attribute>
+<attribute name="isOptional" nodeId="3828b4aa">false</attribute>
+<attribute name="isPlanned" nodeId="9e8c0324">true</attribute>
+<attribute name="isRepeatable" nodeId="1f412ff5">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="6dbb5181">false</attribute>
+<Steps nodeId="c44c2ab8">
+<Step index="0" nodeId="efedadd7" selected="true"></Step>
+<Step index="1" nodeId="e92f31fb" selected="true"></Step>
+<Step index="2" nodeId="e57e3436" selected="true"></Step>
+<Step index="3" nodeId="69dcbfae" selected="true"></Step>
+<Step index="4" nodeId="20826d6c" selected="true"></Step>
+</Steps>
+</Element>
+</breakdown>
+<diagrams nodeId="b357c4e5"></diagrams>
+<breakdown name="Team Breakdown Structure" DisplayName="Prepare for Cutover and Deployment" nodeId="50d0e6c2">
+<columns nodeId="81656ce9">
+<column id="presentation_name" label="Name" nodeId="acc31bea"></column>
+<column id="model_info" label="Model Info" nodeId="185f1487"></column>
+<column id="teams" label="Team" nodeId="6074a077"></column>
+<column id="type" label="Type" nodeId="b6d58df8"></column>
+<column id="prefix" label="Prefix" nodeId="389a0b32"></column>
+<column id="is_planned" label="Planned" nodeId="2c43b9b1"></column>
+</columns>
+<Element TypeName="Role Descriptor" ModelInfo="" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_3e0vcNEoEe6Y56Jk6jqfOA_kWXJsTYfEeOOP7mzKGsP2A" ConcreteType="Role" Url="core.default.role_def.base/roles/app_developer_8EC93FA7.html" Name="app_developer" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Application Developer" Team="" Id="_3e0vcNEoEe6Y56Jk6jqfOA_kWXJsTYfEeOOP7mzKGsP2A" relProcessPath=",_3e0vcNEoEe6Y56Jk6jqfOA_kWXJsTYfEeOOP7mzKGsP2A" ShapeiconUrl="images/roledes_lg_dgm32.gif" ModelInfoKey="" nodeId="eabb018d">
+<attribute name="prefix" nodeId="4fcfebb9"></attribute>
+<attribute name="isEventDriven" nodeId="105ce931"></attribute>
+<attribute name="isOngoing" nodeId="b47feffb"></attribute>
+<attribute name="isOptional" nodeId="6d5583db">false</attribute>
+<attribute name="isPlanned" nodeId="d11eedfb">true</attribute>
+<attribute name="isRepeatable" nodeId="64d2d02a"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="4450ccc3">false</attribute>
+<Element TypeName="Work Product Descriptor" ModelInfo="Modifies" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_ioWaYNEpEe6Y56Jk6jqfOA_DsttgPDVEeOFgpTUvzaUCQ" ConcreteType="Artifact" Url="core.ops.common.base/workproducts/cutover_deploy_approach_284EDC70.html" Name="cutover_deploy_approach" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Cutover and Deployment Approach" Id="_ioWaYNEpEe6Y56Jk6jqfOA_DsttgPDVEeOFgpTUvzaUCQ" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="Modifies" nodeId="caf7681c"></Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Modifies" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_BpyHkNEpEe6Y56Jk6jqfOA_Etmg8KDYEeSjBuv2EWWAOw" ConcreteType="Outcome" Url="practice.ita.delv.pkg_dev.base/workproducts/jobs_scheduled_385901DA.html" Name="jobs_scheduled" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Jobs Scheduled" Id="_BpyHkNEpEe6Y56Jk6jqfOA_Etmg8KDYEeSjBuv2EWWAOw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="Modifies" nodeId="946c292c"></Element>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Owner" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_3e0vcNEoEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_tech_cutover_depl_app_84450B2B.html" Name="define_tech_cutover_depl_app" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define technology cutover and deployment approach" Id="_3e0vcNEoEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="primaryTasks" nodeId="871c078b"></Element>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Owner" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_BpyHkNEpEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.pkg_dev.base/tasks/schedule_app_events_and_jobs_BF82FB31.html" Name="schedule_app_events_and_jobs" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Schedule application events and jobs" Id="_BpyHkNEpEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="primaryTasks" nodeId="57b6fddf"></Element>
+</Element>
+<Element TypeName="Role Descriptor" ModelInfo="" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_rshJkNEpEe6Y56Jk6jqfOA_MaaBsNNoEe-Fuo3rkO5x4w" ConcreteType="Role" Url="process.adv.eya_oracle.base/roles/soln_architect_1699084C.html" Name="soln_architect" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Solution Architect" Team="" Id="_rshJkNEpEe6Y56Jk6jqfOA_MaaBsNNoEe-Fuo3rkO5x4w" relProcessPath=",_rshJkNEpEe6Y56Jk6jqfOA_MaaBsNNoEe-Fuo3rkO5x4w" ShapeiconUrl="images/roledes_lg_dgm32.gif" ModelInfoKey="" nodeId="461695b1">
+<attribute name="prefix" nodeId="9066aa40"></attribute>
+<attribute name="isEventDriven" nodeId="c3d8069b"></attribute>
+<attribute name="isOngoing" nodeId="4f96002b"></attribute>
+<attribute name="isOptional" nodeId="63f136c1">false</attribute>
+<attribute name="isPlanned" nodeId="fac0f67b">true</attribute>
+<attribute name="isRepeatable" nodeId="cb24d55e"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d7e7a9a">false</attribute>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Additional" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_rshJkNEpEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_rollback_plan_4E0131FA.html" Name="define_rollback_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define rollback plan" Id="_rshJkNEpEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="additionalTasks" nodeId="cd6b7379"></Element>
+</Element>
+<Element TypeName="Role Descriptor" ModelInfo="" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_rshJkNEpEe6Y56Jk6jqfOA_6At4MCygEe-bo7_6LoJ2iQ" ConcreteType="Role" Url="process.adv.eya_oracle.base/roles/tech_lead_30CEAD95.html" Name="tech_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Technical Lead" Team="" Id="_rshJkNEpEe6Y56Jk6jqfOA_6At4MCygEe-bo7_6LoJ2iQ" relProcessPath=",_rshJkNEpEe6Y56Jk6jqfOA_6At4MCygEe-bo7_6LoJ2iQ" ShapeiconUrl="images/roledes_lg_dgm32.gif" ModelInfoKey="" nodeId="7ab76de5">
+<attribute name="prefix" nodeId="1c30f586"></attribute>
+<attribute name="isEventDriven" nodeId="bc73e927"></attribute>
+<attribute name="isOngoing" nodeId="ca1fcb87"></attribute>
+<attribute name="isOptional" nodeId="cc5f53af">false</attribute>
+<attribute name="isPlanned" nodeId="d6202c12">true</attribute>
+<attribute name="isRepeatable" nodeId="61285147"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="8cc828d3">false</attribute>
+<Element TypeName="Work Product Descriptor" ModelInfo="Modifies" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_ioWaYNEpEe6Y56Jk6jqfOA_CEoYUPF4EeOFgpTUvzaUCQ" ConcreteType="Artifact" Url="core.ops.common.base/workproducts/cutover_runbook_28E93E5B.html" Name="cutover_runbook" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Cutover Runbook" Id="_ioWaYNEpEe6Y56Jk6jqfOA_CEoYUPF4EeOFgpTUvzaUCQ" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="Modifies" nodeId="8bbf434f"></Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Modifies" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_rshJkNEpEe6Y56Jk6jqfOA_TOLlcPdmEeOgTqoejOJlgA" ConcreteType="Artifact" Url="core.ops.common.base/workproducts/rollback_plan_2FC382BC.html" Name="rollback_plan" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Rollback Plan" Id="_rshJkNEpEe6Y56Jk6jqfOA_TOLlcPdmEeOgTqoejOJlgA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="Modifies" nodeId="3a7dc066"></Element>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Owner" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_rshJkNEpEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_rollback_plan_4E0131FA.html" Name="define_rollback_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define rollback plan" Id="_rshJkNEpEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="primaryTasks" nodeId="3e66438f"></Element>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Owner" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_ioWaYNEpEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_tech_cutover_runbook_items_C9A03B93.html" Name="define_tech_cutover_runbook_items" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define technology cutover runbook items" Id="_ioWaYNEpEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="primaryTasks" nodeId="6388bbfa"></Element>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Additional" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_3e0vcNEoEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_tech_cutover_depl_app_84450B2B.html" Name="define_tech_cutover_depl_app" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define technology cutover and deployment approach" Id="_3e0vcNEoEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="additionalTasks" nodeId="6f88b468"></Element>
+</Element>
+</breakdown>
+<breakdown name="Work Product Breakdown Structure" DisplayName="Prepare for Cutover and Deployment" nodeId="8992693e">
+<columns nodeId="a4caa446">
+<column id="presentation_name" label="Name" nodeId="1ca69385"></column>
+<column id="model_info" label="Model Info" nodeId="5d830749"></column>
+<column id="deliverable" label="Deliverable" nodeId="8150326"></column>
+<column id="type" label="Type" nodeId="e176c590"></column>
+<column id="prefix" label="Prefix" nodeId="8ab07371"></column>
+<column id="is_planned" label="Planned" nodeId="b4e238a4"></column>
+</columns>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_3e0vcNEoEe6Y56Jk6jqfOA_X3iH8GZ8EeS2OI5bP0AbiQ" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/app_tech_specs_FB64BD75.html" Name="app_tech_specs" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Application Technical Specifications" Team="" Id="_3e0vcNEoEe6Y56Jk6jqfOA_X3iH8GZ8EeS2OI5bP0AbiQ" relProcessPath=",_3e0vcNEoEe6Y56Jk6jqfOA_X3iH8GZ8EeS2OI5bP0AbiQ" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="4f179625" Deliverable="">
+<attribute name="prefix" nodeId="5eff7c83"></attribute>
+<attribute name="isEventDriven" nodeId="63f6a746"></attribute>
+<attribute name="isOngoing" nodeId="47adb862"></attribute>
+<attribute name="isOptional" nodeId="6e6d6c13">false</attribute>
+<attribute name="isPlanned" nodeId="eb0fd53d">true</attribute>
+<attribute name="isRepeatable" nodeId="1a92d3e0"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="87af42a5">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_BpyHkNEpEe6Y56Jk6jqfOA_bMTqMGtEEeSY8drIHpfybQ" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/back_end_batch_proc_F8A87465.html" Name="back_end_batch_proc" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Back End and Batch Processes" Team="" Id="_BpyHkNEpEe6Y56Jk6jqfOA_bMTqMGtEEeSY8drIHpfybQ" relProcessPath=",_BpyHkNEpEe6Y56Jk6jqfOA_bMTqMGtEEeSY8drIHpfybQ" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="9f83e0f3" Deliverable="">
+<attribute name="prefix" nodeId="331e51c0"></attribute>
+<attribute name="isEventDriven" nodeId="1884af56"></attribute>
+<attribute name="isOngoing" nodeId="9b1292b3"></attribute>
+<attribute name="isOptional" nodeId="672e5015">false</attribute>
+<attribute name="isPlanned" nodeId="50fed236">true</attribute>
+<attribute name="isRepeatable" nodeId="24aecc6f"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="cc4ed365">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_ioWaYNEpEe6Y56Jk6jqfOA_DsttgPDVEeOFgpTUvzaUCQ" ConcreteType="Artifact" Url="core.ops.common.base/workproducts/cutover_deploy_approach_284EDC70.html" Name="cutover_deploy_approach" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Cutover and Deployment Approach" Team="" Id="_ioWaYNEpEe6Y56Jk6jqfOA_DsttgPDVEeOFgpTUvzaUCQ" relProcessPath=",_ioWaYNEpEe6Y56Jk6jqfOA_DsttgPDVEeOFgpTUvzaUCQ" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="3eedc3f2" Deliverable="Cutover and Deployment Approach">
+<attribute name="prefix" nodeId="1bef3197"></attribute>
+<attribute name="isEventDriven" nodeId="5fe71ab2"></attribute>
+<attribute name="isOngoing" nodeId="d82379b7"></attribute>
+<attribute name="isOptional" nodeId="f29f59ef">false</attribute>
+<attribute name="isPlanned" nodeId="9bd6d9e6">true</attribute>
+<attribute name="isRepeatable" nodeId="136a3a60"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="4169026c">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Output" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_JQdygDHIEe-ymZgH1AiGoQ_8Ob68I1VEe6j7Io7DmDR6A" ConcreteType="Deliverable" Url="process.adv.eya_oracle.base/workproducts/cutover_deployment_approach_29EDB5B0.html" Name="cutover_deployment_approach" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Cutover and Deployment Approach" Team="" Id="_JQdygDHIEe-ymZgH1AiGoQ_8Ob68I1VEe6j7Io7DmDR6A" relProcessPath=",_JQdygDHIEe-ymZgH1AiGoQ_8Ob68I1VEe6j7Io7DmDR6A" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="output" nodeId="5d9a7ff9" Deliverable="">
+<attribute name="prefix" nodeId="4f5ed154"></attribute>
+<attribute name="isEventDriven" nodeId="18699769"></attribute>
+<attribute name="isOngoing" nodeId="f7477ecf"></attribute>
+<attribute name="isOptional" nodeId="50ce6223">false</attribute>
+<attribute name="isPlanned" nodeId="95498d">true</attribute>
+<attribute name="isRepeatable" nodeId="90f5989d"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="df476383">false</attribute>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_JQdygDHIEe-ymZgH1AiGoQ_8Ob68I1VEe6j7Io7DmDR6A,_ioWaYNEpEe6Y56Jk6jqfOA_DsttgPDVEeOFgpTUvzaUCQ" ConcreteType="Artifact" Url="core.ops.common.base/workproducts/cutover_deploy_approach_284EDC70.html" Name="cutover_deploy_approach" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Cutover and Deployment Approach" Team="" Id="_ioWaYNEpEe6Y56Jk6jqfOA_DsttgPDVEeOFgpTUvzaUCQ" relProcessPath=",_JQdygDHIEe-ymZgH1AiGoQ_8Ob68I1VEe6j7Io7DmDR6A,_ioWaYNEpEe6Y56Jk6jqfOA_DsttgPDVEeOFgpTUvzaUCQ" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="cf05025c" Deliverable="Cutover and Deployment Approach">
+<attribute name="prefix" nodeId="df5494d2"></attribute>
+<attribute name="isEventDriven" nodeId="6fc9758e"></attribute>
+<attribute name="isOngoing" nodeId="aff5aedb"></attribute>
+<attribute name="isOptional" nodeId="ebae9f6">false</attribute>
+<attribute name="isPlanned" nodeId="d0ea33bc">true</attribute>
+<attribute name="isRepeatable" nodeId="a6933260"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="ca596c1a">false</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_ioWaYNEpEe6Y56Jk6jqfOA_kkusYPDVEeOFgpTUvzaUCQ" ConcreteType="Artifact" Url="core.ops.common.base/workproducts/cutover_deploy_plan_9BE3B58D.html" Name="cutover_deploy_plan" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Cutover and Deployment Plan" Team="" Id="_ioWaYNEpEe6Y56Jk6jqfOA_kkusYPDVEeOFgpTUvzaUCQ" relProcessPath=",_ioWaYNEpEe6Y56Jk6jqfOA_kkusYPDVEeOFgpTUvzaUCQ" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="4e4070a7" Deliverable="">
+<attribute name="prefix" nodeId="6164577a"></attribute>
+<attribute name="isEventDriven" nodeId="e02c49c8"></attribute>
+<attribute name="isOngoing" nodeId="bb1bb8b7"></attribute>
+<attribute name="isOptional" nodeId="d537a334">false</attribute>
+<attribute name="isPlanned" nodeId="71c1b72b">true</attribute>
+<attribute name="isRepeatable" nodeId="4a7a1b44"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="333e4b33">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_ioWaYNEpEe6Y56Jk6jqfOA_EWo3MPF4EeOFgpTUvzaUCQ" ConcreteType="Artifact" Url="core.ops.common.base/workproducts/readiness_criteria_6CDC630D.html" Name="readiness_criteria" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Cutover Readiness Criteria" Team="" Id="_ioWaYNEpEe6Y56Jk6jqfOA_EWo3MPF4EeOFgpTUvzaUCQ" relProcessPath=",_ioWaYNEpEe6Y56Jk6jqfOA_EWo3MPF4EeOFgpTUvzaUCQ" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="26473763" Deliverable="">
+<attribute name="prefix" nodeId="3bcd5a15"></attribute>
+<attribute name="isEventDriven" nodeId="3d980103"></attribute>
+<attribute name="isOngoing" nodeId="46d5550e"></attribute>
+<attribute name="isOptional" nodeId="7a4151b2">false</attribute>
+<attribute name="isPlanned" nodeId="fb359b6">true</attribute>
+<attribute name="isRepeatable" nodeId="1e95bb8f"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="a5e9f9ad">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_ioWaYNEpEe6Y56Jk6jqfOA_CEoYUPF4EeOFgpTUvzaUCQ" ConcreteType="Artifact" Url="core.ops.common.base/workproducts/cutover_runbook_28E93E5B.html" Name="cutover_runbook" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Cutover Runbook" Team="" Id="_ioWaYNEpEe6Y56Jk6jqfOA_CEoYUPF4EeOFgpTUvzaUCQ" relProcessPath=",_ioWaYNEpEe6Y56Jk6jqfOA_CEoYUPF4EeOFgpTUvzaUCQ" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="5a8e10f8" Deliverable="Cutover Runbook">
+<attribute name="prefix" nodeId="faffc8c"></attribute>
+<attribute name="isEventDriven" nodeId="d6ebc330"></attribute>
+<attribute name="isOngoing" nodeId="629bd282"></attribute>
+<attribute name="isOptional" nodeId="47292fa3">false</attribute>
+<attribute name="isPlanned" nodeId="6242593">true</attribute>
+<attribute name="isRepeatable" nodeId="1ac222be"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="fff3b6bc">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Output" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_Lyx-QDHIEe-ymZgH1AiGoQ_K1WloNExEe6Y56Jk6jqfOA" ConcreteType="Deliverable" Url="process.adv.eya_oracle.base/workproducts/cutover_runbook_4D84C22C.html" Name="cutover_runbook" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Cutover Runbook" Team="" Id="_Lyx-QDHIEe-ymZgH1AiGoQ_K1WloNExEe6Y56Jk6jqfOA" relProcessPath=",_Lyx-QDHIEe-ymZgH1AiGoQ_K1WloNExEe6Y56Jk6jqfOA" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="output" nodeId="6df2a9c0" Deliverable="">
+<attribute name="prefix" nodeId="97a7f213"></attribute>
+<attribute name="isEventDriven" nodeId="8f5d7eed"></attribute>
+<attribute name="isOngoing" nodeId="79baa4f9"></attribute>
+<attribute name="isOptional" nodeId="4ec5d8e3">false</attribute>
+<attribute name="isPlanned" nodeId="29b7331d">true</attribute>
+<attribute name="isRepeatable" nodeId="a4b7f41f"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="75588d72">false</attribute>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_Lyx-QDHIEe-ymZgH1AiGoQ_K1WloNExEe6Y56Jk6jqfOA,_ioWaYNEpEe6Y56Jk6jqfOA_CEoYUPF4EeOFgpTUvzaUCQ" ConcreteType="Artifact" Url="core.ops.common.base/workproducts/cutover_runbook_28E93E5B.html" Name="cutover_runbook" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Cutover Runbook" Team="" Id="_ioWaYNEpEe6Y56Jk6jqfOA_CEoYUPF4EeOFgpTUvzaUCQ" relProcessPath=",_Lyx-QDHIEe-ymZgH1AiGoQ_K1WloNExEe6Y56Jk6jqfOA,_ioWaYNEpEe6Y56Jk6jqfOA_CEoYUPF4EeOFgpTUvzaUCQ" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="1509a80c" Deliverable="Cutover Runbook">
+<attribute name="prefix" nodeId="55f441c8"></attribute>
+<attribute name="isEventDriven" nodeId="eca7034b"></attribute>
+<attribute name="isOngoing" nodeId="1cdeff33"></attribute>
+<attribute name="isOptional" nodeId="6eeab9c7">false</attribute>
+<attribute name="isPlanned" nodeId="4ec188b">true</attribute>
+<attribute name="isRepeatable" nodeId="4cd95ec5"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="9790b570">false</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Output" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_BpyHkNEpEe6Y56Jk6jqfOA_Etmg8KDYEeSjBuv2EWWAOw" ConcreteType="Outcome" Url="practice.ita.delv.pkg_dev.base/workproducts/jobs_scheduled_385901DA.html" Name="jobs_scheduled" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Jobs Scheduled" Team="" Id="_BpyHkNEpEe6Y56Jk6jqfOA_Etmg8KDYEeSjBuv2EWWAOw" relProcessPath=",_BpyHkNEpEe6Y56Jk6jqfOA_Etmg8KDYEeSjBuv2EWWAOw" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="output" nodeId="8bc883c9" Deliverable="">
+<attribute name="prefix" nodeId="fd1bafc3"></attribute>
+<attribute name="isEventDriven" nodeId="e3460c44"></attribute>
+<attribute name="isOngoing" nodeId="99f4d34"></attribute>
+<attribute name="isOptional" nodeId="8ff8e153">false</attribute>
+<attribute name="isPlanned" nodeId="ef03bfe3">true</attribute>
+<attribute name="isRepeatable" nodeId="afc91d37"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="8196dbfd">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Output" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_rshJkNEpEe6Y56Jk6jqfOA_TOLlcPdmEeOgTqoejOJlgA" ConcreteType="Artifact" Url="core.ops.common.base/workproducts/rollback_plan_2FC382BC.html" Name="rollback_plan" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Rollback Plan" Team="" Id="_rshJkNEpEe6Y56Jk6jqfOA_TOLlcPdmEeOgTqoejOJlgA" relProcessPath=",_rshJkNEpEe6Y56Jk6jqfOA_TOLlcPdmEeOgTqoejOJlgA" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="output" nodeId="f2a9c8c4" Deliverable="">
+<attribute name="prefix" nodeId="5165ca71"></attribute>
+<attribute name="isEventDriven" nodeId="ff96afed"></attribute>
+<attribute name="isOngoing" nodeId="a4934ce8"></attribute>
+<attribute name="isOptional" nodeId="9c50832b">false</attribute>
+<attribute name="isPlanned" nodeId="40f41b3d">true</attribute>
+<attribute name="isRepeatable" nodeId="b3606c37"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="bf499af6">false</attribute>
+</Element>
+</breakdown>
+</Element>

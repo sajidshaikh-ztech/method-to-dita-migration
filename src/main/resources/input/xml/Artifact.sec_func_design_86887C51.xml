@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Security Functional Design" Id="_mG-mwOz6EeOUuN5KXDB68g" ShapeiconUrl="images/artifact.gif" lang="en" nodeId="73274bed" Url="core.i_t.common.base/workproducts/sec_func_design_86887C51.html" Name="sec_func_design" BackPath="./../../">
+<copyright nodeId="bc1caab8">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="ff4d6db">sec_func_design</attribute>
+<attribute name="guid" nodeId="78543c6e">_mG-mwOz6EeOUuN5KXDB68g</attribute>
+<attribute name="presentationName" nodeId="48b26eee">Security Functional Design</attribute>
+<attribute name="briefDescription" nodeId="afc99b83">This document details the security design specifications that need to be taken into consideration.</attribute>
+<attribute name="suppressed" nodeId="73d36399">false</attribute>
+<attribute name="orderingGuide" nodeId="29d3bc26"></attribute>
+<attribute name="isAbstract" nodeId="fa97f3f2">false</attribute>
+<attribute name="shapeicon" nodeId="e6d376ef"></attribute>
+<attribute name="nodeicon" nodeId="f18fbb23"></attribute>
+<attribute name="variabilityType" nodeId="e5c9ccb2">na</attribute>
+<reference name="presentation" nodeId="18dfb018">
+<Element Type="ArtifactDescription" TypeName="Artifact Description" NodeiconUrl="" DisplayName="Security Functional Design" Id="-v4CEGbWU43cxi-Nr5aUCRw" ShapeiconUrl="images/guidance.gif" nodeId="31b03911" Url="" Name="securty_specs,_mG-mwOz6EeOUuN5KXDB68g" BackPath="">
+<copyright nodeId="c9aaa076">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="b8f77ad9">securty_specs,_mG-mwOz6EeOUuN5KXDB68g</attribute>
+<attribute name="guid" nodeId="82c8416a">-v4CEGbWU43cxi-Nr5aUCRw</attribute>
+<attribute name="presentationName" nodeId="94b08576">Security Functional Design</attribute>
+<attribute name="briefDescription" nodeId="a9c1646c"></attribute>
+<attribute name="suppressed" nodeId="71e29b0">false</attribute>
+<attribute name="orderingGuide" nodeId="6f660ebd"></attribute>
+<attribute name="authors" nodeId="1ec6e1ca">process.adv.core.base</attribute>
+<attribute name="changeDate" nodeId="f06d823">Wed Mar 15 18:16:41 EDT 2017</attribute>
+<attribute name="changeDescription" nodeId="32a21820">JUN 2016 - updated BD and Purpose to not be package specific|NOV 2015 - corrected typos and grammatical errors in main description|SEP 2015 - updated main description|AUG 2014 - baseline version</attribute>
+<attribute name="version" nodeId="81648830"></attribute>
+<attribute name="mainDescription" nodeId="7f0d625d">&lt;p&gt;
+    A security design may include the following:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Design of authentication security model, authorization controls and security reporting
+    &lt;/li&gt;
+    &lt;li&gt;
+        Guiding principles and authentication standards
+    &lt;/li&gt;
+    &lt;li&gt;
+        Role design and definitions
+    &lt;/li&gt;
+    &lt;li&gt;
+        Authentication security model, authorization controls and security reporting across multiple environments
+    &lt;/li&gt;
+    &lt;li&gt;
+        Logical access paths
+    &lt;/li&gt;
+    &lt;li&gt;
+        Authentication points
+    &lt;/li&gt;
+    &lt;li&gt;
+        Entitlements
+    &lt;/li&gt;
+    &lt;li&gt;
+        Controls
+    &lt;/li&gt;
+    &lt;li&gt;
+        Global package settings and administrator rights
+    &lt;/li&gt;
+    &lt;li&gt;
+        Authentication management process
+    &lt;/li&gt;
+    &lt;li&gt;
+        User access rights, roles and responsibilities&lt;br /&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="externalId" nodeId="e91ac852"></attribute>
+<attribute name="keyConsiderations" nodeId="a488136d"></attribute>
+<attribute name="longPresentationName" nodeId="439a6047"></attribute>
+<attribute name="purpose" nodeId="f102b022">To define the security specifications needed by the technical team to develop functionality required by stakeholders.</attribute>
+<attribute name="impactOfNotHaving" nodeId="171d51c9"></attribute>
+<attribute name="reasonsForNotNeeding" nodeId="6ebe147d"></attribute>
+<attribute name="briefOutline" nodeId="b3cb4bd8">&lt;ul&gt;
+    &lt;li&gt;
+        Authentication design 
+    &lt;/li&gt;
+    &lt;li&gt;
+        Authorization design
+    &lt;/li&gt;
+    &lt;li&gt;
+        Security reporting design&lt;br /&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="representationOptions" nodeId="afc3faf9"></attribute>
+<attribute name="representation" nodeId="c895c2ed"></attribute>
+<attribute name="notation" nodeId="9c3739cf"></attribute>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="examples" nodeId="ba60f610">
+<Element Type="Example" TypeName="Example" NodeiconUrl="" DisplayName="Security Specification" Id="_MuSAMAbEEeSBOPfr9uK8Jg" ShapeiconUrl="images/example.gif" nodeId="a6fe5818" Url="core.i_t.common.base/guidances/examples/security_specification_2D6BE1EE.html" Name="security_specification" BackPath="./../../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="fulfills" nodeId="4af0d14">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product Slot" NodeiconUrl="" DisplayName="[Application Design]" Id="_gcF_UFTUEeWVYYddjO3kDQ" ShapeiconUrl="images/artifact.gif" nodeId="cfa0dfb6" Url="core.default.slots.base/workproducts/app_design_slot_69A9242F.html" Name="app_design_slot" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="WorkProduct_WorkProductDescriptors" nodeId="bae0a327">
+<Element TypeName="Work Product Descriptor" queryString="?proc=_TVvgYZLKEe6Ji6GnvvUfqw&amp;path=_TVvgYZLKEe6Ji6GnvvUfqw,_cKZPgblvEe6NptHkoN3Rkw,_MYmA4LoCEe6NptHkoN3Rkw_mG-mwOz6EeOUuN5KXDB68g" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/sec_func_design_86887C51.html" Name="sec_func_design" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Security Functional Design" Id="_MYmA4LoCEe6NptHkoN3Rkw_mG-mwOz6EeOUuN5KXDB68g" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="ded04883"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_TVvgYZLKEe6Ji6GnvvUfqw&amp;path=_TVvgYZLKEe6Ji6GnvvUfqw,_faKRscFzEe6bZYQTbJkTNg,_NctNwMJcEe6bZYQTbJkTNg_mG-mwOz6EeOUuN5KXDB68g" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/sec_func_design_86887C51.html" Name="sec_func_design" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Security Functional Design" Id="_NctNwMJcEe6bZYQTbJkTNg_mG-mwOz6EeOUuN5KXDB68g" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="1614ff55"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_TVvgYZLKEe6Ji6GnvvUfqw&amp;path=_TVvgYZLKEe6Ji6GnvvUfqw,_v5vFYcLaEe6bZYQTbJkTNg,_1CiyQMLaEe6bZYQTbJkTNg_mG-mwOz6EeOUuN5KXDB68g" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/sec_func_design_86887C51.html" Name="sec_func_design" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Security Functional Design" Id="_1CiyQMLaEe6bZYQTbJkTNg_mG-mwOz6EeOUuN5KXDB68g" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="5d247ed0"></Element>
+</referenceList>
+<referenceList name="WorkProduct_OutputFrom_Tasks" nodeId="82b2a69b">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Document security and controls design specifications" Id="_2ybNYLjHEe6mIfhV0mJMlA" ShapeiconUrl="images/task.gif" nodeId="e84e9367" Url="process.adv.eya_oracle.base/tasks/doc_sec_ctrls_design_specs_1A56723A.html" Name="doc_sec_ctrls_design_specs" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="WorkProduct_Deliverables" nodeId="18a1d6d5">
+<Element ShowFullMethodContent="false" Type="Deliverable" TypeName="Deliverable" NodeiconUrl="" DisplayName="Security and Controls Design Specifications" Id="_ugLVkMEmEe6bZYQTbJkTNg" ShapeiconUrl="images/deliverable.gif" nodeId="cff83ee9" Url="process.adv.eya_oracle.base/workproducts/sec_controls_design_specs_578C999D.html" Name="sec_controls_design_specs" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="VariabilityElement_ImmediateVarieties" nodeId="fba47011"></referenceList>
+<referenceList name="WorkProduct_InputTo_Tasks" nodeId="ab14c98b">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Build security roles" Id="_hGyBIMJbEe6bZYQTbJkTNg" ShapeiconUrl="images/task.gif" nodeId="eee43598" Url="process.adv.eya_oracle.base/tasks/build_security_roles_5D2377B.html" Name="build_security_roles" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Conduct segregation of duties analysis" Id="_sUUwQMJeEe6bZYQTbJkTNg" ShapeiconUrl="images/task.gif" nodeId="901f923" Url="process.adv.eya_oracle.base/tasks/conduct_sod_analysis_B19410B2.html" Name="conduct_sod_analysis" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Finalize security and controls design specifications" Id="_bQ7ScMEmEe6bZYQTbJkTNg" ShapeiconUrl="images/task.gif" nodeId="957a4f1f" Url="process.adv.eya_oracle.base/tasks/fin_sec_controls_design_specs_B8A5DAB4.html" Name="fin_sec_controls_design_specs" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Map production users to roles" Id="_uozeELjLEe6mIfhV0mJMlA" ShapeiconUrl="images/task.gif" nodeId="4b14cbcd" Url="process.adv.eya_oracle.base/tasks/map_prod_users_roles_EDF92A4.html" Name="map_prod_users_roles" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="modifyRoles" nodeId="962e36d6">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Security and Controls Lead" Id="_wH46wLiVEe6mIfhV0mJMlA" ShapeiconUrl="images/role.gif" nodeId="a3688db2" Url="process.adv.eya_oracle.base/roles/sec_controls_lead_1D93838B.html" Name="sec_controls_lead" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="mandatoryInputToTasks" nodeId="9b9f97a7">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Build security roles" Id="_hGyBIMJbEe6bZYQTbJkTNg" ShapeiconUrl="images/task.gif" nodeId="b5b3ebda" Url="process.adv.eya_oracle.base/tasks/build_security_roles_5D2377B.html" Name="build_security_roles" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Conduct segregation of duties analysis" Id="_sUUwQMJeEe6bZYQTbJkTNg" ShapeiconUrl="images/task.gif" nodeId="6a4b30e3" Url="process.adv.eya_oracle.base/tasks/conduct_sod_analysis_B19410B2.html" Name="conduct_sod_analysis" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Finalize security and controls design specifications" Id="_bQ7ScMEmEe6bZYQTbJkTNg" ShapeiconUrl="images/task.gif" nodeId="18888ad3" Url="process.adv.eya_oracle.base/tasks/fin_sec_controls_design_specs_B8A5DAB4.html" Name="fin_sec_controls_design_specs" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Map production users to roles" Id="_uozeELjLEe6mIfhV0mJMlA" ShapeiconUrl="images/task.gif" nodeId="87fd464b" Url="process.adv.eya_oracle.base/tasks/map_prod_users_roles_EDF92A4.html" Name="map_prod_users_roles" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="outputFromTasks" nodeId="2f835912">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Document security and controls design specifications" Id="_2ybNYLjHEe6mIfhV0mJMlA" ShapeiconUrl="images/task.gif" nodeId="17d939fe" Url="process.adv.eya_oracle.base/tasks/doc_sec_ctrls_design_specs_1A56723A.html" Name="doc_sec_ctrls_design_specs" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="mandatoryInputToTasks_fromSlots" nodeId="dee5b1d5">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop integration test scenarios" Id="_nOZCMCmVEeW4VNZE0V9FcA" ShapeiconUrl="images/task.gif" nodeId="acc78d30" Url="practice.ita.delv.it_test.base/tasks/develop_int_test_scenarios_247F88B9.html" Name="develop_int_test_scenarios" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop system test scenarios" Id="_zNex0Cs_EeWax4C3D-8TDw" ShapeiconUrl="images/task.gif" nodeId="ab624b" Url="practice.ita.delv.it_test.base/tasks/develop_sys_test_scenarios_BD75F673.html" Name="develop_sys_test_scenarios" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop test scenarios" Id="_7hhp4OYBEeOqmb5IikO7mw" ShapeiconUrl="images/task.gif" nodeId="e6ab047c" Url="practice.ita.delv.it_test.base/tasks/develop_test_scenarios_3315A8BB.html" Name="develop_test_scenarios" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop user acceptance test scenarios" Id="_ydu54DcGEeWiCuaOJ9Py2A" ShapeiconUrl="images/task.gif" nodeId="62d0fcc4" Url="practice.ita.delv.it_test.base/tasks/develop_uat_test_scenarios_89B16E17.html" Name="develop_uat_test_scenarios" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="2fc8c8d3">
+<Element TypeName="Work Product Descriptor" queryString="?proc=_TVvgYZLKEe6Ji6GnvvUfqw&amp;path=_TVvgYZLKEe6Ji6GnvvUfqw,_cKZPgblvEe6NptHkoN3Rkw,_MYmA4LoCEe6NptHkoN3Rkw_mG-mwOz6EeOUuN5KXDB68g" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/sec_func_design_86887C51.html" Name="sec_func_design" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Security Functional Design" Id="_MYmA4LoCEe6NptHkoN3Rkw_mG-mwOz6EeOUuN5KXDB68g" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="4e16552f">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Security and Controls" Id="_TVvgYZLKEe6Ji6GnvvUfqw" relProcessPath="_TVvgYZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_TVvgYZLKEe6Ji6GnvvUfqw&amp;path=_TVvgYZLKEe6Ji6GnvvUfqw" nodeId="1f58b8b5" Url="process.adv.eya_oracle.base/capabilitypatterns/sec_controls_wkstrm_DFD76F11.html" Name="sec_controls_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="56b9ea6d">sec_controls_wkstrm</attribute>
+<attribute name="guid" nodeId="5c3b35c5">_TVvgYZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="d3108db0">Security and Controls</attribute>
+<attribute name="briefDescription" nodeId="bcc48004"></attribute>
+<attribute name="suppressed" nodeId="6f2ca933">false</attribute>
+<attribute name="orderingGuide" nodeId="7ea1a4cf"></attribute>
+<attribute name="isAbstract" nodeId="d194b26d">false</attribute>
+<attribute name="shapeicon" nodeId="f37245e4"></attribute>
+<attribute name="nodeicon" nodeId="f9aea3e5"></attribute>
+<attribute name="prefix" nodeId="8553b7bb">workstream</attribute>
+<attribute name="isPlanned" nodeId="e2cb6eed">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="b21b649d">false</attribute>
+<attribute name="isOptional" nodeId="4591513a">false</attribute>
+<attribute name="isRepeatable" nodeId="869bde75">false</attribute>
+<attribute name="isOngoing" nodeId="959a1a66">false</attribute>
+<attribute name="isEventDriven" nodeId="d85eced">false</attribute>
+<attribute name="variabilityType" nodeId="ec6636fa">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Design Security and Controls" Id="_cKZPgblvEe6NptHkoN3Rkw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_TVvgYZLKEe6Ji6GnvvUfqw&amp;path=_TVvgYZLKEe6Ji6GnvvUfqw,_cKZPgblvEe6NptHkoN3Rkw" nodeId="53244ca4" Url="process.adv.eya_oracle.base/capabilitypatterns/design_security_controls_9B9960EB.html" Name="design_security_controls" BackPath="./../../">
+<attribute name="name" nodeId="46f94e4f">design_security_controls</attribute>
+<attribute name="guid" nodeId="ad061944">_cKZPgblvEe6NptHkoN3Rkw</attribute>
+<attribute name="presentationName" nodeId="39955cd7">Design Security and Controls</attribute>
+<attribute name="briefDescription" nodeId="42e9dcdd">Mark potential risks in to-be (future state) business process flows and begin identifying relevant controls for these risks. Identify the roles and users in the target state Oracle platform and define the security and controls design specifications.</attribute>
+<attribute name="suppressed" nodeId="caedd5d5">false</attribute>
+<attribute name="orderingGuide" nodeId="87d9aaeb"></attribute>
+<attribute name="isAbstract" nodeId="5f65439d">false</attribute>
+<attribute name="shapeicon" nodeId="da23fde2"></attribute>
+<attribute name="nodeicon" nodeId="626b5b2"></attribute>
+<attribute name="prefix" nodeId="83bfc66e"></attribute>
+<attribute name="isPlanned" nodeId="d5829836">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="ccdf4e31">false</attribute>
+<attribute name="isOptional" nodeId="2fdc235b">false</attribute>
+<attribute name="isRepeatable" nodeId="51b1c590">false</attribute>
+<attribute name="isOngoing" nodeId="d27f7d2d">false</attribute>
+<attribute name="isEventDriven" nodeId="ea47c9a4">false</attribute>
+<attribute name="variabilityType" nodeId="c6f5c7ae">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_TVvgYZLKEe6Ji6GnvvUfqw&amp;path=_TVvgYZLKEe6Ji6GnvvUfqw,_cKZPgblvEe6NptHkoN3Rkw,_MYmA4LoCEe6NptHkoN3Rkw_mG-mwOz6EeOUuN5KXDB68g" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/sec_func_design_86887C51.html" Name="sec_func_design" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Security Functional Design" Id="_MYmA4LoCEe6NptHkoN3Rkw_mG-mwOz6EeOUuN5KXDB68g" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="cf028371">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="c9f14929" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="e5fbf7bb">eya_oracle</attribute>
+<attribute name="guid" nodeId="6ef7c623">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="d2f775eb">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="2a4a9fe6"></attribute>
+<attribute name="suppressed" nodeId="5c731771">false</attribute>
+<attribute name="orderingGuide" nodeId="ec3a098f"></attribute>
+<attribute name="isAbstract" nodeId="e5e0692f">false</attribute>
+<attribute name="shapeicon" nodeId="661697d4"></attribute>
+<attribute name="nodeicon" nodeId="ce7a97d7"></attribute>
+<attribute name="prefix" nodeId="9ffa9b8"></attribute>
+<attribute name="isPlanned" nodeId="8981b727">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="83f5a012">false</attribute>
+<attribute name="isOptional" nodeId="dc27ce1c">false</attribute>
+<attribute name="isRepeatable" nodeId="a775807">false</attribute>
+<attribute name="isOngoing" nodeId="98b4b6d3">false</attribute>
+<attribute name="isEventDriven" nodeId="58e19a5">false</attribute>
+<attribute name="variabilityType" nodeId="7113e4c">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Confirm and Design" Id="_bRCPsIs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA" nodeId="d276675a" Url="process.adv.eya_oracle.base/deliveryprocesses/confirm_and_design_29FFDB9.html" Name="confirm_and_design" BackPath="./../../">
+<attribute name="name" nodeId="7abe7555">confirm_and_design</attribute>
+<attribute name="guid" nodeId="d2ce215f">_bRCPsIs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="dfb813af">Confirm and Design</attribute>
+<attribute name="briefDescription" nodeId="197e2517">Define business requirements, map process flows and facilitate fit-gap workshops. Define technology and testing strategies. Develop the master configuration workbook, RICEFW inventory and prepare for progressive build cycles.</attribute>
+<attribute name="suppressed" nodeId="6694310a">false</attribute>
+<attribute name="orderingGuide" nodeId="80f80945"></attribute>
+<attribute name="isAbstract" nodeId="d5f4e109">false</attribute>
+<attribute name="shapeicon" nodeId="42d54de5"></attribute>
+<attribute name="nodeicon" nodeId="20fbfe9"></attribute>
+<attribute name="prefix" nodeId="9900e7b3"></attribute>
+<attribute name="isPlanned" nodeId="84698b1d">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="7eb902f8">false</attribute>
+<attribute name="isOptional" nodeId="327f2925">false</attribute>
+<attribute name="isRepeatable" nodeId="d3137b2b">false</attribute>
+<attribute name="isOngoing" nodeId="79a4f576">false</attribute>
+<attribute name="isEventDriven" nodeId="8f69141d">false</attribute>
+<attribute name="variabilityType" nodeId="58623e16">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Design Security and Controls" Id="_0MNCIY_YEe-WuNJ6Gy8NYQ" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA,_0MNCIY_YEe-WuNJ6Gy8NYQ" nodeId="a48ac7b1" Url="process.adv.eya_oracle.base/deliveryprocesses/design_security_controls_6DDE172A.html" Name="design_security_controls" BackPath="./../../">
+<attribute name="name" nodeId="f47ec50a">design_security_controls</attribute>
+<attribute name="guid" nodeId="1d0270ce">_0MNCIY_YEe-WuNJ6Gy8NYQ</attribute>
+<attribute name="presentationName" nodeId="32cd86a3">Design Security and Controls</attribute>
+<attribute name="briefDescription" nodeId="72a5b17">Mark potential risks in to-be (future state) business process flows and begin identifying relevant controls for these risks. Identify the roles and users in the target state Oracle platform and define the security and controls design specifications.</attribute>
+<attribute name="suppressed" nodeId="bdeaa429">false</attribute>
+<attribute name="orderingGuide" nodeId="3c2f4a0"></attribute>
+<attribute name="isAbstract" nodeId="eb23ccba">false</attribute>
+<attribute name="shapeicon" nodeId="9f5520cc"></attribute>
+<attribute name="nodeicon" nodeId="63d2779f"></attribute>
+<attribute name="prefix" nodeId="a3c8898d"></attribute>
+<attribute name="isPlanned" nodeId="fa611818">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="bab44153">false</attribute>
+<attribute name="isOptional" nodeId="b26a64d">false</attribute>
+<attribute name="isRepeatable" nodeId="12c9c83e">false</attribute>
+<attribute name="isOngoing" nodeId="3342d25d">false</attribute>
+<attribute name="isEventDriven" nodeId="544e39f1">false</attribute>
+<attribute name="variabilityType" nodeId="863b920e">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_TVvgYZLKEe6Ji6GnvvUfqw&amp;path=_TVvgYZLKEe6Ji6GnvvUfqw,_faKRscFzEe6bZYQTbJkTNg,_NctNwMJcEe6bZYQTbJkTNg_mG-mwOz6EeOUuN5KXDB68g" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/sec_func_design_86887C51.html" Name="sec_func_design" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Security Functional Design" Id="_NctNwMJcEe6bZYQTbJkTNg_mG-mwOz6EeOUuN5KXDB68g" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="6ed557a2">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Security and Controls" Id="_TVvgYZLKEe6Ji6GnvvUfqw" relProcessPath="_TVvgYZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_TVvgYZLKEe6Ji6GnvvUfqw&amp;path=_TVvgYZLKEe6Ji6GnvvUfqw" nodeId="ddf9a487" Url="process.adv.eya_oracle.base/capabilitypatterns/sec_controls_wkstrm_DFD76F11.html" Name="sec_controls_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="92c12159">sec_controls_wkstrm</attribute>
+<attribute name="guid" nodeId="6ed6b661">_TVvgYZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="d6d316ab">Security and Controls</attribute>
+<attribute name="briefDescription" nodeId="13c8ab6a"></attribute>
+<attribute name="suppressed" nodeId="9511a8b0">false</attribute>
+<attribute name="orderingGuide" nodeId="f4319497"></attribute>
+<attribute name="isAbstract" nodeId="afe2eb7b">false</attribute>
+<attribute name="shapeicon" nodeId="46be5e43"></attribute>
+<attribute name="nodeicon" nodeId="7cc0bc9e"></attribute>
+<attribute name="prefix" nodeId="830b5c8f">workstream</attribute>
+<attribute name="isPlanned" nodeId="50b75a31">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="44a60233">false</attribute>
+<attribute name="isOptional" nodeId="f581e825">false</attribute>
+<attribute name="isRepeatable" nodeId="89f74eff">false</attribute>
+<attribute name="isOngoing" nodeId="2d9382fc">false</attribute>
+<attribute name="isEventDriven" nodeId="7f762274">false</attribute>
+<attribute name="variabilityType" nodeId="3ec9be59">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Embed Security and Controls" Id="_faKRscFzEe6bZYQTbJkTNg" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_TVvgYZLKEe6Ji6GnvvUfqw&amp;path=_TVvgYZLKEe6Ji6GnvvUfqw,_faKRscFzEe6bZYQTbJkTNg" nodeId="39e8ba41" Url="process.adv.eya_oracle.base/capabilitypatterns/embed_security_controls_90B3F41D.html" Name="embed_security_controls" BackPath="./../../">
+<attribute name="name" nodeId="f3bd8c74">embed_security_controls</attribute>
+<attribute name="guid" nodeId="2361b0f3">_faKRscFzEe6bZYQTbJkTNg</attribute>
+<attribute name="presentationName" nodeId="86d9e33f">Embed Security and Controls</attribute>
+<attribute name="briefDescription" nodeId="ccbbcc68">Review the risk and controls matrix with key client stakeholders and build out the required security roles in the target state solution.</attribute>
+<attribute name="suppressed" nodeId="afcc098a">false</attribute>
+<attribute name="orderingGuide" nodeId="ea9c06c5"></attribute>
+<attribute name="isAbstract" nodeId="6406bb58">false</attribute>
+<attribute name="shapeicon" nodeId="ad17cadc"></attribute>
+<attribute name="nodeicon" nodeId="5bce0347"></attribute>
+<attribute name="prefix" nodeId="3bd28073"></attribute>
+<attribute name="isPlanned" nodeId="ee2e5163">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="cbece6d8">false</attribute>
+<attribute name="isOptional" nodeId="d37c7052">false</attribute>
+<attribute name="isRepeatable" nodeId="e937a0b9">false</attribute>
+<attribute name="isOngoing" nodeId="60bcc361">false</attribute>
+<attribute name="isEventDriven" nodeId="220d2366">false</attribute>
+<attribute name="variabilityType" nodeId="9c13f0b6">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_TVvgYZLKEe6Ji6GnvvUfqw&amp;path=_TVvgYZLKEe6Ji6GnvvUfqw,_faKRscFzEe6bZYQTbJkTNg,_NctNwMJcEe6bZYQTbJkTNg_mG-mwOz6EeOUuN5KXDB68g" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/sec_func_design_86887C51.html" Name="sec_func_design" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Security Functional Design" Id="_NctNwMJcEe6bZYQTbJkTNg_mG-mwOz6EeOUuN5KXDB68g" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="e7d9d400">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="b7f9a22b" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="2e83dcfe">eya_oracle</attribute>
+<attribute name="guid" nodeId="b34a56dc">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="5dd3f670">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="9cd25f74"></attribute>
+<attribute name="suppressed" nodeId="c22456d0">false</attribute>
+<attribute name="orderingGuide" nodeId="25a8bfec"></attribute>
+<attribute name="isAbstract" nodeId="b7d67a82">false</attribute>
+<attribute name="shapeicon" nodeId="32858560"></attribute>
+<attribute name="nodeicon" nodeId="4e56d60c"></attribute>
+<attribute name="prefix" nodeId="7c691287"></attribute>
+<attribute name="isPlanned" nodeId="92f86720">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="66e64a93">false</attribute>
+<attribute name="isOptional" nodeId="74f332f3">false</attribute>
+<attribute name="isRepeatable" nodeId="2fab99a9">false</attribute>
+<attribute name="isOngoing" nodeId="159ce05b">false</attribute>
+<attribute name="isEventDriven" nodeId="1ee5c9e9">false</attribute>
+<attribute name="variabilityType" nodeId="826ef3f0">replaces</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Progressive Build" Id="_c4A0kYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA" nodeId="9eb55d5f" Url="process.adv.eya_oracle.base/deliveryprocesses/progressive_build_70B7DD74.html" Name="progressive_build" BackPath="./../../">
+<attribute name="name" nodeId="fc94512d">progressive_build</attribute>
+<attribute name="guid" nodeId="86d05a48">_c4A0kYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="27c5e6b3">Progressive Build</attribute>
+<attribute name="briefDescription" nodeId="789eda8a">Iterate through the build cycles and drive business acceptance through incremental demos to key client stakeholders. Execute mock conversions and and prepare for system integration and user acceptance testing. Manage stakeholder engagement and communications around the change.</attribute>
+<attribute name="suppressed" nodeId="6ac0a211">false</attribute>
+<attribute name="orderingGuide" nodeId="c881a473"></attribute>
+<attribute name="isAbstract" nodeId="9a983038">false</attribute>
+<attribute name="shapeicon" nodeId="7208cf2c"></attribute>
+<attribute name="nodeicon" nodeId="6cdac814"></attribute>
+<attribute name="prefix" nodeId="2a225390"></attribute>
+<attribute name="isPlanned" nodeId="51d7e1db">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="ca347004">false</attribute>
+<attribute name="isOptional" nodeId="83a900a1">false</attribute>
+<attribute name="isRepeatable" nodeId="534037a5">true</attribute>
+<attribute name="isOngoing" nodeId="1810bcf8">false</attribute>
+<attribute name="isEventDriven" nodeId="2fcbe210">false</attribute>
+<attribute name="variabilityType" nodeId="36bcddee">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Embed Security and Controls" Id="_O0FfsY_ZEe-WuNJ6Gy8NYQ" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_O0FfsY_ZEe-WuNJ6Gy8NYQ" nodeId="d0d5afaa" Url="process.adv.eya_oracle.base/deliveryprocesses/embed_security_controls_C5C30E90.html" Name="embed_security_controls" BackPath="./../../">
+<attribute name="name" nodeId="771077b3">embed_security_controls</attribute>
+<attribute name="guid" nodeId="b643d61d">_O0FfsY_ZEe-WuNJ6Gy8NYQ</attribute>
+<attribute name="presentationName" nodeId="bb1257ce">Embed Security and Controls</attribute>
+<attribute name="briefDescription" nodeId="2f6af4d">Review the risk and controls matrix with key client stakeholders and build out the required security roles in the target state solution.</attribute>
+<attribute name="suppressed" nodeId="d72b135b">false</attribute>
+<attribute name="orderingGuide" nodeId="37bcef10"></attribute>
+<attribute name="isAbstract" nodeId="96b1d00a">false</attribute>
+<attribute name="shapeicon" nodeId="d01654b1"></attribute>
+<attribute name="nodeicon" nodeId="3aa89d23"></attribute>
+<attribute name="prefix" nodeId="d4692f27"></attribute>
+<attribute name="isPlanned" nodeId="5f8d4a15">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="a959dead">false</attribute>
+<attribute name="isOptional" nodeId="f85185d1">false</attribute>
+<attribute name="isRepeatable" nodeId="174994e2">false</attribute>
+<attribute name="isOngoing" nodeId="da14beba">false</attribute>
+<attribute name="isEventDriven" nodeId="7de3eef2">false</attribute>
+<attribute name="variabilityType" nodeId="ff5c1e88">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_TVvgYZLKEe6Ji6GnvvUfqw&amp;path=_TVvgYZLKEe6Ji6GnvvUfqw,_v5vFYcLaEe6bZYQTbJkTNg,_1CiyQMLaEe6bZYQTbJkTNg_mG-mwOz6EeOUuN5KXDB68g" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/sec_func_design_86887C51.html" Name="sec_func_design" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Security Functional Design" Id="_1CiyQMLaEe6bZYQTbJkTNg_mG-mwOz6EeOUuN5KXDB68g" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="f3159674">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Security and Controls" Id="_TVvgYZLKEe6Ji6GnvvUfqw" relProcessPath="_TVvgYZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_TVvgYZLKEe6Ji6GnvvUfqw&amp;path=_TVvgYZLKEe6Ji6GnvvUfqw" nodeId="327d5706" Url="process.adv.eya_oracle.base/capabilitypatterns/sec_controls_wkstrm_DFD76F11.html" Name="sec_controls_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="85c1d4d2">sec_controls_wkstrm</attribute>
+<attribute name="guid" nodeId="7421478">_TVvgYZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="8b65cdd9">Security and Controls</attribute>
+<attribute name="briefDescription" nodeId="8d3c353a"></attribute>
+<attribute name="suppressed" nodeId="3d1506c8">false</attribute>
+<attribute name="orderingGuide" nodeId="bbeabf1"></attribute>
+<attribute name="isAbstract" nodeId="a7fb4c55">false</attribute>
+<attribute name="shapeicon" nodeId="96d0dfd3"></attribute>
+<attribute name="nodeicon" nodeId="8b6a42b4"></attribute>
+<attribute name="prefix" nodeId="6cbae98a">workstream</attribute>
+<attribute name="isPlanned" nodeId="8404b7a3">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="a27aa50d">false</attribute>
+<attribute name="isOptional" nodeId="a482e6ed">false</attribute>
+<attribute name="isRepeatable" nodeId="9ed149a0">false</attribute>
+<attribute name="isOngoing" nodeId="3ee3fdcd">false</attribute>
+<attribute name="isEventDriven" nodeId="861d558e">false</attribute>
+<attribute name="variabilityType" nodeId="30c24be4">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Validate Segregation of Duties" Id="_v5vFYcLaEe6bZYQTbJkTNg" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_TVvgYZLKEe6Ji6GnvvUfqw&amp;path=_TVvgYZLKEe6Ji6GnvvUfqw,_v5vFYcLaEe6bZYQTbJkTNg" nodeId="7354ff17" Url="process.adv.eya_oracle.base/capabilitypatterns/validate_segregation_duties_9F24B485.html" Name="validate_segregation_duties" BackPath="./../../">
+<attribute name="name" nodeId="809b9326">validate_segregation_duties</attribute>
+<attribute name="guid" nodeId="4328c562">_v5vFYcLaEe6bZYQTbJkTNg</attribute>
+<attribute name="presentationName" nodeId="da12bc5">Validate Segregation of Duties</attribute>
+<attribute name="briefDescription" nodeId="41d8abe0">Conduct a comprehensive segregation of duties (SoD) and senstive access (SA) analysis on the roles and user-role assignments in the target state Oracle platform and discuss any conflicts with key client stakeholders.</attribute>
+<attribute name="suppressed" nodeId="44f13dae">false</attribute>
+<attribute name="orderingGuide" nodeId="80161c7f"></attribute>
+<attribute name="isAbstract" nodeId="ff81dcb5">false</attribute>
+<attribute name="shapeicon" nodeId="85f2f83e"></attribute>
+<attribute name="nodeicon" nodeId="e8069ad1"></attribute>
+<attribute name="prefix" nodeId="5afb2943"></attribute>
+<attribute name="isPlanned" nodeId="ff411d5e">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="f2c76e9b">false</attribute>
+<attribute name="isOptional" nodeId="4f887594">false</attribute>
+<attribute name="isRepeatable" nodeId="c8500a79">false</attribute>
+<attribute name="isOngoing" nodeId="a4aae685">false</attribute>
+<attribute name="isEventDriven" nodeId="996084b4">false</attribute>
+<attribute name="variabilityType" nodeId="335377b">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_TVvgYZLKEe6Ji6GnvvUfqw&amp;path=_TVvgYZLKEe6Ji6GnvvUfqw,_v5vFYcLaEe6bZYQTbJkTNg,_1CiyQMLaEe6bZYQTbJkTNg_mG-mwOz6EeOUuN5KXDB68g" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/sec_func_design_86887C51.html" Name="sec_func_design" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Security Functional Design" Id="_1CiyQMLaEe6bZYQTbJkTNg_mG-mwOz6EeOUuN5KXDB68g" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="193e879e">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="b7f5e044" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="73d5f45">eya_oracle</attribute>
+<attribute name="guid" nodeId="be5417ec">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="aff6c73">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="f50dcf48"></attribute>
+<attribute name="suppressed" nodeId="624c71fd">false</attribute>
+<attribute name="orderingGuide" nodeId="d01df7ff"></attribute>
+<attribute name="isAbstract" nodeId="c820bf3e">false</attribute>
+<attribute name="shapeicon" nodeId="9d1f56ff"></attribute>
+<attribute name="nodeicon" nodeId="ee1f5ba2"></attribute>
+<attribute name="prefix" nodeId="37587499"></attribute>
+<attribute name="isPlanned" nodeId="d3371ec1">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="a2cb957b">false</attribute>
+<attribute name="isOptional" nodeId="6af7e038">false</attribute>
+<attribute name="isRepeatable" nodeId="a101ddae">false</attribute>
+<attribute name="isOngoing" nodeId="f8d3bb1a">false</attribute>
+<attribute name="isEventDriven" nodeId="85f58564">false</attribute>
+<attribute name="variabilityType" nodeId="e4835b63">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Test" Id="_esTcsYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA" nodeId="1d564e92" Url="process.adv.eya_oracle.base/deliveryprocesses/test_E5EB30E9.html" Name="test" BackPath="./../../">
+<attribute name="name" nodeId="cec4a516">test</attribute>
+<attribute name="guid" nodeId="d7ad2f8c">_esTcsYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="f43ee537">Test</attribute>
+<attribute name="briefDescription" nodeId="40895dd6">Perform tests on the integrated Oracle services solution and prepare for cutover and deployment. Additionally, design and prepare training materials.</attribute>
+<attribute name="suppressed" nodeId="3494255d">false</attribute>
+<attribute name="orderingGuide" nodeId="3b182214"></attribute>
+<attribute name="isAbstract" nodeId="42798d50">false</attribute>
+<attribute name="shapeicon" nodeId="b735a423"></attribute>
+<attribute name="nodeicon" nodeId="116abf9f"></attribute>
+<attribute name="prefix" nodeId="848904f2"></attribute>
+<attribute name="isPlanned" nodeId="97b1305b">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="20ec110c">false</attribute>
+<attribute name="isOptional" nodeId="964d8abe">false</attribute>
+<attribute name="isRepeatable" nodeId="d2cbb6ac">false</attribute>
+<attribute name="isOngoing" nodeId="3fd03ffd">false</attribute>
+<attribute name="isEventDriven" nodeId="8c6f0b5a">false</attribute>
+<attribute name="variabilityType" nodeId="2e89dfeb">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Validate Segregation of Duties" Id="_c8x4sY_ZEe-WuNJ6Gy8NYQ" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_c8x4sY_ZEe-WuNJ6Gy8NYQ" nodeId="6bb5eef7" Url="process.adv.eya_oracle.base/deliveryprocesses/validate_segregation_duties_BF5215E0.html" Name="validate_segregation_duties" BackPath="./../../">
+<attribute name="name" nodeId="f128f7c8">validate_segregation_duties</attribute>
+<attribute name="guid" nodeId="efc6a67">_c8x4sY_ZEe-WuNJ6Gy8NYQ</attribute>
+<attribute name="presentationName" nodeId="2ccd2d6d">Validate Segregation of Duties</attribute>
+<attribute name="briefDescription" nodeId="97e9a43c">Conduct a comprehensive segregation of duties (SoD) and senstive access (SA) analysis on the roles and user-role assignments in the target state Oracle platform and discuss any conflicts with key client stakeholders.</attribute>
+<attribute name="suppressed" nodeId="a5281ef8">false</attribute>
+<attribute name="orderingGuide" nodeId="c8c6e083"></attribute>
+<attribute name="isAbstract" nodeId="bfb026c7">false</attribute>
+<attribute name="shapeicon" nodeId="d11ca32c"></attribute>
+<attribute name="nodeicon" nodeId="52b5ebc"></attribute>
+<attribute name="prefix" nodeId="c827e51d"></attribute>
+<attribute name="isPlanned" nodeId="37d9ade2">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="b4027f2d">false</attribute>
+<attribute name="isOptional" nodeId="7086fbdd">false</attribute>
+<attribute name="isRepeatable" nodeId="d6a5b209">false</attribute>
+<attribute name="isOngoing" nodeId="b1c794c8">false</attribute>
+<attribute name="isEventDriven" nodeId="8045a89b">false</attribute>
+<attribute name="variabilityType" nodeId="9b40c7ce">extends</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" TypeName="Task" Url="process.adv.eya_oracle.base/tasks/determine_readiness_criteria_D977AD9D.html" Name="determine_readiness_criteria" BackPath="./../../" Type="Task" NodeiconUrl="" performingRoleName="Solution Architect" DisplayName="Determine readiness criteria" Id="_vVEH0DHEEe-ymZgH1AiGoQ" ShapeiconUrl="images/task.gif" lang="en" nodeId="10d5e0c">
+<copyright nodeId="71737b04">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="7b18d56">determine_readiness_criteria</attribute>
+<attribute name="guid" nodeId="d21e35d4">_vVEH0DHEEe-ymZgH1AiGoQ</attribute>
+<attribute name="presentationName" nodeId="ec1185d0">Determine readiness criteria</attribute>
+<attribute name="briefDescription" nodeId="347958e6">Document the conditions that must exist to confirm that the organization is prepared to proceed with the cutover of the solution to the production environment. </attribute>
+<attribute name="suppressed" nodeId="5819273a">false</attribute>
+<attribute name="orderingGuide" nodeId="5dfaa77c"></attribute>
+<attribute name="isAbstract" nodeId="d3700b3e">false</attribute>
+<attribute name="shapeicon" nodeId="7eaf71a0"></attribute>
+<attribute name="nodeicon" nodeId="7591bad7"></attribute>
+<attribute name="variabilityType" nodeId="ec37b961">extendsReplaces</attribute>
+<reference name="presentation" nodeId="d52b859">
+<Element Type="TaskDescription" TypeName="Task Description" NodeiconUrl="" DisplayName="" Id="-KW2QhWI7av0WJo1eENgZiA" ShapeiconUrl="images/guidance.gif" nodeId="3384a249" Url="" Name="determine_readiness_criteria,_vVEH0DHEEe-ymZgH1AiGoQ" BackPath="">
+<attribute name="name" nodeId="2f5f3b33">determine_readiness_criteria,_vVEH0DHEEe-ymZgH1AiGoQ</attribute>
+<attribute name="guid" nodeId="3b11e58d">-KW2QhWI7av0WJo1eENgZiA</attribute>
+<attribute name="presentationName" nodeId="f2e9c6b1"></attribute>
+<attribute name="briefDescription" nodeId="9928b504"></attribute>
+<attribute name="suppressed" nodeId="6d66087b">false</attribute>
+<attribute name="orderingGuide" nodeId="4820a10e"></attribute>
+<attribute name="authors" nodeId="3449d336"></attribute>
+<attribute name="changeDate" nodeId="414916e4"></attribute>
+<attribute name="changeDescription" nodeId="e80854c9">AUGUST 2014 - baseline version</attribute>
+<attribute name="version" nodeId="a107229a"></attribute>
+<attribute name="mainDescription" nodeId="a1a34186">&lt;p&gt;
+    Review the business cutover window and cutover activities with service management teams and business leads.
+&lt;/p&gt;
+&lt;p&gt;
+    Assess important criteria such as&amp;nbsp;site readiness, sponsor and stakeholder engagement, cutover communications,
+    technology&amp;nbsp;infrastructure and business continuity plans.&amp;nbsp;
+&lt;/p&gt;
+&lt;p&gt;
+    Define the approach and criteria and review with key stakeholders.
+&lt;/p&gt;
+&lt;p&gt;
+    Readiness criteria listed&amp;nbsp;on a typical business preparedness checklist&amp;nbsp;include:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Is each site fully staffed, trained, and engaged?
+    &lt;/li&gt;
+    &lt;li&gt;
+        Are the sponsorship and stakeholders engaged?
+    &lt;/li&gt;
+    &lt;li&gt;
+        Are the sponsorship and stakeholders prepared and equipped for their roles in the cutover?
+    &lt;/li&gt;
+    &lt;li&gt;
+        Are all critical business leaders informed about the timing of checkpoints and go/no decision points?
+    &lt;/li&gt;
+    &lt;li&gt;
+        Have all necessary communications occurred? 
+        &lt;ul&gt;
+            &lt;li&gt;
+                Memorandum to all department heads and offices
+            &lt;/li&gt;
+            &lt;li&gt;
+                Notices of system down time
+            &lt;/li&gt;
+            &lt;li&gt;
+                Handover communications
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Does each site have all infrastructure (servers, routers) and user hardware (printers, servers, network) in place?
+    &lt;/li&gt;
+    &lt;li&gt;
+        Are testing and verification complete?
+    &lt;/li&gt;
+    &lt;li&gt;
+        Are business continuity plans in place and understood in case the cutover fails?
+    &lt;/li&gt;
+    &lt;li&gt;
+        Is the business sufficiently staffed and trained for any dual maintenance required during the cutover?
+    &lt;/li&gt;
+    &lt;li&gt;
+        Is the staff trained and ready for any manual workarounds which may be required during cutover?
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="externalId" nodeId="bf22df50"></attribute>
+<attribute name="keyConsiderations" nodeId="e6fea97a"></attribute>
+<attribute name="longPresentationName" nodeId="674bf9a6"></attribute>
+<attribute name="purpose" nodeId="2281252">To provide a set of quantitative and qualitative standards against which the organization&apos;s preparedness to begin the
+transition can be measured.</attribute>
+<attribute name="alternatives" nodeId="e4670e55"></attribute>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="performedBy" nodeId="9515ac8e">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Solution Architect" Id="_MaaBsNNoEe-Fuo3rkO5x4w" ShapeiconUrl="images/role.gif" nodeId="440256f" Url="process.adv.eya_oracle.base/roles/soln_architect_1699084C.html" Name="soln_architect" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="mandatoryInput" nodeId="32b38c87">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Functional Requirement" Id="_JUXPcMRiEeapHOG_ozfrTg" ShapeiconUrl="images/artifact.gif" nodeId="69670d7c" Url="core.gen.common.base/workproducts/func_rqmt_95C4EC3B.html" Name="func_rqmt" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Non-Functional Requirements" Id="_jbA9YAIPEeS9erBHLNmxUg" ShapeiconUrl="images/artifact.gif" nodeId="667e63ea" Url="core.gen.common.base/workproducts/non_func_rqmts_18CC3776.html" Name="non_func_rqmts" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="output" nodeId="9ad9c89e">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Cutover Readiness Criteria" Id="_EWo3MPF4EeOFgpTUvzaUCQ" ShapeiconUrl="images/artifact.gif" nodeId="cb0fa3da" Url="core.ops.common.base/workproducts/readiness_criteria_6CDC630D.html" Name="readiness_criteria" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="additionallyPerformedBy" nodeId="54b0cba">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Analyst" Id="_W7RhoAk9EeOR5fNLLJCc5g" ShapeiconUrl="images/role.gif" nodeId="af50c9f0" Url="core.default.role_def.base/roles/analyst_46D75ED7.html" Name="analyst" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Functional Architect" Id="_EZAaoMxjEe-ZJLQgqxU0kQ" ShapeiconUrl="images/role.gif" nodeId="69c5e0ce" Url="process.adv.eya_oracle.base/roles/func_architect_A28F4FB1.html" Name="func_architect" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Project Manager" Id="_PdB9X_mlEeK66c-ZdBvpxw" ShapeiconUrl="images/role.gif" nodeId="6abfca06" Url="core.default.role_def.base/roles/project_manager_81311EEC.html" Name="project_manager" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Technical Lead" Id="_6At4MCygEe-bo7_6LoJ2iQ" ShapeiconUrl="images/role.gif" nodeId="903aade7" Url="process.adv.eya_oracle.base/roles/tech_lead_30CEAD95.html" Name="tech_lead" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Transition Lead" Id="_C2LiJz8gEeOOEPaNsP0t0A" ShapeiconUrl="images/role.gif" nodeId="d7522e5" Url="core.default.role_def.base/roles/transition_lead_D1C56254.html" Name="transition_lead" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="Task_TaskDescriptors" nodeId="393b9ed7">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_MGGYUDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/determine_readiness_criteria_D977AD9D.html" Name="determine_readiness_criteria" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Determine readiness criteria" Id="_MGGYUDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="69991aee"></Element>
+</referenceList>
+<referenceList name="VariabilityElement_ImmediateVarieties" nodeId="7fd1d8eb"></referenceList>
+<reference name="performingRole" nodeId="99200752">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Solution Architect" Id="_MaaBsNNoEe-Fuo3rkO5x4w" ShapeiconUrl="images/role.gif" nodeId="74440351" Url="process.adv.eya_oracle.base/roles/soln_architect_1699084C.html" Name="soln_architect" BackPath="./../../"></Element>
+</reference>
+<referenceList name="customCategories" nodeId="4d6e95b3">
+<Element Type="CustomCategory" TypeName="Custom Category" NodeiconUrl="" DisplayName="Tasks" Id="_0Sj48KDNEeOMmqbYX27PPA" ShapeiconUrl="core.default.nav_view.base/customcategories/resources/cat_task51.png" nodeId="61558110" Url="core.default.nav_view.base/customcategories/task_list_CDC9CEA6.html" Name="task_list" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="6aba91de">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_MGGYUDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/determine_readiness_criteria_D977AD9D.html" Name="determine_readiness_criteria" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Determine readiness criteria" Id="_MGGYUDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="1736f19f">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="58e1164" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="26beac95">eya_oracle</attribute>
+<attribute name="guid" nodeId="3325ecfb">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="4a329122">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="b6a9108e"></attribute>
+<attribute name="suppressed" nodeId="b3470bf5">false</attribute>
+<attribute name="orderingGuide" nodeId="ce755515"></attribute>
+<attribute name="isAbstract" nodeId="2c84cf28">false</attribute>
+<attribute name="shapeicon" nodeId="19de9727"></attribute>
+<attribute name="nodeicon" nodeId="c5a4584e"></attribute>
+<attribute name="prefix" nodeId="de67dc17"></attribute>
+<attribute name="isPlanned" nodeId="7f1983fe">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="76c072da">false</attribute>
+<attribute name="isOptional" nodeId="a207801c">false</attribute>
+<attribute name="isRepeatable" nodeId="887f04e">false</attribute>
+<attribute name="isOngoing" nodeId="d3b532a6">false</attribute>
+<attribute name="isEventDriven" nodeId="6a5c214a">false</attribute>
+<attribute name="variabilityType" nodeId="d9440728">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Test" Id="_esTcsYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA" nodeId="355cccf1" Url="process.adv.eya_oracle.base/deliveryprocesses/test_E5EB30E9.html" Name="test" BackPath="./../../">
+<attribute name="name" nodeId="a00eaa39">test</attribute>
+<attribute name="guid" nodeId="c7062320">_esTcsYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="390c9316">Test</attribute>
+<attribute name="briefDescription" nodeId="43c1f472">Perform tests on the integrated Oracle services solution and prepare for cutover and deployment. Additionally, design and prepare training materials.</attribute>
+<attribute name="suppressed" nodeId="a70b67e9">false</attribute>
+<attribute name="orderingGuide" nodeId="89ac3651"></attribute>
+<attribute name="isAbstract" nodeId="f86dbed5">false</attribute>
+<attribute name="shapeicon" nodeId="cecd68dc"></attribute>
+<attribute name="nodeicon" nodeId="de8f1f8d"></attribute>
+<attribute name="prefix" nodeId="31a95cf8"></attribute>
+<attribute name="isPlanned" nodeId="71ed5d39">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="9f2a4c83">false</attribute>
+<attribute name="isOptional" nodeId="8f05b385">false</attribute>
+<attribute name="isRepeatable" nodeId="9e324360">false</attribute>
+<attribute name="isOngoing" nodeId="269cab1a">false</attribute>
+<attribute name="isEventDriven" nodeId="a86ce66">false</attribute>
+<attribute name="variabilityType" nodeId="f6aea584">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Prepare for Cutover and Deployment" Id="_vkzykdplEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw" nodeId="f79cf334" Url="process.adv.eya_oracle.base/deliveryprocesses/prepare_cutover_deployment_CE7AA5F6.html" Name="prepare_cutover_deployment" BackPath="./../../">
+<attribute name="name" nodeId="5cc063a4">prepare_cutover_deployment</attribute>
+<attribute name="guid" nodeId="855a7cea">_vkzykdplEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="d0976047">Prepare for Cutover and Deployment</attribute>
+<attribute name="briefDescription" nodeId="e367bf14">Define the approach, plan and governance tasks to manage the transition of the target state Oracle solution into the production environment.</attribute>
+<attribute name="suppressed" nodeId="f498c15d">false</attribute>
+<attribute name="orderingGuide" nodeId="e80ba677"></attribute>
+<attribute name="isAbstract" nodeId="3e5dae7d">false</attribute>
+<attribute name="shapeicon" nodeId="ef428fe2"></attribute>
+<attribute name="nodeicon" nodeId="3ad1d3c9"></attribute>
+<attribute name="prefix" nodeId="ed34ee48"></attribute>
+<attribute name="isPlanned" nodeId="bbc3a937">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="c8f3bc82">false</attribute>
+<attribute name="isOptional" nodeId="239b324f">false</attribute>
+<attribute name="isRepeatable" nodeId="2ee9a8be">false</attribute>
+<attribute name="isOngoing" nodeId="e955824b">false</attribute>
+<attribute name="isEventDriven" nodeId="519e7833">false</attribute>
+<attribute name="variabilityType" nodeId="840d09ab">extends</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

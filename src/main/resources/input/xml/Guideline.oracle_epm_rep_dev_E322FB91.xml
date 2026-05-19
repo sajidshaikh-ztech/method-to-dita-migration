@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element Type="Guideline" TypeName="Guideline" NodeiconUrl="" DisplayName="Oracle EPM report development" Id="_E_PYUAhuEeSIO7R1JUtaVw" ShapeiconUrl="images/guidance.gif" lang="en" nodeId="986e8739" Url="core.i_t.common.base/guidances/guidelines/oracle_epm_rep_dev_E322FB91.html" Name="oracle_epm_rep_dev" BackPath="./../../../">
+<copyright nodeId="1a4b0ca">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="8b2db816">oracle_epm_rep_dev</attribute>
+<attribute name="guid" nodeId="dd817488">_E_PYUAhuEeSIO7R1JUtaVw</attribute>
+<attribute name="presentationName" nodeId="7256341e">Oracle EPM report development</attribute>
+<attribute name="briefDescription" nodeId="dbcf7d15"></attribute>
+<attribute name="suppressed" nodeId="5b17a922">false</attribute>
+<attribute name="orderingGuide" nodeId="e386c747"></attribute>
+<attribute name="isAbstract" nodeId="90b61a2b">false</attribute>
+<attribute name="shapeicon" nodeId="2fff349c"></attribute>
+<attribute name="nodeicon" nodeId="d5411aa0"></attribute>
+<attribute name="variabilityType" nodeId="ee5d98c4">na</attribute>
+<reference name="presentation" nodeId="4d7bb89d">
+<Element Type="ContentDescription" TypeName="Content Description" NodeiconUrl="" DisplayName="Oracle EPM report development" Id="-hkKI7_nsmFVoIU2aCeKwLg" ShapeiconUrl="images/guidance.gif" nodeId="5b4e15b8" Url="" Name="oracle_epm_report_development,_E_PYUAhuEeSIO7R1JUtaVw" BackPath="">
+<copyright nodeId="962414af">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="7842b8b9">oracle_epm_report_development,_E_PYUAhuEeSIO7R1JUtaVw</attribute>
+<attribute name="guid" nodeId="80372706">-hkKI7_nsmFVoIU2aCeKwLg</attribute>
+<attribute name="presentationName" nodeId="d52f6c52">Oracle EPM report development</attribute>
+<attribute name="briefDescription" nodeId="772644b"></attribute>
+<attribute name="suppressed" nodeId="43b0b589">false</attribute>
+<attribute name="orderingGuide" nodeId="ebeec6"></attribute>
+<attribute name="authors" nodeId="da8b950a"></attribute>
+<attribute name="changeDate" nodeId="27a2815c">Sat Feb 25 03:17:12 EST 2023</attribute>
+<attribute name="changeDescription" nodeId="667f520">FEB 2023 - moved brief description to main|Aug 2014 - baseline</attribute>
+<attribute name="version" nodeId="1c1e8906"></attribute>
+<attribute name="mainDescription" nodeId="745cc40f">&lt;p&gt;
+    This is package-specific guidance on developing Oracle Enterprise Performance Management (EPM)&amp;nbsp;reports.
+&lt;/p&gt;
+&lt;p&gt;
+    Oracle EPM Workspace is a web-based user interface that provides access to highly formatted financial and operational
+    reporting that can be scheduled or requested on-demand and supports the packaging of reports.
+&lt;/p&gt;
+&lt;p&gt;
+    Using Oracle EPM workspace you can generate reporting from virtually any data source, including Oracle Hyperion
+    Planning, Fusion Edition, Oracle Hyperion Financial Management, Fusion Edition, Oracle Hyperion Profitability and Cost
+    Management, Fusion Edition, Oracle BI Answers, Oracle BI Interactive Dashboards, Oracle BI Delivers, and BI
+    Publisher.&lt;br /&gt;
+    &lt;br /&gt;
+    A common reason for packaging reports is financial reporting and disclosure management purposes. The Oracle Hyperion
+    Disclosure Management product, available in Hyperion Financial Reporting, allows you to assemble a reporting package
+    for submission to a regulatory agency that includes financial statements, as well as supporting schedules and
+    commentary which may exist in Microsoft Excel, Word, or a Oracle Hyperion Financial Reporting report.&lt;br /&gt;
+    &lt;br /&gt;
+    The first release of Oracle Hyperion Disclosure Management offers a complete XBRL creation and management solution with
+    Enterprise level XBRL mapping; XBRL Taxonomy management, editing and viewing; and Instance document creation,
+    validation and viewing. While viewing Financial Reporting documents in Workspace, users can perform data source level
+    mapping with the XBRL Taxonomy Mapping Tool, that allows for re-usable taxonomy element mapping within Hyperion
+    Financial Management, Planning and Essbase.&lt;br /&gt;
+    &lt;br /&gt;
+    In addition, EPM is commonly used for operational reporting needs as well. For example, EPM can be used to show
+    variance analysis from period to period such as year on year operating metrics across revenue and expenses.&lt;br /&gt;
+    &lt;br /&gt;
+&lt;/p&gt;</attribute>
+<attribute name="externalId" nodeId="2a81a701"></attribute>
+<attribute name="keyConsiderations" nodeId="8c62eb27"></attribute>
+<attribute name="longPresentationName" nodeId="94479461"></attribute>
+</Element>
+</reference>
+<referenceList name="Guideline_BreakdownElements" nodeId="5f8319ae">
+<Element TypeName="Work Product Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Ik-HINEgEe6Y56Jk6jqfOA_FERGIAw7EeSrGtL1-U_hTg" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/report_impl_A2D0C140.html" Name="report_impl" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Report Implementation" Id="_Ik-HINEgEe6Y56Jk6jqfOA_FERGIAw7EeSrGtL1-U_hTg" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="45902aaf"></Element>
+</referenceList>
+<referenceList name="Guideline_ContentElements" nodeId="8ca1ab">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Report Implementation" Id="_FERGIAw7EeSrGtL1-U_hTg" ShapeiconUrl="images/artifact.gif" nodeId="3021a1e6" Url="core.i_t.common.base/workproducts/report_impl_A2D0C140.html" Name="report_impl" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="contentElements" nodeId="88105f20">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Report Implementation" Id="_FERGIAw7EeSrGtL1-U_hTg" ShapeiconUrl="images/artifact.gif" nodeId="1a4df329" Url="core.i_t.common.base/workproducts/report_impl_A2D0C140.html" Name="report_impl" BackPath="./../../"></Element>
+</referenceList>
+</Element>

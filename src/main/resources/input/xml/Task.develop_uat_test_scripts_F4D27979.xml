@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop user acceptance test scripts" Id="_vQRC4DcHEeWiCuaOJ9Py2A" ShapeiconUrl="images/task.gif" lang="en" nodeId="b4725efc" Url="practice.ita.delv.it_test.base/tasks/develop_uat_test_scripts_F4D27979.html" Name="develop_uat_test_scripts" BackPath="./../../">
+<copyright nodeId="2e9488b0">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="4c2e4aab">develop_uat_test_scripts</attribute>
+<attribute name="guid" nodeId="e27b3dbf">_vQRC4DcHEeWiCuaOJ9Py2A</attribute>
+<attribute name="presentationName" nodeId="561d36d1">Develop user acceptance test scripts</attribute>
+<attribute name="briefDescription" nodeId="96de4ac4">Select test cases to implement and create the step-by-step instructions to perform the execution conditions defined in the test case.</attribute>
+<attribute name="suppressed" nodeId="f0b7923e">false</attribute>
+<attribute name="orderingGuide" nodeId="fecd8032"></attribute>
+<attribute name="isAbstract" nodeId="74df04c2">false</attribute>
+<attribute name="shapeicon" nodeId="3eebda8"></attribute>
+<attribute name="nodeicon" nodeId="1c9b46d2"></attribute>
+<attribute name="variabilityType" nodeId="4a73dfb6">extends</attribute>
+<reference name="presentation" nodeId="781e4af3">
+<Element Type="TaskDescription" TypeName="Task Description" NodeiconUrl="" DisplayName="Develop user acceptance test scripts" Id="-F--1EyieGnTW5trox2Yi-A" ShapeiconUrl="images/guidance.gif" nodeId="54be9d51" Url="" Name=",_vQRC4DcHEeWiCuaOJ9Py2A" BackPath="">
+<copyright nodeId="4989c6c6">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="33e7a6ac">,_vQRC4DcHEeWiCuaOJ9Py2A</attribute>
+<attribute name="guid" nodeId="9fd9da7c">-F--1EyieGnTW5trox2Yi-A</attribute>
+<attribute name="presentationName" nodeId="8e351726">Develop user acceptance test scripts</attribute>
+<attribute name="briefDescription" nodeId="39dc609c"></attribute>
+<attribute name="suppressed" nodeId="deffb444">false</attribute>
+<attribute name="orderingGuide" nodeId="c627cd2f"></attribute>
+<attribute name="authors" nodeId="a4a8121e"></attribute>
+<attribute name="changeDate" nodeId="3fb19908"></attribute>
+<attribute name="changeDescription" nodeId="af2a465">APR 2018 - linked to new Pairwise Testing concept</attribute>
+<attribute name="version" nodeId="bab0cf69"></attribute>
+<attribute name="mainDescription" nodeId="22b761eb"></attribute>
+<attribute name="externalId" nodeId="21ca99a5"></attribute>
+<attribute name="keyConsiderations" nodeId="d485da09">&lt;ul&gt;
+    &lt;li&gt;
+        Test scripts for automated testing are&amp;nbsp;written in a variety of computer programming languages
+    &lt;/li&gt;
+    &lt;li&gt;
+        Developing test scripts for manual testing may not be necessary when performing manual testing if step-by-step
+        instructions to implement the test execution conditions are already defined in the test case
+    &lt;/li&gt;
+    &lt;li&gt;
+        Automated test scripts are often reused for regression testing
+    &lt;/li&gt;
+    &lt;li&gt;
+        A test case usually has one but could have more than one corresponding test script
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="longPresentationName" nodeId="b48771b7"></attribute>
+<attribute name="purpose" nodeId="8f9cced5">&lt;p&gt;
+    To provide a repeatable process for validating the solution behaviors meet user requirements.
+&lt;/p&gt;</attribute>
+<attribute name="alternatives" nodeId="c1199617"></attribute>
+</Element>
+</reference>
+<reference name="variabilityBasedOnElement" nodeId="9b00ad12">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop test scripts" Id="_3WXmIOYDEeOqmb5IikO7mw" ShapeiconUrl="images/task.gif" nodeId="f4296566" Url="practice.ita.delv.it_test.base/tasks/develop_test_scripts_33684688.html" Name="develop_test_scripts" BackPath="./../../"></Element>
+</reference>
+<referenceList sortValue="Manual" name="conceptsAndPapers" nodeId="1cd84384">
+<Element Type="Concept" TypeName="Concept" NodeiconUrl="" DisplayName="Pairwise Testing" Id="_WcUvoDj4EeivAriDNRLMAA" ShapeiconUrl="images/concept.gif" nodeId="fccdc1ce" Url="practice.ita.delv.it_test.base/guidances/concepts/pairwise_testing_26C19AA9.html" Name="pairwise_testing" BackPath="./../../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="performedBy" nodeId="81d069eb">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Tester" Id="_LCfPjjRjEeO6HZrLUe5nxQ" ShapeiconUrl="images/role.gif" nodeId="538ab93" Url="core.default.role_def.base/roles/tester_B8C2206D.html" Name="tester" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="mandatoryInput" nodeId="8236b31">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Requirements Traceability Matrix" Id="_7I8toC9GEeSJ-4uKHZ771A" ShapeiconUrl="images/artifact.gif" nodeId="3a09f61a" Url="core.gen.common.base/workproducts/rqmts_traceability_matrix_6BABB1C5.html" Name="rqmts_traceability_matrix" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Test Case" Id="_ufvyIHncEeSYMYqbqbHk3g" ShapeiconUrl="images/artifact.gif" nodeId="9ec041d6" Url="core.i_t.common.base/workproducts/test_case_8FD80E72.html" Name="test_case" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Test Scenario" Id="_5czZEOYBEeOqmb5IikO7mw" ShapeiconUrl="images/artifact.gif" nodeId="90626749" Url="core.i_t.common.base/workproducts/test_scenario_917A181F.html" Name="test_scenario" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product Slot" NodeiconUrl="" DisplayName="[Process Design]" Id="_35cwsHw0Eea7x-I3DI3_Yg" ShapeiconUrl="images/artifact.gif" nodeId="68ba795f" Url="core.default.slots.base/workproducts/proc_design_slot_E55B4437.html" Name="proc_design_slot" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="output" nodeId="43ebebee">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Requirements Traceability Matrix" Id="_7I8toC9GEeSJ-4uKHZ771A" ShapeiconUrl="images/artifact.gif" nodeId="c6ea448e" Url="core.gen.common.base/workproducts/rqmts_traceability_matrix_6BABB1C5.html" Name="rqmts_traceability_matrix" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Test Script" Id="_7HV9YOYDEeOqmb5IikO7mw" ShapeiconUrl="images/artifact.gif" nodeId="e92a942e" Url="core.i_t.common.base/workproducts/test_script_43C76873.html" Name="test_script" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="Task_TaskDescriptors" nodeId="c28d5270">
+<Element TypeName="Task Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_H1-eaJK6EeSEOeG-bGncjA,_hqxjIDc_EeWp1olIN1xWiA" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/develop_uat_test_scripts_F4D27979.html" Name="develop_uat_test_scripts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop user acceptance test scripts" Id="_hqxjIDc_EeWp1olIN1xWiA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="ec795679"></Element>
+</referenceList>
+<referenceList name="customCategories" nodeId="cac2494d">
+<Element Type="CustomCategory" TypeName="Custom Category" NodeiconUrl="" DisplayName="Tasks" Id="_0Sj48KDNEeOMmqbYX27PPA" ShapeiconUrl="core.default.nav_view.base/customcategories/resources/cat_task51.png" nodeId="f1cca184" Url="core.default.nav_view.base/customcategories/task_list_CDC9CEA6.html" Name="task_list" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="1ede72e8">
+<Element TypeName="Task Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_H1-eaJK6EeSEOeG-bGncjA,_hqxjIDc_EeWp1olIN1xWiA" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/develop_uat_test_scripts_F4D27979.html" Name="develop_uat_test_scripts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop user acceptance test scripts" Id="_hqxjIDc_EeWp1olIN1xWiA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="6a062f78">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="IT Testing (Levels)" Id="_HkiWIeW9EeOeOeyRJA3ZBg" relProcessPath="_HkiWIeW9EeOeOeyRJA3ZBg" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg" nodeId="3a4c02c7" Url="practice.ita.delv.it_test.assign/capabilitypatterns/it_test_levels_9A95B916.html" Name="it_test_levels" BackPath="./../../">
+<attribute name="name" nodeId="ec57f090">it_test_levels</attribute>
+<attribute name="guid" nodeId="fb5c8a3d">_HkiWIeW9EeOeOeyRJA3ZBg</attribute>
+<attribute name="presentationName" nodeId="ed655573">IT Testing (Levels)</attribute>
+<attribute name="briefDescription" nodeId="79879086"></attribute>
+<attribute name="suppressed" nodeId="724631b4">false</attribute>
+<attribute name="orderingGuide" nodeId="d51f857e"></attribute>
+<attribute name="isAbstract" nodeId="e327cbb9">false</attribute>
+<attribute name="shapeicon" nodeId="a0edb7f2"></attribute>
+<attribute name="nodeicon" nodeId="4373c2a8"></attribute>
+<attribute name="prefix" nodeId="91a10f59"></attribute>
+<attribute name="isPlanned" nodeId="9cd2de94">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="3a9bb203">false</attribute>
+<attribute name="isOptional" nodeId="ef41ad32">false</attribute>
+<attribute name="isRepeatable" nodeId="72693b1c">false</attribute>
+<attribute name="isOngoing" nodeId="a6f18837">false</attribute>
+<attribute name="isEventDriven" nodeId="8943a329">false</attribute>
+<attribute name="variabilityType" nodeId="483fb061">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Design User Acceptance Tests" Id="_H1-eaJK6EeSEOeG-bGncjA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_H1-eaJK6EeSEOeG-bGncjA" nodeId="ca669030" Url="practice.ita.delv.it_test.assign/capabilitypatterns/Design User Acceptance Tests_BCFE1573.html" Name="Design User Acceptance Tests" BackPath="./../../">
+<attribute name="name" nodeId="21f15285">Design User Acceptance Tests</attribute>
+<attribute name="guid" nodeId="859538ec">_H1-eaJK6EeSEOeG-bGncjA</attribute>
+<attribute name="presentationName" nodeId="2df73df0">Design User Acceptance Tests</attribute>
+<attribute name="briefDescription" nodeId="147bc077">Define how business users can validate that the solution requirements meet user acceptance criteria.</attribute>
+<attribute name="suppressed" nodeId="a21500e2">false</attribute>
+<attribute name="orderingGuide" nodeId="d8d2a2d4"></attribute>
+<attribute name="isAbstract" nodeId="575e9fb9">false</attribute>
+<attribute name="shapeicon" nodeId="ad0d9b57"></attribute>
+<attribute name="nodeicon" nodeId="fb041c13"></attribute>
+<attribute name="prefix" nodeId="58428b05"></attribute>
+<attribute name="isPlanned" nodeId="30dbca56">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="ca3154dc">false</attribute>
+<attribute name="isOptional" nodeId="f6fbe55a">false</attribute>
+<attribute name="isRepeatable" nodeId="987942da">false</attribute>
+<attribute name="isOngoing" nodeId="8eba098c">false</attribute>
+<attribute name="isEventDriven" nodeId="a4169061">false</attribute>
+<attribute name="variabilityType" nodeId="6dfba087">na</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

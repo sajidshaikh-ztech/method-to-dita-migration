@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" TypeName="Task" Url="practice.ita.delv.pkg_dev.base/tasks/conduct_peer_review_99AA2990.html" Name="conduct_peer_review" BackPath="./../../" Type="Task" NodeiconUrl="" performingRoleName="Application Developer" DisplayName="Conduct peer review" Id="_PUGH8HQJEeSiI8qVDH2-xQ" ShapeiconUrl="images/task.gif" lang="en" nodeId="77db3ac">
+<copyright nodeId="9c8a1539">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="8957b837">conduct_peer_review</attribute>
+<attribute name="guid" nodeId="386af924">_PUGH8HQJEeSiI8qVDH2-xQ</attribute>
+<attribute name="presentationName" nodeId="544c3c50">Conduct peer review</attribute>
+<attribute name="briefDescription" nodeId="1f555b94">Examine the developed software object(s) with a group of peers to uncover defects or development alternatives.</attribute>
+<attribute name="suppressed" nodeId="43d95dac">false</attribute>
+<attribute name="orderingGuide" nodeId="b7e7b9fc"></attribute>
+<attribute name="isAbstract" nodeId="847ae715">false</attribute>
+<attribute name="shapeicon" nodeId="b5c10610"></attribute>
+<attribute name="nodeicon" nodeId="a1ffbe05"></attribute>
+<attribute name="variabilityType" nodeId="c5cb7917">na</attribute>
+<reference name="presentation" nodeId="29217576">
+<Element Type="TaskDescription" TypeName="Task Description" NodeiconUrl="" DisplayName="Conduct peer review" Id="-gOQHPzo2ZcwPS43vpAI1xA" ShapeiconUrl="images/guidance.gif" nodeId="6667498d" Url="" Name=",_PUGH8HQJEeSiI8qVDH2-xQ" BackPath="">
+<copyright nodeId="8a7d9c0a">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="3546016d">,_PUGH8HQJEeSiI8qVDH2-xQ</attribute>
+<attribute name="guid" nodeId="3ba9b86d">-gOQHPzo2ZcwPS43vpAI1xA</attribute>
+<attribute name="presentationName" nodeId="33752dc2">Conduct peer review</attribute>
+<attribute name="briefDescription" nodeId="fbf52579"></attribute>
+<attribute name="suppressed" nodeId="77d60a96">false</attribute>
+<attribute name="orderingGuide" nodeId="9a0d5722"></attribute>
+<attribute name="authors" nodeId="3b25a405"></attribute>
+<attribute name="changeDate" nodeId="e253e576">Fri Nov 13 12:10:52 EST 2015</attribute>
+<attribute name="changeDescription" nodeId="1f770e41">NOV 2015 - corrected typos and grammatical errors in purpose, updated inputs</attribute>
+<attribute name="version" nodeId="b4f0676a"></attribute>
+<attribute name="mainDescription" nodeId="95fe8a2d">&lt;p&gt;
+    Conduct a peer review meeting in a format like the following:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        The meeting leader opens with a short discussion of the goal of the meeting and lays out any ground rules. The
+        developer explains their code, what it is supposed to accomplish, what requirements it contributes to, and what
+        documentation it affects. Each participant (usually fellow development team members) raises questions, comments,
+        and suggestions identified in the preparation phase. The participants may reference a code review checklist to make
+        sure their review is thorough and complete. The developer addresses any areas of concern and explains the logic,
+        problems, and choices that resulted in this code. Lastly, the team checks to make sure there is no unused code.
+    &lt;/li&gt;
+    &lt;li&gt;
+        If there are defects or alternatives found in the meeting, document them and address them appropriately
+        afterwards.&lt;br /&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="externalId" nodeId="d713e57e"></attribute>
+<attribute name="keyConsiderations" nodeId="53bc4ff5">&lt;p&gt;
+    The technical consultants on a project team should hold meetings and review the programs and technical specifications
+    that have been produced and unit tested. Functional consultants should be involved to advise on appropriate test cases,
+    creation of test data and interpretation of unit test results. If necessary, code and documents should be revised and
+    re-tested.&lt;br /&gt;
+&lt;/p&gt;</attribute>
+<attribute name="longPresentationName" nodeId="64e5e1eb"></attribute>
+<attribute name="purpose" nodeId="ea7726c4">&lt;p&gt;
+    The purpose of this task is to:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Validate and cross check the technical content and quality of the developed software object(s)
+    &lt;/li&gt;
+    &lt;li&gt;
+        To find cases where code and technical specifications, even though unit tested, may contain undiscovered errors or
+        may not be delivering the most efficient solution to the requirements
+    &lt;/li&gt;
+    &lt;li&gt;
+        Confirm code is compliant with coding standards&lt;br /&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="alternatives" nodeId="84165f77"></attribute>
+<referenceList sortValue="Manual" name="sections" nodeId="4ab73576">
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Create code review checklist" Id="_pX_SkJaCEeSe0L5Xs0XXyg" ShapeiconUrl="images/guidance.gif" nodeId="9004e57" Url="" Name="Create code review checklist" BackPath="">
+<copyright nodeId="d1458c87">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="174cb0f9">Create code review checklist</attribute>
+<attribute name="guid" nodeId="4d905ca0">_pX_SkJaCEeSe0L5Xs0XXyg</attribute>
+<attribute name="presentationName" nodeId="58a1979d">Create code review checklist</attribute>
+<attribute name="briefDescription" nodeId="8bc8c98a"></attribute>
+<attribute name="suppressed" nodeId="f8acab4b">false</attribute>
+<attribute name="orderingGuide" nodeId="cd45a4fc"></attribute>
+<attribute name="variabilityType" nodeId="e986cbb6">na</attribute>
+<attribute name="sectionName" nodeId="3feecafa"></attribute>
+<attribute name="sectionDescription" nodeId="e0d40ff1">Create a checklist that covers critical areas of review such as usage of&amp;nbsp;coding conventions, proper documentation,
+reusable code, thorough error handling, security concerns, etc.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="31422e2d">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Omo5MNEhEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.pkg_dev.base/tasks/conduct_peer_review_99AA2990.html" Name="conduct_peer_review" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Conduct peer review" Id="_Omo5MNEhEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="b72cebc8"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Conduct peer review of code" Id="_sYLGEJaCEeSe0L5Xs0XXyg" ShapeiconUrl="images/guidance.gif" nodeId="9a66d528" Url="" Name="Conduct peer review of code" BackPath="">
+<copyright nodeId="2e90d9f">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="a09126c9">Conduct peer review of code</attribute>
+<attribute name="guid" nodeId="ba199645">_sYLGEJaCEeSe0L5Xs0XXyg</attribute>
+<attribute name="presentationName" nodeId="decf46a6">Conduct peer review of code</attribute>
+<attribute name="briefDescription" nodeId="9d4bd9a2"></attribute>
+<attribute name="suppressed" nodeId="e6c255c4">false</attribute>
+<attribute name="orderingGuide" nodeId="d674f2e0"></attribute>
+<attribute name="variabilityType" nodeId="849e93df">na</attribute>
+<attribute name="sectionName" nodeId="4f1ae62b"></attribute>
+<attribute name="sectionDescription" nodeId="3dba3f91">&lt;p&gt;
+    Conduct the peer review by:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Reviewing project procedures for peer reviews
+    &lt;/li&gt;
+    &lt;li&gt;
+        Identifying appropriate peer for code review
+    &lt;/li&gt;
+    &lt;li&gt;
+        Packaging functional specifications, technical specification and code into one review package
+    &lt;/li&gt;
+    &lt;li&gt;
+        Submitting code for review
+    &lt;/li&gt;
+    &lt;li&gt;
+        Discussing peer review findings
+    &lt;/li&gt;
+    &lt;li&gt;
+        Incorporating agreed changes into final code
+    &lt;/li&gt;
+    &lt;li&gt;
+        Updating technical specifications
+    &lt;/li&gt;
+    &lt;li&gt;
+        Re-executing unit testing for code
+    &lt;/li&gt;
+    &lt;li&gt;
+        Submit code for transport to test environment(s)&lt;br /&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="870daa53">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Omo5MNEhEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.pkg_dev.base/tasks/conduct_peer_review_99AA2990.html" Name="conduct_peer_review" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Conduct peer review" Id="_Omo5MNEhEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="4ae25788"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Confirm code coverage" Id="_2u4bMJaCEeSe0L5Xs0XXyg" ShapeiconUrl="images/guidance.gif" nodeId="10c2c705" Url="" Name="Confirm code coverage" BackPath="">
+<copyright nodeId="4e5bc150">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="ec428024">Confirm code coverage</attribute>
+<attribute name="guid" nodeId="c01b748">_2u4bMJaCEeSe0L5Xs0XXyg</attribute>
+<attribute name="presentationName" nodeId="1a2cc146">Confirm code coverage</attribute>
+<attribute name="briefDescription" nodeId="94139150"></attribute>
+<attribute name="suppressed" nodeId="779cce84">false</attribute>
+<attribute name="orderingGuide" nodeId="69a5d0a8"></attribute>
+<attribute name="variabilityType" nodeId="a410e6e0">na</attribute>
+<attribute name="sectionName" nodeId="4b313d30"></attribute>
+<attribute name="sectionDescription" nodeId="eeb89341">Check to make sure there is no unused code.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="ae19850e">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Omo5MNEhEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.pkg_dev.base/tasks/conduct_peer_review_99AA2990.html" Name="conduct_peer_review" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Conduct peer review" Id="_Omo5MNEhEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="73f06c86"></Element>
+</referenceList>
+</Element>
+</referenceList>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="performedBy" nodeId="b8d24654">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Application Developer" Id="_kWXJsTYfEeOOP7mzKGsP2A" ShapeiconUrl="images/role.gif" nodeId="477acfc8" Url="core.default.role_def.base/roles/app_developer_8EC93FA7.html" Name="app_developer" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="mandatoryInput" nodeId="b6dba4b1">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Enhancement Components" Id="_ze7VgIomEeWrpeIkgDRvEQ" ShapeiconUrl="images/artifact.gif" nodeId="b2ba9868" Url="core.i_t.common.base/workproducts/enhance_comp_53354928.html" Name="enhance_comp" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Form Components" Id="_5xzo0IomEeWrpeIkgDRvEQ" ShapeiconUrl="images/artifact.gif" nodeId="8df55e0b" Url="core.i_t.common.base/workproducts/form_comp_7A2B46ED.html" Name="form_comp" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Interface Components" Id="_LpkKAIomEeWrpeIkgDRvEQ" ShapeiconUrl="images/artifact.gif" nodeId="8b9bda02" Url="core.i_t.common.base/workproducts/interface_comp_BAA61488.html" Name="interface_comp" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Workflow Components" Id="__mEGcIomEeWrpeIkgDRvEQ" ShapeiconUrl="images/artifact.gif" nodeId="665e2e45" Url="core.i_t.common.base/workproducts/workflow_comp_1378BCD2.html" Name="workflow_comp" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="output" nodeId="19e794d7">
+<Element ShowFullMethodContent="false" Type="Outcome" TypeName="Outcome" NodeiconUrl="" DisplayName="Review Completed" Id="_jAEDcDcxEeWp1olIN1xWiA" ShapeiconUrl="images/outcome.gif" nodeId="ef2c61ec" Url="core.i_t.common.base/workproducts/review_completed_82958C39.html" Name="review_completed" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="steps" nodeId="bf0b671b">
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Create code review checklist" Id="_pX_SkJaCEeSe0L5Xs0XXyg" ShapeiconUrl="images/guidance.gif" nodeId="2d046c62" Url="" Name="Create code review checklist" BackPath="">
+<copyright nodeId="4eb8f548">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="3ae0018f">Create code review checklist</attribute>
+<attribute name="guid" nodeId="5ac91349">_pX_SkJaCEeSe0L5Xs0XXyg</attribute>
+<attribute name="presentationName" nodeId="7e9df236">Create code review checklist</attribute>
+<attribute name="briefDescription" nodeId="120b3bc9"></attribute>
+<attribute name="suppressed" nodeId="718416e8">false</attribute>
+<attribute name="orderingGuide" nodeId="10b2d287"></attribute>
+<attribute name="variabilityType" nodeId="e5e2c4ab">na</attribute>
+<attribute name="sectionName" nodeId="b1ebd32"></attribute>
+<attribute name="sectionDescription" nodeId="7a78282e">Create a checklist that covers critical areas of review such as usage of&amp;nbsp;coding conventions, proper documentation,
+reusable code, thorough error handling, security concerns, etc.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="9958cc72">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Omo5MNEhEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.pkg_dev.base/tasks/conduct_peer_review_99AA2990.html" Name="conduct_peer_review" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Conduct peer review" Id="_Omo5MNEhEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="8d1afeb1"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Conduct peer review of code" Id="_sYLGEJaCEeSe0L5Xs0XXyg" ShapeiconUrl="images/guidance.gif" nodeId="ab8706da" Url="" Name="Conduct peer review of code" BackPath="">
+<copyright nodeId="3b8547d0">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="366cc4b0">Conduct peer review of code</attribute>
+<attribute name="guid" nodeId="6691794">_sYLGEJaCEeSe0L5Xs0XXyg</attribute>
+<attribute name="presentationName" nodeId="9f9874cc">Conduct peer review of code</attribute>
+<attribute name="briefDescription" nodeId="9d4b8a7"></attribute>
+<attribute name="suppressed" nodeId="88ada34e">false</attribute>
+<attribute name="orderingGuide" nodeId="ab91ff73"></attribute>
+<attribute name="variabilityType" nodeId="32b47c84">na</attribute>
+<attribute name="sectionName" nodeId="9699aaba"></attribute>
+<attribute name="sectionDescription" nodeId="2aaedebc">&lt;p&gt;
+    Conduct the peer review by:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Reviewing project procedures for peer reviews
+    &lt;/li&gt;
+    &lt;li&gt;
+        Identifying appropriate peer for code review
+    &lt;/li&gt;
+    &lt;li&gt;
+        Packaging functional specifications, technical specification and code into one review package
+    &lt;/li&gt;
+    &lt;li&gt;
+        Submitting code for review
+    &lt;/li&gt;
+    &lt;li&gt;
+        Discussing peer review findings
+    &lt;/li&gt;
+    &lt;li&gt;
+        Incorporating agreed changes into final code
+    &lt;/li&gt;
+    &lt;li&gt;
+        Updating technical specifications
+    &lt;/li&gt;
+    &lt;li&gt;
+        Re-executing unit testing for code
+    &lt;/li&gt;
+    &lt;li&gt;
+        Submit code for transport to test environment(s)&lt;br /&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="6c9b3264">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Omo5MNEhEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.pkg_dev.base/tasks/conduct_peer_review_99AA2990.html" Name="conduct_peer_review" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Conduct peer review" Id="_Omo5MNEhEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="d7149d67"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Confirm code coverage" Id="_2u4bMJaCEeSe0L5Xs0XXyg" ShapeiconUrl="images/guidance.gif" nodeId="4acfc640" Url="" Name="Confirm code coverage" BackPath="">
+<copyright nodeId="d38e1e65">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="a34cbe8">Confirm code coverage</attribute>
+<attribute name="guid" nodeId="687c27e3">_2u4bMJaCEeSe0L5Xs0XXyg</attribute>
+<attribute name="presentationName" nodeId="f77c5490">Confirm code coverage</attribute>
+<attribute name="briefDescription" nodeId="9beb00c6"></attribute>
+<attribute name="suppressed" nodeId="78c241e">false</attribute>
+<attribute name="orderingGuide" nodeId="81be4e62"></attribute>
+<attribute name="variabilityType" nodeId="ce559da1">na</attribute>
+<attribute name="sectionName" nodeId="fd8b4afc"></attribute>
+<attribute name="sectionDescription" nodeId="b1a569bd">Check to make sure there is no unused code.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="12e020a7">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Omo5MNEhEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.pkg_dev.base/tasks/conduct_peer_review_99AA2990.html" Name="conduct_peer_review" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Conduct peer review" Id="_Omo5MNEhEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="3376278d"></Element>
+</referenceList>
+</Element>
+</referenceList>
+<referenceList name="Task_TaskDescriptors" nodeId="c06d9157">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Omo5MNEhEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.pkg_dev.base/tasks/conduct_peer_review_99AA2990.html" Name="conduct_peer_review" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Conduct peer review" Id="_Omo5MNEhEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="bc106d9a"></Element>
+</referenceList>
+<reference name="performingRole" nodeId="bcafe6ac">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Application Developer" Id="_kWXJsTYfEeOOP7mzKGsP2A" ShapeiconUrl="images/role.gif" nodeId="e500b67c" Url="core.default.role_def.base/roles/app_developer_8EC93FA7.html" Name="app_developer" BackPath="./../../"></Element>
+</reference>
+<referenceList name="customCategories" nodeId="5d5d726c">
+<Element Type="CustomCategory" TypeName="Custom Category" NodeiconUrl="" DisplayName="Tasks" Id="_0Sj48KDNEeOMmqbYX27PPA" ShapeiconUrl="core.default.nav_view.base/customcategories/resources/cat_task51.png" nodeId="7a33c396" Url="core.default.nav_view.base/customcategories/task_list_CDC9CEA6.html" Name="task_list" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="863a287d">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Omo5MNEhEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.pkg_dev.base/tasks/conduct_peer_review_99AA2990.html" Name="conduct_peer_review" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Conduct peer review" Id="_Omo5MNEhEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="592660d7">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Development" Id="_N-58wdAOEe6H-rjlu9wPlA" relProcessPath="_N-58wdAOEe6H-rjlu9wPlA" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA" nodeId="caa7676d" Url="process.adv.eya_oracle.base/capabilitypatterns/development_wkstrm_21C01F87.html" Name="development_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="a3995277">development_wkstrm</attribute>
+<attribute name="guid" nodeId="292f97cf">_N-58wdAOEe6H-rjlu9wPlA</attribute>
+<attribute name="presentationName" nodeId="400ed11">Development</attribute>
+<attribute name="briefDescription" nodeId="3310be68"></attribute>
+<attribute name="suppressed" nodeId="46acfe2f">false</attribute>
+<attribute name="orderingGuide" nodeId="b58e777b"></attribute>
+<attribute name="isAbstract" nodeId="13e1e9a9">false</attribute>
+<attribute name="shapeicon" nodeId="434f487a"></attribute>
+<attribute name="nodeicon" nodeId="9dacb987"></attribute>
+<attribute name="prefix" nodeId="8e68ad33">workstream</attribute>
+<attribute name="isPlanned" nodeId="58dc34b6">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="bdebaf25">false</attribute>
+<attribute name="isOptional" nodeId="35ea3492">false</attribute>
+<attribute name="isRepeatable" nodeId="c4a42030">false</attribute>
+<attribute name="isOngoing" nodeId="dec4f9be">false</attribute>
+<attribute name="isEventDriven" nodeId="f137cc">false</attribute>
+<attribute name="variabilityType" nodeId="214ef3d9">na</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="[Execute Build Cycles 1-n]" Id="_LOhWgduYEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw" nodeId="68bcdc19" Url="process.adv.eya_oracle.base/capabilitypatterns/execute_build_cycles_1_n_6C160980.html" Name="execute_build_cycles_1_n" BackPath="./../../">
+<attribute name="name" nodeId="61525ff8">execute_build_cycles_1_n</attribute>
+<attribute name="guid" nodeId="c3e670d5">_LOhWgduYEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="bd1feda8">[Execute Build Cycles 1-n]</attribute>
+<attribute name="briefDescription" nodeId="58f48dd3">Set of activities and tasks to be performed by the Development workstream while executing build iterations 1-n, spanning from planning for each sprint through unit testing custom components.</attribute>
+<attribute name="suppressed" nodeId="3ac3e6fc">false</attribute>
+<attribute name="orderingGuide" nodeId="928b72fa"></attribute>
+<attribute name="isAbstract" nodeId="2d4ebe03">false</attribute>
+<attribute name="shapeicon" nodeId="b77727d3"></attribute>
+<attribute name="nodeicon" nodeId="fc9eabce"></attribute>
+<attribute name="prefix" nodeId="75ac1e65"></attribute>
+<attribute name="isPlanned" nodeId="a88b87eb">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="f6afdd2e">false</attribute>
+<attribute name="isOptional" nodeId="8d3aef53">false</attribute>
+<attribute name="isRepeatable" nodeId="a9404d69">true</attribute>
+<attribute name="isOngoing" nodeId="16ef4e">false</attribute>
+<attribute name="isEventDriven" nodeId="c23c5829">false</attribute>
+<attribute name="variabilityType" nodeId="2adc149">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Perform Development" Id="_ekqtsdDVEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA" nodeId="80b1d3b0" Url="process.adv.eya_oracle.base/capabilitypatterns/perf_dev_F5AECB4B.html" Name="perf_dev" BackPath="./../../">
+<attribute name="name" nodeId="1e133c3f">perf_dev</attribute>
+<attribute name="guid" nodeId="62d87df4">_ekqtsdDVEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="bc04a568">Perform Development</attribute>
+<attribute name="briefDescription" nodeId="a76865c4">Develop the approved target state RICEFW objects per the tecnical design specifications and perform unit testing.</attribute>
+<attribute name="suppressed" nodeId="756db7ac">false</attribute>
+<attribute name="orderingGuide" nodeId="ddaab01"></attribute>
+<attribute name="isAbstract" nodeId="855bdc44">false</attribute>
+<attribute name="shapeicon" nodeId="2d46628c"></attribute>
+<attribute name="nodeicon" nodeId="b7941564"></attribute>
+<attribute name="prefix" nodeId="abac4281"></attribute>
+<attribute name="isPlanned" nodeId="c0320022">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="36be1f9">false</attribute>
+<attribute name="isOptional" nodeId="e4ead5c6">false</attribute>
+<attribute name="isRepeatable" nodeId="ff054b99">false</attribute>
+<attribute name="isOngoing" nodeId="1fec1df">false</attribute>
+<attribute name="isEventDriven" nodeId="e14c7809">false</attribute>
+<attribute name="variabilityType" nodeId="c41fed72">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Omo5MNEhEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.pkg_dev.base/tasks/conduct_peer_review_99AA2990.html" Name="conduct_peer_review" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Conduct peer review" Id="_Omo5MNEhEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="a494ca3f">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="fe8cf55f" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="3ba45ec0">eya_oracle</attribute>
+<attribute name="guid" nodeId="2f6ac16b">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="9c83f072">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="1bb5d9e4"></attribute>
+<attribute name="suppressed" nodeId="6a8b5b57">false</attribute>
+<attribute name="orderingGuide" nodeId="ce7e2800"></attribute>
+<attribute name="isAbstract" nodeId="893b1385">false</attribute>
+<attribute name="shapeicon" nodeId="baed3093"></attribute>
+<attribute name="nodeicon" nodeId="719149ae"></attribute>
+<attribute name="prefix" nodeId="b1418a84"></attribute>
+<attribute name="isPlanned" nodeId="473bd495">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="b8da0c36">false</attribute>
+<attribute name="isOptional" nodeId="87da1e0d">false</attribute>
+<attribute name="isRepeatable" nodeId="be0b8e39">false</attribute>
+<attribute name="isOngoing" nodeId="7c76cdc7">false</attribute>
+<attribute name="isEventDriven" nodeId="14407a3c">false</attribute>
+<attribute name="variabilityType" nodeId="e3726eb4">replaces</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Progressive Build" Id="_c4A0kYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA" nodeId="dfcb90ae" Url="process.adv.eya_oracle.base/deliveryprocesses/progressive_build_70B7DD74.html" Name="progressive_build" BackPath="./../../">
+<attribute name="name" nodeId="7dac3579">progressive_build</attribute>
+<attribute name="guid" nodeId="cc0f0858">_c4A0kYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="1c15c597">Progressive Build</attribute>
+<attribute name="briefDescription" nodeId="ca06c3fc">Iterate through the build cycles and drive business acceptance through incremental demos to key client stakeholders. Execute mock conversions and and prepare for system integration and user acceptance testing. Manage stakeholder engagement and communications around the change.</attribute>
+<attribute name="suppressed" nodeId="130535de">false</attribute>
+<attribute name="orderingGuide" nodeId="d92787c5"></attribute>
+<attribute name="isAbstract" nodeId="e443f3fd">false</attribute>
+<attribute name="shapeicon" nodeId="6e3a2e4"></attribute>
+<attribute name="nodeicon" nodeId="b4b233b"></attribute>
+<attribute name="prefix" nodeId="fb3db776"></attribute>
+<attribute name="isPlanned" nodeId="500e7490">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="cf18d552">false</attribute>
+<attribute name="isOptional" nodeId="b65f38e8">false</attribute>
+<attribute name="isRepeatable" nodeId="563c2ce8">true</attribute>
+<attribute name="isOngoing" nodeId="deb9493f">false</attribute>
+<attribute name="isEventDriven" nodeId="18d64f03">false</attribute>
+<attribute name="variabilityType" nodeId="65d6f208">na</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Execute Build Cycles 1-n" Id="_Sd7D0duVEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_Sd7D0duVEe6TH6yb1zVWhw" nodeId="694788df" Url="process.adv.eya_oracle.base/deliveryprocesses/execute_build_cycles_1_n_3FC12A80.html" Name="execute_build_cycles_1_n" BackPath="./../../">
+<attribute name="name" nodeId="63253b27">execute_build_cycles_1_n</attribute>
+<attribute name="guid" nodeId="7364a603">_Sd7D0duVEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="d613a9ff">Execute Build Cycles 1-n</attribute>
+<attribute name="briefDescription" nodeId="be6ec08f">Iterate through the build cycles by planning for each sprint, defining the technical and integration specifications and data conversion scripts and completing the configurations and development. Validate the builds and conduct demos with the client.</attribute>
+<attribute name="suppressed" nodeId="3c36dcf1">false</attribute>
+<attribute name="orderingGuide" nodeId="8ef90892"></attribute>
+<attribute name="isAbstract" nodeId="4be557cb">false</attribute>
+<attribute name="shapeicon" nodeId="15d7a075"></attribute>
+<attribute name="nodeicon" nodeId="248029a3"></attribute>
+<attribute name="prefix" nodeId="111099f9"></attribute>
+<attribute name="isPlanned" nodeId="d8c8a77d">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="ccb71908">false</attribute>
+<attribute name="isOptional" nodeId="a4d566c5">false</attribute>
+<attribute name="isRepeatable" nodeId="2077f06b">true</attribute>
+<attribute name="isOngoing" nodeId="f3a080a9">false</attribute>
+<attribute name="isEventDriven" nodeId="12498c50">false</attribute>
+<attribute name="variabilityType" nodeId="aba778a7">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Perform Development" Id="_VRUbQTGGEe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_Sd7D0duVEe6TH6yb1zVWhw,_VRUbQTGGEe-TauTqJPNl_g" nodeId="48b6edf3" Url="process.adv.eya_oracle.base/deliveryprocesses/perf_dev_AB59AF.html" Name="perf_dev" BackPath="./../../">
+<attribute name="name" nodeId="b10cdc67">perf_dev</attribute>
+<attribute name="guid" nodeId="cf9ba6c4">_VRUbQTGGEe-TauTqJPNl_g</attribute>
+<attribute name="presentationName" nodeId="ea0deffb">Perform Development</attribute>
+<attribute name="briefDescription" nodeId="db7bfe03">Develop the approved target state RICEFW objects per the tecnical design specifications and perform unit testing.</attribute>
+<attribute name="suppressed" nodeId="5bb9064f">false</attribute>
+<attribute name="orderingGuide" nodeId="3d9b7b3b"></attribute>
+<attribute name="isAbstract" nodeId="77b1549d">false</attribute>
+<attribute name="shapeicon" nodeId="ae039001"></attribute>
+<attribute name="nodeicon" nodeId="cbcf3708"></attribute>
+<attribute name="prefix" nodeId="23c7cf71"></attribute>
+<attribute name="isPlanned" nodeId="743293a6">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="c22124a6">false</attribute>
+<attribute name="isOptional" nodeId="97d7f8d9">false</attribute>
+<attribute name="isRepeatable" nodeId="6ce9b40d">false</attribute>
+<attribute name="isOngoing" nodeId="9c84a3b2">false</attribute>
+<attribute name="isEventDriven" nodeId="a2bd4751">false</attribute>
+<attribute name="variabilityType" nodeId="e7cc6636">extends</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

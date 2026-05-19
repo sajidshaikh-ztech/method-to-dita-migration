@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element Type="Guideline" TypeName="Guideline" NodeiconUrl="" DisplayName="Agile Estimation Techniques" Id="_EuvuAA3fEeiffp86RGveFg" ShapeiconUrl="images/guidance.gif" lang="en" nodeId="e5df7404" Url="practice.mgmt.proj.agile_pm.base/guidances/guidelines/agile_estimation_tech_8C0226CB.html" Name="agile_estimation_tech" BackPath="./../../../">
+<copyright nodeId="3ca56cba">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="4d9eb78">agile_estimation_tech</attribute>
+<attribute name="guid" nodeId="9eb9200d">_EuvuAA3fEeiffp86RGveFg</attribute>
+<attribute name="presentationName" nodeId="397e51c3">Agile Estimation Techniques</attribute>
+<attribute name="briefDescription" nodeId="7c6ec599"></attribute>
+<attribute name="suppressed" nodeId="fa09d794">false</attribute>
+<attribute name="orderingGuide" nodeId="efa526c6"></attribute>
+<attribute name="isAbstract" nodeId="6ab77bfa">false</attribute>
+<attribute name="shapeicon" nodeId="33b66fda"></attribute>
+<attribute name="nodeicon" nodeId="cd30ea7b"></attribute>
+<attribute name="variabilityType" nodeId="8564cca3">na</attribute>
+<reference name="presentation" nodeId="37b6c030">
+<Element Type="ContentDescription" TypeName="Content Description" NodeiconUrl="" DisplayName="Agile Estimation Techniques" Id="-_rQO1qb4z69dz1h7CB3ZVg" ShapeiconUrl="images/guidance.gif" nodeId="2cf405e2" Url="" Name="new_guideline,_EuvuAA3fEeiffp86RGveFg" BackPath="">
+<copyright nodeId="fc145f02">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="173f34c7">new_guideline,_EuvuAA3fEeiffp86RGveFg</attribute>
+<attribute name="guid" nodeId="c6f367c1">-_rQO1qb4z69dz1h7CB3ZVg</attribute>
+<attribute name="presentationName" nodeId="dbdc99a0">Agile Estimation Techniques</attribute>
+<attribute name="briefDescription" nodeId="c8441446"></attribute>
+<attribute name="suppressed" nodeId="786a9b13">false</attribute>
+<attribute name="orderingGuide" nodeId="7b712803"></attribute>
+<attribute name="authors" nodeId="7d2f32d">process.adv.core.base</attribute>
+<attribute name="changeDate" nodeId="c7c0098">Wed Mar 22 17:10:55 EDT 2023</attribute>
+<attribute name="changeDescription" nodeId="97473c">MAR 2023 - deleted redundant brief description|MAR 2018 - Baseline</attribute>
+<attribute name="version" nodeId="5b7c191c"></attribute>
+<attribute name="mainDescription" nodeId="95128326">&lt;p&gt;
+    Estimating the required effort to deliver the outlined work (in either User Stories, features, Epics, etc.)
+    is&amp;nbsp;fundamental to the success of Agile delivery as it directly informs the planning process. By understanding how
+    much work can be completed within the course of a sprint (velocity) and the overall estimate for the entire Product
+    Backlog, it is possible to estimate how many sprints will be needed to address all of the work.
+&lt;/p&gt;
+&lt;p&gt;
+    There are two primary means of estimating, relativity based sizing and hours/days, the pros and cons for each are as
+    follows:&lt;br /&gt;
+    &lt;br /&gt;
+&lt;/p&gt;
+&lt;table title=&quot;&quot; style=&quot;HEIGHT: 178px; WIDTH: 566px&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot; width=&quot;566&quot; border=&quot;1&quot;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;strong&gt;Ideal Days&lt;/strong&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;strong&gt;Story Points&lt;/strong&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;strong&gt;Intuitive&lt;/strong&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                Yes
+            &lt;/td&gt;
+            &lt;td&gt;
+                Somewhat
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;strong&gt;Encourages collaborative estimating&lt;/strong&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                Somewhat
+            &lt;/td&gt;
+            &lt;td&gt;
+                Yes
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;strong&gt;Sufficient precision&lt;/strong&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                Yes
+            &lt;/td&gt;
+            &lt;td&gt;
+                Yes
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;strong&gt;Estimate specific to person responsible for executing the work&lt;/strong&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                Yes
+            &lt;/td&gt;
+            &lt;td&gt;
+                No
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;strong&gt;Risk of confusing duration and effort&lt;/strong&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                Yes
+            &lt;/td&gt;
+            &lt;td&gt;
+                No
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;strong&gt;Supports accurate release planning&lt;/strong&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                Somewhat
+            &lt;/td&gt;
+            &lt;td&gt;
+                Mostly
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;strong&gt;Validates capacity allocation per individual team member&lt;/strong&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                No
+            &lt;/td&gt;
+            &lt;td&gt;
+                &amp;nbsp;No
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;p&gt;
+    To be effective, only one form of estimation should be chosen and consistently applied. The &lt;a class=&quot;elementLink&quot;
+    href=&quot;./../../../practice.mgmt.proj.agile_pm.base/guidances/guidelines/affinity_est_tech_381AADB4.html&quot;
+    guid=&quot;_h7etQESuEeiASMlqgAcI7A&quot;&gt;Affinity Estimation Technique&lt;/a&gt;&amp;nbsp;is often used when the Product Backlog is being
+    initially estimated and accurate estimates are not yet required. Estimates are then refined via the &lt;a
+    class=&quot;elementLink&quot;
+    href=&quot;./../../../practice.mgmt.proj.agile_pm.base/guidances/guidelines/planning_poker_tech_24B7DD8A.html&quot;
+    guid=&quot;_Lc8YwESwEeiASMlqgAcI7A&quot;&gt;Planning Poker Technique&lt;/a&gt;&amp;nbsp;typically during the sprint planning meeting.
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Conclusion&lt;br /&gt;
+    &lt;/strong&gt;It is important to consider that while estimation&amp;nbsp;techniques&amp;nbsp;may be the&amp;nbsp;same, values in story
+    points or ideal days may differ across projects or teams due to maturity and experience of resources. The information
+    provided here should serve as a guide to evaluate and understand the various types of estimation techniques available.
+&lt;/p&gt;
+&lt;p&gt;
+    Also keep in mind that changes to estimates cannot occur during a sprint once the team has begun working on a
+    particular Backlog Item. Instead, changes to Backlog Item estimates must be made during sprint planning or product
+    backlog refinement, before the Backlog Item is included in the Sprint Backlog
+&lt;/p&gt;</attribute>
+<attribute name="externalId" nodeId="3101954c"></attribute>
+<attribute name="keyConsiderations" nodeId="43231d94"></attribute>
+<attribute name="longPresentationName" nodeId="2e8ee99d"></attribute>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="guidelines" nodeId="6f52eda8">
+<Element Type="Guideline" TypeName="Guideline" NodeiconUrl="" DisplayName="Affinity Estimation Technique" Id="_h7etQESuEeiASMlqgAcI7A" ShapeiconUrl="images/guidance.gif" nodeId="42a43d1f" Url="practice.mgmt.proj.agile_pm.base/guidances/guidelines/affinity_est_tech_381AADB4.html" Name="affinity_est_tech" BackPath="./../../../"></Element>
+<Element Type="Guideline" TypeName="Guideline" NodeiconUrl="" DisplayName="Planning Poker Technique" Id="_Lc8YwESwEeiASMlqgAcI7A" ShapeiconUrl="images/guidance.gif" nodeId="9cb02973" Url="practice.mgmt.proj.agile_pm.base/guidances/guidelines/planning_poker_tech_24B7DD8A.html" Name="planning_poker_tech" BackPath="./../../../"></Element>
+</referenceList>
+<referenceList name="Guideline_BreakdownElements" nodeId="f85ff09f">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Agile Project Management" Id="_dsHkARylEei6qIpqDo2Odw" relProcessPath="_dsHkARylEei6qIpqDo2Odw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_dsHkARylEei6qIpqDo2Odw&amp;path=_dsHkARylEei6qIpqDo2Odw" nodeId="d585ef56" Url="practice.mgmt.proj.agile_pm.assign/capabilitypatterns/agile_pm_BEFE816.html" Name="agile_pm" BackPath="./../../">
+<attribute name="name" nodeId="56a0d808">agile_pm</attribute>
+<attribute name="guid" nodeId="389c9326">_dsHkARylEei6qIpqDo2Odw</attribute>
+<attribute name="presentationName" nodeId="c9a3a698">Agile Project Management</attribute>
+<attribute name="briefDescription" nodeId="a643ab98"></attribute>
+<attribute name="suppressed" nodeId="fbe9d19c">false</attribute>
+<attribute name="orderingGuide" nodeId="1659cc0b"></attribute>
+<attribute name="isAbstract" nodeId="5b7dcf2e">false</attribute>
+<attribute name="shapeicon" nodeId="3e2262dd"></attribute>
+<attribute name="nodeicon" nodeId="7f5da72b"></attribute>
+<attribute name="prefix" nodeId="bae3d8ad"></attribute>
+<attribute name="isPlanned" nodeId="52f3ac1d">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="a6e11f16">false</attribute>
+<attribute name="isOptional" nodeId="f844fc92">false</attribute>
+<attribute name="isRepeatable" nodeId="bcc62fe2">false</attribute>
+<attribute name="isOngoing" nodeId="954084a5">false</attribute>
+<attribute name="isEventDriven" nodeId="ec12f049">false</attribute>
+<attribute name="variabilityType" nodeId="edab76ea">na</attribute>
+</Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_c2F1QZLKEe6Ji6GnvvUfqw&amp;path=_c2F1QZLKEe6Ji6GnvvUfqw,_orEwkTEKEe-TauTqJPNl_g,_Q2mZUDELEe-TauTqJPNl_g" ConcreteType="Task" Url="practice.mgmt.proj.agile_pm.base/tasks/conduct_sprint_planning_A7D62A34.html" Name="conduct_sprint_planning" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Conduct sprint planning" Id="_Q2mZUDELEe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="c488d463"></Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_dsHkARylEei6qIpqDo2Odw&amp;path=_dsHkARylEei6qIpqDo2Odw,_w1KRcBylEei6qIpqDo2Odw,_3kXq8UMyEeizC_qXJeYMtg,_IGRXAEMzEeizC_qXJeYMtg" ConcreteType="Task" Url="practice.mgmt.proj.agile_pm.base/tasks/conduct_sprint_planning_A7D62A34.html" Name="conduct_sprint_planning" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Conduct sprint planning" Id="_IGRXAEMzEeizC_qXJeYMtg" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="eb29cc0e"></Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_qaapIdDUEe6Y56Jk6jqfOA,_zXmmkNDUEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.mgmt.proj.agile_pm.base/tasks/conduct_sprint_planning_A7D62A34.html" Name="conduct_sprint_planning" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Conduct sprint planning" Id="_zXmmkNDUEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="b34fffc0"></Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_c2F1QZLKEe6Ji6GnvvUfqw&amp;path=_c2F1QZLKEe6Ji6GnvvUfqw,_UXZSQTDZEe-TauTqJPNl_g,_vgniUDDZEe-TauTqJPNl_g" ConcreteType="Task" Url="practice.mgmt.proj.agile_pm.base/tasks/est_prod_backlog_effort_D87C1B63.html" Name="est_prod_backlog_effort" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Estimate product backlog work effort" Id="_vgniUDDZEe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="ce2f1a79"></Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_dsHkARylEei6qIpqDo2Odw&amp;path=_dsHkARylEei6qIpqDo2Odw,_w1KRcBylEei6qIpqDo2Odw,__0O40RylEei6qIpqDo2Odw,_cvf80CY_EeiZGaHtE-ScQg" ConcreteType="Task" Url="practice.mgmt.proj.agile_pm.base/tasks/est_prod_backlog_effort_D87C1B63.html" Name="est_prod_backlog_effort" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Estimate product backlog work effort" Id="_cvf80CY_EeiZGaHtE-ScQg" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="55f7012a"></Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_c2F1QZLKEe6Ji6GnvvUfqw&amp;path=_c2F1QZLKEe6Ji6GnvvUfqw,_SXyf0TF6Ee-TauTqJPNl_g,_pazIcDF6Ee-TauTqJPNl_g" ConcreteType="Task" Url="practice.mgmt.proj.agile_pm.base/tasks/refine_prod_backlog_26F069F4.html" Name="refine_prod_backlog" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Refine product backlog" Id="_pazIcDF6Ee-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="232427e4"></Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_dsHkARylEei6qIpqDo2Odw&amp;path=_dsHkARylEei6qIpqDo2Odw,_w1KRcBylEei6qIpqDo2Odw,_3kXq8UMyEeizC_qXJeYMtg,_K25rkEMzEeizC_qXJeYMtg" ConcreteType="Task" Url="practice.mgmt.proj.agile_pm.base/tasks/refine_prod_backlog_26F069F4.html" Name="refine_prod_backlog" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Refine product backlog" Id="_K25rkEMzEeizC_qXJeYMtg" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="3cf2d1a8"></Element>
+</referenceList>
+<referenceList name="Guideline_ContentElements" nodeId="e14cf4e">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Conduct sprint planning" Id="_bJAxsIwkEeeUdawzHJKfbA" ShapeiconUrl="images/task.gif" nodeId="febbb34c" Url="practice.mgmt.proj.agile_pm.base/tasks/conduct_sprint_planning_A7D62A34.html" Name="conduct_sprint_planning" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Estimate product backlog work effort" Id="_pqIkECY7EeiZGaHtE-ScQg" ShapeiconUrl="images/task.gif" nodeId="8bb9da18" Url="practice.mgmt.proj.agile_pm.base/tasks/est_prod_backlog_effort_D87C1B63.html" Name="est_prod_backlog_effort" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Refine product backlog" Id="_4zt-YC63Eeijg_kSV5Ftfg" ShapeiconUrl="images/task.gif" nodeId="6ee56285" Url="practice.mgmt.proj.agile_pm.base/tasks/refine_prod_backlog_26F069F4.html" Name="refine_prod_backlog" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="contentElements" nodeId="d6279b1a">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Agile Project Management" Id="_dsHkARylEei6qIpqDo2Odw" relProcessPath="_dsHkARylEei6qIpqDo2Odw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_dsHkARylEei6qIpqDo2Odw&amp;path=_dsHkARylEei6qIpqDo2Odw" nodeId="75f285a" Url="practice.mgmt.proj.agile_pm.assign/capabilitypatterns/agile_pm_BEFE816.html" Name="agile_pm" BackPath="./../../">
+<attribute name="name" nodeId="9277dff7">agile_pm</attribute>
+<attribute name="guid" nodeId="dde94f28">_dsHkARylEei6qIpqDo2Odw</attribute>
+<attribute name="presentationName" nodeId="fe714284">Agile Project Management</attribute>
+<attribute name="briefDescription" nodeId="71d916b0"></attribute>
+<attribute name="suppressed" nodeId="4bf390e8">false</attribute>
+<attribute name="orderingGuide" nodeId="c6e678f4"></attribute>
+<attribute name="isAbstract" nodeId="34db0f81">false</attribute>
+<attribute name="shapeicon" nodeId="52184e67"></attribute>
+<attribute name="nodeicon" nodeId="b34d2565"></attribute>
+<attribute name="prefix" nodeId="1bf3fb87"></attribute>
+<attribute name="isPlanned" nodeId="fafff489">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="8453a8a4">false</attribute>
+<attribute name="isOptional" nodeId="87a109de">false</attribute>
+<attribute name="isRepeatable" nodeId="f36fcbf7">false</attribute>
+<attribute name="isOngoing" nodeId="8d87dc27">false</attribute>
+<attribute name="isEventDriven" nodeId="20f2274">false</attribute>
+<attribute name="variabilityType" nodeId="6d137821">na</attribute>
+</Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Conduct sprint planning" Id="_bJAxsIwkEeeUdawzHJKfbA" ShapeiconUrl="images/task.gif" nodeId="c0938aa8" Url="practice.mgmt.proj.agile_pm.base/tasks/conduct_sprint_planning_A7D62A34.html" Name="conduct_sprint_planning" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Estimate product backlog work effort" Id="_pqIkECY7EeiZGaHtE-ScQg" ShapeiconUrl="images/task.gif" nodeId="3fceba12" Url="practice.mgmt.proj.agile_pm.base/tasks/est_prod_backlog_effort_D87C1B63.html" Name="est_prod_backlog_effort" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Refine product backlog" Id="_4zt-YC63Eeijg_kSV5Ftfg" ShapeiconUrl="images/task.gif" nodeId="cfde2c68" Url="practice.mgmt.proj.agile_pm.base/tasks/refine_prod_backlog_26F069F4.html" Name="refine_prod_backlog" BackPath="./../../"></Element>
+</referenceList>
+</Element>

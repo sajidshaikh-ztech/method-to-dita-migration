@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_ioWaYNEpEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_tech_cutover_runbook_items_C9A03B93.html" Name="define_tech_cutover_runbook_items" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define technology cutover runbook items" Id="_ioWaYNEpEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" lang="en" nodeId="61fffa5e">
+<copyright nodeId="88397961">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="4fe84dc0">define_tech_cutover_runbook_items</attribute>
+<attribute name="guid" nodeId="46d62a41">_ioWaYNEpEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="6a3116de">Define technology cutover runbook items</attribute>
+<attribute name="briefDescription" nodeId="5647d8f6">Review the activities outlined in the cutover and deployment plan relative to application, data and technology infrastructure functions and detail specific tasks and actors needed to perform the cutover.</attribute>
+<attribute name="suppressed" nodeId="2bf964f8">false</attribute>
+<attribute name="orderingGuide" nodeId="5b5a7499"></attribute>
+<attribute name="isAbstract" nodeId="c287961c">false</attribute>
+<attribute name="shapeicon" nodeId="bbacfc55"></attribute>
+<attribute name="nodeicon" nodeId="40d44fd8"></attribute>
+<attribute name="prefix" nodeId="135217f5"></attribute>
+<attribute name="isPlanned" nodeId="cc4ab19d">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="5e87efe">false</attribute>
+<attribute name="isOptional" nodeId="69a6da">false</attribute>
+<attribute name="isRepeatable" nodeId="ee160e16">false</attribute>
+<attribute name="isOngoing" nodeId="16ed12d4">false</attribute>
+<attribute name="isEventDriven" nodeId="dbbf5f14">false</attribute>
+<attribute name="isSynchronizedWithSource" nodeId="ff4bcc8c">true</attribute>
+<reference name="presentation" nodeId="5e8addba">
+<Element Type="DescriptorDescription" TypeName="Descriptor Description" NodeiconUrl="" DisplayName="Define technology cutover runbook items" Id="-DwkReNoqsN9AMAVrScHBrg" ShapeiconUrl="images/guidance.gif" nodeId="f36b36" Url="" Name="define_tech_cutover_runbook_items,_ioWaYNEpEe6Y56Jk6jqfOA" BackPath="">
+<copyright nodeId="f829fad">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="56e14655">define_tech_cutover_runbook_items,_ioWaYNEpEe6Y56Jk6jqfOA</attribute>
+<attribute name="guid" nodeId="ea602080">-DwkReNoqsN9AMAVrScHBrg</attribute>
+<attribute name="presentationName" nodeId="ba7bd91c">Define technology cutover runbook items</attribute>
+<attribute name="briefDescription" nodeId="ba988879"></attribute>
+<attribute name="suppressed" nodeId="88d7a75e">false</attribute>
+<attribute name="orderingGuide" nodeId="2b933163"></attribute>
+<attribute name="authors" nodeId="66506107"></attribute>
+<attribute name="changeDate" nodeId="68ec700"></attribute>
+<attribute name="changeDescription" nodeId="d974e32b"></attribute>
+<attribute name="version" nodeId="13045134"></attribute>
+<attribute name="mainDescription" nodeId="36e0d284"></attribute>
+<attribute name="externalId" nodeId="8d2a412a"></attribute>
+<attribute name="keyConsiderations" nodeId="16fb0ffe">&lt;p&gt;
+    Although all key project leads provide input for the runbook to the service management team, the primary roles in
+    creating the runbook are the project manager, business process team lead, and the technical team lead.
+&lt;/p&gt;
+&lt;p&gt;
+    When implementing a commercial solution, a vendor will typically provide a checklist for cutover preparation that can
+    be modified to fit the organization&apos;s specific needs. This checklist should not be considered a replacement for the
+    organization’s runbook creation process, but is a key input.
+&lt;/p&gt;
+&lt;p&gt;
+    The piloting process, among other goals, will uncover any issues which would affect the transition cutover process.
+    Once the implementation completes the pilot phase and resulting updates are made, there will be less likelihood of a
+    “no-go” decision being made.
+&lt;/p&gt;</attribute>
+<attribute name="longPresentationName" nodeId="a24a0e6"></attribute>
+<attribute name="usageGuidance" nodeId="f3acb5a5"></attribute>
+<attribute name="refinedDescription" nodeId="18d5df1">&lt;p&gt;
+    The cutover runbook outlines the steps to be completed to verify the organization is ready for operational use of the
+    new solution.
+&lt;/p&gt;
+&lt;p&gt;
+    The runbook documents system cutover activities in the appropriate sequence to verfiy preparatory steps are complete
+    and that the right people have reviewed the plan, agree with the contents, are ready to use it, and available when
+    required.
+&lt;/p&gt;
+&lt;p&gt;
+    The runbook details specific tasks which verify the operation of the implementation goals in the operational
+    environment once a go/no-go decision has been provided. Completion of the technology runbook items assures that all
+    required data is migrated and verified, all users are prepared for production, the replaced system(s) are removed from
+    the production environment or otherwise accounted for, and initial post-transition business and technology-related
+    processes are scheduled.
+&lt;/p&gt;
+&lt;p&gt;
+    Preparation for the cutover covers all aspects of the implementation with adequate time allocations and support
+    resource availability. Prior to the cutover, the implementation build should be tested to make sure it is complete and
+    components verified by IT and the business. This can be done in a pilot release depending on the implementation
+    complexity. All application interfaces should pass testing for any connectivity and compatibility issues. Backup and
+    downtime procedures should also be checked.
+&lt;/p&gt;
+&lt;p&gt;
+    While some of this will be part of operations the actual scheduling of the initial processes should be done as part of
+    the transition.
+&lt;/p&gt;
+&lt;p&gt;
+    Proper staff training is a critical step in the cutover process. This training includes technical and procedural
+    aspects. As the cutover event arrives, proper communication to IT and business should be verified so all parties have
+    been given proper notification. Once the checklist items have been satisfied and a go / no-go decision has been made,
+    the implementation is ready to proceed into the production environment with live production data.
+&lt;/p&gt;</attribute>
+</Element>
+</reference>
+<reference name="superActivities" nodeId="ffff362f">
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Prepare for Cutover and Deployment" Id="_QQPskdEnEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA" nodeId="4d8f3c97" Url="process.adv.eya_oracle.base/capabilitypatterns/prepare_cutover_deployment_ABC106C4.html" Name="prepare_cutover_deployment" BackPath="./../../">
+<attribute name="name" nodeId="7f567e87">prepare_cutover_deployment</attribute>
+<attribute name="guid" nodeId="a7f55f51">_QQPskdEnEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="1e4cdfd5">Prepare for Cutover and Deployment</attribute>
+<attribute name="briefDescription" nodeId="136e0d62">Define the approach, plan and governance tasks to manage the transition of the target state Oracle solution into the production environment.</attribute>
+<attribute name="suppressed" nodeId="e944a960">false</attribute>
+<attribute name="orderingGuide" nodeId="f2adbe80"></attribute>
+<attribute name="isAbstract" nodeId="3cbe8585">false</attribute>
+<attribute name="shapeicon" nodeId="b26e657f"></attribute>
+<attribute name="nodeicon" nodeId="180b5690"></attribute>
+<attribute name="prefix" nodeId="807b50a0"></attribute>
+<attribute name="isPlanned" nodeId="3c6c3221">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="36b56a61">false</attribute>
+<attribute name="isOptional" nodeId="62c3067b">false</attribute>
+<attribute name="isRepeatable" nodeId="463e43d4">false</attribute>
+<attribute name="isOngoing" nodeId="83c2e916">false</attribute>
+<attribute name="isEventDriven" nodeId="de390129">false</attribute>
+<attribute name="variabilityType" nodeId="2dec5cb">na</attribute>
+</Element>
+</reference>
+<referenceList name="linkToPredecessor" nodeId="9218f6a3"></referenceList>
+<reference name="Task" nodeId="9118e6f0">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Define technology cutover runbook items" Id="_DqKYsDHFEe-ymZgH1AiGoQ" ShapeiconUrl="images/task.gif" nodeId="8c738543" Url="process.adv.eya_oracle.base/tasks/define_tech_cutover_runbook_items_C9A03B93.html" Name="define_tech_cutover_runbook_items" BackPath="./../../"></Element>
+</reference>
+<referenceList sortValue="Manual" name="mandatoryInput" nodeId="14e5406e">
+<Element TypeName="Work Product Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_ioWaYNEpEe6Y56Jk6jqfOA_EWo3MPF4EeOFgpTUvzaUCQ" ConcreteType="Artifact" Url="core.ops.common.base/workproducts/readiness_criteria_6CDC630D.html" Name="readiness_criteria" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Cutover Readiness Criteria" Id="_ioWaYNEpEe6Y56Jk6jqfOA_EWo3MPF4EeOFgpTUvzaUCQ" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="3ac59127"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_ioWaYNEpEe6Y56Jk6jqfOA_DsttgPDVEeOFgpTUvzaUCQ" ConcreteType="Artifact" Url="core.ops.common.base/workproducts/cutover_deploy_approach_284EDC70.html" Name="cutover_deploy_approach" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Cutover and Deployment Approach" Id="_ioWaYNEpEe6Y56Jk6jqfOA_DsttgPDVEeOFgpTUvzaUCQ" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="f1fbd845"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_ioWaYNEpEe6Y56Jk6jqfOA_kkusYPDVEeOFgpTUvzaUCQ" ConcreteType="Artifact" Url="core.ops.common.base/workproducts/cutover_deploy_plan_9BE3B58D.html" Name="cutover_deploy_plan" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Cutover and Deployment Plan" Id="_ioWaYNEpEe6Y56Jk6jqfOA_kkusYPDVEeOFgpTUvzaUCQ" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="a0ede0fc"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="output" nodeId="44b72a6a">
+<Element TypeName="Work Product Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_ioWaYNEpEe6Y56Jk6jqfOA_CEoYUPF4EeOFgpTUvzaUCQ" ConcreteType="Artifact" Url="core.ops.common.base/workproducts/cutover_runbook_28E93E5B.html" Name="cutover_runbook" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Cutover Runbook" Id="_ioWaYNEpEe6Y56Jk6jqfOA_CEoYUPF4EeOFgpTUvzaUCQ" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="fb518faa"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="performedPrimarilyBy" nodeId="3687210a">
+<Element TypeName="Role Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_rshJkNEpEe6Y56Jk6jqfOA_6At4MCygEe-bo7_6LoJ2iQ" ConcreteType="Role" Url="process.adv.eya_oracle.base/roles/tech_lead_30CEAD95.html" Name="tech_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Technical Lead" Id="_rshJkNEpEe6Y56Jk6jqfOA_6At4MCygEe-bo7_6LoJ2iQ" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="3abfde01"></Element>
+</referenceList>
+<referenceList name="selectedSteps" nodeId="17dced40">
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Identify and document data object load sequence dependencies" Id="_wRlswEIaEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="5ba88f39" Url="" Name="Identify and document data object load sequence dependencies" BackPath="">
+<copyright nodeId="518f16fe">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="5efb8b9c">Identify and document data object load sequence dependencies</attribute>
+<attribute name="guid" nodeId="eb80927c">_wRlswEIaEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="d91f6ca0">Identify and document data object load sequence dependencies</attribute>
+<attribute name="briefDescription" nodeId="a28185c1"></attribute>
+<attribute name="suppressed" nodeId="2bb4c719">false</attribute>
+<attribute name="orderingGuide" nodeId="3c432638"></attribute>
+<attribute name="variabilityType" nodeId="a9d3e0e3">na</attribute>
+<attribute name="sectionName" nodeId="86e7ebb6"></attribute>
+<attribute name="sectionDescription" nodeId="32fb0bb6"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="393785e1">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_ioWaYNEpEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_tech_cutover_runbook_items_C9A03B93.html" Name="define_tech_cutover_runbook_items" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define technology cutover runbook items" Id="_ioWaYNEpEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="79901bb6"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Identify and document data object owners" Id="_w3eBAEIaEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="dfb7009c" Url="" Name="Identify and document data object owners" BackPath="">
+<copyright nodeId="112230c3">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="d450b01">Identify and document data object owners</attribute>
+<attribute name="guid" nodeId="3ad7e044">_w3eBAEIaEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="e68b394d">Identify and document data object owners</attribute>
+<attribute name="briefDescription" nodeId="b9b9f3e9"></attribute>
+<attribute name="suppressed" nodeId="141fc667">false</attribute>
+<attribute name="orderingGuide" nodeId="87d819c0"></attribute>
+<attribute name="variabilityType" nodeId="7b38895c">na</attribute>
+<attribute name="sectionName" nodeId="cada0485"></attribute>
+<attribute name="sectionDescription" nodeId="9e39c11f"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="e8217f97">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_ioWaYNEpEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_tech_cutover_runbook_items_C9A03B93.html" Name="define_tech_cutover_runbook_items" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define technology cutover runbook items" Id="_ioWaYNEpEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="b91eb74a"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Identify manual configuration tasks and dependencies with data loads" Id="_yj_NMEIaEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="27a8cbfe" Url="" Name="Identify manual configuration tasks and dependencies with data loads" BackPath="">
+<copyright nodeId="49d690f3">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="e9f44dba">Identify manual configuration tasks and dependencies with data loads</attribute>
+<attribute name="guid" nodeId="ec6ca82d">_yj_NMEIaEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="47570398">Identify manual configuration tasks and dependencies with data loads</attribute>
+<attribute name="briefDescription" nodeId="84ea851"></attribute>
+<attribute name="suppressed" nodeId="d1285c5a">false</attribute>
+<attribute name="orderingGuide" nodeId="929a1b33"></attribute>
+<attribute name="variabilityType" nodeId="fd4fa2a">na</attribute>
+<attribute name="sectionName" nodeId="8b52397b"></attribute>
+<attribute name="sectionDescription" nodeId="71bc6a3f"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="cceb9161">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_ioWaYNEpEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_tech_cutover_runbook_items_C9A03B93.html" Name="define_tech_cutover_runbook_items" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define technology cutover runbook items" Id="_ioWaYNEpEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="3a9d9968"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Execute manual configuration tasks in production environment" Id="_mm7XUEK0EeW0q8PXmXLEQg" ShapeiconUrl="images/guidance.gif" nodeId="4489740f" Url="" Name="Execute manual configuration tasks in production environment" BackPath="">
+<copyright nodeId="5bee1213">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="67265328">Execute manual configuration tasks in production environment</attribute>
+<attribute name="guid" nodeId="53492b70">_mm7XUEK0EeW0q8PXmXLEQg</attribute>
+<attribute name="presentationName" nodeId="6dab1a8e">Execute manual configuration tasks in production environment</attribute>
+<attribute name="briefDescription" nodeId="67e86c3b"></attribute>
+<attribute name="suppressed" nodeId="e28f9112">false</attribute>
+<attribute name="orderingGuide" nodeId="41462c87"></attribute>
+<attribute name="variabilityType" nodeId="e2f2da60">na</attribute>
+<attribute name="sectionName" nodeId="924cfaa9"></attribute>
+<attribute name="sectionDescription" nodeId="f1a69752">&lt;p&gt;
+    Configuration is the setting of various conditions and states that enables the system to perform according to the
+    proposed design. While many configuration objects can be moved between different environments automatically via
+    transports, patches, or the like, some configuration objects must be manually configured in each environment.
+    Therefore, one of the steps of cutover is to perform the manual steps in the production environment. This should be
+    done in adherence with the configuration documentation developed during the solution design, build, and test phases.
+&lt;/p&gt;
+&lt;p&gt;
+    Execute configuration steps in the production environment if they can&apos;t be transported or automatically
+    created.&amp;nbsp;Verify that all configuration objects are properly implemented so that the production environment will
+    behave as designed.
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Identify manual configuration objects
+    &lt;/li&gt;
+    &lt;li&gt;
+        Review configuration rationale for the object
+    &lt;/li&gt;
+    &lt;li&gt;
+        Review identified configuration values
+    &lt;/li&gt;
+    &lt;li&gt;
+        Request configuration access to production environment (firefighter or cutover ID)
+    &lt;/li&gt;
+    &lt;li&gt;
+        Update manual configuration objects
+    &lt;/li&gt;
+    &lt;li&gt;
+        Update project plan
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    Configuration should be done in adherence with the configuration documentation developed during the solution design,
+    build, and test phases.
+&lt;/p&gt;
+&lt;p&gt;
+    A checklist should be used to verify all manual configuration steps in production have been executed and are ready for
+    cutover. This checklist will be a resource for project or workstream management. The steps in the checklist may
+    include:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Validation that parent configuration tasks are complete
+    &lt;/li&gt;
+    &lt;li&gt;
+        Validation that manual configuration entries have been executed
+    &lt;/li&gt;
+    &lt;li&gt;
+        Validation of manual configuration entries
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="cf46216">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_ioWaYNEpEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_tech_cutover_runbook_items_C9A03B93.html" Name="define_tech_cutover_runbook_items" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define technology cutover runbook items" Id="_ioWaYNEpEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="9aec2ac4"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Transfer configuration and settings to production environment" Id="_Mgv4oEK0EeW0q8PXmXLEQg" ShapeiconUrl="images/guidance.gif" nodeId="6a45e8b4" Url="" Name="Transfer configuration and settings to production environment" BackPath="">
+<copyright nodeId="52054049">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="f5d14be0">Transfer configuration and settings to production environment</attribute>
+<attribute name="guid" nodeId="5e817936">_Mgv4oEK0EeW0q8PXmXLEQg</attribute>
+<attribute name="presentationName" nodeId="9e9d39f8">Transfer configuration and settings to production environment</attribute>
+<attribute name="briefDescription" nodeId="2b121035"></attribute>
+<attribute name="suppressed" nodeId="5cb6e1ba">false</attribute>
+<attribute name="orderingGuide" nodeId="5ac8214"></attribute>
+<attribute name="variabilityType" nodeId="7c2d7da4">na</attribute>
+<attribute name="sectionName" nodeId="ecd00114"></attribute>
+<attribute name="sectionDescription" nodeId="8bdc75bf">&lt;p&gt;
+    Implementing a documented and methodical process for moving all of the configurations and settings into the production
+    environment avoids issues with missing transports, transports failing to integrate properly, or other potentially
+    disruptive issues.
+&lt;/p&gt;
+&lt;p&gt;
+    Transfer all manual and automated configuration settings into the production environment in the correct sequence.
+    Confirm that the production environment is properly configured for successful operation and behaves in the same manner
+    during all development and testing phases.
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Validate precursor documentation
+    &lt;/li&gt;
+    &lt;li&gt;
+        Document the proper transport sequence
+    &lt;/li&gt;
+    &lt;li&gt;
+        Validate of presence of transports in the pre-production environment
+    &lt;/li&gt;
+    &lt;li&gt;
+        Execute manual and automatic transports
+    &lt;/li&gt;
+    &lt;li&gt;
+        Test and validate configurations and settings in the production environment
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    It is critical not only to validate that all transports are moved, but that all are integrated in the proper sequence.
+    Many transports or settings have precursors (either manual or automatic) that must be implemented prior to their own
+    integration. If not done in the proper sequence, the solution may function incorrectly, if at all.
+&lt;/p&gt;
+&lt;p&gt;
+    Documenting the configuration and settings to transfer also serves as an excellent means of knowledge transfer, as it
+    is an entry point to begin educating site deployment team members or new project team members on how the solution is
+    configured and how it will behave.
+&lt;/p&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="9a15350a">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_ioWaYNEpEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_tech_cutover_runbook_items_C9A03B93.html" Name="define_tech_cutover_runbook_items" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define technology cutover runbook items" Id="_ioWaYNEpEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="890a4ed0"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Perform test run of critical production processes" Id="_YbLN0EK1EeW0q8PXmXLEQg" ShapeiconUrl="images/guidance.gif" nodeId="a789ea58" Url="" Name="Perform test run of critical production processes" BackPath="">
+<copyright nodeId="3367515b">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="cd6ee268">Perform test run of critical production processes</attribute>
+<attribute name="guid" nodeId="7ffbae25">_YbLN0EK1EeW0q8PXmXLEQg</attribute>
+<attribute name="presentationName" nodeId="eb01328f">Perform test run of critical production processes</attribute>
+<attribute name="briefDescription" nodeId="8e5de67"></attribute>
+<attribute name="suppressed" nodeId="1540772f">false</attribute>
+<attribute name="orderingGuide" nodeId="380fa081"></attribute>
+<attribute name="variabilityType" nodeId="c357b81c">na</attribute>
+<attribute name="sectionName" nodeId="4e428313"></attribute>
+<attribute name="sectionDescription" nodeId="4e8ca9dc">&lt;p&gt;
+    Simulate or execute critical production processes to verify a working and usable system. Provide additional assurance
+    that critical production processes will operate as expected in production.
+&lt;/p&gt;
+&lt;p&gt;
+    By doing the critical production test as accurately as possible, the team can be as certain as possible when entering
+    go-live that critical defects that could disrupt the business will be avoided.
+&lt;/p&gt;
+&lt;p&gt;
+    Confirm that all critical processes have been listed and remove from the test plan any processes that are not valid for
+    specified deployment
+&lt;/p&gt;
+&lt;p&gt;
+    Schedule test processes, making sure to account for operational up and down time as needed as well as resource
+    availability for both deployment teams and operational personnel
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Assign team members responsible for overseeing tests
+    &lt;/li&gt;
+    &lt;li&gt;
+        Execute and track tests against test plan, logging defects as necessary
+    &lt;/li&gt;
+    &lt;li&gt;
+        Confirm that&amp;nbsp;all defects which may cause failures in critical production processes have been resolved
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    Once all tests have been executed, all applicable defects closed, notify project and site management of completion of
+    the test. If possible, use the actual production system to perform the tests, as production will best replicate the
+    actual behavior of cutover and go-live. If that is not feasible, use the pre-production (i.e., simulation) environment;
+    this may be the best possible emulation, as long as it is validated that the pre-production environment is a true
+    carbon copy of the production system. Any differences in patches, transports, etc., can result in the test being
+    misinterpreted.
+&lt;/p&gt;
+&lt;p&gt;
+    A particular integration, interface, or function may result in major disruption to operations if there are any issues.
+    For example, a manufacturing facility may have a solution interfaced with a work order system that authorizes the
+    operation of CNC machines. If the interface does not work, a machine on the floor may not receive the required data and
+    may not work. If this is an issue affecting the interface as a whole, it is highly likely that the entire operation may
+    shut down until this is resolved.
+&lt;/p&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="3cca042d">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_ioWaYNEpEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_tech_cutover_runbook_items_C9A03B93.html" Name="define_tech_cutover_runbook_items" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define technology cutover runbook items" Id="_ioWaYNEpEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="ff9753eb"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Activate and monitor batch jobs" Id="_OulXQEK2EeW0q8PXmXLEQg" ShapeiconUrl="images/guidance.gif" nodeId="f5709058" Url="" Name="Activate and monitor batch jobs" BackPath="">
+<copyright nodeId="2a43f104">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="65072751">Activate and monitor batch jobs</attribute>
+<attribute name="guid" nodeId="de7c105d">_OulXQEK2EeW0q8PXmXLEQg</attribute>
+<attribute name="presentationName" nodeId="a503899d">Activate and monitor batch jobs</attribute>
+<attribute name="briefDescription" nodeId="e17eb77"></attribute>
+<attribute name="suppressed" nodeId="b1e79d63">false</attribute>
+<attribute name="orderingGuide" nodeId="b2c36ac4"></attribute>
+<attribute name="variabilityType" nodeId="a09bc25a">na</attribute>
+<attribute name="sectionName" nodeId="dfca66c"></attribute>
+<attribute name="sectionDescription" nodeId="83e0465d">&lt;p&gt;
+    Activate and monitor all batch jobs for required automated system processing. Begin business as usual (BAU) batch
+    processing and confirm that any incidents or problems are quickly discovered and addressed.
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Verify that the configuration required for batch jobs (processes and report) in the system as defined. Batch job
+        configuration is initiated as part of system configuration and will be updated until go-live.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Verify security and access required for batch jobs are correctly set up in the production environment and that
+        roles are loaded to restrict and control access to the system.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Activate all batch jobs for automated system processing.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Monitor the activated batch jobs and communicate the performance, error resolution and plan of risk mitigation for
+        critical errors to the project team.
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="edd9d11f">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_ioWaYNEpEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_tech_cutover_runbook_items_C9A03B93.html" Name="define_tech_cutover_runbook_items" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define technology cutover runbook items" Id="_ioWaYNEpEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="eec757d3"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Identify and document batch network startup sequence" Id="_z8ZxoEIaEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="82aa53f6" Url="" Name="Identify and document batch network startup sequence" BackPath="">
+<copyright nodeId="49f5face">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="873f314">Identify and document batch network startup sequence</attribute>
+<attribute name="guid" nodeId="22e93ca1">_z8ZxoEIaEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="4495f65a">Identify and document batch network startup sequence</attribute>
+<attribute name="briefDescription" nodeId="66f03ee6"></attribute>
+<attribute name="suppressed" nodeId="d457cbd2">false</attribute>
+<attribute name="orderingGuide" nodeId="c1cf867e"></attribute>
+<attribute name="variabilityType" nodeId="c13e0d25">na</attribute>
+<attribute name="sectionName" nodeId="1cd2fe8c"></attribute>
+<attribute name="sectionDescription" nodeId="d4975131">&lt;p&gt;
+    Batch jobs are essential and a critical part of project implementation. Several jobs with large volumes of data require
+    automated batch jobs to be set up. There are several other subsequent activities defined as part of cutover plan is
+    dependent on these jobs being executed successfully.
+&lt;/p&gt;
+&lt;p&gt;
+    The batch schedule defines certain time intervals when the batch jobs should be executed and that contains schedules
+    for batch jobs requiring daily, weekly, monthly and annual automation.
+&lt;/p&gt;
+&lt;p&gt;
+    This step is one of the action items as part of cutover plan and is usually executed after the roles and access
+    required for batch jobs are set up.
+&lt;/p&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="adad4214">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_ioWaYNEpEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_tech_cutover_runbook_items_C9A03B93.html" Name="define_tech_cutover_runbook_items" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define technology cutover runbook items" Id="_ioWaYNEpEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="46fb63af"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Identify and document end-user provisioning and unlock process" Id="_1W7O4EIaEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="8e58ee1a" Url="" Name="Identify and document end-user provisioning and unlock process" BackPath="">
+<copyright nodeId="fb2169ce">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="9a3b1c2f">Identify and document end-user provisioning and unlock process</attribute>
+<attribute name="guid" nodeId="b236039b">_1W7O4EIaEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="aaf8fdd3">Identify and document end-user provisioning and unlock process</attribute>
+<attribute name="briefDescription" nodeId="987ae95b"></attribute>
+<attribute name="suppressed" nodeId="35941925">false</attribute>
+<attribute name="orderingGuide" nodeId="4d833913"></attribute>
+<attribute name="variabilityType" nodeId="d96a58db">na</attribute>
+<attribute name="sectionName" nodeId="ff71496f"></attribute>
+<attribute name="sectionDescription" nodeId="758428c5"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="9f23edde">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_ioWaYNEpEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_tech_cutover_runbook_items_C9A03B93.html" Name="define_tech_cutover_runbook_items" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define technology cutover runbook items" Id="_ioWaYNEpEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="1ea8f85c"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Resolve any production end-user segregation of duties conflicts" Id="_0MCQMEK2EeW0q8PXmXLEQg" ShapeiconUrl="images/guidance.gif" nodeId="efd4e1ed" Url="" Name="Resolve any production end-user segregation of duties conflicts" BackPath="">
+<copyright nodeId="10f2131e">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="1f8e045e">Resolve any production end-user segregation of duties conflicts</attribute>
+<attribute name="guid" nodeId="2152eec5">_0MCQMEK2EeW0q8PXmXLEQg</attribute>
+<attribute name="presentationName" nodeId="d4091760">Resolve any production end-user segregation of duties conflicts</attribute>
+<attribute name="briefDescription" nodeId="83f22c43"></attribute>
+<attribute name="suppressed" nodeId="1cc35ecc">false</attribute>
+<attribute name="orderingGuide" nodeId="c33f253b"></attribute>
+<attribute name="variabilityType" nodeId="1d09dc8c">na</attribute>
+<attribute name="sectionName" nodeId="a119916e"></attribute>
+<attribute name="sectionDescription" nodeId="41d7add5">Exercise access management processes to check for any separation of duties (SoD) violations and mitigate conflicts as
+needed.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="c5348aa0">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_ioWaYNEpEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_tech_cutover_runbook_items_C9A03B93.html" Name="define_tech_cutover_runbook_items" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define technology cutover runbook items" Id="_ioWaYNEpEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="c7e24a03"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Estimate task durations" Id="_2lt9QEIaEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="df2b750e" Url="" Name="Estimate task durations" BackPath="">
+<copyright nodeId="ec04ca1">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="99a87ca7">Estimate task durations</attribute>
+<attribute name="guid" nodeId="9f741b44">_2lt9QEIaEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="7afebd57">Estimate task durations</attribute>
+<attribute name="briefDescription" nodeId="ff85b6cf"></attribute>
+<attribute name="suppressed" nodeId="76af89fb">false</attribute>
+<attribute name="orderingGuide" nodeId="f154dc6c"></attribute>
+<attribute name="variabilityType" nodeId="d188d6df">na</attribute>
+<attribute name="sectionName" nodeId="8c9f34ba"></attribute>
+<attribute name="sectionDescription" nodeId="d5cd1f40"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="cb731766">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_ioWaYNEpEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_tech_cutover_runbook_items_C9A03B93.html" Name="define_tech_cutover_runbook_items" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define technology cutover runbook items" Id="_ioWaYNEpEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="e2027acf"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Resource load each task and validate dependencies" Id="_5aVZ8EIaEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="c3cf6b7d" Url="" Name="Resource load each task and validate dependencies" BackPath="">
+<copyright nodeId="7fd27ebd">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="9ce00972">Resource load each task and validate dependencies</attribute>
+<attribute name="guid" nodeId="b3ca2f45">_5aVZ8EIaEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="240008b7">Resource load each task and validate dependencies</attribute>
+<attribute name="briefDescription" nodeId="8c137c58"></attribute>
+<attribute name="suppressed" nodeId="88306d81">false</attribute>
+<attribute name="orderingGuide" nodeId="e4d5d64f"></attribute>
+<attribute name="variabilityType" nodeId="65ee99b0">na</attribute>
+<attribute name="sectionName" nodeId="fcf12e8b"></attribute>
+<attribute name="sectionDescription" nodeId="49ab6d0a"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="1829a258">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_ioWaYNEpEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_tech_cutover_runbook_items_C9A03B93.html" Name="define_tech_cutover_runbook_items" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define technology cutover runbook items" Id="_ioWaYNEpEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="b734eeca"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Peer-review cutover and deployment plan" Id="_73FwQEIaEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="3ad5e084" Url="" Name="Peer-review cutover and deployment plan" BackPath="">
+<copyright nodeId="36f864e2">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="f6ad1189">Peer-review cutover and deployment plan</attribute>
+<attribute name="guid" nodeId="362337eb">_73FwQEIaEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="899a03bd">Peer-review cutover and deployment plan</attribute>
+<attribute name="briefDescription" nodeId="35e2f599"></attribute>
+<attribute name="suppressed" nodeId="f53e2017">false</attribute>
+<attribute name="orderingGuide" nodeId="163ec361"></attribute>
+<attribute name="variabilityType" nodeId="a3026bb">na</attribute>
+<attribute name="sectionName" nodeId="b04e3320"></attribute>
+<attribute name="sectionDescription" nodeId="35f08f57"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="f55d904b">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_ioWaYNEpEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_tech_cutover_runbook_items_C9A03B93.html" Name="define_tech_cutover_runbook_items" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define technology cutover runbook items" Id="_ioWaYNEpEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="263903e9"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Publish cutover and deployment plan" Id="_-w0WcEIaEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="758030a6" Url="" Name="Publish cutover and deployment plan" BackPath="">
+<copyright nodeId="4f48a4bf">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="a10f3e70">Publish cutover and deployment plan</attribute>
+<attribute name="guid" nodeId="223aba78">_-w0WcEIaEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="89de4d33">Publish cutover and deployment plan</attribute>
+<attribute name="briefDescription" nodeId="e8d5aab0"></attribute>
+<attribute name="suppressed" nodeId="1868519b">false</attribute>
+<attribute name="orderingGuide" nodeId="8c498e78"></attribute>
+<attribute name="variabilityType" nodeId="dec6c3f0">na</attribute>
+<attribute name="sectionName" nodeId="dae8d4a8"></attribute>
+<attribute name="sectionDescription" nodeId="80a06d6a"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="fbe86552">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_ioWaYNEpEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_tech_cutover_runbook_items_C9A03B93.html" Name="define_tech_cutover_runbook_items" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define technology cutover runbook items" Id="_ioWaYNEpEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="4b13b68a"></Element>
+</referenceList>
+</Element>
+</referenceList>
+</Element>

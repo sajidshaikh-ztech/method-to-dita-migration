@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" TypeName="Task" Url="practice.ita.delv.it_test.base/tasks/support_hot_fix_testing_A92C9BFC.html" Name="support_hot_fix_testing" BackPath="./../../" Type="Task" NodeiconUrl="" performingRoleName="Tester" DisplayName="Support hot fix testing" Id="_MjnnkIBCEeSnjIKMFkkdjQ" ShapeiconUrl="images/task.gif" lang="en" nodeId="e1f3bba">
+<copyright nodeId="d3734d0d">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="d9f6b7c8">support_hot_fix_testing</attribute>
+<attribute name="guid" nodeId="b86fe263">_MjnnkIBCEeSnjIKMFkkdjQ</attribute>
+<attribute name="presentationName" nodeId="162e598b">Support hot fix testing</attribute>
+<attribute name="briefDescription" nodeId="aa7e0867">Testing support for any fixes of critical defects identified in the production environment.</attribute>
+<attribute name="suppressed" nodeId="228cc567">false</attribute>
+<attribute name="orderingGuide" nodeId="8058c4d5"></attribute>
+<attribute name="isAbstract" nodeId="3c270ad8">false</attribute>
+<attribute name="shapeicon" nodeId="fc811d64"></attribute>
+<attribute name="nodeicon" nodeId="9ac211f2"></attribute>
+<attribute name="variabilityType" nodeId="8f6ca8fe">na</attribute>
+<reference name="presentation" nodeId="6ac712a8">
+<Element Type="TaskDescription" TypeName="Task Description" NodeiconUrl="" DisplayName="Support hot fix testing" Id="-CdeGGORKdZTJhkLErjOcyg" ShapeiconUrl="images/guidance.gif" nodeId="5dc76166" Url="" Name="support_hot_fix_testing,_MjnnkIBCEeSnjIKMFkkdjQ" BackPath="">
+<copyright nodeId="d24d8973">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="47fd1165">support_hot_fix_testing,_MjnnkIBCEeSnjIKMFkkdjQ</attribute>
+<attribute name="guid" nodeId="dd78468b">-CdeGGORKdZTJhkLErjOcyg</attribute>
+<attribute name="presentationName" nodeId="f50839e3">Support hot fix testing</attribute>
+<attribute name="briefDescription" nodeId="193a8c66"></attribute>
+<attribute name="suppressed" nodeId="a62882ec">false</attribute>
+<attribute name="orderingGuide" nodeId="fb67c5b9"></attribute>
+<attribute name="authors" nodeId="2693bec0">process.adv.gdwr_cc.base</attribute>
+<attribute name="changeDate" nodeId="3c4f0913">Tue Apr 24 09:06:08 EDT 2018</attribute>
+<attribute name="changeDescription" nodeId="f7721f6d">MAR 2018 - Updated element name to clarify it is supporting hot fix testing, adjusted role to tester, and added Test Logs as output WP|JUN 2015 - baseline version</attribute>
+<attribute name="version" nodeId="e6859a1c"></attribute>
+<attribute name="mainDescription" nodeId="45cb0bde">&lt;p&gt;
+    The testing team will support the hot fix efforts by validating the fixes in the lower test environments and supporting
+    regression testing.
+&lt;/p&gt;
+&lt;p&gt;
+    Following the implementation of a hot fix, a quick or condensed regression test is performed to verify the fix hasn’t
+    affected any other functionality. After this regression test is performed, the fix will be moved to the production
+    environment for business or end user testing and sign off.
+&lt;/p&gt;</attribute>
+<attribute name="externalId" nodeId="8e70c25d"></attribute>
+<attribute name="keyConsiderations" nodeId="47607f74"></attribute>
+<attribute name="longPresentationName" nodeId="12eb264c"></attribute>
+<attribute name="purpose" nodeId="64b64c20">To validate the critical defect fixes in the lower environments for the defects identified in production environment. This
+validation along with necessary regression will be performed prior to production deployment of the fixes.</attribute>
+<attribute name="alternatives" nodeId="d69b6677"></attribute>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="performedBy" nodeId="269f9bc">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Tester" Id="_LCfPjjRjEeO6HZrLUe5nxQ" ShapeiconUrl="images/role.gif" nodeId="f9db7da6" Url="core.default.role_def.base/roles/tester_B8C2206D.html" Name="tester" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="mandatoryInput" nodeId="b96458d6">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Defect Tracker" Id="_1QgeIOYJEeOqmb5IikO7mw" ShapeiconUrl="images/artifact.gif" nodeId="f4fe6db7" Url="core.i_t.common.base/workproducts/defect_tracker_1B140F53.html" Name="defect_tracker" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="output" nodeId="d4069a95">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Hot Fix Approval" Id="_zbSogIBSEeSnjIKMFkkdjQ" ShapeiconUrl="images/artifact.gif" nodeId="6262289b" Url="practice.ita.delv.it_test.base/workproducts/hot_fix_approval_D4EE9F37.html" Name="hot_fix_approval" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Test Logs" Id="_UB49IOYJEeOqmb5IikO7mw" ShapeiconUrl="images/artifact.gif" nodeId="181fd32d" Url="core.i_t.common.base/workproducts/test_logs_CA656907.html" Name="test_logs" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="additionallyPerformedBy" nodeId="45cb255a">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Test Lead" Id="_Z11mxD8eEeOOEPaNsP0t0A" ShapeiconUrl="images/role.gif" nodeId="330a271a" Url="core.default.role_def.base/roles/test_lead_3E7314F5.html" Name="test_lead" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="Task_TaskDescriptors" nodeId="aac58fa1">
+<Element TypeName="Task Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_y3r_wcREEe6pmdl9Vi4qww,_9CaHUMREEe6pmdl9Vi4qww" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/support_hot_fix_testing_A92C9BFC.html" Name="support_hot_fix_testing" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Support hot fix testing" Id="_9CaHUMREEe6pmdl9Vi4qww" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="4b17b429"></Element>
+</referenceList>
+<reference name="performingRole" nodeId="17aa879d">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Tester" Id="_LCfPjjRjEeO6HZrLUe5nxQ" ShapeiconUrl="images/role.gif" nodeId="3e557170" Url="core.default.role_def.base/roles/tester_B8C2206D.html" Name="tester" BackPath="./../../"></Element>
+</reference>
+<referenceList name="customCategories" nodeId="d560178b">
+<Element Type="CustomCategory" TypeName="Custom Category" NodeiconUrl="" DisplayName="Tasks" Id="_0Sj48KDNEeOMmqbYX27PPA" ShapeiconUrl="core.default.nav_view.base/customcategories/resources/cat_task51.png" nodeId="62240ba5" Url="core.default.nav_view.base/customcategories/task_list_CDC9CEA6.html" Name="task_list" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="42b2a6c">
+<Element TypeName="Task Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_y3r_wcREEe6pmdl9Vi4qww,_9CaHUMREEe6pmdl9Vi4qww" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/support_hot_fix_testing_A92C9BFC.html" Name="support_hot_fix_testing" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Support hot fix testing" Id="_9CaHUMREEe6pmdl9Vi4qww" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="c4d00261">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Testing" Id="_XaP3oZLKEe6Ji6GnvvUfqw" relProcessPath="_XaP3oZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw" nodeId="376e42a2" Url="process.adv.eya_oracle.base/capabilitypatterns/testing_wkstrm_4068A774.html" Name="testing_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="2a49652d">testing_wkstrm</attribute>
+<attribute name="guid" nodeId="9eece8bb">_XaP3oZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="245ef135">Testing</attribute>
+<attribute name="briefDescription" nodeId="2cb8476"></attribute>
+<attribute name="suppressed" nodeId="6ae4a586">false</attribute>
+<attribute name="orderingGuide" nodeId="d67f4a43"></attribute>
+<attribute name="isAbstract" nodeId="eb4a22bc">false</attribute>
+<attribute name="shapeicon" nodeId="7376ca4d"></attribute>
+<attribute name="nodeicon" nodeId="cd3a8297"></attribute>
+<attribute name="prefix" nodeId="7872388c">workstream</attribute>
+<attribute name="isPlanned" nodeId="fff91c18">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="3b1c8ed">false</attribute>
+<attribute name="isOptional" nodeId="3623a8d2">false</attribute>
+<attribute name="isRepeatable" nodeId="fb2eb136">false</attribute>
+<attribute name="isOngoing" nodeId="af253da0">false</attribute>
+<attribute name="isEventDriven" nodeId="afa01aca">false</attribute>
+<attribute name="variabilityType" nodeId="373b10cc">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Provide Post Deployment Testing Support" Id="_y3r_wcREEe6pmdl9Vi4qww" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_y3r_wcREEe6pmdl9Vi4qww" nodeId="3952a725" Url="process.adv.eya_oracle.base/capabilitypatterns/provide_post_deploy_test_sprt_1A3CEB3.html" Name="provide_post_deploy_test_sprt" BackPath="./../../">
+<attribute name="name" nodeId="31b35f3e">provide_post_deploy_test_sprt</attribute>
+<attribute name="guid" nodeId="bffa29d2">_y3r_wcREEe6pmdl9Vi4qww</attribute>
+<attribute name="presentationName" nodeId="b8bc1e71">Provide Post Deployment Testing Support</attribute>
+<attribute name="briefDescription" nodeId="c70ef276">Actively support the post-deployment hot fixes and warranty issues.</attribute>
+<attribute name="suppressed" nodeId="1bd3366a">false</attribute>
+<attribute name="orderingGuide" nodeId="86ff521f"></attribute>
+<attribute name="isAbstract" nodeId="fc432b15">false</attribute>
+<attribute name="shapeicon" nodeId="2ac298e5"></attribute>
+<attribute name="nodeicon" nodeId="1ff1f3b7"></attribute>
+<attribute name="prefix" nodeId="b4cca7a"></attribute>
+<attribute name="isPlanned" nodeId="eaa928ae">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="b412bb32">false</attribute>
+<attribute name="isOptional" nodeId="b4d2d082">false</attribute>
+<attribute name="isRepeatable" nodeId="9f43bc29">false</attribute>
+<attribute name="isOngoing" nodeId="6abf890f">false</attribute>
+<attribute name="isEventDriven" nodeId="33caa6e1">false</attribute>
+<attribute name="variabilityType" nodeId="3dbf3c12">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_y3r_wcREEe6pmdl9Vi4qww,_9CaHUMREEe6pmdl9Vi4qww" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/support_hot_fix_testing_A92C9BFC.html" Name="support_hot_fix_testing" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Support hot fix testing" Id="_9CaHUMREEe6pmdl9Vi4qww" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="e6bc2e4f">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="f706f01d" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="e891f33d">eya_oracle</attribute>
+<attribute name="guid" nodeId="8754035c">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="4c47b8e8">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="db9eabbf"></attribute>
+<attribute name="suppressed" nodeId="c43f677f">false</attribute>
+<attribute name="orderingGuide" nodeId="a7e80d43"></attribute>
+<attribute name="isAbstract" nodeId="f6e74894">false</attribute>
+<attribute name="shapeicon" nodeId="41d382cf"></attribute>
+<attribute name="nodeicon" nodeId="c18aa563"></attribute>
+<attribute name="prefix" nodeId="d0b06618"></attribute>
+<attribute name="isPlanned" nodeId="1d05494a">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="b389ffb4">false</attribute>
+<attribute name="isOptional" nodeId="8f96b363">false</attribute>
+<attribute name="isRepeatable" nodeId="b5dfc2e2">false</attribute>
+<attribute name="isOngoing" nodeId="4af1eac7">false</attribute>
+<attribute name="isEventDriven" nodeId="188f9891">false</attribute>
+<attribute name="variabilityType" nodeId="8e5b3513">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Support" Id="_g2xwMIs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_g2xwMIs6Ee6Z58NF8Wy6XA" nodeId="e584c126" Url="process.adv.eya_oracle.base/deliveryprocesses/support_2BECA82C.html" Name="support" BackPath="./../../">
+<attribute name="name" nodeId="4f35176c">support</attribute>
+<attribute name="guid" nodeId="4af93117">_g2xwMIs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="4e985c27">Support</attribute>
+<attribute name="briefDescription" nodeId="fa6af408">Provide post deployment testing support and provide refresher trainings as needed. Transition to operations and work closely with the client to get their sign-off on the completition of the project. </attribute>
+<attribute name="suppressed" nodeId="66c18d8d">false</attribute>
+<attribute name="orderingGuide" nodeId="a1c24cde"></attribute>
+<attribute name="isAbstract" nodeId="e1a573e0">false</attribute>
+<attribute name="shapeicon" nodeId="837a3496"></attribute>
+<attribute name="nodeicon" nodeId="b40c8bc5"></attribute>
+<attribute name="prefix" nodeId="a2b7e9a6"></attribute>
+<attribute name="isPlanned" nodeId="3fac96aa">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="b34700ac">false</attribute>
+<attribute name="isOptional" nodeId="5244985a">false</attribute>
+<attribute name="isRepeatable" nodeId="9fa84b88">false</attribute>
+<attribute name="isOngoing" nodeId="82642679">false</attribute>
+<attribute name="isEventDriven" nodeId="66f45a58">false</attribute>
+<attribute name="variabilityType" nodeId="ef1cd738">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Provide Post Deployment Testing Support" Id="_pVa-cY_bEe-WuNJ6Gy8NYQ" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_g2xwMIs6Ee6Z58NF8Wy6XA,_pVa-cY_bEe-WuNJ6Gy8NYQ" nodeId="b6716523" Url="process.adv.eya_oracle.base/deliveryprocesses/provide_post_deploy_test_sprt_24939659.html" Name="provide_post_deploy_test_sprt" BackPath="./../../">
+<attribute name="name" nodeId="c6588b">provide_post_deploy_test_sprt</attribute>
+<attribute name="guid" nodeId="ee700d2a">_pVa-cY_bEe-WuNJ6Gy8NYQ</attribute>
+<attribute name="presentationName" nodeId="1d7b8159">Provide Post Deployment Testing Support</attribute>
+<attribute name="briefDescription" nodeId="c82a298c">Actively support the post-deployment hot fixes and warranty issues.</attribute>
+<attribute name="suppressed" nodeId="847a342c">false</attribute>
+<attribute name="orderingGuide" nodeId="57b47c1e"></attribute>
+<attribute name="isAbstract" nodeId="595a09fb">false</attribute>
+<attribute name="shapeicon" nodeId="b4adfa33"></attribute>
+<attribute name="nodeicon" nodeId="1dbe320"></attribute>
+<attribute name="prefix" nodeId="c5419b7c"></attribute>
+<attribute name="isPlanned" nodeId="76a54fcb">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="c7cc178d">false</attribute>
+<attribute name="isOptional" nodeId="865972c0">false</attribute>
+<attribute name="isRepeatable" nodeId="96c7f31a">false</attribute>
+<attribute name="isOngoing" nodeId="79e6f968">false</attribute>
+<attribute name="isEventDriven" nodeId="cdf97db6">false</attribute>
+<attribute name="variabilityType" nodeId="c3a9e559">extends</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

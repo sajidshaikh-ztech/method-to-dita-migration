@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element Type="Concept" TypeName="Concept" NodeiconUrl="" DisplayName="Test Levels, Types and Techniques" Id="_6RJkYB2qEeSDYtcxfT4ZFw" ShapeiconUrl="images/concept.gif" lang="en" nodeId="26b6d17f" Url="core.i_t.common.base/guidances/concepts/test_levels_types_techniques_84978EEA.html" Name="test_levels_types_techniques" BackPath="./../../../">
+<copyright nodeId="edde5b0f">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="ee8d4f2f">test_levels_types_techniques</attribute>
+<attribute name="guid" nodeId="9fd1a303">_6RJkYB2qEeSDYtcxfT4ZFw</attribute>
+<attribute name="presentationName" nodeId="10c9122a">Test Levels, Types and Techniques</attribute>
+<attribute name="briefDescription" nodeId="85c80f7c"></attribute>
+<attribute name="suppressed" nodeId="4b069161">false</attribute>
+<attribute name="orderingGuide" nodeId="e2dd3bef"></attribute>
+<attribute name="isAbstract" nodeId="63edbeda">false</attribute>
+<attribute name="shapeicon" nodeId="ced15cb2"></attribute>
+<attribute name="nodeicon" nodeId="79999b90"></attribute>
+<attribute name="variabilityType" nodeId="ef962672">na</attribute>
+<reference name="presentation" nodeId="cec0a3bf">
+<Element Type="ContentDescription" TypeName="Content Description" NodeiconUrl="" DisplayName="Test Levels, Types and Techniques" Id="-MpqlvO4Lc5hc2dLfvQXCiw" ShapeiconUrl="images/guidance.gif" nodeId="35925fe" Url="" Name="test_levels_types_techniques,_6RJkYB2qEeSDYtcxfT4ZFw" BackPath="">
+<copyright nodeId="8dc25021">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="dd7faa83">test_levels_types_techniques,_6RJkYB2qEeSDYtcxfT4ZFw</attribute>
+<attribute name="guid" nodeId="9abfc489">-MpqlvO4Lc5hc2dLfvQXCiw</attribute>
+<attribute name="presentationName" nodeId="dab5ee71">Test Levels, Types and Techniques</attribute>
+<attribute name="briefDescription" nodeId="ebf10f5e"></attribute>
+<attribute name="suppressed" nodeId="953bec2d">false</attribute>
+<attribute name="orderingGuide" nodeId="8dbbbfe1"></attribute>
+<attribute name="authors" nodeId="eeb437f0">process.adv.core.base</attribute>
+<attribute name="changeDate" nodeId="bc46a360">Fri Feb 24 05:52:40 EST 2023</attribute>
+<attribute name="changeDescription" nodeId="96fd72a8">FEB 2023 - removed redundant brief description|NOV 2015 - fixed spelling mistakes |AUG 2014 - baseline version </attribute>
+<attribute name="version" nodeId="d04d884e"></attribute>
+<attribute name="mainDescription" nodeId="b28344b2">&lt;p&gt;
+    The framework for testing a target solution is commonly organized into test levels and test types. Each &lt;em&gt;test
+    level&lt;/em&gt; defines a target, which can be an entire system or any number of modules. Defining a test strategy typically
+    consists of multiple levels where each level identifies the components of the solution under test. &lt;em&gt;Test types&lt;/em&gt;
+    are performed at each level to fulfill a specific purpose or objective. Different types of tests are performed at each
+    level to fulfill various objectives. In other words, different objectives are addressed at different test levels. Test
+    levels identify the components of the target solution under test while defining test types assist in selecting which
+    test scenarios and scripts in order to fulfill the test objective. &lt;em&gt;Test techniques&lt;/em&gt; offer a structured thought
+    process to accomplish test objectives. Structuring a test effort using test levels, types and techniques lays the
+    groundwork for defining how the target solution is tested.
+&lt;/p&gt;
+&lt;h3&gt;
+    Test levels
+&lt;/h3&gt;
+&lt;p&gt;
+    A test level is the object of testing. In other words, a test level represents the target of the test, which can vary
+    from a single module, a system or the entire target solution comprised of many systems. Testing of a target solution
+    usually has different layers containing a combination of unit, integration, system integration and user acceptance test
+    levels.
+&lt;/p&gt;
+&lt;h4&gt;
+    Unit
+&lt;/h4&gt;
+&lt;p&gt;
+    Unit testing validates the internal logic of the software solution by way of evaluating the solution by its smallest
+    units. Unit tests are limited to the individual units and do not extend further. The purpose of unit testing is to
+    verify that every executable statement executes successfully and achieves the desired results.  Unit testing is
+    not intended to validate that end-to-end functionality is working correctly. The primary objective is to validate that
+    the developed code has been thoroughly tested against defined requirements and behaves as expected. Unit tests are
+    typically performed by developers at the conclusion of the development cycle.  Unit tests are based off of the
+    detailed design for the solution.
+&lt;/p&gt;
+&lt;h4&gt;
+    Integration
+&lt;/h4&gt;
+&lt;p&gt;
+    In integration testing, software modules are combined and tested as a group. Integration testing aggregates unit tested
+    modules and verifies the interaction between aggregated units behaves as expected. Top-down and bottom-up techniques
+    can be applied in integration testing, especially when there is a hierarchically structured target solution.
+    Integration testing typically occurs after unit test and before system integration testing. On large scale projects,
+    incremental integration testing is commonly performed prior to assembling all the components at once.  Integration
+    tests are based off of the global design for the solution.
+&lt;/p&gt;
+&lt;h4&gt;
+    System integration
+&lt;/h4&gt;
+&lt;p&gt;
+    This stage of testing entails functional and non-functional testing of the entire target solution in one single test
+    environment. A key difference between integration testing and system integration testing is that integration testing
+    aggregates individual units while system integration testing (SIT) aggregates systems within the target solution. The
+    objective of SIT is to identify and correct most of the significant defects so that user acceptance testing can be
+    conducted and the code released with a high degree of assurance that it will meet both the requirement specifications.
+    Typically, the bulk of the defects are identified during the SIT phase. This testing is driven primarily from the
+    design. As a result, the SIT test cases will be traced back to system requirements, use cases, and design components to
+    demonstrate the comprehensiveness of the testing. Typically included is all positive and negative functional testing,
+    regression testing, performance testing, volume testing, stress testing, and any necessary interface testing to
+    validate the quality of the integrated code. All significant aspects of new functionality should be tested. SIT is the
+    most comprehensive test level and is typically conducted by an independent test team.  System integration tests
+    are based off of the system requirements for the solution.
+&lt;/p&gt;
+&lt;h4&gt;
+    User acceptance
+&lt;/h4&gt;
+&lt;p&gt;
+    In user acceptance testing (UAT), trained end users test the implemented solution to verify and confirm that the target
+    solution meets the scope of business requirements and user expectations. These end users represent the business and
+    have an understanding of the solution set or package which was used to satisfy the requirements. The test executes a
+    number of critical end-to-end integration test scenarios and the success of acceptance depends upon the sign-off from
+    the user acceptance team. Completing user acceptance testing is essential in assuring that the business has accepted
+    and approved of the delivered system.  User acceptance tests are based off of the business requirements for the
+    solution.
+&lt;/p&gt;
+&lt;h3&gt;
+    Test types
+&lt;/h3&gt;
+&lt;p&gt;
+    Testing is performed to fulfill different test objectives. A test type represents the purpose or objective of testing
+    on the target under test.  It expected that different types of tests will be performed at each level with
+    some types of tests being applicable to multiple levels depending on the scope of what is being tested. 
+&lt;/p&gt;
+&lt;h4&gt;
+    Regression
+&lt;/h4&gt;
+&lt;p&gt;
+    Regression testing is performed to uncover defects or regressions in existing functional and non-functional areas of a
+    target solution after introducing any changes to a test environment. The purpose of regression testing is to validate
+    that existing components of the target solution have not been impacted by new changes. Regression tests can be manually
+    or automatically performed and are periodically performed throughout all test levels.
+&lt;/p&gt;
+&lt;h4&gt;
+    Performance
+&lt;/h4&gt;
+&lt;p&gt;
+    Performance testing is a general testing term to describe evaluation of system performance, which can be broken down
+    into various attributes such as stress, volume, load, duration, configuration and scalability.
+&lt;/p&gt;
+&lt;h4&gt;
+    Load
+&lt;/h4&gt;
+&lt;p&gt;
+    Load testing is the simplest form of performance testing. A load test is usually conducted to understand the behavior
+    of the system under a specific expected load. This load can be the expected concurrent number of users on the
+    application performing a specific number of transactions within the set duration. This test will give out the response
+    times of all the important business critical transactions. If the database, application server, etc. are also
+    monitored, then this simple test can itself point towards bottlenecks in the application software.
+&lt;/p&gt;
+&lt;h4&gt;
+    Stress
+&lt;/h4&gt;
+&lt;p&gt;
+    Stress testing (also known as capacity testing) is normally used to understand the upper limits of capacity within the
+    system. This kind of test is done to determine the system&apos;s robustness in terms of extreme load and helps application
+    administrators to determine if the system will perform sufficiently if the current load goes well above the expected
+    maximum.
+&lt;/p&gt;
+&lt;h4&gt;
+    Duration
+&lt;/h4&gt;
+&lt;p&gt;
+    Duration testing is a form of performance testing designed to test software under different time durations using
+    varying performance attributes (load, data, stress etc.) Duration testing is typically done for an extended period of
+    time to identify issues (e.g., memory leaks).
+&lt;/p&gt;
+&lt;h4&gt;
+    Security
+&lt;/h4&gt;
+&lt;p&gt;
+    Security testing is performed at the application and system level. Application security, which includes security with
+    respect to data and business functions, tests that users are restricted to specific roles, actions and data based on
+    defined security requirements. System security is used so that only users granted access to the system are capable
+    of accessing the applications and only through the appropriate gateways.
+&lt;/p&gt;
+&lt;h4&gt;
+    Data conversion
+&lt;/h4&gt;
+&lt;p&gt;
+    This testing involves three areas of verification. First, if the system requires data conversion, the conversion
+    should be run and verified. Second, the data should be verified for test readiness, but also to check that the system
+    is properly handling the data and changes to data. Finally, data integrity, in terms of the maintenance of the data
+    through unexpected activity, errors and concurrent access to the data must be verified so that the system maintains
+    data integrity, as defined by the product.
+&lt;/p&gt;
+&lt;h4&gt;
+    Functional
+&lt;/h4&gt;
+&lt;p&gt;
+    A type of testing conducted to evaluate the compliance of a system or component with specified functional requirements.
+    Functional testing ignores the internal mechanism of a system or component and focuses solely on the outputs generated
+    in response to selected inputs and execution conditions.
+&lt;/p&gt;
+&lt;h4&gt;
+    Disaster Recovery
+&lt;/h4&gt;
+&lt;p&gt;
+    Recovery testing is aimed at verifying software and hardware restart capabilities after a system crash or other
+    “disaster.”
+&lt;/p&gt;
+&lt;h4&gt;
+    Configuration
+&lt;/h4&gt;
+&lt;p&gt;
+    Configuration testing verifies the operation of the system under test on different software and hardware
+    configurations. In most environments, the particular software and hardware specifications vary. For example, client
+    workstations may have different software loaded (e.g. applications, drivers, etc.) and at any one time many different
+    combinations may be active and using different resources. In general, configuration testing should be based on the
+    hardware and software configuration defined in the target solution.
+&lt;/p&gt;
+&lt;h4&gt;
+    Connectivity
+&lt;/h4&gt;
+&lt;p&gt;
+    Connectivity testing is designed to test connectivity between networked devices.
+&lt;/p&gt;
+&lt;h4&gt;
+    Smoke
+&lt;/h4&gt;
+&lt;p&gt;
+    Smoke testing is a quick test (sometimes called a sanity check) often used to validate a new build in an environment.
+    It validates that the configuration is available, functional, and no defects are apparent.
+&lt;/p&gt;
+&lt;h3&gt;
+    Test techniques
+&lt;/h3&gt;
+&lt;p&gt;
+    Test techniques offer a systematic thought process to discover as many defects in the target solution as possible. Test
+    techniques are employed to increase the likelihood of discovering defects and to act as an aid in fulfilling test
+    objectives.
+&lt;/p&gt;
+&lt;h4&gt;
+    White-box
+&lt;/h4&gt;
+&lt;p&gt;
+    In contract to black-box testing, white-box testing (also known as clear box testing, transparent testing, glass box
+    testing and structural testing) tests the solution&apos;s internal logic and data structures instead of solution
+    functionality. Programming skills are often required to design test scripts that traverse branches in the source code
+    and determine expected outputs based on defined requirements. White-box testing can be applied to unit, integration,
+    system integration and regression tests.
+&lt;/p&gt;
+&lt;h4&gt;
+    Black-box
+&lt;/h4&gt;
+&lt;p&gt;
+    In contrast to white-box testing, black-box testing tests solution functionality without any concern for internal logic
+    and data structures. Given a set of input, black-box tests evaluate whether the expected output is produced and do not
+    test how the solution arrived at the expected output. The advantage of this technique is that it focuses on testing
+    aspects of the solution that are important to the user. The disadvantage is that poor coding techniques or inefficient
+    design will not be identified by this type of testing. Black-box testing can be applied to unit, integration, system
+    integration and user acceptance tests.
+&lt;/p&gt;
+&lt;h4&gt;
+    Top-down
+&lt;/h4&gt;
+&lt;p&gt;
+    An incremental testing approach that starts with the highest-level element of a hierarchy, and proceeds through
+    progressively lower level elements, until complete. This technique is useful for integration and system integration
+    test levels.
+&lt;/p&gt;
+&lt;h4&gt;
+    Bottom-up
+&lt;/h4&gt;
+&lt;p&gt;
+    When employing bottom-up testing, the lowest level components are tested first and then used to facilitate the
+    testing of higher level components. The process is repeated until the component at the top of the hierarchy is tested.
+    All the bottom or low-level modules, procedures or functions are integrated and then tested. After testing lower level
+    integrated modules, the next level of modules will be formed and tested. This technique is helpful only when all or
+    most of the modules of the same development level are ready. This method also helps to determine the levels of software
+    developed and makes it easier to report testing progress in the form of a percentage. This technique is useful for
+    integration and system integration test levels.
+&lt;/p&gt;
+&lt;h4&gt;
+    Dynamic
+&lt;/h4&gt;
+&lt;p&gt;
+    Dynamic testing is normally are associated with the executable tests in the software development lifecycle. In dynamic
+    tests, code is compiled and executed in order to examine whether a coded solution produces the expected output given a
+    set of input. Dynamic testing is performed in all test levels and types where software is involved.
+&lt;/p&gt;
+&lt;h4&gt;
+    Static
+&lt;/h4&gt;
+&lt;p&gt;
+    Static testing is typically a detailed manual comparison and examination of a work product’s characteristics to an
+    expected set of attributes, experiences, and standards. Static testing is used to verify “non-executable” deliverables.
+    Walk-throughs, inspections and reviews are examples of static testing.
+&lt;/p&gt;</attribute>
+<attribute name="externalId" nodeId="c533608"></attribute>
+<attribute name="keyConsiderations" nodeId="689dbe74"></attribute>
+<attribute name="longPresentationName" nodeId="d6f4c214"></attribute>
+</Element>
+</reference>
+<referenceList name="Concept_ContentElements" nodeId="702b8efd">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop test plan" Id="_7DJFwOX2EeOqmb5IikO7mw" ShapeiconUrl="images/task.gif" nodeId="6d742253" Url="practice.ita.delv.test_mgmt.base/tasks/develop_test_plan_7D8DA5F9.html" Name="develop_test_plan" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Outline test strategy" Id="_TmUtAOW9EeOeOeyRJA3ZBg" ShapeiconUrl="images/task.gif" nodeId="f11cf860" Url="practice.ita.delv.test_mgmt.base/tasks/outline_test_strategy_228C91EF.html" Name="outline_test_strategy" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Test Plan" Id="_Kme30OX3EeOqmb5IikO7mw" ShapeiconUrl="images/artifact.gif" nodeId="804274a3" Url="core.i_t.common.base/workproducts/test_plan_4519A68.html" Name="test_plan" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Test Strategy" Id="_NqXr8OW9EeOeOeyRJA3ZBg" ShapeiconUrl="images/artifact.gif" nodeId="ebaabf4d" Url="core.i_t.common.base/workproducts/test_strategy_603DD4BD.html" Name="test_strategy" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="Concept_BreakdownElements" nodeId="565d4b1d">
+<Element TypeName="Task Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_MDTAwcOOEe6pmdl9Vi4qww,_rvznQTGWEe-TauTqJPNl_g,_7beO4DGWEe-TauTqJPNl_g" ConcreteType="Task" Url="practice.ita.delv.test_mgmt.base/tasks/develop_test_plan_7D8DA5F9.html" Name="develop_test_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop test plan" Id="_7beO4DGWEe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="13cea0c7"></Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_BAXyIe2lEe-socSARGFgTg,_I5-LoO2lEe-socSARGFgTg" ConcreteType="Task" Url="practice.ita.delv.test_mgmt.base/tasks/develop_test_plan_7D8DA5F9.html" Name="develop_test_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop test plan" Id="_I5-LoO2lEe-socSARGFgTg" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="8abf07ae"></Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_FBZV8O4FEe-socSARGFgTg,_aWBxMe4FEe-socSARGFgTg,_uiNWoO4FEe-socSARGFgTg" ConcreteType="Task" Url="practice.ita.delv.test_mgmt.base/tasks/develop_test_plan_7D8DA5F9.html" Name="develop_test_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop test plan" Id="_uiNWoO4FEe-socSARGFgTg" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="782a87a7"></Element>
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="IT Testing" Id="_NRpJ8WGIEeWXVev_nv_kTg" relProcessPath="_NRpJ8WGIEeWXVev_nv_kTg" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_NRpJ8WGIEeWXVev_nv_kTg&amp;path=_NRpJ8WGIEeWXVev_nv_kTg" nodeId="a104651" Url="practice.ita.delv.it_test.assign/capabilitypatterns/it_test_8C99E41E.html" Name="it_test" BackPath="./../../">
+<attribute name="name" nodeId="e0a2b399">it_test</attribute>
+<attribute name="guid" nodeId="88b4cb49">_NRpJ8WGIEeWXVev_nv_kTg</attribute>
+<attribute name="presentationName" nodeId="cd8d0aad">IT Testing</attribute>
+<attribute name="briefDescription" nodeId="9b76fe01"></attribute>
+<attribute name="suppressed" nodeId="ba6b3e69">false</attribute>
+<attribute name="orderingGuide" nodeId="1c3c484b"></attribute>
+<attribute name="isAbstract" nodeId="deffac74">false</attribute>
+<attribute name="shapeicon" nodeId="caea7cfc"></attribute>
+<attribute name="nodeicon" nodeId="75c42fa9"></attribute>
+<attribute name="prefix" nodeId="a7bf2ca8"></attribute>
+<attribute name="isPlanned" nodeId="74a1bae4">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="e8104979">false</attribute>
+<attribute name="isOptional" nodeId="379d77f5">false</attribute>
+<attribute name="isRepeatable" nodeId="a987d011">false</attribute>
+<attribute name="isOngoing" nodeId="11557d54">false</attribute>
+<attribute name="isEventDriven" nodeId="e237e706">false</attribute>
+<attribute name="variabilityType" nodeId="7cd73a06">na</attribute>
+</Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_Gkmq0cOLEe6pmdl9Vi4qww,_m9ePkMOLEe6pmdl9Vi4qww" ConcreteType="Task" Url="practice.ita.delv.test_mgmt.base/tasks/outline_test_strategy_228C91EF.html" Name="outline_test_strategy" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Outline test strategy" Id="_m9ePkMOLEe6pmdl9Vi4qww" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="12034dec"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_NRpJ8WGIEeWXVev_nv_kTg&amp;path=_NRpJ8WGIEeWXVev_nv_kTg,_hW4Z5GGIEeWXVev_nv_kTg,_hW5A8GGIEeWXVev_nv_kTg_Kme30OX3EeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_plan_4519A68.html" Name="test_plan" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Plan" Id="_hW5A8GGIEeWXVev_nv_kTg_Kme30OX3EeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="b25f4447"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_H1-eaJK6EeSEOeG-bGncjA,_hIdgQDc_EeWp1olIN1xWiA_Kme30OX3EeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_plan_4519A68.html" Name="test_plan" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Plan" Id="_hIdgQDc_EeWp1olIN1xWiA_Kme30OX3EeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="cb8f26b4"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_J-GoeJK6EeSEOeG-bGncjA,_8L-J4Dc_EeWp1olIN1xWiA_Kme30OX3EeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_plan_4519A68.html" Name="test_plan" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Plan" Id="_8L-J4Dc_EeWp1olIN1xWiA_Kme30OX3EeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="684e6031"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_NRpJ8WGIEeWXVev_nv_kTg&amp;path=_NRpJ8WGIEeWXVev_nv_kTg,_bEE_EWGIEeWXVev_nv_kTg,_bEICYGGIEeWXVev_nv_kTg_Kme30OX3EeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_plan_4519A68.html" Name="test_plan" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Plan" Id="_bEICYGGIEeWXVev_nv_kTg_Kme30OX3EeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="7d48ddcf"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_AxwOgcOjEe6pmdl9Vi4qww,_UJPnoMOjEe6pmdl9Vi4qww_Kme30OX3EeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_plan_4519A68.html" Name="test_plan" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Plan" Id="_UJPnoMOjEe6pmdl9Vi4qww_Kme30OX3EeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="1e870ab7"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_MDTAwcOOEe6pmdl9Vi4qww,_rvznQTGWEe-TauTqJPNl_g,_7beO4DGWEe-TauTqJPNl_g_Kme30OX3EeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_plan_4519A68.html" Name="test_plan" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Plan" Id="_7beO4DGWEe-TauTqJPNl_g_Kme30OX3EeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="cf40768a"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_MDTAwcOOEe6pmdl9Vi4qww,_suh6UciQEe6KPaNasO6mNA,_3wi2QMiQEe6KPaNasO6mNA_Kme30OX3EeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_plan_4519A68.html" Name="test_plan" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Plan" Id="_3wi2QMiQEe6KPaNasO6mNA_Kme30OX3EeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="b344e272"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_rk-WkclnEe6KPaNasO6mNA,_EXWEAMloEe6KPaNasO6mNA_Kme30OX3EeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_plan_4519A68.html" Name="test_plan" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Plan" Id="_EXWEAMloEe6KPaNasO6mNA_Kme30OX3EeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="8f5f9fc3"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_SPMxYMl4Ee6KPaNasO6mNA,_SPMKV8l4Ee6KPaNasO6mNA_Kme30OX3EeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_plan_4519A68.html" Name="test_plan" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Plan" Id="_SPMKV8l4Ee6KPaNasO6mNA_Kme30OX3EeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="37a7a111"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_wWob4MPOEe6pmdl9Vi4qww,_r6Y6Ee2oEe-socSARGFgTg,_y9vBAO2oEe-socSARGFgTg_Kme30OX3EeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_plan_4519A68.html" Name="test_plan" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Plan" Id="_y9vBAO2oEe-socSARGFgTg_Kme30OX3EeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="ca88f0e"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_JL-WocREEe6pmdl9Vi4qww,_NTGkEMREEe6pmdl9Vi4qww_Kme30OX3EeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_plan_4519A68.html" Name="test_plan" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Plan" Id="_NTGkEMREEe6pmdl9Vi4qww_Kme30OX3EeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="9ef2e2b0"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_Gkmq0cOLEe6pmdl9Vi4qww,_4MA30MOOEe6pmdl9Vi4qww_Kme30OX3EeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_plan_4519A68.html" Name="test_plan" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Plan" Id="_4MA30MOOEe6pmdl9Vi4qww_Kme30OX3EeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="50da2721"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_LJrQ0eW9EeOeOeyRJA3ZBg,_XQjakCmXEeW4VNZE0V9FcA_Kme30OX3EeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_plan_4519A68.html" Name="test_plan" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Plan" Id="_XQjakCmXEeW4VNZE0V9FcA_Kme30OX3EeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="1f8528e5"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_cA-HgOdREeOqYK1-8T06Sw,_eedywCmXEeW4VNZE0V9FcA_Kme30OX3EeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_plan_4519A68.html" Name="test_plan" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Plan" Id="_eedywCmXEeW4VNZE0V9FcA_Kme30OX3EeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="870e9508"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_8vJT6JK5EeSEOeG-bGncjA,_0JL0oDc-EeWp1olIN1xWiA_Kme30OX3EeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_plan_4519A68.html" Name="test_plan" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Plan" Id="_0JL0oDc-EeWp1olIN1xWiA_Kme30OX3EeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="50f8a11"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,__YdffZK5EeSEOeG-bGncjA,_4FB_IDc-EeWp1olIN1xWiA_Kme30OX3EeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_plan_4519A68.html" Name="test_plan" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Plan" Id="_4FB_IDc-EeWp1olIN1xWiA_Kme30OX3EeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="b9b0de59"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_I_xX_ZK6EeSEOeG-bGncjA,_xk3oUDc_EeWp1olIN1xWiA_Kme30OX3EeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_plan_4519A68.html" Name="test_plan" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Plan" Id="_xk3oUDc_EeWp1olIN1xWiA_Kme30OX3EeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="275d9969"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_H1-eaJK6EeSEOeG-bGncjA,_eyjY0Dc_EeWp1olIN1xWiA_NqXr8OW9EeOeOeyRJA3ZBg" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_strategy_603DD4BD.html" Name="test_strategy" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Strategy" Id="_eyjY0Dc_EeWp1olIN1xWiA_NqXr8OW9EeOeOeyRJA3ZBg" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="2364fe2d"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_NRpJ8WGIEeWXVev_nv_kTg&amp;path=_NRpJ8WGIEeWXVev_nv_kTg,_hW4Z5GGIEeWXVev_nv_kTg,_hW5A8WGIEeWXVev_nv_kTg_NqXr8OW9EeOeOeyRJA3ZBg" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_strategy_603DD4BD.html" Name="test_strategy" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Strategy" Id="_hW5A8WGIEeWXVev_nv_kTg_NqXr8OW9EeOeOeyRJA3ZBg" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="d0dd3be1"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_NRpJ8WGIEeWXVev_nv_kTg&amp;path=_NRpJ8WGIEeWXVev_nv_kTg,_bEE_EWGIEeWXVev_nv_kTg,_bEICYGGIEeWXVev_nv_kTg_NqXr8OW9EeOeOeyRJA3ZBg" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_strategy_603DD4BD.html" Name="test_strategy" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Strategy" Id="_bEICYGGIEeWXVev_nv_kTg_NqXr8OW9EeOeOeyRJA3ZBg" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="681d0d1b"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_AxwOgcOjEe6pmdl9Vi4qww,_9up68MSUEe6pmdl9Vi4qww_NqXr8OW9EeOeOeyRJA3ZBg" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_strategy_603DD4BD.html" Name="test_strategy" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Strategy" Id="_9up68MSUEe6pmdl9Vi4qww_NqXr8OW9EeOeOeyRJA3ZBg" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="5c0d73b"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_MDTAwcOOEe6pmdl9Vi4qww,_rvznQTGWEe-TauTqJPNl_g,_7beO4DGWEe-TauTqJPNl_g_NqXr8OW9EeOeOeyRJA3ZBg" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_strategy_603DD4BD.html" Name="test_strategy" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Strategy" Id="_7beO4DGWEe-TauTqJPNl_g_NqXr8OW9EeOeOeyRJA3ZBg" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="2b43bd5b"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_rk-WkclnEe6KPaNasO6mNA,_EXWEAMloEe6KPaNasO6mNA_NqXr8OW9EeOeOeyRJA3ZBg" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_strategy_603DD4BD.html" Name="test_strategy" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Strategy" Id="_EXWEAMloEe6KPaNasO6mNA_NqXr8OW9EeOeOeyRJA3ZBg" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="8b8a917f"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_SPMxYMl4Ee6KPaNasO6mNA,_SPMKX8l4Ee6KPaNasO6mNA_NqXr8OW9EeOeOeyRJA3ZBg" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_strategy_603DD4BD.html" Name="test_strategy" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Strategy" Id="_SPMKX8l4Ee6KPaNasO6mNA_NqXr8OW9EeOeOeyRJA3ZBg" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="6383601c"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_wWob4MPOEe6pmdl9Vi4qww,_r6Y6Ee2oEe-socSARGFgTg,_y9vBAO2oEe-socSARGFgTg_NqXr8OW9EeOeOeyRJA3ZBg" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_strategy_603DD4BD.html" Name="test_strategy" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Strategy" Id="_y9vBAO2oEe-socSARGFgTg_NqXr8OW9EeOeOeyRJA3ZBg" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="7402713a"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_Gkmq0cOLEe6pmdl9Vi4qww,_m9ePkMOLEe6pmdl9Vi4qww_NqXr8OW9EeOeOeyRJA3ZBg" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_strategy_603DD4BD.html" Name="test_strategy" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Strategy" Id="_m9ePkMOLEe6pmdl9Vi4qww_NqXr8OW9EeOeOeyRJA3ZBg" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="127d36b9"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_LJrQ0eW9EeOeOeyRJA3ZBg,_UieqwCmXEeW4VNZE0V9FcA_NqXr8OW9EeOeOeyRJA3ZBg" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_strategy_603DD4BD.html" Name="test_strategy" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Strategy" Id="_UieqwCmXEeW4VNZE0V9FcA_NqXr8OW9EeOeOeyRJA3ZBg" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="d44863d8"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_cA-HgOdREeOqYK1-8T06Sw,_gCcuACmXEeW4VNZE0V9FcA_NqXr8OW9EeOeOeyRJA3ZBg" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_strategy_603DD4BD.html" Name="test_strategy" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Strategy" Id="_gCcuACmXEeW4VNZE0V9FcA_NqXr8OW9EeOeOeyRJA3ZBg" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="8dd96b7a"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_8vJT6JK5EeSEOeG-bGncjA,_xmGM0Dc-EeWp1olIN1xWiA_NqXr8OW9EeOeOeyRJA3ZBg" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_strategy_603DD4BD.html" Name="test_strategy" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Strategy" Id="_xmGM0Dc-EeWp1olIN1xWiA_NqXr8OW9EeOeOeyRJA3ZBg" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="8e2877ce"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,__YdffZK5EeSEOeG-bGncjA,_5VikwDc-EeWp1olIN1xWiA_NqXr8OW9EeOeOeyRJA3ZBg" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_strategy_603DD4BD.html" Name="test_strategy" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Strategy" Id="_5VikwDc-EeWp1olIN1xWiA_NqXr8OW9EeOeOeyRJA3ZBg" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="20f5da8e"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_I_xX_ZK6EeSEOeG-bGncjA,_y8vaMDc_EeWp1olIN1xWiA_NqXr8OW9EeOeOeyRJA3ZBg" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_strategy_603DD4BD.html" Name="test_strategy" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Strategy" Id="_y8vaMDc_EeWp1olIN1xWiA_NqXr8OW9EeOeOeyRJA3ZBg" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="c17205f4"></Element>
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Testing" Id="_XaP3oZLKEe6Ji6GnvvUfqw" relProcessPath="_XaP3oZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw" nodeId="658d0ec3" Url="process.adv.eya_oracle.base/capabilitypatterns/testing_wkstrm_4068A774.html" Name="testing_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="b04b2635">testing_wkstrm</attribute>
+<attribute name="guid" nodeId="8437b353">_XaP3oZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="32533cc7">Testing</attribute>
+<attribute name="briefDescription" nodeId="6dae5fce"></attribute>
+<attribute name="suppressed" nodeId="69134a51">false</attribute>
+<attribute name="orderingGuide" nodeId="122a298f"></attribute>
+<attribute name="isAbstract" nodeId="b1684753">false</attribute>
+<attribute name="shapeicon" nodeId="be046e7c"></attribute>
+<attribute name="nodeicon" nodeId="1b78a166"></attribute>
+<attribute name="prefix" nodeId="b6b80549">workstream</attribute>
+<attribute name="isPlanned" nodeId="3ac70661">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="a335cd8d">false</attribute>
+<attribute name="isOptional" nodeId="a48fc8cc">false</attribute>
+<attribute name="isRepeatable" nodeId="bff70276">false</attribute>
+<attribute name="isOngoing" nodeId="ac1310b8">false</attribute>
+<attribute name="isEventDriven" nodeId="85b2b0c6">false</attribute>
+<attribute name="variabilityType" nodeId="f204dd20">na</attribute>
+</Element>
+</referenceList>
+<referenceList name="contentElements" nodeId="767f216f">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop test plan" Id="_7DJFwOX2EeOqmb5IikO7mw" ShapeiconUrl="images/task.gif" nodeId="1b3327cb" Url="practice.ita.delv.test_mgmt.base/tasks/develop_test_plan_7D8DA5F9.html" Name="develop_test_plan" BackPath="./../../"></Element>
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="IT Testing" Id="_NRpJ8WGIEeWXVev_nv_kTg" relProcessPath="_NRpJ8WGIEeWXVev_nv_kTg" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_NRpJ8WGIEeWXVev_nv_kTg&amp;path=_NRpJ8WGIEeWXVev_nv_kTg" nodeId="d093682c" Url="practice.ita.delv.it_test.assign/capabilitypatterns/it_test_8C99E41E.html" Name="it_test" BackPath="./../../">
+<attribute name="name" nodeId="3c52aff3">it_test</attribute>
+<attribute name="guid" nodeId="6844ab1c">_NRpJ8WGIEeWXVev_nv_kTg</attribute>
+<attribute name="presentationName" nodeId="b936535c">IT Testing</attribute>
+<attribute name="briefDescription" nodeId="2395e32a"></attribute>
+<attribute name="suppressed" nodeId="d741c5f">false</attribute>
+<attribute name="orderingGuide" nodeId="ec080150"></attribute>
+<attribute name="isAbstract" nodeId="eb46fe0f">false</attribute>
+<attribute name="shapeicon" nodeId="d81c363d"></attribute>
+<attribute name="nodeicon" nodeId="d1124a95"></attribute>
+<attribute name="prefix" nodeId="40e99f0e"></attribute>
+<attribute name="isPlanned" nodeId="c125412d">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="99c6cb2">false</attribute>
+<attribute name="isOptional" nodeId="73d4a678">false</attribute>
+<attribute name="isRepeatable" nodeId="4d1810d">false</attribute>
+<attribute name="isOngoing" nodeId="ba36065f">false</attribute>
+<attribute name="isEventDriven" nodeId="868babdb">false</attribute>
+<attribute name="variabilityType" nodeId="1a813bd9">na</attribute>
+</Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Outline test strategy" Id="_TmUtAOW9EeOeOeyRJA3ZBg" ShapeiconUrl="images/task.gif" nodeId="bd41a929" Url="practice.ita.delv.test_mgmt.base/tasks/outline_test_strategy_228C91EF.html" Name="outline_test_strategy" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Test Plan" Id="_Kme30OX3EeOqmb5IikO7mw" ShapeiconUrl="images/artifact.gif" nodeId="b584b275" Url="core.i_t.common.base/workproducts/test_plan_4519A68.html" Name="test_plan" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Test Strategy" Id="_NqXr8OW9EeOeOeyRJA3ZBg" ShapeiconUrl="images/artifact.gif" nodeId="27e2fbd7" Url="core.i_t.common.base/workproducts/test_strategy_603DD4BD.html" Name="test_strategy" BackPath="./../../"></Element>
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Testing" Id="_XaP3oZLKEe6Ji6GnvvUfqw" relProcessPath="_XaP3oZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw" nodeId="2d483f5a" Url="process.adv.eya_oracle.base/capabilitypatterns/testing_wkstrm_4068A774.html" Name="testing_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="4a225318">testing_wkstrm</attribute>
+<attribute name="guid" nodeId="b840c5c0">_XaP3oZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="f3683325">Testing</attribute>
+<attribute name="briefDescription" nodeId="bd628221"></attribute>
+<attribute name="suppressed" nodeId="7b31ef80">false</attribute>
+<attribute name="orderingGuide" nodeId="2006db2e"></attribute>
+<attribute name="isAbstract" nodeId="dda4f564">false</attribute>
+<attribute name="shapeicon" nodeId="1b58b6e8"></attribute>
+<attribute name="nodeicon" nodeId="fcd9cd2d"></attribute>
+<attribute name="prefix" nodeId="57cae8ba">workstream</attribute>
+<attribute name="isPlanned" nodeId="b1c53d31">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="61cd5598">false</attribute>
+<attribute name="isOptional" nodeId="45a349aa">false</attribute>
+<attribute name="isRepeatable" nodeId="201c2dc7">false</attribute>
+<attribute name="isOngoing" nodeId="f83ba13d">false</attribute>
+<attribute name="isEventDriven" nodeId="38bd77ee">false</attribute>
+<attribute name="variabilityType" nodeId="55067d9a">na</attribute>
+</Element>
+</referenceList>
+</Element>

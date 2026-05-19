@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" TypeName="Task" Url="process.adv.eya_oracle.base/tasks/dev_etl_scripts_6EA4491F.html" Name="dev_etl_scripts" BackPath="./../../" Type="Task" NodeiconUrl="" performingRoleName="Conversion Lead" DisplayName="Develop extract, transform and load scripts" Id="_1e0OcNFHEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" lang="en" nodeId="b6d46402">
+<copyright nodeId="6a120848">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="2b72ba2e">dev_etl_scripts</attribute>
+<attribute name="guid" nodeId="a47dc592">_1e0OcNFHEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="70bc1766">Develop extract, transform and load scripts</attribute>
+<attribute name="briefDescription" nodeId="5c179a2">Develop the scripts to extract data from the source systems, transform the data and load it into the target system.</attribute>
+<attribute name="suppressed" nodeId="5d38fdcb">false</attribute>
+<attribute name="orderingGuide" nodeId="621b6382"></attribute>
+<attribute name="isAbstract" nodeId="dee0bbf4">false</attribute>
+<attribute name="shapeicon" nodeId="2d2fc454"></attribute>
+<attribute name="nodeicon" nodeId="352c61df"></attribute>
+<attribute name="variabilityType" nodeId="6d2e24a3">na</attribute>
+<reference name="presentation" nodeId="6ed8d4e3">
+<Element Type="TaskDescription" TypeName="Task Description" NodeiconUrl="" DisplayName="Develop extract, transform and load scripts" Id="-Kdx_dr9u-61-36ShRx5jjg" ShapeiconUrl="images/guidance.gif" nodeId="35e65d19" Url="" Name=",_xFn2wP9EEemAafrUcKTLow" BackPath="">
+<copyright nodeId="b5ce4260">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="204b92d4">,_xFn2wP9EEemAafrUcKTLow</attribute>
+<attribute name="guid" nodeId="2f117d8a">-Kdx_dr9u-61-36ShRx5jjg</attribute>
+<attribute name="presentationName" nodeId="8655e703">Develop extract, transform and load scripts</attribute>
+<attribute name="briefDescription" nodeId="69142f47"></attribute>
+<attribute name="suppressed" nodeId="5b7e287b">false</attribute>
+<attribute name="orderingGuide" nodeId="74c8d76a"></attribute>
+<attribute name="authors" nodeId="ccbe02d7"></attribute>
+<attribute name="changeDate" nodeId="2d6e6e7c">Tue Oct 22 11:43:16 EDT 2024</attribute>
+<attribute name="changeDescription" nodeId="1f22519a">MAY 2024 - Baseline Version</attribute>
+<attribute name="version" nodeId="1ad99bc3"></attribute>
+<attribute name="mainDescription" nodeId="67090f0"></attribute>
+<attribute name="externalId" nodeId="1658f13d"></attribute>
+<attribute name="keyConsiderations" nodeId="7283626c"></attribute>
+<attribute name="longPresentationName" nodeId="8eca9806"></attribute>
+<attribute name="purpose" nodeId="4f771642"></attribute>
+<attribute name="alternatives" nodeId="770ecc0b"></attribute>
+<referenceList sortValue="Manual" name="sections" nodeId="4013792e">
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Load the source data extracts into staging tables" Id="_1e0OdNFHEe6Y56Jk6jqfOA" ShapeiconUrl="images/guidance.gif" nodeId="b6bd793d" Url="" Name="Load the source data extracts into staging tables" BackPath="">
+<copyright nodeId="32b7f4eb">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="7f1d0587">Load the source data extracts into staging tables</attribute>
+<attribute name="guid" nodeId="573ff6ba">_1e0OdNFHEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="6a9f8dac">Load the source data extracts into staging tables</attribute>
+<attribute name="briefDescription" nodeId="f353075a"></attribute>
+<attribute name="suppressed" nodeId="9335978d">false</attribute>
+<attribute name="orderingGuide" nodeId="75c58b18"></attribute>
+<attribute name="variabilityType" nodeId="3a15c8cc">na</attribute>
+<attribute name="sectionName" nodeId="c7fa5c40"></attribute>
+<attribute name="sectionDescription" nodeId="b23f626e"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="4356cd9c">
+<Element TypeName="Task Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_W5xXwdFHEe6Y56Jk6jqfOA,_2f6fENFHEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/dev_etl_scripts_6EA4491F.html" Name="dev_etl_scripts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop extract, transform and load scripts" Id="_2f6fENFHEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="ef254890"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Transform the data values and entities" Id="_1e0OctFHEe6Y56Jk6jqfOA" ShapeiconUrl="images/guidance.gif" nodeId="9c0ebb5b" Url="" Name="Transform the data values and entities" BackPath="">
+<copyright nodeId="ba8a8bb7">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="a14a060f">Transform the data values and entities</attribute>
+<attribute name="guid" nodeId="30e7ad15">_1e0OctFHEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="65ed9c64">Transform the data values and entities</attribute>
+<attribute name="briefDescription" nodeId="210ecff4"></attribute>
+<attribute name="suppressed" nodeId="34e30edd">false</attribute>
+<attribute name="orderingGuide" nodeId="67618160"></attribute>
+<attribute name="variabilityType" nodeId="934554a9">na</attribute>
+<attribute name="sectionName" nodeId="216e3753"></attribute>
+<attribute name="sectionDescription" nodeId="9f1bc23e"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="6dbb2b9b">
+<Element TypeName="Task Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_W5xXwdFHEe6Y56Jk6jqfOA,_2f6fENFHEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/dev_etl_scripts_6EA4491F.html" Name="dev_etl_scripts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop extract, transform and load scripts" Id="_2f6fENFHEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="aff0b6d"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Create the files or tables for loading into the target system (input files or tables)" Id="_1e0OcdFHEe6Y56Jk6jqfOA" ShapeiconUrl="images/guidance.gif" nodeId="d0dbf73d" Url="" Name="Create the files or tables for loading into the target system (input files or tables)" BackPath="">
+<copyright nodeId="8238c612">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="90e6f814">Create the files or tables for loading into the target system (input files or tables)</attribute>
+<attribute name="guid" nodeId="a49e5940">_1e0OcdFHEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="315abe88">Create the files or tables for loading into the target system (input files or tables)</attribute>
+<attribute name="briefDescription" nodeId="4f9ccdae"></attribute>
+<attribute name="suppressed" nodeId="e30bd5eb">false</attribute>
+<attribute name="orderingGuide" nodeId="f83e6937"></attribute>
+<attribute name="variabilityType" nodeId="2d2a5c6b">na</attribute>
+<attribute name="sectionName" nodeId="49176216"></attribute>
+<attribute name="sectionDescription" nodeId="692155a6"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="39573a50">
+<Element TypeName="Task Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_W5xXwdFHEe6Y56Jk6jqfOA,_2f6fENFHEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/dev_etl_scripts_6EA4491F.html" Name="dev_etl_scripts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop extract, transform and load scripts" Id="_2f6fENFHEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="16ff2845"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Load the data into the target system" Id="_1e0Oc9FHEe6Y56Jk6jqfOA" ShapeiconUrl="images/guidance.gif" nodeId="3e784bb7" Url="" Name="Load the data into the target system" BackPath="">
+<copyright nodeId="6fb92d02">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="a914d459">Load the data into the target system</attribute>
+<attribute name="guid" nodeId="3045e7e9">_1e0Oc9FHEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="5aa7ed83">Load the data into the target system</attribute>
+<attribute name="briefDescription" nodeId="72031cbe"></attribute>
+<attribute name="suppressed" nodeId="6607d8bc">false</attribute>
+<attribute name="orderingGuide" nodeId="7d23bd42"></attribute>
+<attribute name="variabilityType" nodeId="549d09f1">na</attribute>
+<attribute name="sectionName" nodeId="64a23d85"></attribute>
+<attribute name="sectionDescription" nodeId="951c5bf9"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="33b58c12">
+<Element TypeName="Task Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_W5xXwdFHEe6Y56Jk6jqfOA,_2f6fENFHEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/dev_etl_scripts_6EA4491F.html" Name="dev_etl_scripts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop extract, transform and load scripts" Id="_2f6fENFHEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="9c8d9bf1"></Element>
+</referenceList>
+</Element>
+</referenceList>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="performedBy" nodeId="87a6acfe">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Conversion Lead" Id="_dnKZsDyfEeqFL87Rj0GF5A" ShapeiconUrl="images/role.gif" nodeId="5f2b28c6" Url="core.default.role_def.base/roles/conversion_lead_D4ACE143.html" Name="conversion_lead" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="mandatoryInput" nodeId="1bbc98b0">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Data Flow Diagram (DFD)" Id="_3FwdwKy1EeSOBpYsYCrh6Q" ShapeiconUrl="images/artifact.gif" nodeId="b3ed50dd" Url="core.i_t.common.base/workproducts/data_flow_diag_5D2BD70A.html" Name="data_flow_diag" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Data Mapping Specifications" Id="_IcRXQGXhEeSU9pNl520DCw" ShapeiconUrl="images/artifact.gif" nodeId="bbe5600a" Url="core.i_t.common.base/workproducts/data_map_specs_C4F66F61.html" Name="data_map_specs" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="output" nodeId="39df5ba3">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="ETL Scripts" Id="_2_U6UJQPEeW-dodM24rwlQ" ShapeiconUrl="images/artifact.gif" nodeId="465e9d13" Url="core.i_t.common.base/workproducts/etl_scripts_1F3AC897.html" Name="etl_scripts" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="steps" nodeId="ddbdaaeb">
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Load the source data extracts into staging tables" Id="_1e0OdNFHEe6Y56Jk6jqfOA" ShapeiconUrl="images/guidance.gif" nodeId="4ef3abbb" Url="" Name="Load the source data extracts into staging tables" BackPath="">
+<copyright nodeId="1031fe72">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="414c95eb">Load the source data extracts into staging tables</attribute>
+<attribute name="guid" nodeId="9b01c55">_1e0OdNFHEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="a447ab98">Load the source data extracts into staging tables</attribute>
+<attribute name="briefDescription" nodeId="77dd3a36"></attribute>
+<attribute name="suppressed" nodeId="45058af3">false</attribute>
+<attribute name="orderingGuide" nodeId="3f5e1182"></attribute>
+<attribute name="variabilityType" nodeId="d8044e27">na</attribute>
+<attribute name="sectionName" nodeId="7233666d"></attribute>
+<attribute name="sectionDescription" nodeId="34018f26"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="d270625c">
+<Element TypeName="Task Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_W5xXwdFHEe6Y56Jk6jqfOA,_2f6fENFHEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/dev_etl_scripts_6EA4491F.html" Name="dev_etl_scripts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop extract, transform and load scripts" Id="_2f6fENFHEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="aa1a6d00"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Transform the data values and entities" Id="_1e0OctFHEe6Y56Jk6jqfOA" ShapeiconUrl="images/guidance.gif" nodeId="81aeac56" Url="" Name="Transform the data values and entities" BackPath="">
+<copyright nodeId="f82ab207">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="3fb22a92">Transform the data values and entities</attribute>
+<attribute name="guid" nodeId="cdf87499">_1e0OctFHEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="7655ecc9">Transform the data values and entities</attribute>
+<attribute name="briefDescription" nodeId="6a78ac5e"></attribute>
+<attribute name="suppressed" nodeId="9e87a3fd">false</attribute>
+<attribute name="orderingGuide" nodeId="1b332b1"></attribute>
+<attribute name="variabilityType" nodeId="b9fb4a56">na</attribute>
+<attribute name="sectionName" nodeId="42fae61"></attribute>
+<attribute name="sectionDescription" nodeId="edc3ab25"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="8e77bcdb">
+<Element TypeName="Task Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_W5xXwdFHEe6Y56Jk6jqfOA,_2f6fENFHEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/dev_etl_scripts_6EA4491F.html" Name="dev_etl_scripts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop extract, transform and load scripts" Id="_2f6fENFHEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="c8a4535d"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Create the files or tables for loading into the target system (input files or tables)" Id="_1e0OcdFHEe6Y56Jk6jqfOA" ShapeiconUrl="images/guidance.gif" nodeId="c4a28adf" Url="" Name="Create the files or tables for loading into the target system (input files or tables)" BackPath="">
+<copyright nodeId="71a0319a">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="18be1fe">Create the files or tables for loading into the target system (input files or tables)</attribute>
+<attribute name="guid" nodeId="e3e16df1">_1e0OcdFHEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="bfbc0a6">Create the files or tables for loading into the target system (input files or tables)</attribute>
+<attribute name="briefDescription" nodeId="30687bcd"></attribute>
+<attribute name="suppressed" nodeId="cfb8d2b6">false</attribute>
+<attribute name="orderingGuide" nodeId="82310d97"></attribute>
+<attribute name="variabilityType" nodeId="ec9deceb">na</attribute>
+<attribute name="sectionName" nodeId="bb9e05"></attribute>
+<attribute name="sectionDescription" nodeId="feedb0dd"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="636f9fad">
+<Element TypeName="Task Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_W5xXwdFHEe6Y56Jk6jqfOA,_2f6fENFHEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/dev_etl_scripts_6EA4491F.html" Name="dev_etl_scripts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop extract, transform and load scripts" Id="_2f6fENFHEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="3f93ff8b"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Load the data into the target system" Id="_1e0Oc9FHEe6Y56Jk6jqfOA" ShapeiconUrl="images/guidance.gif" nodeId="d42d46c7" Url="" Name="Load the data into the target system" BackPath="">
+<copyright nodeId="3dd77be3">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="48a59933">Load the data into the target system</attribute>
+<attribute name="guid" nodeId="d43282c2">_1e0Oc9FHEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="3d817a67">Load the data into the target system</attribute>
+<attribute name="briefDescription" nodeId="cd0e55f0"></attribute>
+<attribute name="suppressed" nodeId="414baeca">false</attribute>
+<attribute name="orderingGuide" nodeId="defaec3f"></attribute>
+<attribute name="variabilityType" nodeId="3e23d816">na</attribute>
+<attribute name="sectionName" nodeId="9e0df824"></attribute>
+<attribute name="sectionDescription" nodeId="9c44d025"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="d32cfe01">
+<Element TypeName="Task Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_W5xXwdFHEe6Y56Jk6jqfOA,_2f6fENFHEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/dev_etl_scripts_6EA4491F.html" Name="dev_etl_scripts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop extract, transform and load scripts" Id="_2f6fENFHEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="1d77188f"></Element>
+</referenceList>
+</Element>
+</referenceList>
+<referenceList name="Task_TaskDescriptors" nodeId="140a8804">
+<Element TypeName="Task Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_W5xXwdFHEe6Y56Jk6jqfOA,_2f6fENFHEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/dev_etl_scripts_6EA4491F.html" Name="dev_etl_scripts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop extract, transform and load scripts" Id="_2f6fENFHEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="9c82cc6a"></Element>
+</referenceList>
+<reference name="performingRole" nodeId="1f3192e5">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Conversion Lead" Id="_dnKZsDyfEeqFL87Rj0GF5A" ShapeiconUrl="images/role.gif" nodeId="96b55ff8" Url="core.default.role_def.base/roles/conversion_lead_D4ACE143.html" Name="conversion_lead" BackPath="./../../"></Element>
+</reference>
+<referenceList name="customCategories" nodeId="e038127e">
+<Element Type="CustomCategory" TypeName="Custom Category" NodeiconUrl="" DisplayName="Tasks" Id="_0Sj48KDNEeOMmqbYX27PPA" ShapeiconUrl="core.default.nav_view.base/customcategories/resources/cat_task51.png" nodeId="248cb7de" Url="core.default.nav_view.base/customcategories/task_list_CDC9CEA6.html" Name="task_list" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="31c807d8">
+<Element TypeName="Task Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_W5xXwdFHEe6Y56Jk6jqfOA,_2f6fENFHEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/dev_etl_scripts_6EA4491F.html" Name="dev_etl_scripts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop extract, transform and load scripts" Id="_2f6fENFHEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="4d949938">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Data Conversion" Id="_K4NTYZLKEe6Ji6GnvvUfqw" relProcessPath="_K4NTYZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw" nodeId="c210547e" Url="process.adv.eya_oracle.base/capabilitypatterns/data_conv_wkstrm_3E4842D.html" Name="data_conv_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="9f8272e2">data_conv_wkstrm</attribute>
+<attribute name="guid" nodeId="94ecd7a2">_K4NTYZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="c1b9d4af">Data Conversion</attribute>
+<attribute name="briefDescription" nodeId="54718415"></attribute>
+<attribute name="suppressed" nodeId="483579ea">false</attribute>
+<attribute name="orderingGuide" nodeId="9f5b3be9"></attribute>
+<attribute name="isAbstract" nodeId="6e6f09ef">false</attribute>
+<attribute name="shapeicon" nodeId="df339001"></attribute>
+<attribute name="nodeicon" nodeId="604bec7f"></attribute>
+<attribute name="prefix" nodeId="2274c381">workstream</attribute>
+<attribute name="isPlanned" nodeId="aba2a0eb">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="734e1d">false</attribute>
+<attribute name="isOptional" nodeId="b8701726">false</attribute>
+<attribute name="isRepeatable" nodeId="8d535473">false</attribute>
+<attribute name="isOngoing" nodeId="c7b54f2a">false</attribute>
+<attribute name="isEventDriven" nodeId="1b5227a">false</attribute>
+<attribute name="variabilityType" nodeId="92a72ca6">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Develop Data Conversion Scripts" Id="_W5xXwdFHEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_W5xXwdFHEe6Y56Jk6jqfOA" nodeId="ecae2a31" Url="process.adv.eya_oracle.base/capabilitypatterns/develop_data_conv_scripts_B4506D8C.html" Name="develop_data_conv_scripts" BackPath="./../../">
+<attribute name="name" nodeId="ab6de716">develop_data_conv_scripts</attribute>
+<attribute name="guid" nodeId="5cb68799">_W5xXwdFHEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="633385b6">Develop Data Conversion Scripts</attribute>
+<attribute name="briefDescription" nodeId="54a6bde">Develop the extract, transform and load (ETL) scripts per the scope of the build cycle and the data conversion specifications.</attribute>
+<attribute name="suppressed" nodeId="5af1715a">false</attribute>
+<attribute name="orderingGuide" nodeId="6b3a25a4"></attribute>
+<attribute name="isAbstract" nodeId="67f83290">false</attribute>
+<attribute name="shapeicon" nodeId="1299f024"></attribute>
+<attribute name="nodeicon" nodeId="8b89caa5"></attribute>
+<attribute name="prefix" nodeId="3216982a"></attribute>
+<attribute name="isPlanned" nodeId="1a286a80">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="89d441e0">false</attribute>
+<attribute name="isOptional" nodeId="6fb99fbc">false</attribute>
+<attribute name="isRepeatable" nodeId="3cafb709">false</attribute>
+<attribute name="isOngoing" nodeId="e71f6460">false</attribute>
+<attribute name="isEventDriven" nodeId="cf446418">false</attribute>
+<attribute name="variabilityType" nodeId="cc3e78e2">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_W5xXwdFHEe6Y56Jk6jqfOA,_2f6fENFHEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/dev_etl_scripts_6EA4491F.html" Name="dev_etl_scripts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop extract, transform and load scripts" Id="_2f6fENFHEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="4aad35de">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="3971ccbb" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="67b52826">eya_oracle</attribute>
+<attribute name="guid" nodeId="5eb48bdd">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="b3e8e353">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="6ef225b1"></attribute>
+<attribute name="suppressed" nodeId="286ce7c5">false</attribute>
+<attribute name="orderingGuide" nodeId="5c546175"></attribute>
+<attribute name="isAbstract" nodeId="b89fc162">false</attribute>
+<attribute name="shapeicon" nodeId="33ae1093"></attribute>
+<attribute name="nodeicon" nodeId="ad0191ff"></attribute>
+<attribute name="prefix" nodeId="c166fc8d"></attribute>
+<attribute name="isPlanned" nodeId="565473cc">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="5af847e9">false</attribute>
+<attribute name="isOptional" nodeId="beb3f1ec">false</attribute>
+<attribute name="isRepeatable" nodeId="dc75d4b4">false</attribute>
+<attribute name="isOngoing" nodeId="a50f28ce">false</attribute>
+<attribute name="isEventDriven" nodeId="8bf9fbf6">false</attribute>
+<attribute name="variabilityType" nodeId="681ec872">replaces</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Progressive Build" Id="_c4A0kYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA" nodeId="158cd571" Url="process.adv.eya_oracle.base/deliveryprocesses/progressive_build_70B7DD74.html" Name="progressive_build" BackPath="./../../">
+<attribute name="name" nodeId="bee47478">progressive_build</attribute>
+<attribute name="guid" nodeId="19f38b5">_c4A0kYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="1c495f90">Progressive Build</attribute>
+<attribute name="briefDescription" nodeId="e95aec0a">Iterate through the build cycles and drive business acceptance through incremental demos to key client stakeholders. Execute mock conversions and and prepare for system integration and user acceptance testing. Manage stakeholder engagement and communications around the change.</attribute>
+<attribute name="suppressed" nodeId="9bab910e">false</attribute>
+<attribute name="orderingGuide" nodeId="828e18cb"></attribute>
+<attribute name="isAbstract" nodeId="4051f010">false</attribute>
+<attribute name="shapeicon" nodeId="942083df"></attribute>
+<attribute name="nodeicon" nodeId="44617693"></attribute>
+<attribute name="prefix" nodeId="4fa348ef"></attribute>
+<attribute name="isPlanned" nodeId="cd25f38b">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="7b106d9d">false</attribute>
+<attribute name="isOptional" nodeId="b06e3414">false</attribute>
+<attribute name="isRepeatable" nodeId="2fca6238">true</attribute>
+<attribute name="isOngoing" nodeId="8c165f6a">false</attribute>
+<attribute name="isEventDriven" nodeId="dc244198">false</attribute>
+<attribute name="variabilityType" nodeId="2ff8e4d6">na</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Execute Build Cycles 1-n" Id="_Sd7D0duVEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_Sd7D0duVEe6TH6yb1zVWhw" nodeId="edabcf6d" Url="process.adv.eya_oracle.base/deliveryprocesses/execute_build_cycles_1_n_3FC12A80.html" Name="execute_build_cycles_1_n" BackPath="./../../">
+<attribute name="name" nodeId="5126fcb6">execute_build_cycles_1_n</attribute>
+<attribute name="guid" nodeId="fe751655">_Sd7D0duVEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="203a80de">Execute Build Cycles 1-n</attribute>
+<attribute name="briefDescription" nodeId="7611b65c">Iterate through the build cycles by planning for each sprint, defining the technical and integration specifications and data conversion scripts and completing the configurations and development. Validate the builds and conduct demos with the client.</attribute>
+<attribute name="suppressed" nodeId="bf3cb2ca">false</attribute>
+<attribute name="orderingGuide" nodeId="69f14a4e"></attribute>
+<attribute name="isAbstract" nodeId="926e5001">false</attribute>
+<attribute name="shapeicon" nodeId="820b0ebd"></attribute>
+<attribute name="nodeicon" nodeId="d7fd1b4b"></attribute>
+<attribute name="prefix" nodeId="89a85e50"></attribute>
+<attribute name="isPlanned" nodeId="deb82483">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="fd0128d0">false</attribute>
+<attribute name="isOptional" nodeId="402d5881">false</attribute>
+<attribute name="isRepeatable" nodeId="3895434d">true</attribute>
+<attribute name="isOngoing" nodeId="81000d0e">false</attribute>
+<attribute name="isEventDriven" nodeId="da617eb8">false</attribute>
+<attribute name="variabilityType" nodeId="b8d419cc">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Develop Data Conversion Scripts" Id="_yuAYEY_TEe-90KkSLG-9Nw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_Sd7D0duVEe6TH6yb1zVWhw,_yuAYEY_TEe-90KkSLG-9Nw" nodeId="3641b6d5" Url="process.adv.eya_oracle.base/deliveryprocesses/develop_data_conv_scripts_383AA89B.html" Name="develop_data_conv_scripts" BackPath="./../../">
+<attribute name="name" nodeId="e48d14da">develop_data_conv_scripts</attribute>
+<attribute name="guid" nodeId="53c870bb">_yuAYEY_TEe-90KkSLG-9Nw</attribute>
+<attribute name="presentationName" nodeId="cd740132">Develop Data Conversion Scripts</attribute>
+<attribute name="briefDescription" nodeId="3c448865">Develop the extract, transform and load (ETL) scripts per the scope of the build cycle and the data conversion specifications.</attribute>
+<attribute name="suppressed" nodeId="a8d79ee6">false</attribute>
+<attribute name="orderingGuide" nodeId="385353f1"></attribute>
+<attribute name="isAbstract" nodeId="ec80e76b">false</attribute>
+<attribute name="shapeicon" nodeId="5ee2fda9"></attribute>
+<attribute name="nodeicon" nodeId="c34cb7"></attribute>
+<attribute name="prefix" nodeId="6a67676f"></attribute>
+<attribute name="isPlanned" nodeId="bd263313">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="e1a55870">false</attribute>
+<attribute name="isOptional" nodeId="19c3b24d">false</attribute>
+<attribute name="isRepeatable" nodeId="d4e8dbfd">false</attribute>
+<attribute name="isOngoing" nodeId="48eeb1c8">false</attribute>
+<attribute name="isEventDriven" nodeId="bff9db24">false</attribute>
+<attribute name="variabilityType" nodeId="29a3bbc8">extends</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

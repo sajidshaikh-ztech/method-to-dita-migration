@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Conversion Lead" Id="_dnKZsDyfEeqFL87Rj0GF5A" ShapeiconUrl="images/role.gif" lang="en" nodeId="ec9d1855" Url="core.default.role_def.base/roles/conversion_lead_D4ACE143.html" Name="conversion_lead" BackPath="./../../">
+<diagram>&lt;p&gt;&lt;map name=&quot;Conversion_Lead&quot;&gt;&lt;area href=&quot;./../../process.adv.eya_oracle.base/tasks/add_data_conv_issues_DEAD86EB.html&quot; shape=&quot;rect&quot; coords=&quot;210, 10, 242, 42&quot; alt=&quot;Address data conversion issues in target solution&quot; title=&quot;Address data conversion issues in target solution&quot;/&gt;&lt;area href=&quot;./../../process.adv.eya_oracle.base/tasks/address_findings_36F5D8F5.html&quot; shape=&quot;rect&quot; coords=&quot;312, 10, 344, 42&quot; alt=&quot;Address findings&quot; title=&quot;Address findings&quot;/&gt;&lt;area href=&quot;./../../process.adv.eya_oracle.base/tasks/conduct_data_conv_strat_workshop_C1083015.html&quot; shape=&quot;rect&quot; coords=&quot;414, 10, 446, 42&quot; alt=&quot;Conduct data conversion strategy workshop&quot; title=&quot;Conduct data conversion strategy workshop&quot;/&gt;&lt;area href=&quot;./../../process.adv.eya_oracle.base/tasks/design_dm_rollback_plans_94D052A2.html&quot; shape=&quot;rect&quot; coords=&quot;516, 10, 548, 42&quot; alt=&quot;Design data migration rollback plan&quot; title=&quot;Design data migration rollback plan&quot;/&gt;&lt;area href=&quot;./../../process.adv.eya_oracle.base/tasks/dev_data_conv_runbook_E7E16472.html&quot; shape=&quot;rect&quot; coords=&quot;618, 10, 650, 42&quot; alt=&quot;Develop data conversion runbook&quot; title=&quot;Develop data conversion runbook&quot;/&gt;&lt;area href=&quot;./../../process.adv.eya_oracle.base/tasks/dev_etl_scripts_6EA4491F.html&quot; shape=&quot;rect&quot; coords=&quot;720, 10, 752, 42&quot; alt=&quot;Develop extract, transform and load scripts&quot; title=&quot;Develop extract, transform and load scripts&quot;/&gt;&lt;area href=&quot;./../../process.adv.eya_oracle.base/tasks/dev_recon_scripts_EBA05D9F.html&quot; shape=&quot;rect&quot; coords=&quot;822, 10, 854, 42&quot; alt=&quot;Develop reconciliation scripts&quot; title=&quot;Develop reconciliation scripts&quot;/&gt;&lt;area href=&quot;./../../process.adv.eya_oracle.base/tasks/doc_target_data_flow_7670F84B.html&quot; shape=&quot;rect&quot; coords=&quot;210, 72, 242, 104&quot; alt=&quot;Document target state data flow&quot; title=&quot;Document target state data flow&quot;/&gt;&lt;area href=&quot;./../../process.adv.eya_oracle.base/tasks/exec_data_conv_FEC2B92A.html&quot; shape=&quot;rect&quot; coords=&quot;312, 72, 344, 104&quot; alt=&quot;Execute data conversion&quot; title=&quot;Execute data conversion&quot;/&gt;&lt;area href=&quot;./../../process.adv.eya_oracle.base/tasks/exec_dress_rehearsal_EFCBEC15.html&quot; shape=&quot;rect&quot; coords=&quot;414, 72, 446, 104&quot; alt=&quot;Execute dress rehearsal&quot; title=&quot;Execute dress rehearsal&quot;/&gt;&lt;area href=&quot;./../../process.adv.eya_oracle.base/tasks/exec_mock_conv_61E894EC.html&quot; shape=&quot;rect&quot; coords=&quot;516, 72, 548, 104&quot; alt=&quot;Execute mock conversions&quot; title=&quot;Execute mock conversions&quot;/&gt;&lt;area href=&quot;./../../process.adv.eya_oracle.base/tasks/exec_rollback_plan_241C44E1.html&quot; shape=&quot;rect&quot; coords=&quot;618, 72, 650, 104&quot; alt=&quot;Execute rollback plan&quot; title=&quot;Execute rollback plan&quot;/&gt;&lt;area href=&quot;./../../process.adv.eya_oracle.base/tasks/fin_data_conv_strat_461D2FAB.html&quot; shape=&quot;rect&quot; coords=&quot;720, 72, 752, 104&quot; alt=&quot;Finalize data conversion strategy&quot; title=&quot;Finalize data conversion strategy&quot;/&gt;&lt;area href=&quot;./../../process.adv.eya_oracle.base/tasks/fin_data_conv_specs_BDD365F3.html&quot; shape=&quot;rect&quot; coords=&quot;822, 72, 854, 104&quot; alt=&quot;Finalize data mapping and conversion specifications&quot; title=&quot;Finalize data mapping and conversion specifications&quot;/&gt;&lt;area href=&quot;./../../process.adv.eya_oracle.base/tasks/map_src_sys_data_target_sys_data_36E2F89A.html&quot; shape=&quot;rect&quot; coords=&quot;210, 134, 242, 166&quot; alt=&quot;Map source system data fields to target&quot; title=&quot;Map source system data fields to target&quot;/&gt;&lt;/map&gt;&lt;img border=&quot;0&quot; src=&quot;conversion_lead_D4ACE143.jpg&quot; alt=&quot;Conversion_Lead&quot; title=&quot;Conversion_Lead&quot; usemap=&quot;#Conversion_Lead&quot;/&gt;&lt;/p&gt;</diagram>
+<copyright nodeId="a020251a">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="ef227458">conversion_lead</attribute>
+<attribute name="guid" nodeId="381c17e8">_dnKZsDyfEeqFL87Rj0GF5A</attribute>
+<attribute name="presentationName" nodeId="6b41fc1e">Conversion Lead</attribute>
+<attribute name="briefDescription" nodeId="abfba2b5">Responsible for managing and coordinating the overall data migration effort.</attribute>
+<attribute name="suppressed" nodeId="5c10a3a6">false</attribute>
+<attribute name="orderingGuide" nodeId="8534720b"></attribute>
+<attribute name="isAbstract" nodeId="4aa88886">false</attribute>
+<attribute name="shapeicon" nodeId="d87da0d9"></attribute>
+<attribute name="nodeicon" nodeId="10102e4"></attribute>
+<attribute name="variabilityType" nodeId="4086df7d">na</attribute>
+<reference name="presentation" nodeId="b2b08056">
+<Element Type="RoleDescription" TypeName="Role Description" NodeiconUrl="" DisplayName="Conversion Lead" Id="-J6FmjlLST34UTwcBQ6a94A" ShapeiconUrl="images/guidance.gif" nodeId="3916d716" Url="" Name="new_role,_dnKZsDyfEeqFL87Rj0GF5A" BackPath="">
+<copyright nodeId="242f35b6">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="706ef05f">new_role,_dnKZsDyfEeqFL87Rj0GF5A</attribute>
+<attribute name="guid" nodeId="395baa11">-J6FmjlLST34UTwcBQ6a94A</attribute>
+<attribute name="presentationName" nodeId="2050dc82">Conversion Lead</attribute>
+<attribute name="briefDescription" nodeId="b203f7f2"></attribute>
+<attribute name="suppressed" nodeId="79fc8193">false</attribute>
+<attribute name="orderingGuide" nodeId="9d31b943"></attribute>
+<attribute name="authors" nodeId="d8490183">process.adv.emcb.base</attribute>
+<attribute name="changeDate" nodeId="ccedade0">Tue Apr 28 16:40:24 EDT 2020</attribute>
+<attribute name="changeDescription" nodeId="4a13173d">MAR 2020 - Baseline</attribute>
+<attribute name="version" nodeId="9df2c43e"></attribute>
+<attribute name="mainDescription" nodeId="cd1f2365">&lt;p&gt;
+    The conversion lead is responsible for:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Working with business and IT stakeholders to develop the migration strategy and high-level design.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Providing guidance and leadership to conversion developers.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Liaising between the different conversion development teams as well as with business and IT Stakeholders.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Leading mock conversions and dress rehearsals.
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="externalId" nodeId="7419041f"></attribute>
+<attribute name="keyConsiderations" nodeId="e6dd9be2"></attribute>
+<attribute name="longPresentationName" nodeId="a958c981"></attribute>
+<attribute name="skills" nodeId="f5975a54">The conversion lead should understand technology architecture for the data conversion and have experience with both agile
+and waterfall project management styles.</attribute>
+<attribute name="assignmentApproaches" nodeId="9dd2706a"></attribute>
+<attribute name="synonyms" nodeId="4a70c8ff"></attribute>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="modifies" nodeId="24d346f0">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Conversion Reports" Id="_hNuZMDiYEeqr99br-irnoQ" ShapeiconUrl="images/artifact.gif" nodeId="9d3cd88b" Url="core.i_t.common.base/workproducts/conversion_rpts_3A21EEDC.html" Name="conversion_rpts" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Deliverable" TypeName="Deliverable" NodeiconUrl="" DisplayName="Data Conversion Strategy" Id="_U99JsI1LEe6j7Io7DmDR6A" ShapeiconUrl="images/deliverable.gif" nodeId="9aac1e5e" Url="process.adv.eya_oracle.base/workproducts/data_conversion_strategy_15600515.html" Name="data_conversion_strategy" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Data Flow Diagram (DFD)" Id="_3FwdwKy1EeSOBpYsYCrh6Q" ShapeiconUrl="images/artifact.gif" nodeId="e079ca03" Url="core.i_t.common.base/workproducts/data_flow_diag_5D2BD70A.html" Name="data_flow_diag" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Data Mapping Specifications" Id="_IcRXQGXhEeSU9pNl520DCw" ShapeiconUrl="images/artifact.gif" nodeId="a9004130" Url="core.i_t.common.base/workproducts/data_map_specs_C4F66F61.html" Name="data_map_specs" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Deliverable" TypeName="Deliverable" NodeiconUrl="" DisplayName="Data Mapping and Conversion Specifications" Id="_Cdl2MNFBEe6Y56Jk6jqfOA" ShapeiconUrl="images/deliverable.gif" nodeId="84198199" Url="process.adv.eya_oracle.base/workproducts/data_mapping_conv_specs_D565B203.html" Name="data_mapping_conv_specs" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Data Migration Deployment Runbook" Id="_2hQWUH_CEeSnjIKMFkkdjQ" ShapeiconUrl="images/artifact.gif" nodeId="336a3159" Url="core.i_t.common.base/workproducts/data_migration_deploy_runbook_8EC6B3.html" Name="data_migration_deploy_runbook" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Outcome" TypeName="Outcome" NodeiconUrl="" DisplayName="Data Migration Rolled Back" Id="_tZnHQDiYEeqr99br-irnoQ" ShapeiconUrl="images/outcome.gif" nodeId="fb14482a" Url="core.i_t.common.base/workproducts/data_migrate_rollback_6671FCAD.html" Name="data_migrate_rollback" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Data Migration Strategy" Id="_oEBCYIahEeSQGLhbveWyfw" ShapeiconUrl="images/artifact.gif" nodeId="ceccde25" Url="core.i_t.common.base/workproducts/data_migration_strategy_BA4DC84C.html" Name="data_migration_strategy" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Data Quality Remediation Plan" Id="_TTV9QNxrEeSFJbbBGVuBWQ" ShapeiconUrl="images/artifact.gif" nodeId="90f0296" Url="core.i_t.common.base/workproducts/dq_remediation_plan_64772B5A.html" Name="dq_remediation_plan" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Data Reconciliation Report" Id="_40rDEII2EeSQGLhbveWyfw" ShapeiconUrl="images/artifact.gif" nodeId="693110a7" Url="core.i_t.common.base/workproducts/data_reconcile_rpt_77975499.html" Name="data_reconcile_rpt" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Defect Tracker" Id="_1QgeIOYJEeOqmb5IikO7mw" ShapeiconUrl="images/artifact.gif" nodeId="357560ee" Url="core.i_t.common.base/workproducts/defect_tracker_1B140F53.html" Name="defect_tracker" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="ETL Scripts" Id="_2_U6UJQPEeW-dodM24rwlQ" ShapeiconUrl="images/artifact.gif" nodeId="ecbdea26" Url="core.i_t.common.base/workproducts/etl_scripts_1F3AC897.html" Name="etl_scripts" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Issue Register" Id="_oOGCYPyfEeOOGZZA-JKR9Q" ShapeiconUrl="images/artifact.gif" nodeId="65fdbfa5" Url="core.mgmt.common.base/workproducts/issue_register_3A274CB5.html" Name="issue_register" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Rollback Plan" Id="_TOLlcPdmEeOgTqoejOJlgA" ShapeiconUrl="images/artifact.gif" nodeId="a7dbffce" Url="core.ops.common.base/workproducts/rollback_plan_2FC382BC.html" Name="rollback_plan" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="Role_Primary_Tasks" nodeId="344cb9fe">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Address data conversion issues in target solution" Id="_0xXU8NF7Ee6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="8d2b0cc2" Url="process.adv.eya_oracle.base/tasks/add_data_conv_issues_DEAD86EB.html" Name="add_data_conv_issues" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Address findings" Id="_fRB1cNF6Ee6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="4ecc54ef" Url="process.adv.eya_oracle.base/tasks/address_findings_36F5D8F5.html" Name="address_findings" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Conduct data conversion strategy workshop" Id="_U5jxUNE4Ee6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="e356c43c" Url="process.adv.eya_oracle.base/tasks/conduct_data_conv_strat_workshop_C1083015.html" Name="conduct_data_conv_strat_workshop" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Design data migration rollback plan" Id="_RKXFQNFEEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="40ed3697" Url="process.adv.eya_oracle.base/tasks/design_dm_rollback_plans_94D052A2.html" Name="design_dm_rollback_plans" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop data conversion runbook" Id="_qKvnQNFJEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="99836722" Url="process.adv.eya_oracle.base/tasks/dev_data_conv_runbook_E7E16472.html" Name="dev_data_conv_runbook" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop extract, transform and load scripts" Id="_1e0OcNFHEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="ab5c4b95" Url="process.adv.eya_oracle.base/tasks/dev_etl_scripts_6EA4491F.html" Name="dev_etl_scripts" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop reconciliation scripts" Id="_EDYrINFIEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="d2b69db7" Url="process.adv.eya_oracle.base/tasks/dev_recon_scripts_EBA05D9F.html" Name="dev_recon_scripts" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Document target state data flow" Id="_6nX9UNE_Ee6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="cecae000" Url="process.adv.eya_oracle.base/tasks/doc_target_data_flow_7670F84B.html" Name="doc_target_data_flow" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Execute data conversion" Id="_nLhKUNF7Ee6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="5a2a216e" Url="process.adv.eya_oracle.base/tasks/exec_data_conv_FEC2B92A.html" Name="exec_data_conv" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Execute dress rehearsal" Id="_K9kjUNF6Ee6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="e969fdd5" Url="process.adv.eya_oracle.base/tasks/exec_dress_rehearsal_EFCBEC15.html" Name="exec_dress_rehearsal" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Execute mock conversions" Id="_m7avENFKEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="a3c89f82" Url="process.adv.eya_oracle.base/tasks/exec_mock_conv_61E894EC.html" Name="exec_mock_conv" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Execute rollback plan" Id="_6nt6kNFKEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="fe3e7698" Url="process.adv.eya_oracle.base/tasks/exec_rollback_plan_241C44E1.html" Name="exec_rollback_plan" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Finalize data conversion strategy" Id="_BvBEgNE3Ee6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="e82b0d26" Url="process.adv.eya_oracle.base/tasks/fin_data_conv_strat_461D2FAB.html" Name="fin_data_conv_strat" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Finalize data mapping and conversion specifications" Id="_sUIEsNFAEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="855ce99d" Url="process.adv.eya_oracle.base/tasks/fin_data_conv_specs_BDD365F3.html" Name="fin_data_conv_specs" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Map source system data fields to target" Id="_WqAhoNFAEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="e73ec0c" Url="process.adv.eya_oracle.base/tasks/map_src_sys_data_target_sys_data_36E2F89A.html" Name="map_src_sys_data_target_sys_data" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="Role_Secondary_Tasks" nodeId="305ed8a0">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop go/no-go checklist" Id="_Y0_-wDHFEe-ymZgH1AiGoQ" ShapeiconUrl="images/task.gif" nodeId="6f90bfe8" Url="process.adv.eya_oracle.base/tasks/develop_go_no-go_checklist_7165AF99.html" Name="develop_go_no-go_checklist" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Finalize cutover and deployment approach" Id="_l6_LoNEwEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="72711cce" Url="process.adv.eya_oracle.base/tasks/fin_cutover_deploy_approach_11A5ACC7.html" Name="fin_cutover_deploy_approach" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Finalize cutover runbook" Id="_XLYuMNExEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="16205120" Url="process.adv.eya_oracle.base/tasks/fin_cutover_runbook_65523543.html" Name="fin_cutover_runbook" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Finalize production release" Id="_t8UdcNEzEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="846d9f99" Url="process.adv.eya_oracle.base/tasks/fin_prod_release_7167DC72.html" Name="fin_prod_release" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="Role_RoleDescriptors" nodeId="b6191ec6">
+<Element TypeName="Role Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_MerLgdE_Ee6Y56Jk6jqfOA,_i_wIsZCSEe-V6_hI2aWEGg" ConcreteType="Role" Url="core.default.role_def.base/roles/conversion_lead_D4ACE143.html" Name="conversion_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Conversion Lead" Id="_i_wIsZCSEe-V6_hI2aWEGg" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="599d9aa8"></Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_W5xXwdFHEe6Y56Jk6jqfOA,_jAl2MZCSEe-V6_hI2aWEGg" ConcreteType="Role" Url="core.default.role_def.base/roles/conversion_lead_D4ACE143.html" Name="conversion_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Conversion Lead" Id="_jAl2MZCSEe-V6_hI2aWEGg" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="4e3181a"></Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_Yye68dFJEe6Y56Jk6jqfOA,_jBIowZCSEe-V6_hI2aWEGg" ConcreteType="Role" Url="core.default.role_def.base/roles/conversion_lead_D4ACE143.html" Name="conversion_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Conversion Lead" Id="_jBIowZCSEe-V6_hI2aWEGg" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="8a143169"></Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_CL0vwdFMEe6Y56Jk6jqfOA,_v68agpCXEe-V6_hI2aWEGg" ConcreteType="Role" Url="core.default.role_def.base/roles/conversion_lead_D4ACE143.html" Name="conversion_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Conversion Lead" Id="_v68agpCXEe-V6_hI2aWEGg" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="71a2d144"></Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_Auu7UdF7Ee6Y56Jk6jqfOA,_uKZD0ZFQEe-HIdwCQRVfUg" ConcreteType="Role" Url="core.default.role_def.base/roles/conversion_lead_D4ACE143.html" Name="conversion_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Conversion Lead" Id="_uKZD0ZFQEe-HIdwCQRVfUg" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="176170f6"></Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_L2wZYc-eEe63wsgFeJIztg,_i-83cZCSEe-V6_hI2aWEGg" ConcreteType="Role" Url="core.default.role_def.base/roles/conversion_lead_D4ACE143.html" Name="conversion_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Conversion Lead" Id="_i-83cZCSEe-V6_hI2aWEGg" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="27f970ed"></Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_tw8_IdEsEe6Y56Jk6jqfOA,_gYzvEu1tEe-oXdl_wfbebQ" ConcreteType="Role" Url="core.default.role_def.base/roles/conversion_lead_D4ACE143.html" Name="conversion_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Conversion Lead" Id="_gYzvEu1tEe-oXdl_wfbebQ" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="781b0ef1"></Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_b27MwDHHEe-ymZgH1AiGoQ_dnKZsDyfEeqFL87Rj0GF5A" ConcreteType="Role" Url="core.default.role_def.base/roles/conversion_lead_D4ACE143.html" Name="conversion_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Conversion Lead" Id="_b27MwDHHEe-ymZgH1AiGoQ_dnKZsDyfEeqFL87Rj0GF5A" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="e799f0f9"></Element>
+</referenceList>
+<referenceList name="additionallyPerforms" nodeId="6f6311ca">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop go/no-go checklist" Id="_Y0_-wDHFEe-ymZgH1AiGoQ" ShapeiconUrl="images/task.gif" nodeId="6a70659d" Url="process.adv.eya_oracle.base/tasks/develop_go_no-go_checklist_7165AF99.html" Name="develop_go_no-go_checklist" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Finalize cutover and deployment approach" Id="_l6_LoNEwEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="be039d8" Url="process.adv.eya_oracle.base/tasks/fin_cutover_deploy_approach_11A5ACC7.html" Name="fin_cutover_deploy_approach" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Finalize cutover runbook" Id="_XLYuMNExEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="1563cfbe" Url="process.adv.eya_oracle.base/tasks/fin_cutover_runbook_65523543.html" Name="fin_cutover_runbook" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Finalize production release" Id="_t8UdcNEzEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="c9e5f476" Url="process.adv.eya_oracle.base/tasks/fin_prod_release_7167DC72.html" Name="fin_prod_release" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="2e0f14ee">
+<Element TypeName="Role Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_MerLgdE_Ee6Y56Jk6jqfOA,_i_wIsZCSEe-V6_hI2aWEGg" ConcreteType="Role" Url="core.default.role_def.base/roles/conversion_lead_D4ACE143.html" Name="conversion_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Conversion Lead" Id="_i_wIsZCSEe-V6_hI2aWEGg" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="a560877f">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Data Conversion" Id="_K4NTYZLKEe6Ji6GnvvUfqw" relProcessPath="_K4NTYZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw" nodeId="72fe8a3b" Url="process.adv.eya_oracle.base/capabilitypatterns/data_conv_wkstrm_3E4842D.html" Name="data_conv_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="587b9f28">data_conv_wkstrm</attribute>
+<attribute name="guid" nodeId="d7aa0a53">_K4NTYZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="91c1d9ee">Data Conversion</attribute>
+<attribute name="briefDescription" nodeId="fd662a0d"></attribute>
+<attribute name="suppressed" nodeId="b54c191f">false</attribute>
+<attribute name="orderingGuide" nodeId="8735db5b"></attribute>
+<attribute name="isAbstract" nodeId="def066f4">false</attribute>
+<attribute name="shapeicon" nodeId="baeb0458"></attribute>
+<attribute name="nodeicon" nodeId="44b29054"></attribute>
+<attribute name="prefix" nodeId="5ee32b09">workstream</attribute>
+<attribute name="isPlanned" nodeId="3192a73e">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="61a63642">false</attribute>
+<attribute name="isOptional" nodeId="f83ca361">false</attribute>
+<attribute name="isRepeatable" nodeId="37bf104e">false</attribute>
+<attribute name="isOngoing" nodeId="3cfb8fb7">false</attribute>
+<attribute name="isEventDriven" nodeId="a4d76d">false</attribute>
+<attribute name="variabilityType" nodeId="1e1a4582">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Document Data Mapping and Conversion Specifications" Id="_MerLgdE_Ee6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_MerLgdE_Ee6Y56Jk6jqfOA" nodeId="bf22731e" Url="process.adv.eya_oracle.base/capabilitypatterns/doc_data_map_conv_spec_A6041C48.html" Name="doc_data_map_conv_spec" BackPath="./../../">
+<attribute name="name" nodeId="106b0acd">doc_data_map_conv_spec</attribute>
+<attribute name="guid" nodeId="a88c359b">_MerLgdE_Ee6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="2bd8041">Document Data Mapping and Conversion Specifications</attribute>
+<attribute name="briefDescription" nodeId="381293d">Understand the data flows, map data to processes and define the data conversion specifications.</attribute>
+<attribute name="suppressed" nodeId="e8d34d5e">false</attribute>
+<attribute name="orderingGuide" nodeId="32880f1b"></attribute>
+<attribute name="isAbstract" nodeId="1d788b9e">false</attribute>
+<attribute name="shapeicon" nodeId="9786921"></attribute>
+<attribute name="nodeicon" nodeId="39699fe9"></attribute>
+<attribute name="prefix" nodeId="23df69e3"></attribute>
+<attribute name="isPlanned" nodeId="fab59e40">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="3a4e561e">false</attribute>
+<attribute name="isOptional" nodeId="53a8fe63">false</attribute>
+<attribute name="isRepeatable" nodeId="6be75338">false</attribute>
+<attribute name="isOngoing" nodeId="72c0e42e">false</attribute>
+<attribute name="isEventDriven" nodeId="aa8a3019">false</attribute>
+<attribute name="variabilityType" nodeId="63e0c8b0">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_MerLgdE_Ee6Y56Jk6jqfOA,_i_wIsZCSEe-V6_hI2aWEGg" ConcreteType="Role" Url="core.default.role_def.base/roles/conversion_lead_D4ACE143.html" Name="conversion_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Conversion Lead" Id="_i_wIsZCSEe-V6_hI2aWEGg" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="8eff43d8">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="a6e5b56" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="6e67e573">eya_oracle</attribute>
+<attribute name="guid" nodeId="63d34517">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="576d3d5">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="43401dd6"></attribute>
+<attribute name="suppressed" nodeId="9b0fb28d">false</attribute>
+<attribute name="orderingGuide" nodeId="ba9a9c14"></attribute>
+<attribute name="isAbstract" nodeId="8787c146">false</attribute>
+<attribute name="shapeicon" nodeId="47b3528d"></attribute>
+<attribute name="nodeicon" nodeId="c8d2cfca"></attribute>
+<attribute name="prefix" nodeId="8307f65"></attribute>
+<attribute name="isPlanned" nodeId="96dba686">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d18dc92">false</attribute>
+<attribute name="isOptional" nodeId="a43ab9e0">false</attribute>
+<attribute name="isRepeatable" nodeId="efeda9cf">false</attribute>
+<attribute name="isOngoing" nodeId="952224d2">false</attribute>
+<attribute name="isEventDriven" nodeId="5896264">false</attribute>
+<attribute name="variabilityType" nodeId="8be3adb2">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Confirm and Design" Id="_bRCPsIs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA" nodeId="6a8b0281" Url="process.adv.eya_oracle.base/deliveryprocesses/confirm_and_design_29FFDB9.html" Name="confirm_and_design" BackPath="./../../">
+<attribute name="name" nodeId="36300c">confirm_and_design</attribute>
+<attribute name="guid" nodeId="23381772">_bRCPsIs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="cdf4dd42">Confirm and Design</attribute>
+<attribute name="briefDescription" nodeId="93929686">Define business requirements, map process flows and facilitate fit-gap workshops. Define technology and testing strategies. Develop the master configuration workbook, RICEFW inventory and prepare for progressive build cycles.</attribute>
+<attribute name="suppressed" nodeId="40091ee8">false</attribute>
+<attribute name="orderingGuide" nodeId="98da70f6"></attribute>
+<attribute name="isAbstract" nodeId="6a0012c6">false</attribute>
+<attribute name="shapeicon" nodeId="ecea0a90"></attribute>
+<attribute name="nodeicon" nodeId="1e5d6654"></attribute>
+<attribute name="prefix" nodeId="8525442e"></attribute>
+<attribute name="isPlanned" nodeId="c79a50d8">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="477e7e8d">false</attribute>
+<attribute name="isOptional" nodeId="a8d24aa0">false</attribute>
+<attribute name="isRepeatable" nodeId="eb092789">false</attribute>
+<attribute name="isOngoing" nodeId="a3abd1cb">false</attribute>
+<attribute name="isEventDriven" nodeId="1536309d">false</attribute>
+<attribute name="variabilityType" nodeId="207af566">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Document Data Mapping and Conversion Specifications" Id="_5-KZkdpFEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA,_5-KZkdpFEe6TH6yb1zVWhw" nodeId="23dbe2ac" Url="process.adv.eya_oracle.base/deliveryprocesses/doc_data_map_conv_spec_D490D6E3.html" Name="doc_data_map_conv_spec" BackPath="./../../">
+<attribute name="name" nodeId="3d686969">doc_data_map_conv_spec</attribute>
+<attribute name="guid" nodeId="449afd78">_5-KZkdpFEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="f4922f59">Document Data Mapping and Conversion Specifications</attribute>
+<attribute name="briefDescription" nodeId="f5faaeed">Understand the data flows, map data to processes and define the data conversion specifications.</attribute>
+<attribute name="suppressed" nodeId="91ba0ba">false</attribute>
+<attribute name="orderingGuide" nodeId="e9bac29d"></attribute>
+<attribute name="isAbstract" nodeId="f684add0">false</attribute>
+<attribute name="shapeicon" nodeId="1176339"></attribute>
+<attribute name="nodeicon" nodeId="33e9ca20"></attribute>
+<attribute name="prefix" nodeId="ada03797"></attribute>
+<attribute name="isPlanned" nodeId="7d2bc25d">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="75ad69e4">false</attribute>
+<attribute name="isOptional" nodeId="90a2cea1">false</attribute>
+<attribute name="isRepeatable" nodeId="10b1ba7d">false</attribute>
+<attribute name="isOngoing" nodeId="12594c37">false</attribute>
+<attribute name="isEventDriven" nodeId="ec8c2d33">false</attribute>
+<attribute name="variabilityType" nodeId="12130993">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_W5xXwdFHEe6Y56Jk6jqfOA,_jAl2MZCSEe-V6_hI2aWEGg" ConcreteType="Role" Url="core.default.role_def.base/roles/conversion_lead_D4ACE143.html" Name="conversion_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Conversion Lead" Id="_jAl2MZCSEe-V6_hI2aWEGg" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="87905e01">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Data Conversion" Id="_K4NTYZLKEe6Ji6GnvvUfqw" relProcessPath="_K4NTYZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw" nodeId="96703a05" Url="process.adv.eya_oracle.base/capabilitypatterns/data_conv_wkstrm_3E4842D.html" Name="data_conv_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="23a680d">data_conv_wkstrm</attribute>
+<attribute name="guid" nodeId="f924dd4f">_K4NTYZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="b98cd431">Data Conversion</attribute>
+<attribute name="briefDescription" nodeId="8a2514d4"></attribute>
+<attribute name="suppressed" nodeId="31bfa466">false</attribute>
+<attribute name="orderingGuide" nodeId="c951a9f4"></attribute>
+<attribute name="isAbstract" nodeId="29073e52">false</attribute>
+<attribute name="shapeicon" nodeId="1664a2ea"></attribute>
+<attribute name="nodeicon" nodeId="c4051156"></attribute>
+<attribute name="prefix" nodeId="5165dde">workstream</attribute>
+<attribute name="isPlanned" nodeId="b4ef871d">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="1ced825c">false</attribute>
+<attribute name="isOptional" nodeId="c995a183">false</attribute>
+<attribute name="isRepeatable" nodeId="81974826">false</attribute>
+<attribute name="isOngoing" nodeId="8d60a985">false</attribute>
+<attribute name="isEventDriven" nodeId="4d5591ad">false</attribute>
+<attribute name="variabilityType" nodeId="def6bc76">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Develop Data Conversion Scripts" Id="_W5xXwdFHEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_W5xXwdFHEe6Y56Jk6jqfOA" nodeId="605b3ca7" Url="process.adv.eya_oracle.base/capabilitypatterns/develop_data_conv_scripts_B4506D8C.html" Name="develop_data_conv_scripts" BackPath="./../../">
+<attribute name="name" nodeId="f3d39857">develop_data_conv_scripts</attribute>
+<attribute name="guid" nodeId="ccedb174">_W5xXwdFHEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="ce39094f">Develop Data Conversion Scripts</attribute>
+<attribute name="briefDescription" nodeId="7ef23747">Develop the extract, transform and load (ETL) scripts per the scope of the build cycle and the data conversion specifications.</attribute>
+<attribute name="suppressed" nodeId="30d03267">false</attribute>
+<attribute name="orderingGuide" nodeId="efdcfe25"></attribute>
+<attribute name="isAbstract" nodeId="8fead004">false</attribute>
+<attribute name="shapeicon" nodeId="1a0dbed4"></attribute>
+<attribute name="nodeicon" nodeId="976b99b"></attribute>
+<attribute name="prefix" nodeId="4b7f3b10"></attribute>
+<attribute name="isPlanned" nodeId="634e9ac">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="2dd0dda3">false</attribute>
+<attribute name="isOptional" nodeId="96bf4980">false</attribute>
+<attribute name="isRepeatable" nodeId="a4f693d7">false</attribute>
+<attribute name="isOngoing" nodeId="248cc449">false</attribute>
+<attribute name="isEventDriven" nodeId="e8e7e89f">false</attribute>
+<attribute name="variabilityType" nodeId="522f5da5">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_W5xXwdFHEe6Y56Jk6jqfOA,_jAl2MZCSEe-V6_hI2aWEGg" ConcreteType="Role" Url="core.default.role_def.base/roles/conversion_lead_D4ACE143.html" Name="conversion_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Conversion Lead" Id="_jAl2MZCSEe-V6_hI2aWEGg" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="868374cb">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="10b1417b" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="661ea896">eya_oracle</attribute>
+<attribute name="guid" nodeId="857a20f1">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="cf930cab">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="c2cf2529"></attribute>
+<attribute name="suppressed" nodeId="b58e04bc">false</attribute>
+<attribute name="orderingGuide" nodeId="142ff5de"></attribute>
+<attribute name="isAbstract" nodeId="cadb95e3">false</attribute>
+<attribute name="shapeicon" nodeId="6d786002"></attribute>
+<attribute name="nodeicon" nodeId="ad798001"></attribute>
+<attribute name="prefix" nodeId="72742811"></attribute>
+<attribute name="isPlanned" nodeId="d950eea3">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="5600989b">false</attribute>
+<attribute name="isOptional" nodeId="fac9b80">false</attribute>
+<attribute name="isRepeatable" nodeId="b62e4371">false</attribute>
+<attribute name="isOngoing" nodeId="e2d57a93">false</attribute>
+<attribute name="isEventDriven" nodeId="c1962aa">false</attribute>
+<attribute name="variabilityType" nodeId="9b839fc7">replaces</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Progressive Build" Id="_c4A0kYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA" nodeId="7a2c280c" Url="process.adv.eya_oracle.base/deliveryprocesses/progressive_build_70B7DD74.html" Name="progressive_build" BackPath="./../../">
+<attribute name="name" nodeId="cde08624">progressive_build</attribute>
+<attribute name="guid" nodeId="4589690c">_c4A0kYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="9d25a04e">Progressive Build</attribute>
+<attribute name="briefDescription" nodeId="c61ad36">Iterate through the build cycles and drive business acceptance through incremental demos to key client stakeholders. Execute mock conversions and and prepare for system integration and user acceptance testing. Manage stakeholder engagement and communications around the change.</attribute>
+<attribute name="suppressed" nodeId="3fa00bfc">false</attribute>
+<attribute name="orderingGuide" nodeId="f4e67d4"></attribute>
+<attribute name="isAbstract" nodeId="30d12be0">false</attribute>
+<attribute name="shapeicon" nodeId="978697df"></attribute>
+<attribute name="nodeicon" nodeId="be5194ab"></attribute>
+<attribute name="prefix" nodeId="73362a6b"></attribute>
+<attribute name="isPlanned" nodeId="175625ca">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="588f6f0e">false</attribute>
+<attribute name="isOptional" nodeId="d87d68a">false</attribute>
+<attribute name="isRepeatable" nodeId="e3b8db0b">true</attribute>
+<attribute name="isOngoing" nodeId="f60d67e2">false</attribute>
+<attribute name="isEventDriven" nodeId="dcb70674">false</attribute>
+<attribute name="variabilityType" nodeId="474d6740">na</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Execute Build Cycles 1-n" Id="_Sd7D0duVEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_Sd7D0duVEe6TH6yb1zVWhw" nodeId="c9d45fa4" Url="process.adv.eya_oracle.base/deliveryprocesses/execute_build_cycles_1_n_3FC12A80.html" Name="execute_build_cycles_1_n" BackPath="./../../">
+<attribute name="name" nodeId="79bb99e">execute_build_cycles_1_n</attribute>
+<attribute name="guid" nodeId="6191fd30">_Sd7D0duVEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="6cec35bf">Execute Build Cycles 1-n</attribute>
+<attribute name="briefDescription" nodeId="d672ba7c">Iterate through the build cycles by planning for each sprint, defining the technical and integration specifications and data conversion scripts and completing the configurations and development. Validate the builds and conduct demos with the client.</attribute>
+<attribute name="suppressed" nodeId="713c1b79">false</attribute>
+<attribute name="orderingGuide" nodeId="8f5e9cf5"></attribute>
+<attribute name="isAbstract" nodeId="7426f6e6">false</attribute>
+<attribute name="shapeicon" nodeId="3529c369"></attribute>
+<attribute name="nodeicon" nodeId="900a2d53"></attribute>
+<attribute name="prefix" nodeId="e67b4757"></attribute>
+<attribute name="isPlanned" nodeId="78a94941">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="6540a53c">false</attribute>
+<attribute name="isOptional" nodeId="377c221e">false</attribute>
+<attribute name="isRepeatable" nodeId="9bdb9ec7">true</attribute>
+<attribute name="isOngoing" nodeId="4d3b6cbd">false</attribute>
+<attribute name="isEventDriven" nodeId="4c224808">false</attribute>
+<attribute name="variabilityType" nodeId="b205ced3">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Develop Data Conversion Scripts" Id="_yuAYEY_TEe-90KkSLG-9Nw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_Sd7D0duVEe6TH6yb1zVWhw,_yuAYEY_TEe-90KkSLG-9Nw" nodeId="2b5c1b04" Url="process.adv.eya_oracle.base/deliveryprocesses/develop_data_conv_scripts_383AA89B.html" Name="develop_data_conv_scripts" BackPath="./../../">
+<attribute name="name" nodeId="d29e701e">develop_data_conv_scripts</attribute>
+<attribute name="guid" nodeId="fb1f155c">_yuAYEY_TEe-90KkSLG-9Nw</attribute>
+<attribute name="presentationName" nodeId="716d5954">Develop Data Conversion Scripts</attribute>
+<attribute name="briefDescription" nodeId="e86b3b6">Develop the extract, transform and load (ETL) scripts per the scope of the build cycle and the data conversion specifications.</attribute>
+<attribute name="suppressed" nodeId="1f75f184">false</attribute>
+<attribute name="orderingGuide" nodeId="d5c5e930"></attribute>
+<attribute name="isAbstract" nodeId="1ca8d86b">false</attribute>
+<attribute name="shapeicon" nodeId="7efa77fe"></attribute>
+<attribute name="nodeicon" nodeId="cf52fecd"></attribute>
+<attribute name="prefix" nodeId="3705c27d"></attribute>
+<attribute name="isPlanned" nodeId="377afd3c">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="340922f2">false</attribute>
+<attribute name="isOptional" nodeId="ca0ddb43">false</attribute>
+<attribute name="isRepeatable" nodeId="9b3adfed">false</attribute>
+<attribute name="isOngoing" nodeId="c56a79e">false</attribute>
+<attribute name="isEventDriven" nodeId="4743826b">false</attribute>
+<attribute name="variabilityType" nodeId="bc8834e3">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_Yye68dFJEe6Y56Jk6jqfOA,_jBIowZCSEe-V6_hI2aWEGg" ConcreteType="Role" Url="core.default.role_def.base/roles/conversion_lead_D4ACE143.html" Name="conversion_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Conversion Lead" Id="_jBIowZCSEe-V6_hI2aWEGg" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="85c13052">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Data Conversion" Id="_K4NTYZLKEe6Ji6GnvvUfqw" relProcessPath="_K4NTYZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw" nodeId="ece02480" Url="process.adv.eya_oracle.base/capabilitypatterns/data_conv_wkstrm_3E4842D.html" Name="data_conv_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="89a885a2">data_conv_wkstrm</attribute>
+<attribute name="guid" nodeId="2de68af6">_K4NTYZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="8254248b">Data Conversion</attribute>
+<attribute name="briefDescription" nodeId="de79f142"></attribute>
+<attribute name="suppressed" nodeId="b66be51a">false</attribute>
+<attribute name="orderingGuide" nodeId="1d8769d0"></attribute>
+<attribute name="isAbstract" nodeId="d8024a66">false</attribute>
+<attribute name="shapeicon" nodeId="38b31862"></attribute>
+<attribute name="nodeicon" nodeId="4539b54c"></attribute>
+<attribute name="prefix" nodeId="24ba4951">workstream</attribute>
+<attribute name="isPlanned" nodeId="5dcb0e8b">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="6f25b66a">false</attribute>
+<attribute name="isOptional" nodeId="294a52d9">false</attribute>
+<attribute name="isRepeatable" nodeId="37468f74">false</attribute>
+<attribute name="isOngoing" nodeId="b63daa2e">false</attribute>
+<attribute name="isEventDriven" nodeId="f9614b07">false</attribute>
+<attribute name="variabilityType" nodeId="919cc25d">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Execute Mock Conversions" Id="_Yye68dFJEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_Yye68dFJEe6Y56Jk6jqfOA" nodeId="badb20b3" Url="process.adv.eya_oracle.base/capabilitypatterns/execute_mock_conv_EC296340.html" Name="execute_mock_conv" BackPath="./../../">
+<attribute name="name" nodeId="82827653">execute_mock_conv</attribute>
+<attribute name="guid" nodeId="f8f715a3">_Yye68dFJEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="7916b258">Execute Mock Conversions</attribute>
+<attribute name="briefDescription" nodeId="d9e715cc">Create the data conversion runbook in preparation for the mock conversion event. Execute the mock conversion as well as the defined roll-back plans and address any findings.</attribute>
+<attribute name="suppressed" nodeId="74ba631d">false</attribute>
+<attribute name="orderingGuide" nodeId="b40f69d7"></attribute>
+<attribute name="isAbstract" nodeId="e0be40fe">false</attribute>
+<attribute name="shapeicon" nodeId="c02a158d"></attribute>
+<attribute name="nodeicon" nodeId="ff018583"></attribute>
+<attribute name="prefix" nodeId="f37d4de2"></attribute>
+<attribute name="isPlanned" nodeId="d4061b1c">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="18dfbe9a">false</attribute>
+<attribute name="isOptional" nodeId="e475670">false</attribute>
+<attribute name="isRepeatable" nodeId="e42e5643">false</attribute>
+<attribute name="isOngoing" nodeId="d1529a60">false</attribute>
+<attribute name="isEventDriven" nodeId="a6d3742a">false</attribute>
+<attribute name="variabilityType" nodeId="98979ad0">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_Yye68dFJEe6Y56Jk6jqfOA,_jBIowZCSEe-V6_hI2aWEGg" ConcreteType="Role" Url="core.default.role_def.base/roles/conversion_lead_D4ACE143.html" Name="conversion_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Conversion Lead" Id="_jBIowZCSEe-V6_hI2aWEGg" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="2230ae96">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="54b5561f" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="7fc27dab">eya_oracle</attribute>
+<attribute name="guid" nodeId="553a7337">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="87453eb">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="3c9014aa"></attribute>
+<attribute name="suppressed" nodeId="e2c26c9b">false</attribute>
+<attribute name="orderingGuide" nodeId="8744a49a"></attribute>
+<attribute name="isAbstract" nodeId="3145c1f4">false</attribute>
+<attribute name="shapeicon" nodeId="78bab980"></attribute>
+<attribute name="nodeicon" nodeId="4c722e78"></attribute>
+<attribute name="prefix" nodeId="9147623a"></attribute>
+<attribute name="isPlanned" nodeId="1c16eae9">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="ca514d8f">false</attribute>
+<attribute name="isOptional" nodeId="1721b863">false</attribute>
+<attribute name="isRepeatable" nodeId="cd53b57f">false</attribute>
+<attribute name="isOngoing" nodeId="f922ec08">false</attribute>
+<attribute name="isEventDriven" nodeId="3237448b">false</attribute>
+<attribute name="variabilityType" nodeId="b2a843e0">replaces</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Progressive Build" Id="_c4A0kYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA" nodeId="6b59fcf0" Url="process.adv.eya_oracle.base/deliveryprocesses/progressive_build_70B7DD74.html" Name="progressive_build" BackPath="./../../">
+<attribute name="name" nodeId="c508f3f0">progressive_build</attribute>
+<attribute name="guid" nodeId="6f85cacc">_c4A0kYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="b26c5254">Progressive Build</attribute>
+<attribute name="briefDescription" nodeId="6075c9af">Iterate through the build cycles and drive business acceptance through incremental demos to key client stakeholders. Execute mock conversions and and prepare for system integration and user acceptance testing. Manage stakeholder engagement and communications around the change.</attribute>
+<attribute name="suppressed" nodeId="d11be284">false</attribute>
+<attribute name="orderingGuide" nodeId="3bdef07c"></attribute>
+<attribute name="isAbstract" nodeId="17a5a550">false</attribute>
+<attribute name="shapeicon" nodeId="726fbb50"></attribute>
+<attribute name="nodeicon" nodeId="5f66f90c"></attribute>
+<attribute name="prefix" nodeId="1ce5f28a"></attribute>
+<attribute name="isPlanned" nodeId="3756b7f5">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="1606eaae">false</attribute>
+<attribute name="isOptional" nodeId="d1bed42d">false</attribute>
+<attribute name="isRepeatable" nodeId="ab5f0fcb">true</attribute>
+<attribute name="isOngoing" nodeId="200d68b">false</attribute>
+<attribute name="isEventDriven" nodeId="315b3179">false</attribute>
+<attribute name="variabilityType" nodeId="ee28aa9e">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Execute Mock Conversions" Id="_vSESMdpkEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_vSESMdpkEe6TH6yb1zVWhw" nodeId="2d25905" Url="process.adv.eya_oracle.base/deliveryprocesses/execute_mock_conv_C163D3AA.html" Name="execute_mock_conv" BackPath="./../../">
+<attribute name="name" nodeId="f4be08ec">execute_mock_conv</attribute>
+<attribute name="guid" nodeId="398fef24">_vSESMdpkEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="6f9e0cca">Execute Mock Conversions</attribute>
+<attribute name="briefDescription" nodeId="655d167e">Create the data conversion runbook in preparation for the mock conversion event. Execute the mock conversion as well as the defined roll-back plans and address any findings.</attribute>
+<attribute name="suppressed" nodeId="807b527c">false</attribute>
+<attribute name="orderingGuide" nodeId="bf942dea"></attribute>
+<attribute name="isAbstract" nodeId="ee2519ea">false</attribute>
+<attribute name="shapeicon" nodeId="a5d6f4ef"></attribute>
+<attribute name="nodeicon" nodeId="d252b49c"></attribute>
+<attribute name="prefix" nodeId="28d45504"></attribute>
+<attribute name="isPlanned" nodeId="a00ad546">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="f77f5a89">false</attribute>
+<attribute name="isOptional" nodeId="32ad8a53">false</attribute>
+<attribute name="isRepeatable" nodeId="964f2d4c">false</attribute>
+<attribute name="isOngoing" nodeId="a33c6bba">false</attribute>
+<attribute name="isEventDriven" nodeId="8fd77636">false</attribute>
+<attribute name="variabilityType" nodeId="9b03cb2a">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_CL0vwdFMEe6Y56Jk6jqfOA,_v68agpCXEe-V6_hI2aWEGg" ConcreteType="Role" Url="core.default.role_def.base/roles/conversion_lead_D4ACE143.html" Name="conversion_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Conversion Lead" Id="_v68agpCXEe-V6_hI2aWEGg" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="dc3d64fc">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Data Conversion" Id="_K4NTYZLKEe6Ji6GnvvUfqw" relProcessPath="_K4NTYZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw" nodeId="9b15228e" Url="process.adv.eya_oracle.base/capabilitypatterns/data_conv_wkstrm_3E4842D.html" Name="data_conv_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="e142af5f">data_conv_wkstrm</attribute>
+<attribute name="guid" nodeId="9d54d340">_K4NTYZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="edf59ece">Data Conversion</attribute>
+<attribute name="briefDescription" nodeId="7db3a6bd"></attribute>
+<attribute name="suppressed" nodeId="9a7b0513">false</attribute>
+<attribute name="orderingGuide" nodeId="c933ef42"></attribute>
+<attribute name="isAbstract" nodeId="9bb2b4e0">false</attribute>
+<attribute name="shapeicon" nodeId="42adf4cd"></attribute>
+<attribute name="nodeicon" nodeId="2e0ed44e"></attribute>
+<attribute name="prefix" nodeId="235fee6d">workstream</attribute>
+<attribute name="isPlanned" nodeId="6c4e7473">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="c9449ac4">false</attribute>
+<attribute name="isOptional" nodeId="f9ff24f1">false</attribute>
+<attribute name="isRepeatable" nodeId="697f1154">false</attribute>
+<attribute name="isOngoing" nodeId="d7b0ae5f">false</attribute>
+<attribute name="isEventDriven" nodeId="703727eb">false</attribute>
+<attribute name="variabilityType" nodeId="d742687d">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Perform Dress Rehearsal" Id="_CL0vwdFMEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_CL0vwdFMEe6Y56Jk6jqfOA" nodeId="8ce0ccec" Url="process.adv.eya_oracle.base/capabilitypatterns/perform_dress_rehearsal_95824E2.html" Name="perform_dress_rehearsal" BackPath="./../../">
+<attribute name="name" nodeId="41a18671">perform_dress_rehearsal</attribute>
+<attribute name="guid" nodeId="69231197">_CL0vwdFMEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="f2c0fde9">Perform Dress Rehearsal</attribute>
+<attribute name="briefDescription" nodeId="1dbed7a6">Prepare for and execute the data migration dress rehearsal and address any findings.</attribute>
+<attribute name="suppressed" nodeId="c6a8951a">false</attribute>
+<attribute name="orderingGuide" nodeId="c2faa26e"></attribute>
+<attribute name="isAbstract" nodeId="f84e9954">false</attribute>
+<attribute name="shapeicon" nodeId="a2f0b195"></attribute>
+<attribute name="nodeicon" nodeId="22492919"></attribute>
+<attribute name="prefix" nodeId="a8890f02"></attribute>
+<attribute name="isPlanned" nodeId="a21f7a9c">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="dd5ab8cd">false</attribute>
+<attribute name="isOptional" nodeId="2353e6e1">false</attribute>
+<attribute name="isRepeatable" nodeId="3fe1e192">false</attribute>
+<attribute name="isOngoing" nodeId="d69f846d">false</attribute>
+<attribute name="isEventDriven" nodeId="35350c4">false</attribute>
+<attribute name="variabilityType" nodeId="69d640de">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_CL0vwdFMEe6Y56Jk6jqfOA,_v68agpCXEe-V6_hI2aWEGg" ConcreteType="Role" Url="core.default.role_def.base/roles/conversion_lead_D4ACE143.html" Name="conversion_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Conversion Lead" Id="_v68agpCXEe-V6_hI2aWEGg" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="d4f8555d">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="dcad2e1c" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="c51f4a2">eya_oracle</attribute>
+<attribute name="guid" nodeId="e90f09a0">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="fedcc6e8">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="75e3f4c2"></attribute>
+<attribute name="suppressed" nodeId="ab1c5550">false</attribute>
+<attribute name="orderingGuide" nodeId="a63f10e0"></attribute>
+<attribute name="isAbstract" nodeId="9bf6c276">false</attribute>
+<attribute name="shapeicon" nodeId="84fd9998"></attribute>
+<attribute name="nodeicon" nodeId="3828c51d"></attribute>
+<attribute name="prefix" nodeId="a43d81bf"></attribute>
+<attribute name="isPlanned" nodeId="e9b21511">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="90541937">false</attribute>
+<attribute name="isOptional" nodeId="f077f87">false</attribute>
+<attribute name="isRepeatable" nodeId="e55385a6">false</attribute>
+<attribute name="isOngoing" nodeId="ecb97ad">false</attribute>
+<attribute name="isEventDriven" nodeId="7b6d581c">false</attribute>
+<attribute name="variabilityType" nodeId="799b9e15">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Deploy" Id="_fuFp0Ys6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA" nodeId="c451833f" Url="process.adv.eya_oracle.base/deliveryprocesses/deploy_DA41E608.html" Name="deploy" BackPath="./../../">
+<attribute name="name" nodeId="26fb076b">deploy</attribute>
+<attribute name="guid" nodeId="53c0a1c7">_fuFp0Ys6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="9c4a83b0">Deploy</attribute>
+<attribute name="briefDescription" nodeId="6e828806">Deploy trainings to impacted stakeholders. Conduct data migration activities, confirm cutover readiness and perform the cutover.</attribute>
+<attribute name="suppressed" nodeId="967b5764">false</attribute>
+<attribute name="orderingGuide" nodeId="af72f20a"></attribute>
+<attribute name="isAbstract" nodeId="5478f8e9">false</attribute>
+<attribute name="shapeicon" nodeId="d83a90de"></attribute>
+<attribute name="nodeicon" nodeId="e6505c4f"></attribute>
+<attribute name="prefix" nodeId="9f7ee8b2"></attribute>
+<attribute name="isPlanned" nodeId="ee7ff36f">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="9e49cf68">false</attribute>
+<attribute name="isOptional" nodeId="4f054ced">false</attribute>
+<attribute name="isRepeatable" nodeId="7c7c9297">false</attribute>
+<attribute name="isOngoing" nodeId="1224145a">false</attribute>
+<attribute name="isEventDriven" nodeId="e7d17b13">false</attribute>
+<attribute name="variabilityType" nodeId="f64b1934">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Perform Dress Rehearsal" Id="_0FengdsMEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_0FengdsMEe6TH6yb1zVWhw" nodeId="aeba70ab" Url="process.adv.eya_oracle.base/deliveryprocesses/perform_dress_rehearsal_E118D03.html" Name="perform_dress_rehearsal" BackPath="./../../">
+<attribute name="name" nodeId="38694476">perform_dress_rehearsal</attribute>
+<attribute name="guid" nodeId="f8089d6e">_0FengdsMEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="a9d68323">Perform Dress Rehearsal</attribute>
+<attribute name="briefDescription" nodeId="8acfbe82">Prepare for and execute the data migration dress rehearsal and address any findings.</attribute>
+<attribute name="suppressed" nodeId="3390f5e7">false</attribute>
+<attribute name="orderingGuide" nodeId="be95f235"></attribute>
+<attribute name="isAbstract" nodeId="4627b888">false</attribute>
+<attribute name="shapeicon" nodeId="39681bdb"></attribute>
+<attribute name="nodeicon" nodeId="c9a0f6df"></attribute>
+<attribute name="prefix" nodeId="3aaf4dba"></attribute>
+<attribute name="isPlanned" nodeId="8b7d976f">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="9ad5fdb6">false</attribute>
+<attribute name="isOptional" nodeId="60eac507">false</attribute>
+<attribute name="isRepeatable" nodeId="c583dc41">false</attribute>
+<attribute name="isOngoing" nodeId="eed9b626">false</attribute>
+<attribute name="isEventDriven" nodeId="1bfac67d">false</attribute>
+<attribute name="variabilityType" nodeId="dee5fb93">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_Auu7UdF7Ee6Y56Jk6jqfOA,_uKZD0ZFQEe-HIdwCQRVfUg" ConcreteType="Role" Url="core.default.role_def.base/roles/conversion_lead_D4ACE143.html" Name="conversion_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Conversion Lead" Id="_uKZD0ZFQEe-HIdwCQRVfUg" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="53b89d9">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Data Conversion" Id="_K4NTYZLKEe6Ji6GnvvUfqw" relProcessPath="_K4NTYZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw" nodeId="4144a2d3" Url="process.adv.eya_oracle.base/capabilitypatterns/data_conv_wkstrm_3E4842D.html" Name="data_conv_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="83276652">data_conv_wkstrm</attribute>
+<attribute name="guid" nodeId="361fa9ba">_K4NTYZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="2400ec64">Data Conversion</attribute>
+<attribute name="briefDescription" nodeId="78094417"></attribute>
+<attribute name="suppressed" nodeId="fb357755">false</attribute>
+<attribute name="orderingGuide" nodeId="f48c99a7"></attribute>
+<attribute name="isAbstract" nodeId="b953e4da">false</attribute>
+<attribute name="shapeicon" nodeId="b2d47550"></attribute>
+<attribute name="nodeicon" nodeId="e18372b6"></attribute>
+<attribute name="prefix" nodeId="2323102a">workstream</attribute>
+<attribute name="isPlanned" nodeId="69434a1c">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="feba3629">false</attribute>
+<attribute name="isOptional" nodeId="d961e93c">false</attribute>
+<attribute name="isRepeatable" nodeId="ce3f06e6">false</attribute>
+<attribute name="isOngoing" nodeId="fd4c6ddd">false</attribute>
+<attribute name="isEventDriven" nodeId="2cc950e3">false</attribute>
+<attribute name="variabilityType" nodeId="964dc200">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Perform Data Conversion" Id="_Auu7UdF7Ee6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_Auu7UdF7Ee6Y56Jk6jqfOA" nodeId="bfe23de2" Url="process.adv.eya_oracle.base/capabilitypatterns/perform_data_conv_FE4190B5.html" Name="perform_data_conv" BackPath="./../../">
+<attribute name="name" nodeId="93bcfdec">perform_data_conv</attribute>
+<attribute name="guid" nodeId="ac1b065a">_Auu7UdF7Ee6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="9d60788">Perform Data Conversion</attribute>
+<attribute name="briefDescription" nodeId="6cec5953">Identify and prepare the participants of the migration for the conversion event. Migrate the data, then manually remediate any data issues remaining in the target system after the migration.</attribute>
+<attribute name="suppressed" nodeId="bde5f472">false</attribute>
+<attribute name="orderingGuide" nodeId="5c4f9964"></attribute>
+<attribute name="isAbstract" nodeId="6b9b4e04">false</attribute>
+<attribute name="shapeicon" nodeId="967810c3"></attribute>
+<attribute name="nodeicon" nodeId="792ac1b3"></attribute>
+<attribute name="prefix" nodeId="cd740444"></attribute>
+<attribute name="isPlanned" nodeId="7f9ac16c">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="439adeab">false</attribute>
+<attribute name="isOptional" nodeId="ec161db8">false</attribute>
+<attribute name="isRepeatable" nodeId="1437543">false</attribute>
+<attribute name="isOngoing" nodeId="33e8f674">false</attribute>
+<attribute name="isEventDriven" nodeId="aba37deb">false</attribute>
+<attribute name="variabilityType" nodeId="f16523a5">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_Auu7UdF7Ee6Y56Jk6jqfOA,_uKZD0ZFQEe-HIdwCQRVfUg" ConcreteType="Role" Url="core.default.role_def.base/roles/conversion_lead_D4ACE143.html" Name="conversion_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Conversion Lead" Id="_uKZD0ZFQEe-HIdwCQRVfUg" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="17fad845">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="95500eb9" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="f4273fe8">eya_oracle</attribute>
+<attribute name="guid" nodeId="8376e982">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="a4b33ff6">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="58edc073"></attribute>
+<attribute name="suppressed" nodeId="204f83a3">false</attribute>
+<attribute name="orderingGuide" nodeId="2d7ef6e"></attribute>
+<attribute name="isAbstract" nodeId="88cca971">false</attribute>
+<attribute name="shapeicon" nodeId="d6a92072"></attribute>
+<attribute name="nodeicon" nodeId="329389cf"></attribute>
+<attribute name="prefix" nodeId="df2d7c8a"></attribute>
+<attribute name="isPlanned" nodeId="5ef950a">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="1cbeaf2b">false</attribute>
+<attribute name="isOptional" nodeId="63d4dcc7">false</attribute>
+<attribute name="isRepeatable" nodeId="6608c6ed">false</attribute>
+<attribute name="isOngoing" nodeId="3be57f9f">false</attribute>
+<attribute name="isEventDriven" nodeId="f1eec195">false</attribute>
+<attribute name="variabilityType" nodeId="1da8cf3b">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Deploy" Id="_fuFp0Ys6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA" nodeId="4d44f42c" Url="process.adv.eya_oracle.base/deliveryprocesses/deploy_DA41E608.html" Name="deploy" BackPath="./../../">
+<attribute name="name" nodeId="be0c4c84">deploy</attribute>
+<attribute name="guid" nodeId="4ee5c366">_fuFp0Ys6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="4fbb36a6">Deploy</attribute>
+<attribute name="briefDescription" nodeId="4a177d39">Deploy trainings to impacted stakeholders. Conduct data migration activities, confirm cutover readiness and perform the cutover.</attribute>
+<attribute name="suppressed" nodeId="260d5cd8">false</attribute>
+<attribute name="orderingGuide" nodeId="3b72ed8d"></attribute>
+<attribute name="isAbstract" nodeId="ee597a4b">false</attribute>
+<attribute name="shapeicon" nodeId="28aa78b7"></attribute>
+<attribute name="nodeicon" nodeId="fdcebd8"></attribute>
+<attribute name="prefix" nodeId="a635097c"></attribute>
+<attribute name="isPlanned" nodeId="f0183248">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="f0276859">false</attribute>
+<attribute name="isOptional" nodeId="359608eb">false</attribute>
+<attribute name="isRepeatable" nodeId="54bfd9f6">false</attribute>
+<attribute name="isOngoing" nodeId="d6d911a4">false</attribute>
+<attribute name="isEventDriven" nodeId="58b3915c">false</attribute>
+<attribute name="variabilityType" nodeId="1341ba74">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Perform Data Conversion" Id="_02yvsdsMEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_02yvsdsMEe6TH6yb1zVWhw" nodeId="d37a0135" Url="process.adv.eya_oracle.base/deliveryprocesses/perform_data_conv_CEECC5D7.html" Name="perform_data_conv" BackPath="./../../">
+<attribute name="name" nodeId="dfcc24d6">perform_data_conv</attribute>
+<attribute name="guid" nodeId="1a8bf758">_02yvsdsMEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="15c543e">Perform Data Conversion</attribute>
+<attribute name="briefDescription" nodeId="39545ebc">Identify and prepare the participants of the migration for the conversion event. Migrate the data, then manually remediate any data issues remaining in the target system after the migration.</attribute>
+<attribute name="suppressed" nodeId="6c5a7080">false</attribute>
+<attribute name="orderingGuide" nodeId="ceebbb52"></attribute>
+<attribute name="isAbstract" nodeId="11d42102">false</attribute>
+<attribute name="shapeicon" nodeId="2b3114ab"></attribute>
+<attribute name="nodeicon" nodeId="652cb103"></attribute>
+<attribute name="prefix" nodeId="f1dd84ab"></attribute>
+<attribute name="isPlanned" nodeId="2072774c">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="6b811580">false</attribute>
+<attribute name="isOptional" nodeId="b9f334fb">false</attribute>
+<attribute name="isRepeatable" nodeId="3016ff4a">false</attribute>
+<attribute name="isOngoing" nodeId="501ca9b9">false</attribute>
+<attribute name="isEventDriven" nodeId="83f82a88">false</attribute>
+<attribute name="variabilityType" nodeId="726804ce">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_L2wZYc-eEe63wsgFeJIztg,_i-83cZCSEe-V6_hI2aWEGg" ConcreteType="Role" Url="core.default.role_def.base/roles/conversion_lead_D4ACE143.html" Name="conversion_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Conversion Lead" Id="_i-83cZCSEe-V6_hI2aWEGg" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="d66610d7">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Data Conversion" Id="_K4NTYZLKEe6Ji6GnvvUfqw" relProcessPath="_K4NTYZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw" nodeId="35859f9f" Url="process.adv.eya_oracle.base/capabilitypatterns/data_conv_wkstrm_3E4842D.html" Name="data_conv_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="ef5d6d01">data_conv_wkstrm</attribute>
+<attribute name="guid" nodeId="5f83e4d3">_K4NTYZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="710dd4b8">Data Conversion</attribute>
+<attribute name="briefDescription" nodeId="ca8b13c3"></attribute>
+<attribute name="suppressed" nodeId="535ef6f8">false</attribute>
+<attribute name="orderingGuide" nodeId="1a45b747"></attribute>
+<attribute name="isAbstract" nodeId="cf29a2ab">false</attribute>
+<attribute name="shapeicon" nodeId="473d0f40"></attribute>
+<attribute name="nodeicon" nodeId="8d8651cd"></attribute>
+<attribute name="prefix" nodeId="d0998759">workstream</attribute>
+<attribute name="isPlanned" nodeId="fc812c67">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="34310c20">false</attribute>
+<attribute name="isOptional" nodeId="56b063cb">false</attribute>
+<attribute name="isRepeatable" nodeId="32245c6d">false</attribute>
+<attribute name="isOngoing" nodeId="722479f4">false</attribute>
+<attribute name="isEventDriven" nodeId="fba0496f">false</attribute>
+<attribute name="variabilityType" nodeId="f7ab462e">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Define Data Conversion Strategy" Id="_L2wZYc-eEe63wsgFeJIztg" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_L2wZYc-eEe63wsgFeJIztg" nodeId="1c7059f8" Url="process.adv.eya_oracle.base/capabilitypatterns/define_data_conven_strat_EA3905AB.html" Name="define_data_conven_strat" BackPath="./../../">
+<attribute name="name" nodeId="59238fe1">define_data_conven_strat</attribute>
+<attribute name="guid" nodeId="decd4dfa">_L2wZYc-eEe63wsgFeJIztg</attribute>
+<attribute name="presentationName" nodeId="1f5545d0">Define Data Conversion Strategy</attribute>
+<attribute name="briefDescription" nodeId="39008a32">Conduct a workshop with key client stakeholders to define the data conversion strategy for the target state implementation effort.</attribute>
+<attribute name="suppressed" nodeId="3aff076">false</attribute>
+<attribute name="orderingGuide" nodeId="b5f7fcaa"></attribute>
+<attribute name="isAbstract" nodeId="dd644fd0">false</attribute>
+<attribute name="shapeicon" nodeId="a831594"></attribute>
+<attribute name="nodeicon" nodeId="f832a0fc"></attribute>
+<attribute name="prefix" nodeId="cdc2e723"></attribute>
+<attribute name="isPlanned" nodeId="55a6826f">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="3e704c5">false</attribute>
+<attribute name="isOptional" nodeId="5f7663ed">false</attribute>
+<attribute name="isRepeatable" nodeId="d10915ad">false</attribute>
+<attribute name="isOngoing" nodeId="c9b6a6ba">false</attribute>
+<attribute name="isEventDriven" nodeId="987c8556">false</attribute>
+<attribute name="variabilityType" nodeId="f2584ed1">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_L2wZYc-eEe63wsgFeJIztg,_i-83cZCSEe-V6_hI2aWEGg" ConcreteType="Role" Url="core.default.role_def.base/roles/conversion_lead_D4ACE143.html" Name="conversion_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Conversion Lead" Id="_i-83cZCSEe-V6_hI2aWEGg" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="64b45f96">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="4b7d5fc0" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="e9ae19e9">eya_oracle</attribute>
+<attribute name="guid" nodeId="e756e63f">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="5d2b6210">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="c5827f9c"></attribute>
+<attribute name="suppressed" nodeId="fe9e9fba">false</attribute>
+<attribute name="orderingGuide" nodeId="803cb483"></attribute>
+<attribute name="isAbstract" nodeId="532f6e28">false</attribute>
+<attribute name="shapeicon" nodeId="1dd3ea3d"></attribute>
+<attribute name="nodeicon" nodeId="8c9e9889"></attribute>
+<attribute name="prefix" nodeId="53ef7760"></attribute>
+<attribute name="isPlanned" nodeId="9e295fe">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="516d2d88">false</attribute>
+<attribute name="isOptional" nodeId="4b6ea836">false</attribute>
+<attribute name="isRepeatable" nodeId="e8f55a14">false</attribute>
+<attribute name="isOngoing" nodeId="cb1e2f6f">false</attribute>
+<attribute name="isEventDriven" nodeId="633c1689">false</attribute>
+<attribute name="variabilityType" nodeId="53e9cbba">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Confirm and Design" Id="_bRCPsIs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA" nodeId="7be632b2" Url="process.adv.eya_oracle.base/deliveryprocesses/confirm_and_design_29FFDB9.html" Name="confirm_and_design" BackPath="./../../">
+<attribute name="name" nodeId="9ed94861">confirm_and_design</attribute>
+<attribute name="guid" nodeId="cc233a25">_bRCPsIs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="269e8fed">Confirm and Design</attribute>
+<attribute name="briefDescription" nodeId="9d538bca">Define business requirements, map process flows and facilitate fit-gap workshops. Define technology and testing strategies. Develop the master configuration workbook, RICEFW inventory and prepare for progressive build cycles.</attribute>
+<attribute name="suppressed" nodeId="cc03089">false</attribute>
+<attribute name="orderingGuide" nodeId="4bd2d94d"></attribute>
+<attribute name="isAbstract" nodeId="7cbfea3f">false</attribute>
+<attribute name="shapeicon" nodeId="a636438c"></attribute>
+<attribute name="nodeicon" nodeId="22bb880f"></attribute>
+<attribute name="prefix" nodeId="c0b36cdd"></attribute>
+<attribute name="isPlanned" nodeId="b04970c9">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="da6d85ec">false</attribute>
+<attribute name="isOptional" nodeId="55693239">false</attribute>
+<attribute name="isRepeatable" nodeId="3fba6877">false</attribute>
+<attribute name="isOngoing" nodeId="9b7625b">false</attribute>
+<attribute name="isEventDriven" nodeId="21793f9f">false</attribute>
+<attribute name="variabilityType" nodeId="9525d0e7">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Define Data Conversion Strategy" Id="_1dqp4dpFEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA,_1dqp4dpFEe6TH6yb1zVWhw" nodeId="bfead75d" Url="process.adv.eya_oracle.base/deliveryprocesses/define_data_conven_strat_42A94F25.html" Name="define_data_conven_strat" BackPath="./../../">
+<attribute name="name" nodeId="22a5430b">define_data_conven_strat</attribute>
+<attribute name="guid" nodeId="a35c64a2">_1dqp4dpFEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="41f8d5a0">Define Data Conversion Strategy</attribute>
+<attribute name="briefDescription" nodeId="bc2a4872">Conduct a workshop with key client stakeholders to define the data conversion strategy for the target state implementation effort.</attribute>
+<attribute name="suppressed" nodeId="3b21f597">false</attribute>
+<attribute name="orderingGuide" nodeId="533eb0fc"></attribute>
+<attribute name="isAbstract" nodeId="4203d49b">false</attribute>
+<attribute name="shapeicon" nodeId="be772496"></attribute>
+<attribute name="nodeicon" nodeId="c6a2e833"></attribute>
+<attribute name="prefix" nodeId="a133f780"></attribute>
+<attribute name="isPlanned" nodeId="6ab72d37">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="feb4040c">false</attribute>
+<attribute name="isOptional" nodeId="6324fc03">false</attribute>
+<attribute name="isRepeatable" nodeId="fa2dc3c0">false</attribute>
+<attribute name="isOngoing" nodeId="1ade6143">false</attribute>
+<attribute name="isEventDriven" nodeId="f932ab50">false</attribute>
+<attribute name="variabilityType" nodeId="5be18ab6">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_tw8_IdEsEe6Y56Jk6jqfOA,_gYzvEu1tEe-oXdl_wfbebQ" ConcreteType="Role" Url="core.default.role_def.base/roles/conversion_lead_D4ACE143.html" Name="conversion_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Conversion Lead" Id="_gYzvEu1tEe-oXdl_wfbebQ" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="8a721c10">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Development" Id="_N-58wdAOEe6H-rjlu9wPlA" relProcessPath="_N-58wdAOEe6H-rjlu9wPlA" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA" nodeId="a9b66b24" Url="process.adv.eya_oracle.base/capabilitypatterns/development_wkstrm_21C01F87.html" Name="development_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="26cbe973">development_wkstrm</attribute>
+<attribute name="guid" nodeId="74e30a02">_N-58wdAOEe6H-rjlu9wPlA</attribute>
+<attribute name="presentationName" nodeId="3bca2de1">Development</attribute>
+<attribute name="briefDescription" nodeId="c739f0ef"></attribute>
+<attribute name="suppressed" nodeId="6a269030">false</attribute>
+<attribute name="orderingGuide" nodeId="35bab81"></attribute>
+<attribute name="isAbstract" nodeId="5660ef25">false</attribute>
+<attribute name="shapeicon" nodeId="3917e491"></attribute>
+<attribute name="nodeicon" nodeId="84e28a3a"></attribute>
+<attribute name="prefix" nodeId="6cc45de8">workstream</attribute>
+<attribute name="isPlanned" nodeId="5eb4551b">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="6c5099">false</attribute>
+<attribute name="isOptional" nodeId="7e292d61">false</attribute>
+<attribute name="isRepeatable" nodeId="26fd7d0f">false</attribute>
+<attribute name="isOngoing" nodeId="ac460278">false</attribute>
+<attribute name="isEventDriven" nodeId="ccbbe725">false</attribute>
+<attribute name="variabilityType" nodeId="b6d8a3bf">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Perform Cutover" Id="_tw8_IdEsEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_tw8_IdEsEe6Y56Jk6jqfOA" nodeId="df1e5432" Url="process.adv.eya_oracle.base/capabilitypatterns/perform_cutover_CC2B4AD2.html" Name="perform_cutover" BackPath="./../../">
+<attribute name="name" nodeId="98d54f96">perform_cutover</attribute>
+<attribute name="guid" nodeId="be0ca4af">_tw8_IdEsEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="73c352f7">Perform Cutover</attribute>
+<attribute name="briefDescription" nodeId="1c401dff">Complete the activities required to transition to production.</attribute>
+<attribute name="suppressed" nodeId="45843800">false</attribute>
+<attribute name="orderingGuide" nodeId="67a24274"></attribute>
+<attribute name="isAbstract" nodeId="32098a41">false</attribute>
+<attribute name="shapeicon" nodeId="b97ff5ff"></attribute>
+<attribute name="nodeicon" nodeId="551eae28"></attribute>
+<attribute name="prefix" nodeId="ba3940b8"></attribute>
+<attribute name="isPlanned" nodeId="26ec7f26">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="ff5fee2d">false</attribute>
+<attribute name="isOptional" nodeId="d7c8518">false</attribute>
+<attribute name="isRepeatable" nodeId="10addf95">false</attribute>
+<attribute name="isOngoing" nodeId="da64dd70">false</attribute>
+<attribute name="isEventDriven" nodeId="37ce2bce">false</attribute>
+<attribute name="variabilityType" nodeId="61d49da5">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_tw8_IdEsEe6Y56Jk6jqfOA,_gYzvEu1tEe-oXdl_wfbebQ" ConcreteType="Role" Url="core.default.role_def.base/roles/conversion_lead_D4ACE143.html" Name="conversion_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Conversion Lead" Id="_gYzvEu1tEe-oXdl_wfbebQ" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="9dc38d32">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="1e5ccc5b" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="eaebd7c9">eya_oracle</attribute>
+<attribute name="guid" nodeId="ab4344ca">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="a841e50e">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="6e1710ac"></attribute>
+<attribute name="suppressed" nodeId="a2e79f8d">false</attribute>
+<attribute name="orderingGuide" nodeId="12228253"></attribute>
+<attribute name="isAbstract" nodeId="3a1a052e">false</attribute>
+<attribute name="shapeicon" nodeId="ecc4242b"></attribute>
+<attribute name="nodeicon" nodeId="39ac1c0e"></attribute>
+<attribute name="prefix" nodeId="98714667"></attribute>
+<attribute name="isPlanned" nodeId="44139bd9">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="f8e5e127">false</attribute>
+<attribute name="isOptional" nodeId="621f8446">false</attribute>
+<attribute name="isRepeatable" nodeId="7193aef5">false</attribute>
+<attribute name="isOngoing" nodeId="13bc02b9">false</attribute>
+<attribute name="isEventDriven" nodeId="ab234dd">false</attribute>
+<attribute name="variabilityType" nodeId="b16b4fcf">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Deploy" Id="_fuFp0Ys6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA" nodeId="30ccb6b" Url="process.adv.eya_oracle.base/deliveryprocesses/deploy_DA41E608.html" Name="deploy" BackPath="./../../">
+<attribute name="name" nodeId="c521d23">deploy</attribute>
+<attribute name="guid" nodeId="ebbcbb55">_fuFp0Ys6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="4105db20">Deploy</attribute>
+<attribute name="briefDescription" nodeId="3f46a72e">Deploy trainings to impacted stakeholders. Conduct data migration activities, confirm cutover readiness and perform the cutover.</attribute>
+<attribute name="suppressed" nodeId="22ea9c17">false</attribute>
+<attribute name="orderingGuide" nodeId="1ade8a3f"></attribute>
+<attribute name="isAbstract" nodeId="38249ade">false</attribute>
+<attribute name="shapeicon" nodeId="e95c0b56"></attribute>
+<attribute name="nodeicon" nodeId="b3d6fa59"></attribute>
+<attribute name="prefix" nodeId="823efcc9"></attribute>
+<attribute name="isPlanned" nodeId="843c0b4f">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="38eacbf7">false</attribute>
+<attribute name="isOptional" nodeId="7c28993c">false</attribute>
+<attribute name="isRepeatable" nodeId="976cb77b">false</attribute>
+<attribute name="isOngoing" nodeId="9d812493">false</attribute>
+<attribute name="isEventDriven" nodeId="597d470">false</attribute>
+<attribute name="variabilityType" nodeId="55659117">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Perform Cutover" Id="_4Ar40dsMEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_4Ar40dsMEe6TH6yb1zVWhw" nodeId="f7a08200" Url="process.adv.eya_oracle.base/deliveryprocesses/perform_cutover_D871D46A.html" Name="perform_cutover" BackPath="./../../">
+<attribute name="name" nodeId="b74f12cf">perform_cutover</attribute>
+<attribute name="guid" nodeId="91c1a389">_4Ar40dsMEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="4396b796">Perform Cutover</attribute>
+<attribute name="briefDescription" nodeId="697d0024">Complete the activities required to transition to production.</attribute>
+<attribute name="suppressed" nodeId="9f2b8d02">false</attribute>
+<attribute name="orderingGuide" nodeId="9e96ec39"></attribute>
+<attribute name="isAbstract" nodeId="6b3e8799">false</attribute>
+<attribute name="shapeicon" nodeId="b50b1b47"></attribute>
+<attribute name="nodeicon" nodeId="efaaa18"></attribute>
+<attribute name="prefix" nodeId="d9538fe3"></attribute>
+<attribute name="isPlanned" nodeId="cddaa436">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="df51d07a">false</attribute>
+<attribute name="isOptional" nodeId="b1be7842">false</attribute>
+<attribute name="isRepeatable" nodeId="b0ab1666">false</attribute>
+<attribute name="isOngoing" nodeId="f436d934">false</attribute>
+<attribute name="isEventDriven" nodeId="ba82a509">false</attribute>
+<attribute name="variabilityType" nodeId="8adb39d2">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_b27MwDHHEe-ymZgH1AiGoQ_dnKZsDyfEeqFL87Rj0GF5A" ConcreteType="Role" Url="core.default.role_def.base/roles/conversion_lead_D4ACE143.html" Name="conversion_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Conversion Lead" Id="_b27MwDHHEe-ymZgH1AiGoQ_dnKZsDyfEeqFL87Rj0GF5A" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="cef1db76">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="52cc1bb9" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="b7c84708">eya_oracle</attribute>
+<attribute name="guid" nodeId="3106a857">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="2cd05846">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="f26d1e00"></attribute>
+<attribute name="suppressed" nodeId="51679c1">false</attribute>
+<attribute name="orderingGuide" nodeId="c8f8c27e"></attribute>
+<attribute name="isAbstract" nodeId="b1516fe4">false</attribute>
+<attribute name="shapeicon" nodeId="a0a7e7a1"></attribute>
+<attribute name="nodeicon" nodeId="cdb799ba"></attribute>
+<attribute name="prefix" nodeId="61d7f2b5"></attribute>
+<attribute name="isPlanned" nodeId="bf1a8591">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="a46de0a5">false</attribute>
+<attribute name="isOptional" nodeId="743c5508">false</attribute>
+<attribute name="isRepeatable" nodeId="cb78a6d8">false</attribute>
+<attribute name="isOngoing" nodeId="e0c7e024">false</attribute>
+<attribute name="isEventDriven" nodeId="4cc48303">false</attribute>
+<attribute name="variabilityType" nodeId="8b207335">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Test" Id="_esTcsYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA" nodeId="32ee7f81" Url="process.adv.eya_oracle.base/deliveryprocesses/test_E5EB30E9.html" Name="test" BackPath="./../../">
+<attribute name="name" nodeId="5c66f53c">test</attribute>
+<attribute name="guid" nodeId="9cf005cd">_esTcsYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="e54f9738">Test</attribute>
+<attribute name="briefDescription" nodeId="e42e53b6">Perform tests on the integrated Oracle services solution and prepare for cutover and deployment. Additionally, design and prepare training materials.</attribute>
+<attribute name="suppressed" nodeId="b53bbdff">false</attribute>
+<attribute name="orderingGuide" nodeId="be74c163"></attribute>
+<attribute name="isAbstract" nodeId="18926b3d">false</attribute>
+<attribute name="shapeicon" nodeId="d764794d"></attribute>
+<attribute name="nodeicon" nodeId="f4c17f5b"></attribute>
+<attribute name="prefix" nodeId="f819191b"></attribute>
+<attribute name="isPlanned" nodeId="f5f51c9a">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="db6a81c7">false</attribute>
+<attribute name="isOptional" nodeId="25c62d9b">false</attribute>
+<attribute name="isRepeatable" nodeId="3541acb5">false</attribute>
+<attribute name="isOngoing" nodeId="ad24d494">false</attribute>
+<attribute name="isEventDriven" nodeId="2ba21920">false</attribute>
+<attribute name="variabilityType" nodeId="c7fc2615">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Prepare for Cutover and Deployment" Id="_vkzykdplEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw" nodeId="21886875" Url="process.adv.eya_oracle.base/deliveryprocesses/prepare_cutover_deployment_CE7AA5F6.html" Name="prepare_cutover_deployment" BackPath="./../../">
+<attribute name="name" nodeId="9323c9ed">prepare_cutover_deployment</attribute>
+<attribute name="guid" nodeId="61bddccd">_vkzykdplEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="42d2de">Prepare for Cutover and Deployment</attribute>
+<attribute name="briefDescription" nodeId="49bf8b3b">Define the approach, plan and governance tasks to manage the transition of the target state Oracle solution into the production environment.</attribute>
+<attribute name="suppressed" nodeId="96b3967e">false</attribute>
+<attribute name="orderingGuide" nodeId="fa03e2ce"></attribute>
+<attribute name="isAbstract" nodeId="72770c6c">false</attribute>
+<attribute name="shapeicon" nodeId="b051196b"></attribute>
+<attribute name="nodeicon" nodeId="7815d244"></attribute>
+<attribute name="prefix" nodeId="d06ac682"></attribute>
+<attribute name="isPlanned" nodeId="b99fbf50">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="38024db8">false</attribute>
+<attribute name="isOptional" nodeId="f0256614">false</attribute>
+<attribute name="isRepeatable" nodeId="70fbbf42">false</attribute>
+<attribute name="isOngoing" nodeId="21351266">false</attribute>
+<attribute name="isEventDriven" nodeId="eb92ad16">false</attribute>
+<attribute name="variabilityType" nodeId="724db7cd">extends</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

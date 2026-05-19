@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" TypeName="Task" Url="process.adv.eya_oracle.base/tasks/design_app_batch_731277AB.html" Name="design_app_batch" BackPath="./../../" Type="Task" NodeiconUrl="" performingRoleName="Application Developer" DisplayName="Design application batch processing and scheduling" Id="_vVyZ0DFyEe-TauTqJPNl_g" ShapeiconUrl="images/task.gif" lang="en" nodeId="1f25c1c3">
+<copyright nodeId="681ab3ff">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="e338a693">design_app_batch</attribute>
+<attribute name="guid" nodeId="34d61abe">_vVyZ0DFyEe-TauTqJPNl_g</attribute>
+<attribute name="presentationName" nodeId="8e97a382">Design application batch processing and scheduling</attribute>
+<attribute name="briefDescription" nodeId="813963b3">Design batch processes and batch schedules that define certain time intervals, frequency and parameters that determine when the batch jobs should be executed. </attribute>
+<attribute name="suppressed" nodeId="1825a58">false</attribute>
+<attribute name="orderingGuide" nodeId="c30c5455"></attribute>
+<attribute name="isAbstract" nodeId="26e11ee2">false</attribute>
+<attribute name="shapeicon" nodeId="43e518c5"></attribute>
+<attribute name="nodeicon" nodeId="53167e53"></attribute>
+<attribute name="variabilityType" nodeId="2f2d9bdb">extendsReplaces</attribute>
+<reference name="presentation" nodeId="857845b4">
+<Element Type="TaskDescription" TypeName="Task Description" NodeiconUrl="" DisplayName="" Id="-yCI_vkC9vM3yuaBxCDC3_A" ShapeiconUrl="images/guidance.gif" nodeId="8a063fc9" Url="" Name="design_app_batch,_vVyZ0DFyEe-TauTqJPNl_g" BackPath="">
+<attribute name="name" nodeId="1fb119b7">design_app_batch,_vVyZ0DFyEe-TauTqJPNl_g</attribute>
+<attribute name="guid" nodeId="ef0cf118">-yCI_vkC9vM3yuaBxCDC3_A</attribute>
+<attribute name="presentationName" nodeId="28c534a9"></attribute>
+<attribute name="briefDescription" nodeId="f8e548a7"></attribute>
+<attribute name="suppressed" nodeId="503a886f">false</attribute>
+<attribute name="orderingGuide" nodeId="23c01f6"></attribute>
+<attribute name="authors" nodeId="cadd5f26"></attribute>
+<attribute name="changeDate" nodeId="64ffa6c0"></attribute>
+<attribute name="changeDescription" nodeId="e3da83bf">OCT 2015 - Minor grammar updates to the brief description and main description.</attribute>
+<attribute name="version" nodeId="92351af9"></attribute>
+<attribute name="mainDescription" nodeId="d48ed350">&lt;p&gt;
+    Define the process by performing the following:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Gather and review the requirements for batch automation, such as what jobs or processes will need to be automated
+    &lt;/li&gt;
+    &lt;li&gt;
+        Create a list of the exact jobs requiring automation along with a brief description of the job, grouped by process
+        and functional area
+    &lt;/li&gt;
+    &lt;li&gt;
+        Work with both functional and technical stakeholders to determine the time and frequency for each job. The
+        information for each job should include, but is not limited to: 
+        &lt;ul&gt;
+            &lt;li&gt;
+                what time and day(s) should the job be executed
+            &lt;/li&gt;
+            &lt;li&gt;
+                how often should the job be executed
+            &lt;/li&gt;
+            &lt;li&gt;
+                dependent jobs or processes
+            &lt;/li&gt;
+            &lt;li&gt;
+                error handling (e.g., what happens if the job fails)
+            &lt;/li&gt;
+            &lt;li&gt;
+                requesting or owning group
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Create the consolidated batch scheduling document, building in the times and dependencies
+    &lt;/li&gt;
+    &lt;li&gt;
+        Share the consolidated document with the stakeholders for final confirmation. This can be an iterative process if
+        corrections are required.&lt;br /&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="externalId" nodeId="663ca323"></attribute>
+<attribute name="keyConsiderations" nodeId="710c0d52"></attribute>
+<attribute name="longPresentationName" nodeId="ec8bc201"></attribute>
+<attribute name="purpose" nodeId="c809300a">To define a schedule that the batch team can follow when they build out the batch jobs during development. It lets the
+development team know when exactly to schedule which jobs and if there are any dependencies between jobs. It enables jobs
+to be executed exactly at the intended time per the overall system design.</attribute>
+<attribute name="alternatives" nodeId="1c2dc04e"></attribute>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="performedBy" nodeId="fc2ebc1a">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Application Developer" Id="_kWXJsTYfEeOOP7mzKGsP2A" ShapeiconUrl="images/role.gif" nodeId="178da23a" Url="core.default.role_def.base/roles/app_developer_8EC93FA7.html" Name="app_developer" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="mandatoryInput" nodeId="eeffdfc0">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Application Technical Specifications" Id="_X3iH8GZ8EeS2OI5bP0AbiQ" ShapeiconUrl="images/artifact.gif" nodeId="2401aa98" Url="core.i_t.common.base/workproducts/app_tech_specs_FB64BD75.html" Name="app_tech_specs" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="output" nodeId="d507ee94">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Batch Processing Schedule" Id="_zq8yACpwEeWUXoxRhMgajw" ShapeiconUrl="images/artifact.gif" nodeId="4674dde9" Url="core.i_t.common.base/workproducts/batch_proc_schedule_32C91B5B.html" Name="batch_proc_schedule" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="Task_TaskDescriptors" nodeId="a2d19e8e">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_30CVodDUEe6Y56Jk6jqfOA,_Q9jXwNDVEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/design_app_batch_731277AB.html" Name="design_app_batch" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Design application batch processing and scheduling" Id="_Q9jXwNDVEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="b2acb78a"></Element>
+</referenceList>
+<referenceList name="VariabilityElement_ImmediateVarieties" nodeId="f57fcb67"></referenceList>
+<reference name="performingRole" nodeId="8649269e">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Application Developer" Id="_kWXJsTYfEeOOP7mzKGsP2A" ShapeiconUrl="images/role.gif" nodeId="fbb2d14f" Url="core.default.role_def.base/roles/app_developer_8EC93FA7.html" Name="app_developer" BackPath="./../../"></Element>
+</reference>
+<referenceList name="customCategories" nodeId="bdd11aac">
+<Element Type="CustomCategory" TypeName="Custom Category" NodeiconUrl="" DisplayName="Tasks" Id="_0Sj48KDNEeOMmqbYX27PPA" ShapeiconUrl="core.default.nav_view.base/customcategories/resources/cat_task51.png" nodeId="3a625939" Url="core.default.nav_view.base/customcategories/task_list_CDC9CEA6.html" Name="task_list" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="e31554a2">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_30CVodDUEe6Y56Jk6jqfOA,_Q9jXwNDVEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/design_app_batch_731277AB.html" Name="design_app_batch" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Design application batch processing and scheduling" Id="_Q9jXwNDVEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="6a90282e">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Development" Id="_N-58wdAOEe6H-rjlu9wPlA" relProcessPath="_N-58wdAOEe6H-rjlu9wPlA" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA" nodeId="a1a5b9dc" Url="process.adv.eya_oracle.base/capabilitypatterns/development_wkstrm_21C01F87.html" Name="development_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="5140b32f">development_wkstrm</attribute>
+<attribute name="guid" nodeId="9ba30347">_N-58wdAOEe6H-rjlu9wPlA</attribute>
+<attribute name="presentationName" nodeId="6cbfc25d">Development</attribute>
+<attribute name="briefDescription" nodeId="578e2548"></attribute>
+<attribute name="suppressed" nodeId="ec6dd580">false</attribute>
+<attribute name="orderingGuide" nodeId="b2106a2b"></attribute>
+<attribute name="isAbstract" nodeId="1c8214c6">false</attribute>
+<attribute name="shapeicon" nodeId="6eb9a9c1"></attribute>
+<attribute name="nodeicon" nodeId="fc4823cf"></attribute>
+<attribute name="prefix" nodeId="a155dbb1">workstream</attribute>
+<attribute name="isPlanned" nodeId="76657b77">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d1e9d42c">false</attribute>
+<attribute name="isOptional" nodeId="94b13680">false</attribute>
+<attribute name="isRepeatable" nodeId="c5eb8fff">false</attribute>
+<attribute name="isOngoing" nodeId="5cf9fd01">false</attribute>
+<attribute name="isEventDriven" nodeId="9a2ff28d">false</attribute>
+<attribute name="variabilityType" nodeId="602d544c">na</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="[Execute Build Cycles 1-n]" Id="_LOhWgduYEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw" nodeId="4de50438" Url="process.adv.eya_oracle.base/capabilitypatterns/execute_build_cycles_1_n_6C160980.html" Name="execute_build_cycles_1_n" BackPath="./../../">
+<attribute name="name" nodeId="648f47e6">execute_build_cycles_1_n</attribute>
+<attribute name="guid" nodeId="877a09c7">_LOhWgduYEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="5d7745c9">[Execute Build Cycles 1-n]</attribute>
+<attribute name="briefDescription" nodeId="2195d8dc">Set of activities and tasks to be performed by the Development workstream while executing build iterations 1-n, spanning from planning for each sprint through unit testing custom components.</attribute>
+<attribute name="suppressed" nodeId="efdc65bb">false</attribute>
+<attribute name="orderingGuide" nodeId="8166a93d"></attribute>
+<attribute name="isAbstract" nodeId="42366b47">false</attribute>
+<attribute name="shapeicon" nodeId="b2df8154"></attribute>
+<attribute name="nodeicon" nodeId="4eeddb34"></attribute>
+<attribute name="prefix" nodeId="31c418e"></attribute>
+<attribute name="isPlanned" nodeId="4878c999">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="45dab34a">false</attribute>
+<attribute name="isOptional" nodeId="7a55fc3d">false</attribute>
+<attribute name="isRepeatable" nodeId="39e7ccb1">true</attribute>
+<attribute name="isOngoing" nodeId="eb93176b">false</attribute>
+<attribute name="isEventDriven" nodeId="3bcc4540">false</attribute>
+<attribute name="variabilityType" nodeId="493e606a">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Document Technical Design Specifications" Id="_30CVodDUEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_30CVodDUEe6Y56Jk6jqfOA" nodeId="1f912104" Url="process.adv.eya_oracle.base/capabilitypatterns/doc_tech_design_specs_A320D715.html" Name="doc_tech_design_specs" BackPath="./../../">
+<attribute name="name" nodeId="9f199c86">doc_tech_design_specs</attribute>
+<attribute name="guid" nodeId="b3312f7c">_30CVodDUEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="baa39889">Document Technical Design Specifications</attribute>
+<attribute name="briefDescription" nodeId="867704ae">Define the technical specifications needed to support the functional design along with the required batch processes and schedules.</attribute>
+<attribute name="suppressed" nodeId="c15b7f39">false</attribute>
+<attribute name="orderingGuide" nodeId="92088017"></attribute>
+<attribute name="isAbstract" nodeId="7e7662b9">false</attribute>
+<attribute name="shapeicon" nodeId="38ceb846"></attribute>
+<attribute name="nodeicon" nodeId="16860815"></attribute>
+<attribute name="prefix" nodeId="3e0431d9"></attribute>
+<attribute name="isPlanned" nodeId="d769bfc2">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="3268708a">false</attribute>
+<attribute name="isOptional" nodeId="e582db16">false</attribute>
+<attribute name="isRepeatable" nodeId="a8a127b2">false</attribute>
+<attribute name="isOngoing" nodeId="68c865b8">false</attribute>
+<attribute name="isEventDriven" nodeId="c61c2616">false</attribute>
+<attribute name="variabilityType" nodeId="3752d424">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_30CVodDUEe6Y56Jk6jqfOA,_Q9jXwNDVEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/design_app_batch_731277AB.html" Name="design_app_batch" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Design application batch processing and scheduling" Id="_Q9jXwNDVEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="d5d07a10">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="689bccb1" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="37f7cc1d">eya_oracle</attribute>
+<attribute name="guid" nodeId="1e0c28aa">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="9d9f73ed">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="d7b158b2"></attribute>
+<attribute name="suppressed" nodeId="6e9a4478">false</attribute>
+<attribute name="orderingGuide" nodeId="87a9be9f"></attribute>
+<attribute name="isAbstract" nodeId="a304644f">false</attribute>
+<attribute name="shapeicon" nodeId="47c3bf45"></attribute>
+<attribute name="nodeicon" nodeId="8a5a8924"></attribute>
+<attribute name="prefix" nodeId="12c73891"></attribute>
+<attribute name="isPlanned" nodeId="be512ece">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="3741feec">false</attribute>
+<attribute name="isOptional" nodeId="3b5019a2">false</attribute>
+<attribute name="isRepeatable" nodeId="824652c1">false</attribute>
+<attribute name="isOngoing" nodeId="aea9eb25">false</attribute>
+<attribute name="isEventDriven" nodeId="3f5ba3af">false</attribute>
+<attribute name="variabilityType" nodeId="c7b3d0bb">replaces</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Progressive Build" Id="_c4A0kYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA" nodeId="15e25cd3" Url="process.adv.eya_oracle.base/deliveryprocesses/progressive_build_70B7DD74.html" Name="progressive_build" BackPath="./../../">
+<attribute name="name" nodeId="8e9fb5db">progressive_build</attribute>
+<attribute name="guid" nodeId="ed6f79f8">_c4A0kYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="612b3e6f">Progressive Build</attribute>
+<attribute name="briefDescription" nodeId="3cd2efc8">Iterate through the build cycles and drive business acceptance through incremental demos to key client stakeholders. Execute mock conversions and and prepare for system integration and user acceptance testing. Manage stakeholder engagement and communications around the change.</attribute>
+<attribute name="suppressed" nodeId="bd0fd19c">false</attribute>
+<attribute name="orderingGuide" nodeId="532d5095"></attribute>
+<attribute name="isAbstract" nodeId="87a5f42a">false</attribute>
+<attribute name="shapeicon" nodeId="d772dbc9"></attribute>
+<attribute name="nodeicon" nodeId="9ca53734"></attribute>
+<attribute name="prefix" nodeId="c2ed0286"></attribute>
+<attribute name="isPlanned" nodeId="9f82b54f">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="9459f47c">false</attribute>
+<attribute name="isOptional" nodeId="c4e30056">false</attribute>
+<attribute name="isRepeatable" nodeId="f0279444">true</attribute>
+<attribute name="isOngoing" nodeId="97a98e7d">false</attribute>
+<attribute name="isEventDriven" nodeId="a9a1214c">false</attribute>
+<attribute name="variabilityType" nodeId="1c03d634">na</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Execute Build Cycles 1-n" Id="_Sd7D0duVEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_Sd7D0duVEe6TH6yb1zVWhw" nodeId="2744b26f" Url="process.adv.eya_oracle.base/deliveryprocesses/execute_build_cycles_1_n_3FC12A80.html" Name="execute_build_cycles_1_n" BackPath="./../../">
+<attribute name="name" nodeId="377c9047">execute_build_cycles_1_n</attribute>
+<attribute name="guid" nodeId="8272779d">_Sd7D0duVEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="51cf08cb">Execute Build Cycles 1-n</attribute>
+<attribute name="briefDescription" nodeId="10004041">Iterate through the build cycles by planning for each sprint, defining the technical and integration specifications and data conversion scripts and completing the configurations and development. Validate the builds and conduct demos with the client.</attribute>
+<attribute name="suppressed" nodeId="d46c1d94">false</attribute>
+<attribute name="orderingGuide" nodeId="6202c06e"></attribute>
+<attribute name="isAbstract" nodeId="f8e586fd">false</attribute>
+<attribute name="shapeicon" nodeId="600f0bd2"></attribute>
+<attribute name="nodeicon" nodeId="21b3e20b"></attribute>
+<attribute name="prefix" nodeId="a6010ccf"></attribute>
+<attribute name="isPlanned" nodeId="896827e8">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="bf873f0d">false</attribute>
+<attribute name="isOptional" nodeId="da29f8b4">false</attribute>
+<attribute name="isRepeatable" nodeId="c247cd7b">true</attribute>
+<attribute name="isOngoing" nodeId="ed6eb41a">false</attribute>
+<attribute name="isEventDriven" nodeId="17a3fe5d">false</attribute>
+<attribute name="variabilityType" nodeId="943fafa7">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Document Technical Design Specifications" Id="_b-xm0dvIEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_Sd7D0duVEe6TH6yb1zVWhw,_b-xm0dvIEe6TH6yb1zVWhw" nodeId="f1610071" Url="process.adv.eya_oracle.base/deliveryprocesses/doc_tech_design_specs_7E88E9B4.html" Name="doc_tech_design_specs" BackPath="./../../">
+<attribute name="name" nodeId="ea8da678">doc_tech_design_specs</attribute>
+<attribute name="guid" nodeId="e71fd634">_b-xm0dvIEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="72c0abd">Document Technical Design Specifications</attribute>
+<attribute name="briefDescription" nodeId="3656f183">Define the technical specifications needed to support the functional design along with the required batch processes and schedules.</attribute>
+<attribute name="suppressed" nodeId="2cd53820">false</attribute>
+<attribute name="orderingGuide" nodeId="9c0e0c0b"></attribute>
+<attribute name="isAbstract" nodeId="30a87f9e">false</attribute>
+<attribute name="shapeicon" nodeId="ac66f9c7"></attribute>
+<attribute name="nodeicon" nodeId="d014c860"></attribute>
+<attribute name="prefix" nodeId="25bdbf5"></attribute>
+<attribute name="isPlanned" nodeId="379b99b9">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="73b73a9">false</attribute>
+<attribute name="isOptional" nodeId="c306b564">false</attribute>
+<attribute name="isRepeatable" nodeId="8e74e96b">false</attribute>
+<attribute name="isOngoing" nodeId="9cc8e198">false</attribute>
+<attribute name="isEventDriven" nodeId="fabe4958">false</attribute>
+<attribute name="variabilityType" nodeId="ff366210">extends</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

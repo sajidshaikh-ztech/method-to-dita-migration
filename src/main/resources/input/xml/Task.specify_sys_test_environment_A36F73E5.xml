@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Specify system test environment" Id="_34ZzYCtAEeWax4C3D-8TDw" ShapeiconUrl="images/task.gif" lang="en" nodeId="1e6f2ebe" Url="practice.ita.delv.it_test.base/tasks/specify_sys_test_environment_A36F73E5.html" Name="specify_sys_test_environment" BackPath="./../../">
+<copyright nodeId="7648f6be">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="514c051e">specify_sys_test_environment</attribute>
+<attribute name="guid" nodeId="c57da5d">_34ZzYCtAEeWax4C3D-8TDw</attribute>
+<attribute name="presentationName" nodeId="bc0443df">Specify system test environment</attribute>
+<attribute name="briefDescription" nodeId="df60e182">Collaborate with stakeholders in the test effort to develop test environment requirements.</attribute>
+<attribute name="suppressed" nodeId="678b0450">false</attribute>
+<attribute name="orderingGuide" nodeId="fd65e72c"></attribute>
+<attribute name="isAbstract" nodeId="16134993">false</attribute>
+<attribute name="shapeicon" nodeId="635c8b40"></attribute>
+<attribute name="nodeicon" nodeId="244dba37"></attribute>
+<attribute name="variabilityType" nodeId="81627f41">extends</attribute>
+<reference name="presentation" nodeId="b9017f46">
+<Element Type="TaskDescription" TypeName="Task Description" NodeiconUrl="" DisplayName="Specify system test environment" Id="-Zhpe_8AtfQMLrR5tkKYLyg" ShapeiconUrl="images/guidance.gif" nodeId="b27d661e" Url="" Name="specify_s_i_test_environment,_34ZzYCtAEeWax4C3D-8TDw" BackPath="">
+<copyright nodeId="16fa1f25">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="94770148">specify_s_i_test_environment,_34ZzYCtAEeWax4C3D-8TDw</attribute>
+<attribute name="guid" nodeId="6a7114e4">-Zhpe_8AtfQMLrR5tkKYLyg</attribute>
+<attribute name="presentationName" nodeId="ebfa8eab">Specify system test environment</attribute>
+<attribute name="briefDescription" nodeId="e2119cc8"></attribute>
+<attribute name="suppressed" nodeId="440c4e1c">false</attribute>
+<attribute name="orderingGuide" nodeId="497bc0bd"></attribute>
+<attribute name="authors" nodeId="a033a160"></attribute>
+<attribute name="changeDate" nodeId="68ed9f81">Thu Jul 30 19:51:12 EDT 2015</attribute>
+<attribute name="changeDescription" nodeId="6ece8e62">OCT 2015 - Grammatical and style errors were fixed in the main description.</attribute>
+<attribute name="version" nodeId="e5e6273c"></attribute>
+<attribute name="mainDescription" nodeId="3b588e77">&lt;p&gt;
+    Performing this task is a collaborative effort where stakeholders define test environment requirements through working
+    sessions.
+&lt;/p&gt;
+&lt;p&gt;
+    When defining requirements for the test environment, consider the following:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        What test levels and test types are defined?
+    &lt;/li&gt;
+    &lt;li&gt;
+        Is connectivity to external systems needed?
+    &lt;/li&gt;
+    &lt;li&gt;
+        Is connectivity to ancillary and other internal applications needed?
+    &lt;/li&gt;
+    &lt;li&gt;
+        How many batch cycles are required in each test environment per week?
+    &lt;/li&gt;
+    &lt;li&gt;
+        Is there a need for special batch cycles (month end, year-end) in the test environment?
+    &lt;/li&gt;
+    &lt;li&gt;
+        Is there a need to generate files or reports from the test environment?
+    &lt;/li&gt;
+    &lt;li&gt;
+        Is there a need to run special jobs in the test environment?
+    &lt;/li&gt;
+    &lt;li&gt;
+        Is there a need for to perform a purge or refresh of the test environment with a certain frequency or
+        selectivity?&amp;nbsp;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Is there a need to consider software and hardware requirements such as operating system and security updates?
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="externalId" nodeId="fec91421"></attribute>
+<attribute name="keyConsiderations" nodeId="ffb12eef"></attribute>
+<attribute name="longPresentationName" nodeId="858bf316"></attribute>
+<attribute name="purpose" nodeId="e1b2672a">&lt;p&gt;
+    To define an environment that simulates a production environment for validating the behavior of the entire solution
+    fulfills solution requirements.
+&lt;/p&gt;</attribute>
+<attribute name="alternatives" nodeId="f64f493b"></attribute>
+</Element>
+</reference>
+<reference name="variabilityBasedOnElement" nodeId="18e21115">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Specify test environment" Id="_0FgK8OYGEeOqmb5IikO7mw" ShapeiconUrl="images/task.gif" nodeId="8509006" Url="practice.ita.delv.it_test.base/tasks/specify_test_environment_B6B97BD.html" Name="specify_test_environment" BackPath="./../../"></Element>
+</reference>
+<referenceList sortValue="Manual" name="performedBy" nodeId="d3c6ae97">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Test Lead" Id="_Z11mxD8eEeOOEPaNsP0t0A" ShapeiconUrl="images/role.gif" nodeId="35c8fcb1" Url="core.default.role_def.base/roles/test_lead_3E7314F5.html" Name="test_lead" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="mandatoryInput" nodeId="3308f355">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Test Plan" Id="_Kme30OX3EeOqmb5IikO7mw" ShapeiconUrl="images/artifact.gif" nodeId="9643a889" Url="core.i_t.common.base/workproducts/test_plan_4519A68.html" Name="test_plan" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Test Strategy" Id="_NqXr8OW9EeOeOeyRJA3ZBg" ShapeiconUrl="images/artifact.gif" nodeId="f7d2ddb4" Url="core.i_t.common.base/workproducts/test_strategy_603DD4BD.html" Name="test_strategy" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="output" nodeId="7a3c593">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Test Environment Specification" Id="_CH4gkOYHEeOqmb5IikO7mw" ShapeiconUrl="images/artifact.gif" nodeId="55303ec3" Url="core.i_t.common.base/workproducts/test_env_spec_FCDACF29.html" Name="test_env_spec" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="Task_TaskDescriptors" nodeId="de704a5c">
+<Element TypeName="Task Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_8vJT6JK5EeSEOeG-bGncjA,_xmGM0Dc-EeWp1olIN1xWiA" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/specify_sys_test_environment_A36F73E5.html" Name="specify_sys_test_environment" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Specify system test environment" Id="_xmGM0Dc-EeWp1olIN1xWiA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="6ceeebbd"></Element>
+</referenceList>
+<referenceList name="customCategories" nodeId="5c9849ce">
+<Element Type="CustomCategory" TypeName="Custom Category" NodeiconUrl="" DisplayName="Tasks" Id="_0Sj48KDNEeOMmqbYX27PPA" ShapeiconUrl="core.default.nav_view.base/customcategories/resources/cat_task51.png" nodeId="96e52b17" Url="core.default.nav_view.base/customcategories/task_list_CDC9CEA6.html" Name="task_list" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="f3cf5925">
+<Element TypeName="Task Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_8vJT6JK5EeSEOeG-bGncjA,_xmGM0Dc-EeWp1olIN1xWiA" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/specify_sys_test_environment_A36F73E5.html" Name="specify_sys_test_environment" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Specify system test environment" Id="_xmGM0Dc-EeWp1olIN1xWiA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="9a1b7c6a">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="IT Testing (Levels)" Id="_HkiWIeW9EeOeOeyRJA3ZBg" relProcessPath="_HkiWIeW9EeOeOeyRJA3ZBg" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg" nodeId="72a4bc6e" Url="practice.ita.delv.it_test.assign/capabilitypatterns/it_test_levels_9A95B916.html" Name="it_test_levels" BackPath="./../../">
+<attribute name="name" nodeId="898e6a26">it_test_levels</attribute>
+<attribute name="guid" nodeId="c8259775">_HkiWIeW9EeOeOeyRJA3ZBg</attribute>
+<attribute name="presentationName" nodeId="418b9542">IT Testing (Levels)</attribute>
+<attribute name="briefDescription" nodeId="926629c6"></attribute>
+<attribute name="suppressed" nodeId="520472ec">false</attribute>
+<attribute name="orderingGuide" nodeId="a575f07c"></attribute>
+<attribute name="isAbstract" nodeId="c12a6f19">false</attribute>
+<attribute name="shapeicon" nodeId="7769da6e"></attribute>
+<attribute name="nodeicon" nodeId="a4341230"></attribute>
+<attribute name="prefix" nodeId="80a23cf7"></attribute>
+<attribute name="isPlanned" nodeId="1b9d1bda">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="3c16185c">false</attribute>
+<attribute name="isOptional" nodeId="97f9fbe2">false</attribute>
+<attribute name="isRepeatable" nodeId="375ca5f">false</attribute>
+<attribute name="isOngoing" nodeId="2bce5174">false</attribute>
+<attribute name="isEventDriven" nodeId="30ffd06e">false</attribute>
+<attribute name="variabilityType" nodeId="3370457e">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Design System Tests" Id="_8vJT6JK5EeSEOeG-bGncjA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_8vJT6JK5EeSEOeG-bGncjA" nodeId="ffdaac83" Url="practice.ita.delv.it_test.assign/capabilitypatterns/Design System Tests_F084FCC4.html" Name="Design System Tests" BackPath="./../../">
+<attribute name="name" nodeId="8800ed23">Design System Tests</attribute>
+<attribute name="guid" nodeId="2f7fcda6">_8vJT6JK5EeSEOeG-bGncjA</attribute>
+<attribute name="presentationName" nodeId="1f90944b">Design System Tests</attribute>
+<attribute name="briefDescription" nodeId="c6cc3bb7">Define how to validate that the behavior of the entire system, including internal and external systems, fulfills solution requirements.</attribute>
+<attribute name="suppressed" nodeId="2a6cf33f">false</attribute>
+<attribute name="orderingGuide" nodeId="5041bd6f"></attribute>
+<attribute name="isAbstract" nodeId="adbd7a0b">false</attribute>
+<attribute name="shapeicon" nodeId="e170a3b9"></attribute>
+<attribute name="nodeicon" nodeId="e2f431a5"></attribute>
+<attribute name="prefix" nodeId="5f9ad371"></attribute>
+<attribute name="isPlanned" nodeId="d6f44d63">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="2422797f">false</attribute>
+<attribute name="isOptional" nodeId="3ed28a05">false</attribute>
+<attribute name="isRepeatable" nodeId="62f42557">false</attribute>
+<attribute name="isOngoing" nodeId="dfe93cce">false</attribute>
+<attribute name="isEventDriven" nodeId="6671bd9a">false</attribute>
+<attribute name="variabilityType" nodeId="68a6d459">na</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

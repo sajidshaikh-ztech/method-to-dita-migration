@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_rshJkNEpEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_rollback_plan_4E0131FA.html" Name="define_rollback_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define rollback plan" Id="_rshJkNEpEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" lang="en" nodeId="74743176">
+<copyright nodeId="db3286a5">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="46c5520d">define_rollback_plan</attribute>
+<attribute name="guid" nodeId="548a8c5e">_rshJkNEpEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="9f2acdc5">Define rollback plan</attribute>
+<attribute name="briefDescription" nodeId="bd5091c7">An automated or manual process which specifies how the cutover is reversed to a pre-transition or other defined interim state in the event that some critical aspect has failed.</attribute>
+<attribute name="suppressed" nodeId="43930b6">false</attribute>
+<attribute name="orderingGuide" nodeId="b579935b"></attribute>
+<attribute name="isAbstract" nodeId="481be867">false</attribute>
+<attribute name="shapeicon" nodeId="cfc9d5ce"></attribute>
+<attribute name="nodeicon" nodeId="8286c957"></attribute>
+<attribute name="prefix" nodeId="3e739979"></attribute>
+<attribute name="isPlanned" nodeId="7c17a3e">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="8ff2fc66">false</attribute>
+<attribute name="isOptional" nodeId="917d7479">false</attribute>
+<attribute name="isRepeatable" nodeId="14bc6e03">false</attribute>
+<attribute name="isOngoing" nodeId="72f71033">false</attribute>
+<attribute name="isEventDriven" nodeId="9ccb63ba">false</attribute>
+<attribute name="isSynchronizedWithSource" nodeId="8aded1ee">true</attribute>
+<reference name="presentation" nodeId="d394c563">
+<Element Type="DescriptorDescription" TypeName="Descriptor Description" NodeiconUrl="" DisplayName="Define rollback plan" Id="-auzC_q4LCt4rV9AZNbH0IQ" ShapeiconUrl="images/guidance.gif" nodeId="6a65687c" Url="" Name="define_rollback_plan,_rshJkNEpEe6Y56Jk6jqfOA" BackPath="">
+<copyright nodeId="5896d5ea">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="a678a001">define_rollback_plan,_rshJkNEpEe6Y56Jk6jqfOA</attribute>
+<attribute name="guid" nodeId="1b38d189">-auzC_q4LCt4rV9AZNbH0IQ</attribute>
+<attribute name="presentationName" nodeId="7dc199a6">Define rollback plan</attribute>
+<attribute name="briefDescription" nodeId="4919d6ed"></attribute>
+<attribute name="suppressed" nodeId="b2fa1156">false</attribute>
+<attribute name="orderingGuide" nodeId="f10b8ea4"></attribute>
+<attribute name="authors" nodeId="a724383b"></attribute>
+<attribute name="changeDate" nodeId="f4628363"></attribute>
+<attribute name="changeDescription" nodeId="8c285fd6"></attribute>
+<attribute name="version" nodeId="b6c1f4ac"></attribute>
+<attribute name="mainDescription" nodeId="3522f2f0"></attribute>
+<attribute name="externalId" nodeId="1a25928b"></attribute>
+<attribute name="keyConsiderations" nodeId="b02579ec">&lt;p&gt;
+    The main goal of the rollback plan is to maintain business operations.&amp;nbsp; Look closely at what is needed to deliver
+    a minimum level of service and functionality, or to revert to the previous level. Keep the plan simple – use clear,
+    plain language that will be easily understood by the varied groups of users from the business and technology.
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Identify the trigger – what, specifically, will cause the need to implement the plan? Decide which actions need to
+        be taken, and when. Determine who is in charge at each stage and what type of reporting process they must
+        follow.&amp;nbsp;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Identify everyone&apos;s needs – have people throughout the company identify what they must have, at a minimum, to
+        continue operations.&amp;nbsp;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Define time periods – What must be done during the first hour of the plan being implemented? The first day? The
+        first week? If the team looks at the plan in this way, they&apos;re less likely to leave out important details.&amp;nbsp;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Review the current state operating model when determining fail-over. What are the critical operations needed to
+        maintain function and support?&amp;nbsp;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Consider related resource restrictions – will the organization be able to function the same way if it’s necessary
+        to implement a Plan B? Will Plan B necessarily reduce capabilities?&amp;nbsp;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Define &apos;success&apos; – what activities are necessary to return to normal operations?&amp;nbsp;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Manage risks – look for opportunities to reduce risk wherever possible. This may help reduce, or even eliminate,
+        the need for full contingency plans in certain areas.
+    &lt;/li&gt;
+&lt;/ul&gt;&lt;br /&gt;
+&lt;p&gt;
+    It is also critical to review lessons learned from an executed roll-back process as it may&amp;nbsp;yield missed or
+    under-estimated risks that can be planned for in the current circumstance. Whether a new plan is developed or based on
+    or updated with an existing or previous plan,&amp;nbsp;it should be tested prior to the deployment event to determine
+    viability and feasibility.
+&lt;/p&gt;
+&lt;p&gt;
+    Ideally, an organization should update disaster recovery process and procedures in line with the transition. This may
+    not be a requirement of the transition or implementation, but disaster recovery should not be viewed as a solution for
+    fail-over even if the previous state disaster recovery environment is still in place.&lt;br /&gt;
+    &lt;br /&gt;
+    Include fail-over plans in standard operating procedures – make sure initial training is provided on the plan, and
+    keep&amp;nbsp;all stakeholders&amp;nbsp;up-to-date on changes.
+&lt;/p&gt;
+&lt;p&gt;
+    It is important to note that a fail-over process is not a disaster recovery contingency&amp;nbsp;component. Although there
+    are some similarities in the functions, disaster recovery is not a fail-over solution.
+&lt;/p&gt;
+&lt;p&gt;
+    Companies concerned with meeting service level agreements and stakeholder expectations should require fail-over or
+    rollback plans as part of the cutover planning process. Without the ability to recognize failure and quickly recover,
+    business operations may be put at significant risk.
+&lt;/p&gt;
+&lt;p&gt;
+    Develop the fail-over or rollback plan with a realistic timeline that leaves time to accommodate delays due to even
+    minor unforeseen circumstances. These “unknowns” can result in significant project overruns, as the dependencies
+    between various implementation activities tend to compound schedule slippage and resource costs because team members
+    are not effectively utilized. Develop and adhere to a realistic cutover schedule that fully considers the complexity of
+    the system customization and also helps management prioritize implementation of system features the business needs most
+    – and most immediately.&lt;br /&gt;
+&lt;/p&gt;&lt;br /&gt;</attribute>
+<attribute name="longPresentationName" nodeId="c4e1c180"></attribute>
+<attribute name="usageGuidance" nodeId="4fa5aed4"></attribute>
+<attribute name="refinedDescription" nodeId="4b0e4d5a">&lt;p&gt;
+    The&amp;nbsp;rollback process refers to the activities needed to revert a deployed capability to the last-known-good
+    configuration or to a manual backup process.&amp;nbsp; The&amp;nbsp;roll-back plan is the documentation of that process.&lt;br /&gt;
+    &lt;br /&gt;
+    A&amp;nbsp;rollback plan can be invoked for a variety of reasons, including corruption of the production code base;
+    inoperable components; an unplanned undesirable effect of the release on other production systems; or for other
+    reasons.
+&lt;/p&gt;
+&lt;p&gt;
+    The rollback process should include activities and tasks to be followed in various trigger scenarios. Typical scenarios
+    include one in which a “no-go” decision is made immediately prior to conversion to a new system or release, and when a
+    “no-go” decision is made after a conversion has started.&lt;br /&gt;
+    &lt;br /&gt;
+    The rollback&amp;nbsp;process should include the steps to be taken to revert to the previous release, including operations
+    activities, interim procedures and customer, stakeholder and employee communications.
+&lt;/p&gt;
+&lt;p&gt;
+    When starting to build the roll-back process, first determine if the enterprise has an&amp;nbsp;existing plan, and if so,
+    whether it&amp;nbsp;needs to be updated, or decide that a new plan must be developed. Activities of the fail-over plan
+    should be specific to the requirements of the current deployment.&lt;br /&gt;
+    &lt;br /&gt;
+    Determine if a rollback&amp;nbsp;plan exists and level of re-use:&amp;nbsp;
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Substantiate whether the organization has a roll-back plan or process. An existing process may have been built as
+        part of a contingency plan or for a previous release.&amp;nbsp;
+    &lt;/li&gt;
+    &lt;li&gt;
+        If there is a plan, review it to determine&amp;nbsp;reusability.&amp;nbsp;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Check with other related areas within the organization for plans that may be used as a template.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Update, add, or delete information as necessary.
+    &lt;/li&gt;
+    &lt;li&gt;
+        A benefit of using an existing plan is that it gives insight into how the organization thinks, performs or operates
+        in crisis.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    If a rollback plan does not exist, or an existing plan can&apos;t be re-used, develop a new&amp;nbsp;process by documenting the
+    risks that will be presented by the various trigger scenarios and identify actions to mitigate those risks.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    Mitigation actions can include, for the first scenario, in which a “no-go” decision is made prior to conversion:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Notify key stakeholders to provide a justification to invoke the fail-over and seek approval for taking action
+    &lt;/li&gt;
+    &lt;li&gt;
+        Notify vendors and internal support personnel to stop the scheduled installation
+    &lt;/li&gt;
+    &lt;li&gt;
+        Notify business and conversion support personnel to cancel migration to new policies and procedures and schedule
+        changes
+    &lt;/li&gt;
+    &lt;li&gt;
+        Notify customers of service disruption and schedule changes
+    &lt;/li&gt;
+    &lt;li&gt;
+        Notify employee and customer communication representatives
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    Steps to be taken in the second scenario, in which a “no-go” decision is made after a conversion has started, include:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        De-install new application
+    &lt;/li&gt;
+    &lt;li&gt;
+        Revert to the previous state – the system scheduled for decommissioning
+    &lt;/li&gt;
+    &lt;li&gt;
+        Reinstate original procedures and forms
+    &lt;/li&gt;
+    &lt;li&gt;
+        Notify personnel to move to off-line procedures in certain situations (e.g., the re-install is not completed by a
+        certain time)
+    &lt;/li&gt;
+    &lt;li&gt;
+        Notify personnel of schedule changes
+    &lt;/li&gt;
+    &lt;li&gt;
+        Distribute customer communications
+    &lt;/li&gt;
+    &lt;li&gt;
+        Notify personnel to shift focus to contingency procedures
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+</Element>
+</reference>
+<reference name="superActivities" nodeId="adc61b25">
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Prepare for Cutover and Deployment" Id="_QQPskdEnEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA" nodeId="87d78a04" Url="process.adv.eya_oracle.base/capabilitypatterns/prepare_cutover_deployment_ABC106C4.html" Name="prepare_cutover_deployment" BackPath="./../../">
+<attribute name="name" nodeId="c7be107">prepare_cutover_deployment</attribute>
+<attribute name="guid" nodeId="99edaac8">_QQPskdEnEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="d1109875">Prepare for Cutover and Deployment</attribute>
+<attribute name="briefDescription" nodeId="b7b1b974">Define the approach, plan and governance tasks to manage the transition of the target state Oracle solution into the production environment.</attribute>
+<attribute name="suppressed" nodeId="efbc4f12">false</attribute>
+<attribute name="orderingGuide" nodeId="4af00444"></attribute>
+<attribute name="isAbstract" nodeId="58a5f6fd">false</attribute>
+<attribute name="shapeicon" nodeId="817d46a5"></attribute>
+<attribute name="nodeicon" nodeId="d76d272d"></attribute>
+<attribute name="prefix" nodeId="dfdbc42c"></attribute>
+<attribute name="isPlanned" nodeId="1aca29ca">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="1f7cc221">false</attribute>
+<attribute name="isOptional" nodeId="59094801">false</attribute>
+<attribute name="isRepeatable" nodeId="2f37f8bf">false</attribute>
+<attribute name="isOngoing" nodeId="8cc2e0be">false</attribute>
+<attribute name="isEventDriven" nodeId="a057d46c">false</attribute>
+<attribute name="variabilityType" nodeId="412158ad">na</attribute>
+</Element>
+</reference>
+<referenceList name="linkToPredecessor" nodeId="ee1c4d1f"></referenceList>
+<reference name="Task" nodeId="7d8ac3b9">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Define rollback plan" Id="_0pJbIDHFEe-ymZgH1AiGoQ" ShapeiconUrl="images/task.gif" nodeId="3563e513" Url="process.adv.eya_oracle.base/tasks/define_rollback_plan_4E0131FA.html" Name="define_rollback_plan" BackPath="./../../"></Element>
+</reference>
+<referenceList sortValue="Manual" name="additionallyPerformedBy" nodeId="d0220d9a">
+<Element TypeName="Role Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_rshJkNEpEe6Y56Jk6jqfOA_MaaBsNNoEe-Fuo3rkO5x4w" ConcreteType="Role" Url="process.adv.eya_oracle.base/roles/soln_architect_1699084C.html" Name="soln_architect" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Solution Architect" Id="_rshJkNEpEe6Y56Jk6jqfOA_MaaBsNNoEe-Fuo3rkO5x4w" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="842d7f1a"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="mandatoryInput" nodeId="c1d63821">
+<Element TypeName="Work Product Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_ioWaYNEpEe6Y56Jk6jqfOA_DsttgPDVEeOFgpTUvzaUCQ" ConcreteType="Artifact" Url="core.ops.common.base/workproducts/cutover_deploy_approach_284EDC70.html" Name="cutover_deploy_approach" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Cutover and Deployment Approach" Id="_ioWaYNEpEe6Y56Jk6jqfOA_DsttgPDVEeOFgpTUvzaUCQ" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="df7e59d4"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="output" nodeId="3376b958">
+<Element TypeName="Work Product Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_rshJkNEpEe6Y56Jk6jqfOA_TOLlcPdmEeOgTqoejOJlgA" ConcreteType="Artifact" Url="core.ops.common.base/workproducts/rollback_plan_2FC382BC.html" Name="rollback_plan" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Rollback Plan" Id="_rshJkNEpEe6Y56Jk6jqfOA_TOLlcPdmEeOgTqoejOJlgA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="7a5975eb"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="performedPrimarilyBy" nodeId="da740eca">
+<Element TypeName="Role Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_rshJkNEpEe6Y56Jk6jqfOA_6At4MCygEe-bo7_6LoJ2iQ" ConcreteType="Role" Url="process.adv.eya_oracle.base/roles/tech_lead_30CEAD95.html" Name="tech_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Technical Lead" Id="_rshJkNEpEe6Y56Jk6jqfOA_6At4MCygEe-bo7_6LoJ2iQ" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="6972d5f6"></Element>
+</referenceList>
+<referenceList name="selectedSteps" nodeId="768f9fc5">
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Review data object dependencies" Id="_TjgeEEIiEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="74962d2b" Url="" Name="Review data object dependencies" BackPath="">
+<copyright nodeId="b7bd7e53">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="7321b6d3">Review data object dependencies</attribute>
+<attribute name="guid" nodeId="b98a64bd">_TjgeEEIiEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="a17448cf">Review data object dependencies</attribute>
+<attribute name="briefDescription" nodeId="73805340"></attribute>
+<attribute name="suppressed" nodeId="75685901">false</attribute>
+<attribute name="orderingGuide" nodeId="ae81934d"></attribute>
+<attribute name="variabilityType" nodeId="f64f0b76">na</attribute>
+<attribute name="sectionName" nodeId="cda4f6a2"></attribute>
+<attribute name="sectionDescription" nodeId="c88ced9d"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="e5c9500d">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_rshJkNEpEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_rollback_plan_4E0131FA.html" Name="define_rollback_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define rollback plan" Id="_rshJkNEpEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="adb69d42"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Identify strategic backup points based on load duration and data volume" Id="_W279sEIiEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="dbc5804c" Url="" Name="Identify strategic backup points based on load duration and data volume" BackPath="">
+<copyright nodeId="55b4b26">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="71a017b3">Identify strategic backup points based on load duration and data volume</attribute>
+<attribute name="guid" nodeId="c71cb9f4">_W279sEIiEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="e1174bd6">Identify strategic backup points based on load duration and data volume</attribute>
+<attribute name="briefDescription" nodeId="5edf490f"></attribute>
+<attribute name="suppressed" nodeId="88a2055b">false</attribute>
+<attribute name="orderingGuide" nodeId="e57404f8"></attribute>
+<attribute name="variabilityType" nodeId="a705658c">na</attribute>
+<attribute name="sectionName" nodeId="969c8e59"></attribute>
+<attribute name="sectionDescription" nodeId="3c8313d7"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="5763f660">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_rshJkNEpEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_rollback_plan_4E0131FA.html" Name="define_rollback_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define rollback plan" Id="_rshJkNEpEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="9f3787b4"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Determine threshold for rolling back vs fixing load in place" Id="_YLYBEEIiEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="84831d2c" Url="" Name="Determine threshold for rolling back vs fixing load in place" BackPath="">
+<copyright nodeId="941161f1">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="ed24de05">Determine threshold for rolling back vs fixing load in place</attribute>
+<attribute name="guid" nodeId="8b79048f">_YLYBEEIiEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="192175ae">Determine threshold for rolling back vs fixing load in place</attribute>
+<attribute name="briefDescription" nodeId="2d53803b"></attribute>
+<attribute name="suppressed" nodeId="e140b0ab">false</attribute>
+<attribute name="orderingGuide" nodeId="4f6cc9d0"></attribute>
+<attribute name="variabilityType" nodeId="cba0ac3c">na</attribute>
+<attribute name="sectionName" nodeId="d1617eff"></attribute>
+<attribute name="sectionDescription" nodeId="cff7784b"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="4733ba87">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_rshJkNEpEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_rollback_plan_4E0131FA.html" Name="define_rollback_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define rollback plan" Id="_rshJkNEpEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="f3517011"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Agree rollback plan with stakeholders" Id="_Zl3CEEIiEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="1dbc6c9b" Url="" Name="Agree rollback plan with stakeholders" BackPath="">
+<copyright nodeId="331a0c84">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="d5eb9e77">Agree rollback plan with stakeholders</attribute>
+<attribute name="guid" nodeId="4bd8ef13">_Zl3CEEIiEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="9165d86d">Agree rollback plan with stakeholders</attribute>
+<attribute name="briefDescription" nodeId="abdba3f5"></attribute>
+<attribute name="suppressed" nodeId="b340a22e">false</attribute>
+<attribute name="orderingGuide" nodeId="898ae5e0"></attribute>
+<attribute name="variabilityType" nodeId="c96a63c3">na</attribute>
+<attribute name="sectionName" nodeId="1eecf8a5"></attribute>
+<attribute name="sectionDescription" nodeId="9086cf16"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="8a6ca371">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_rshJkNEpEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_rollback_plan_4E0131FA.html" Name="define_rollback_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define rollback plan" Id="_rshJkNEpEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="3aed4f58"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Sign off rollback plan" Id="_b7FNAEIiEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="655f6a3" Url="" Name="Sign off rollback plan" BackPath="">
+<copyright nodeId="52cf4c5">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="2dda6b34">Sign off rollback plan</attribute>
+<attribute name="guid" nodeId="e8cc826a">_b7FNAEIiEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="fe3d385b">Sign off rollback plan</attribute>
+<attribute name="briefDescription" nodeId="38c3f26b"></attribute>
+<attribute name="suppressed" nodeId="5c60e4cf">false</attribute>
+<attribute name="orderingGuide" nodeId="f86939b4"></attribute>
+<attribute name="variabilityType" nodeId="f4c25cec">na</attribute>
+<attribute name="sectionName" nodeId="cb03ad66"></attribute>
+<attribute name="sectionDescription" nodeId="d7955bcd"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="7c0b9146">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_QQPskdEnEe6Y56Jk6jqfOA,_rshJkNEpEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_rollback_plan_4E0131FA.html" Name="define_rollback_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define rollback plan" Id="_rshJkNEpEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="ff70ea78"></Element>
+</referenceList>
+</Element>
+</referenceList>
+</Element>

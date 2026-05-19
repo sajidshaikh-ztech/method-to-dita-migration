@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Architectural Decisions" Id="_uPkOsPoEEeOAdZK7OtksNQ" ShapeiconUrl="images/artifact.gif" lang="en" nodeId="3f0f45bd" Url="core.gen.common.base/workproducts/arch_decisions_D37AB955.html" Name="arch_decisions" BackPath="./../../">
+<copyright nodeId="cd983a3f">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="3eb0a3a2">arch_decisions</attribute>
+<attribute name="guid" nodeId="d891557e">_uPkOsPoEEeOAdZK7OtksNQ</attribute>
+<attribute name="presentationName" nodeId="8685b743">Architectural Decisions</attribute>
+<attribute name="briefDescription" nodeId="52f664d1">Description of architecture decisions, rationale and supporting information (e.g., implications, dependencies, constraints, options) considered during the decision-making process.</attribute>
+<attribute name="suppressed" nodeId="847fba2f">false</attribute>
+<attribute name="orderingGuide" nodeId="55b4e781"></attribute>
+<attribute name="isAbstract" nodeId="a4bed099">false</attribute>
+<attribute name="shapeicon" nodeId="c031d284"></attribute>
+<attribute name="nodeicon" nodeId="7417c39a"></attribute>
+<attribute name="variabilityType" nodeId="bdd46d0">na</attribute>
+<reference name="presentation" nodeId="4eaa6561">
+<Element Type="ArtifactDescription" TypeName="Artifact Description" NodeiconUrl="" DisplayName="Architectural Decisions" Id="-Ox2t8Kfcnmll37diiREsEQ" ShapeiconUrl="images/guidance.gif" nodeId="86e375be" Url="" Name="architectural_decisions,_uPkOsPoEEeOAdZK7OtksNQ" BackPath="">
+<copyright nodeId="3fb9db82">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="d384ae86">architectural_decisions,_uPkOsPoEEeOAdZK7OtksNQ</attribute>
+<attribute name="guid" nodeId="813c3c3e">-Ox2t8Kfcnmll37diiREsEQ</attribute>
+<attribute name="presentationName" nodeId="547b507">Architectural Decisions</attribute>
+<attribute name="briefDescription" nodeId="2475b25a"></attribute>
+<attribute name="suppressed" nodeId="11c345d1">false</attribute>
+<attribute name="orderingGuide" nodeId="7197be2e"></attribute>
+<attribute name="authors" nodeId="1bbc4997">process.adv.core.base</attribute>
+<attribute name="changeDate" nodeId="49d0f8e6">Thu May 12 14:02:28 EDT 2022</attribute>
+<attribute name="changeDescription" nodeId="1326109f">AUG 2014 – baseline version</attribute>
+<attribute name="version" nodeId="5d31520a"></attribute>
+<attribute name="mainDescription" nodeId="84037e9a">&lt;p&gt;
+    A number of frameworks and views have been defined for capturing architecture decisions and modeling the relationships.
+    The details captured for each decision should support the subsequent activities, such as analysis of options and
+    communication of final decisions to stakeholders.
+&lt;/p&gt;</attribute>
+<attribute name="externalId" nodeId="c3e350d3"></attribute>
+<attribute name="keyConsiderations" nodeId="76669030"></attribute>
+<attribute name="longPresentationName" nodeId="57be8630"></attribute>
+<attribute name="purpose" nodeId="e809b86b">To facilitate communication of rationale to stakeholders, support architectural reviews and evaluations and enable
+reusability of architecture decisions.</attribute>
+<attribute name="impactOfNotHaving" nodeId="1ba67644"></attribute>
+<attribute name="reasonsForNotNeeding" nodeId="78e8f741"></attribute>
+<attribute name="briefOutline" nodeId="3cec22de">&lt;p&gt;
+    Architecture decisions usually include &lt;sup&gt;[1]&lt;/sup&gt;:
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Short title&lt;/strong&gt; - provide a short title for the decision for ease of reference.
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Architecture issue&lt;/strong&gt; - describe the architectural design issue being addressed to avoid
+    misunderstandings about why the issue is being addressed at the given time. Following a minimalist approach, address,
+    and document only the issues to be addressed at various points within the lifecycle.
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Descriptions&lt;/strong&gt; - clearly state the direction for the architecture and the position selected.
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Status&lt;/strong&gt; – the current state or position of the decision at a particular time (e.g., pending, decided,
+    approved).
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Domain and group&lt;/strong&gt; - use a simple grouping, such as integration, presentation, data, to help
+    organize the set of decisions.
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Assumptions&lt;/strong&gt; - clearly describe the underlying assumptions within the environment for the decision
+    (e.g., cost, schedule, technology). Note environmental constraints, for example, accepted technology standards,
+    enterprise architecture, or commonly employed patterns, may limit the alternatives considered.
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Constraints&lt;/strong&gt; - capture any additional environmental constraints the chosen alternative and decision may
+    pose.
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Options&lt;/strong&gt; - list the alternatives considered. These often require long explanations, sometimes even
+    models and diagrams.
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Rationale&lt;/strong&gt; - outline why a particular position was selected, include implementation cost, total
+    ownership cost, time to market and the required development resources’ availability. This is probably as important as
+    the decision itself.
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Implications&lt;/strong&gt; - a decision comes with many implications. For example, a decision may introduce a need
+    to make other decisions, create new requirements or modify existing requirements, pose additional constraints to the
+    environment, require renegotiating the scope or schedule with customers, or require additional staff training. Clearly
+    understanding and stating the implications of a decision can be very effective in gaining buy-in and creating a roadmap
+    for architecture execution.
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Related decisions&lt;/strong&gt; – lists similar associated decisions. A traceability matrix, decision tree or
+    meta-model may be more useful. Meta-models show complex relationships diagrammatically.
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Related requirements&lt;/strong&gt; - decisions should be business-driven. To show accountability, explicitly map
+    decisions to the objectives or requirements, or reference a traceability matrix for convenience purposes. Assess the
+    contribution of each architecture decision to meeting each requirement, and then assess how well the requirement is met
+    across all decisions. If a decision does not contribute to meeting a requirement, do not make that decision.
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Related artifacts&lt;/strong&gt; - list the related architecture, design or scope documents the decision impacts.
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Related principles&lt;/strong&gt; - if the enterprise has an agreed-upon set of principles, confirm the decision is
+    consistent with one or more of the principles to help align with the domains or systems.
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Additional information&lt;/strong&gt; - capture notes and issues the team discusses during the socialization process
+    for ease of reference since the decision-making process can take weeks.
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;sup&gt;[1]&lt;/sup&gt; Tyree, J., Akerman, A. Architecture decisions: demystifying architecture. IEEE Software 22 (2),
+    2005 19–27
+&lt;/p&gt;</attribute>
+<attribute name="representationOptions" nodeId="9302a185"></attribute>
+<attribute name="representation" nodeId="255e9f94"></attribute>
+<attribute name="notation" nodeId="c12c2b42"></attribute>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="templates" nodeId="9a288478">
+<Element Type="Template" TypeName="Template" NodeiconUrl="" DisplayName="Architecture Decision Log" Id="_Bc44IDgfEeSBqq1OhVc4PQ" ShapeiconUrl="images/template.gif" nodeId="c565dc4c" Url="core.gen.common.base/guidances/templates/arch_decision_log_1887F47.html" Name="arch_decision_log" BackPath="./../../../"></Element>
+</referenceList>
+<referenceList name="WorkProduct_WorkProductDescriptors" nodeId="c01a9f07">
+<Element TypeName="Work Product Descriptor" queryString="?proc=__kYz8dANEe6H-rjlu9wPlA&amp;path=__kYz8dANEe6H-rjlu9wPlA,_H3Z-cdGMEe6Y56Jk6jqfOA,_X6VPgNGMEe6Y56Jk6jqfOA_uPkOsPoEEeOAdZK7OtksNQ" ConcreteType="Artifact" Url="core.gen.common.base/workproducts/arch_decisions_D37AB955.html" Name="arch_decisions" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Architectural Decisions" Id="_X6VPgNGMEe6Y56Jk6jqfOA_uPkOsPoEEeOAdZK7OtksNQ" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="72cc29ce"></Element>
+</referenceList>
+<referenceList name="WorkProduct_OutputFrom_Tasks" nodeId="e7b503eb">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Conduct architecture decision workshops" Id="_-pKrcMIXEeSWr5198xb8rA" ShapeiconUrl="images/task.gif" nodeId="b3fb9bc5" Url="practice.ita.eff.arch_gov.base/tasks/conduct_ad_workshop_3E03ABB6.html" Name="conduct_ad_workshop" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Document architecture decisions" Id="_PVMdsPoDEeOc4c-sRDGJpw" ShapeiconUrl="images/task.gif" nodeId="664e2e85" Url="practice.ita.eff.arch_gov.base/tasks/document_architecture_decisions_78E23B73.html" Name="document_architecture_decisions" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="WorkProduct_InputTo_Tasks" nodeId="38223293">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Conduct architecture decision workshops" Id="_-pKrcMIXEeSWr5198xb8rA" ShapeiconUrl="images/task.gif" nodeId="537216a5" Url="practice.ita.eff.arch_gov.base/tasks/conduct_ad_workshop_3E03ABB6.html" Name="conduct_ad_workshop" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop integrated solution architecture" Id="_H0mlQGeMEeSg-t4DVsRJcA" ShapeiconUrl="images/task.gif" nodeId="dbe0f347" Url="practice.ita.eff.arch_gov.base/tasks/develop_integrated_soln_arch_F66DBD02.html" Name="develop_integrated_soln_arch" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="modifyRoles" nodeId="14f4e7e5">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Solution Architect" Id="_MaaBsNNoEe-Fuo3rkO5x4w" ShapeiconUrl="images/role.gif" nodeId="eaea404f" Url="process.adv.eya_oracle.base/roles/soln_architect_1699084C.html" Name="soln_architect" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="mandatoryInputToTasks" nodeId="b96f7ed6">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Conduct architecture decision workshops" Id="_-pKrcMIXEeSWr5198xb8rA" ShapeiconUrl="images/task.gif" nodeId="925453f9" Url="practice.ita.eff.arch_gov.base/tasks/conduct_ad_workshop_3E03ABB6.html" Name="conduct_ad_workshop" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop integrated solution architecture" Id="_H0mlQGeMEeSg-t4DVsRJcA" ShapeiconUrl="images/task.gif" nodeId="7eea63e" Url="practice.ita.eff.arch_gov.base/tasks/develop_integrated_soln_arch_F66DBD02.html" Name="develop_integrated_soln_arch" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="outputFromTasks" nodeId="19584231">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Conduct architecture decision workshops" Id="_-pKrcMIXEeSWr5198xb8rA" ShapeiconUrl="images/task.gif" nodeId="c6ce940f" Url="practice.ita.eff.arch_gov.base/tasks/conduct_ad_workshop_3E03ABB6.html" Name="conduct_ad_workshop" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Document architecture decisions" Id="_PVMdsPoDEeOc4c-sRDGJpw" ShapeiconUrl="images/task.gif" nodeId="16a84ac1" Url="practice.ita.eff.arch_gov.base/tasks/document_architecture_decisions_78E23B73.html" Name="document_architecture_decisions" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="64df0ba8">
+<Element TypeName="Work Product Descriptor" queryString="?proc=__kYz8dANEe6H-rjlu9wPlA&amp;path=__kYz8dANEe6H-rjlu9wPlA,_H3Z-cdGMEe6Y56Jk6jqfOA,_X6VPgNGMEe6Y56Jk6jqfOA_uPkOsPoEEeOAdZK7OtksNQ" ConcreteType="Artifact" Url="core.gen.common.base/workproducts/arch_decisions_D37AB955.html" Name="arch_decisions" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Architectural Decisions" Id="_X6VPgNGMEe6Y56Jk6jqfOA_uPkOsPoEEeOAdZK7OtksNQ" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="63b0c2d5">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Technical Architecture and Integration" Id="__kYz8dANEe6H-rjlu9wPlA" relProcessPath="__kYz8dANEe6H-rjlu9wPlA" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=__kYz8dANEe6H-rjlu9wPlA&amp;path=__kYz8dANEe6H-rjlu9wPlA" nodeId="3a6fd9e0" Url="process.adv.eya_oracle.base/capabilitypatterns/tech_arch_int_wkstrm_FC9A4290.html" Name="tech_arch_int_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="cf08bc61">tech_arch_int_wkstrm</attribute>
+<attribute name="guid" nodeId="e0ab1e71">__kYz8dANEe6H-rjlu9wPlA</attribute>
+<attribute name="presentationName" nodeId="ea09c610">Technical Architecture and Integration</attribute>
+<attribute name="briefDescription" nodeId="3ee1cc3"></attribute>
+<attribute name="suppressed" nodeId="f168e842">false</attribute>
+<attribute name="orderingGuide" nodeId="d5cca715"></attribute>
+<attribute name="isAbstract" nodeId="9dafec1f">false</attribute>
+<attribute name="shapeicon" nodeId="db08b3f3"></attribute>
+<attribute name="nodeicon" nodeId="3602757f"></attribute>
+<attribute name="prefix" nodeId="7b0eb933">workstream</attribute>
+<attribute name="isPlanned" nodeId="975eb57d">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="f583c206">false</attribute>
+<attribute name="isOptional" nodeId="db9b894f">false</attribute>
+<attribute name="isRepeatable" nodeId="58c0c77">false</attribute>
+<attribute name="isOngoing" nodeId="5e81b893">false</attribute>
+<attribute name="isEventDriven" nodeId="c55cf324">false</attribute>
+<attribute name="variabilityType" nodeId="a3ffbd6">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Design Target State Architecture" Id="_H3Z-cdGMEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=__kYz8dANEe6H-rjlu9wPlA&amp;path=__kYz8dANEe6H-rjlu9wPlA,_H3Z-cdGMEe6Y56Jk6jqfOA" nodeId="85ac9d78" Url="process.adv.eya_oracle.base/capabilitypatterns/design_target_state_arch_50284F64.html" Name="design_target_state_arch" BackPath="./../../">
+<attribute name="name" nodeId="a1f18ad">design_target_state_arch</attribute>
+<attribute name="guid" nodeId="f9ab3dd3">_H3Z-cdGMEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="52bdddbe">Design Target State Architecture</attribute>
+<attribute name="briefDescription" nodeId="84801388">Document architectural decisions and the integrated solution architecture.</attribute>
+<attribute name="suppressed" nodeId="1f27875a">false</attribute>
+<attribute name="orderingGuide" nodeId="5251f184"></attribute>
+<attribute name="isAbstract" nodeId="74605dbb">false</attribute>
+<attribute name="shapeicon" nodeId="4d72a239"></attribute>
+<attribute name="nodeicon" nodeId="a5fb929b"></attribute>
+<attribute name="prefix" nodeId="8e4421cc"></attribute>
+<attribute name="isPlanned" nodeId="a8231568">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="30cf60cf">false</attribute>
+<attribute name="isOptional" nodeId="f78ad839">false</attribute>
+<attribute name="isRepeatable" nodeId="7f9aa02f">false</attribute>
+<attribute name="isOngoing" nodeId="75389079">false</attribute>
+<attribute name="isEventDriven" nodeId="b3bb6040">false</attribute>
+<attribute name="variabilityType" nodeId="647b2acb">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=__kYz8dANEe6H-rjlu9wPlA&amp;path=__kYz8dANEe6H-rjlu9wPlA,_H3Z-cdGMEe6Y56Jk6jqfOA,_X6VPgNGMEe6Y56Jk6jqfOA_uPkOsPoEEeOAdZK7OtksNQ" ConcreteType="Artifact" Url="core.gen.common.base/workproducts/arch_decisions_D37AB955.html" Name="arch_decisions" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Architectural Decisions" Id="_X6VPgNGMEe6Y56Jk6jqfOA_uPkOsPoEEeOAdZK7OtksNQ" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="49eb2887">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="7f8234cd" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="90e7835a">eya_oracle</attribute>
+<attribute name="guid" nodeId="a95b9aab">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="b25491b9">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="80e9cfed"></attribute>
+<attribute name="suppressed" nodeId="8d63ca97">false</attribute>
+<attribute name="orderingGuide" nodeId="708d8005"></attribute>
+<attribute name="isAbstract" nodeId="287f9021">false</attribute>
+<attribute name="shapeicon" nodeId="aca8baa5"></attribute>
+<attribute name="nodeicon" nodeId="44203c07"></attribute>
+<attribute name="prefix" nodeId="4b8d7bbd"></attribute>
+<attribute name="isPlanned" nodeId="f362286f">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="98111b41">false</attribute>
+<attribute name="isOptional" nodeId="3e85ccc8">false</attribute>
+<attribute name="isRepeatable" nodeId="a1b2a344">false</attribute>
+<attribute name="isOngoing" nodeId="8b6d3702">false</attribute>
+<attribute name="isEventDriven" nodeId="3dcf6058">false</attribute>
+<attribute name="variabilityType" nodeId="4c1fa78e">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Confirm and Design" Id="_bRCPsIs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA" nodeId="bc5faf58" Url="process.adv.eya_oracle.base/deliveryprocesses/confirm_and_design_29FFDB9.html" Name="confirm_and_design" BackPath="./../../">
+<attribute name="name" nodeId="634a4fe">confirm_and_design</attribute>
+<attribute name="guid" nodeId="86dfcb56">_bRCPsIs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="b36261c4">Confirm and Design</attribute>
+<attribute name="briefDescription" nodeId="31ea0abd">Define business requirements, map process flows and facilitate fit-gap workshops. Define technology and testing strategies. Develop the master configuration workbook, RICEFW inventory and prepare for progressive build cycles.</attribute>
+<attribute name="suppressed" nodeId="cfbbc8bc">false</attribute>
+<attribute name="orderingGuide" nodeId="5d191af0"></attribute>
+<attribute name="isAbstract" nodeId="5da84b9f">false</attribute>
+<attribute name="shapeicon" nodeId="1b283242"></attribute>
+<attribute name="nodeicon" nodeId="1fd00307"></attribute>
+<attribute name="prefix" nodeId="5cb1e524"></attribute>
+<attribute name="isPlanned" nodeId="190ddfaf">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="84498d9c">false</attribute>
+<attribute name="isOptional" nodeId="51c5619a">false</attribute>
+<attribute name="isRepeatable" nodeId="98f77060">false</attribute>
+<attribute name="isOngoing" nodeId="8649ee4">false</attribute>
+<attribute name="isEventDriven" nodeId="b54a98d5">false</attribute>
+<attribute name="variabilityType" nodeId="33c6791a">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Design Target State Architecture" Id="_yyQtYdpiEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA,_yyQtYdpiEe6TH6yb1zVWhw" nodeId="d56953a5" Url="process.adv.eya_oracle.base/deliveryprocesses/design_target_state_arch_1555DFF4.html" Name="design_target_state_arch" BackPath="./../../">
+<attribute name="name" nodeId="3ef2b024">design_target_state_arch</attribute>
+<attribute name="guid" nodeId="7719e986">_yyQtYdpiEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="4d86d473">Design Target State Architecture</attribute>
+<attribute name="briefDescription" nodeId="c9d87c87">Document architectural decisions and the integrated solution architecture.</attribute>
+<attribute name="suppressed" nodeId="3849dab2">false</attribute>
+<attribute name="orderingGuide" nodeId="7948e1f"></attribute>
+<attribute name="isAbstract" nodeId="11d6e627">false</attribute>
+<attribute name="shapeicon" nodeId="fa3a1dd3"></attribute>
+<attribute name="nodeicon" nodeId="b4eb2fab"></attribute>
+<attribute name="prefix" nodeId="bd552c65"></attribute>
+<attribute name="isPlanned" nodeId="4acde47e">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="ca2a6209">false</attribute>
+<attribute name="isOptional" nodeId="f0ce939f">false</attribute>
+<attribute name="isRepeatable" nodeId="ac7b8a99">false</attribute>
+<attribute name="isOngoing" nodeId="4e99fffe">false</attribute>
+<attribute name="isEventDriven" nodeId="e9dca5aa">false</attribute>
+<attribute name="variabilityType" nodeId="93708529">extends</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

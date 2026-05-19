@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Dependency Register" Id="_hTrZ8N52EeKnTuyUmL6xkg" ShapeiconUrl="images/artifact.gif" lang="en" nodeId="ea61d28b" Url="core.mgmt.common.base/workproducts/dependency_register_21EF5523.html" Name="dependency_register" BackPath="./../../">
+<copyright nodeId="210c8889">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="cc7eaf5f">dependency_register</attribute>
+<attribute name="guid" nodeId="6f9daa72">_hTrZ8N52EeKnTuyUmL6xkg</attribute>
+<attribute name="presentationName" nodeId="a5cec51c">Dependency Register</attribute>
+<attribute name="briefDescription" nodeId="13b4696d">A listing of tasks, milestones, or activities which need to be completed before subsequent tasks or activities can start or be marked as complete.</attribute>
+<attribute name="suppressed" nodeId="f00110ab">false</attribute>
+<attribute name="orderingGuide" nodeId="e23e5e2a"></attribute>
+<attribute name="isAbstract" nodeId="67b8f5d4">false</attribute>
+<attribute name="shapeicon" nodeId="6d679d38"></attribute>
+<attribute name="nodeicon" nodeId="1e820e81"></attribute>
+<attribute name="variabilityType" nodeId="3dd8821c">na</attribute>
+<reference name="presentation" nodeId="b536acd9">
+<Element Type="ArtifactDescription" TypeName="Artifact Description" NodeiconUrl="" DisplayName="Dependency Register" Id="-9pW91Bgot68P71nWLozh2Q" ShapeiconUrl="images/guidance.gif" nodeId="4ffc99e9" Url="" Name="dependency_register,_hTrZ8N52EeKnTuyUmL6xkg" BackPath="">
+<copyright nodeId="85b5db05">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="ae77a102">dependency_register,_hTrZ8N52EeKnTuyUmL6xkg</attribute>
+<attribute name="guid" nodeId="d46725c3">-9pW91Bgot68P71nWLozh2Q</attribute>
+<attribute name="presentationName" nodeId="cee837e0">Dependency Register</attribute>
+<attribute name="briefDescription" nodeId="3ec6552b"></attribute>
+<attribute name="suppressed" nodeId="6af05a67">false</attribute>
+<attribute name="orderingGuide" nodeId="6215433b"></attribute>
+<attribute name="authors" nodeId="ea2e9eac">process.adv.eng_mgmt.bas</attribute>
+<attribute name="changeDate" nodeId="738e60fe">Fri Jul 27 12:11:46 EDT 2018</attribute>
+<attribute name="changeDescription" nodeId="217c7be4">JUL 2018 - renamed from Dependency Log and Map, along with updates to the updates to the description and inclusion of attributes to make it more broadly reusable</attribute>
+<attribute name="version" nodeId="646d9130"></attribute>
+<attribute name="mainDescription" nodeId="ed9aab30">&lt;p&gt;
+    Dependency registers may contain the following attributes:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Unique Reference – used to identify dependency
+    &lt;/li&gt;
+    &lt;li&gt;
+        Description – used to briefly describe the dependency
+    &lt;/li&gt;
+    &lt;li&gt;
+        Enabling Program or Project – who must deliver the task, milestone, etc (sometimes known as the ‘giver’).
+        Applicable for larger scale programs.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Dependent Program or Project – who needs the task, milestone to be delivered (sometimes known as the ‘receiver’).
+        Applicable for larger scale programs.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Dependent Activity, Task, or Milestone – details of milestone / task that needs the delivery
+    &lt;/li&gt;
+    &lt;li&gt;
+        Delivery Date – date dependency must be delivered by to not cause a delay in dependent project
+    &lt;/li&gt;
+    &lt;li&gt;
+        Probability – probability that dependency will not be met in required timeline
+    &lt;/li&gt;
+    &lt;li&gt;
+        Date Raised – date dependency was raised
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;p&gt;
+            Representation Options:
+        &lt;/p&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    Dependency registers may show dependencies using a map, so teams can see dependencies across projects / work streams.
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Impact – impact of dependency not being delivered in required timeline
+    &lt;/li&gt;
+    &lt;li&gt;
+        Status – open, closed, etc.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Owner – who owns the dependency
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="externalId" nodeId="32e6524a"></attribute>
+<attribute name="keyConsiderations" nodeId="2d497068"></attribute>
+<attribute name="longPresentationName" nodeId="9374c7f2"></attribute>
+<attribute name="purpose" nodeId="cf1a22eb">&lt;ul&gt;
+    &lt;li&gt;
+        To assist with critical path planning
+    &lt;/li&gt;
+    &lt;li&gt;
+        To identify constraints on the prioritization and scheduling of work
+    &lt;/li&gt;
+    &lt;li&gt;
+        To help mitigate variances to a plan
+    &lt;/li&gt;
+    &lt;li&gt;
+        To provide a simple view for tracking key dependencies
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="impactOfNotHaving" nodeId="6de5e28b"></attribute>
+<attribute name="reasonsForNotNeeding" nodeId="68b4ec11">If the relevant dependencies are adequately captured in the project schedule it is not necessary to create a separate work
+product.</attribute>
+<attribute name="briefOutline" nodeId="9c19572d"></attribute>
+<attribute name="representationOptions" nodeId="e45a4d5c">Dependency registers may show dependencies using a map, so teams can see dependencies across projects / work streams.</attribute>
+<attribute name="representation" nodeId="990fce51"></attribute>
+<attribute name="notation" nodeId="cb3a10e8"></attribute>
+</Element>
+</reference>
+<referenceList name="WorkProduct_WorkProductDescriptors" nodeId="b078c210">
+<Element TypeName="Work Product Descriptor" queryString="?proc=_c2F1QZLKEe6Ji6GnvvUfqw&amp;path=_c2F1QZLKEe6Ji6GnvvUfqw,_aMHhUAMjEe-soaJ5TjzXsA,_fuHn8Cy9Ee-bo7_6LoJ2iQ_hTrZ8N52EeKnTuyUmL6xkg" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/dependency_register_21EF5523.html" Name="dependency_register" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Dependency Register" Id="_fuHn8Cy9Ee-bo7_6LoJ2iQ_hTrZ8N52EeKnTuyUmL6xkg" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="343ab213"></Element>
+</referenceList>
+<referenceList name="WorkProduct_Deliverables" nodeId="ea75c5cf">
+<Element ShowFullMethodContent="false" Type="Deliverable" TypeName="Deliverable" NodeiconUrl="" DisplayName="Project Management Plan" Id="_pmmOIO-iEe6gj9VPFxE7ig" ShapeiconUrl="images/deliverable.gif" nodeId="fc2590bd" Url="process.adv.eya_oracle.base/workproducts/proj_mgmt_plan_E28F647C.html" Name="proj_mgmt_plan" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="WorkProduct_InputTo_Tasks" nodeId="e3291ae1">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Finalize project management plan" Id="_XPJOUO-lEe6gj9VPFxE7ig" ShapeiconUrl="images/task.gif" nodeId="1af821e" Url="process.adv.eya_oracle.base/tasks/fin_proj_mgmt_plan_71FA9F31.html" Name="fin_proj_mgmt_plan" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="mandatoryInputToTasks" nodeId="b78c4d33">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Finalize project management plan" Id="_XPJOUO-lEe6gj9VPFxE7ig" ShapeiconUrl="images/task.gif" nodeId="3433a12d" Url="process.adv.eya_oracle.base/tasks/fin_proj_mgmt_plan_71FA9F31.html" Name="fin_proj_mgmt_plan" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="393571ec">
+<Element TypeName="Work Product Descriptor" queryString="?proc=_c2F1QZLKEe6Ji6GnvvUfqw&amp;path=_c2F1QZLKEe6Ji6GnvvUfqw,_aMHhUAMjEe-soaJ5TjzXsA,_fuHn8Cy9Ee-bo7_6LoJ2iQ_hTrZ8N52EeKnTuyUmL6xkg" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/dependency_register_21EF5523.html" Name="dependency_register" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Dependency Register" Id="_fuHn8Cy9Ee-bo7_6LoJ2iQ_hTrZ8N52EeKnTuyUmL6xkg" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="cffab06c">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Program and Project Management" Id="_c2F1QZLKEe6Ji6GnvvUfqw" relProcessPath="_c2F1QZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_c2F1QZLKEe6Ji6GnvvUfqw&amp;path=_c2F1QZLKEe6Ji6GnvvUfqw" nodeId="4e25e500" Url="process.adv.eya_oracle.base/capabilitypatterns/program_proj_mgmt_wkstrm_752F6C0.html" Name="program_proj_mgmt_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="2f686c5d">program_proj_mgmt_wkstrm</attribute>
+<attribute name="guid" nodeId="4e643315">_c2F1QZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="c800e86c">Program and Project Management</attribute>
+<attribute name="briefDescription" nodeId="4e9701e6"></attribute>
+<attribute name="suppressed" nodeId="4ddb418a">false</attribute>
+<attribute name="orderingGuide" nodeId="2047066"></attribute>
+<attribute name="isAbstract" nodeId="7e3a0577">false</attribute>
+<attribute name="shapeicon" nodeId="503b3814"></attribute>
+<attribute name="nodeicon" nodeId="5c6e0a10"></attribute>
+<attribute name="prefix" nodeId="b74c8941">workstream</attribute>
+<attribute name="isPlanned" nodeId="dee838f0">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="dfedad7c">false</attribute>
+<attribute name="isOptional" nodeId="3616c95a">false</attribute>
+<attribute name="isRepeatable" nodeId="329a8684">false</attribute>
+<attribute name="isOngoing" nodeId="8e508173">false</attribute>
+<attribute name="isEventDriven" nodeId="b79d6d5a">false</attribute>
+<attribute name="variabilityType" nodeId="3498b998">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Define Project Management Plan" Id="_aMHhUAMjEe-soaJ5TjzXsA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_c2F1QZLKEe6Ji6GnvvUfqw&amp;path=_c2F1QZLKEe6Ji6GnvvUfqw,_aMHhUAMjEe-soaJ5TjzXsA" nodeId="dbd247d8" Url="process.adv.eya_oracle.base/capabilitypatterns/define_project_manage_plan_AC78D919.html" Name="define_project_manage_plan" BackPath="./../../">
+<attribute name="name" nodeId="2d5c089e">define_project_manage_plan</attribute>
+<attribute name="guid" nodeId="9beadb82">_aMHhUAMjEe-soaJ5TjzXsA</attribute>
+<attribute name="presentationName" nodeId="2fdae210">Define Project Management Plan</attribute>
+<attribute name="briefDescription" nodeId="59bc9e01">Define the project governance structure, design authority and document the project management plan (PMP).</attribute>
+<attribute name="suppressed" nodeId="5203762b">false</attribute>
+<attribute name="orderingGuide" nodeId="9dd4c0bb"></attribute>
+<attribute name="isAbstract" nodeId="d81b9453">false</attribute>
+<attribute name="shapeicon" nodeId="171ee441"></attribute>
+<attribute name="nodeicon" nodeId="daf17756"></attribute>
+<attribute name="prefix" nodeId="437387ac"></attribute>
+<attribute name="isPlanned" nodeId="fefe7f9e">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="8c7e5ca6">false</attribute>
+<attribute name="isOptional" nodeId="68bcca20">false</attribute>
+<attribute name="isRepeatable" nodeId="7900d3be">false</attribute>
+<attribute name="isOngoing" nodeId="6bd048e8">false</attribute>
+<attribute name="isEventDriven" nodeId="e1f4e41f">false</attribute>
+<attribute name="variabilityType" nodeId="b69e963d">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_c2F1QZLKEe6Ji6GnvvUfqw&amp;path=_c2F1QZLKEe6Ji6GnvvUfqw,_aMHhUAMjEe-soaJ5TjzXsA,_fuHn8Cy9Ee-bo7_6LoJ2iQ_hTrZ8N52EeKnTuyUmL6xkg" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/dependency_register_21EF5523.html" Name="dependency_register" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Dependency Register" Id="_fuHn8Cy9Ee-bo7_6LoJ2iQ_hTrZ8N52EeKnTuyUmL6xkg" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="e6aa1d0d">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="dfcd6a3" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="76c05896">eya_oracle</attribute>
+<attribute name="guid" nodeId="821cf242">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="972ea522">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="38fcb11d"></attribute>
+<attribute name="suppressed" nodeId="42fbcf94">false</attribute>
+<attribute name="orderingGuide" nodeId="40bc3850"></attribute>
+<attribute name="isAbstract" nodeId="82e9e290">false</attribute>
+<attribute name="shapeicon" nodeId="a7f6cfd7"></attribute>
+<attribute name="nodeicon" nodeId="eb5fc964"></attribute>
+<attribute name="prefix" nodeId="56338aa5"></attribute>
+<attribute name="isPlanned" nodeId="6fa29be8">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="e1fad8b7">false</attribute>
+<attribute name="isOptional" nodeId="7ebe025">false</attribute>
+<attribute name="isRepeatable" nodeId="a145a6c5">false</attribute>
+<attribute name="isOngoing" nodeId="cc07a0f3">false</attribute>
+<attribute name="isEventDriven" nodeId="31435456">false</attribute>
+<attribute name="variabilityType" nodeId="9f65120f">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Plan" Id="_aAaVUYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_aAaVUYs6Ee6Z58NF8Wy6XA" nodeId="df43a2ae" Url="process.adv.eya_oracle.base/deliveryprocesses/plan_9E6CBF9F.html" Name="plan" BackPath="./../../">
+<attribute name="name" nodeId="ed3e6e8c">plan</attribute>
+<attribute name="guid" nodeId="bb3e313a">_aAaVUYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="1860fa95">Plan</attribute>
+<attribute name="briefDescription" nodeId="64470d83">Kick off the project and define the project management plan (PMP). Review in-scope business capabilities with key client stakeholders. Facilitate security and controls workshops, develop the change management strategy and prepare for the upcoming fit-gap and technical workshops.</attribute>
+<attribute name="suppressed" nodeId="7fa99789">false</attribute>
+<attribute name="orderingGuide" nodeId="2e9b827"></attribute>
+<attribute name="isAbstract" nodeId="86a6ad03">false</attribute>
+<attribute name="shapeicon" nodeId="ffbba660"></attribute>
+<attribute name="nodeicon" nodeId="271a7a47"></attribute>
+<attribute name="prefix" nodeId="d5c2c606"></attribute>
+<attribute name="isPlanned" nodeId="d4526119">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="741e33e5">false</attribute>
+<attribute name="isOptional" nodeId="fe0c3749">false</attribute>
+<attribute name="isRepeatable" nodeId="bce6036d">false</attribute>
+<attribute name="isOngoing" nodeId="bbd53ac">false</attribute>
+<attribute name="isEventDriven" nodeId="d2a26d22">false</attribute>
+<attribute name="variabilityType" nodeId="34702202">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Define Project Management Plan" Id="_0o-zISzPEe-bo7_6LoJ2iQ" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_aAaVUYs6Ee6Z58NF8Wy6XA,_0o-zISzPEe-bo7_6LoJ2iQ" nodeId="829903f0" Url="process.adv.eya_oracle.base/deliveryprocesses/define_project_manage_plan_130E5B12.html" Name="define_project_manage_plan" BackPath="./../../">
+<attribute name="name" nodeId="f22d50">define_project_manage_plan</attribute>
+<attribute name="guid" nodeId="55d15d1">_0o-zISzPEe-bo7_6LoJ2iQ</attribute>
+<attribute name="presentationName" nodeId="cb26c63a">Define Project Management Plan</attribute>
+<attribute name="briefDescription" nodeId="d1037758">Define the project governance structure, design authority and document the project management plan (PMP).</attribute>
+<attribute name="suppressed" nodeId="d318e232">false</attribute>
+<attribute name="orderingGuide" nodeId="8f2a891c"></attribute>
+<attribute name="isAbstract" nodeId="a2f46f53">false</attribute>
+<attribute name="shapeicon" nodeId="d071ccd1"></attribute>
+<attribute name="nodeicon" nodeId="3a935726"></attribute>
+<attribute name="prefix" nodeId="c89b8275"></attribute>
+<attribute name="isPlanned" nodeId="96879828">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="7f7cbda">false</attribute>
+<attribute name="isOptional" nodeId="9d9b08ad">false</attribute>
+<attribute name="isRepeatable" nodeId="eaedb387">false</attribute>
+<attribute name="isOngoing" nodeId="e6cf8544">false</attribute>
+<attribute name="isEventDriven" nodeId="71792ed">false</attribute>
+<attribute name="variabilityType" nodeId="2624fb20">extends</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element Type="Concept" TypeName="Concept" NodeiconUrl="" DisplayName="Test Automation" Id="_lIbY4DkSEeivAriDNRLMAA" ShapeiconUrl="images/concept.gif" lang="en" nodeId="b26cd9b1" Url="core.i_t.common.base/guidances/concepts/test_automation_D4A06929.html" Name="test_automation" BackPath="./../../../">
+<copyright nodeId="163cea30">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="b6377754">test_automation</attribute>
+<attribute name="guid" nodeId="cc2190ce">_lIbY4DkSEeivAriDNRLMAA</attribute>
+<attribute name="presentationName" nodeId="5cf599ca">Test Automation</attribute>
+<attribute name="briefDescription" nodeId="ecdf9a11"></attribute>
+<attribute name="suppressed" nodeId="fdf510f5">false</attribute>
+<attribute name="orderingGuide" nodeId="b55c542d"></attribute>
+<attribute name="isAbstract" nodeId="6197823d">false</attribute>
+<attribute name="shapeicon" nodeId="c5396eea"></attribute>
+<attribute name="nodeicon" nodeId="2d164c4b"></attribute>
+<attribute name="variabilityType" nodeId="2117e4a9">na</attribute>
+<reference name="presentation" nodeId="98102f53">
+<Element Type="ContentDescription" TypeName="Content Description" NodeiconUrl="" DisplayName="Test Automation" Id="-CIsOH-EokvWv-Eq9VkHyeA" ShapeiconUrl="images/guidance.gif" nodeId="f7fbf2c5" Url="" Name="test_automation,_lIbY4DkSEeivAriDNRLMAA" BackPath="">
+<copyright nodeId="50fa08c">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="a3d7ab49">test_automation,_lIbY4DkSEeivAriDNRLMAA</attribute>
+<attribute name="guid" nodeId="1486102d">-CIsOH-EokvWv-Eq9VkHyeA</attribute>
+<attribute name="presentationName" nodeId="67e8ba35">Test Automation</attribute>
+<attribute name="briefDescription" nodeId="91f2ccf1"></attribute>
+<attribute name="suppressed" nodeId="fb703d18">false</attribute>
+<attribute name="orderingGuide" nodeId="2a38207e"></attribute>
+<attribute name="authors" nodeId="53b798bb">process.adv.core.base</attribute>
+<attribute name="changeDate" nodeId="b05adc3a">Fri Feb 24 05:52:09 EST 2023</attribute>
+<attribute name="changeDescription" nodeId="a5c9fd44">FEB 2023 - removed redundant brief description|MAR 2018 - Baseline</attribute>
+<attribute name="version" nodeId="7efca5e1"></attribute>
+<attribute name="mainDescription" nodeId="824d6e15">&lt;p&gt;
+    Test automation is a more efficient way to test by replacing manual efforts with automated ones. This type of
+    testing better supports current testing trends such as Agile or continuous integration that require ongoing,
+    iterative testing.
+&lt;/p&gt;
+&lt;p&gt;
+    Test automation is used so tests are:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Repeatable&lt;/strong&gt; - as it performs the exact same steps during each execution
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Reusable&lt;/strong&gt; - since it can use the same test release after release in various environments
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Swift&lt;/strong&gt; - by leveraging automation tools that execute the tests faster than manual testing
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    Test automation also allows for:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Increased application coverage&lt;/strong&gt; by executing faster allowing more time for the automated execution
+        of additional modules
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Early defect detection&lt;/strong&gt; by validating new code drops more quickly
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Reduced time and costs&lt;/strong&gt; due to decreased manual efforts since automated tests can run
+        unattended day and night
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Improved quality&lt;/strong&gt; of software
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    Test automation can be used on various types of testing such as:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Unit / smoke tests
+    &lt;/li&gt;
+    &lt;li&gt;
+        Functional testing
+    &lt;/li&gt;
+    &lt;li&gt;
+        Structural testing
+    &lt;/li&gt;
+    &lt;li&gt;
+        Test data conditioning
+    &lt;/li&gt;
+    &lt;li&gt;
+        Installation and configuration
+    &lt;/li&gt;
+    &lt;li&gt;
+        Regression testing
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    EY has its own end-to-end Test Automation Framework, or eTAF, that focuses on the automation of functional and
+    regression testing of applications. This framework is a library of components that is used to convert manual test cases
+    to automated test scripts. The use of such a framework reduces maintenance thereby simplifying the automation
+    effort even further.
+&lt;/p&gt;
+&lt;p&gt;
+    The benefits of eTAF include:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Centralized repository&lt;/strong&gt; - where all keywords, test cases, data, text execution and test results can
+        be stored
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Easy setup and flexible framework&lt;/strong&gt; - that can be integrated with industry standard automation tools
+        such as UDFT or Selenium
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Built-in report and dashboard&lt;/strong&gt; - that presents users with a consolidated view of the latest test
+        status and test execution results
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    For more details on eTAF, please refer to the &lt;a class=&quot;elementLink&quot;
+    href=&quot;./../../../core.i_t.common.base/guidances/supportingmaterials/ey_auto_test_fmwk_handbook_C84252AD.html&quot;
+    guid=&quot;_r4fEwES1EeiASMlqgAcI7A&quot;&gt;EY Automation Testing Framework Handbook&lt;/a&gt;.
+&lt;/p&gt;</attribute>
+<attribute name="externalId" nodeId="fb0ef4f3"></attribute>
+<attribute name="keyConsiderations" nodeId="597ad454"></attribute>
+<attribute name="longPresentationName" nodeId="c68f4636"></attribute>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="supportingMaterials" nodeId="3171fdbf">
+<Element Type="SupportingMaterial" TypeName="Supporting Material" NodeiconUrl="" DisplayName="EY Automation Testing Framework Handbook" Id="_r4fEwES1EeiASMlqgAcI7A" ShapeiconUrl="images/supportingmaterial.gif" nodeId="1e3d1be9" Url="core.i_t.common.base/guidances/supportingmaterials/ey_auto_test_fmwk_handbook_C84252AD.html" Name="ey_auto_test_fmwk_handbook" BackPath="./../../../"></Element>
+</referenceList>
+<referenceList name="Concept_ContentElements" nodeId="3746dcd5">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Outline test strategy" Id="_TmUtAOW9EeOeOeyRJA3ZBg" ShapeiconUrl="images/task.gif" nodeId="a6000fab" Url="practice.ita.delv.test_mgmt.base/tasks/outline_test_strategy_228C91EF.html" Name="outline_test_strategy" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Perform integration tests" Id="_2b3R8CmVEeW4VNZE0V9FcA" ShapeiconUrl="images/task.gif" nodeId="17bf19f4" Url="practice.ita.delv.it_test.base/tasks/perform_int_tests_2FDE8953.html" Name="perform_int_tests" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Perform system tests" Id="_p0ArkCtAEeWax4C3D-8TDw" ShapeiconUrl="images/task.gif" nodeId="33cfb5e4" Url="practice.ita.delv.it_test.base/tasks/perform_sys_tests_4509FEA3.html" Name="perform_sys_tests" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Perform tests" Id="_P_F2EOYJEeOqmb5IikO7mw" ShapeiconUrl="images/task.gif" nodeId="3f60eddc" Url="practice.ita.delv.it_test.base/tasks/perform_tests_2E8D7174.html" Name="perform_tests" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Perform user acceptance tests" Id="_sO_4ADcMEeWiCuaOJ9Py2A" ShapeiconUrl="images/task.gif" nodeId="9b4c75b" Url="practice.ita.delv.it_test.base/tasks/perform_uat_tests_BAFD15F6.html" Name="perform_uat_tests" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="Concept_BreakdownElements" nodeId="3209ccd0">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="IT Testing" Id="_NRpJ8WGIEeWXVev_nv_kTg" relProcessPath="_NRpJ8WGIEeWXVev_nv_kTg" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_NRpJ8WGIEeWXVev_nv_kTg&amp;path=_NRpJ8WGIEeWXVev_nv_kTg" nodeId="f4cf603e" Url="practice.ita.delv.it_test.assign/capabilitypatterns/it_test_8C99E41E.html" Name="it_test" BackPath="./../../">
+<attribute name="name" nodeId="d065115f">it_test</attribute>
+<attribute name="guid" nodeId="84133424">_NRpJ8WGIEeWXVev_nv_kTg</attribute>
+<attribute name="presentationName" nodeId="eab73656">IT Testing</attribute>
+<attribute name="briefDescription" nodeId="d345fea5"></attribute>
+<attribute name="suppressed" nodeId="b357acd5">false</attribute>
+<attribute name="orderingGuide" nodeId="c4aec582"></attribute>
+<attribute name="isAbstract" nodeId="2f7d093c">false</attribute>
+<attribute name="shapeicon" nodeId="55ad5906"></attribute>
+<attribute name="nodeicon" nodeId="6aed7ba1"></attribute>
+<attribute name="prefix" nodeId="bd30c772"></attribute>
+<attribute name="isPlanned" nodeId="1f673d0c">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="6e3e7bbf">false</attribute>
+<attribute name="isOptional" nodeId="f5a5e88">false</attribute>
+<attribute name="isRepeatable" nodeId="5806851c">false</attribute>
+<attribute name="isOngoing" nodeId="e9f634de">false</attribute>
+<attribute name="isEventDriven" nodeId="e9d18ddb">false</attribute>
+<attribute name="variabilityType" nodeId="64e59579">na</attribute>
+</Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_Gkmq0cOLEe6pmdl9Vi4qww,_m9ePkMOLEe6pmdl9Vi4qww" ConcreteType="Task" Url="practice.ita.delv.test_mgmt.base/tasks/outline_test_strategy_228C91EF.html" Name="outline_test_strategy" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Outline test strategy" Id="_m9ePkMOLEe6pmdl9Vi4qww" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="8c775c80"></Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_FngKMUNeEeSCjKgeYHy0pA,_Co0PoCmZEeW4VNZE0V9FcA" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/perform_int_tests_2FDE8953.html" Name="perform_int_tests" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Perform integration tests" Id="_Co0PoCmZEeW4VNZE0V9FcA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="cd74f3d2"></Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_AkoXqJK6EeSEOeG-bGncjA,_6oh2oDc-EeWp1olIN1xWiA" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/perform_sys_tests_4509FEA3.html" Name="perform_sys_tests" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Perform system tests" Id="_6oh2oDc-EeWp1olIN1xWiA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="99307057"></Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_NRpJ8WGIEeWXVev_nv_kTg&amp;path=_NRpJ8WGIEeWXVev_nv_kTg,_eFYz9GGIEeWXVev_nv_kTg,_eFYz8GGIEeWXVev_nv_kTg" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/perform_tests_2E8D7174.html" Name="perform_tests" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Perform tests" Id="_eFYz8GGIEeWXVev_nv_kTg" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="578e4aa5"></Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_yVdJwTGPEe-TauTqJPNl_g,_wPROcDGREe-TauTqJPNl_g" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/perform_tests_2E8D7174.html" Name="perform_tests" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Perform tests" Id="_wPROcDGREe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="da2cc1a4"></Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_qMqn8dFLEe6Y56Jk6jqfOA,_5UGhINFLEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/perform_tests_2E8D7174.html" Name="perform_tests" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Perform tests" Id="_5UGhINFLEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="51174ef0"></Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_rk-WkclnEe6KPaNasO6mNA,_YZP1sO2oEe-socSARGFgTg" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/perform_tests_2E8D7174.html" Name="perform_tests" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Perform tests" Id="_YZP1sO2oEe-socSARGFgTg" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="6866d99c"></Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_kP8o0cPMEe6pmdl9Vi4qww,_udW4AMPMEe6pmdl9Vi4qww" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/perform_tests_2E8D7174.html" Name="perform_tests" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Perform tests" Id="_udW4AMPMEe6pmdl9Vi4qww" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="5487f172"></Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_SPMxYMl4Ee6KPaNasO6mNA,_SPMKYMl4Ee6KPaNasO6mNA" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/perform_tests_2E8D7174.html" Name="perform_tests" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Perform tests" Id="_SPMKYMl4Ee6KPaNasO6mNA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="b43c064b"></Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_wWob4MPOEe6pmdl9Vi4qww,_r6Y6Ee2oEe-socSARGFgTg,__Ge7gO2oEe-socSARGFgTg" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/perform_tests_2E8D7174.html" Name="perform_tests" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Perform tests" Id="__Ge7gO2oEe-socSARGFgTg" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="49bc1a31"></Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_arYdcNEhEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/perform_tests_2E8D7174.html" Name="perform_tests" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Perform tests" Id="_arYdcNEhEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="776a1e88"></Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_J-GoeJK6EeSEOeG-bGncjA,_zp8ecDc_EeWp1olIN1xWiA" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/perform_uat_tests_BAFD15F6.html" Name="perform_uat_tests" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Perform user acceptance tests" Id="_zp8ecDc_EeWp1olIN1xWiA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="846d3c63"></Element>
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Testing" Id="_XaP3oZLKEe6Ji6GnvvUfqw" relProcessPath="_XaP3oZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw" nodeId="eaa7126d" Url="process.adv.eya_oracle.base/capabilitypatterns/testing_wkstrm_4068A774.html" Name="testing_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="b25beba1">testing_wkstrm</attribute>
+<attribute name="guid" nodeId="e4e85ef5">_XaP3oZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="3baeb330">Testing</attribute>
+<attribute name="briefDescription" nodeId="2f28b438"></attribute>
+<attribute name="suppressed" nodeId="d0124eab">false</attribute>
+<attribute name="orderingGuide" nodeId="7b26f0d5"></attribute>
+<attribute name="isAbstract" nodeId="e19c334f">false</attribute>
+<attribute name="shapeicon" nodeId="d09a9f6b"></attribute>
+<attribute name="nodeicon" nodeId="f7b8dab6"></attribute>
+<attribute name="prefix" nodeId="2e1cef8d">workstream</attribute>
+<attribute name="isPlanned" nodeId="38afe9f3">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="658a624d">false</attribute>
+<attribute name="isOptional" nodeId="85d7ff73">false</attribute>
+<attribute name="isRepeatable" nodeId="52f2d8f4">false</attribute>
+<attribute name="isOngoing" nodeId="a7413a73">false</attribute>
+<attribute name="isEventDriven" nodeId="5d923568">false</attribute>
+<attribute name="variabilityType" nodeId="f08f2871">na</attribute>
+</Element>
+</referenceList>
+<referenceList name="contentElements" nodeId="1d8d10ed">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="IT Testing" Id="_NRpJ8WGIEeWXVev_nv_kTg" relProcessPath="_NRpJ8WGIEeWXVev_nv_kTg" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_NRpJ8WGIEeWXVev_nv_kTg&amp;path=_NRpJ8WGIEeWXVev_nv_kTg" nodeId="909099ab" Url="practice.ita.delv.it_test.assign/capabilitypatterns/it_test_8C99E41E.html" Name="it_test" BackPath="./../../">
+<attribute name="name" nodeId="30379623">it_test</attribute>
+<attribute name="guid" nodeId="c525ee75">_NRpJ8WGIEeWXVev_nv_kTg</attribute>
+<attribute name="presentationName" nodeId="90883e5d">IT Testing</attribute>
+<attribute name="briefDescription" nodeId="b7939859"></attribute>
+<attribute name="suppressed" nodeId="a28a5f4e">false</attribute>
+<attribute name="orderingGuide" nodeId="94b2674e"></attribute>
+<attribute name="isAbstract" nodeId="d7989e18">false</attribute>
+<attribute name="shapeicon" nodeId="72c430fe"></attribute>
+<attribute name="nodeicon" nodeId="ad9e1ede"></attribute>
+<attribute name="prefix" nodeId="3f637862"></attribute>
+<attribute name="isPlanned" nodeId="7bcfde79">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="a274c4c1">false</attribute>
+<attribute name="isOptional" nodeId="8f503ceb">false</attribute>
+<attribute name="isRepeatable" nodeId="b37c9623">false</attribute>
+<attribute name="isOngoing" nodeId="dfe64e68">false</attribute>
+<attribute name="isEventDriven" nodeId="2ecf8424">false</attribute>
+<attribute name="variabilityType" nodeId="a91375c7">na</attribute>
+</Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Outline test strategy" Id="_TmUtAOW9EeOeOeyRJA3ZBg" ShapeiconUrl="images/task.gif" nodeId="a343757b" Url="practice.ita.delv.test_mgmt.base/tasks/outline_test_strategy_228C91EF.html" Name="outline_test_strategy" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Perform integration tests" Id="_2b3R8CmVEeW4VNZE0V9FcA" ShapeiconUrl="images/task.gif" nodeId="8563369" Url="practice.ita.delv.it_test.base/tasks/perform_int_tests_2FDE8953.html" Name="perform_int_tests" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Perform system tests" Id="_p0ArkCtAEeWax4C3D-8TDw" ShapeiconUrl="images/task.gif" nodeId="aaf66ef3" Url="practice.ita.delv.it_test.base/tasks/perform_sys_tests_4509FEA3.html" Name="perform_sys_tests" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Perform tests" Id="_P_F2EOYJEeOqmb5IikO7mw" ShapeiconUrl="images/task.gif" nodeId="727d7400" Url="practice.ita.delv.it_test.base/tasks/perform_tests_2E8D7174.html" Name="perform_tests" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Perform user acceptance tests" Id="_sO_4ADcMEeWiCuaOJ9Py2A" ShapeiconUrl="images/task.gif" nodeId="aeeeff65" Url="practice.ita.delv.it_test.base/tasks/perform_uat_tests_BAFD15F6.html" Name="perform_uat_tests" BackPath="./../../"></Element>
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Testing" Id="_XaP3oZLKEe6Ji6GnvvUfqw" relProcessPath="_XaP3oZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw" nodeId="766cfc45" Url="process.adv.eya_oracle.base/capabilitypatterns/testing_wkstrm_4068A774.html" Name="testing_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="c223bf4a">testing_wkstrm</attribute>
+<attribute name="guid" nodeId="f9502e9b">_XaP3oZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="a4cdade0">Testing</attribute>
+<attribute name="briefDescription" nodeId="cac5c799"></attribute>
+<attribute name="suppressed" nodeId="f356c4cc">false</attribute>
+<attribute name="orderingGuide" nodeId="e056820d"></attribute>
+<attribute name="isAbstract" nodeId="d20252cb">false</attribute>
+<attribute name="shapeicon" nodeId="b8b44acb"></attribute>
+<attribute name="nodeicon" nodeId="159e69c1"></attribute>
+<attribute name="prefix" nodeId="368315fe">workstream</attribute>
+<attribute name="isPlanned" nodeId="5692108e">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="f63a123b">false</attribute>
+<attribute name="isOptional" nodeId="847b170d">false</attribute>
+<attribute name="isRepeatable" nodeId="25433c7c">false</attribute>
+<attribute name="isOngoing" nodeId="c1715810">false</attribute>
+<attribute name="isEventDriven" nodeId="557ef97">false</attribute>
+<attribute name="variabilityType" nodeId="51b89551">na</attribute>
+</Element>
+</referenceList>
+</Element>

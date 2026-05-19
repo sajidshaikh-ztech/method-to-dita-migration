@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element Type="Guideline" TypeName="Guideline" NodeiconUrl="" DisplayName="Test Automation Tool Selection" Id="_hmdcAB2ZEeSDYtcxfT4ZFw" ShapeiconUrl="images/guidance.gif" lang="en" nodeId="a7f25a06" Url="practice.ita.delv.test_mgmt.base/guidances/guidelines/test_auto_tool_selection_B790DF72.html" Name="test_auto_tool_selection" BackPath="./../../../">
+<copyright nodeId="69568a47">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="7fc63dae">test_auto_tool_selection</attribute>
+<attribute name="guid" nodeId="9cb0c7d">_hmdcAB2ZEeSDYtcxfT4ZFw</attribute>
+<attribute name="presentationName" nodeId="d1af81d1">Test Automation Tool Selection</attribute>
+<attribute name="briefDescription" nodeId="ce32949f"></attribute>
+<attribute name="suppressed" nodeId="19d980b2">false</attribute>
+<attribute name="orderingGuide" nodeId="e4392a21"></attribute>
+<attribute name="isAbstract" nodeId="c23670ba">false</attribute>
+<attribute name="shapeicon" nodeId="eea30040"></attribute>
+<attribute name="nodeicon" nodeId="787d602"></attribute>
+<attribute name="variabilityType" nodeId="99c251c6">na</attribute>
+<reference name="presentation" nodeId="e2f2eb27">
+<Element Type="ContentDescription" TypeName="Content Description" NodeiconUrl="" DisplayName="Test Automation Tool Selection" Id="-vb6Zz9WpztFcESAep0BSqA" ShapeiconUrl="images/guidance.gif" nodeId="cbfcc411" Url="" Name="test_auto_tool_selection,_hmdcAB2ZEeSDYtcxfT4ZFw" BackPath="">
+<copyright nodeId="963f3818">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="a3cb9893">test_auto_tool_selection,_hmdcAB2ZEeSDYtcxfT4ZFw</attribute>
+<attribute name="guid" nodeId="35c52e3e">-vb6Zz9WpztFcESAep0BSqA</attribute>
+<attribute name="presentationName" nodeId="2fc556f8">Test Automation Tool Selection</attribute>
+<attribute name="briefDescription" nodeId="3d1a7eab"></attribute>
+<attribute name="suppressed" nodeId="de0b8fa">false</attribute>
+<attribute name="orderingGuide" nodeId="a5f00bd4"></attribute>
+<attribute name="authors" nodeId="c6b3233a">process.adv.core.base</attribute>
+<attribute name="changeDate" nodeId="a19a6eca">Wed Mar 22 16:45:13 EDT 2023</attribute>
+<attribute name="changeDescription" nodeId="9ec1e58f">MAR 2023 - deleted redundant brief description|AUG 2014 - baseline version </attribute>
+<attribute name="version" nodeId="deaa8190"></attribute>
+<attribute name="mainDescription" nodeId="ef9306d0">&lt;p&gt;
+    Test automation tools are increasingly being brought to the market to automate the activities in test. A number of
+    automation tools exist, and it is unlikely that a single tool is capable of automating all test activities. Most tools
+    focus on a specific activity or group of activities, and some only address one aspect of an activity.&lt;br /&gt;
+    &lt;br /&gt;
+    When evaluating different tools for test automation, it is important to be aware of the type of tool you are
+    evaluating, the limitations of the tool, and what activities the tool addresses and automates. Test tools are often
+    evaluated and acquired based on the following categories:
+&lt;/p&gt;
+&lt;div style=&quot;MARGIN-LEFT: 2em; MARGIN-RIGHT: 0px&quot; dir=&quot;ltr&quot;&gt;
+    &lt;ul&gt;
+        &lt;li&gt;
+            Function
+        &lt;/li&gt;
+        &lt;li&gt;
+            White-box versus black-box
+        &lt;/li&gt;
+        &lt;li&gt;
+            Specialization
+        &lt;/li&gt;
+        &lt;li&gt;
+            Additional Considerations
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3&gt;
+    Function
+&lt;/h3&gt;
+&lt;p dir=&quot;ltr&quot;&gt;
+    Tools may be categorized by the function they perform. Typical function designations for tools include:
+&lt;/p&gt;
+&lt;ul dir=&quot;ltr&quot;&gt;
+    &lt;li&gt;
+        &lt;div&gt;
+            &lt;strong&gt;Data acquisition tools&lt;/strong&gt; that acquire data to be used in the test activities. The data may be
+            acquired through conversion, extraction, transformation, or capture of existing data.
+        &lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;div&gt;
+            &lt;strong&gt;Static measurement tools&lt;/strong&gt; that analyze information contained in the design model(s), source
+            code, or other fixed sources. The analysis yields information on the logic flow, data flow, or quality metrics,
+            such as complexity, maintainability, or lines of code.
+        &lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;div&gt;
+            &lt;strong&gt;Dynamic measurement tools&lt;/strong&gt; that perform an analysis during the execution of the code. The
+            measurements include the run-time operation of the code, such as memory error detection and performance.
+        &lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;div&gt;
+            &lt;strong&gt;Simulators or Drivers&lt;/strong&gt; that perform activities that are not, or could not be available for
+            testing purposes, for reasons of timing, expense, or safety.
+        &lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;div&gt;
+            &lt;strong&gt;Test management tools&lt;/strong&gt; that assist in the planning, design, implementation, execution,
+            evaluation, and management of the test activities or work products.
+        &lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;div&gt;
+            &lt;strong&gt;Test execution tools&lt;/strong&gt; automate the test execution and make it faster and more efficient. They
+            also reduce the risk of human error and therefore increase the overall quality of test.
+        &lt;/div&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 dir=&quot;ltr&quot;&gt;
+    White-box versus black-box
+&lt;/h3&gt;
+&lt;p dir=&quot;ltr&quot;&gt;
+    Test tools are often characterized as either white-box or black-box, based upon the manner in which the tool is used,
+    or the technology and knowledge needed to use the tools.
+&lt;/p&gt;
+&lt;ul dir=&quot;ltr&quot;&gt;
+    &lt;li&gt;
+        &lt;div&gt;
+            White-box tools rely upon knowledge of the code, design model(s), or other source material to implement and
+            execute the tests.
+        &lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;div&gt;
+            Black-box tools rely only upon the use cases or functional description of the target-of-test. Where as
+            white-box tools have knowledge of how the target-of-test processes the request, black-box tools rely upon the
+            input and output conditions to evaluate the test.
+        &lt;/div&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 dir=&quot;ltr&quot;&gt;
+    Specialization
+&lt;/h3&gt;
+&lt;p dir=&quot;ltr&quot;&gt;
+    In addition to the broad classifications of tools presented above, tools may also be classified by specialization.
+&lt;/p&gt;
+&lt;ul dir=&quot;ltr&quot;&gt;
+    &lt;li&gt;
+        &lt;div&gt;
+            &lt;strong&gt;Record/Playback tools&lt;/strong&gt; combine data acquisition with dynamic measurement. Test data is acquired
+            during the recording of events (during test implementation). Later, during test execution, the data is used to
+            &quot;playback&quot; the test script which is used to evaluate the execution of the target-of-test.
+        &lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;div&gt;
+            &lt;strong&gt;Quality metric tools&lt;/strong&gt; are static measurement tools that perform a static analysis of the design
+            model(s) or source code to establish a set of parameters describing the target-of-test&apos;s quality. The
+            parameters may indicate reliability, complexity, maintainability, or other measures of quality.
+        &lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;div&gt;
+            &lt;strong&gt;Coverage monitor tools&lt;/strong&gt; indicate the completeness of testing by identifying how much of the
+            target-of-test was covered, in some dimension, during testing. Typical classes of coverage include,
+            requirements-based (use cases), logic branch or node (code-based), data state, and function points.
+        &lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;div&gt;
+            &lt;strong&gt;Test case generators&lt;/strong&gt; automate the generation of test data. Test case generators use either a
+            formal specification of the target-of-test&apos;s data inputs or the design model(s) / source code to produce test
+            data that tests the nominal inputs, error inputs, and limit and boundary cases.
+        &lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;div&gt;
+            &lt;strong&gt;Comparator tools&lt;/strong&gt; compare test results with reference results and identify differences.
+            Comparators differ in their specificity to a particular data formats. For example, comparators may be
+            pixel-based (to compare bitmap images) or object-based (to compare object properties or data).
+        &lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;div&gt;
+            &lt;strong&gt;Data extractors&lt;/strong&gt; provide inputs for test cases from existing sources. Sources include,
+            databases, data streams in a communication system, reports, or design model(s) / source code.&lt;sup&gt;&lt;a     id=&quot;ref1&quot;
+            href=&quot;#fn1&quot;    &gt;[1]&lt;/a&gt;&lt;/sup&gt;
+        &lt;/div&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 dir=&quot;ltr&quot;&gt;
+    Additional considerations
+&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Some organizations may have existing relationship with vendors such as HP, IBM&amp;nbsp;or Microsoft, and may have
+        preference for a particular test tool.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Will defect management be performed using a tool?
+    &lt;/li&gt;
+    &lt;li&gt;
+        Any constraints of the tool?
+    &lt;/li&gt;
+    &lt;li&gt;
+        Cost of the tool
+    &lt;/li&gt;
+    &lt;li&gt;
+        Number of users supported on the tool etc.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;footnote&quot;&gt;
+    &lt;p&gt;
+        &lt;sup&gt;&lt;a     id=&quot;fn1&quot; href=&quot;#ref1&quot;    &gt;[1]&lt;/a&gt;&lt;/sup&gt;Rational Unified Process, Concept: Test Automation and Tools (IBM Corp,
+        2012)
+    &lt;/p&gt;
+&lt;/div&gt;</attribute>
+<attribute name="externalId" nodeId="3ca32bae"></attribute>
+<attribute name="keyConsiderations" nodeId="d7e91471"></attribute>
+<attribute name="longPresentationName" nodeId="4609313d"></attribute>
+</Element>
+</reference>
+<referenceList name="Guideline_BreakdownElements" nodeId="6aa00af4">
+<Element TypeName="Task Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_Gkmq0cOLEe6pmdl9Vi4qww,_m9ePkMOLEe6pmdl9Vi4qww" ConcreteType="Task" Url="practice.ita.delv.test_mgmt.base/tasks/outline_test_strategy_228C91EF.html" Name="outline_test_strategy" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Outline test strategy" Id="_m9ePkMOLEe6pmdl9Vi4qww" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="1281493a"></Element>
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Testing" Id="_XaP3oZLKEe6Ji6GnvvUfqw" relProcessPath="_XaP3oZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw" nodeId="627c7d1d" Url="process.adv.eya_oracle.base/capabilitypatterns/testing_wkstrm_4068A774.html" Name="testing_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="3edc56b1">testing_wkstrm</attribute>
+<attribute name="guid" nodeId="7446aab0">_XaP3oZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="daf47447">Testing</attribute>
+<attribute name="briefDescription" nodeId="187d15fc"></attribute>
+<attribute name="suppressed" nodeId="a10b9b3">false</attribute>
+<attribute name="orderingGuide" nodeId="85c53aef"></attribute>
+<attribute name="isAbstract" nodeId="f60b3bd1">false</attribute>
+<attribute name="shapeicon" nodeId="a0c405b7"></attribute>
+<attribute name="nodeicon" nodeId="8c361350"></attribute>
+<attribute name="prefix" nodeId="f542f71f">workstream</attribute>
+<attribute name="isPlanned" nodeId="de962ad5">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="7a69f7ac">false</attribute>
+<attribute name="isOptional" nodeId="aad8ad1">false</attribute>
+<attribute name="isRepeatable" nodeId="f9ccb76e">false</attribute>
+<attribute name="isOngoing" nodeId="e1f86a5e">false</attribute>
+<attribute name="isEventDriven" nodeId="2a7bdfe6">false</attribute>
+<attribute name="variabilityType" nodeId="a3174ff">na</attribute>
+</Element>
+</referenceList>
+<referenceList name="Guideline_ContentElements" nodeId="ac86870b">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Outline test strategy" Id="_TmUtAOW9EeOeOeyRJA3ZBg" ShapeiconUrl="images/task.gif" nodeId="6acf5242" Url="practice.ita.delv.test_mgmt.base/tasks/outline_test_strategy_228C91EF.html" Name="outline_test_strategy" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="contentElements" nodeId="663a2ce0">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Outline test strategy" Id="_TmUtAOW9EeOeOeyRJA3ZBg" ShapeiconUrl="images/task.gif" nodeId="740b1066" Url="practice.ita.delv.test_mgmt.base/tasks/outline_test_strategy_228C91EF.html" Name="outline_test_strategy" BackPath="./../../"></Element>
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Testing" Id="_XaP3oZLKEe6Ji6GnvvUfqw" relProcessPath="_XaP3oZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw" nodeId="b6e24d34" Url="process.adv.eya_oracle.base/capabilitypatterns/testing_wkstrm_4068A774.html" Name="testing_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="66eee92b">testing_wkstrm</attribute>
+<attribute name="guid" nodeId="50161a57">_XaP3oZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="c413e23b">Testing</attribute>
+<attribute name="briefDescription" nodeId="b547e2e"></attribute>
+<attribute name="suppressed" nodeId="fb97293a">false</attribute>
+<attribute name="orderingGuide" nodeId="bddb16c1"></attribute>
+<attribute name="isAbstract" nodeId="b683abe0">false</attribute>
+<attribute name="shapeicon" nodeId="6b5c2ad9"></attribute>
+<attribute name="nodeicon" nodeId="951195ed"></attribute>
+<attribute name="prefix" nodeId="c990a88f">workstream</attribute>
+<attribute name="isPlanned" nodeId="38e61738">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="dcceaa36">false</attribute>
+<attribute name="isOptional" nodeId="ad658c28">false</attribute>
+<attribute name="isRepeatable" nodeId="e2a108a5">false</attribute>
+<attribute name="isOngoing" nodeId="6f691671">false</attribute>
+<attribute name="isEventDriven" nodeId="ad9fec66">false</attribute>
+<attribute name="variabilityType" nodeId="83b42cee">na</attribute>
+</Element>
+</referenceList>
+</Element>

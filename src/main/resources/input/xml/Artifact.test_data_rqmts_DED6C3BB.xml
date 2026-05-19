@@ -1,0 +1,1875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_geehAOYGEeOqmb5IikO7mw" ShapeiconUrl="images/artifact.gif" lang="en" nodeId="8bec89f9" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../">
+<copyright nodeId="88e436d4">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="22dadd4">test_data_rqmts</attribute>
+<attribute name="guid" nodeId="820956cb">_geehAOYGEeOqmb5IikO7mw</attribute>
+<attribute name="presentationName" nodeId="debf150a">Test Data Requirements</attribute>
+<attribute name="briefDescription" nodeId="fe36718f">This work product details data needs for the successful execution of a set of identified test scripts.</attribute>
+<attribute name="suppressed" nodeId="152ac510">false</attribute>
+<attribute name="orderingGuide" nodeId="e2f604c1"></attribute>
+<attribute name="isAbstract" nodeId="b4a4e8c6">false</attribute>
+<attribute name="shapeicon" nodeId="18c81f7"></attribute>
+<attribute name="nodeicon" nodeId="e20e0511"></attribute>
+<attribute name="variabilityType" nodeId="680ddf4c">na</attribute>
+<reference name="presentation" nodeId="ed7690ef">
+<Element Type="ArtifactDescription" TypeName="Artifact Description" NodeiconUrl="" DisplayName="Test Data Requirements" Id="-KOhm4V__LW_At4UN5J6s-A" ShapeiconUrl="images/guidance.gif" nodeId="4ceefd6b" Url="" Name="test_data_requirements,_geehAOYGEeOqmb5IikO7mw" BackPath="">
+<copyright nodeId="1183adb2">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="93f06d16">test_data_requirements,_geehAOYGEeOqmb5IikO7mw</attribute>
+<attribute name="guid" nodeId="94ff513c">-KOhm4V__LW_At4UN5J6s-A</attribute>
+<attribute name="presentationName" nodeId="b844658">Test Data Requirements</attribute>
+<attribute name="briefDescription" nodeId="1b6ced45"></attribute>
+<attribute name="suppressed" nodeId="89983601">false</attribute>
+<attribute name="orderingGuide" nodeId="2a2d4cba"></attribute>
+<attribute name="authors" nodeId="92e3bb2f">process.adv.core.base</attribute>
+<attribute name="changeDate" nodeId="8c3e1a49">Wed Mar 15 18:06:34 EDT 2017</attribute>
+<attribute name="changeDescription" nodeId="1d2b2f17">AUG 2014 - baseline version</attribute>
+<attribute name="version" nodeId="b5e57089"></attribute>
+<attribute name="mainDescription" nodeId="21815c5f">&lt;p&gt;
+    This work product defines the data requirements to execute the test effort. Examples of requirements to address test
+    data needs include:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Will production or synthetic data be used?
+    &lt;/li&gt;
+    &lt;li&gt;
+        How much data is needed?
+    &lt;/li&gt;
+    &lt;li&gt;
+        When is the data needed?
+    &lt;/li&gt;
+    &lt;li&gt;
+        Where does the data need to be located?&lt;br /&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    Note: Justifications for using production or synthetic data are usually provided.
+&lt;/p&gt;</attribute>
+<attribute name="externalId" nodeId="722f8ba"></attribute>
+<attribute name="keyConsiderations" nodeId="ecc4a994"></attribute>
+<attribute name="longPresentationName" nodeId="d3096807"></attribute>
+<attribute name="purpose" nodeId="1d2b7ca1">&lt;p&gt;
+    To communicate the requirements for test data needed to implement test execution.
+&lt;/p&gt;</attribute>
+<attribute name="impactOfNotHaving" nodeId="e806a7ba"></attribute>
+<attribute name="reasonsForNotNeeding" nodeId="e8f6ff1e"></attribute>
+<attribute name="briefOutline" nodeId="fda131f4">&lt;p&gt;
+    Topics typically covered in this artifact include, but are not limited, to the following:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Test data requirements
+    &lt;/li&gt;
+    &lt;li&gt;
+        Source of the test data including relevant criteria to extract a specific subset of data 
+    &lt;/li&gt;
+    &lt;li&gt;
+        Test scripts associated with the test data criteria
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="representationOptions" nodeId="259ed597"></attribute>
+<attribute name="representation" nodeId="f024f69f"></attribute>
+<attribute name="notation" nodeId="8ff5c9f0"></attribute>
+</Element>
+</reference>
+<referenceList name="WorkProduct_WorkProductDescriptors" nodeId="e455816a">
+<Element TypeName="Work Product Descriptor" queryString="?proc=_NRpJ8WGIEeWXVev_nv_kTg&amp;path=_NRpJ8WGIEeWXVev_nv_kTg,_bEE_EWGIEeWXVev_nv_kTg,_bEHbUGGIEeWXVev_nv_kTg_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_bEHbUGGIEeWXVev_nv_kTg_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="d4cb094f"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_NRpJ8WGIEeWXVev_nv_kTg&amp;path=_NRpJ8WGIEeWXVev_nv_kTg,_hW4Z5GGIEeWXVev_nv_kTg,_hW5A9WGIEeWXVev_nv_kTg_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_hW5A9WGIEeWXVev_nv_kTg_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="55d2fcb"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_NRpJ8WGIEeWXVev_nv_kTg&amp;path=_NRpJ8WGIEeWXVev_nv_kTg,_eFYz9GGIEeWXVev_nv_kTg,_eFYz8GGIEeWXVev_nv_kTg_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_eFYz8GGIEeWXVev_nv_kTg_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="3e0c4629"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_yVdJwTGPEe-TauTqJPNl_g,_wPROcDGREe-TauTqJPNl_g_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_wPROcDGREe-TauTqJPNl_g_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="8b34aa7"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_qMqn8dFLEe6Y56Jk6jqfOA,_5UGhINFLEe6Y56Jk6jqfOA_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_5UGhINFLEe6Y56Jk6jqfOA_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="1fdfa5bb"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_AxwOgcOjEe6pmdl9Vi4qww,_W8WBYMOjEe6pmdl9Vi4qww_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_W8WBYMOjEe6pmdl9Vi4qww_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="6436892b"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_rk-WkclnEe6KPaNasO6mNA,_YZP1sO2oEe-socSARGFgTg_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_YZP1sO2oEe-socSARGFgTg_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="70c1f734"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_kP8o0cPMEe6pmdl9Vi4qww,_udW4AMPMEe6pmdl9Vi4qww_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_udW4AMPMEe6pmdl9Vi4qww_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="6ecffaa9"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_SPMxYMl4Ee6KPaNasO6mNA,_SPMKYMl4Ee6KPaNasO6mNA_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_SPMKYMl4Ee6KPaNasO6mNA_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="84aedea0"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_wWob4MPOEe6pmdl9Vi4qww,_r6Y6Ee2oEe-socSARGFgTg,__Ge7gO2oEe-socSARGFgTg_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="__Ge7gO2oEe-socSARGFgTg_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="439bc23c"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_arYdcNEhEe6Y56Jk6jqfOA_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_arYdcNEhEe6Y56Jk6jqfOA_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="ab3ffbf5"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_LJrQ0eW9EeOeOeyRJA3ZBg,_XQjakCmXEeW4VNZE0V9FcA_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_XQjakCmXEeW4VNZE0V9FcA_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="d7b51489"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_cA-HgOdREeOqYK1-8T06Sw,_fJiwECmXEeW4VNZE0V9FcA_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_fJiwECmXEeW4VNZE0V9FcA_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="a1b9ab92"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_FngKMUNeEeSCjKgeYHy0pA,_Co0PoCmZEeW4VNZE0V9FcA_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_Co0PoCmZEeW4VNZE0V9FcA_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="a1cc8fd1"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_8vJT6JK5EeSEOeG-bGncjA,_0JL0oDc-EeWp1olIN1xWiA_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_0JL0oDc-EeWp1olIN1xWiA_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="e9fee748"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,__YdffZK5EeSEOeG-bGncjA,_4u40cDc-EeWp1olIN1xWiA_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_4u40cDc-EeWp1olIN1xWiA_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="e622b873"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_AkoXqJK6EeSEOeG-bGncjA,_6oh2oDc-EeWp1olIN1xWiA_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_6oh2oDc-EeWp1olIN1xWiA_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="a083df92"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_H1-eaJK6EeSEOeG-bGncjA,_hIdgQDc_EeWp1olIN1xWiA_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_hIdgQDc_EeWp1olIN1xWiA_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="b9568bfa"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_I_xX_ZK6EeSEOeG-bGncjA,_yZoGEDc_EeWp1olIN1xWiA_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_yZoGEDc_EeWp1olIN1xWiA_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="d71e2e3b"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_J-GoeJK6EeSEOeG-bGncjA,_zp8ecDc_EeWp1olIN1xWiA_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_zp8ecDc_EeWp1olIN1xWiA_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="6ff079ac"></Element>
+</referenceList>
+<referenceList name="WorkProduct_OutputFrom_Tasks" nodeId="8f106926">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop integration test data requirements" Id="_6LtdQCmUEeW4VNZE0V9FcA" ShapeiconUrl="images/task.gif" nodeId="e1f6014" Url="practice.ita.delv.it_test.base/tasks/deveop_int_test_data_rqmts_53465330.html" Name="deveop_int_test_data_rqmts" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop system test data requirements" Id="_3Si0wCm1EeW4VNZE0V9FcA" ShapeiconUrl="images/task.gif" nodeId="b25fd36d" Url="practice.ita.delv.it_test.base/tasks/develop_sys_test_data_rqmts_E8206807.html" Name="develop_sys_test_data_rqmts" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop test data requirements" Id="_IWks4OYGEeOqmb5IikO7mw" ShapeiconUrl="images/task.gif" nodeId="c94ef5c4" Url="practice.ita.delv.it_test.base/tasks/develop_test_data_rqmts_B38235FD.html" Name="develop_test_data_rqmts" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop user acceptance test data requirements" Id="_8WaogDcBEeWiCuaOJ9Py2A" ShapeiconUrl="images/task.gif" nodeId="8faada6c" Url="practice.ita.delv.it_test.base/tasks/develop_uat_test_data_rqmts_A5B4F361.html" Name="develop_uat_test_data_rqmts" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="WorkProduct_Deliverables" nodeId="8a1eeca0">
+<Element ShowFullMethodContent="false" Type="Deliverable" TypeName="Deliverable" NodeiconUrl="" DisplayName="Test Automation Framework" Id="_VfYaoMSUEe6pmdl9Vi4qww" ShapeiconUrl="images/deliverable.gif" nodeId="c76eb389" Url="process.adv.eya_oracle.base/workproducts/test_automation_framework_887B64C5.html" Name="test_automation_framework" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Deliverable" TypeName="Deliverable" NodeiconUrl="" DisplayName="User Acceptance Testing (UAT) Plan and Design" Id="_wIlc8MltEe6KPaNasO6mNA" ShapeiconUrl="images/deliverable.gif" nodeId="b90c360a" Url="process.adv.eya_oracle.base/workproducts/uat_plan_design_45AD4C44.html" Name="uat_plan_design" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="WorkProduct_InputTo_Tasks" nodeId="8640b8a1">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Finalize test automation framework" Id="_Y_X6IMSVEe6pmdl9Vi4qww" ShapeiconUrl="images/task.gif" nodeId="d648f2bd" Url="process.adv.eya_oracle.base/tasks/fin_test_automation_frmwrk_7CD175F8.html" Name="fin_test_automation_frmwrk" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Finalize user acceptance testing plan and design" Id="_hWC1sMltEe6KPaNasO6mNA" ShapeiconUrl="images/task.gif" nodeId="203fe57b" Url="process.adv.eya_oracle.base/tasks/fin_uat_plan_design_1DA17A3D.html" Name="fin_uat_plan_design" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Perform integration tests" Id="_2b3R8CmVEeW4VNZE0V9FcA" ShapeiconUrl="images/task.gif" nodeId="76a59410" Url="practice.ita.delv.it_test.base/tasks/perform_int_tests_2FDE8953.html" Name="perform_int_tests" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Perform system tests" Id="_p0ArkCtAEeWax4C3D-8TDw" ShapeiconUrl="images/task.gif" nodeId="b8d297f9" Url="practice.ita.delv.it_test.base/tasks/perform_sys_tests_4509FEA3.html" Name="perform_sys_tests" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Perform tests" Id="_P_F2EOYJEeOqmb5IikO7mw" ShapeiconUrl="images/task.gif" nodeId="2bc7f085" Url="practice.ita.delv.it_test.base/tasks/perform_tests_2E8D7174.html" Name="perform_tests" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Perform user acceptance tests" Id="_sO_4ADcMEeWiCuaOJ9Py2A" ShapeiconUrl="images/task.gif" nodeId="81dc09f7" Url="practice.ita.delv.it_test.base/tasks/perform_uat_tests_BAFD15F6.html" Name="perform_uat_tests" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Prepare and load integration test data" Id="_8tJCwCmVEeW4VNZE0V9FcA" ShapeiconUrl="images/task.gif" nodeId="3fb7daba" Url="practice.ita.delv.it_test.base/tasks/prepare_int_load_test_data_5C3759FA.html" Name="prepare_int_load_test_data" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Prepare and load system test data" Id="_shNRoCtAEeWax4C3D-8TDw" ShapeiconUrl="images/task.gif" nodeId="7c716f42" Url="practice.ita.delv.it_test.base/tasks/prepare_sys_load_test_data_BA4415E7.html" Name="prepare_sys_load_test_data" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Prepare and load test data" Id="_lvo4oOYGEeOqmb5IikO7mw" ShapeiconUrl="images/task.gif" nodeId="365511b6" Url="practice.ita.delv.it_test.base/tasks/prepare_load_test_data_ED88DC7B.html" Name="prepare_load_test_data" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Prepare and load user acceptance test data" Id="_cbHEUDcTEeWiCuaOJ9Py2A" ShapeiconUrl="images/task.gif" nodeId="9e995f86" Url="practice.ita.delv.it_test.base/tasks/prepare_load_uat_data_EB277214.html" Name="prepare_load_uat_data" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="modifyRoles" nodeId="58fb53a0">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Tester" Id="_LCfPjjRjEeO6HZrLUe5nxQ" ShapeiconUrl="images/role.gif" nodeId="72e8784c" Url="core.default.role_def.base/roles/tester_B8C2206D.html" Name="tester" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="mandatoryInputToTasks" nodeId="b8d9bf8d">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Finalize test automation framework" Id="_Y_X6IMSVEe6pmdl9Vi4qww" ShapeiconUrl="images/task.gif" nodeId="4e800c4d" Url="process.adv.eya_oracle.base/tasks/fin_test_automation_frmwrk_7CD175F8.html" Name="fin_test_automation_frmwrk" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Finalize user acceptance testing plan and design" Id="_hWC1sMltEe6KPaNasO6mNA" ShapeiconUrl="images/task.gif" nodeId="d8e0485c" Url="process.adv.eya_oracle.base/tasks/fin_uat_plan_design_1DA17A3D.html" Name="fin_uat_plan_design" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Perform integration tests" Id="_2b3R8CmVEeW4VNZE0V9FcA" ShapeiconUrl="images/task.gif" nodeId="c26421db" Url="practice.ita.delv.it_test.base/tasks/perform_int_tests_2FDE8953.html" Name="perform_int_tests" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Perform system tests" Id="_p0ArkCtAEeWax4C3D-8TDw" ShapeiconUrl="images/task.gif" nodeId="24754564" Url="practice.ita.delv.it_test.base/tasks/perform_sys_tests_4509FEA3.html" Name="perform_sys_tests" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Perform tests" Id="_P_F2EOYJEeOqmb5IikO7mw" ShapeiconUrl="images/task.gif" nodeId="ea812cb9" Url="practice.ita.delv.it_test.base/tasks/perform_tests_2E8D7174.html" Name="perform_tests" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Perform user acceptance tests" Id="_sO_4ADcMEeWiCuaOJ9Py2A" ShapeiconUrl="images/task.gif" nodeId="8c0f514c" Url="practice.ita.delv.it_test.base/tasks/perform_uat_tests_BAFD15F6.html" Name="perform_uat_tests" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Prepare and load integration test data" Id="_8tJCwCmVEeW4VNZE0V9FcA" ShapeiconUrl="images/task.gif" nodeId="df31da50" Url="practice.ita.delv.it_test.base/tasks/prepare_int_load_test_data_5C3759FA.html" Name="prepare_int_load_test_data" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Prepare and load system test data" Id="_shNRoCtAEeWax4C3D-8TDw" ShapeiconUrl="images/task.gif" nodeId="b23d9129" Url="practice.ita.delv.it_test.base/tasks/prepare_sys_load_test_data_BA4415E7.html" Name="prepare_sys_load_test_data" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Prepare and load test data" Id="_lvo4oOYGEeOqmb5IikO7mw" ShapeiconUrl="images/task.gif" nodeId="87eeb983" Url="practice.ita.delv.it_test.base/tasks/prepare_load_test_data_ED88DC7B.html" Name="prepare_load_test_data" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Prepare and load user acceptance test data" Id="_cbHEUDcTEeWiCuaOJ9Py2A" ShapeiconUrl="images/task.gif" nodeId="e2adc908" Url="practice.ita.delv.it_test.base/tasks/prepare_load_uat_data_EB277214.html" Name="prepare_load_uat_data" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="outputFromTasks" nodeId="1f606f70">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop integration test data requirements" Id="_6LtdQCmUEeW4VNZE0V9FcA" ShapeiconUrl="images/task.gif" nodeId="68bf74e1" Url="practice.ita.delv.it_test.base/tasks/deveop_int_test_data_rqmts_53465330.html" Name="deveop_int_test_data_rqmts" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop system test data requirements" Id="_3Si0wCm1EeW4VNZE0V9FcA" ShapeiconUrl="images/task.gif" nodeId="537280f2" Url="practice.ita.delv.it_test.base/tasks/develop_sys_test_data_rqmts_E8206807.html" Name="develop_sys_test_data_rqmts" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop test data requirements" Id="_IWks4OYGEeOqmb5IikO7mw" ShapeiconUrl="images/task.gif" nodeId="72393ed4" Url="practice.ita.delv.it_test.base/tasks/develop_test_data_rqmts_B38235FD.html" Name="develop_test_data_rqmts" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop user acceptance test data requirements" Id="_8WaogDcBEeWiCuaOJ9Py2A" ShapeiconUrl="images/task.gif" nodeId="95b22956" Url="practice.ita.delv.it_test.base/tasks/develop_uat_test_data_rqmts_A5B4F361.html" Name="develop_uat_test_data_rqmts" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="3059964d">
+<Element TypeName="Work Product Descriptor" queryString="?proc=_NRpJ8WGIEeWXVev_nv_kTg&amp;path=_NRpJ8WGIEeWXVev_nv_kTg,_bEE_EWGIEeWXVev_nv_kTg,_bEHbUGGIEeWXVev_nv_kTg_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_bEHbUGGIEeWXVev_nv_kTg_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="21bb2d88">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="IT Testing" Id="_NRpJ8WGIEeWXVev_nv_kTg" relProcessPath="_NRpJ8WGIEeWXVev_nv_kTg" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_NRpJ8WGIEeWXVev_nv_kTg&amp;path=_NRpJ8WGIEeWXVev_nv_kTg" nodeId="e77a9f0f" Url="practice.ita.delv.it_test.assign/capabilitypatterns/it_test_8C99E41E.html" Name="it_test" BackPath="./../../">
+<attribute name="name" nodeId="ad0b392a">it_test</attribute>
+<attribute name="guid" nodeId="346199e7">_NRpJ8WGIEeWXVev_nv_kTg</attribute>
+<attribute name="presentationName" nodeId="cca29c16">IT Testing</attribute>
+<attribute name="briefDescription" nodeId="4b248501"></attribute>
+<attribute name="suppressed" nodeId="9a6496c6">false</attribute>
+<attribute name="orderingGuide" nodeId="32101ba4"></attribute>
+<attribute name="isAbstract" nodeId="269bb3f7">false</attribute>
+<attribute name="shapeicon" nodeId="34165d31"></attribute>
+<attribute name="nodeicon" nodeId="59fe445"></attribute>
+<attribute name="prefix" nodeId="dbad66c9"></attribute>
+<attribute name="isPlanned" nodeId="7bc1526f">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="bc666002">false</attribute>
+<attribute name="isOptional" nodeId="23aabd03">false</attribute>
+<attribute name="isRepeatable" nodeId="33e6b078">false</attribute>
+<attribute name="isOngoing" nodeId="1d5d0170">false</attribute>
+<attribute name="isEventDriven" nodeId="854f4cf9">false</attribute>
+<attribute name="variabilityType" nodeId="edbf349">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Design Tests" Id="_bEE_EWGIEeWXVev_nv_kTg" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_NRpJ8WGIEeWXVev_nv_kTg&amp;path=_NRpJ8WGIEeWXVev_nv_kTg,_bEE_EWGIEeWXVev_nv_kTg" nodeId="ecca986a" Url="practice.ita.delv.it_test.assign/capabilitypatterns/Design Tests_5D7B7F70.html" Name="Design Tests" BackPath="./../../">
+<attribute name="name" nodeId="b4ef2c94">Design Tests</attribute>
+<attribute name="guid" nodeId="dd6b89e">_bEE_EWGIEeWXVev_nv_kTg</attribute>
+<attribute name="presentationName" nodeId="9e79faf9">Design Tests</attribute>
+<attribute name="briefDescription" nodeId="bace17f4">In this activity, how test are performed are defined at granular level. Effective test design typically requires knowledge of the target solution, knowledge of the functionality under test, and test techniques employed. An efficient test design does not include redundant test scripts. </attribute>
+<attribute name="suppressed" nodeId="31d01c7">false</attribute>
+<attribute name="orderingGuide" nodeId="f11511ac"></attribute>
+<attribute name="isAbstract" nodeId="1ed2c080">false</attribute>
+<attribute name="shapeicon" nodeId="22052469"></attribute>
+<attribute name="nodeicon" nodeId="2d934d86"></attribute>
+<attribute name="prefix" nodeId="f0dd1cf8"></attribute>
+<attribute name="isPlanned" nodeId="bc1d9cc6">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="21b06783">false</attribute>
+<attribute name="isOptional" nodeId="518b6680">false</attribute>
+<attribute name="isRepeatable" nodeId="f7e82605">false</attribute>
+<attribute name="isOngoing" nodeId="57dcb149">false</attribute>
+<attribute name="isEventDriven" nodeId="ae300e9d">false</attribute>
+<attribute name="variabilityType" nodeId="4e0a6f9f">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_NRpJ8WGIEeWXVev_nv_kTg&amp;path=_NRpJ8WGIEeWXVev_nv_kTg,_bEE_EWGIEeWXVev_nv_kTg,_bEHbUGGIEeWXVev_nv_kTg_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_bEHbUGGIEeWXVev_nv_kTg_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="d244630c">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Testing" Id="_XaP3oZLKEe6Ji6GnvvUfqw" relProcessPath="_XaP3oZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw" nodeId="3b99dae1" Url="process.adv.eya_oracle.base/capabilitypatterns/testing_wkstrm_4068A774.html" Name="testing_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="86e221ea">testing_wkstrm</attribute>
+<attribute name="guid" nodeId="1a86435b">_XaP3oZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="d2556db1">Testing</attribute>
+<attribute name="briefDescription" nodeId="d31fbff7"></attribute>
+<attribute name="suppressed" nodeId="13d3ac04">false</attribute>
+<attribute name="orderingGuide" nodeId="ca64f698"></attribute>
+<attribute name="isAbstract" nodeId="1cda6115">false</attribute>
+<attribute name="shapeicon" nodeId="736b6cea"></attribute>
+<attribute name="nodeicon" nodeId="e8400a8"></attribute>
+<attribute name="prefix" nodeId="a2c35568">workstream</attribute>
+<attribute name="isPlanned" nodeId="4e662a7b">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="c9fb741c">false</attribute>
+<attribute name="isOptional" nodeId="6f2a5ed5">false</attribute>
+<attribute name="isRepeatable" nodeId="207dda45">false</attribute>
+<attribute name="isOngoing" nodeId="382beff2">false</attribute>
+<attribute name="isEventDriven" nodeId="d2aa5c0a">false</attribute>
+<attribute name="variabilityType" nodeId="b754bb1f">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Prepare for System Integration Testing (SIT)" Id="_45Ha4ckfEe6KPaNasO6mNA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA" nodeId="d3feda09" Url="process.adv.eya_oracle.base/capabilitypatterns/prepare_sit_F7633BE2.html" Name="prepare_sit" BackPath="./../../">
+<attribute name="name" nodeId="4ffba2c5">prepare_sit</attribute>
+<attribute name="guid" nodeId="77a3c64f">_45Ha4ckfEe6KPaNasO6mNA</attribute>
+<attribute name="presentationName" nodeId="87f6bf3">Prepare for System Integration Testing (SIT)</attribute>
+<attribute name="briefDescription" nodeId="62f16d76">Plan for system integration testing (SIT) cycles 1 through n based on the test strategy and design the test scenarios, cases and scripts as well as the data requirements for conducting the tests.</attribute>
+<attribute name="suppressed" nodeId="9b0f7279">false</attribute>
+<attribute name="orderingGuide" nodeId="4c04443d"></attribute>
+<attribute name="isAbstract" nodeId="544caae2">false</attribute>
+<attribute name="shapeicon" nodeId="4b3cd534"></attribute>
+<attribute name="nodeicon" nodeId="9b47339"></attribute>
+<attribute name="prefix" nodeId="aed7debc"></attribute>
+<attribute name="isPlanned" nodeId="3404c695">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="9b71f325">false</attribute>
+<attribute name="isOptional" nodeId="3c0dd598">false</attribute>
+<attribute name="isRepeatable" nodeId="c16a5c3e">false</attribute>
+<attribute name="isOngoing" nodeId="211265ae">false</attribute>
+<attribute name="isEventDriven" nodeId="df81fa22">false</attribute>
+<attribute name="variabilityType" nodeId="cf6f3fd9">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Plan and Design Tests" Id="_BAXyIe2lEe-socSARGFgTg" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_BAXyIe2lEe-socSARGFgTg" nodeId="573d8da8" Url="process.adv.eya_oracle.base/capabilitypatterns/plan_design_tests_3CBA90A6.html" Name="plan_design_tests" BackPath="./../../">
+<attribute name="name" nodeId="845f451d">plan_design_tests</attribute>
+<attribute name="guid" nodeId="191656e1">_BAXyIe2lEe-socSARGFgTg</attribute>
+<attribute name="presentationName" nodeId="b12be7f">Plan and Design Tests</attribute>
+<attribute name="briefDescription" nodeId="d304479a">Plan, design and prepare for system integration testing (SIT).</attribute>
+<attribute name="suppressed" nodeId="3de2fd23">false</attribute>
+<attribute name="orderingGuide" nodeId="e535757a"></attribute>
+<attribute name="isAbstract" nodeId="c509500f">false</attribute>
+<attribute name="shapeicon" nodeId="dee01e7"></attribute>
+<attribute name="nodeicon" nodeId="65509e5c"></attribute>
+<attribute name="prefix" nodeId="68ea94d1"></attribute>
+<attribute name="isPlanned" nodeId="d04a328e">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="738049ef">false</attribute>
+<attribute name="isOptional" nodeId="17f21411">false</attribute>
+<attribute name="isRepeatable" nodeId="892da8a6">false</attribute>
+<attribute name="isOngoing" nodeId="4d3059ca">false</attribute>
+<attribute name="isEventDriven" nodeId="6d666e94">false</attribute>
+<attribute name="variabilityType" nodeId="1794bb1f">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_NRpJ8WGIEeWXVev_nv_kTg&amp;path=_NRpJ8WGIEeWXVev_nv_kTg,_bEE_EWGIEeWXVev_nv_kTg,_bEHbUGGIEeWXVev_nv_kTg_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_bEHbUGGIEeWXVev_nv_kTg_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="1798bbc5">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Testing" Id="_XaP3oZLKEe6Ji6GnvvUfqw" relProcessPath="_XaP3oZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw" nodeId="fc7b4c45" Url="process.adv.eya_oracle.base/capabilitypatterns/testing_wkstrm_4068A774.html" Name="testing_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="94f90b78">testing_wkstrm</attribute>
+<attribute name="guid" nodeId="179ea287">_XaP3oZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="ab05cf3e">Testing</attribute>
+<attribute name="briefDescription" nodeId="a68a1983"></attribute>
+<attribute name="suppressed" nodeId="e3dcfa69">false</attribute>
+<attribute name="orderingGuide" nodeId="a27fd197"></attribute>
+<attribute name="isAbstract" nodeId="7f98f649">false</attribute>
+<attribute name="shapeicon" nodeId="5fc28a87"></attribute>
+<attribute name="nodeicon" nodeId="60501528"></attribute>
+<attribute name="prefix" nodeId="68ea349c">workstream</attribute>
+<attribute name="isPlanned" nodeId="c38a934d">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="766215">false</attribute>
+<attribute name="isOptional" nodeId="b8db0303">false</attribute>
+<attribute name="isRepeatable" nodeId="c8656a1f">false</attribute>
+<attribute name="isOngoing" nodeId="5a754b10">false</attribute>
+<attribute name="isEventDriven" nodeId="a223456a">false</attribute>
+<attribute name="variabilityType" nodeId="b2f45b54">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Prepare for User Acceptance Testing (UAT)" Id="_FBZV8O4FEe-socSARGFgTg" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_FBZV8O4FEe-socSARGFgTg" nodeId="bb2e5f78" Url="process.adv.eya_oracle.base/capabilitypatterns/prepare_uat_84AB9DF1.html" Name="prepare_uat" BackPath="./../../">
+<attribute name="name" nodeId="e73f25e9">prepare_uat</attribute>
+<attribute name="guid" nodeId="e15a0fca">_FBZV8O4FEe-socSARGFgTg</attribute>
+<attribute name="presentationName" nodeId="6c8558ac">Prepare for User Acceptance Testing (UAT)</attribute>
+<attribute name="briefDescription" nodeId="5330eeed">Define how business users can validate that the solution requirements meet user acceptance criteria.</attribute>
+<attribute name="suppressed" nodeId="bbe796d1">false</attribute>
+<attribute name="orderingGuide" nodeId="251bafaa"></attribute>
+<attribute name="isAbstract" nodeId="6b7b03fe">false</attribute>
+<attribute name="shapeicon" nodeId="7d068e00"></attribute>
+<attribute name="nodeicon" nodeId="d24ea9ca"></attribute>
+<attribute name="prefix" nodeId="64633dc2"></attribute>
+<attribute name="isPlanned" nodeId="9134f319">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="b1cac72f">false</attribute>
+<attribute name="isOptional" nodeId="fbd51cec">false</attribute>
+<attribute name="isRepeatable" nodeId="798db0d1">false</attribute>
+<attribute name="isOngoing" nodeId="4f981368">false</attribute>
+<attribute name="isEventDriven" nodeId="4875c2f8">false</attribute>
+<attribute name="variabilityType" nodeId="bd031947">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Plan and Design Tests" Id="_aWBxMe4FEe-socSARGFgTg" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_FBZV8O4FEe-socSARGFgTg,_aWBxMe4FEe-socSARGFgTg" nodeId="9c67d692" Url="process.adv.eya_oracle.base/capabilitypatterns/plan_design_uat_tests_6557F3A6.html" Name="plan_design_uat_tests" BackPath="./../../">
+<attribute name="name" nodeId="683bb05e">plan_design_uat_tests</attribute>
+<attribute name="guid" nodeId="6fcaba13">_aWBxMe4FEe-socSARGFgTg</attribute>
+<attribute name="presentationName" nodeId="b299b58d">Plan and Design Tests</attribute>
+<attribute name="briefDescription" nodeId="82127909">Plan, design and prepare for user acceptance testing (UAT).</attribute>
+<attribute name="suppressed" nodeId="4a5c53ae">false</attribute>
+<attribute name="orderingGuide" nodeId="e906fae6"></attribute>
+<attribute name="isAbstract" nodeId="438d9204">false</attribute>
+<attribute name="shapeicon" nodeId="acaa946c"></attribute>
+<attribute name="nodeicon" nodeId="eb0769c8"></attribute>
+<attribute name="prefix" nodeId="a38b3e41"></attribute>
+<attribute name="isPlanned" nodeId="c27b5680">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="e3fdd1ac">false</attribute>
+<attribute name="isOptional" nodeId="6867a6b3">false</attribute>
+<attribute name="isRepeatable" nodeId="5f9a908b">false</attribute>
+<attribute name="isOngoing" nodeId="ee6fd9a2">false</attribute>
+<attribute name="isEventDriven" nodeId="64d5cc9e">false</attribute>
+<attribute name="variabilityType" nodeId="d5df43e5">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_NRpJ8WGIEeWXVev_nv_kTg&amp;path=_NRpJ8WGIEeWXVev_nv_kTg,_hW4Z5GGIEeWXVev_nv_kTg,_hW5A9WGIEeWXVev_nv_kTg_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_hW5A9WGIEeWXVev_nv_kTg_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="36b1e59e">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="IT Testing" Id="_NRpJ8WGIEeWXVev_nv_kTg" relProcessPath="_NRpJ8WGIEeWXVev_nv_kTg" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_NRpJ8WGIEeWXVev_nv_kTg&amp;path=_NRpJ8WGIEeWXVev_nv_kTg" nodeId="1c251874" Url="practice.ita.delv.it_test.assign/capabilitypatterns/it_test_8C99E41E.html" Name="it_test" BackPath="./../../">
+<attribute name="name" nodeId="4039b38a">it_test</attribute>
+<attribute name="guid" nodeId="9ca8f115">_NRpJ8WGIEeWXVev_nv_kTg</attribute>
+<attribute name="presentationName" nodeId="8ceef21f">IT Testing</attribute>
+<attribute name="briefDescription" nodeId="1c0415fa"></attribute>
+<attribute name="suppressed" nodeId="b48e37a0">false</attribute>
+<attribute name="orderingGuide" nodeId="342d2e88"></attribute>
+<attribute name="isAbstract" nodeId="c7c501b5">false</attribute>
+<attribute name="shapeicon" nodeId="5811bdc6"></attribute>
+<attribute name="nodeicon" nodeId="acd604a"></attribute>
+<attribute name="prefix" nodeId="a40dba"></attribute>
+<attribute name="isPlanned" nodeId="b849fe2d">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="bd9e1e18">false</attribute>
+<attribute name="isOptional" nodeId="9d07be99">false</attribute>
+<attribute name="isRepeatable" nodeId="c9f82f9b">false</attribute>
+<attribute name="isOngoing" nodeId="d6bb8418">false</attribute>
+<attribute name="isEventDriven" nodeId="91a1c9da">false</attribute>
+<attribute name="variabilityType" nodeId="2d6eb44a">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Prepare for Testing" Id="_hW4Z5GGIEeWXVev_nv_kTg" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_NRpJ8WGIEeWXVev_nv_kTg&amp;path=_NRpJ8WGIEeWXVev_nv_kTg,_hW4Z5GGIEeWXVev_nv_kTg" nodeId="d55b676f" Url="practice.ita.delv.it_test.assign/capabilitypatterns/Prepare for Testing_AD8FFB28.html" Name="Prepare for Testing" BackPath="./../../">
+<attribute name="name" nodeId="2b0ae7ae">Prepare for Testing</attribute>
+<attribute name="guid" nodeId="14eb0aad">_hW4Z5GGIEeWXVev_nv_kTg</attribute>
+<attribute name="presentationName" nodeId="345897c6">Prepare for Testing</attribute>
+<attribute name="briefDescription" nodeId="3b3a7b98">Performing this activity instills a level of confidence to proceed with test execution. This activity helps uncover unexpected dependencies or unforeseen issues in the test environment, which can negatively impact test execution. </attribute>
+<attribute name="suppressed" nodeId="f30bc990">false</attribute>
+<attribute name="orderingGuide" nodeId="4c78584d"></attribute>
+<attribute name="isAbstract" nodeId="d454a81a">false</attribute>
+<attribute name="shapeicon" nodeId="72254dc9"></attribute>
+<attribute name="nodeicon" nodeId="d6ec3a1a"></attribute>
+<attribute name="prefix" nodeId="cb6bd117"></attribute>
+<attribute name="isPlanned" nodeId="998def6">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="3f5ece6c">false</attribute>
+<attribute name="isOptional" nodeId="fdae8934">false</attribute>
+<attribute name="isRepeatable" nodeId="47d88fe9">false</attribute>
+<attribute name="isOngoing" nodeId="ca1d3a8">false</attribute>
+<attribute name="isEventDriven" nodeId="5100bb10">false</attribute>
+<attribute name="variabilityType" nodeId="ff93b6a8">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_NRpJ8WGIEeWXVev_nv_kTg&amp;path=_NRpJ8WGIEeWXVev_nv_kTg,_hW4Z5GGIEeWXVev_nv_kTg,_hW5A9WGIEeWXVev_nv_kTg_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_hW5A9WGIEeWXVev_nv_kTg_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="bc38634a">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Testing" Id="_XaP3oZLKEe6Ji6GnvvUfqw" relProcessPath="_XaP3oZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw" nodeId="9adc1976" Url="process.adv.eya_oracle.base/capabilitypatterns/testing_wkstrm_4068A774.html" Name="testing_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="68562b03">testing_wkstrm</attribute>
+<attribute name="guid" nodeId="815ef865">_XaP3oZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="c673b8db">Testing</attribute>
+<attribute name="briefDescription" nodeId="f9a83a4a"></attribute>
+<attribute name="suppressed" nodeId="1dbf9a61">false</attribute>
+<attribute name="orderingGuide" nodeId="1aa1b511"></attribute>
+<attribute name="isAbstract" nodeId="317a680f">false</attribute>
+<attribute name="shapeicon" nodeId="2e2b0216"></attribute>
+<attribute name="nodeicon" nodeId="8835e874"></attribute>
+<attribute name="prefix" nodeId="910ae207">workstream</attribute>
+<attribute name="isPlanned" nodeId="e95c2970">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="85c4ffdc">false</attribute>
+<attribute name="isOptional" nodeId="852b8510">false</attribute>
+<attribute name="isRepeatable" nodeId="64883da">false</attribute>
+<attribute name="isOngoing" nodeId="2eacb95">false</attribute>
+<attribute name="isEventDriven" nodeId="8174d41b">false</attribute>
+<attribute name="variabilityType" nodeId="394c2178">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Prepare for System Integration Testing (SIT)" Id="_45Ha4ckfEe6KPaNasO6mNA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA" nodeId="8bf39b9d" Url="process.adv.eya_oracle.base/capabilitypatterns/prepare_sit_F7633BE2.html" Name="prepare_sit" BackPath="./../../">
+<attribute name="name" nodeId="e070b062">prepare_sit</attribute>
+<attribute name="guid" nodeId="5ac4e46d">_45Ha4ckfEe6KPaNasO6mNA</attribute>
+<attribute name="presentationName" nodeId="cfed6b07">Prepare for System Integration Testing (SIT)</attribute>
+<attribute name="briefDescription" nodeId="4246a332">Plan for system integration testing (SIT) cycles 1 through n based on the test strategy and design the test scenarios, cases and scripts as well as the data requirements for conducting the tests.</attribute>
+<attribute name="suppressed" nodeId="49dcb7b1">false</attribute>
+<attribute name="orderingGuide" nodeId="455bd003"></attribute>
+<attribute name="isAbstract" nodeId="17bcbb82">false</attribute>
+<attribute name="shapeicon" nodeId="432ec88d"></attribute>
+<attribute name="nodeicon" nodeId="280aed34"></attribute>
+<attribute name="prefix" nodeId="f8bef11e"></attribute>
+<attribute name="isPlanned" nodeId="abf52067">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="1a4f0c87">false</attribute>
+<attribute name="isOptional" nodeId="bfd8abd">false</attribute>
+<attribute name="isRepeatable" nodeId="a8a04848">false</attribute>
+<attribute name="isOngoing" nodeId="8b5d8f55">false</attribute>
+<attribute name="isEventDriven" nodeId="6750062d">false</attribute>
+<attribute name="variabilityType" nodeId="d023a4a6">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Prepare Test Data and Environment" Id="_G0a-8e2mEe-socSARGFgTg" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_G0a-8e2mEe-socSARGFgTg" nodeId="b9e1887d" Url="process.adv.eya_oracle.base/capabilitypatterns/prep_sit_data_env_6975D26D.html" Name="prep_sit_data_env" BackPath="./../../">
+<attribute name="name" nodeId="1a8027a5">prep_sit_data_env</attribute>
+<attribute name="guid" nodeId="be8c4244">_G0a-8e2mEe-socSARGFgTg</attribute>
+<attribute name="presentationName" nodeId="5356fde0">Prepare Test Data and Environment</attribute>
+<attribute name="briefDescription" nodeId="ff63dad6">Prepare and load the test data and verify that the test environment has been set up per the specifications.</attribute>
+<attribute name="suppressed" nodeId="ac1a3db4">false</attribute>
+<attribute name="orderingGuide" nodeId="a4e9600c"></attribute>
+<attribute name="isAbstract" nodeId="ad799e83">false</attribute>
+<attribute name="shapeicon" nodeId="73c8d356"></attribute>
+<attribute name="nodeicon" nodeId="e085885d"></attribute>
+<attribute name="prefix" nodeId="dcde459a"></attribute>
+<attribute name="isPlanned" nodeId="55ce774a">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="b94a0cf4">false</attribute>
+<attribute name="isOptional" nodeId="2d15c3ae">false</attribute>
+<attribute name="isRepeatable" nodeId="30ad8ad1">false</attribute>
+<attribute name="isOngoing" nodeId="e3f5ef91">false</attribute>
+<attribute name="isEventDriven" nodeId="c522cd0e">false</attribute>
+<attribute name="variabilityType" nodeId="6ff74df5">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_NRpJ8WGIEeWXVev_nv_kTg&amp;path=_NRpJ8WGIEeWXVev_nv_kTg,_hW4Z5GGIEeWXVev_nv_kTg,_hW5A9WGIEeWXVev_nv_kTg_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_hW5A9WGIEeWXVev_nv_kTg_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="9b95d841">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Testing" Id="_XaP3oZLKEe6Ji6GnvvUfqw" relProcessPath="_XaP3oZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw" nodeId="b7e6b66d" Url="process.adv.eya_oracle.base/capabilitypatterns/testing_wkstrm_4068A774.html" Name="testing_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="1f4ae11b">testing_wkstrm</attribute>
+<attribute name="guid" nodeId="50b7165">_XaP3oZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="fcb5ead7">Testing</attribute>
+<attribute name="briefDescription" nodeId="4a9a5f27"></attribute>
+<attribute name="suppressed" nodeId="2f120823">false</attribute>
+<attribute name="orderingGuide" nodeId="c31037f1"></attribute>
+<attribute name="isAbstract" nodeId="c6046d8f">false</attribute>
+<attribute name="shapeicon" nodeId="459c39ff"></attribute>
+<attribute name="nodeicon" nodeId="c0180830"></attribute>
+<attribute name="prefix" nodeId="f3d33e1e">workstream</attribute>
+<attribute name="isPlanned" nodeId="46cae2b2">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="ba67ec05">false</attribute>
+<attribute name="isOptional" nodeId="9878138b">false</attribute>
+<attribute name="isRepeatable" nodeId="8408e8bf">false</attribute>
+<attribute name="isOngoing" nodeId="5f925746">false</attribute>
+<attribute name="isEventDriven" nodeId="6409960e">false</attribute>
+<attribute name="variabilityType" nodeId="3dd60b88">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Conduct User Acceptance Testing (UAT)" Id="_wWob4MPOEe6pmdl9Vi4qww" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_wWob4MPOEe6pmdl9Vi4qww" nodeId="a0b943d8" Url="process.adv.eya_oracle.base/capabilitypatterns/conduct_uat_CADBAA58.html" Name="conduct_uat" BackPath="./../../">
+<attribute name="name" nodeId="43f38680">conduct_uat</attribute>
+<attribute name="guid" nodeId="59ef35c">_wWob4MPOEe6pmdl9Vi4qww</attribute>
+<attribute name="presentationName" nodeId="d0c0e2c0">Conduct User Acceptance Testing (UAT)</attribute>
+<attribute name="briefDescription" nodeId="ac1ad8d8">Prepare for and execute user acceptance testing (UAT) per the defined schedule.</attribute>
+<attribute name="suppressed" nodeId="b880463f">false</attribute>
+<attribute name="orderingGuide" nodeId="1fced425"></attribute>
+<attribute name="isAbstract" nodeId="f5fdbfc0">false</attribute>
+<attribute name="shapeicon" nodeId="77534e0c"></attribute>
+<attribute name="nodeicon" nodeId="931d656e"></attribute>
+<attribute name="prefix" nodeId="d7ae0c16"></attribute>
+<attribute name="isPlanned" nodeId="ee624dba">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="a6323b96">false</attribute>
+<attribute name="isOptional" nodeId="a2344958">false</attribute>
+<attribute name="isRepeatable" nodeId="f7fb61b6">false</attribute>
+<attribute name="isOngoing" nodeId="25ce18fe">false</attribute>
+<attribute name="isEventDriven" nodeId="b510e45e">false</attribute>
+<attribute name="variabilityType" nodeId="23e9029d">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Prepare Test Data and Environment" Id="_1KN8Ie2nEe-socSARGFgTg" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_wWob4MPOEe6pmdl9Vi4qww,_1KN8Ie2nEe-socSARGFgTg" nodeId="ac3e1da1" Url="process.adv.eya_oracle.base/capabilitypatterns/prep_uat_data_env_3AF465EC.html" Name="prep_uat_data_env" BackPath="./../../">
+<attribute name="name" nodeId="a5c1ea64">prep_uat_data_env</attribute>
+<attribute name="guid" nodeId="c70f82f2">_1KN8Ie2nEe-socSARGFgTg</attribute>
+<attribute name="presentationName" nodeId="4f456f7d">Prepare Test Data and Environment</attribute>
+<attribute name="briefDescription" nodeId="d67bfd2a">Prepare and load the test data and verify that the test environment has been set up per the specifications.</attribute>
+<attribute name="suppressed" nodeId="481a3aa">false</attribute>
+<attribute name="orderingGuide" nodeId="a8d66df9"></attribute>
+<attribute name="isAbstract" nodeId="485cddec">false</attribute>
+<attribute name="shapeicon" nodeId="5d4627d6"></attribute>
+<attribute name="nodeicon" nodeId="4e959751"></attribute>
+<attribute name="prefix" nodeId="5105e30e"></attribute>
+<attribute name="isPlanned" nodeId="6d252a62">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="be8103bc">false</attribute>
+<attribute name="isOptional" nodeId="37dbb78a">false</attribute>
+<attribute name="isRepeatable" nodeId="832cded6">false</attribute>
+<attribute name="isOngoing" nodeId="4c7bbe36">false</attribute>
+<attribute name="isEventDriven" nodeId="81b0a23c">false</attribute>
+<attribute name="variabilityType" nodeId="212e7173">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_NRpJ8WGIEeWXVev_nv_kTg&amp;path=_NRpJ8WGIEeWXVev_nv_kTg,_hW4Z5GGIEeWXVev_nv_kTg,_hW5A9WGIEeWXVev_nv_kTg_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_hW5A9WGIEeWXVev_nv_kTg_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="120c6de9">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Testing" Id="_XaP3oZLKEe6Ji6GnvvUfqw" relProcessPath="_XaP3oZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw" nodeId="ddda94f3" Url="process.adv.eya_oracle.base/capabilitypatterns/testing_wkstrm_4068A774.html" Name="testing_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="8886e18b">testing_wkstrm</attribute>
+<attribute name="guid" nodeId="32ef9e43">_XaP3oZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="ce688eec">Testing</attribute>
+<attribute name="briefDescription" nodeId="30dba2a3"></attribute>
+<attribute name="suppressed" nodeId="dc584f31">false</attribute>
+<attribute name="orderingGuide" nodeId="a4ff236e"></attribute>
+<attribute name="isAbstract" nodeId="e0ecb55c">false</attribute>
+<attribute name="shapeicon" nodeId="e1c829c"></attribute>
+<attribute name="nodeicon" nodeId="19c3e140"></attribute>
+<attribute name="prefix" nodeId="2d3278c9">workstream</attribute>
+<attribute name="isPlanned" nodeId="adb616b9">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="4f650a1b">false</attribute>
+<attribute name="isOptional" nodeId="32f3fb48">false</attribute>
+<attribute name="isRepeatable" nodeId="86592adf">false</attribute>
+<attribute name="isOngoing" nodeId="ae855370">false</attribute>
+<attribute name="isEventDriven" nodeId="d3187b2a">false</attribute>
+<attribute name="variabilityType" nodeId="8d00cfdb">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Prepare for User Acceptance Testing (UAT)" Id="_FBZV8O4FEe-socSARGFgTg" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_FBZV8O4FEe-socSARGFgTg" nodeId="d9cf5133" Url="process.adv.eya_oracle.base/capabilitypatterns/prepare_uat_84AB9DF1.html" Name="prepare_uat" BackPath="./../../">
+<attribute name="name" nodeId="81a34171">prepare_uat</attribute>
+<attribute name="guid" nodeId="2159be23">_FBZV8O4FEe-socSARGFgTg</attribute>
+<attribute name="presentationName" nodeId="8e17e3b">Prepare for User Acceptance Testing (UAT)</attribute>
+<attribute name="briefDescription" nodeId="2be0c0f6">Define how business users can validate that the solution requirements meet user acceptance criteria.</attribute>
+<attribute name="suppressed" nodeId="430a6a74">false</attribute>
+<attribute name="orderingGuide" nodeId="7ded38bc"></attribute>
+<attribute name="isAbstract" nodeId="461e77f2">false</attribute>
+<attribute name="shapeicon" nodeId="60f6ec3"></attribute>
+<attribute name="nodeicon" nodeId="9ba706f5"></attribute>
+<attribute name="prefix" nodeId="caf536ec"></attribute>
+<attribute name="isPlanned" nodeId="50d383e0">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="370658d">false</attribute>
+<attribute name="isOptional" nodeId="90f2142f">false</attribute>
+<attribute name="isRepeatable" nodeId="e26094a5">false</attribute>
+<attribute name="isOngoing" nodeId="716f715b">false</attribute>
+<attribute name="isEventDriven" nodeId="d75c175f">false</attribute>
+<attribute name="variabilityType" nodeId="f2920328">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Prepare Test Data and Environment" Id="_4J0KEe4FEe-socSARGFgTg" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_FBZV8O4FEe-socSARGFgTg,_4J0KEe4FEe-socSARGFgTg" nodeId="ac6dc304" Url="process.adv.eya_oracle.base/capabilitypatterns/prep_uat_data_env_872E5B93.html" Name="prep_uat_data_env" BackPath="./../../">
+<attribute name="name" nodeId="fc186c07">prep_uat_data_env</attribute>
+<attribute name="guid" nodeId="b211bd24">_4J0KEe4FEe-socSARGFgTg</attribute>
+<attribute name="presentationName" nodeId="c70f7557">Prepare Test Data and Environment</attribute>
+<attribute name="briefDescription" nodeId="9c3e8177">Prepare and load the test data and verify that the test environment has been set up per the specifications.</attribute>
+<attribute name="suppressed" nodeId="79609b7c">false</attribute>
+<attribute name="orderingGuide" nodeId="540c2381"></attribute>
+<attribute name="isAbstract" nodeId="222b9fb5">false</attribute>
+<attribute name="shapeicon" nodeId="ebe4125a"></attribute>
+<attribute name="nodeicon" nodeId="df991043"></attribute>
+<attribute name="prefix" nodeId="9f2e78e"></attribute>
+<attribute name="isPlanned" nodeId="84be1612">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="70ff0096">false</attribute>
+<attribute name="isOptional" nodeId="79cbd563">false</attribute>
+<attribute name="isRepeatable" nodeId="eb13a9c1">false</attribute>
+<attribute name="isOngoing" nodeId="f513d8d7">false</attribute>
+<attribute name="isEventDriven" nodeId="da1b8730">false</attribute>
+<attribute name="variabilityType" nodeId="10134682">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_NRpJ8WGIEeWXVev_nv_kTg&amp;path=_NRpJ8WGIEeWXVev_nv_kTg,_eFYz9GGIEeWXVev_nv_kTg,_eFYz8GGIEeWXVev_nv_kTg_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_eFYz8GGIEeWXVev_nv_kTg_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="fb176a88">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="IT Testing" Id="_NRpJ8WGIEeWXVev_nv_kTg" relProcessPath="_NRpJ8WGIEeWXVev_nv_kTg" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_NRpJ8WGIEeWXVev_nv_kTg&amp;path=_NRpJ8WGIEeWXVev_nv_kTg" nodeId="d6d7d3e6" Url="practice.ita.delv.it_test.assign/capabilitypatterns/it_test_8C99E41E.html" Name="it_test" BackPath="./../../">
+<attribute name="name" nodeId="e6fa4d7b">it_test</attribute>
+<attribute name="guid" nodeId="80b331eb">_NRpJ8WGIEeWXVev_nv_kTg</attribute>
+<attribute name="presentationName" nodeId="4c7d4cfe">IT Testing</attribute>
+<attribute name="briefDescription" nodeId="6aa384a4"></attribute>
+<attribute name="suppressed" nodeId="f7430028">false</attribute>
+<attribute name="orderingGuide" nodeId="a592ef20"></attribute>
+<attribute name="isAbstract" nodeId="7a9746d8">false</attribute>
+<attribute name="shapeicon" nodeId="eabf84c"></attribute>
+<attribute name="nodeicon" nodeId="608200bd"></attribute>
+<attribute name="prefix" nodeId="e1cd78de"></attribute>
+<attribute name="isPlanned" nodeId="5efb6e67">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="1bacb39e">false</attribute>
+<attribute name="isOptional" nodeId="a40c60db">false</attribute>
+<attribute name="isRepeatable" nodeId="b14208d7">false</attribute>
+<attribute name="isOngoing" nodeId="c997fd9d">false</attribute>
+<attribute name="isEventDriven" nodeId="39cf056c">false</attribute>
+<attribute name="variabilityType" nodeId="36fbb11f">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Conduct Testing" Id="_eFYz9GGIEeWXVev_nv_kTg" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_NRpJ8WGIEeWXVev_nv_kTg&amp;path=_NRpJ8WGIEeWXVev_nv_kTg,_eFYz9GGIEeWXVev_nv_kTg" nodeId="b648d12b" Url="practice.ita.delv.it_test.assign/capabilitypatterns/Conduct Testing_85CE3A11.html" Name="Conduct Testing" BackPath="./../../">
+<attribute name="name" nodeId="7bc851b0">Conduct Testing</attribute>
+<attribute name="guid" nodeId="ac8f1e31">_eFYz9GGIEeWXVev_nv_kTg</attribute>
+<attribute name="presentationName" nodeId="1b599dcf">Conduct Testing</attribute>
+<attribute name="briefDescription" nodeId="cdb538da">Execute tests using a previously defined schedule.</attribute>
+<attribute name="suppressed" nodeId="59f2c60a">false</attribute>
+<attribute name="orderingGuide" nodeId="bb0f6db"></attribute>
+<attribute name="isAbstract" nodeId="26a684a6">false</attribute>
+<attribute name="shapeicon" nodeId="32445"></attribute>
+<attribute name="nodeicon" nodeId="d89ac40a"></attribute>
+<attribute name="prefix" nodeId="6e641e67"></attribute>
+<attribute name="isPlanned" nodeId="b44f2437">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="de74c59c">false</attribute>
+<attribute name="isOptional" nodeId="8110c834">false</attribute>
+<attribute name="isRepeatable" nodeId="86355069">false</attribute>
+<attribute name="isOngoing" nodeId="906639bb">false</attribute>
+<attribute name="isEventDriven" nodeId="4ccc26f">false</attribute>
+<attribute name="variabilityType" nodeId="5701cf60">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_NRpJ8WGIEeWXVev_nv_kTg&amp;path=_NRpJ8WGIEeWXVev_nv_kTg,_eFYz9GGIEeWXVev_nv_kTg,_eFYz8GGIEeWXVev_nv_kTg_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_eFYz8GGIEeWXVev_nv_kTg_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="71ff1060">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Testing" Id="_XaP3oZLKEe6Ji6GnvvUfqw" relProcessPath="_XaP3oZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw" nodeId="9241ea31" Url="process.adv.eya_oracle.base/capabilitypatterns/testing_wkstrm_4068A774.html" Name="testing_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="42a305ca">testing_wkstrm</attribute>
+<attribute name="guid" nodeId="8610a0ff">_XaP3oZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="657836e">Testing</attribute>
+<attribute name="briefDescription" nodeId="b361714c"></attribute>
+<attribute name="suppressed" nodeId="47b394b2">false</attribute>
+<attribute name="orderingGuide" nodeId="fb20f867"></attribute>
+<attribute name="isAbstract" nodeId="530592">false</attribute>
+<attribute name="shapeicon" nodeId="71917e7d"></attribute>
+<attribute name="nodeicon" nodeId="e12ca0a8"></attribute>
+<attribute name="prefix" nodeId="da50938c">workstream</attribute>
+<attribute name="isPlanned" nodeId="f7c60839">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="9abf2e27">false</attribute>
+<attribute name="isOptional" nodeId="3416ed43">false</attribute>
+<attribute name="isRepeatable" nodeId="66c20e1b">false</attribute>
+<attribute name="isOngoing" nodeId="b820ebd8">false</attribute>
+<attribute name="isEventDriven" nodeId="669d59fc">false</attribute>
+<attribute name="variabilityType" nodeId="75b75f1c">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Execute Validation Testing" Id="_MDTAwcOOEe6pmdl9Vi4qww" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_MDTAwcOOEe6pmdl9Vi4qww" nodeId="8cb92f0c" Url="process.adv.eya_oracle.base/capabilitypatterns/execute_validation_testing_57BE021D.html" Name="execute_validation_testing" BackPath="./../../">
+<attribute name="name" nodeId="d27a03cc">execute_validation_testing</attribute>
+<attribute name="guid" nodeId="16e61b15">_MDTAwcOOEe6pmdl9Vi4qww</attribute>
+<attribute name="presentationName" nodeId="2121827c">Execute Validation Testing</attribute>
+<attribute name="briefDescription" nodeId="f77e0869">Plan, design, prepare for and execute end of cycle validation testing and address the defects.</attribute>
+<attribute name="suppressed" nodeId="9e1f80dc">false</attribute>
+<attribute name="orderingGuide" nodeId="412c938c"></attribute>
+<attribute name="isAbstract" nodeId="f83a7cd1">false</attribute>
+<attribute name="shapeicon" nodeId="2275c570"></attribute>
+<attribute name="nodeicon" nodeId="96defe2d"></attribute>
+<attribute name="prefix" nodeId="bedf0029"></attribute>
+<attribute name="isPlanned" nodeId="f2849a7e">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="2740af05">false</attribute>
+<attribute name="isOptional" nodeId="efa4ac46">false</attribute>
+<attribute name="isRepeatable" nodeId="15c18bc2">false</attribute>
+<attribute name="isOngoing" nodeId="154c7643">false</attribute>
+<attribute name="isEventDriven" nodeId="5df9ed3d">false</attribute>
+<attribute name="variabilityType" nodeId="46b80da6">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Conduct Testing" Id="_3cyGkcPLEe6pmdl9Vi4qww" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_MDTAwcOOEe6pmdl9Vi4qww,_3cyGkcPLEe6pmdl9Vi4qww" nodeId="ff0c8953" Url="process.adv.eya_oracle.base/capabilitypatterns/Conduct Testing_1E3A147F.html" Name="Conduct Testing" BackPath="./../../">
+<attribute name="name" nodeId="c3c83502">Conduct Testing</attribute>
+<attribute name="guid" nodeId="e9e76143">_3cyGkcPLEe6pmdl9Vi4qww</attribute>
+<attribute name="presentationName" nodeId="6d148497">Conduct Testing</attribute>
+<attribute name="briefDescription" nodeId="bf251799">Execute the functional tests.</attribute>
+<attribute name="suppressed" nodeId="602eba84">false</attribute>
+<attribute name="orderingGuide" nodeId="72d183c9"></attribute>
+<attribute name="isAbstract" nodeId="137bd5c7">false</attribute>
+<attribute name="shapeicon" nodeId="3252f1c3"></attribute>
+<attribute name="nodeicon" nodeId="4dcfc4e1"></attribute>
+<attribute name="prefix" nodeId="c6c0ea03"></attribute>
+<attribute name="isPlanned" nodeId="f23bc44e">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="19902f19">false</attribute>
+<attribute name="isOptional" nodeId="7d4e4c88">false</attribute>
+<attribute name="isRepeatable" nodeId="28043f">false</attribute>
+<attribute name="isOngoing" nodeId="80a0abcf">false</attribute>
+<attribute name="isEventDriven" nodeId="5e098ed5">false</attribute>
+<attribute name="variabilityType" nodeId="ea8a901a">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_yVdJwTGPEe-TauTqJPNl_g,_wPROcDGREe-TauTqJPNl_g_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_wPROcDGREe-TauTqJPNl_g_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="268d7ab7">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Business Functional Design" Id="_C-aFkZLKEe6Ji6GnvvUfqw" relProcessPath="_C-aFkZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw" nodeId="e5782261" Url="process.adv.eya_oracle.base/capabilitypatterns/bus_func_design_wkstrm_3B7B6F5B.html" Name="bus_func_design_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="8e52fea4">bus_func_design_wkstrm</attribute>
+<attribute name="guid" nodeId="95d7b2d5">_C-aFkZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="3846c3fb">Business Functional Design</attribute>
+<attribute name="briefDescription" nodeId="d62f44db"></attribute>
+<attribute name="suppressed" nodeId="2b54f3a9">false</attribute>
+<attribute name="orderingGuide" nodeId="cbf80388"></attribute>
+<attribute name="isAbstract" nodeId="53c63d06">false</attribute>
+<attribute name="shapeicon" nodeId="4258dd3c"></attribute>
+<attribute name="nodeicon" nodeId="a4d5adf6"></attribute>
+<attribute name="prefix" nodeId="305e26e3">workstream</attribute>
+<attribute name="isPlanned" nodeId="e23d0ad2">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="ffa5485c">false</attribute>
+<attribute name="isOptional" nodeId="bdd3bab2">false</attribute>
+<attribute name="isRepeatable" nodeId="cf92e459">false</attribute>
+<attribute name="isOngoing" nodeId="9b117173">false</attribute>
+<attribute name="isEventDriven" nodeId="c8b4db1a">false</attribute>
+<attribute name="variabilityType" nodeId="bd8794a7">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Perform Configurations" Id="_yVdJwTGPEe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_yVdJwTGPEe-TauTqJPNl_g" nodeId="63d5fa58" Url="process.adv.eya_oracle.base/capabilitypatterns/perform_configurations_383865CC.html" Name="perform_configurations" BackPath="./../../">
+<attribute name="name" nodeId="ee6d4d6c">perform_configurations</attribute>
+<attribute name="guid" nodeId="959adfbe">_yVdJwTGPEe-TauTqJPNl_g</attribute>
+<attribute name="presentationName" nodeId="d515d852">Perform Configurations</attribute>
+<attribute name="briefDescription" nodeId="4fba5013">Complete the in-scope configurations needed to implement the target state Oracle solution.</attribute>
+<attribute name="suppressed" nodeId="ad3df0e0">false</attribute>
+<attribute name="orderingGuide" nodeId="2a96964d"></attribute>
+<attribute name="isAbstract" nodeId="687760be">false</attribute>
+<attribute name="shapeicon" nodeId="187e251f"></attribute>
+<attribute name="nodeicon" nodeId="3e1ba0e3"></attribute>
+<attribute name="prefix" nodeId="953bf6bc"></attribute>
+<attribute name="isPlanned" nodeId="834c67b">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="a14b0e1a">false</attribute>
+<attribute name="isOptional" nodeId="e0340e51">false</attribute>
+<attribute name="isRepeatable" nodeId="a5bd83f7">false</attribute>
+<attribute name="isOngoing" nodeId="db142c1a">false</attribute>
+<attribute name="isEventDriven" nodeId="d3f1000">false</attribute>
+<attribute name="variabilityType" nodeId="44ad4929">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_yVdJwTGPEe-TauTqJPNl_g,_wPROcDGREe-TauTqJPNl_g_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_wPROcDGREe-TauTqJPNl_g_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="75674c65">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="bf758345" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="5dac1bd9">eya_oracle</attribute>
+<attribute name="guid" nodeId="8dc21fb0">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="4cb8d845">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="dc348d0c"></attribute>
+<attribute name="suppressed" nodeId="8b8e7945">false</attribute>
+<attribute name="orderingGuide" nodeId="b6e770d7"></attribute>
+<attribute name="isAbstract" nodeId="846a621e">false</attribute>
+<attribute name="shapeicon" nodeId="fce2093b"></attribute>
+<attribute name="nodeicon" nodeId="48b6829c"></attribute>
+<attribute name="prefix" nodeId="c45f2aeb"></attribute>
+<attribute name="isPlanned" nodeId="d06ce074">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d9c1081a">false</attribute>
+<attribute name="isOptional" nodeId="22079b25">false</attribute>
+<attribute name="isRepeatable" nodeId="2aaeb6f6">false</attribute>
+<attribute name="isOngoing" nodeId="5e84631d">false</attribute>
+<attribute name="isEventDriven" nodeId="f74ae60f">false</attribute>
+<attribute name="variabilityType" nodeId="2f629fa3">replaces</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Progressive Build" Id="_c4A0kYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA" nodeId="78755b8e" Url="process.adv.eya_oracle.base/deliveryprocesses/progressive_build_70B7DD74.html" Name="progressive_build" BackPath="./../../">
+<attribute name="name" nodeId="f44770f4">progressive_build</attribute>
+<attribute name="guid" nodeId="30675359">_c4A0kYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="9ae76f50">Progressive Build</attribute>
+<attribute name="briefDescription" nodeId="7a54857d">Iterate through the build cycles and drive business acceptance through incremental demos to key client stakeholders. Execute mock conversions and and prepare for system integration and user acceptance testing. Manage stakeholder engagement and communications around the change.</attribute>
+<attribute name="suppressed" nodeId="1530826a">false</attribute>
+<attribute name="orderingGuide" nodeId="78f631f8"></attribute>
+<attribute name="isAbstract" nodeId="91f2dae4">false</attribute>
+<attribute name="shapeicon" nodeId="2f3c7de"></attribute>
+<attribute name="nodeicon" nodeId="ce529b84"></attribute>
+<attribute name="prefix" nodeId="94b6bf8d"></attribute>
+<attribute name="isPlanned" nodeId="7057086c">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="33e1cf9b">false</attribute>
+<attribute name="isOptional" nodeId="560f65ef">false</attribute>
+<attribute name="isRepeatable" nodeId="9c0e3f95">true</attribute>
+<attribute name="isOngoing" nodeId="6ca0d433">false</attribute>
+<attribute name="isEventDriven" nodeId="f4141816">false</attribute>
+<attribute name="variabilityType" nodeId="1f310189">na</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Execute Build Cycles 1-n" Id="_Sd7D0duVEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_Sd7D0duVEe6TH6yb1zVWhw" nodeId="71a7d009" Url="process.adv.eya_oracle.base/deliveryprocesses/execute_build_cycles_1_n_3FC12A80.html" Name="execute_build_cycles_1_n" BackPath="./../../">
+<attribute name="name" nodeId="a3e1da76">execute_build_cycles_1_n</attribute>
+<attribute name="guid" nodeId="fa34857b">_Sd7D0duVEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="a00f8846">Execute Build Cycles 1-n</attribute>
+<attribute name="briefDescription" nodeId="b43cae2b">Iterate through the build cycles by planning for each sprint, defining the technical and integration specifications and data conversion scripts and completing the configurations and development. Validate the builds and conduct demos with the client.</attribute>
+<attribute name="suppressed" nodeId="8102797f">false</attribute>
+<attribute name="orderingGuide" nodeId="206aa1da"></attribute>
+<attribute name="isAbstract" nodeId="992bcee8">false</attribute>
+<attribute name="shapeicon" nodeId="b2c46f7f"></attribute>
+<attribute name="nodeicon" nodeId="92ad69c5"></attribute>
+<attribute name="prefix" nodeId="6d8efee0"></attribute>
+<attribute name="isPlanned" nodeId="d69c8ba5">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="b93a0d60">false</attribute>
+<attribute name="isOptional" nodeId="aba88ae3">false</attribute>
+<attribute name="isRepeatable" nodeId="14cd7f2">true</attribute>
+<attribute name="isOngoing" nodeId="14e1f1df">false</attribute>
+<attribute name="isEventDriven" nodeId="3259d855">false</attribute>
+<attribute name="variabilityType" nodeId="8c0818c">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Perform Configurations" Id="_mzq2sTGREe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_Sd7D0duVEe6TH6yb1zVWhw,_mzq2sTGREe-TauTqJPNl_g" nodeId="f836948e" Url="process.adv.eya_oracle.base/deliveryprocesses/perform_configurations_CC24313D.html" Name="perform_configurations" BackPath="./../../">
+<attribute name="name" nodeId="ed70d13a">perform_configurations</attribute>
+<attribute name="guid" nodeId="8774c235">_mzq2sTGREe-TauTqJPNl_g</attribute>
+<attribute name="presentationName" nodeId="368f3f09">Perform Configurations</attribute>
+<attribute name="briefDescription" nodeId="2177ac5b">Complete the in-scope configurations needed to implement the target state Oracle solution.</attribute>
+<attribute name="suppressed" nodeId="ea3ed296">false</attribute>
+<attribute name="orderingGuide" nodeId="410e2d4a"></attribute>
+<attribute name="isAbstract" nodeId="dba26c3a">false</attribute>
+<attribute name="shapeicon" nodeId="9d214138"></attribute>
+<attribute name="nodeicon" nodeId="3cec1759"></attribute>
+<attribute name="prefix" nodeId="9ba2a93c"></attribute>
+<attribute name="isPlanned" nodeId="622d5ad9">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="155fddba">false</attribute>
+<attribute name="isOptional" nodeId="cc89b41e">false</attribute>
+<attribute name="isRepeatable" nodeId="53c00bd3">false</attribute>
+<attribute name="isOngoing" nodeId="a44b6167">false</attribute>
+<attribute name="isEventDriven" nodeId="667f7f5b">false</attribute>
+<attribute name="variabilityType" nodeId="178ad7e9">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_qMqn8dFLEe6Y56Jk6jqfOA,_5UGhINFLEe6Y56Jk6jqfOA_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_5UGhINFLEe6Y56Jk6jqfOA_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="ce028510">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Data Conversion" Id="_K4NTYZLKEe6Ji6GnvvUfqw" relProcessPath="_K4NTYZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw" nodeId="8c14fb7d" Url="process.adv.eya_oracle.base/capabilitypatterns/data_conv_wkstrm_3E4842D.html" Name="data_conv_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="8d884da7">data_conv_wkstrm</attribute>
+<attribute name="guid" nodeId="9f1b658e">_K4NTYZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="2888ffb9">Data Conversion</attribute>
+<attribute name="briefDescription" nodeId="e75cd8a9"></attribute>
+<attribute name="suppressed" nodeId="9888d845">false</attribute>
+<attribute name="orderingGuide" nodeId="2dba2a0f"></attribute>
+<attribute name="isAbstract" nodeId="6f7a7267">false</attribute>
+<attribute name="shapeicon" nodeId="eafa822c"></attribute>
+<attribute name="nodeicon" nodeId="71cd82f"></attribute>
+<attribute name="prefix" nodeId="bcbd3ba">workstream</attribute>
+<attribute name="isPlanned" nodeId="2c13e303">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="f2abc7b3">false</attribute>
+<attribute name="isOptional" nodeId="8b5597d9">false</attribute>
+<attribute name="isRepeatable" nodeId="b3b77827">false</attribute>
+<attribute name="isOngoing" nodeId="8864c4dc">false</attribute>
+<attribute name="isEventDriven" nodeId="fa28a882">false</attribute>
+<attribute name="variabilityType" nodeId="9393935">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Conduct Conversion Testing" Id="_qMqn8dFLEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_qMqn8dFLEe6Y56Jk6jqfOA" nodeId="bad376aa" Url="process.adv.eya_oracle.base/capabilitypatterns/conduct_conv_testing_EAFAF32A.html" Name="conduct_conv_testing" BackPath="./../../">
+<attribute name="name" nodeId="85b825e4">conduct_conv_testing</attribute>
+<attribute name="guid" nodeId="a34919b9">_qMqn8dFLEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="7ac1504d">Conduct Conversion Testing</attribute>
+<attribute name="briefDescription" nodeId="5514e6d9">Design and execute data conversion tests.</attribute>
+<attribute name="suppressed" nodeId="d9823636">false</attribute>
+<attribute name="orderingGuide" nodeId="be17c95e"></attribute>
+<attribute name="isAbstract" nodeId="8631807a">false</attribute>
+<attribute name="shapeicon" nodeId="a0c9cb07"></attribute>
+<attribute name="nodeicon" nodeId="68f4392d"></attribute>
+<attribute name="prefix" nodeId="f83b22a3"></attribute>
+<attribute name="isPlanned" nodeId="e0cf31a1">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="b577cb73">false</attribute>
+<attribute name="isOptional" nodeId="4f610d02">false</attribute>
+<attribute name="isRepeatable" nodeId="6afcdc34">false</attribute>
+<attribute name="isOngoing" nodeId="8858723f">false</attribute>
+<attribute name="isEventDriven" nodeId="ed87930f">false</attribute>
+<attribute name="variabilityType" nodeId="e9df7e65">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_qMqn8dFLEe6Y56Jk6jqfOA,_5UGhINFLEe6Y56Jk6jqfOA_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_5UGhINFLEe6Y56Jk6jqfOA_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="23ad22f1">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="cef0394b" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="9d2811ac">eya_oracle</attribute>
+<attribute name="guid" nodeId="e9ad52ee">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="351037c5">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="368cae51"></attribute>
+<attribute name="suppressed" nodeId="a6d64396">false</attribute>
+<attribute name="orderingGuide" nodeId="115bf535"></attribute>
+<attribute name="isAbstract" nodeId="ba8c015d">false</attribute>
+<attribute name="shapeicon" nodeId="1f2d2536"></attribute>
+<attribute name="nodeicon" nodeId="e498ec41"></attribute>
+<attribute name="prefix" nodeId="51ab975e"></attribute>
+<attribute name="isPlanned" nodeId="1a40f9ca">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="3579bc49">false</attribute>
+<attribute name="isOptional" nodeId="b030b8cb">false</attribute>
+<attribute name="isRepeatable" nodeId="2af841e1">false</attribute>
+<attribute name="isOngoing" nodeId="995e4a9f">false</attribute>
+<attribute name="isEventDriven" nodeId="3d4a1ee4">false</attribute>
+<attribute name="variabilityType" nodeId="a6944cbd">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Test" Id="_esTcsYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA" nodeId="646d8c02" Url="process.adv.eya_oracle.base/deliveryprocesses/test_E5EB30E9.html" Name="test" BackPath="./../../">
+<attribute name="name" nodeId="b16d44f9">test</attribute>
+<attribute name="guid" nodeId="ed2e4cc6">_esTcsYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="4aacf58f">Test</attribute>
+<attribute name="briefDescription" nodeId="f35d32c2">Perform tests on the integrated Oracle services solution and prepare for cutover and deployment. Additionally, design and prepare training materials.</attribute>
+<attribute name="suppressed" nodeId="1adbc817">false</attribute>
+<attribute name="orderingGuide" nodeId="68c39ebb"></attribute>
+<attribute name="isAbstract" nodeId="aad13070">false</attribute>
+<attribute name="shapeicon" nodeId="381d2154"></attribute>
+<attribute name="nodeicon" nodeId="812a1de2"></attribute>
+<attribute name="prefix" nodeId="9441d22d"></attribute>
+<attribute name="isPlanned" nodeId="40069325">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="92a174">false</attribute>
+<attribute name="isOptional" nodeId="27ce45c">false</attribute>
+<attribute name="isRepeatable" nodeId="4edebdf7">false</attribute>
+<attribute name="isOngoing" nodeId="67387a42">false</attribute>
+<attribute name="isEventDriven" nodeId="52270b1">false</attribute>
+<attribute name="variabilityType" nodeId="d02ba595">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Conduct Conversion Testing" Id="_sde1QdplEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_sde1QdplEe6TH6yb1zVWhw" nodeId="378b1683" Url="process.adv.eya_oracle.base/deliveryprocesses/conduct_conv_testing_13B7B459.html" Name="conduct_conv_testing" BackPath="./../../">
+<attribute name="name" nodeId="bc14037d">conduct_conv_testing</attribute>
+<attribute name="guid" nodeId="b4ae9e3">_sde1QdplEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="582f7ff1">Conduct Conversion Testing</attribute>
+<attribute name="briefDescription" nodeId="450f8c1d">Design and execute data conversion tests.</attribute>
+<attribute name="suppressed" nodeId="c5160260">false</attribute>
+<attribute name="orderingGuide" nodeId="dc5df742"></attribute>
+<attribute name="isAbstract" nodeId="9cdf50">false</attribute>
+<attribute name="shapeicon" nodeId="51c7d1cf"></attribute>
+<attribute name="nodeicon" nodeId="a9df1290"></attribute>
+<attribute name="prefix" nodeId="8cdb2d00"></attribute>
+<attribute name="isPlanned" nodeId="407a9029">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="943ffff5">false</attribute>
+<attribute name="isOptional" nodeId="a557c72a">false</attribute>
+<attribute name="isRepeatable" nodeId="b3ec558b">false</attribute>
+<attribute name="isOngoing" nodeId="ed1c792f">false</attribute>
+<attribute name="isEventDriven" nodeId="942b19a0">false</attribute>
+<attribute name="variabilityType" nodeId="d4dba46d">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_AxwOgcOjEe6pmdl9Vi4qww,_W8WBYMOjEe6pmdl9Vi4qww_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_W8WBYMOjEe6pmdl9Vi4qww_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="54691009">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Testing" Id="_XaP3oZLKEe6Ji6GnvvUfqw" relProcessPath="_XaP3oZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw" nodeId="bd193d0f" Url="process.adv.eya_oracle.base/capabilitypatterns/testing_wkstrm_4068A774.html" Name="testing_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="a44f091f">testing_wkstrm</attribute>
+<attribute name="guid" nodeId="fd0bc177">_XaP3oZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="97374614">Testing</attribute>
+<attribute name="briefDescription" nodeId="9c004292"></attribute>
+<attribute name="suppressed" nodeId="27e070ce">false</attribute>
+<attribute name="orderingGuide" nodeId="c4f4a652"></attribute>
+<attribute name="isAbstract" nodeId="2de8e850">false</attribute>
+<attribute name="shapeicon" nodeId="afed4347"></attribute>
+<attribute name="nodeicon" nodeId="bd294b4f"></attribute>
+<attribute name="prefix" nodeId="234ef8a1">workstream</attribute>
+<attribute name="isPlanned" nodeId="1f045cb5">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="21e39201">false</attribute>
+<attribute name="isOptional" nodeId="7df1e0d5">false</attribute>
+<attribute name="isRepeatable" nodeId="1fb8ad23">false</attribute>
+<attribute name="isOngoing" nodeId="e284f90d">false</attribute>
+<attribute name="isEventDriven" nodeId="53a6b846">false</attribute>
+<attribute name="variabilityType" nodeId="84eed09f">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Establish Test Automation Framework" Id="_AxwOgcOjEe6pmdl9Vi4qww" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_AxwOgcOjEe6pmdl9Vi4qww" nodeId="3c9e121e" Url="process.adv.eya_oracle.base/capabilitypatterns/establish_test_automation_framework_B402DB53.html" Name="establish_test_automation_framework" BackPath="./../../">
+<attribute name="name" nodeId="71ea3525">establish_test_automation_framework</attribute>
+<attribute name="guid" nodeId="6cdc5bd2">_AxwOgcOjEe6pmdl9Vi4qww</attribute>
+<attribute name="presentationName" nodeId="33759e9d">Establish Test Automation Framework</attribute>
+<attribute name="briefDescription" nodeId="3a916507">Identify the specific test cases that can be automated and prepare the associated test scripts. Additionally, define the test data requirements and identify the environment(s) that will be used for automated testing.</attribute>
+<attribute name="suppressed" nodeId="c5846d43">false</attribute>
+<attribute name="orderingGuide" nodeId="cd7b8e6d"></attribute>
+<attribute name="isAbstract" nodeId="ab5cf62f">false</attribute>
+<attribute name="shapeicon" nodeId="d0578587"></attribute>
+<attribute name="nodeicon" nodeId="43b76c78"></attribute>
+<attribute name="prefix" nodeId="e4d11bd2"></attribute>
+<attribute name="isPlanned" nodeId="3515a207">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="5b63d237">false</attribute>
+<attribute name="isOptional" nodeId="d7dadced">false</attribute>
+<attribute name="isRepeatable" nodeId="57b03660">false</attribute>
+<attribute name="isOngoing" nodeId="1ce0f221">false</attribute>
+<attribute name="isEventDriven" nodeId="e44cb1c6">false</attribute>
+<attribute name="variabilityType" nodeId="9c678a7d">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_AxwOgcOjEe6pmdl9Vi4qww,_W8WBYMOjEe6pmdl9Vi4qww_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_W8WBYMOjEe6pmdl9Vi4qww_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="1f6664a7">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="4410b44a" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="5a600bb7">eya_oracle</attribute>
+<attribute name="guid" nodeId="d7a2c212">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="a702d00a">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="63248f9"></attribute>
+<attribute name="suppressed" nodeId="b94808a1">false</attribute>
+<attribute name="orderingGuide" nodeId="5bc6e2e9"></attribute>
+<attribute name="isAbstract" nodeId="2ef36aa5">false</attribute>
+<attribute name="shapeicon" nodeId="93598469"></attribute>
+<attribute name="nodeicon" nodeId="4b53a963"></attribute>
+<attribute name="prefix" nodeId="76ea7071"></attribute>
+<attribute name="isPlanned" nodeId="a7649a7f">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="4eea3a77">false</attribute>
+<attribute name="isOptional" nodeId="81a8b8fe">false</attribute>
+<attribute name="isRepeatable" nodeId="4c2f16f9">false</attribute>
+<attribute name="isOngoing" nodeId="d756b1a9">false</attribute>
+<attribute name="isEventDriven" nodeId="605774c5">false</attribute>
+<attribute name="variabilityType" nodeId="8d8905c7">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Confirm and Design" Id="_bRCPsIs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA" nodeId="c5388660" Url="process.adv.eya_oracle.base/deliveryprocesses/confirm_and_design_29FFDB9.html" Name="confirm_and_design" BackPath="./../../">
+<attribute name="name" nodeId="9301bcc2">confirm_and_design</attribute>
+<attribute name="guid" nodeId="da5a6935">_bRCPsIs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="b9d5519a">Confirm and Design</attribute>
+<attribute name="briefDescription" nodeId="bd1af7e2">Define business requirements, map process flows and facilitate fit-gap workshops. Define technology and testing strategies. Develop the master configuration workbook, RICEFW inventory and prepare for progressive build cycles.</attribute>
+<attribute name="suppressed" nodeId="c5c72864">false</attribute>
+<attribute name="orderingGuide" nodeId="d6d84e9b"></attribute>
+<attribute name="isAbstract" nodeId="c6aab721">false</attribute>
+<attribute name="shapeicon" nodeId="435524d3"></attribute>
+<attribute name="nodeicon" nodeId="4f448fca"></attribute>
+<attribute name="prefix" nodeId="cbf38575"></attribute>
+<attribute name="isPlanned" nodeId="dc85e406">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="741f6475">false</attribute>
+<attribute name="isOptional" nodeId="41c5f281">false</attribute>
+<attribute name="isRepeatable" nodeId="b9107132">false</attribute>
+<attribute name="isOngoing" nodeId="32cc833">false</attribute>
+<attribute name="isEventDriven" nodeId="5b2e9cbc">false</attribute>
+<attribute name="variabilityType" nodeId="d65e819c">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Establish Test Automation Framework" Id="_bSas4dpkEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA,_bSas4dpkEe6TH6yb1zVWhw" nodeId="37b67e81" Url="process.adv.eya_oracle.base/deliveryprocesses/establish_test_automation_framework_17B1D4BB.html" Name="establish_test_automation_framework" BackPath="./../../">
+<attribute name="name" nodeId="c59f2481">establish_test_automation_framework</attribute>
+<attribute name="guid" nodeId="e5698291">_bSas4dpkEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="180bbcd2">Establish Test Automation Framework</attribute>
+<attribute name="briefDescription" nodeId="a5a33736">Identify the specific test cases that can be automated and prepare the associated test scripts. Additionally, define the test data requirements and identify the environment(s) that will be used for automated testing.</attribute>
+<attribute name="suppressed" nodeId="7f381bd5">false</attribute>
+<attribute name="orderingGuide" nodeId="656d6874"></attribute>
+<attribute name="isAbstract" nodeId="fa779f24">false</attribute>
+<attribute name="shapeicon" nodeId="b9988296"></attribute>
+<attribute name="nodeicon" nodeId="fc820347"></attribute>
+<attribute name="prefix" nodeId="385e2d82"></attribute>
+<attribute name="isPlanned" nodeId="2575d76d">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="be9ed730">false</attribute>
+<attribute name="isOptional" nodeId="58c81aa2">false</attribute>
+<attribute name="isRepeatable" nodeId="30a57f18">false</attribute>
+<attribute name="isOngoing" nodeId="a1f8332f">false</attribute>
+<attribute name="isEventDriven" nodeId="91d2d23">false</attribute>
+<attribute name="variabilityType" nodeId="f6a551ba">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_rk-WkclnEe6KPaNasO6mNA,_YZP1sO2oEe-socSARGFgTg_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_YZP1sO2oEe-socSARGFgTg_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="d572c0ae">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Testing" Id="_XaP3oZLKEe6Ji6GnvvUfqw" relProcessPath="_XaP3oZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw" nodeId="d125149b" Url="process.adv.eya_oracle.base/capabilitypatterns/testing_wkstrm_4068A774.html" Name="testing_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="db1c1a4d">testing_wkstrm</attribute>
+<attribute name="guid" nodeId="4dab6fb9">_XaP3oZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="2f2f8a01">Testing</attribute>
+<attribute name="briefDescription" nodeId="4d72b6fe"></attribute>
+<attribute name="suppressed" nodeId="f0bd206">false</attribute>
+<attribute name="orderingGuide" nodeId="6e401720"></attribute>
+<attribute name="isAbstract" nodeId="68575934">false</attribute>
+<attribute name="shapeicon" nodeId="e3c86e8f"></attribute>
+<attribute name="nodeicon" nodeId="1504b57"></attribute>
+<attribute name="prefix" nodeId="83999517">workstream</attribute>
+<attribute name="isPlanned" nodeId="4379b61b">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="9887a90a">false</attribute>
+<attribute name="isOptional" nodeId="3e0e9755">false</attribute>
+<attribute name="isRepeatable" nodeId="19f69936">false</attribute>
+<attribute name="isOngoing" nodeId="d6b1abc9">false</attribute>
+<attribute name="isEventDriven" nodeId="a20495c4">false</attribute>
+<attribute name="variabilityType" nodeId="da354f9a">na</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Conduct System Integration Testing (SIT)" Id="_rk-WkclnEe6KPaNasO6mNA" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_rk-WkclnEe6KPaNasO6mNA" nodeId="89805c99" Url="process.adv.eya_oracle.base/capabilitypatterns/conduct_sit_A9158E9B.html" Name="conduct_sit" BackPath="./../../">
+<attribute name="name" nodeId="6200c100">conduct_sit</attribute>
+<attribute name="guid" nodeId="44970361">_rk-WkclnEe6KPaNasO6mNA</attribute>
+<attribute name="presentationName" nodeId="eb6cc14d">Conduct System Integration Testing (SIT)</attribute>
+<attribute name="briefDescription" nodeId="9f872bc">Perform system integration test (SIT) cycles 1 through n per the test strategy. </attribute>
+<attribute name="suppressed" nodeId="98e93c1c">false</attribute>
+<attribute name="orderingGuide" nodeId="edfd9e54"></attribute>
+<attribute name="isAbstract" nodeId="8bda1314">false</attribute>
+<attribute name="shapeicon" nodeId="7184ec11"></attribute>
+<attribute name="nodeicon" nodeId="c60d898"></attribute>
+<attribute name="prefix" nodeId="651fd497"></attribute>
+<attribute name="isPlanned" nodeId="fbf396c0">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="4aaf2b8f">false</attribute>
+<attribute name="isOptional" nodeId="d6a46028">false</attribute>
+<attribute name="isRepeatable" nodeId="92115e40">true</attribute>
+<attribute name="isOngoing" nodeId="6dad0602">false</attribute>
+<attribute name="isEventDriven" nodeId="10a5c45d">false</attribute>
+<attribute name="variabilityType" nodeId="589f93d4">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_rk-WkclnEe6KPaNasO6mNA,_YZP1sO2oEe-socSARGFgTg_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_YZP1sO2oEe-socSARGFgTg_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="9e1a93d6">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="824cd017" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="272858b0">eya_oracle</attribute>
+<attribute name="guid" nodeId="f9f99f04">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="68dd8469">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="52cb6de4"></attribute>
+<attribute name="suppressed" nodeId="aab33eac">false</attribute>
+<attribute name="orderingGuide" nodeId="bcc517ce"></attribute>
+<attribute name="isAbstract" nodeId="25f4a7c9">false</attribute>
+<attribute name="shapeicon" nodeId="fe917be3"></attribute>
+<attribute name="nodeicon" nodeId="450e6f5d"></attribute>
+<attribute name="prefix" nodeId="b90a7f40"></attribute>
+<attribute name="isPlanned" nodeId="38f5236c">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="cd4d9362">false</attribute>
+<attribute name="isOptional" nodeId="285c0d59">false</attribute>
+<attribute name="isRepeatable" nodeId="fa6a2149">false</attribute>
+<attribute name="isOngoing" nodeId="bbc33d0e">false</attribute>
+<attribute name="isEventDriven" nodeId="926f4e5e">false</attribute>
+<attribute name="variabilityType" nodeId="aac30687">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Test" Id="_esTcsYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA" nodeId="523543c7" Url="process.adv.eya_oracle.base/deliveryprocesses/test_E5EB30E9.html" Name="test" BackPath="./../../">
+<attribute name="name" nodeId="f99479ab">test</attribute>
+<attribute name="guid" nodeId="d25000f8">_esTcsYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="21fda10">Test</attribute>
+<attribute name="briefDescription" nodeId="42dd80c1">Perform tests on the integrated Oracle services solution and prepare for cutover and deployment. Additionally, design and prepare training materials.</attribute>
+<attribute name="suppressed" nodeId="805561bc">false</attribute>
+<attribute name="orderingGuide" nodeId="3732080f"></attribute>
+<attribute name="isAbstract" nodeId="c7193a71">false</attribute>
+<attribute name="shapeicon" nodeId="6aee0d49"></attribute>
+<attribute name="nodeicon" nodeId="e2bbeb92"></attribute>
+<attribute name="prefix" nodeId="1f6fb5db"></attribute>
+<attribute name="isPlanned" nodeId="f0423efa">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="eedcaae6">false</attribute>
+<attribute name="isOptional" nodeId="16ff0655">false</attribute>
+<attribute name="isRepeatable" nodeId="9999c9aa">false</attribute>
+<attribute name="isOngoing" nodeId="158689e">false</attribute>
+<attribute name="isEventDriven" nodeId="e3be2486">false</attribute>
+<attribute name="variabilityType" nodeId="8c7b9ffc">na</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Conduct System Integration Testing (SIT)" Id="_h5NTkTGsEe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_h5NTkTGsEe-TauTqJPNl_g" nodeId="e76174d9" Url="process.adv.eya_oracle.base/deliveryprocesses/conduct_sit_DC87AE6B.html" Name="conduct_sit" BackPath="./../../">
+<attribute name="name" nodeId="226b3060">conduct_sit</attribute>
+<attribute name="guid" nodeId="114f4a83">_h5NTkTGsEe-TauTqJPNl_g</attribute>
+<attribute name="presentationName" nodeId="1a0f7913">Conduct System Integration Testing (SIT)</attribute>
+<attribute name="briefDescription" nodeId="5d29964b">Perform system integration test (SIT) cycles 1 through n per the test strategy. </attribute>
+<attribute name="suppressed" nodeId="b20afac9">false</attribute>
+<attribute name="orderingGuide" nodeId="9fac1823"></attribute>
+<attribute name="isAbstract" nodeId="d102a2dc">false</attribute>
+<attribute name="shapeicon" nodeId="ec781270"></attribute>
+<attribute name="nodeicon" nodeId="41433e5"></attribute>
+<attribute name="prefix" nodeId="218fdfdd"></attribute>
+<attribute name="isPlanned" nodeId="802d03a1">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="ebfc93c4">false</attribute>
+<attribute name="isOptional" nodeId="a26d1ddc">false</attribute>
+<attribute name="isRepeatable" nodeId="183249a9">true</attribute>
+<attribute name="isOngoing" nodeId="eb95b47e">false</attribute>
+<attribute name="isEventDriven" nodeId="9b7fee20">false</attribute>
+<attribute name="variabilityType" nodeId="e84e9478">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_kP8o0cPMEe6pmdl9Vi4qww,_udW4AMPMEe6pmdl9Vi4qww_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_udW4AMPMEe6pmdl9Vi4qww_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="f803e552">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Testing" Id="_XaP3oZLKEe6Ji6GnvvUfqw" relProcessPath="_XaP3oZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw" nodeId="5092f828" Url="process.adv.eya_oracle.base/capabilitypatterns/testing_wkstrm_4068A774.html" Name="testing_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="43260a60">testing_wkstrm</attribute>
+<attribute name="guid" nodeId="5a9ccee0">_XaP3oZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="e9b0c151">Testing</attribute>
+<attribute name="briefDescription" nodeId="22c2dee6"></attribute>
+<attribute name="suppressed" nodeId="ebfc7e8a">false</attribute>
+<attribute name="orderingGuide" nodeId="679fdf74"></attribute>
+<attribute name="isAbstract" nodeId="9366d809">false</attribute>
+<attribute name="shapeicon" nodeId="8a8cff70"></attribute>
+<attribute name="nodeicon" nodeId="7f1f5ed5"></attribute>
+<attribute name="prefix" nodeId="5a5b7ba4">workstream</attribute>
+<attribute name="isPlanned" nodeId="4c63bebf">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="3899871e">false</attribute>
+<attribute name="isOptional" nodeId="408fc440">false</attribute>
+<attribute name="isRepeatable" nodeId="818f65d7">false</attribute>
+<attribute name="isOngoing" nodeId="b71cd2f">false</attribute>
+<attribute name="isEventDriven" nodeId="50a5dc3">false</attribute>
+<attribute name="variabilityType" nodeId="bf58618e">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Conduct Regression Testing" Id="_kP8o0cPMEe6pmdl9Vi4qww" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_kP8o0cPMEe6pmdl9Vi4qww" nodeId="ea77c492" Url="process.adv.eya_oracle.base/capabilitypatterns/conduct_regression_testing_FAE4D3D9.html" Name="conduct_regression_testing" BackPath="./../../">
+<attribute name="name" nodeId="d4e15141">conduct_regression_testing</attribute>
+<attribute name="guid" nodeId="cd7c40e">_kP8o0cPMEe6pmdl9Vi4qww</attribute>
+<attribute name="presentationName" nodeId="612afcdd">Conduct Regression Testing</attribute>
+<attribute name="briefDescription" nodeId="237c62d7">Optionally, perform tests to validate that any changes made have not introduced defects in previously tested code and configurations.</attribute>
+<attribute name="suppressed" nodeId="3d31b529">false</attribute>
+<attribute name="orderingGuide" nodeId="55ffaeb5"></attribute>
+<attribute name="isAbstract" nodeId="dc9c32f9">false</attribute>
+<attribute name="shapeicon" nodeId="de938f30"></attribute>
+<attribute name="nodeicon" nodeId="3b941387"></attribute>
+<attribute name="prefix" nodeId="9d616f49"></attribute>
+<attribute name="isPlanned" nodeId="18f15584">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="3a2264e0">false</attribute>
+<attribute name="isOptional" nodeId="f173f4c">false</attribute>
+<attribute name="isRepeatable" nodeId="7be38d52">false</attribute>
+<attribute name="isOngoing" nodeId="77181c65">false</attribute>
+<attribute name="isEventDriven" nodeId="8c3b2cf">false</attribute>
+<attribute name="variabilityType" nodeId="d9f57e95">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_kP8o0cPMEe6pmdl9Vi4qww,_udW4AMPMEe6pmdl9Vi4qww_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_udW4AMPMEe6pmdl9Vi4qww_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="61cde8e1">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="9f68b413" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="6edbe429">eya_oracle</attribute>
+<attribute name="guid" nodeId="fa988f97">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="41b0b539">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="4c954f39"></attribute>
+<attribute name="suppressed" nodeId="55f72f5">false</attribute>
+<attribute name="orderingGuide" nodeId="cc6ae5cb"></attribute>
+<attribute name="isAbstract" nodeId="68136bf8">false</attribute>
+<attribute name="shapeicon" nodeId="78081859"></attribute>
+<attribute name="nodeicon" nodeId="391b3e5f"></attribute>
+<attribute name="prefix" nodeId="ebd9a5b8"></attribute>
+<attribute name="isPlanned" nodeId="6fd51fc">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="aa69a346">false</attribute>
+<attribute name="isOptional" nodeId="3c77773d">false</attribute>
+<attribute name="isRepeatable" nodeId="b132d440">false</attribute>
+<attribute name="isOngoing" nodeId="b483cfa4">false</attribute>
+<attribute name="isEventDriven" nodeId="2a251c44">false</attribute>
+<attribute name="variabilityType" nodeId="97285d25">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Test" Id="_esTcsYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA" nodeId="dce74898" Url="process.adv.eya_oracle.base/deliveryprocesses/test_E5EB30E9.html" Name="test" BackPath="./../../">
+<attribute name="name" nodeId="99c769ad">test</attribute>
+<attribute name="guid" nodeId="db914b57">_esTcsYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="391d8808">Test</attribute>
+<attribute name="briefDescription" nodeId="17b0c6e8">Perform tests on the integrated Oracle services solution and prepare for cutover and deployment. Additionally, design and prepare training materials.</attribute>
+<attribute name="suppressed" nodeId="25a0a0e1">false</attribute>
+<attribute name="orderingGuide" nodeId="f161139b"></attribute>
+<attribute name="isAbstract" nodeId="82b6e586">false</attribute>
+<attribute name="shapeicon" nodeId="b9c17a95"></attribute>
+<attribute name="nodeicon" nodeId="30f7255f"></attribute>
+<attribute name="prefix" nodeId="3a74cf69"></attribute>
+<attribute name="isPlanned" nodeId="9d51fb65">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="c06e3810">false</attribute>
+<attribute name="isOptional" nodeId="e158ae9f">false</attribute>
+<attribute name="isRepeatable" nodeId="bcbfd38a">false</attribute>
+<attribute name="isOngoing" nodeId="953f0a9e">false</attribute>
+<attribute name="isEventDriven" nodeId="342699b3">false</attribute>
+<attribute name="variabilityType" nodeId="f6e9240d">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Conduct Regression Testing" Id="_dpu3odpmEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_dpu3odpmEe6TH6yb1zVWhw" nodeId="309949a7" Url="process.adv.eya_oracle.base/deliveryprocesses/conduct_regression_testing_41735A69.html" Name="conduct_regression_testing" BackPath="./../../">
+<attribute name="name" nodeId="52f7d431">conduct_regression_testing</attribute>
+<attribute name="guid" nodeId="dc9e1231">_dpu3odpmEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="cc5953e7">Conduct Regression Testing</attribute>
+<attribute name="briefDescription" nodeId="63f52b0d">Optionally, perform tests to validate that any changes made have not introduced defects in previously tested code and configurations.</attribute>
+<attribute name="suppressed" nodeId="a44dd40b">false</attribute>
+<attribute name="orderingGuide" nodeId="ff98f1fe"></attribute>
+<attribute name="isAbstract" nodeId="ed61f80d">false</attribute>
+<attribute name="shapeicon" nodeId="6141e5f6"></attribute>
+<attribute name="nodeicon" nodeId="755d857e"></attribute>
+<attribute name="prefix" nodeId="83b7a411"></attribute>
+<attribute name="isPlanned" nodeId="cad262d">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="68137e79">false</attribute>
+<attribute name="isOptional" nodeId="15fd9f38">false</attribute>
+<attribute name="isRepeatable" nodeId="dde82522">false</attribute>
+<attribute name="isOngoing" nodeId="8c4286c0">false</attribute>
+<attribute name="isEventDriven" nodeId="3cd795b6">false</attribute>
+<attribute name="variabilityType" nodeId="a86a1188">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_SPMxYMl4Ee6KPaNasO6mNA,_SPMKYMl4Ee6KPaNasO6mNA_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_SPMKYMl4Ee6KPaNasO6mNA_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="25f6b817">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Testing" Id="_XaP3oZLKEe6Ji6GnvvUfqw" relProcessPath="_XaP3oZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw" nodeId="f84efd86" Url="process.adv.eya_oracle.base/capabilitypatterns/testing_wkstrm_4068A774.html" Name="testing_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="a2fc4e77">testing_wkstrm</attribute>
+<attribute name="guid" nodeId="4eb6f5e7">_XaP3oZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="429e5fcc">Testing</attribute>
+<attribute name="briefDescription" nodeId="d36db29d"></attribute>
+<attribute name="suppressed" nodeId="2821d60d">false</attribute>
+<attribute name="orderingGuide" nodeId="6899cf4b"></attribute>
+<attribute name="isAbstract" nodeId="fa224a7e">false</attribute>
+<attribute name="shapeicon" nodeId="522cee54"></attribute>
+<attribute name="nodeicon" nodeId="286fb124"></attribute>
+<attribute name="prefix" nodeId="b1735379">workstream</attribute>
+<attribute name="isPlanned" nodeId="9c90a66b">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="c8331da3">false</attribute>
+<attribute name="isOptional" nodeId="8f955604">false</attribute>
+<attribute name="isRepeatable" nodeId="32af58b9">false</attribute>
+<attribute name="isOngoing" nodeId="5587a452">false</attribute>
+<attribute name="isEventDriven" nodeId="fbff8ac3">false</attribute>
+<attribute name="variabilityType" nodeId="cb12bb23">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Conduct Performance Testing" Id="_SPMxYMl4Ee6KPaNasO6mNA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_SPMxYMl4Ee6KPaNasO6mNA" nodeId="d62f2bc6" Url="process.adv.eya_oracle.base/capabilitypatterns/conduct_performance_testing_65626982.html" Name="conduct_performance_testing" BackPath="./../../">
+<attribute name="name" nodeId="d93c5e">conduct_performance_testing</attribute>
+<attribute name="guid" nodeId="c37b5adc">_SPMxYMl4Ee6KPaNasO6mNA</attribute>
+<attribute name="presentationName" nodeId="26374a86">Conduct Performance Testing</attribute>
+<attribute name="briefDescription" nodeId="b666b9a4">Based on the agreed upon scope for performance testing, test the resource usage, speed, effectiveness, stability and scalability of the target state solution.</attribute>
+<attribute name="suppressed" nodeId="a066adc7">false</attribute>
+<attribute name="orderingGuide" nodeId="57d54eb2"></attribute>
+<attribute name="isAbstract" nodeId="5ce73508">false</attribute>
+<attribute name="shapeicon" nodeId="66b79c0d"></attribute>
+<attribute name="nodeicon" nodeId="c3b63a45"></attribute>
+<attribute name="prefix" nodeId="54e7b408"></attribute>
+<attribute name="isPlanned" nodeId="df9b30b6">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d91079b1">false</attribute>
+<attribute name="isOptional" nodeId="70f8654">false</attribute>
+<attribute name="isRepeatable" nodeId="6300cba6">false</attribute>
+<attribute name="isOngoing" nodeId="5024c935">false</attribute>
+<attribute name="isEventDriven" nodeId="9c7dc2d6">false</attribute>
+<attribute name="variabilityType" nodeId="3fa32ad1">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_SPMxYMl4Ee6KPaNasO6mNA,_SPMKYMl4Ee6KPaNasO6mNA_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_SPMKYMl4Ee6KPaNasO6mNA_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="f7020f32">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="3e456ba8" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="8827d3ea">eya_oracle</attribute>
+<attribute name="guid" nodeId="3e703c45">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="e731ad35">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="6b1aaf2c"></attribute>
+<attribute name="suppressed" nodeId="d83123ed">false</attribute>
+<attribute name="orderingGuide" nodeId="f5422454"></attribute>
+<attribute name="isAbstract" nodeId="c6c25336">false</attribute>
+<attribute name="shapeicon" nodeId="e14204c4"></attribute>
+<attribute name="nodeicon" nodeId="ff8c0553"></attribute>
+<attribute name="prefix" nodeId="35879dc9"></attribute>
+<attribute name="isPlanned" nodeId="d32a59e2">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="6b0fd5f0">false</attribute>
+<attribute name="isOptional" nodeId="bca468bc">false</attribute>
+<attribute name="isRepeatable" nodeId="2b573b75">false</attribute>
+<attribute name="isOngoing" nodeId="ac4c779b">false</attribute>
+<attribute name="isEventDriven" nodeId="cd68f5b4">false</attribute>
+<attribute name="variabilityType" nodeId="29b5109d">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Test" Id="_esTcsYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA" nodeId="48558731" Url="process.adv.eya_oracle.base/deliveryprocesses/test_E5EB30E9.html" Name="test" BackPath="./../../">
+<attribute name="name" nodeId="91f58dad">test</attribute>
+<attribute name="guid" nodeId="6932fbd">_esTcsYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="291f22c1">Test</attribute>
+<attribute name="briefDescription" nodeId="ffd38ef1">Perform tests on the integrated Oracle services solution and prepare for cutover and deployment. Additionally, design and prepare training materials.</attribute>
+<attribute name="suppressed" nodeId="cecdbf82">false</attribute>
+<attribute name="orderingGuide" nodeId="4f121437"></attribute>
+<attribute name="isAbstract" nodeId="3e384c85">false</attribute>
+<attribute name="shapeicon" nodeId="112dcb0f"></attribute>
+<attribute name="nodeicon" nodeId="c64e251a"></attribute>
+<attribute name="prefix" nodeId="59d8de49"></attribute>
+<attribute name="isPlanned" nodeId="b3afe918">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="7a60a969">false</attribute>
+<attribute name="isOptional" nodeId="210ac46e">false</attribute>
+<attribute name="isRepeatable" nodeId="38bc7325">false</attribute>
+<attribute name="isOngoing" nodeId="8f0d687b">false</attribute>
+<attribute name="isEventDriven" nodeId="91822bd7">false</attribute>
+<attribute name="variabilityType" nodeId="4a2842c9">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Conduct Performance Testing" Id="_DRhGoTGuEe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_DRhGoTGuEe-TauTqJPNl_g" nodeId="3df1951d" Url="process.adv.eya_oracle.base/deliveryprocesses/conduct_performance_testing_39D46B83.html" Name="conduct_performance_testing" BackPath="./../../">
+<attribute name="name" nodeId="ba4137c2">conduct_performance_testing</attribute>
+<attribute name="guid" nodeId="d9d2f4cd">_DRhGoTGuEe-TauTqJPNl_g</attribute>
+<attribute name="presentationName" nodeId="e05ae73d">Conduct Performance Testing</attribute>
+<attribute name="briefDescription" nodeId="e9cb9682">Based on the agreed upon scope for performance testing, test the resource usage, speed, effectiveness, stability and scalability of the target state solution.</attribute>
+<attribute name="suppressed" nodeId="80574b96">false</attribute>
+<attribute name="orderingGuide" nodeId="7ca54f3b"></attribute>
+<attribute name="isAbstract" nodeId="9b54ea56">false</attribute>
+<attribute name="shapeicon" nodeId="40db2cda"></attribute>
+<attribute name="nodeicon" nodeId="9787e38c"></attribute>
+<attribute name="prefix" nodeId="3beec3e3"></attribute>
+<attribute name="isPlanned" nodeId="a24f28b3">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="91438f4d">false</attribute>
+<attribute name="isOptional" nodeId="988a9bc5">false</attribute>
+<attribute name="isRepeatable" nodeId="56bc5d9f">false</attribute>
+<attribute name="isOngoing" nodeId="da7c0973">false</attribute>
+<attribute name="isEventDriven" nodeId="fc8a2857">false</attribute>
+<attribute name="variabilityType" nodeId="3de382e1">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_wWob4MPOEe6pmdl9Vi4qww,_r6Y6Ee2oEe-socSARGFgTg,__Ge7gO2oEe-socSARGFgTg_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="__Ge7gO2oEe-socSARGFgTg_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="458c7435">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Testing" Id="_XaP3oZLKEe6Ji6GnvvUfqw" relProcessPath="_XaP3oZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw" nodeId="b272f46a" Url="process.adv.eya_oracle.base/capabilitypatterns/testing_wkstrm_4068A774.html" Name="testing_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="9d09d4ae">testing_wkstrm</attribute>
+<attribute name="guid" nodeId="57506771">_XaP3oZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="d5b22de7">Testing</attribute>
+<attribute name="briefDescription" nodeId="9d74b50c"></attribute>
+<attribute name="suppressed" nodeId="ce3bacf1">false</attribute>
+<attribute name="orderingGuide" nodeId="15915991"></attribute>
+<attribute name="isAbstract" nodeId="b4b9cb11">false</attribute>
+<attribute name="shapeicon" nodeId="e3e7db5"></attribute>
+<attribute name="nodeicon" nodeId="a1bfa309"></attribute>
+<attribute name="prefix" nodeId="e530471e">workstream</attribute>
+<attribute name="isPlanned" nodeId="1f11c54c">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="4614c6bd">false</attribute>
+<attribute name="isOptional" nodeId="83f64d4e">false</attribute>
+<attribute name="isRepeatable" nodeId="bbe2da45">false</attribute>
+<attribute name="isOngoing" nodeId="f4ccf82">false</attribute>
+<attribute name="isEventDriven" nodeId="4667f729">false</attribute>
+<attribute name="variabilityType" nodeId="854d817a">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Conduct User Acceptance Testing (UAT)" Id="_wWob4MPOEe6pmdl9Vi4qww" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_wWob4MPOEe6pmdl9Vi4qww" nodeId="1c8c0d19" Url="process.adv.eya_oracle.base/capabilitypatterns/conduct_uat_CADBAA58.html" Name="conduct_uat" BackPath="./../../">
+<attribute name="name" nodeId="acbf0c36">conduct_uat</attribute>
+<attribute name="guid" nodeId="e5f1a379">_wWob4MPOEe6pmdl9Vi4qww</attribute>
+<attribute name="presentationName" nodeId="cb201f86">Conduct User Acceptance Testing (UAT)</attribute>
+<attribute name="briefDescription" nodeId="a2ef174d">Prepare for and execute user acceptance testing (UAT) per the defined schedule.</attribute>
+<attribute name="suppressed" nodeId="641da3bc">false</attribute>
+<attribute name="orderingGuide" nodeId="cf339660"></attribute>
+<attribute name="isAbstract" nodeId="20a221b3">false</attribute>
+<attribute name="shapeicon" nodeId="3cf75033"></attribute>
+<attribute name="nodeicon" nodeId="3cb13a13"></attribute>
+<attribute name="prefix" nodeId="ee5e0a97"></attribute>
+<attribute name="isPlanned" nodeId="e9e8287">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="520c721c">false</attribute>
+<attribute name="isOptional" nodeId="8528d469">false</attribute>
+<attribute name="isRepeatable" nodeId="6efaf320">false</attribute>
+<attribute name="isOngoing" nodeId="a887fe87">false</attribute>
+<attribute name="isEventDriven" nodeId="52564f64">false</attribute>
+<attribute name="variabilityType" nodeId="5fe13456">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Conduct Testing" Id="_r6Y6Ee2oEe-socSARGFgTg" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_wWob4MPOEe6pmdl9Vi4qww,_r6Y6Ee2oEe-socSARGFgTg" nodeId="71437923" Url="process.adv.eya_oracle.base/capabilitypatterns/conduct_uat_FA8FF90E.html" Name="conduct_uat" BackPath="./../../">
+<attribute name="name" nodeId="6dea2e0b">conduct_uat</attribute>
+<attribute name="guid" nodeId="36058ac9">_r6Y6Ee2oEe-socSARGFgTg</attribute>
+<attribute name="presentationName" nodeId="6396b339">Conduct Testing</attribute>
+<attribute name="briefDescription" nodeId="234aee9c">Confirm the list of business users who will perform the user acceptance testing (UAT) and conduct the tests.</attribute>
+<attribute name="suppressed" nodeId="dc0ce3d0">false</attribute>
+<attribute name="orderingGuide" nodeId="3b190a75"></attribute>
+<attribute name="isAbstract" nodeId="b4ec4ff2">false</attribute>
+<attribute name="shapeicon" nodeId="f54e951b"></attribute>
+<attribute name="nodeicon" nodeId="9aa0359c"></attribute>
+<attribute name="prefix" nodeId="e9738b22"></attribute>
+<attribute name="isPlanned" nodeId="a44f9d5e">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="3cf21e2c">false</attribute>
+<attribute name="isOptional" nodeId="6b0bbe0d">false</attribute>
+<attribute name="isRepeatable" nodeId="200abb9f">false</attribute>
+<attribute name="isOngoing" nodeId="367b58f2">false</attribute>
+<attribute name="isEventDriven" nodeId="4f961c15">false</attribute>
+<attribute name="variabilityType" nodeId="22de1d0d">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_wWob4MPOEe6pmdl9Vi4qww,_r6Y6Ee2oEe-socSARGFgTg,__Ge7gO2oEe-socSARGFgTg_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="__Ge7gO2oEe-socSARGFgTg_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="28924529">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="ec3205f4" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="b62cc6c2">eya_oracle</attribute>
+<attribute name="guid" nodeId="b1d9e5ee">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="1627dbfb">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="cc41ecb9"></attribute>
+<attribute name="suppressed" nodeId="270d53a7">false</attribute>
+<attribute name="orderingGuide" nodeId="cc29b6a4"></attribute>
+<attribute name="isAbstract" nodeId="7e0ea492">false</attribute>
+<attribute name="shapeicon" nodeId="e241369a"></attribute>
+<attribute name="nodeicon" nodeId="4dc38f"></attribute>
+<attribute name="prefix" nodeId="f1598c53"></attribute>
+<attribute name="isPlanned" nodeId="70876149">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="6ae7d07">false</attribute>
+<attribute name="isOptional" nodeId="8290001b">false</attribute>
+<attribute name="isRepeatable" nodeId="574aa9cc">false</attribute>
+<attribute name="isOngoing" nodeId="92cd2a9a">false</attribute>
+<attribute name="isEventDriven" nodeId="1665bd08">false</attribute>
+<attribute name="variabilityType" nodeId="7f531d99">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Test" Id="_esTcsYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA" nodeId="bfc54349" Url="process.adv.eya_oracle.base/deliveryprocesses/test_E5EB30E9.html" Name="test" BackPath="./../../">
+<attribute name="name" nodeId="f363d6b9">test</attribute>
+<attribute name="guid" nodeId="9360b55c">_esTcsYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="f03521c7">Test</attribute>
+<attribute name="briefDescription" nodeId="677ba77">Perform tests on the integrated Oracle services solution and prepare for cutover and deployment. Additionally, design and prepare training materials.</attribute>
+<attribute name="suppressed" nodeId="370f5504">false</attribute>
+<attribute name="orderingGuide" nodeId="e1afe988"></attribute>
+<attribute name="isAbstract" nodeId="51c5b883">false</attribute>
+<attribute name="shapeicon" nodeId="43d4bc63"></attribute>
+<attribute name="nodeicon" nodeId="e7189523"></attribute>
+<attribute name="prefix" nodeId="1aa8136a"></attribute>
+<attribute name="isPlanned" nodeId="1fcd00f4">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="c37a8da">false</attribute>
+<attribute name="isOptional" nodeId="1947480a">false</attribute>
+<attribute name="isRepeatable" nodeId="8a0b8587">false</attribute>
+<attribute name="isOngoing" nodeId="9b36f321">false</attribute>
+<attribute name="isEventDriven" nodeId="ef33f63f">false</attribute>
+<attribute name="variabilityType" nodeId="40805c92">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Conduct User Acceptance Testing (UAT)" Id="_gyCFUdpmEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_gyCFUdpmEe6TH6yb1zVWhw" nodeId="9d9d0af7" Url="process.adv.eya_oracle.base/deliveryprocesses/conduct_uat_559D976E.html" Name="conduct_uat" BackPath="./../../">
+<attribute name="name" nodeId="e5681b49">conduct_uat</attribute>
+<attribute name="guid" nodeId="ac22be5">_gyCFUdpmEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="17a37d01">Conduct User Acceptance Testing (UAT)</attribute>
+<attribute name="briefDescription" nodeId="121116d8">Prepare for and execute user acceptance testing (UAT) per the defined schedule.</attribute>
+<attribute name="suppressed" nodeId="cc891e17">false</attribute>
+<attribute name="orderingGuide" nodeId="3c657f15"></attribute>
+<attribute name="isAbstract" nodeId="8cb3c554">false</attribute>
+<attribute name="shapeicon" nodeId="60945b2"></attribute>
+<attribute name="nodeicon" nodeId="d3c20ab9"></attribute>
+<attribute name="prefix" nodeId="f9fcee18"></attribute>
+<attribute name="isPlanned" nodeId="c2ff789f">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="a52b9681">false</attribute>
+<attribute name="isOptional" nodeId="ef68d33">false</attribute>
+<attribute name="isRepeatable" nodeId="46519b2">false</attribute>
+<attribute name="isOngoing" nodeId="ca058c0a">false</attribute>
+<attribute name="isEventDriven" nodeId="311efd12">false</attribute>
+<attribute name="variabilityType" nodeId="8dd91605">extends</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Conduct Testing" Id="_r6Y6Ee2oEe-socSARGFgTg" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_wWob4MPOEe6pmdl9Vi4qww,_r6Y6Ee2oEe-socSARGFgTg" nodeId="b0387d68" Url="process.adv.eya_oracle.base/capabilitypatterns/conduct_uat_FA8FF90E.html" Name="conduct_uat" BackPath="./../../">
+<attribute name="name" nodeId="b5dfedac">conduct_uat</attribute>
+<attribute name="guid" nodeId="46f565a3">_r6Y6Ee2oEe-socSARGFgTg</attribute>
+<attribute name="presentationName" nodeId="8e14b5b7">Conduct Testing</attribute>
+<attribute name="briefDescription" nodeId="2080e9">Confirm the list of business users who will perform the user acceptance testing (UAT) and conduct the tests.</attribute>
+<attribute name="suppressed" nodeId="cba39339">false</attribute>
+<attribute name="orderingGuide" nodeId="1ddacf5"></attribute>
+<attribute name="isAbstract" nodeId="845b9613">false</attribute>
+<attribute name="shapeicon" nodeId="fadb5e42"></attribute>
+<attribute name="nodeicon" nodeId="dc894b7f"></attribute>
+<attribute name="prefix" nodeId="c96acb37"></attribute>
+<attribute name="isPlanned" nodeId="c55dd7e0">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="c7e5725d">false</attribute>
+<attribute name="isOptional" nodeId="850874e3">false</attribute>
+<attribute name="isRepeatable" nodeId="f12ab5c0">false</attribute>
+<attribute name="isOngoing" nodeId="6a3532e3">false</attribute>
+<attribute name="isEventDriven" nodeId="e01a477c">false</attribute>
+<attribute name="variabilityType" nodeId="7f6075ba">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_arYdcNEhEe6Y56Jk6jqfOA_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_arYdcNEhEe6Y56Jk6jqfOA_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="3d646a17">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Development" Id="_N-58wdAOEe6H-rjlu9wPlA" relProcessPath="_N-58wdAOEe6H-rjlu9wPlA" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA" nodeId="61323b31" Url="process.adv.eya_oracle.base/capabilitypatterns/development_wkstrm_21C01F87.html" Name="development_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="23624344">development_wkstrm</attribute>
+<attribute name="guid" nodeId="32d95dcc">_N-58wdAOEe6H-rjlu9wPlA</attribute>
+<attribute name="presentationName" nodeId="f410e7c7">Development</attribute>
+<attribute name="briefDescription" nodeId="6fee89e3"></attribute>
+<attribute name="suppressed" nodeId="4f6175d5">false</attribute>
+<attribute name="orderingGuide" nodeId="9b21aef"></attribute>
+<attribute name="isAbstract" nodeId="6fa01daa">false</attribute>
+<attribute name="shapeicon" nodeId="5080b49e"></attribute>
+<attribute name="nodeicon" nodeId="dcb61b7e"></attribute>
+<attribute name="prefix" nodeId="595d9459">workstream</attribute>
+<attribute name="isPlanned" nodeId="938cc4c9">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="7621a42b">false</attribute>
+<attribute name="isOptional" nodeId="df92d423">false</attribute>
+<attribute name="isRepeatable" nodeId="5cdaf75b">false</attribute>
+<attribute name="isOngoing" nodeId="c97fbbdb">false</attribute>
+<attribute name="isEventDriven" nodeId="c8a7be16">false</attribute>
+<attribute name="variabilityType" nodeId="bb9293b0">na</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="[Execute Build Cycles 1-n]" Id="_LOhWgduYEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw" nodeId="23dc33e3" Url="process.adv.eya_oracle.base/capabilitypatterns/execute_build_cycles_1_n_6C160980.html" Name="execute_build_cycles_1_n" BackPath="./../../">
+<attribute name="name" nodeId="45486681">execute_build_cycles_1_n</attribute>
+<attribute name="guid" nodeId="b9aa806f">_LOhWgduYEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="44da930">[Execute Build Cycles 1-n]</attribute>
+<attribute name="briefDescription" nodeId="4f9640a3">Set of activities and tasks to be performed by the Development workstream while executing build iterations 1-n, spanning from planning for each sprint through unit testing custom components.</attribute>
+<attribute name="suppressed" nodeId="37b7c030">false</attribute>
+<attribute name="orderingGuide" nodeId="385e739b"></attribute>
+<attribute name="isAbstract" nodeId="32f4fe19">false</attribute>
+<attribute name="shapeicon" nodeId="32defb37"></attribute>
+<attribute name="nodeicon" nodeId="8767a2f0"></attribute>
+<attribute name="prefix" nodeId="eefc24fe"></attribute>
+<attribute name="isPlanned" nodeId="bb356358">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="b816c60d">false</attribute>
+<attribute name="isOptional" nodeId="af6d1064">false</attribute>
+<attribute name="isRepeatable" nodeId="34cf9fad">true</attribute>
+<attribute name="isOngoing" nodeId="40717c62">false</attribute>
+<attribute name="isEventDriven" nodeId="855fb7ab">false</attribute>
+<attribute name="variabilityType" nodeId="b77d05d0">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Perform Development" Id="_ekqtsdDVEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA" nodeId="394fdd8b" Url="process.adv.eya_oracle.base/capabilitypatterns/perf_dev_F5AECB4B.html" Name="perf_dev" BackPath="./../../">
+<attribute name="name" nodeId="bc362d4f">perf_dev</attribute>
+<attribute name="guid" nodeId="280051f3">_ekqtsdDVEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="5992e4d2">Perform Development</attribute>
+<attribute name="briefDescription" nodeId="9f3caa3b">Develop the approved target state RICEFW objects per the tecnical design specifications and perform unit testing.</attribute>
+<attribute name="suppressed" nodeId="eb10b14">false</attribute>
+<attribute name="orderingGuide" nodeId="d4081212"></attribute>
+<attribute name="isAbstract" nodeId="341ec58a">false</attribute>
+<attribute name="shapeicon" nodeId="88e802fa"></attribute>
+<attribute name="nodeicon" nodeId="19a5e7ad"></attribute>
+<attribute name="prefix" nodeId="e8d6e34"></attribute>
+<attribute name="isPlanned" nodeId="1267b1">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="f55fdc40">false</attribute>
+<attribute name="isOptional" nodeId="f939abaa">false</attribute>
+<attribute name="isRepeatable" nodeId="5f0082d7">false</attribute>
+<attribute name="isOngoing" nodeId="27978dd2">false</attribute>
+<attribute name="isEventDriven" nodeId="c6af3330">false</attribute>
+<attribute name="variabilityType" nodeId="5aa5d74e">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_arYdcNEhEe6Y56Jk6jqfOA_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_arYdcNEhEe6Y56Jk6jqfOA_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="9c51cfab">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="ec5076fb" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="943e84ba">eya_oracle</attribute>
+<attribute name="guid" nodeId="22bd902a">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="4344c587">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="49251777"></attribute>
+<attribute name="suppressed" nodeId="e17b82d2">false</attribute>
+<attribute name="orderingGuide" nodeId="4d71f33d"></attribute>
+<attribute name="isAbstract" nodeId="967ca736">false</attribute>
+<attribute name="shapeicon" nodeId="a2392b8d"></attribute>
+<attribute name="nodeicon" nodeId="91632a14"></attribute>
+<attribute name="prefix" nodeId="68119fe1"></attribute>
+<attribute name="isPlanned" nodeId="ef771877">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="a5c935ba">false</attribute>
+<attribute name="isOptional" nodeId="7370f473">false</attribute>
+<attribute name="isRepeatable" nodeId="1c4e3bee">false</attribute>
+<attribute name="isOngoing" nodeId="51abc062">false</attribute>
+<attribute name="isEventDriven" nodeId="daa9a7c3">false</attribute>
+<attribute name="variabilityType" nodeId="3e2bb3ab">replaces</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Progressive Build" Id="_c4A0kYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA" nodeId="75f8f253" Url="process.adv.eya_oracle.base/deliveryprocesses/progressive_build_70B7DD74.html" Name="progressive_build" BackPath="./../../">
+<attribute name="name" nodeId="981ab727">progressive_build</attribute>
+<attribute name="guid" nodeId="c760faea">_c4A0kYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="a3f0deb">Progressive Build</attribute>
+<attribute name="briefDescription" nodeId="5be34eea">Iterate through the build cycles and drive business acceptance through incremental demos to key client stakeholders. Execute mock conversions and and prepare for system integration and user acceptance testing. Manage stakeholder engagement and communications around the change.</attribute>
+<attribute name="suppressed" nodeId="87375a40">false</attribute>
+<attribute name="orderingGuide" nodeId="f3d18039"></attribute>
+<attribute name="isAbstract" nodeId="26844bc9">false</attribute>
+<attribute name="shapeicon" nodeId="2bc814c8"></attribute>
+<attribute name="nodeicon" nodeId="c40d6c4f"></attribute>
+<attribute name="prefix" nodeId="fe1b716f"></attribute>
+<attribute name="isPlanned" nodeId="22edae2f">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="6cdeb232">false</attribute>
+<attribute name="isOptional" nodeId="a437a5c2">false</attribute>
+<attribute name="isRepeatable" nodeId="e88b0fdc">true</attribute>
+<attribute name="isOngoing" nodeId="27fbb708">false</attribute>
+<attribute name="isEventDriven" nodeId="adb773d2">false</attribute>
+<attribute name="variabilityType" nodeId="15c6bd5e">na</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Execute Build Cycles 1-n" Id="_Sd7D0duVEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_Sd7D0duVEe6TH6yb1zVWhw" nodeId="68984d35" Url="process.adv.eya_oracle.base/deliveryprocesses/execute_build_cycles_1_n_3FC12A80.html" Name="execute_build_cycles_1_n" BackPath="./../../">
+<attribute name="name" nodeId="a5605030">execute_build_cycles_1_n</attribute>
+<attribute name="guid" nodeId="a5abd079">_Sd7D0duVEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="98bbe673">Execute Build Cycles 1-n</attribute>
+<attribute name="briefDescription" nodeId="fb591b88">Iterate through the build cycles by planning for each sprint, defining the technical and integration specifications and data conversion scripts and completing the configurations and development. Validate the builds and conduct demos with the client.</attribute>
+<attribute name="suppressed" nodeId="41678468">false</attribute>
+<attribute name="orderingGuide" nodeId="a316a8b1"></attribute>
+<attribute name="isAbstract" nodeId="22cc5ad">false</attribute>
+<attribute name="shapeicon" nodeId="255b6c1a"></attribute>
+<attribute name="nodeicon" nodeId="658260af"></attribute>
+<attribute name="prefix" nodeId="1938acb6"></attribute>
+<attribute name="isPlanned" nodeId="775be5e9">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="2221dd96">false</attribute>
+<attribute name="isOptional" nodeId="96644c91">false</attribute>
+<attribute name="isRepeatable" nodeId="818fb40f">true</attribute>
+<attribute name="isOngoing" nodeId="86973dbf">false</attribute>
+<attribute name="isEventDriven" nodeId="c024c52b">false</attribute>
+<attribute name="variabilityType" nodeId="53af2e00">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Perform Development" Id="_VRUbQTGGEe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_Sd7D0duVEe6TH6yb1zVWhw,_VRUbQTGGEe-TauTqJPNl_g" nodeId="705d27f6" Url="process.adv.eya_oracle.base/deliveryprocesses/perf_dev_AB59AF.html" Name="perf_dev" BackPath="./../../">
+<attribute name="name" nodeId="5a72ba46">perf_dev</attribute>
+<attribute name="guid" nodeId="66a4a0cd">_VRUbQTGGEe-TauTqJPNl_g</attribute>
+<attribute name="presentationName" nodeId="2a4f71cc">Perform Development</attribute>
+<attribute name="briefDescription" nodeId="46f5c24">Develop the approved target state RICEFW objects per the tecnical design specifications and perform unit testing.</attribute>
+<attribute name="suppressed" nodeId="99a9399d">false</attribute>
+<attribute name="orderingGuide" nodeId="3fe7e64"></attribute>
+<attribute name="isAbstract" nodeId="bcfc81e3">false</attribute>
+<attribute name="shapeicon" nodeId="57e6f7d"></attribute>
+<attribute name="nodeicon" nodeId="19a880db"></attribute>
+<attribute name="prefix" nodeId="21ebb595"></attribute>
+<attribute name="isPlanned" nodeId="9ee40b08">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="b7465db1">false</attribute>
+<attribute name="isOptional" nodeId="1aa61805">false</attribute>
+<attribute name="isRepeatable" nodeId="2d1fcf58">false</attribute>
+<attribute name="isOngoing" nodeId="1434fc11">false</attribute>
+<attribute name="isEventDriven" nodeId="b186e32d">false</attribute>
+<attribute name="variabilityType" nodeId="7ab434b8">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_LJrQ0eW9EeOeOeyRJA3ZBg,_XQjakCmXEeW4VNZE0V9FcA_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_XQjakCmXEeW4VNZE0V9FcA_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="4bff9fe1">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="IT Testing (Levels)" Id="_HkiWIeW9EeOeOeyRJA3ZBg" relProcessPath="_HkiWIeW9EeOeOeyRJA3ZBg" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg" nodeId="be761232" Url="practice.ita.delv.it_test.assign/capabilitypatterns/it_test_levels_9A95B916.html" Name="it_test_levels" BackPath="./../../">
+<attribute name="name" nodeId="261dfb1c">it_test_levels</attribute>
+<attribute name="guid" nodeId="ebd6b878">_HkiWIeW9EeOeOeyRJA3ZBg</attribute>
+<attribute name="presentationName" nodeId="46502336">IT Testing (Levels)</attribute>
+<attribute name="briefDescription" nodeId="fb633c7b"></attribute>
+<attribute name="suppressed" nodeId="74d4e948">false</attribute>
+<attribute name="orderingGuide" nodeId="d792da8d"></attribute>
+<attribute name="isAbstract" nodeId="f0c4c8cb">false</attribute>
+<attribute name="shapeicon" nodeId="4a260d4b"></attribute>
+<attribute name="nodeicon" nodeId="d44be5f7"></attribute>
+<attribute name="prefix" nodeId="9f38b95e"></attribute>
+<attribute name="isPlanned" nodeId="b613581f">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="e8ded244">false</attribute>
+<attribute name="isOptional" nodeId="516916ba">false</attribute>
+<attribute name="isRepeatable" nodeId="14f9e63a">false</attribute>
+<attribute name="isOngoing" nodeId="ff669115">false</attribute>
+<attribute name="isEventDriven" nodeId="167cef3c">false</attribute>
+<attribute name="variabilityType" nodeId="5d4ce74b">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Design Integration Tests" Id="_LJrQ0eW9EeOeOeyRJA3ZBg" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_LJrQ0eW9EeOeOeyRJA3ZBg" nodeId="8f62fbd2" Url="practice.ita.delv.it_test.assign/capabilitypatterns/Design Integration Tests_356827BB.html" Name="Design Integration Tests" BackPath="./../../">
+<attribute name="name" nodeId="389830a2">Design Integration Tests</attribute>
+<attribute name="guid" nodeId="34ef6d84">_LJrQ0eW9EeOeOeyRJA3ZBg</attribute>
+<attribute name="presentationName" nodeId="15433a19">Design Integration Tests</attribute>
+<attribute name="briefDescription" nodeId="61166259">Define how interactions between component parts of the target solution are verified against solution requirements.</attribute>
+<attribute name="suppressed" nodeId="d70df353">false</attribute>
+<attribute name="orderingGuide" nodeId="d5275629"></attribute>
+<attribute name="isAbstract" nodeId="c65487a6">false</attribute>
+<attribute name="shapeicon" nodeId="2529bfc4"></attribute>
+<attribute name="nodeicon" nodeId="1fe22238"></attribute>
+<attribute name="prefix" nodeId="88c8df75"></attribute>
+<attribute name="isPlanned" nodeId="85bfc02b">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="3f6801ed">false</attribute>
+<attribute name="isOptional" nodeId="70f684c6">false</attribute>
+<attribute name="isRepeatable" nodeId="e687d71d">false</attribute>
+<attribute name="isOngoing" nodeId="dc210bc2">false</attribute>
+<attribute name="isEventDriven" nodeId="894f547d">false</attribute>
+<attribute name="variabilityType" nodeId="777456e9">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_cA-HgOdREeOqYK1-8T06Sw,_fJiwECmXEeW4VNZE0V9FcA_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_fJiwECmXEeW4VNZE0V9FcA_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="64d1132d">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="IT Testing (Levels)" Id="_HkiWIeW9EeOeOeyRJA3ZBg" relProcessPath="_HkiWIeW9EeOeOeyRJA3ZBg" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg" nodeId="c574d767" Url="practice.ita.delv.it_test.assign/capabilitypatterns/it_test_levels_9A95B916.html" Name="it_test_levels" BackPath="./../../">
+<attribute name="name" nodeId="86349053">it_test_levels</attribute>
+<attribute name="guid" nodeId="49b9c47f">_HkiWIeW9EeOeOeyRJA3ZBg</attribute>
+<attribute name="presentationName" nodeId="ebc1c02d">IT Testing (Levels)</attribute>
+<attribute name="briefDescription" nodeId="ebc87773"></attribute>
+<attribute name="suppressed" nodeId="9a88b328">false</attribute>
+<attribute name="orderingGuide" nodeId="7198fa19"></attribute>
+<attribute name="isAbstract" nodeId="782d8887">false</attribute>
+<attribute name="shapeicon" nodeId="905d2487"></attribute>
+<attribute name="nodeicon" nodeId="b1628c72"></attribute>
+<attribute name="prefix" nodeId="f8c0d74d"></attribute>
+<attribute name="isPlanned" nodeId="632c742b">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="c29838a">false</attribute>
+<attribute name="isOptional" nodeId="312bc6ca">false</attribute>
+<attribute name="isRepeatable" nodeId="274a3860">false</attribute>
+<attribute name="isOngoing" nodeId="1e120bf4">false</attribute>
+<attribute name="isEventDriven" nodeId="65d56610">false</attribute>
+<attribute name="variabilityType" nodeId="5f0602ac">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Prepare for Integration Testing" Id="_cA-HgOdREeOqYK1-8T06Sw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_cA-HgOdREeOqYK1-8T06Sw" nodeId="f9a8d7f9" Url="practice.ita.delv.it_test.assign/capabilitypatterns/Prepare for Integration Testing_345E30A4.html" Name="Prepare for Integration Testing" BackPath="./../../">
+<attribute name="name" nodeId="52f81772">Prepare for Integration Testing</attribute>
+<attribute name="guid" nodeId="9b986f58">_cA-HgOdREeOqYK1-8T06Sw</attribute>
+<attribute name="presentationName" nodeId="1890c5fd">Prepare for Integration Testing</attribute>
+<attribute name="briefDescription" nodeId="8ba8245d">Proactively identify potential dependencies and issues in order to mitigate risks and increase successful test execution when validating the interactions between solution components.</attribute>
+<attribute name="suppressed" nodeId="df83fc0e">false</attribute>
+<attribute name="orderingGuide" nodeId="5a3ef2d4"></attribute>
+<attribute name="isAbstract" nodeId="9fe828fb">false</attribute>
+<attribute name="shapeicon" nodeId="63834046"></attribute>
+<attribute name="nodeicon" nodeId="ec85edb6"></attribute>
+<attribute name="prefix" nodeId="1d28356f"></attribute>
+<attribute name="isPlanned" nodeId="64002a72">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="13fd6de6">false</attribute>
+<attribute name="isOptional" nodeId="18f2a1a1">false</attribute>
+<attribute name="isRepeatable" nodeId="96fedd78">false</attribute>
+<attribute name="isOngoing" nodeId="c8b994c">false</attribute>
+<attribute name="isEventDriven" nodeId="946a32b9">false</attribute>
+<attribute name="variabilityType" nodeId="eeb3e1a1">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_FngKMUNeEeSCjKgeYHy0pA,_Co0PoCmZEeW4VNZE0V9FcA_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_Co0PoCmZEeW4VNZE0V9FcA_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="fb5694aa">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="IT Testing (Levels)" Id="_HkiWIeW9EeOeOeyRJA3ZBg" relProcessPath="_HkiWIeW9EeOeOeyRJA3ZBg" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg" nodeId="6ead9082" Url="practice.ita.delv.it_test.assign/capabilitypatterns/it_test_levels_9A95B916.html" Name="it_test_levels" BackPath="./../../">
+<attribute name="name" nodeId="9ddd3306">it_test_levels</attribute>
+<attribute name="guid" nodeId="ec7ee3e4">_HkiWIeW9EeOeOeyRJA3ZBg</attribute>
+<attribute name="presentationName" nodeId="85e8cbc1">IT Testing (Levels)</attribute>
+<attribute name="briefDescription" nodeId="eef9b9d"></attribute>
+<attribute name="suppressed" nodeId="b3d83067">false</attribute>
+<attribute name="orderingGuide" nodeId="cc1bf4df"></attribute>
+<attribute name="isAbstract" nodeId="ecebc715">false</attribute>
+<attribute name="shapeicon" nodeId="76d83494"></attribute>
+<attribute name="nodeicon" nodeId="2b4258ee"></attribute>
+<attribute name="prefix" nodeId="9d3e6d89"></attribute>
+<attribute name="isPlanned" nodeId="fd441eb6">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="1118f6a6">false</attribute>
+<attribute name="isOptional" nodeId="6ec33275">false</attribute>
+<attribute name="isRepeatable" nodeId="9663a2f8">false</attribute>
+<attribute name="isOngoing" nodeId="76cce08c">false</attribute>
+<attribute name="isEventDriven" nodeId="3bbd9c59">false</attribute>
+<attribute name="variabilityType" nodeId="f680f54b">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Conduct Integration Testing" Id="_FngKMUNeEeSCjKgeYHy0pA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_FngKMUNeEeSCjKgeYHy0pA" nodeId="6f525c12" Url="practice.ita.delv.it_test.assign/capabilitypatterns/Conduct Integration Testing_91E24F10.html" Name="Conduct Integration Testing" BackPath="./../../">
+<attribute name="name" nodeId="703bd44f">Conduct Integration Testing</attribute>
+<attribute name="guid" nodeId="2041ff18">_FngKMUNeEeSCjKgeYHy0pA</attribute>
+<attribute name="presentationName" nodeId="45a1b5ce">Conduct Integration Testing</attribute>
+<attribute name="briefDescription" nodeId="386e777f">Execute tests to verify the interaction between components of the target solution fulfill requirements.</attribute>
+<attribute name="suppressed" nodeId="2e9de5f4">false</attribute>
+<attribute name="orderingGuide" nodeId="fee3242d"></attribute>
+<attribute name="isAbstract" nodeId="cfe6979c">false</attribute>
+<attribute name="shapeicon" nodeId="e3f5d815"></attribute>
+<attribute name="nodeicon" nodeId="7c702832"></attribute>
+<attribute name="prefix" nodeId="c4f17dab"></attribute>
+<attribute name="isPlanned" nodeId="488fc500">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="45a54426">false</attribute>
+<attribute name="isOptional" nodeId="51e62920">false</attribute>
+<attribute name="isRepeatable" nodeId="dbbce1f0">false</attribute>
+<attribute name="isOngoing" nodeId="4ede4b4">false</attribute>
+<attribute name="isEventDriven" nodeId="d8d6f270">false</attribute>
+<attribute name="variabilityType" nodeId="fec3626a">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_8vJT6JK5EeSEOeG-bGncjA,_0JL0oDc-EeWp1olIN1xWiA_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_0JL0oDc-EeWp1olIN1xWiA_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="221bb248">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="IT Testing (Levels)" Id="_HkiWIeW9EeOeOeyRJA3ZBg" relProcessPath="_HkiWIeW9EeOeOeyRJA3ZBg" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg" nodeId="bcae94f" Url="practice.ita.delv.it_test.assign/capabilitypatterns/it_test_levels_9A95B916.html" Name="it_test_levels" BackPath="./../../">
+<attribute name="name" nodeId="22af09e3">it_test_levels</attribute>
+<attribute name="guid" nodeId="72140f43">_HkiWIeW9EeOeOeyRJA3ZBg</attribute>
+<attribute name="presentationName" nodeId="6c8f7e19">IT Testing (Levels)</attribute>
+<attribute name="briefDescription" nodeId="e0fa4986"></attribute>
+<attribute name="suppressed" nodeId="1dd0b473">false</attribute>
+<attribute name="orderingGuide" nodeId="76d5a454"></attribute>
+<attribute name="isAbstract" nodeId="cd43d473">false</attribute>
+<attribute name="shapeicon" nodeId="40a16dd"></attribute>
+<attribute name="nodeicon" nodeId="9f1bff5a"></attribute>
+<attribute name="prefix" nodeId="c8808270"></attribute>
+<attribute name="isPlanned" nodeId="e90fb1ea">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="70880cd4">false</attribute>
+<attribute name="isOptional" nodeId="4a191153">false</attribute>
+<attribute name="isRepeatable" nodeId="83befadb">false</attribute>
+<attribute name="isOngoing" nodeId="a8e96421">false</attribute>
+<attribute name="isEventDriven" nodeId="531d061c">false</attribute>
+<attribute name="variabilityType" nodeId="1fbc0af1">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Design System Tests" Id="_8vJT6JK5EeSEOeG-bGncjA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_8vJT6JK5EeSEOeG-bGncjA" nodeId="97299904" Url="practice.ita.delv.it_test.assign/capabilitypatterns/Design System Tests_F084FCC4.html" Name="Design System Tests" BackPath="./../../">
+<attribute name="name" nodeId="db8da83c">Design System Tests</attribute>
+<attribute name="guid" nodeId="692bf9e3">_8vJT6JK5EeSEOeG-bGncjA</attribute>
+<attribute name="presentationName" nodeId="d1a9d18f">Design System Tests</attribute>
+<attribute name="briefDescription" nodeId="a93f0570">Define how to validate that the behavior of the entire system, including internal and external systems, fulfills solution requirements.</attribute>
+<attribute name="suppressed" nodeId="b4b0080e">false</attribute>
+<attribute name="orderingGuide" nodeId="9cb03829"></attribute>
+<attribute name="isAbstract" nodeId="57e07c39">false</attribute>
+<attribute name="shapeicon" nodeId="f3496eaf"></attribute>
+<attribute name="nodeicon" nodeId="b85275eb"></attribute>
+<attribute name="prefix" nodeId="9bd6a913"></attribute>
+<attribute name="isPlanned" nodeId="d5ffe7f6">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="c215dfd9">false</attribute>
+<attribute name="isOptional" nodeId="c0cae24b">false</attribute>
+<attribute name="isRepeatable" nodeId="e6266ba3">false</attribute>
+<attribute name="isOngoing" nodeId="958b8246">false</attribute>
+<attribute name="isEventDriven" nodeId="ed22e14f">false</attribute>
+<attribute name="variabilityType" nodeId="f4bc95f5">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,__YdffZK5EeSEOeG-bGncjA,_4u40cDc-EeWp1olIN1xWiA_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_4u40cDc-EeWp1olIN1xWiA_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="68e3493d">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="IT Testing (Levels)" Id="_HkiWIeW9EeOeOeyRJA3ZBg" relProcessPath="_HkiWIeW9EeOeOeyRJA3ZBg" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg" nodeId="60bdd0a1" Url="practice.ita.delv.it_test.assign/capabilitypatterns/it_test_levels_9A95B916.html" Name="it_test_levels" BackPath="./../../">
+<attribute name="name" nodeId="a0d70f08">it_test_levels</attribute>
+<attribute name="guid" nodeId="de7e1e1b">_HkiWIeW9EeOeOeyRJA3ZBg</attribute>
+<attribute name="presentationName" nodeId="8da23a15">IT Testing (Levels)</attribute>
+<attribute name="briefDescription" nodeId="dd692119"></attribute>
+<attribute name="suppressed" nodeId="f71e57fe">false</attribute>
+<attribute name="orderingGuide" nodeId="d5e8131"></attribute>
+<attribute name="isAbstract" nodeId="302ea0cc">false</attribute>
+<attribute name="shapeicon" nodeId="60fd06c9"></attribute>
+<attribute name="nodeicon" nodeId="e77c96be"></attribute>
+<attribute name="prefix" nodeId="a9d85b16"></attribute>
+<attribute name="isPlanned" nodeId="ad45c2a3">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="3f6696c0">false</attribute>
+<attribute name="isOptional" nodeId="5d85b3cc">false</attribute>
+<attribute name="isRepeatable" nodeId="90109d4f">false</attribute>
+<attribute name="isOngoing" nodeId="6d7cb8b4">false</attribute>
+<attribute name="isEventDriven" nodeId="fe5ea7bb">false</attribute>
+<attribute name="variabilityType" nodeId="c5fcd778">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Prepare for System Testing" Id="__YdffZK5EeSEOeG-bGncjA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,__YdffZK5EeSEOeG-bGncjA" nodeId="8041dcf3" Url="practice.ita.delv.it_test.assign/capabilitypatterns/Prepare for System Testing_E3F38678.html" Name="Prepare for System Testing" BackPath="./../../">
+<attribute name="name" nodeId="61151f12">Prepare for System Testing</attribute>
+<attribute name="guid" nodeId="fc210f50">__YdffZK5EeSEOeG-bGncjA</attribute>
+<attribute name="presentationName" nodeId="d6d8d363">Prepare for System Testing</attribute>
+<attribute name="briefDescription" nodeId="2e0579b3">Proactively identify potential dependencies and issues in order to mitigate risks and increase successful test execution when validating the behavior of the entire solution.</attribute>
+<attribute name="suppressed" nodeId="42a26f58">false</attribute>
+<attribute name="orderingGuide" nodeId="f3153ae9"></attribute>
+<attribute name="isAbstract" nodeId="8b1bf445">false</attribute>
+<attribute name="shapeicon" nodeId="c9dca211"></attribute>
+<attribute name="nodeicon" nodeId="db4e71a7"></attribute>
+<attribute name="prefix" nodeId="95623250"></attribute>
+<attribute name="isPlanned" nodeId="57d217e9">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="e3707584">false</attribute>
+<attribute name="isOptional" nodeId="2b72529a">false</attribute>
+<attribute name="isRepeatable" nodeId="6f1905e6">false</attribute>
+<attribute name="isOngoing" nodeId="2783dfcf">false</attribute>
+<attribute name="isEventDriven" nodeId="88fa8490">false</attribute>
+<attribute name="variabilityType" nodeId="d2cfc169">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_AkoXqJK6EeSEOeG-bGncjA,_6oh2oDc-EeWp1olIN1xWiA_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_6oh2oDc-EeWp1olIN1xWiA_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="357ca38e">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="IT Testing (Levels)" Id="_HkiWIeW9EeOeOeyRJA3ZBg" relProcessPath="_HkiWIeW9EeOeOeyRJA3ZBg" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg" nodeId="8f311234" Url="practice.ita.delv.it_test.assign/capabilitypatterns/it_test_levels_9A95B916.html" Name="it_test_levels" BackPath="./../../">
+<attribute name="name" nodeId="d4cb6460">it_test_levels</attribute>
+<attribute name="guid" nodeId="c00c994a">_HkiWIeW9EeOeOeyRJA3ZBg</attribute>
+<attribute name="presentationName" nodeId="55168d8a">IT Testing (Levels)</attribute>
+<attribute name="briefDescription" nodeId="9936601d"></attribute>
+<attribute name="suppressed" nodeId="4717245e">false</attribute>
+<attribute name="orderingGuide" nodeId="1713a17f"></attribute>
+<attribute name="isAbstract" nodeId="159ad159">false</attribute>
+<attribute name="shapeicon" nodeId="f70cf47a"></attribute>
+<attribute name="nodeicon" nodeId="1f52fb9c"></attribute>
+<attribute name="prefix" nodeId="e403fe9f"></attribute>
+<attribute name="isPlanned" nodeId="b24d1f91">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="8b0e94c6">false</attribute>
+<attribute name="isOptional" nodeId="52094078">false</attribute>
+<attribute name="isRepeatable" nodeId="17ca3949">false</attribute>
+<attribute name="isOngoing" nodeId="15f92f89">false</attribute>
+<attribute name="isEventDriven" nodeId="c0e10594">false</attribute>
+<attribute name="variabilityType" nodeId="ca646195">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Conduct System Testing" Id="_AkoXqJK6EeSEOeG-bGncjA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_AkoXqJK6EeSEOeG-bGncjA" nodeId="32d277ac" Url="practice.ita.delv.it_test.assign/capabilitypatterns/Conduct System Testing_792E09F5.html" Name="Conduct System Testing" BackPath="./../../">
+<attribute name="name" nodeId="c32985cb">Conduct System Testing</attribute>
+<attribute name="guid" nodeId="c4cad37">_AkoXqJK6EeSEOeG-bGncjA</attribute>
+<attribute name="presentationName" nodeId="d0d7677a">Conduct System Testing</attribute>
+<attribute name="briefDescription" nodeId="c47c215e">Execute tests to verify the behavior of the entire solution fulfills requirements.</attribute>
+<attribute name="suppressed" nodeId="df57ac40">false</attribute>
+<attribute name="orderingGuide" nodeId="c7c61261"></attribute>
+<attribute name="isAbstract" nodeId="8854bc54">false</attribute>
+<attribute name="shapeicon" nodeId="88e55426"></attribute>
+<attribute name="nodeicon" nodeId="2cb4b1a6"></attribute>
+<attribute name="prefix" nodeId="89207c66"></attribute>
+<attribute name="isPlanned" nodeId="41ccc25b">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="beb0b7b0">false</attribute>
+<attribute name="isOptional" nodeId="b417bb28">false</attribute>
+<attribute name="isRepeatable" nodeId="cb4a543b">false</attribute>
+<attribute name="isOngoing" nodeId="84cba282">false</attribute>
+<attribute name="isEventDriven" nodeId="295c0abc">false</attribute>
+<attribute name="variabilityType" nodeId="cc2623b2">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_H1-eaJK6EeSEOeG-bGncjA,_hIdgQDc_EeWp1olIN1xWiA_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_hIdgQDc_EeWp1olIN1xWiA_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="eb88a0b1">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="IT Testing (Levels)" Id="_HkiWIeW9EeOeOeyRJA3ZBg" relProcessPath="_HkiWIeW9EeOeOeyRJA3ZBg" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg" nodeId="a523a7ed" Url="practice.ita.delv.it_test.assign/capabilitypatterns/it_test_levels_9A95B916.html" Name="it_test_levels" BackPath="./../../">
+<attribute name="name" nodeId="75f0e2da">it_test_levels</attribute>
+<attribute name="guid" nodeId="40064eca">_HkiWIeW9EeOeOeyRJA3ZBg</attribute>
+<attribute name="presentationName" nodeId="26fef25c">IT Testing (Levels)</attribute>
+<attribute name="briefDescription" nodeId="6e842518"></attribute>
+<attribute name="suppressed" nodeId="95965ead">false</attribute>
+<attribute name="orderingGuide" nodeId="5c15a43c"></attribute>
+<attribute name="isAbstract" nodeId="3947e35f">false</attribute>
+<attribute name="shapeicon" nodeId="3b814f9e"></attribute>
+<attribute name="nodeicon" nodeId="624c612a"></attribute>
+<attribute name="prefix" nodeId="c680ffa0"></attribute>
+<attribute name="isPlanned" nodeId="7d13307b">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="e2d8ead9">false</attribute>
+<attribute name="isOptional" nodeId="b54b3e2d">false</attribute>
+<attribute name="isRepeatable" nodeId="b1ae7621">false</attribute>
+<attribute name="isOngoing" nodeId="7f8e9c7b">false</attribute>
+<attribute name="isEventDriven" nodeId="bc5d96ba">false</attribute>
+<attribute name="variabilityType" nodeId="6376ee2">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Design User Acceptance Tests" Id="_H1-eaJK6EeSEOeG-bGncjA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_H1-eaJK6EeSEOeG-bGncjA" nodeId="b035419b" Url="practice.ita.delv.it_test.assign/capabilitypatterns/Design User Acceptance Tests_BCFE1573.html" Name="Design User Acceptance Tests" BackPath="./../../">
+<attribute name="name" nodeId="a275bd29">Design User Acceptance Tests</attribute>
+<attribute name="guid" nodeId="198b077a">_H1-eaJK6EeSEOeG-bGncjA</attribute>
+<attribute name="presentationName" nodeId="77ede14a">Design User Acceptance Tests</attribute>
+<attribute name="briefDescription" nodeId="8dd3d976">Define how business users can validate that the solution requirements meet user acceptance criteria.</attribute>
+<attribute name="suppressed" nodeId="79c11c42">false</attribute>
+<attribute name="orderingGuide" nodeId="27747d7d"></attribute>
+<attribute name="isAbstract" nodeId="63a8fd15">false</attribute>
+<attribute name="shapeicon" nodeId="4b934ffb"></attribute>
+<attribute name="nodeicon" nodeId="d7bce75e"></attribute>
+<attribute name="prefix" nodeId="ab637611"></attribute>
+<attribute name="isPlanned" nodeId="39263afe">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="cae46328">false</attribute>
+<attribute name="isOptional" nodeId="7934b3c0">false</attribute>
+<attribute name="isRepeatable" nodeId="17cbe8a7">false</attribute>
+<attribute name="isOngoing" nodeId="7af9141b">false</attribute>
+<attribute name="isEventDriven" nodeId="9d400bdd">false</attribute>
+<attribute name="variabilityType" nodeId="6d224c31">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_I_xX_ZK6EeSEOeG-bGncjA,_yZoGEDc_EeWp1olIN1xWiA_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_yZoGEDc_EeWp1olIN1xWiA_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="52239fc8">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="IT Testing (Levels)" Id="_HkiWIeW9EeOeOeyRJA3ZBg" relProcessPath="_HkiWIeW9EeOeOeyRJA3ZBg" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg" nodeId="a1b4706d" Url="practice.ita.delv.it_test.assign/capabilitypatterns/it_test_levels_9A95B916.html" Name="it_test_levels" BackPath="./../../">
+<attribute name="name" nodeId="8376f7ad">it_test_levels</attribute>
+<attribute name="guid" nodeId="de7b23c2">_HkiWIeW9EeOeOeyRJA3ZBg</attribute>
+<attribute name="presentationName" nodeId="f8992709">IT Testing (Levels)</attribute>
+<attribute name="briefDescription" nodeId="a1166e97"></attribute>
+<attribute name="suppressed" nodeId="c8ea4562">false</attribute>
+<attribute name="orderingGuide" nodeId="d099ac3f"></attribute>
+<attribute name="isAbstract" nodeId="ad213d9d">false</attribute>
+<attribute name="shapeicon" nodeId="9330f33c"></attribute>
+<attribute name="nodeicon" nodeId="b971a459"></attribute>
+<attribute name="prefix" nodeId="211d8580"></attribute>
+<attribute name="isPlanned" nodeId="7f9b6307">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="ae8b0385">false</attribute>
+<attribute name="isOptional" nodeId="623a55ca">false</attribute>
+<attribute name="isRepeatable" nodeId="ea16aa62">false</attribute>
+<attribute name="isOngoing" nodeId="751472d5">false</attribute>
+<attribute name="isEventDriven" nodeId="5cb289cb">false</attribute>
+<attribute name="variabilityType" nodeId="e09a1be5">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Prepare for User Acceptance Testing" Id="_I_xX_ZK6EeSEOeG-bGncjA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_I_xX_ZK6EeSEOeG-bGncjA" nodeId="d8b9636" Url="practice.ita.delv.it_test.assign/capabilitypatterns/Prepare for User Acceptance Testing_733CE01A.html" Name="Prepare for User Acceptance Testing" BackPath="./../../">
+<attribute name="name" nodeId="1d987798">Prepare for User Acceptance Testing</attribute>
+<attribute name="guid" nodeId="cef73ebe">_I_xX_ZK6EeSEOeG-bGncjA</attribute>
+<attribute name="presentationName" nodeId="1d0c381d">Prepare for User Acceptance Testing</attribute>
+<attribute name="briefDescription" nodeId="68b81d00">Proactively identify potential dependencies and issues in order to mitigate risks and increase successful test execution when validating solution behaviors satisfies user acceptance criteira.</attribute>
+<attribute name="suppressed" nodeId="17d92430">false</attribute>
+<attribute name="orderingGuide" nodeId="b43f7231"></attribute>
+<attribute name="isAbstract" nodeId="49af17b7">false</attribute>
+<attribute name="shapeicon" nodeId="49c4bf2"></attribute>
+<attribute name="nodeicon" nodeId="5834498d"></attribute>
+<attribute name="prefix" nodeId="15ae8faf"></attribute>
+<attribute name="isPlanned" nodeId="25dad962">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="8962d9f2">false</attribute>
+<attribute name="isOptional" nodeId="3f343cf5">false</attribute>
+<attribute name="isRepeatable" nodeId="8ab4f7b4">false</attribute>
+<attribute name="isOngoing" nodeId="f6f01ec">false</attribute>
+<attribute name="isEventDriven" nodeId="f6b155">false</attribute>
+<attribute name="variabilityType" nodeId="af5e692a">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_J-GoeJK6EeSEOeG-bGncjA,_zp8ecDc_EeWp1olIN1xWiA_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Data Requirements" Id="_zp8ecDc_EeWp1olIN1xWiA_geehAOYGEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="54027910">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="IT Testing (Levels)" Id="_HkiWIeW9EeOeOeyRJA3ZBg" relProcessPath="_HkiWIeW9EeOeOeyRJA3ZBg" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg" nodeId="81afabf8" Url="practice.ita.delv.it_test.assign/capabilitypatterns/it_test_levels_9A95B916.html" Name="it_test_levels" BackPath="./../../">
+<attribute name="name" nodeId="259c99e4">it_test_levels</attribute>
+<attribute name="guid" nodeId="f3b2cfc0">_HkiWIeW9EeOeOeyRJA3ZBg</attribute>
+<attribute name="presentationName" nodeId="90196bf6">IT Testing (Levels)</attribute>
+<attribute name="briefDescription" nodeId="c1c0172"></attribute>
+<attribute name="suppressed" nodeId="638a4a12">false</attribute>
+<attribute name="orderingGuide" nodeId="ee559ec"></attribute>
+<attribute name="isAbstract" nodeId="6e1f74d3">false</attribute>
+<attribute name="shapeicon" nodeId="bc9e5fbc"></attribute>
+<attribute name="nodeicon" nodeId="87060fd1"></attribute>
+<attribute name="prefix" nodeId="d8228e8f"></attribute>
+<attribute name="isPlanned" nodeId="2c4a53fe">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="68a5471a">false</attribute>
+<attribute name="isOptional" nodeId="c4881036">false</attribute>
+<attribute name="isRepeatable" nodeId="72a866a6">false</attribute>
+<attribute name="isOngoing" nodeId="39fa5902">false</attribute>
+<attribute name="isEventDriven" nodeId="4744bfa1">false</attribute>
+<attribute name="variabilityType" nodeId="debbda25">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Conduct User Acceptance Testing" Id="_J-GoeJK6EeSEOeG-bGncjA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_J-GoeJK6EeSEOeG-bGncjA" nodeId="38101130" Url="practice.ita.delv.it_test.assign/capabilitypatterns/Conduct User Acceptance Testing_3904D459.html" Name="Conduct User Acceptance Testing" BackPath="./../../">
+<attribute name="name" nodeId="f5d6f06c">Conduct User Acceptance Testing</attribute>
+<attribute name="guid" nodeId="bbf0c758">_J-GoeJK6EeSEOeG-bGncjA</attribute>
+<attribute name="presentationName" nodeId="20961c1e">Conduct User Acceptance Testing</attribute>
+<attribute name="briefDescription" nodeId="96aed854">Execute tests with business users to validate that the solution behaviors fulfill acceptance criteria.</attribute>
+<attribute name="suppressed" nodeId="22c41b6d">false</attribute>
+<attribute name="orderingGuide" nodeId="66d37026"></attribute>
+<attribute name="isAbstract" nodeId="7f4a8f61">false</attribute>
+<attribute name="shapeicon" nodeId="6d005b8f"></attribute>
+<attribute name="nodeicon" nodeId="37722a00"></attribute>
+<attribute name="prefix" nodeId="145c7d43"></attribute>
+<attribute name="isPlanned" nodeId="10b6d680">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="19973504">false</attribute>
+<attribute name="isOptional" nodeId="3a82d933">false</attribute>
+<attribute name="isRepeatable" nodeId="831a158">false</attribute>
+<attribute name="isOngoing" nodeId="aea166de">false</attribute>
+<attribute name="isEventDriven" nodeId="5168d59d">false</attribute>
+<attribute name="variabilityType" nodeId="312e9e43">na</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

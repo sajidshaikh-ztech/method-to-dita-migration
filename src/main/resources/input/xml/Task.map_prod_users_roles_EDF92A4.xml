@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" TypeName="Task" Url="process.adv.eya_oracle.base/tasks/map_prod_users_roles_EDF92A4.html" Name="map_prod_users_roles" BackPath="./../../" Type="Task" NodeiconUrl="" performingRoleName="Security and Controls Lead" DisplayName="Map production users to roles" Id="_uozeELjLEe6mIfhV0mJMlA" ShapeiconUrl="images/task.gif" lang="en" nodeId="b3aa9b7">
+<copyright nodeId="9f9a6cec">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="31b8410f">map_prod_users_roles</attribute>
+<attribute name="guid" nodeId="19c3bbf6">_uozeELjLEe6mIfhV0mJMlA</attribute>
+<attribute name="presentationName" nodeId="8393371c">Map production users to roles</attribute>
+<attribute name="briefDescription" nodeId="bf3740c6">Support the client with mapping production users in the target state Oracle platform to relevant roles.</attribute>
+<attribute name="suppressed" nodeId="41b12abe">false</attribute>
+<attribute name="orderingGuide" nodeId="99296d38"></attribute>
+<attribute name="isAbstract" nodeId="c288d722">false</attribute>
+<attribute name="shapeicon" nodeId="be851929"></attribute>
+<attribute name="nodeicon" nodeId="60056f2f"></attribute>
+<attribute name="variabilityType" nodeId="c5f81071">na</attribute>
+<reference name="presentation" nodeId="caf1ebb">
+<Element Type="TaskDescription" TypeName="Task Description" NodeiconUrl="" DisplayName="Map production users to roles" Id="-E3LrRQuU0CIl5zHin0JfFA" ShapeiconUrl="images/guidance.gif" nodeId="2168b91d" Url="" Name="map_prod_users_roles,_uozeELjLEe6mIfhV0mJMlA" BackPath="">
+<copyright nodeId="e332cc2e">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="82f94a0a">map_prod_users_roles,_uozeELjLEe6mIfhV0mJMlA</attribute>
+<attribute name="guid" nodeId="7b363e98">-E3LrRQuU0CIl5zHin0JfFA</attribute>
+<attribute name="presentationName" nodeId="36d7856b">Map production users to roles</attribute>
+<attribute name="briefDescription" nodeId="ec6dcd1b"></attribute>
+<attribute name="suppressed" nodeId="dd893c87">false</attribute>
+<attribute name="orderingGuide" nodeId="84d1f740"></attribute>
+<attribute name="authors" nodeId="e7a7e1a5"></attribute>
+<attribute name="changeDate" nodeId="7006ae4e">Mon Oct 14 06:22:06 EDT 2024</attribute>
+<attribute name="changeDescription" nodeId="4f0737c9">OCT 2024 - Baseline Version</attribute>
+<attribute name="version" nodeId="49f3965b"></attribute>
+<attribute name="mainDescription" nodeId="2d269e84">Work closely with the client to determine the complete set of users that will be included in the target state Oracle
+platform post go-live and map these users to relevant roles keeping in mind the segregation of duties (SoD) and sensitive
+access (SA) requirements.</attribute>
+<attribute name="externalId" nodeId="bef018d4"></attribute>
+<attribute name="keyConsiderations" nodeId="81c0d2c2"></attribute>
+<attribute name="longPresentationName" nodeId="7cfe0f08"></attribute>
+<attribute name="purpose" nodeId="63d672b5"></attribute>
+<attribute name="alternatives" nodeId="31df285"></attribute>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="performedBy" nodeId="6a4199cc">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Security and Controls Lead" Id="_wH46wLiVEe6mIfhV0mJMlA" ShapeiconUrl="images/role.gif" nodeId="d5afd6b5" Url="process.adv.eya_oracle.base/roles/sec_controls_lead_1D93838B.html" Name="sec_controls_lead" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="mandatoryInput" nodeId="97c29bdc">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Security Functional Design" Id="_mG-mwOz6EeOUuN5KXDB68g" ShapeiconUrl="images/artifact.gif" nodeId="d87f8f96" Url="core.i_t.common.base/workproducts/sec_func_design_86887C51.html" Name="sec_func_design" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="output" nodeId="23ea2548">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="User Roles" Id="_LADrEB5CEeS6xPWm0vQkNw" ShapeiconUrl="images/artifact.gif" nodeId="3fd47ee8" Url="core.gen.common.base/workproducts/user_roles_ABC54F87.html" Name="user_roles" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="Task_TaskDescriptors" nodeId="aca77c84">
+<Element TypeName="Task Descriptor" queryString="?proc=_TVvgYZLKEe6Ji6GnvvUfqw&amp;path=_TVvgYZLKEe6Ji6GnvvUfqw,_faKRscFzEe6bZYQTbJkTNg,_4Q-BYJCDEe-V6_hI2aWEGg" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/map_prod_users_roles_EDF92A4.html" Name="map_prod_users_roles" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Map production users to roles" Id="_4Q-BYJCDEe-V6_hI2aWEGg" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="6cfaee8"></Element>
+</referenceList>
+<reference name="performingRole" nodeId="f3efd444">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Security and Controls Lead" Id="_wH46wLiVEe6mIfhV0mJMlA" ShapeiconUrl="images/role.gif" nodeId="839a00c8" Url="process.adv.eya_oracle.base/roles/sec_controls_lead_1D93838B.html" Name="sec_controls_lead" BackPath="./../../"></Element>
+</reference>
+<referenceList name="customCategories" nodeId="894720e">
+<Element Type="CustomCategory" TypeName="Custom Category" NodeiconUrl="" DisplayName="Tasks" Id="_0Sj48KDNEeOMmqbYX27PPA" ShapeiconUrl="core.default.nav_view.base/customcategories/resources/cat_task51.png" nodeId="5cc5ed0a" Url="core.default.nav_view.base/customcategories/task_list_CDC9CEA6.html" Name="task_list" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="1e4ff6cf">
+<Element TypeName="Task Descriptor" queryString="?proc=_TVvgYZLKEe6Ji6GnvvUfqw&amp;path=_TVvgYZLKEe6Ji6GnvvUfqw,_faKRscFzEe6bZYQTbJkTNg,_4Q-BYJCDEe-V6_hI2aWEGg" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/map_prod_users_roles_EDF92A4.html" Name="map_prod_users_roles" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Map production users to roles" Id="_4Q-BYJCDEe-V6_hI2aWEGg" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="a3d8886d">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Security and Controls" Id="_TVvgYZLKEe6Ji6GnvvUfqw" relProcessPath="_TVvgYZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_TVvgYZLKEe6Ji6GnvvUfqw&amp;path=_TVvgYZLKEe6Ji6GnvvUfqw" nodeId="266494d9" Url="process.adv.eya_oracle.base/capabilitypatterns/sec_controls_wkstrm_DFD76F11.html" Name="sec_controls_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="a66c25e6">sec_controls_wkstrm</attribute>
+<attribute name="guid" nodeId="83d92c13">_TVvgYZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="e863f222">Security and Controls</attribute>
+<attribute name="briefDescription" nodeId="33e7b378"></attribute>
+<attribute name="suppressed" nodeId="bf3c4696">false</attribute>
+<attribute name="orderingGuide" nodeId="469d82bf"></attribute>
+<attribute name="isAbstract" nodeId="e801990e">false</attribute>
+<attribute name="shapeicon" nodeId="84a8dc32"></attribute>
+<attribute name="nodeicon" nodeId="dad3f14a"></attribute>
+<attribute name="prefix" nodeId="ce5a343">workstream</attribute>
+<attribute name="isPlanned" nodeId="b1d24254">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="4092d76a">false</attribute>
+<attribute name="isOptional" nodeId="a2ffa350">false</attribute>
+<attribute name="isRepeatable" nodeId="4f5b43ff">false</attribute>
+<attribute name="isOngoing" nodeId="8d081ca4">false</attribute>
+<attribute name="isEventDriven" nodeId="ca0e9b0e">false</attribute>
+<attribute name="variabilityType" nodeId="bf2f1298">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Embed Security and Controls" Id="_faKRscFzEe6bZYQTbJkTNg" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_TVvgYZLKEe6Ji6GnvvUfqw&amp;path=_TVvgYZLKEe6Ji6GnvvUfqw,_faKRscFzEe6bZYQTbJkTNg" nodeId="f76f287d" Url="process.adv.eya_oracle.base/capabilitypatterns/embed_security_controls_90B3F41D.html" Name="embed_security_controls" BackPath="./../../">
+<attribute name="name" nodeId="dd34ec4e">embed_security_controls</attribute>
+<attribute name="guid" nodeId="6e05f921">_faKRscFzEe6bZYQTbJkTNg</attribute>
+<attribute name="presentationName" nodeId="873c0d3b">Embed Security and Controls</attribute>
+<attribute name="briefDescription" nodeId="4341d9c6">Review the risk and controls matrix with key client stakeholders and build out the required security roles in the target state solution.</attribute>
+<attribute name="suppressed" nodeId="fc5a884f">false</attribute>
+<attribute name="orderingGuide" nodeId="f4c42623"></attribute>
+<attribute name="isAbstract" nodeId="1b97db10">false</attribute>
+<attribute name="shapeicon" nodeId="1a584419"></attribute>
+<attribute name="nodeicon" nodeId="55ffb207"></attribute>
+<attribute name="prefix" nodeId="be3fa4d4"></attribute>
+<attribute name="isPlanned" nodeId="c72fd134">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="46c8b07e">false</attribute>
+<attribute name="isOptional" nodeId="5e5d054c">false</attribute>
+<attribute name="isRepeatable" nodeId="15ce630f">false</attribute>
+<attribute name="isOngoing" nodeId="480215de">false</attribute>
+<attribute name="isEventDriven" nodeId="bda9fbb7">false</attribute>
+<attribute name="variabilityType" nodeId="d82af477">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_TVvgYZLKEe6Ji6GnvvUfqw&amp;path=_TVvgYZLKEe6Ji6GnvvUfqw,_faKRscFzEe6bZYQTbJkTNg,_4Q-BYJCDEe-V6_hI2aWEGg" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/map_prod_users_roles_EDF92A4.html" Name="map_prod_users_roles" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Map production users to roles" Id="_4Q-BYJCDEe-V6_hI2aWEGg" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="a9cd1ce1">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="280b67dd" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="652a1a90">eya_oracle</attribute>
+<attribute name="guid" nodeId="a0176b39">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="832753f9">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="5ffb5474"></attribute>
+<attribute name="suppressed" nodeId="9b0eb13f">false</attribute>
+<attribute name="orderingGuide" nodeId="672ca01b"></attribute>
+<attribute name="isAbstract" nodeId="7e1465a0">false</attribute>
+<attribute name="shapeicon" nodeId="a785ddc0"></attribute>
+<attribute name="nodeicon" nodeId="a21881cb"></attribute>
+<attribute name="prefix" nodeId="69fd2267"></attribute>
+<attribute name="isPlanned" nodeId="c523c647">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="7ae04f52">false</attribute>
+<attribute name="isOptional" nodeId="d81b37cc">false</attribute>
+<attribute name="isRepeatable" nodeId="58d136f8">false</attribute>
+<attribute name="isOngoing" nodeId="d1437420">false</attribute>
+<attribute name="isEventDriven" nodeId="188e69f4">false</attribute>
+<attribute name="variabilityType" nodeId="4982f956">replaces</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Progressive Build" Id="_c4A0kYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA" nodeId="e0814f50" Url="process.adv.eya_oracle.base/deliveryprocesses/progressive_build_70B7DD74.html" Name="progressive_build" BackPath="./../../">
+<attribute name="name" nodeId="20ad7ddf">progressive_build</attribute>
+<attribute name="guid" nodeId="e3dfd46c">_c4A0kYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="25dc49a2">Progressive Build</attribute>
+<attribute name="briefDescription" nodeId="1a8444e6">Iterate through the build cycles and drive business acceptance through incremental demos to key client stakeholders. Execute mock conversions and and prepare for system integration and user acceptance testing. Manage stakeholder engagement and communications around the change.</attribute>
+<attribute name="suppressed" nodeId="66a389c">false</attribute>
+<attribute name="orderingGuide" nodeId="6aad8a0a"></attribute>
+<attribute name="isAbstract" nodeId="eb7d5050">false</attribute>
+<attribute name="shapeicon" nodeId="997cb64f"></attribute>
+<attribute name="nodeicon" nodeId="b7d7e09d"></attribute>
+<attribute name="prefix" nodeId="9b21f510"></attribute>
+<attribute name="isPlanned" nodeId="ba38442a">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="84d10fd">false</attribute>
+<attribute name="isOptional" nodeId="7854cbe4">false</attribute>
+<attribute name="isRepeatable" nodeId="bd28a03d">true</attribute>
+<attribute name="isOngoing" nodeId="44096dfa">false</attribute>
+<attribute name="isEventDriven" nodeId="53aab842">false</attribute>
+<attribute name="variabilityType" nodeId="5100106">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Embed Security and Controls" Id="_O0FfsY_ZEe-WuNJ6Gy8NYQ" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_O0FfsY_ZEe-WuNJ6Gy8NYQ" nodeId="db91d4ff" Url="process.adv.eya_oracle.base/deliveryprocesses/embed_security_controls_C5C30E90.html" Name="embed_security_controls" BackPath="./../../">
+<attribute name="name" nodeId="fabd9bac">embed_security_controls</attribute>
+<attribute name="guid" nodeId="a5c011d1">_O0FfsY_ZEe-WuNJ6Gy8NYQ</attribute>
+<attribute name="presentationName" nodeId="b8214e83">Embed Security and Controls</attribute>
+<attribute name="briefDescription" nodeId="7322f064">Review the risk and controls matrix with key client stakeholders and build out the required security roles in the target state solution.</attribute>
+<attribute name="suppressed" nodeId="52fd533f">false</attribute>
+<attribute name="orderingGuide" nodeId="dba13781"></attribute>
+<attribute name="isAbstract" nodeId="e070dfd">false</attribute>
+<attribute name="shapeicon" nodeId="53399f3"></attribute>
+<attribute name="nodeicon" nodeId="e7a60c17"></attribute>
+<attribute name="prefix" nodeId="7a8d1253"></attribute>
+<attribute name="isPlanned" nodeId="e3734232">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d11e49a8">false</attribute>
+<attribute name="isOptional" nodeId="8ad48436">false</attribute>
+<attribute name="isRepeatable" nodeId="193bb8f4">false</attribute>
+<attribute name="isOngoing" nodeId="b2b952fd">false</attribute>
+<attribute name="isEventDriven" nodeId="79cf4574">false</attribute>
+<attribute name="variabilityType" nodeId="9fb73401">extends</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" TypeName="Task" Url="practice.ita.delv.pkg_dev.base/tasks/develop_tech_specs_69269B9B.html" Name="develop_tech_specs" BackPath="./../../" Type="Task" NodeiconUrl="" performingRoleName="Application Developer" DisplayName="Develop package application technical specifications" Id="_qDuyoGZ8EeS2OI5bP0AbiQ" ShapeiconUrl="images/task.gif" lang="en" nodeId="e46401da">
+<copyright nodeId="33a95e48">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="2fe5b9c8">develop_tech_specs</attribute>
+<attribute name="guid" nodeId="b0245baf">_qDuyoGZ8EeS2OI5bP0AbiQ</attribute>
+<attribute name="presentationName" nodeId="c727f061">Develop package application technical specifications</attribute>
+<attribute name="briefDescription" nodeId="68f63979">Translate functional designs for every development object, e.g. report, interface, conversion, extension, form and workflow (RICEFW) into technical details.</attribute>
+<attribute name="suppressed" nodeId="ea5e1893">false</attribute>
+<attribute name="orderingGuide" nodeId="9a752e8a"></attribute>
+<attribute name="isAbstract" nodeId="ecdeabe1">false</attribute>
+<attribute name="shapeicon" nodeId="3c3c0a9a"></attribute>
+<attribute name="nodeicon" nodeId="227b2e2f"></attribute>
+<attribute name="variabilityType" nodeId="101f689e">na</attribute>
+<reference name="presentation" nodeId="6d04d163">
+<Element Type="TaskDescription" TypeName="Task Description" NodeiconUrl="" DisplayName="Develop package application technical specifications" Id="-YqUCICVRynxlttF6-mLvGw" ShapeiconUrl="images/guidance.gif" nodeId="5485998e" Url="" Name=",_qDuyoGZ8EeS2OI5bP0AbiQ" BackPath="">
+<copyright nodeId="7737e20e">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="aefb9365">,_qDuyoGZ8EeS2OI5bP0AbiQ</attribute>
+<attribute name="guid" nodeId="279e29e">-YqUCICVRynxlttF6-mLvGw</attribute>
+<attribute name="presentationName" nodeId="ce312bb7">Develop package application technical specifications</attribute>
+<attribute name="briefDescription" nodeId="780d282"></attribute>
+<attribute name="suppressed" nodeId="9b746b08">false</attribute>
+<attribute name="orderingGuide" nodeId="b9fb37d3"></attribute>
+<attribute name="authors" nodeId="7dfb1690"></attribute>
+<attribute name="changeDate" nodeId="ae340260">Fri Jul 17 11:44:51 EDT 2015</attribute>
+<attribute name="changeDescription" nodeId="a10e3a4b"></attribute>
+<attribute name="version" nodeId="a12739c7"></attribute>
+<attribute name="mainDescription" nodeId="37f00395">&lt;p&gt;
+    Using the functional designs,&amp;nbsp;document how to enable them in the selected package application. In other words,
+    determine what specific tables,&amp;nbsp;field names, schemas, logic, models, data formats,&amp;nbsp;etc. need to be built or
+    used to create the software object. The process to develop technical specifications will depend on the package
+    application selected. Additionally, specifications will vary according to the type of component or object it relates to
+    (i.e..&amp;nbsp;the creation&amp;nbsp;of a&amp;nbsp;technical specification for a report will have different&amp;nbsp;considerations
+    than the creation of a technical specification for an interface). Finally, submit the document for review and approval.
+&lt;/p&gt;</attribute>
+<attribute name="externalId" nodeId="f8a7101f"></attribute>
+<attribute name="keyConsiderations" nodeId="95d7c0b5">&lt;p&gt;
+    Technical specifications are required to be developed for custom development objects. For each development object,
+    there are different technical design requirements that are needed to be developed. For cases where custom coding is
+    needed, technical specifications may include pseudo code.
+&lt;/p&gt;
+&lt;p&gt;
+    Technical specifications are also developed for other technical needs such as setting up the system for the first time,
+    configuring connectivity and meeting package security design requirements. Teams should engage with stakeholder&apos;s
+    quality review process to review technical specifications and get approval prior to start of development.&lt;br /&gt;
+&lt;/p&gt;</attribute>
+<attribute name="longPresentationName" nodeId="6223400b"></attribute>
+<attribute name="purpose" nodeId="7720c54f">&lt;p&gt;
+    The purpose of the task is to:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Provide specific instructions and details on how to create the package application component
+    &lt;/li&gt;
+    &lt;li&gt;
+        Provide a technical foundation and sufficient preparation for building the solution components in conformance with
+        requirements&lt;br /&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="alternatives" nodeId="efcf6dc8"></attribute>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="performedBy" nodeId="47655a95">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Application Developer" Id="_kWXJsTYfEeOOP7mzKGsP2A" ShapeiconUrl="images/role.gif" nodeId="5bc0443" Url="core.default.role_def.base/roles/app_developer_8EC93FA7.html" Name="app_developer" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="mandatoryInput" nodeId="27b8de20">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Functional Design" Id="_Gd7E4Gj6EeSPcdaSFis8Vg" ShapeiconUrl="images/artifact.gif" nodeId="b9bdccd7" Url="core.i_t.common.base/workproducts/func_design_16F6F92.html" Name="func_design" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="output" nodeId="78e2247a">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Application Technical Specifications" Id="_X3iH8GZ8EeS2OI5bP0AbiQ" ShapeiconUrl="images/artifact.gif" nodeId="a32e9ae6" Url="core.i_t.common.base/workproducts/app_tech_specs_FB64BD75.html" Name="app_tech_specs" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="Task_TaskDescriptors" nodeId="42fdfa0f">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_30CVodDUEe6Y56Jk6jqfOA,_WondINDVEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.pkg_dev.base/tasks/develop_tech_specs_69269B9B.html" Name="develop_tech_specs" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop package application technical specifications" Id="_WondINDVEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="6d8b2a6e"></Element>
+</referenceList>
+<reference name="performingRole" nodeId="3a05c7aa">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Application Developer" Id="_kWXJsTYfEeOOP7mzKGsP2A" ShapeiconUrl="images/role.gif" nodeId="26984b2b" Url="core.default.role_def.base/roles/app_developer_8EC93FA7.html" Name="app_developer" BackPath="./../../"></Element>
+</reference>
+<referenceList name="customCategories" nodeId="20b13de7">
+<Element Type="CustomCategory" TypeName="Custom Category" NodeiconUrl="" DisplayName="Tasks" Id="_0Sj48KDNEeOMmqbYX27PPA" ShapeiconUrl="core.default.nav_view.base/customcategories/resources/cat_task51.png" nodeId="818e6c7" Url="core.default.nav_view.base/customcategories/task_list_CDC9CEA6.html" Name="task_list" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="707e7f4d">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_30CVodDUEe6Y56Jk6jqfOA,_WondINDVEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.pkg_dev.base/tasks/develop_tech_specs_69269B9B.html" Name="develop_tech_specs" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop package application technical specifications" Id="_WondINDVEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="93dd66ec">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Development" Id="_N-58wdAOEe6H-rjlu9wPlA" relProcessPath="_N-58wdAOEe6H-rjlu9wPlA" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA" nodeId="8d72e472" Url="process.adv.eya_oracle.base/capabilitypatterns/development_wkstrm_21C01F87.html" Name="development_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="f808eb9">development_wkstrm</attribute>
+<attribute name="guid" nodeId="5fe27e71">_N-58wdAOEe6H-rjlu9wPlA</attribute>
+<attribute name="presentationName" nodeId="20e0bc0e">Development</attribute>
+<attribute name="briefDescription" nodeId="6e0ec0d5"></attribute>
+<attribute name="suppressed" nodeId="244c4a9f">false</attribute>
+<attribute name="orderingGuide" nodeId="f3de2bfc"></attribute>
+<attribute name="isAbstract" nodeId="460e2b74">false</attribute>
+<attribute name="shapeicon" nodeId="3244b871"></attribute>
+<attribute name="nodeicon" nodeId="8d2f5148"></attribute>
+<attribute name="prefix" nodeId="a584579e">workstream</attribute>
+<attribute name="isPlanned" nodeId="bcbc54bb">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="c50c24be">false</attribute>
+<attribute name="isOptional" nodeId="6512dcc5">false</attribute>
+<attribute name="isRepeatable" nodeId="6e6feb6c">false</attribute>
+<attribute name="isOngoing" nodeId="c48c1073">false</attribute>
+<attribute name="isEventDriven" nodeId="48851cbe">false</attribute>
+<attribute name="variabilityType" nodeId="a26ca178">na</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="[Execute Build Cycles 1-n]" Id="_LOhWgduYEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw" nodeId="fc36ac38" Url="process.adv.eya_oracle.base/capabilitypatterns/execute_build_cycles_1_n_6C160980.html" Name="execute_build_cycles_1_n" BackPath="./../../">
+<attribute name="name" nodeId="d36727fa">execute_build_cycles_1_n</attribute>
+<attribute name="guid" nodeId="60572d73">_LOhWgduYEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="526c83d9">[Execute Build Cycles 1-n]</attribute>
+<attribute name="briefDescription" nodeId="4a040853">Set of activities and tasks to be performed by the Development workstream while executing build iterations 1-n, spanning from planning for each sprint through unit testing custom components.</attribute>
+<attribute name="suppressed" nodeId="64c173b9">false</attribute>
+<attribute name="orderingGuide" nodeId="7929ad1f"></attribute>
+<attribute name="isAbstract" nodeId="8ba953d">false</attribute>
+<attribute name="shapeicon" nodeId="6919b84f"></attribute>
+<attribute name="nodeicon" nodeId="e7488264"></attribute>
+<attribute name="prefix" nodeId="981ff4ca"></attribute>
+<attribute name="isPlanned" nodeId="41071264">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="e849988c">false</attribute>
+<attribute name="isOptional" nodeId="2443aafc">false</attribute>
+<attribute name="isRepeatable" nodeId="71c68e33">true</attribute>
+<attribute name="isOngoing" nodeId="29a04d7d">false</attribute>
+<attribute name="isEventDriven" nodeId="a96cc721">false</attribute>
+<attribute name="variabilityType" nodeId="4a1c0548">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Document Technical Design Specifications" Id="_30CVodDUEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_30CVodDUEe6Y56Jk6jqfOA" nodeId="a124450d" Url="process.adv.eya_oracle.base/capabilitypatterns/doc_tech_design_specs_A320D715.html" Name="doc_tech_design_specs" BackPath="./../../">
+<attribute name="name" nodeId="a038ea9">doc_tech_design_specs</attribute>
+<attribute name="guid" nodeId="766d1c82">_30CVodDUEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="a2ab9845">Document Technical Design Specifications</attribute>
+<attribute name="briefDescription" nodeId="b65caf5e">Define the technical specifications needed to support the functional design along with the required batch processes and schedules.</attribute>
+<attribute name="suppressed" nodeId="26facba0">false</attribute>
+<attribute name="orderingGuide" nodeId="3915f351"></attribute>
+<attribute name="isAbstract" nodeId="960ffa8c">false</attribute>
+<attribute name="shapeicon" nodeId="7bd439e8"></attribute>
+<attribute name="nodeicon" nodeId="f7d16411"></attribute>
+<attribute name="prefix" nodeId="7bffe35d"></attribute>
+<attribute name="isPlanned" nodeId="ec9fd07a">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d3354efa">false</attribute>
+<attribute name="isOptional" nodeId="a7ae236f">false</attribute>
+<attribute name="isRepeatable" nodeId="eb5af81a">false</attribute>
+<attribute name="isOngoing" nodeId="eefbe18e">false</attribute>
+<attribute name="isEventDriven" nodeId="8b868cf0">false</attribute>
+<attribute name="variabilityType" nodeId="996603c3">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_30CVodDUEe6Y56Jk6jqfOA,_WondINDVEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.pkg_dev.base/tasks/develop_tech_specs_69269B9B.html" Name="develop_tech_specs" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop package application technical specifications" Id="_WondINDVEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="b7169e08">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="c07e0655" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="785b8f2a">eya_oracle</attribute>
+<attribute name="guid" nodeId="4d3b9c06">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="af4f7482">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="3380a5b1"></attribute>
+<attribute name="suppressed" nodeId="996c37c0">false</attribute>
+<attribute name="orderingGuide" nodeId="49a69b2d"></attribute>
+<attribute name="isAbstract" nodeId="9f63b67e">false</attribute>
+<attribute name="shapeicon" nodeId="6e448c5c"></attribute>
+<attribute name="nodeicon" nodeId="676d08e8"></attribute>
+<attribute name="prefix" nodeId="40f84ec4"></attribute>
+<attribute name="isPlanned" nodeId="1c162f2b">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="b297ac6f">false</attribute>
+<attribute name="isOptional" nodeId="78e2a84f">false</attribute>
+<attribute name="isRepeatable" nodeId="7f9c5e70">false</attribute>
+<attribute name="isOngoing" nodeId="9984bf3b">false</attribute>
+<attribute name="isEventDriven" nodeId="490803e4">false</attribute>
+<attribute name="variabilityType" nodeId="3d3f7368">replaces</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Progressive Build" Id="_c4A0kYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA" nodeId="e80f0c28" Url="process.adv.eya_oracle.base/deliveryprocesses/progressive_build_70B7DD74.html" Name="progressive_build" BackPath="./../../">
+<attribute name="name" nodeId="65587d9c">progressive_build</attribute>
+<attribute name="guid" nodeId="dca17306">_c4A0kYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="83c2cfff">Progressive Build</attribute>
+<attribute name="briefDescription" nodeId="71459dc6">Iterate through the build cycles and drive business acceptance through incremental demos to key client stakeholders. Execute mock conversions and and prepare for system integration and user acceptance testing. Manage stakeholder engagement and communications around the change.</attribute>
+<attribute name="suppressed" nodeId="fa33d93c">false</attribute>
+<attribute name="orderingGuide" nodeId="a49c2ef4"></attribute>
+<attribute name="isAbstract" nodeId="d3663504">false</attribute>
+<attribute name="shapeicon" nodeId="9b4517eb"></attribute>
+<attribute name="nodeicon" nodeId="166f9384"></attribute>
+<attribute name="prefix" nodeId="d1e5f996"></attribute>
+<attribute name="isPlanned" nodeId="ffde8c83">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="990b030c">false</attribute>
+<attribute name="isOptional" nodeId="22a0d44f">false</attribute>
+<attribute name="isRepeatable" nodeId="af9b5a2d">true</attribute>
+<attribute name="isOngoing" nodeId="8b799fe1">false</attribute>
+<attribute name="isEventDriven" nodeId="7f0c1221">false</attribute>
+<attribute name="variabilityType" nodeId="8595c51c">na</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Execute Build Cycles 1-n" Id="_Sd7D0duVEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_Sd7D0duVEe6TH6yb1zVWhw" nodeId="9c51af3f" Url="process.adv.eya_oracle.base/deliveryprocesses/execute_build_cycles_1_n_3FC12A80.html" Name="execute_build_cycles_1_n" BackPath="./../../">
+<attribute name="name" nodeId="c174a16a">execute_build_cycles_1_n</attribute>
+<attribute name="guid" nodeId="e24776ac">_Sd7D0duVEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="1bbd6925">Execute Build Cycles 1-n</attribute>
+<attribute name="briefDescription" nodeId="23c0a7a3">Iterate through the build cycles by planning for each sprint, defining the technical and integration specifications and data conversion scripts and completing the configurations and development. Validate the builds and conduct demos with the client.</attribute>
+<attribute name="suppressed" nodeId="913d54e0">false</attribute>
+<attribute name="orderingGuide" nodeId="d634ec72"></attribute>
+<attribute name="isAbstract" nodeId="9f6840f">false</attribute>
+<attribute name="shapeicon" nodeId="5d268437"></attribute>
+<attribute name="nodeicon" nodeId="63fab552"></attribute>
+<attribute name="prefix" nodeId="d5d9fbe0"></attribute>
+<attribute name="isPlanned" nodeId="641437a">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d16d3991">false</attribute>
+<attribute name="isOptional" nodeId="3a804fc1">false</attribute>
+<attribute name="isRepeatable" nodeId="b5def30a">true</attribute>
+<attribute name="isOngoing" nodeId="d38b1d8a">false</attribute>
+<attribute name="isEventDriven" nodeId="ff5f5dac">false</attribute>
+<attribute name="variabilityType" nodeId="599929d">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Document Technical Design Specifications" Id="_b-xm0dvIEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_Sd7D0duVEe6TH6yb1zVWhw,_b-xm0dvIEe6TH6yb1zVWhw" nodeId="8109c152" Url="process.adv.eya_oracle.base/deliveryprocesses/doc_tech_design_specs_7E88E9B4.html" Name="doc_tech_design_specs" BackPath="./../../">
+<attribute name="name" nodeId="df5b7fba">doc_tech_design_specs</attribute>
+<attribute name="guid" nodeId="337710c2">_b-xm0dvIEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="e91da333">Document Technical Design Specifications</attribute>
+<attribute name="briefDescription" nodeId="391fb933">Define the technical specifications needed to support the functional design along with the required batch processes and schedules.</attribute>
+<attribute name="suppressed" nodeId="529b5305">false</attribute>
+<attribute name="orderingGuide" nodeId="4d4db883"></attribute>
+<attribute name="isAbstract" nodeId="dc06ae7">false</attribute>
+<attribute name="shapeicon" nodeId="96653ebd"></attribute>
+<attribute name="nodeicon" nodeId="90880a8e"></attribute>
+<attribute name="prefix" nodeId="d71af46"></attribute>
+<attribute name="isPlanned" nodeId="6ef1a693">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="ca587fa1">false</attribute>
+<attribute name="isOptional" nodeId="eedf0631">false</attribute>
+<attribute name="isRepeatable" nodeId="c90d8fa9">false</attribute>
+<attribute name="isOngoing" nodeId="7f7cab7">false</attribute>
+<attribute name="isEventDriven" nodeId="6c0e760c">false</attribute>
+<attribute name="variabilityType" nodeId="f58f4025">extends</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

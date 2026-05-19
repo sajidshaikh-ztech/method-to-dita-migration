@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" TypeName="Task" Url="process.adv.eya_oracle.base/tasks/def_cloud_strat_223A3685.html" Name="def_cloud_strat" BackPath="./../../" Type="Task" NodeiconUrl="" performingRoleName="Technical Lead" DisplayName="Develop cloud instance strategy" Id="_p31zYNGLEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" lang="en" nodeId="9bf49def">
+<copyright nodeId="8052bf24">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="b28400d6">def_cloud_strat</attribute>
+<attribute name="guid" nodeId="98d9ed61">_p31zYNGLEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="8f3d701d">Develop cloud instance strategy</attribute>
+<attribute name="briefDescription" nodeId="68ba650f">Define the plan for using cloud to implement the desired Oracle services.</attribute>
+<attribute name="suppressed" nodeId="b8204f64">false</attribute>
+<attribute name="orderingGuide" nodeId="b8f015bd"></attribute>
+<attribute name="isAbstract" nodeId="84fce6f3">false</attribute>
+<attribute name="shapeicon" nodeId="d4987284"></attribute>
+<attribute name="nodeicon" nodeId="51fe8684"></attribute>
+<attribute name="variabilityType" nodeId="99aa1e6d">na</attribute>
+<reference name="presentation" nodeId="e0abea2a">
+<Element Type="TaskDescription" TypeName="Task Description" NodeiconUrl="" DisplayName="Develop cloud instance strategy" Id="-W4VqKJ4oWknERbFIfIN1PA" ShapeiconUrl="images/guidance.gif" nodeId="1099a132" Url="" Name=",_mVhMUFoTEemi-oNM8zpX9Q" BackPath="">
+<copyright nodeId="32709286">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="de96a3b5">,_mVhMUFoTEemi-oNM8zpX9Q</attribute>
+<attribute name="guid" nodeId="da7def1c">-W4VqKJ4oWknERbFIfIN1PA</attribute>
+<attribute name="presentationName" nodeId="b9d77171">Develop cloud instance strategy</attribute>
+<attribute name="briefDescription" nodeId="3bbf987b"></attribute>
+<attribute name="suppressed" nodeId="db48b34">false</attribute>
+<attribute name="orderingGuide" nodeId="afb5130c"></attribute>
+<attribute name="authors" nodeId="13a529ce"></attribute>
+<attribute name="changeDate" nodeId="3e231b01">Tue Feb 18 16:17:34 EST 2025</attribute>
+<attribute name="changeDescription" nodeId="8c978424">FEB 2025 - Baseline</attribute>
+<attribute name="version" nodeId="d7d4297e"></attribute>
+<attribute name="mainDescription" nodeId="9d0d50bf">&lt;p&gt;
+    Identify the number of Oracle cloud instances required to support various activities such as phase deployment(s),
+    training, testing, data migration mock runs, data refreshes, development, quality assurance, etc.
+&lt;/p&gt;
+&lt;p&gt;
+    Additionally, document the Production to Test (P2T) and Test to Test (T2T) refresh schedule and define the patch
+    application approach for quarterly releases.
+&lt;/p&gt;</attribute>
+<attribute name="externalId" nodeId="5ee16e10"></attribute>
+<attribute name="keyConsiderations" nodeId="f1294d89"></attribute>
+<attribute name="longPresentationName" nodeId="dce1d581"></attribute>
+<attribute name="purpose" nodeId="c83705ca"></attribute>
+<attribute name="alternatives" nodeId="8e513657"></attribute>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="performedBy" nodeId="5ffdcc36">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Technical Lead" Id="_6At4MCygEe-bo7_6LoJ2iQ" ShapeiconUrl="images/role.gif" nodeId="f987cf" Url="process.adv.eya_oracle.base/roles/tech_lead_30CEAD95.html" Name="tech_lead" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="mandatoryInput" nodeId="2e9bac70">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Capability Blueprint" Id="_CFhboELPEeWTuoXRPraDPw" ShapeiconUrl="images/artifact.gif" nodeId="b74bd228" Url="core.bus.common.base/workproducts/capability_blueprint_A15998B3.html" Name="capability_blueprint" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="IT Strategy" Id="_IqgdAEGaEeWvyM3JMr3skA" ShapeiconUrl="images/artifact.gif" nodeId="7f04cb32" Url="core.bus.common.base/workproducts/it_strat_DE0E7E7.html" Name="it_strat" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="output" nodeId="51a7e676">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="IT Strategy" Id="_IqgdAEGaEeWvyM3JMr3skA" ShapeiconUrl="images/artifact.gif" nodeId="cb68e397" Url="core.bus.common.base/workproducts/it_strat_DE0E7E7.html" Name="it_strat" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="Task_TaskDescriptors" nodeId="2005a435">
+<Element TypeName="Task Descriptor" queryString="?proc=__kYz8dANEe6H-rjlu9wPlA&amp;path=__kYz8dANEe6H-rjlu9wPlA,_du5EkdGLEe6Y56Jk6jqfOA,_rIhYINGLEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/def_cloud_strat_223A3685.html" Name="def_cloud_strat" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop cloud instance strategy" Id="_rIhYINGLEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="904ab21d"></Element>
+</referenceList>
+<reference name="performingRole" nodeId="99839018">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Technical Lead" Id="_6At4MCygEe-bo7_6LoJ2iQ" ShapeiconUrl="images/role.gif" nodeId="37fc8e73" Url="process.adv.eya_oracle.base/roles/tech_lead_30CEAD95.html" Name="tech_lead" BackPath="./../../"></Element>
+</reference>
+<referenceList name="customCategories" nodeId="4b23646a">
+<Element Type="CustomCategory" TypeName="Custom Category" NodeiconUrl="" DisplayName="Tasks" Id="_0Sj48KDNEeOMmqbYX27PPA" ShapeiconUrl="core.default.nav_view.base/customcategories/resources/cat_task51.png" nodeId="4032b159" Url="core.default.nav_view.base/customcategories/task_list_CDC9CEA6.html" Name="task_list" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="7a06988f">
+<Element TypeName="Task Descriptor" queryString="?proc=__kYz8dANEe6H-rjlu9wPlA&amp;path=__kYz8dANEe6H-rjlu9wPlA,_du5EkdGLEe6Y56Jk6jqfOA,_rIhYINGLEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/def_cloud_strat_223A3685.html" Name="def_cloud_strat" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop cloud instance strategy" Id="_rIhYINGLEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="6d16bd2f">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Technical Architecture and Integration" Id="__kYz8dANEe6H-rjlu9wPlA" relProcessPath="__kYz8dANEe6H-rjlu9wPlA" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=__kYz8dANEe6H-rjlu9wPlA&amp;path=__kYz8dANEe6H-rjlu9wPlA" nodeId="4f4930a3" Url="process.adv.eya_oracle.base/capabilitypatterns/tech_arch_int_wkstrm_FC9A4290.html" Name="tech_arch_int_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="e6407e0a">tech_arch_int_wkstrm</attribute>
+<attribute name="guid" nodeId="361e324">__kYz8dANEe6H-rjlu9wPlA</attribute>
+<attribute name="presentationName" nodeId="9756f08a">Technical Architecture and Integration</attribute>
+<attribute name="briefDescription" nodeId="5b38a6ac"></attribute>
+<attribute name="suppressed" nodeId="f254a0cf">false</attribute>
+<attribute name="orderingGuide" nodeId="fca1c605"></attribute>
+<attribute name="isAbstract" nodeId="ce2a5213">false</attribute>
+<attribute name="shapeicon" nodeId="c6a2a4e6"></attribute>
+<attribute name="nodeicon" nodeId="832ceba6"></attribute>
+<attribute name="prefix" nodeId="b100b0ad">workstream</attribute>
+<attribute name="isPlanned" nodeId="b8f124e6">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="dac553a3">false</attribute>
+<attribute name="isOptional" nodeId="341fb26b">false</attribute>
+<attribute name="isRepeatable" nodeId="9bd33911">false</attribute>
+<attribute name="isOngoing" nodeId="4f87ec14">false</attribute>
+<attribute name="isEventDriven" nodeId="bb871137">false</attribute>
+<attribute name="variabilityType" nodeId="e86bd3f2">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Define Instance Strategy (Cloud)" Id="_du5EkdGLEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=__kYz8dANEe6H-rjlu9wPlA&amp;path=__kYz8dANEe6H-rjlu9wPlA,_du5EkdGLEe6Y56Jk6jqfOA" nodeId="2930364b" Url="process.adv.eya_oracle.base/capabilitypatterns/define_instance_strategy_cloud_DE80D91E.html" Name="define_instance_strategy_cloud" BackPath="./../../">
+<attribute name="name" nodeId="cc2eda83">define_instance_strategy_cloud</attribute>
+<attribute name="guid" nodeId="cca9985f">_du5EkdGLEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="85884a4a">Define Instance Strategy (Cloud)</attribute>
+<attribute name="briefDescription" nodeId="d9a632d2">Document the strategy for the implementation of the target state cloud services model along with any key architectural decisions.</attribute>
+<attribute name="suppressed" nodeId="796b55b4">false</attribute>
+<attribute name="orderingGuide" nodeId="3a625a40"></attribute>
+<attribute name="isAbstract" nodeId="b8e876ed">false</attribute>
+<attribute name="shapeicon" nodeId="d273e0eb"></attribute>
+<attribute name="nodeicon" nodeId="86071758"></attribute>
+<attribute name="prefix" nodeId="8b4aa29"></attribute>
+<attribute name="isPlanned" nodeId="4d5876b5">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="479ab2a6">false</attribute>
+<attribute name="isOptional" nodeId="d0c252a8">false</attribute>
+<attribute name="isRepeatable" nodeId="2f1484ac">false</attribute>
+<attribute name="isOngoing" nodeId="b186d5c8">false</attribute>
+<attribute name="isEventDriven" nodeId="d74239dd">false</attribute>
+<attribute name="variabilityType" nodeId="bc4c0d9">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Task Descriptor" queryString="?proc=__kYz8dANEe6H-rjlu9wPlA&amp;path=__kYz8dANEe6H-rjlu9wPlA,_du5EkdGLEe6Y56Jk6jqfOA,_rIhYINGLEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/def_cloud_strat_223A3685.html" Name="def_cloud_strat" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop cloud instance strategy" Id="_rIhYINGLEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="b336b847">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="371cf4c2" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="50609af7">eya_oracle</attribute>
+<attribute name="guid" nodeId="2d7093e6">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="19a13951">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="ab112a39"></attribute>
+<attribute name="suppressed" nodeId="4845e176">false</attribute>
+<attribute name="orderingGuide" nodeId="224928f9"></attribute>
+<attribute name="isAbstract" nodeId="7b598c6d">false</attribute>
+<attribute name="shapeicon" nodeId="3d8e6ffb"></attribute>
+<attribute name="nodeicon" nodeId="1cd5a2b0"></attribute>
+<attribute name="prefix" nodeId="5286632c"></attribute>
+<attribute name="isPlanned" nodeId="118034a6">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d9e0cb17">false</attribute>
+<attribute name="isOptional" nodeId="c73d2dfa">false</attribute>
+<attribute name="isRepeatable" nodeId="caedd0a6">false</attribute>
+<attribute name="isOngoing" nodeId="ec1d026f">false</attribute>
+<attribute name="isEventDriven" nodeId="8737996">false</attribute>
+<attribute name="variabilityType" nodeId="324ac47b">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Confirm and Design" Id="_bRCPsIs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA" nodeId="9228064c" Url="process.adv.eya_oracle.base/deliveryprocesses/confirm_and_design_29FFDB9.html" Name="confirm_and_design" BackPath="./../../">
+<attribute name="name" nodeId="ab5cd67b">confirm_and_design</attribute>
+<attribute name="guid" nodeId="8727a92">_bRCPsIs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="68867b5f">Confirm and Design</attribute>
+<attribute name="briefDescription" nodeId="c60930fb">Define business requirements, map process flows and facilitate fit-gap workshops. Define technology and testing strategies. Develop the master configuration workbook, RICEFW inventory and prepare for progressive build cycles.</attribute>
+<attribute name="suppressed" nodeId="8e7a52a0">false</attribute>
+<attribute name="orderingGuide" nodeId="8fead7d3"></attribute>
+<attribute name="isAbstract" nodeId="e2139520">false</attribute>
+<attribute name="shapeicon" nodeId="3d99226f"></attribute>
+<attribute name="nodeicon" nodeId="2309649"></attribute>
+<attribute name="prefix" nodeId="946ad2b7"></attribute>
+<attribute name="isPlanned" nodeId="b81357f">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="1f9ceb5b">false</attribute>
+<attribute name="isOptional" nodeId="6f6b44c2">false</attribute>
+<attribute name="isRepeatable" nodeId="19f6df5e">false</attribute>
+<attribute name="isOngoing" nodeId="5198f055">false</attribute>
+<attribute name="isEventDriven" nodeId="62186918">false</attribute>
+<attribute name="variabilityType" nodeId="6688628b">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Define Instance Strategy (Cloud)" Id="_vAoO0dpiEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA,_vAoO0dpiEe6TH6yb1zVWhw" nodeId="bbdfa78b" Url="process.adv.eya_oracle.base/deliveryprocesses/define_instance_strategy_cloud_B048C325.html" Name="define_instance_strategy_cloud" BackPath="./../../">
+<attribute name="name" nodeId="c5269ab1">define_instance_strategy_cloud</attribute>
+<attribute name="guid" nodeId="dea5cb95">_vAoO0dpiEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="b77ef62b">Define Instance Strategy (Cloud)</attribute>
+<attribute name="briefDescription" nodeId="2bbd79ae">Document the strategy for the implementation of the target state cloud services model along with any key architectural decisions.</attribute>
+<attribute name="suppressed" nodeId="f55d8ed9">false</attribute>
+<attribute name="orderingGuide" nodeId="72a87903"></attribute>
+<attribute name="isAbstract" nodeId="905d3bf">false</attribute>
+<attribute name="shapeicon" nodeId="b05e87f0"></attribute>
+<attribute name="nodeicon" nodeId="613b247d"></attribute>
+<attribute name="prefix" nodeId="c1ed7970"></attribute>
+<attribute name="isPlanned" nodeId="78d3c682">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="6331a065">false</attribute>
+<attribute name="isOptional" nodeId="d006ee">false</attribute>
+<attribute name="isRepeatable" nodeId="31dfe950">false</attribute>
+<attribute name="isOngoing" nodeId="227175b2">false</attribute>
+<attribute name="isEventDriven" nodeId="b668d7ae">false</attribute>
+<attribute name="variabilityType" nodeId="bb6f7afe">extends</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_b27MwDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/develop_go_no-go_checklist_7165AF99.html" Name="develop_go_no-go_checklist" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop go/no-go checklist" Id="_b27MwDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" lang="en" nodeId="4c5bc197">
+<copyright nodeId="280fe6b7">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="c2433182">develop_go_no-go_checklist</attribute>
+<attribute name="guid" nodeId="37f9fe13">_b27MwDHHEe-ymZgH1AiGoQ</attribute>
+<attribute name="presentationName" nodeId="ed19bd">Develop go/no-go checklist</attribute>
+<attribute name="briefDescription" nodeId="c8a081b6">Develop an inventory of all preparatory activities that the organization&apos;s decision makers must consider in order to choose whether to proceed with the transition of the solution to the production environment.</attribute>
+<attribute name="suppressed" nodeId="b7afc676">false</attribute>
+<attribute name="orderingGuide" nodeId="873bc9d8"></attribute>
+<attribute name="isAbstract" nodeId="87dd9567">false</attribute>
+<attribute name="shapeicon" nodeId="3a58168f"></attribute>
+<attribute name="nodeicon" nodeId="aad53cc9"></attribute>
+<attribute name="prefix" nodeId="536b95ce"></attribute>
+<attribute name="isPlanned" nodeId="9410bfc6">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="6f8dca0d">false</attribute>
+<attribute name="isOptional" nodeId="37a4e1db">false</attribute>
+<attribute name="isRepeatable" nodeId="bfadaf2">false</attribute>
+<attribute name="isOngoing" nodeId="4ecbf4a">false</attribute>
+<attribute name="isEventDriven" nodeId="cfece5e4">false</attribute>
+<attribute name="isSynchronizedWithSource" nodeId="39ecb089">false</attribute>
+<reference name="presentation" nodeId="e40501d0">
+<Element Type="DescriptorDescription" TypeName="Descriptor Description" NodeiconUrl="" DisplayName="Develop go/no-go checklist" Id="-uKhtPZvV7ikhAjRWwPOERg" ShapeiconUrl="images/guidance.gif" nodeId="6dbb6566" Url="" Name="develop_go_no-go_checklist,_b27MwDHHEe-ymZgH1AiGoQ" BackPath="">
+<copyright nodeId="c9915f7a">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="c02a3422">develop_go_no-go_checklist,_b27MwDHHEe-ymZgH1AiGoQ</attribute>
+<attribute name="guid" nodeId="a9a48131">-uKhtPZvV7ikhAjRWwPOERg</attribute>
+<attribute name="presentationName" nodeId="f0457943">Develop go/no-go checklist</attribute>
+<attribute name="briefDescription" nodeId="1ee3c092"></attribute>
+<attribute name="suppressed" nodeId="9ea490bb">false</attribute>
+<attribute name="orderingGuide" nodeId="f3bc7d05"></attribute>
+<attribute name="authors" nodeId="b419d5a0"></attribute>
+<attribute name="changeDate" nodeId="710e3b88"></attribute>
+<attribute name="changeDescription" nodeId="e66e1487"></attribute>
+<attribute name="version" nodeId="4e806890"></attribute>
+<attribute name="mainDescription" nodeId="5671f0cf"></attribute>
+<attribute name="externalId" nodeId="e87a38c2"></attribute>
+<attribute name="keyConsiderations" nodeId="860a6981">&lt;p&gt;
+    A&amp;nbsp;thorough&amp;nbsp;cutover checklist&amp;nbsp;will&amp;nbsp;encompass activities from all phases of the project, beginning
+    with planning.&amp;nbsp; It will include pre-cutover tasks, will consider production system builds,&amp;nbsp;system cutover
+    activities, third-party system&amp;nbsp;cutover activities, batch job scheduling and&amp;nbsp;interface scheduling
+    and&amp;nbsp;activation.
+&lt;/p&gt;
+&lt;p&gt;
+    Communications are an important aspect of cutover.&amp;nbsp; The checklist should be a part of planning materials which
+    also include:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Go/no go meeting and communication of the result
+    &lt;/li&gt;
+    &lt;li&gt;
+        Go-live planning activities
+    &lt;/li&gt;
+    &lt;li&gt;
+        Business continuity plans
+    &lt;/li&gt;
+    &lt;li&gt;
+        Hypercare team resources and plan
+    &lt;/li&gt;
+    &lt;li&gt;
+        Post go-live resource plan
+    &lt;/li&gt;
+    &lt;li&gt;
+        Post go-live training requirements
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="longPresentationName" nodeId="8d00c57d"></attribute>
+<attribute name="usageGuidance" nodeId="6e490ec5"></attribute>
+<attribute name="refinedDescription" nodeId="f8569e3">&lt;p&gt;
+    The go/no-go checklist verifies that all application areas and the technical team are ready for live transactions to be
+    executed using the new or enhanced capabilities, processes and tools.
+&lt;/p&gt;
+&lt;p&gt;
+    The go/no-go checklist validates a comprehensive and correctly-sequenced list of tasks, milestones, and critical events
+    to support cut-over related go/no-go decisions. It is meant to be a single source of tasks to be performed by all teams
+    during a cutover. It helps to define detailed business area-specific and team-specific cutover plans.
+&lt;/p&gt;
+&lt;p&gt;
+    Design the checklist to review preparation activities and tasks that are on the critical path to executing the cutover.
+    Critical path areas that the checklist helps confirm readiness for include:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Production code and configuration
+    &lt;/li&gt;
+    &lt;li&gt;
+        Data migration
+    &lt;/li&gt;
+    &lt;li&gt;
+        Production infrastructure
+    &lt;/li&gt;
+    &lt;li&gt;
+        Operations support and monitoring
+    &lt;/li&gt;
+    &lt;li&gt;
+        Service management process and procedure
+    &lt;/li&gt;
+    &lt;li&gt;
+        Roles and access
+    &lt;/li&gt;
+    &lt;li&gt;
+        End user
+    &lt;/li&gt;
+    &lt;li&gt;
+        Training
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    More generally, when compiling the checklist, consider including confirmation of:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Conversions verified
+    &lt;/li&gt;
+    &lt;li&gt;
+        Manual conversions identified and tested
+    &lt;/li&gt;
+    &lt;li&gt;
+        Legacy system plans executed
+    &lt;/li&gt;
+    &lt;li&gt;
+        Integration testing complete
+    &lt;/li&gt;
+    &lt;li&gt;
+        Final system test accepted
+    &lt;/li&gt;
+    &lt;li&gt;
+        Test environment for mock or dress rehearsal set up
+    &lt;/li&gt;
+    &lt;li&gt;
+        Testing of access, user and customers complete
+    &lt;/li&gt;
+    &lt;li&gt;
+        Command center set up
+    &lt;/li&gt;
+    &lt;li&gt;
+        Procedures documentation complete and distributed
+    &lt;/li&gt;
+    &lt;li&gt;
+        Communications established
+    &lt;/li&gt;
+    &lt;li&gt;
+        End user training complete
+    &lt;/li&gt;
+    &lt;li&gt;
+        Final sign-off complete
+    &lt;/li&gt;
+    &lt;li&gt;
+        Initial authority to operate granted
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    After the go/no-go checklist is drafted, it is important to bring all stakeholders and program leadership together to
+    gain agreement from stakeholders that the checklist is reasonable and complete, that the checklist does not leave out
+    any critical items that must be addressed prior to go-live.
+&lt;/p&gt;
+&lt;p&gt;
+    Transition managers should arrange necessary meetings, seek input from all impacted parties, and finalize the checklist
+    items. Stakeholders whose input should be considered include:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Business leads from all functional areas
+    &lt;/li&gt;
+    &lt;li&gt;
+        Technical project leads
+    &lt;/li&gt;
+    &lt;li&gt;
+        Data migration leads
+    &lt;/li&gt;
+    &lt;li&gt;
+        Change management leads
+    &lt;/li&gt;
+    &lt;li&gt;
+        Overall project lead
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    Stakeholders should seek input on the checklist from members of their teams who have been assigned to execute tasks on
+    the checklist.
+&lt;/p&gt;
+&lt;p&gt;
+    Once the go/no-go checklist has been agreed by stakeholders, leaders should communicate results to the organization.
+&lt;/p&gt;</attribute>
+</Element>
+</reference>
+<reference name="superActivities" nodeId="c6053b46">
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Prepare for Cutover and Deployment" Id="_vkzykdplEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw" nodeId="fecb6602" Url="process.adv.eya_oracle.base/deliveryprocesses/prepare_cutover_deployment_CE7AA5F6.html" Name="prepare_cutover_deployment" BackPath="./../../">
+<attribute name="name" nodeId="a1e3cccd">prepare_cutover_deployment</attribute>
+<attribute name="guid" nodeId="4ee04d12">_vkzykdplEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="bc8705fe">Prepare for Cutover and Deployment</attribute>
+<attribute name="briefDescription" nodeId="2cc171f7">Define the approach, plan and governance tasks to manage the transition of the target state Oracle solution into the production environment.</attribute>
+<attribute name="suppressed" nodeId="db604999">false</attribute>
+<attribute name="orderingGuide" nodeId="7a921873"></attribute>
+<attribute name="isAbstract" nodeId="749b5c35">false</attribute>
+<attribute name="shapeicon" nodeId="e352e767"></attribute>
+<attribute name="nodeicon" nodeId="1528af55"></attribute>
+<attribute name="prefix" nodeId="3ee56e15"></attribute>
+<attribute name="isPlanned" nodeId="21d19f95">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="5b86b354">false</attribute>
+<attribute name="isOptional" nodeId="529f7272">false</attribute>
+<attribute name="isRepeatable" nodeId="6816f887">false</attribute>
+<attribute name="isOngoing" nodeId="abd79e35">false</attribute>
+<attribute name="isEventDriven" nodeId="4d9454a">false</attribute>
+<attribute name="variabilityType" nodeId="b405df07">extends</attribute>
+</Element>
+</reference>
+<referenceList name="linkToPredecessor" nodeId="f7b034a"></referenceList>
+<reference name="Task" nodeId="e192a002">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop go/no-go checklist" Id="_Y0_-wDHFEe-ymZgH1AiGoQ" ShapeiconUrl="images/task.gif" nodeId="53938bc6" Url="process.adv.eya_oracle.base/tasks/develop_go_no-go_checklist_7165AF99.html" Name="develop_go_no-go_checklist" BackPath="./../../"></Element>
+</reference>
+<referenceList sortValue="Manual" name="additionallyPerformedBy" nodeId="83fa991e">
+<Element TypeName="Role Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_hUwHYDHHEe-ymZgH1AiGoQ_W7RhoAk9EeOR5fNLLJCc5g" ConcreteType="Role" Url="core.default.role_def.base/roles/analyst_46D75ED7.html" Name="analyst" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Analyst" Id="_hUwHYDHHEe-ymZgH1AiGoQ_W7RhoAk9EeOR5fNLLJCc5g" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="550afecc"></Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_b27MwDHHEe-ymZgH1AiGoQ_dnKZsDyfEeqFL87Rj0GF5A" ConcreteType="Role" Url="core.default.role_def.base/roles/conversion_lead_D4ACE143.html" Name="conversion_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Conversion Lead" Id="_b27MwDHHEe-ymZgH1AiGoQ_dnKZsDyfEeqFL87Rj0GF5A" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="c09340ee"></Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_hUwHYDHHEe-ymZgH1AiGoQ_EZAaoMxjEe-ZJLQgqxU0kQ" ConcreteType="Role" Url="process.adv.eya_oracle.base/roles/func_architect_A28F4FB1.html" Name="func_architect" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Functional Architect" Id="_hUwHYDHHEe-ymZgH1AiGoQ_EZAaoMxjEe-ZJLQgqxU0kQ" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="7b49a820"></Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_-eeu4QN2EfCOo4yDZCTlvQ" ConcreteType="Role" Url="core.default.role_def.base/roles/integration_lead_C13D74BD.html" Name="integration_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Integration Lead" Id="_-eeu4QN2EfCOo4yDZCTlvQ" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="f1eb7ea5"></Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_-eeu5AN2EfCOo4yDZCTlvQ" ConcreteType="Role" Url="core.default.role_def.base/roles/org_chng_manager_7BA9818A.html" Name="org_chng_manager" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Organizational Change Manager" Id="_-eeu5AN2EfCOo4yDZCTlvQ" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="192d7ee7"></Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_b27MwDHHEe-ymZgH1AiGoQ_PdB9X_mlEeK66c-ZdBvpxw" ConcreteType="Role" Url="core.default.role_def.base/roles/project_manager_81311EEC.html" Name="project_manager" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Project Manager" Id="_b27MwDHHEe-ymZgH1AiGoQ_PdB9X_mlEeK66c-ZdBvpxw" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="8cd69e2"></Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_b27MwDHHEe-ymZgH1AiGoQ_wH46wLiVEe6mIfhV0mJMlA" ConcreteType="Role" Url="process.adv.eya_oracle.base/roles/sec_controls_lead_1D93838B.html" Name="sec_controls_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Security and Controls Lead" Id="_b27MwDHHEe-ymZgH1AiGoQ_wH46wLiVEe6mIfhV0mJMlA" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="6bac4d7e"></Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_hUwHYDHHEe-ymZgH1AiGoQ_6At4MCygEe-bo7_6LoJ2iQ" ConcreteType="Role" Url="process.adv.eya_oracle.base/roles/tech_lead_30CEAD95.html" Name="tech_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Technical Lead" Id="_hUwHYDHHEe-ymZgH1AiGoQ_6At4MCygEe-bo7_6LoJ2iQ" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="34f5fe24"></Element>
+<Element TypeName="Role Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_hUwHYDHHEe-ymZgH1AiGoQ_C2LiJz8gEeOOEPaNsP0t0A" ConcreteType="Role" Url="core.default.role_def.base/roles/transition_lead_D1C56254.html" Name="transition_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Transition Lead" Id="_hUwHYDHHEe-ymZgH1AiGoQ_C2LiJz8gEeOOEPaNsP0t0A" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="5b0361af"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="mandatoryInput" nodeId="7074b543">
+<Element TypeName="Work Product Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_MGGYUDHHEe-ymZgH1AiGoQ_EWo3MPF4EeOFgpTUvzaUCQ" ConcreteType="Artifact" Url="core.ops.common.base/workproducts/readiness_criteria_6CDC630D.html" Name="readiness_criteria" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Cutover Readiness Criteria" Id="_MGGYUDHHEe-ymZgH1AiGoQ_EWo3MPF4EeOFgpTUvzaUCQ" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="3704989"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_-eShoQN2EfCOo4yDZCTlvQ" ConcreteType="Artifact" Url="core.gen.common.base/workproducts/func_rqmt_95C4EC3B.html" Name="func_rqmt" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Functional Requirement" Id="_-eShoQN2EfCOo4yDZCTlvQ" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="bae7837a"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_kIocEPdiEe6iq-NE7oCrEw_jbA9YAIPEeS9erBHLNmxUg" ConcreteType="Artifact" Url="core.gen.common.base/workproducts/non_func_rqmts_18CC3776.html" Name="non_func_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Non-Functional Requirements" Id="_kIocEPdiEe6iq-NE7oCrEw_jbA9YAIPEeS9erBHLNmxUg" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="53a72590"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="output" nodeId="20bdb914">
+<Element TypeName="Work Product Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_b27MwDHHEe-ymZgH1AiGoQ_F4lyIPF4EeOFgpTUvzaUCQ" ConcreteType="Artifact" Url="core.ops.common.base/workproducts/cutover_go_nogo_chklist_ADE23C36.html" Name="cutover_go_nogo_chklist" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Cutover Go/No-Go Checklist" Id="_b27MwDHHEe-ymZgH1AiGoQ_F4lyIPF4EeOFgpTUvzaUCQ" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="4faf2a53"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="performedPrimarilyBy" nodeId="a30e1728">
+<Element TypeName="Role Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_hUwHYDHHEe-ymZgH1AiGoQ_MaaBsNNoEe-Fuo3rkO5x4w" ConcreteType="Role" Url="process.adv.eya_oracle.base/roles/soln_architect_1699084C.html" Name="soln_architect" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Solution Architect" Id="_hUwHYDHHEe-ymZgH1AiGoQ_MaaBsNNoEe-Fuo3rkO5x4w" relProcessPath="" ShapeiconUrl="images/roledes_lg_dgm32.gif" nodeId="ea06654e"></Element>
+</referenceList>
+<referenceList name="selectedSteps" nodeId="cbe5a928">
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Review cutover plan" Id="_kC5Z8EIoEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="97a29e04" Url="" Name="Review cutover plan" BackPath="">
+<copyright nodeId="2ae261ab">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="97a513c2">Review cutover plan</attribute>
+<attribute name="guid" nodeId="23e8ad5e">_kC5Z8EIoEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="48a679f">Review cutover plan</attribute>
+<attribute name="briefDescription" nodeId="76ed9e70"></attribute>
+<attribute name="suppressed" nodeId="29e98775">false</attribute>
+<attribute name="orderingGuide" nodeId="d7bd480e"></attribute>
+<attribute name="variabilityType" nodeId="50f08851">na</attribute>
+<attribute name="sectionName" nodeId="ef627665"></attribute>
+<attribute name="sectionDescription" nodeId="591734ba"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="c1d7e084">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_b27MwDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/develop_go_no-go_checklist_7165AF99.html" Name="develop_go_no-go_checklist" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop go/no-go checklist" Id="_b27MwDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="6dcff7e7"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Determine key go/no-go decision gates" Id="_9-v7IEIsEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="1630f632" Url="" Name="Determine key go/no-go decision gates" BackPath="">
+<copyright nodeId="4a36b514">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="56c409a7">Determine key go/no-go decision gates</attribute>
+<attribute name="guid" nodeId="a4bae74b">_9-v7IEIsEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="65d224b">Determine key go/no-go decision gates</attribute>
+<attribute name="briefDescription" nodeId="339f90d"></attribute>
+<attribute name="suppressed" nodeId="787eb1e4">false</attribute>
+<attribute name="orderingGuide" nodeId="ee845e6"></attribute>
+<attribute name="variabilityType" nodeId="2a356734">na</attribute>
+<attribute name="sectionName" nodeId="fa0a37b1"></attribute>
+<attribute name="sectionDescription" nodeId="349f4ea3"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="7d32df70">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_b27MwDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/develop_go_no-go_checklist_7165AF99.html" Name="develop_go_no-go_checklist" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop go/no-go checklist" Id="_b27MwDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="48fb231f"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Document pre-requisites for critical decisions" Id="__iGkQEIsEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="6d55695" Url="" Name="Document pre-requisites for critical decisions" BackPath="">
+<copyright nodeId="f5035cdc">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="d568b4f1">Document pre-requisites for critical decisions</attribute>
+<attribute name="guid" nodeId="1568f708">__iGkQEIsEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="7e309de">Document pre-requisites for critical decisions</attribute>
+<attribute name="briefDescription" nodeId="c5c57d9b"></attribute>
+<attribute name="suppressed" nodeId="e5803a0e">false</attribute>
+<attribute name="orderingGuide" nodeId="22df35fa"></attribute>
+<attribute name="variabilityType" nodeId="c1a7b3d3">na</attribute>
+<attribute name="sectionName" nodeId="1f61812b"></attribute>
+<attribute name="sectionDescription" nodeId="7b845852"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="5245ea59">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_b27MwDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/develop_go_no-go_checklist_7165AF99.html" Name="develop_go_no-go_checklist" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop go/no-go checklist" Id="_b27MwDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="382bd90"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Confirm production code and configuration readiness" Id="_4mwTkEKsEeW0q8PXmXLEQg" ShapeiconUrl="images/guidance.gif" nodeId="3d7a71e1" Url="" Name="Confirm production code and configuration readiness" BackPath="">
+<copyright nodeId="60240e47">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="8eba37b1">Confirm production code and configuration readiness</attribute>
+<attribute name="guid" nodeId="968da372">_4mwTkEKsEeW0q8PXmXLEQg</attribute>
+<attribute name="presentationName" nodeId="ec19d5cd">Confirm production code and configuration readiness</attribute>
+<attribute name="briefDescription" nodeId="6b8fa7ca"></attribute>
+<attribute name="suppressed" nodeId="b7fbdb5a">false</attribute>
+<attribute name="orderingGuide" nodeId="446c7731"></attribute>
+<attribute name="variabilityType" nodeId="45cea9f">na</attribute>
+<attribute name="sectionName" nodeId="89999025"></attribute>
+<attribute name="sectionDescription" nodeId="92303ba2">&lt;p&gt;
+    Confirm that all configurations required are in place prior to cutover and also to confirm the development code is
+    ready for migration to production. Confirm that all the teams have followed and implemented the configuration steps
+    required and executed the necessary test scripts to validate the configuration and freeze configuration activities.
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Validate&amp;nbsp;that all&amp;nbsp;development activities are complete&amp;nbsp;per functional and technical specifications
+        developed as part of detailed design.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Validate that all configuration steps have been completed as per functional specifications.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Validate the execution of unit tests and functional test scripts.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Evaluate the status of critical defect resolution from test script execution.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Review the results from those steps to confirm if the development code and configuration&amp;nbsp;are ready to move to
+        production and communicate readiness to the&amp;nbsp;project team.
+    &lt;/li&gt;
+    &lt;li&gt;
+        After reviewing results, if there are significant concerns about code and configuration readiness move to
+        production, then communicate the situation (with plan for resolution) to the project team.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    Prior to code migration to production, all teams must complete development activities, testing, bug fixes and code
+    freeze. Teams must also confirm that all unit testing, functional testing and user acceptance testing is completed, and
+    the code is ready for migration to production.&lt;br /&gt;
+&lt;/p&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="ba24e7f5">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_b27MwDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/develop_go_no-go_checklist_7165AF99.html" Name="develop_go_no-go_checklist" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop go/no-go checklist" Id="_b27MwDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="21753507"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Confirm data migration readiness" Id="_ahWw0EKtEeW0q8PXmXLEQg" ShapeiconUrl="images/guidance.gif" nodeId="134416fe" Url="" Name="Confirm data migration readiness" BackPath="">
+<copyright nodeId="579aed44">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="9a0ca21">Confirm data migration readiness</attribute>
+<attribute name="guid" nodeId="383aa1ac">_ahWw0EKtEeW0q8PXmXLEQg</attribute>
+<attribute name="presentationName" nodeId="a465bc4d">Confirm data migration readiness</attribute>
+<attribute name="briefDescription" nodeId="b9fae0c7"></attribute>
+<attribute name="suppressed" nodeId="b98a9fea">false</attribute>
+<attribute name="orderingGuide" nodeId="336820bd"></attribute>
+<attribute name="variabilityType" nodeId="9d3c689a">na</attribute>
+<attribute name="sectionName" nodeId="b85439bd"></attribute>
+<attribute name="sectionDescription" nodeId="c06bda81">&lt;p&gt;
+    Confirm readiness of data to be migrated, along with associated programs, applications, processes, and team prior to
+    performing data migration. Raise awareness of potential data migration issues, mitigate data quality risks, and verify
+    timely completion of data migration activities within the available window. This can have significant downstream impact
+    to future go-live and operational activities.
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Organize a meeting to include data migration coordinator, basis lead, and other team leads.
+    &lt;/li&gt;
+    &lt;li&gt;
+        In the meeting, using the data migration readiness checklist, confirm whether the data migration activities can be
+        started.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Once readiness is signed off for data migration, communicate the news to project team and project steering
+        committee members.&lt;br /&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="b6f70e79">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_b27MwDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/develop_go_no-go_checklist_7165AF99.html" Name="develop_go_no-go_checklist" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop go/no-go checklist" Id="_b27MwDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="a35df73d"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Confirm production infrastructure readiness" Id="_pn214EKtEeW0q8PXmXLEQg" ShapeiconUrl="images/guidance.gif" nodeId="8f78ec73" Url="" Name="Confirm production infrastructure readiness" BackPath="">
+<copyright nodeId="600a2bac">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="91cbb618">Confirm production infrastructure readiness</attribute>
+<attribute name="guid" nodeId="79621374">_pn214EKtEeW0q8PXmXLEQg</attribute>
+<attribute name="presentationName" nodeId="d4110f0b">Confirm production infrastructure readiness</attribute>
+<attribute name="briefDescription" nodeId="14b84637"></attribute>
+<attribute name="suppressed" nodeId="3ae2757">false</attribute>
+<attribute name="orderingGuide" nodeId="e70b74ad"></attribute>
+<attribute name="variabilityType" nodeId="1e7905f0">na</attribute>
+<attribute name="sectionName" nodeId="bc812a85"></attribute>
+<attribute name="sectionDescription" nodeId="89e78f7">&lt;p&gt;
+    Confirm with the infrastructure team whether the&amp;nbsp;completely configured technical production environment is ready
+    to support productive operations.
+&lt;/p&gt;
+&lt;p&gt;
+    Upon completion of this task, cutover activities such as production code migration, configuration migration to
+    production, and data migration can begin. This&amp;nbsp;step also confirms the production system readiness for other
+    production activities.
+&lt;/p&gt;
+&lt;p&gt;
+    Call a meeting with infrastructure team leads to review the infrastructure readiness report. Using the report:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Confirm&amp;nbsp;that all the required hardware is in place
+    &lt;/li&gt;
+    &lt;li&gt;
+        Confirm all the necessary software is installed
+    &lt;/li&gt;
+    &lt;li&gt;
+        Confirm external systems are configured to production system
+    &lt;/li&gt;
+    &lt;li&gt;
+        Review infrastructure test results to validate all issues during tests have been addressed
+    &lt;/li&gt;
+    &lt;li&gt;
+        User access and authorizations are set up
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    Once the&amp;nbsp;infrastructure readiness report is reviewed and it&apos;s confirmed that the system is ready for production
+    activities, communicate readiness to the project team.
+&lt;/p&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="b9438564">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_b27MwDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/develop_go_no-go_checklist_7165AF99.html" Name="develop_go_no-go_checklist" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop go/no-go checklist" Id="_b27MwDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="191589fe"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Confirm operations support and monitoring readiness" Id="_PcKIkEKuEeW0q8PXmXLEQg" ShapeiconUrl="images/guidance.gif" nodeId="84bba1e7" Url="" Name="Confirm operations support and monitoring readiness" BackPath="">
+<copyright nodeId="f2253c53">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="db3ff261">Confirm operations support and monitoring readiness</attribute>
+<attribute name="guid" nodeId="584e15b3">_PcKIkEKuEeW0q8PXmXLEQg</attribute>
+<attribute name="presentationName" nodeId="bccf7b75">Confirm operations support and monitoring readiness</attribute>
+<attribute name="briefDescription" nodeId="9ba1ddd8"></attribute>
+<attribute name="suppressed" nodeId="18f92b30">false</attribute>
+<attribute name="orderingGuide" nodeId="217e0ed9"></attribute>
+<attribute name="variabilityType" nodeId="b97b9bfd">na</attribute>
+<attribute name="sectionName" nodeId="cf31a296"></attribute>
+<attribute name="sectionDescription" nodeId="dbeddccd">&lt;p&gt;
+    Confirm that the help desk and other first-level support are in place and prepared to monitor&amp;nbsp;systems operations
+    and are prepared to address or triage issues as they are raised. Verify that the initial support structure is prepared
+    for the go-live.&amp;nbsp;
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Validate Level 1 support personnel readiness (training complete, on-site as required, etc.): tool readiness
+        (software installed, tested, users trained on use, etc.); and staffing schedule (check for adequate main shift and
+        (if required) off-shift coverage is prepared and available). Approve operations support structure by site.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Validate Level 1 support personnel readiness (training complete, on-site as required, etc.).
+    &lt;/li&gt;
+    &lt;li&gt;
+        Validate Level 1 tool readiness (software installed, tested, users trained on use, etc.).
+    &lt;/li&gt;
+    &lt;li&gt;
+        Validate staffing schedule (check that adequate main shift and (if required) off-shift coverage is prepared and
+        available).
+    &lt;/li&gt;
+    &lt;li&gt;
+        Approve operations support structure by site.&amp;nbsp;&amp;nbsp;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    Excellent Level 1 service is required&amp;nbsp;so that minor issues, questions, and defects are addressed quickly and
+    efficiently. Without properly structured Level 1 support, too many minor issues will have to be elevated to Level 2, 3,
+    or 4 support, which will both delay resolution of these issues as well as reduce the ability of high-level support to
+    work on more critical and complex issues.
+&lt;/p&gt;
+&lt;p&gt;
+    Operations support can either be on or off-site, depending on the requirements of the individual site. In addition,
+    proper staffing and scheduling must be determined so that high-demand periods have proper coverage (either remote help
+    or in-person), and coverage is also present during off-shifts as determined by project management.
+&lt;/p&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="edbb4325">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_b27MwDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/develop_go_no-go_checklist_7165AF99.html" Name="develop_go_no-go_checklist" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop go/no-go checklist" Id="_b27MwDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="ecbe1613"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Confirm service management process and procedure readiness" Id="_xxidUEKuEeW0q8PXmXLEQg" ShapeiconUrl="images/guidance.gif" nodeId="a845ec35" Url="" Name="Confirm service management process and procedure readiness" BackPath="">
+<copyright nodeId="81687ac0">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="7e674d79">Confirm service management process and procedure readiness</attribute>
+<attribute name="guid" nodeId="f6ff2c4">_xxidUEKuEeW0q8PXmXLEQg</attribute>
+<attribute name="presentationName" nodeId="f56311dd">Confirm service management process and procedure readiness</attribute>
+<attribute name="briefDescription" nodeId="93c180ca"></attribute>
+<attribute name="suppressed" nodeId="a46844b3">false</attribute>
+<attribute name="orderingGuide" nodeId="b54f4124"></attribute>
+<attribute name="variabilityType" nodeId="cec5c539">na</attribute>
+<attribute name="sectionName" nodeId="e4ef4eb0"></attribute>
+<attribute name="sectionDescription" nodeId="60c3cd2">&lt;p&gt;
+    Verify that all service management processes and procedures are complete and ready for cutover. Verify that the service
+    management team is ready for cutover and that all necessary service management procedures are in place.
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Confirm knowledge transfer has happened successfully to the service management team (Levels 1 and 2)
+    &lt;/li&gt;
+    &lt;li&gt;
+        Approve and accept documentation of operations, including operational and support policy, roles, processes,
+        procedures and metrics
+    &lt;/li&gt;
+    &lt;li&gt;
+        Define and agree upon operational level agreements
+    &lt;/li&gt;
+    &lt;li&gt;
+        Define and agree upon full RACI between support and business system administrators
+    &lt;/li&gt;
+    &lt;li&gt;
+        Verify that functional and hierarchical escalation paths are documented and agreed upon across operations,
+        business, and service providers
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    A checklist is typically used by the project manager and service management lead to verify that each item is complete
+    and has been verified by the appropriate owner. The checklist should typically include:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Training sign-off - business leads and trainers should verify that all requested or required is complete or will be
+        complete by go-live
+    &lt;/li&gt;
+    &lt;li&gt;
+        Roles are ready for migration to production
+    &lt;/li&gt;
+    &lt;li&gt;
+        Production support issue resolution procedures are in place and properly staffed
+    &lt;/li&gt;
+    &lt;li&gt;
+        Confirmation that all service management policies, procedures and reporting are ready
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    This is one of the steps within the process to agree the overall go/no-go decision.&lt;br /&gt;
+&lt;/p&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="3cac089a">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_b27MwDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/develop_go_no-go_checklist_7165AF99.html" Name="develop_go_no-go_checklist" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop go/no-go checklist" Id="_b27MwDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="a6dd9f38"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Confirm roles and access readiness" Id="_UDit8EKvEeW0q8PXmXLEQg" ShapeiconUrl="images/guidance.gif" nodeId="ce16e0b7" Url="" Name="Confirm roles and access readiness" BackPath="">
+<copyright nodeId="a9c8ec57">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="69b04729">Confirm roles and access readiness</attribute>
+<attribute name="guid" nodeId="70461714">_UDit8EKvEeW0q8PXmXLEQg</attribute>
+<attribute name="presentationName" nodeId="d8d61b4">Confirm roles and access readiness</attribute>
+<attribute name="briefDescription" nodeId="c74ef1a4"></attribute>
+<attribute name="suppressed" nodeId="ac8f3ddf">false</attribute>
+<attribute name="orderingGuide" nodeId="31ca81a2"></attribute>
+<attribute name="variabilityType" nodeId="3d14a870">na</attribute>
+<attribute name="sectionName" nodeId="a49df7d1"></attribute>
+<attribute name="sectionDescription" nodeId="a1a3ca70">&lt;p&gt;
+    Verify that all roles-related activities are complete and ready for cutover. Confirm that roles are ready for cutover
+    and that all necessary maintenance procedures are in place.
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Review completed list of end-users
+    &lt;/li&gt;
+    &lt;li&gt;
+        Validate all provisioning tasks in the project plan have been completed
+    &lt;/li&gt;
+    &lt;li&gt;
+        Select a random sample of user IDs for review in production system
+    &lt;/li&gt;
+    &lt;li&gt;
+        Validate correct user provisioning in the production system based on a sample
+    &lt;/li&gt;
+    &lt;li&gt;
+        Confirm user provisioning is complete in the production system
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    A checklist should be prepared, checked and verified to confirm that all production-related roles activities are in
+    place and ready for cutover. The checklist is typically used by the project manager to confirm that each item is
+    complete and has been verified by the appropriate owner. These include:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Training signoff&amp;nbsp;by business leads and trainers, to&amp;nbsp;verify that all requested or required
+        training&amp;nbsp;is complete or will be complete by go-live
+    &lt;/li&gt;
+    &lt;li&gt;
+        Conduct business readiness testing of all roles to verify that everyone can access the system with the appropriate
+        system access capabilities
+    &lt;/li&gt;
+    &lt;li&gt;
+        Resolve any outstanding issues; verify that the role owner matrix is complete and that all required access has been
+        granted and verified
+    &lt;/li&gt;
+    &lt;li&gt;
+        Confirm operations support monitoring readiness by confirming that the ability to resolve roles issues is in place
+        and that monitoring and reporting is addressed
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    This is one of the steps within the agree go/no-go cutover decision process.&lt;br /&gt;
+    &amp;nbsp;
+&lt;/p&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="6a36e465">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_b27MwDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/develop_go_no-go_checklist_7165AF99.html" Name="develop_go_no-go_checklist" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop go/no-go checklist" Id="_b27MwDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="daf6db7b"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Confirm end user readiness" Id="_7WiMMEKvEeW0q8PXmXLEQg" ShapeiconUrl="images/guidance.gif" nodeId="174b4055" Url="" Name="Confirm end user readiness" BackPath="">
+<copyright nodeId="5350a358">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="75d010c8">Confirm end user readiness</attribute>
+<attribute name="guid" nodeId="cb100adb">_7WiMMEKvEeW0q8PXmXLEQg</attribute>
+<attribute name="presentationName" nodeId="53a0ab82">Confirm end user readiness</attribute>
+<attribute name="briefDescription" nodeId="4dbfed7e"></attribute>
+<attribute name="suppressed" nodeId="afc9d44d">false</attribute>
+<attribute name="orderingGuide" nodeId="bee1fcb"></attribute>
+<attribute name="variabilityType" nodeId="99ba1cad">na</attribute>
+<attribute name="sectionName" nodeId="deb29f03"></attribute>
+<attribute name="sectionDescription" nodeId="1ad8b1da">&lt;p&gt;
+    Confirm that end-users are fully ready to operate the integrated solution. Verify that the end users (personnel who
+    will be using the solution in an operational and day-to-day capacity) are prepared to make the go-live a success.
+&lt;/p&gt;
+&lt;p&gt;
+    This confirmation also a chance for the solution deployment team to confirm that organizational change management of
+    the end users has progressed sufficiently to enable go-live success, and also prepare for the go-live stabilization
+    phase of the deployment. It validates the effectiveness of the training delivered, the effectiveness of the
+    communication plan, and the overall buy-in from personnel at all operational levels to the solution. It can also
+    provide the deployment team with forewarning of any areas of the solution that the end users are not fully prepared
+    for, which will then allow the deployment team to brief the front-line support on items of concern.
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Review current go-live checklist
+    &lt;/li&gt;
+    &lt;li&gt;
+        Confirm training attendance and completion
+    &lt;/li&gt;
+    &lt;li&gt;
+        Confirm end-user communications published and received
+    &lt;/li&gt;
+    &lt;li&gt;
+        Confirm standard operating procedures (SOP) and job aids are updated and distributed
+    &lt;/li&gt;
+    &lt;li&gt;
+        Confirm key dates and activities have been communicated
+    &lt;/li&gt;
+    &lt;li&gt;
+        Confirm end-user provisioning has been completed and unlock process is in place
+    &lt;/li&gt;
+    &lt;li&gt;
+        Obtain formal end-user readiness assessment from team leads and stakeholders
+    &lt;/li&gt;
+    &lt;li&gt;
+        Confirm end-user readiness in project plans and checklists&amp;nbsp;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    A checklist should be used to confirm that all areas are accounted for and planned prior to kick-off. The appropriate
+    personnel should also be involved in the final decision when considering whether this confirmation is final. Techniques
+    employed to determine readiness may include:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Selection of criteria
+    &lt;/li&gt;
+    &lt;li&gt;
+        Survey composed and distributed
+    &lt;/li&gt;
+    &lt;li&gt;
+        End users interviewed
+    &lt;/li&gt;
+    &lt;li&gt;
+        Quizzes and interview results evaluated
+    &lt;/li&gt;
+    &lt;li&gt;
+        Job aids distributed
+    &lt;/li&gt;
+    &lt;li&gt;
+        One-on-one discussions held
+    &lt;/li&gt;
+    &lt;li&gt;
+        Confirmation of readiness obtained
+    &lt;/li&gt;
+    &lt;li&gt;
+        Training
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    The readiness assessment should be informed by knowledge of the solution to be deployed, a basic understanding of the
+    benefits, knowledge of the deployment plan for the site, and understanding of the resources available to assist the end
+    users in the go-live process.
+&lt;/p&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="15fb1017">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_b27MwDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/develop_go_no-go_checklist_7165AF99.html" Name="develop_go_no-go_checklist" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop go/no-go checklist" Id="_b27MwDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="e2404643"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Confirm training readiness" Id="_qJ4dgEKwEeW0q8PXmXLEQg" ShapeiconUrl="images/guidance.gif" nodeId="e67e4550" Url="" Name="Confirm training readiness" BackPath="">
+<copyright nodeId="e5bab342">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="87151a8f">Confirm training readiness</attribute>
+<attribute name="guid" nodeId="7d7fd54b">_qJ4dgEKwEeW0q8PXmXLEQg</attribute>
+<attribute name="presentationName" nodeId="d94513e0">Confirm training readiness</attribute>
+<attribute name="briefDescription" nodeId="ab3f2e68"></attribute>
+<attribute name="suppressed" nodeId="41d17ded">false</attribute>
+<attribute name="orderingGuide" nodeId="78055d36"></attribute>
+<attribute name="variabilityType" nodeId="a067c048">na</attribute>
+<attribute name="sectionName" nodeId="410f1b6c"></attribute>
+<attribute name="sectionDescription" nodeId="7b27c9b3">&lt;p&gt;
+    Confirm that all end user and support staff training is either complete or is scheduled to be completed before go-live
+    and that contents of the training are properly understood. Confirm that end user and support training and support
+    procedures are complete and understood so that cutover can begin.&amp;nbsp;
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Check&amp;nbsp;that all end user training is complete
+    &lt;/li&gt;
+    &lt;li&gt;
+        Check&amp;nbsp;that all support staff training is complete
+    &lt;/li&gt;
+    &lt;li&gt;
+        Check that scheduling and class participation is confirmed if additional training is required due to staggered
+        implementations, additional locations, or other reasons
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="b26d3f18">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_b27MwDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/develop_go_no-go_checklist_7165AF99.html" Name="develop_go_no-go_checklist" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop go/no-go checklist" Id="_b27MwDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="756693a"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Identify owners for each checklist item" Id="_A-bYUEItEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="44c53cd" Url="" Name="Identify owners for each checklist item" BackPath="">
+<copyright nodeId="654824bc">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="40a6b37b">Identify owners for each checklist item</attribute>
+<attribute name="guid" nodeId="fd09f7b9">_A-bYUEItEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="98fd3a02">Identify owners for each checklist item</attribute>
+<attribute name="briefDescription" nodeId="130a2fa7"></attribute>
+<attribute name="suppressed" nodeId="1ec40a0d">false</attribute>
+<attribute name="orderingGuide" nodeId="61bb61df"></attribute>
+<attribute name="variabilityType" nodeId="40c1a79a">na</attribute>
+<attribute name="sectionName" nodeId="d2d34561"></attribute>
+<attribute name="sectionDescription" nodeId="492b7148"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="fbb2cf43">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_b27MwDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/develop_go_no-go_checklist_7165AF99.html" Name="develop_go_no-go_checklist" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop go/no-go checklist" Id="_b27MwDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="d92391e8"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Validate tasks associated with checklist items are properly represented in cutover plan" Id="_CZqnQEItEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="b25e744d" Url="" Name="Validate tasks associated with checklist items are properly represented in cutover plan" BackPath="">
+<copyright nodeId="367b7c9c">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="bfae08a1">Validate tasks associated with checklist items are properly represented in cutover plan</attribute>
+<attribute name="guid" nodeId="ced8c95">_CZqnQEItEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="d2671209">Validate tasks associated with checklist items are properly represented in cutover plan</attribute>
+<attribute name="briefDescription" nodeId="85cf532b"></attribute>
+<attribute name="suppressed" nodeId="5b0afb6">false</attribute>
+<attribute name="orderingGuide" nodeId="9bbfcb9a"></attribute>
+<attribute name="variabilityType" nodeId="bf9cbe1f">na</attribute>
+<attribute name="sectionName" nodeId="32d4f983"></attribute>
+<attribute name="sectionDescription" nodeId="8e4d8596"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="a59ac57e">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_b27MwDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/develop_go_no-go_checklist_7165AF99.html" Name="develop_go_no-go_checklist" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop go/no-go checklist" Id="_b27MwDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="d0817bbd"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Review checklist with all stakeholders" Id="_HNmQUEItEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="fcb9405" Url="" Name="Review checklist with all stakeholders" BackPath="">
+<copyright nodeId="904ae40e">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="ffe4ccaf">Review checklist with all stakeholders</attribute>
+<attribute name="guid" nodeId="3f332626">_HNmQUEItEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="4dfca43c">Review checklist with all stakeholders</attribute>
+<attribute name="briefDescription" nodeId="74dc9070"></attribute>
+<attribute name="suppressed" nodeId="183cab3e">false</attribute>
+<attribute name="orderingGuide" nodeId="1b77f763"></attribute>
+<attribute name="variabilityType" nodeId="8290ba53">na</attribute>
+<attribute name="sectionName" nodeId="de45792e"></attribute>
+<attribute name="sectionDescription" nodeId="616ff865"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="d9a87f53">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_b27MwDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/develop_go_no-go_checklist_7165AF99.html" Name="develop_go_no-go_checklist" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop go/no-go checklist" Id="_b27MwDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="a6bbe3ce"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Publish checklist and test during cutover simulations" Id="_IjcB4EItEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="350ceceb" Url="" Name="Publish checklist and test during cutover simulations" BackPath="">
+<copyright nodeId="9ce2e158">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="96c353f1">Publish checklist and test during cutover simulations</attribute>
+<attribute name="guid" nodeId="ae583eb5">_IjcB4EItEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="32e47dd3">Publish checklist and test during cutover simulations</attribute>
+<attribute name="briefDescription" nodeId="8fef09bd"></attribute>
+<attribute name="suppressed" nodeId="839ad5cd">false</attribute>
+<attribute name="orderingGuide" nodeId="4de3335a"></attribute>
+<attribute name="variabilityType" nodeId="3c39e448">na</attribute>
+<attribute name="sectionName" nodeId="d3d7ed30"></attribute>
+<attribute name="sectionDescription" nodeId="b49084d9"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="d5c0e18d">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_b27MwDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/develop_go_no-go_checklist_7165AF99.html" Name="develop_go_no-go_checklist" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop go/no-go checklist" Id="_b27MwDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="1b74158a"></Element>
+</referenceList>
+</Element>
+</referenceList>
+</Element>

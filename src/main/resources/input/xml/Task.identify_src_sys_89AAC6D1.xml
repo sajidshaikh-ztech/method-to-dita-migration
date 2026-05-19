@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" TypeName="Task" Url="practice.ita.data.source.base/tasks/identify_src_sys_89AAC6D1.html" Name="identify_src_sys" BackPath="./../../" Type="Task" NodeiconUrl="" performingRoleName="Data Designer" DisplayName="Identify data source systems" Id="__kzc8AKdEeaUnrgs2Go66Q" ShapeiconUrl="images/task.gif" lang="en" nodeId="b82e97c1">
+<copyright nodeId="faadc752">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="15f19727">identify_src_sys</attribute>
+<attribute name="guid" nodeId="575d7806">__kzc8AKdEeaUnrgs2Go66Q</attribute>
+<attribute name="presentationName" nodeId="19095dd0">Identify data source systems</attribute>
+<attribute name="briefDescription" nodeId="a9b71ad0">Determine which system(s) the required data can be obtained from.</attribute>
+<attribute name="suppressed" nodeId="7ace558">false</attribute>
+<attribute name="orderingGuide" nodeId="f70d978e"></attribute>
+<attribute name="isAbstract" nodeId="662645c1">false</attribute>
+<attribute name="shapeicon" nodeId="2f1ff140"></attribute>
+<attribute name="nodeicon" nodeId="72aac124"></attribute>
+<attribute name="variabilityType" nodeId="70062fed">na</attribute>
+<reference name="presentation" nodeId="85d7bd4f">
+<Element Type="TaskDescription" TypeName="Task Description" NodeiconUrl="" DisplayName="Identify data source systems" Id="-MhGJ0jVIrbwF3c9AVjgsbA" ShapeiconUrl="images/guidance.gif" nodeId="1a467bfc" Url="" Name=",__kzc8AKdEeaUnrgs2Go66Q" BackPath="">
+<copyright nodeId="c1e3f9a3">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="7b201f19">,__kzc8AKdEeaUnrgs2Go66Q</attribute>
+<attribute name="guid" nodeId="68c0cf91">-MhGJ0jVIrbwF3c9AVjgsbA</attribute>
+<attribute name="presentationName" nodeId="d3feb301">Identify data source systems</attribute>
+<attribute name="briefDescription" nodeId="d002ea55"></attribute>
+<attribute name="suppressed" nodeId="d19b7607">false</attribute>
+<attribute name="orderingGuide" nodeId="44cdb338"></attribute>
+<attribute name="authors" nodeId="a11a1ad6"></attribute>
+<attribute name="changeDate" nodeId="b4b8248">Tue Apr 26 18:04:18 EDT 2016</attribute>
+<attribute name="changeDescription" nodeId="e2584bf7">APR 2016 - Baseline</attribute>
+<attribute name="version" nodeId="ff297925"></attribute>
+<attribute name="mainDescription" nodeId="79a6d77f">&lt;p&gt;
+    As part of this task, understand what the source system is expected to provide (e.g., 100% of the required data, base
+    record, enrichment of base records, critical updates to otherwise static data, etc.) and accordingly identify all
+    potential source systems for each required data entity. Additionally, determine authoritative sources of data for each
+    entity across all the source systems (discussions with the business and alignment to the data governance structure may
+    be required in order to determine the true and accurate data source).
+&lt;/p&gt;
+&lt;p&gt;
+    Gather the unique identifiers at the record level and create a mapping of each source entity to target system.
+    Determine whether the source systems will need to be modified in order to provide the necessary data and if any
+    filtering criteria may need to be applied to the source systemd from which data will be obtained. Understanding
+    availability and operating windows, recovery time frames and strategy, processing jobs and windows, etc. for each soure
+    system is also suggested.
+&lt;/p&gt;
+&lt;p&gt;
+    Where data is requested, but is not available, organize discussions, bringing up suggested resolution options and
+    documenting the approach that is selected to obtain the missing data entities.
+&lt;/p&gt;&lt;br /&gt;</attribute>
+<attribute name="externalId" nodeId="84c6fff4"></attribute>
+<attribute name="keyConsiderations" nodeId="d5f3ba8b">&lt;ul&gt;
+    &lt;li&gt;
+        If source systems are evolving or being updated, ensure change management procedures are applied to capture any
+        changes to source systems
+    &lt;/li&gt;
+    &lt;li&gt;
+        If source systems are being retired or replaced, their dependencies should be evaluated
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="longPresentationName" nodeId="93d38b13"></attribute>
+<attribute name="purpose" nodeId="b328d40c">To facilitate the extraction of data needed by users or target systems from source systems.</attribute>
+<attribute name="alternatives" nodeId="df696d2a"></attribute>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="performedBy" nodeId="a39bcddf">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Data Designer" Id="_QNWpszFhEeOpgKiDEQcdoQ" ShapeiconUrl="images/role.gif" nodeId="bf0620a9" Url="core.default.role_def.base/roles/data_designer_EA3738CD.html" Name="data_designer" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="mandatoryInput" nodeId="9e451def">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product Slot" NodeiconUrl="" DisplayName="[Requirements]" Id="_fN52YPsBEeOR0vuuc0PDYA" ShapeiconUrl="images/artifact.gif" nodeId="e61d82be" Url="core.default.slots.base/workproducts/rqmts_slot_A6B14D9C.html" Name="rqmts_slot" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="output" nodeId="94c587b9">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Data Source Catalog" Id="_qS9P4AeREeSpLaVcsgFw2g" ShapeiconUrl="images/artifact.gif" nodeId="24e9fd7c" Url="core.i_t.common.base/workproducts/data_src_cat_7C79B60B.html" Name="data_src_cat" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="Task_TaskDescriptors" nodeId="483bc926">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_DAQiEdAHEe6H-rjlu9wPlA,_qin9dNAlEe6H-rjlu9wPlA" ConcreteType="Task" Url="practice.ita.data.source.base/tasks/identify_src_sys_89AAC6D1.html" Name="identify_src_sys" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Identify data source systems" Id="_qin9dNAlEe6H-rjlu9wPlA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="93454e29"></Element>
+</referenceList>
+<reference name="performingRole" nodeId="1e585eeb">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Data Designer" Id="_QNWpszFhEeOpgKiDEQcdoQ" ShapeiconUrl="images/role.gif" nodeId="336120fe" Url="core.default.role_def.base/roles/data_designer_EA3738CD.html" Name="data_designer" BackPath="./../../"></Element>
+</reference>
+<referenceList name="customCategories" nodeId="e7cfee42">
+<Element Type="CustomCategory" TypeName="Custom Category" NodeiconUrl="" DisplayName="Tasks" Id="_0Sj48KDNEeOMmqbYX27PPA" ShapeiconUrl="core.default.nav_view.base/customcategories/resources/cat_task51.png" nodeId="aa9ffe14" Url="core.default.nav_view.base/customcategories/task_list_CDC9CEA6.html" Name="task_list" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="86eb7d7d">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_DAQiEdAHEe6H-rjlu9wPlA,_qin9dNAlEe6H-rjlu9wPlA" ConcreteType="Task" Url="practice.ita.data.source.base/tasks/identify_src_sys_89AAC6D1.html" Name="identify_src_sys" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Identify data source systems" Id="_qin9dNAlEe6H-rjlu9wPlA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="fec416ea">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Business Functional Design" Id="_C-aFkZLKEe6Ji6GnvvUfqw" relProcessPath="_C-aFkZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw" nodeId="66979308" Url="process.adv.eya_oracle.base/capabilitypatterns/bus_func_design_wkstrm_3B7B6F5B.html" Name="bus_func_design_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="6648d3c8">bus_func_design_wkstrm</attribute>
+<attribute name="guid" nodeId="e14bbefd">_C-aFkZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="de7ac54d">Business Functional Design</attribute>
+<attribute name="briefDescription" nodeId="a66d9c47"></attribute>
+<attribute name="suppressed" nodeId="16d0843">false</attribute>
+<attribute name="orderingGuide" nodeId="44b1129f"></attribute>
+<attribute name="isAbstract" nodeId="8867b2ed">false</attribute>
+<attribute name="shapeicon" nodeId="6e7671a9"></attribute>
+<attribute name="nodeicon" nodeId="80e604d6"></attribute>
+<attribute name="prefix" nodeId="5f7115c2">workstream</attribute>
+<attribute name="isPlanned" nodeId="84f79065">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="4e6f3fe2">false</attribute>
+<attribute name="isOptional" nodeId="eddb152e">false</attribute>
+<attribute name="isRepeatable" nodeId="38b0aec7">false</attribute>
+<attribute name="isOngoing" nodeId="91364a7b">false</attribute>
+<attribute name="isEventDriven" nodeId="d4b34dfc">false</attribute>
+<attribute name="variabilityType" nodeId="bddad2e8">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Document Reporting Specifications" Id="_DAQiEdAHEe6H-rjlu9wPlA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_DAQiEdAHEe6H-rjlu9wPlA" nodeId="3b8cb566" Url="process.adv.eya_oracle.base/capabilitypatterns/document_repo_specfic_B64C19E5.html" Name="document_repo_specfic" BackPath="./../../">
+<attribute name="name" nodeId="b425663f">document_repo_specfic</attribute>
+<attribute name="guid" nodeId="826c5d6">_DAQiEdAHEe6H-rjlu9wPlA</attribute>
+<attribute name="presentationName" nodeId="cfe8313f">Document Reporting Specifications</attribute>
+<attribute name="briefDescription" nodeId="a53a1859">For the in-scope reports, document the specifications needed to implement the reports in the future state. Include the relevant data sources and where possible, provide mock-ups.</attribute>
+<attribute name="suppressed" nodeId="f80baedc">false</attribute>
+<attribute name="orderingGuide" nodeId="446cce7"></attribute>
+<attribute name="isAbstract" nodeId="7e54c1ce">false</attribute>
+<attribute name="shapeicon" nodeId="25cd18b9"></attribute>
+<attribute name="nodeicon" nodeId="118b4d32"></attribute>
+<attribute name="prefix" nodeId="de6625f1"></attribute>
+<attribute name="isPlanned" nodeId="453d843e">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d01e5a55">false</attribute>
+<attribute name="isOptional" nodeId="5761a782">false</attribute>
+<attribute name="isRepeatable" nodeId="9833a65f">false</attribute>
+<attribute name="isOngoing" nodeId="c99f7d5b">false</attribute>
+<attribute name="isEventDriven" nodeId="86034136">false</attribute>
+<attribute name="variabilityType" nodeId="4e208157">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_DAQiEdAHEe6H-rjlu9wPlA,_qin9dNAlEe6H-rjlu9wPlA" ConcreteType="Task" Url="practice.ita.data.source.base/tasks/identify_src_sys_89AAC6D1.html" Name="identify_src_sys" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Identify data source systems" Id="_qin9dNAlEe6H-rjlu9wPlA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="feac75c8">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="165b1c2c" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="c737f59b">eya_oracle</attribute>
+<attribute name="guid" nodeId="679848ab">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="a21b9075">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="f71fec85"></attribute>
+<attribute name="suppressed" nodeId="528b6a57">false</attribute>
+<attribute name="orderingGuide" nodeId="63485bcf"></attribute>
+<attribute name="isAbstract" nodeId="82d37f75">false</attribute>
+<attribute name="shapeicon" nodeId="31706c69"></attribute>
+<attribute name="nodeicon" nodeId="68d1ecd3"></attribute>
+<attribute name="prefix" nodeId="e073bff3"></attribute>
+<attribute name="isPlanned" nodeId="6bf66b38">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="80921e45">false</attribute>
+<attribute name="isOptional" nodeId="f116cea5">false</attribute>
+<attribute name="isRepeatable" nodeId="a920c0f5">false</attribute>
+<attribute name="isOngoing" nodeId="89750c03">false</attribute>
+<attribute name="isEventDriven" nodeId="64acfa93">false</attribute>
+<attribute name="variabilityType" nodeId="8238b80">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Confirm and Design" Id="_bRCPsIs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA" nodeId="10594685" Url="process.adv.eya_oracle.base/deliveryprocesses/confirm_and_design_29FFDB9.html" Name="confirm_and_design" BackPath="./../../">
+<attribute name="name" nodeId="8ac807d5">confirm_and_design</attribute>
+<attribute name="guid" nodeId="599eecc6">_bRCPsIs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="e7e9ddb3">Confirm and Design</attribute>
+<attribute name="briefDescription" nodeId="ba539615">Define business requirements, map process flows and facilitate fit-gap workshops. Define technology and testing strategies. Develop the master configuration workbook, RICEFW inventory and prepare for progressive build cycles.</attribute>
+<attribute name="suppressed" nodeId="3ace1027">false</attribute>
+<attribute name="orderingGuide" nodeId="bd0280ef"></attribute>
+<attribute name="isAbstract" nodeId="9d0a8eaf">false</attribute>
+<attribute name="shapeicon" nodeId="68a65982"></attribute>
+<attribute name="nodeicon" nodeId="71ecb06"></attribute>
+<attribute name="prefix" nodeId="88361f89"></attribute>
+<attribute name="isPlanned" nodeId="71f9f6e7">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="24049f67">false</attribute>
+<attribute name="isOptional" nodeId="7204d0be">false</attribute>
+<attribute name="isRepeatable" nodeId="3ca078eb">false</attribute>
+<attribute name="isOngoing" nodeId="d27c78d7">false</attribute>
+<attribute name="isEventDriven" nodeId="d961eac8">false</attribute>
+<attribute name="variabilityType" nodeId="6238cc1b">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Document Reporting Specifications" Id="_xYN3cdpFEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA,_xYN3cdpFEe6TH6yb1zVWhw" nodeId="6b2877ee" Url="process.adv.eya_oracle.base/deliveryprocesses/document_repo_specfic_713C6E6A.html" Name="document_repo_specfic" BackPath="./../../">
+<attribute name="name" nodeId="3ec97c16">document_repo_specfic</attribute>
+<attribute name="guid" nodeId="a9d1daf4">_xYN3cdpFEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="c9e1b600">Document Reporting Specifications</attribute>
+<attribute name="briefDescription" nodeId="18ceb752">For the in-scope reports, document the specifications needed to implement the reports in the future state. Include the relevant data sources and where possible, provide mock-ups.</attribute>
+<attribute name="suppressed" nodeId="a49564b9">false</attribute>
+<attribute name="orderingGuide" nodeId="1d1018ef"></attribute>
+<attribute name="isAbstract" nodeId="bc2ff011">false</attribute>
+<attribute name="shapeicon" nodeId="a0fa582e"></attribute>
+<attribute name="nodeicon" nodeId="dce6bf7f"></attribute>
+<attribute name="prefix" nodeId="cf58f73a"></attribute>
+<attribute name="isPlanned" nodeId="4c44cb0c">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="8cecb047">false</attribute>
+<attribute name="isOptional" nodeId="34137d24">false</attribute>
+<attribute name="isRepeatable" nodeId="5f33b15">false</attribute>
+<attribute name="isOngoing" nodeId="b2f6debe">false</attribute>
+<attribute name="isEventDriven" nodeId="f48178d">false</attribute>
+<attribute name="variabilityType" nodeId="43154415">extends</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

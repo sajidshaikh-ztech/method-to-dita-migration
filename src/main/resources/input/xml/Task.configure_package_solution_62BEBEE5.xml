@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" TypeName="Task" Url="process.adv.eya_oracle.base/tasks/configure_package_solution_62BEBEE5.html" Name="configure_package_solution" BackPath="./../../" Type="Task" NodeiconUrl="" performingRoleName="Functional Architect" DisplayName="Configure package solution" Id="_Qh3TcDGPEe-TauTqJPNl_g" ShapeiconUrl="images/task.gif" lang="en" nodeId="cada37eb">
+<copyright nodeId="3390cb1f">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="845b21e5">configure_package_solution</attribute>
+<attribute name="guid" nodeId="ef5d8541">_Qh3TcDGPEe-TauTqJPNl_g</attribute>
+<attribute name="presentationName" nodeId="e2a9dfe1">Configure package solution</attribute>
+<attribute name="briefDescription" nodeId="c42b9741">Set up the package application according to configuration parameters for the business environment or function.</attribute>
+<attribute name="suppressed" nodeId="6b49fd34">false</attribute>
+<attribute name="orderingGuide" nodeId="3f88aaf2"></attribute>
+<attribute name="isAbstract" nodeId="b722ba46">false</attribute>
+<attribute name="shapeicon" nodeId="f0503652"></attribute>
+<attribute name="nodeicon" nodeId="895b0ce2"></attribute>
+<attribute name="variabilityType" nodeId="1b23a2dd">extendsReplaces</attribute>
+<reference name="presentation" nodeId="d84afc78">
+<Element Type="TaskDescription" TypeName="Task Description" NodeiconUrl="" DisplayName="" Id="-6Hc3bKgem8ZqYamKualaaQ" ShapeiconUrl="images/guidance.gif" nodeId="4fa3136" Url="" Name="configure_package_solution,_Qh3TcDGPEe-TauTqJPNl_g" BackPath="">
+<attribute name="name" nodeId="7a3e6a51">configure_package_solution,_Qh3TcDGPEe-TauTqJPNl_g</attribute>
+<attribute name="guid" nodeId="a1ea860">-6Hc3bKgem8ZqYamKualaaQ</attribute>
+<attribute name="presentationName" nodeId="a873b25d"></attribute>
+<attribute name="briefDescription" nodeId="c4016c84"></attribute>
+<attribute name="suppressed" nodeId="c423f771">false</attribute>
+<attribute name="orderingGuide" nodeId="17f53a41"></attribute>
+<attribute name="authors" nodeId="f7da4f56"></attribute>
+<attribute name="changeDate" nodeId="36ab1fe6"></attribute>
+<attribute name="changeDescription" nodeId="aa7a8273">MAR 2017 - included optional inputs with other inputs|NOV 2015 - changed output to newly created outcome</attribute>
+<attribute name="version" nodeId="28eaa606"></attribute>
+<attribute name="mainDescription" nodeId="61a53377">&lt;p&gt;
+    Configure the package application according to configuration parameters for the business environment or function. This
+    typically includes the metadata and data structures the application will operate in, like a chart of accounts, legal
+    entities, organizational structure or reporting dimensional hierarchy. Configure basic solution functionality for each
+    of the functional teams so basic processes can be tested. Refer to guidance documents for any package specific
+    considerations.
+&lt;/p&gt;
+&lt;p&gt;
+    This is the starting point to allow testing to begin. Some details of configuration settings may not be known at this
+    time, but the basic configuration can be completed.&lt;br /&gt;
+&lt;/p&gt;</attribute>
+<attribute name="externalId" nodeId="98f14222"></attribute>
+<attribute name="keyConsiderations" nodeId="bd602af7"></attribute>
+<attribute name="longPresentationName" nodeId="82156459"></attribute>
+<attribute name="purpose" nodeId="a9c1e4a6">&lt;p&gt;
+    The purpose of this task is to:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Customize the package application with the specific configuration settings for the functional processes
+    &lt;/li&gt;
+    &lt;li&gt;
+        Implement the core configuration, write valid test cases and document in solution-specific management tools as
+        required
+    &lt;/li&gt;
+    &lt;li&gt;
+        Allow basic testing to start
+    &lt;/li&gt;
+    &lt;li&gt;
+        Allow for more specific design details to be fleshed out&lt;br /&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="alternatives" nodeId="18669c87"></attribute>
+<referenceList sortValue="Manual" name="sections" nodeId="330050c9">
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Review configuration standards" Id="_rQQMgALZEeSFtNrJ4VAzEw" ShapeiconUrl="images/guidance.gif" nodeId="67c60fb1" Url="" Name="Review configuration standards" BackPath="">
+<copyright nodeId="38078c54">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="5f5eec60">Review configuration standards</attribute>
+<attribute name="guid" nodeId="170559fe">_rQQMgALZEeSFtNrJ4VAzEw</attribute>
+<attribute name="presentationName" nodeId="ae5f8cac">Review configuration standards</attribute>
+<attribute name="briefDescription" nodeId="ebcc91f4"></attribute>
+<attribute name="suppressed" nodeId="7366e1ab">false</attribute>
+<attribute name="orderingGuide" nodeId="ffa3c0fd"></attribute>
+<attribute name="variabilityType" nodeId="8d6d10ed">na</attribute>
+<attribute name="sectionName" nodeId="98a16e80"></attribute>
+<attribute name="sectionDescription" nodeId="964d337a">Review configuration standards to ensure all necessary elements are considered during package application configuration.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="d7a0ba02">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_yVdJwTGPEe-TauTqJPNl_g,_YMkqcDGREe-TauTqJPNl_g" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/configure_package_solution_62BEBEE5.html" Name="configure_package_solution" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Configure package solution" Id="_YMkqcDGREe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="b768991b"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Review system requirements" Id="_tIkZAALZEeSFtNrJ4VAzEw" ShapeiconUrl="images/guidance.gif" nodeId="e0c71c20" Url="" Name="Review system requirements" BackPath="">
+<copyright nodeId="cdba4107">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="564c0ce5">Review system requirements</attribute>
+<attribute name="guid" nodeId="e1da69f1">_tIkZAALZEeSFtNrJ4VAzEw</attribute>
+<attribute name="presentationName" nodeId="6d3bd1e1">Review system requirements</attribute>
+<attribute name="briefDescription" nodeId="4dc8e5ab"></attribute>
+<attribute name="suppressed" nodeId="9f90d095">false</attribute>
+<attribute name="orderingGuide" nodeId="775f91d0"></attribute>
+<attribute name="variabilityType" nodeId="c61fdd80">na</attribute>
+<attribute name="sectionName" nodeId="e982ccf9"></attribute>
+<attribute name="sectionDescription" nodeId="fdec75aa">Review system requirements to ensure all necessary elements are considered during package application configuration.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="d103ba99">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_yVdJwTGPEe-TauTqJPNl_g,_YMkqcDGREe-TauTqJPNl_g" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/configure_package_solution_62BEBEE5.html" Name="configure_package_solution" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Configure package solution" Id="_YMkqcDGREe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="4ead389b"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Review configuration parameters" Id="_uYSUcALZEeSFtNrJ4VAzEw" ShapeiconUrl="images/guidance.gif" nodeId="46e363f6" Url="" Name="Review configuration parameters" BackPath="">
+<copyright nodeId="34d53d1e">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="b18645">Review configuration parameters</attribute>
+<attribute name="guid" nodeId="1ef4dcb2">_uYSUcALZEeSFtNrJ4VAzEw</attribute>
+<attribute name="presentationName" nodeId="6f720ef0">Review configuration parameters</attribute>
+<attribute name="briefDescription" nodeId="6f5fd216"></attribute>
+<attribute name="suppressed" nodeId="9f8e7e7d">false</attribute>
+<attribute name="orderingGuide" nodeId="8b798099"></attribute>
+<attribute name="variabilityType" nodeId="e416887">na</attribute>
+<attribute name="sectionName" nodeId="ec220342"></attribute>
+<attribute name="sectionDescription" nodeId="8120ad96">Review configuration parameters to determine required package application settings.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="e1332f1d">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_yVdJwTGPEe-TauTqJPNl_g,_YMkqcDGREe-TauTqJPNl_g" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/configure_package_solution_62BEBEE5.html" Name="configure_package_solution" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Configure package solution" Id="_YMkqcDGREe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="6c46bd5b"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Review any reported configuration defects and determine root causes" Id="_wAb-AALZEeSFtNrJ4VAzEw" ShapeiconUrl="images/guidance.gif" nodeId="f09b9271" Url="" Name="Review any reported configuration defects and determine root causes" BackPath="">
+<copyright nodeId="de597521">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="549a3420">Review any reported configuration defects and determine root causes</attribute>
+<attribute name="guid" nodeId="ec082d74">_wAb-AALZEeSFtNrJ4VAzEw</attribute>
+<attribute name="presentationName" nodeId="d0a97357">Review any reported configuration defects and determine root causes</attribute>
+<attribute name="briefDescription" nodeId="bbb5f5c2"></attribute>
+<attribute name="suppressed" nodeId="dda22b47">false</attribute>
+<attribute name="orderingGuide" nodeId="b2bdfae5"></attribute>
+<attribute name="variabilityType" nodeId="883adba5">na</attribute>
+<attribute name="sectionName" nodeId="bccb4c71"></attribute>
+<attribute name="sectionDescription" nodeId="c9f43640">If they have been reported, review any configuration defects to determine cause, effect and resolution. If applicable,
+check out the configuration object from the version&amp;nbsp;control system.&amp;nbsp;Update any defect tracking tools used to
+communicate status to the rest of the team.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="f398508e">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_yVdJwTGPEe-TauTqJPNl_g,_YMkqcDGREe-TauTqJPNl_g" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/configure_package_solution_62BEBEE5.html" Name="configure_package_solution" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Configure package solution" Id="_YMkqcDGREe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="cd6777a7"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Set up legal entity structure" Id="_U8jHAIInEeSAdfEFdinTBA" ShapeiconUrl="images/guidance.gif" nodeId="34b27d9d" Url="" Name="Set up legal entity structure" BackPath="">
+<copyright nodeId="34df63d4">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="f50596e8">Set up legal entity structure</attribute>
+<attribute name="guid" nodeId="56662e86">_U8jHAIInEeSAdfEFdinTBA</attribute>
+<attribute name="presentationName" nodeId="d7838b04">Set up legal entity structure</attribute>
+<attribute name="briefDescription" nodeId="d0873293"></attribute>
+<attribute name="suppressed" nodeId="e63be1b6">false</attribute>
+<attribute name="orderingGuide" nodeId="b1366b3f"></attribute>
+<attribute name="variabilityType" nodeId="895ec1b1">na</attribute>
+<attribute name="sectionName" nodeId="20fae830"></attribute>
+<attribute name="sectionDescription" nodeId="238dc74c"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="9b99dd04">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_yVdJwTGPEe-TauTqJPNl_g,_YMkqcDGREe-TauTqJPNl_g" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/configure_package_solution_62BEBEE5.html" Name="configure_package_solution" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Configure package solution" Id="_YMkqcDGREe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="e2ecf01f"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Configure package application according to the software development plan" Id="_xuKrIALZEeSFtNrJ4VAzEw" ShapeiconUrl="images/guidance.gif" nodeId="8aa02381" Url="" Name="Configure package application according to the software development plan" BackPath="">
+<copyright nodeId="40fed9c6">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="29dac37">Configure package application according to the software development plan</attribute>
+<attribute name="guid" nodeId="35da8bec">_xuKrIALZEeSFtNrJ4VAzEw</attribute>
+<attribute name="presentationName" nodeId="6762e701">Configure package application according to the software development plan</attribute>
+<attribute name="briefDescription" nodeId="200ed44c"></attribute>
+<attribute name="suppressed" nodeId="32023670">false</attribute>
+<attribute name="orderingGuide" nodeId="e90ba2d1"></attribute>
+<attribute name="variabilityType" nodeId="e22336cf">na</attribute>
+<attribute name="sectionName" nodeId="c53627ff"></attribute>
+<attribute name="sectionDescription" nodeId="7fb77d89">Configure package application with the settings for the business process / function in question and as prioritized by the
+software development plan.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="6ecee39c">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_yVdJwTGPEe-TauTqJPNl_g,_YMkqcDGREe-TauTqJPNl_g" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/configure_package_solution_62BEBEE5.html" Name="configure_package_solution" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Configure package solution" Id="_YMkqcDGREe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="c1f59b44"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Create configuration documentation" Id="_y_eiAALZEeSFtNrJ4VAzEw" ShapeiconUrl="images/guidance.gif" nodeId="f016a6af" Url="" Name="Create configuration documentation" BackPath="">
+<copyright nodeId="75bfc242">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="d917cb82">Create configuration documentation</attribute>
+<attribute name="guid" nodeId="a8d680f7">_y_eiAALZEeSFtNrJ4VAzEw</attribute>
+<attribute name="presentationName" nodeId="83a561b6">Create configuration documentation</attribute>
+<attribute name="briefDescription" nodeId="5847d13"></attribute>
+<attribute name="suppressed" nodeId="f2f9af4c">false</attribute>
+<attribute name="orderingGuide" nodeId="5a99f88a"></attribute>
+<attribute name="variabilityType" nodeId="378843cb">na</attribute>
+<attribute name="sectionName" nodeId="dd15974d"></attribute>
+<attribute name="sectionDescription" nodeId="fcc77c19">Document key configuration settings that may need to be referenced by the maintenance and support team.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="e2669add">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_yVdJwTGPEe-TauTqJPNl_g,_YMkqcDGREe-TauTqJPNl_g" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/configure_package_solution_62BEBEE5.html" Name="configure_package_solution" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Configure package solution" Id="_YMkqcDGREe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="f28b66cf"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Unit test configuration" Id="_0S__YALZEeSFtNrJ4VAzEw" ShapeiconUrl="images/guidance.gif" nodeId="81cab3bd" Url="" Name="Unit test configuration" BackPath="">
+<copyright nodeId="86cf6a96">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="ef2cf068">Unit test configuration</attribute>
+<attribute name="guid" nodeId="56bc8f65">_0S__YALZEeSFtNrJ4VAzEw</attribute>
+<attribute name="presentationName" nodeId="c9d6d117">Unit test configuration</attribute>
+<attribute name="briefDescription" nodeId="d81f0683"></attribute>
+<attribute name="suppressed" nodeId="8b1e56d6">false</attribute>
+<attribute name="orderingGuide" nodeId="e25d150b"></attribute>
+<attribute name="variabilityType" nodeId="62c5931a">na</attribute>
+<attribute name="sectionName" nodeId="52baa554"></attribute>
+<attribute name="sectionDescription" nodeId="c7a2c9">&lt;h5&gt;
+    1. Write unit test scripts
+&lt;/h5&gt;
+&lt;p&gt;
+    Develop unit test scripts based on functional requirements, including expected outcomes in the script. Unit test
+    scripts form the building blocks to create assembly, integration and user acceptance tests, therefore test scripts
+    should be detailed and robust so they can used by the test workstream to develop other tests.
+&lt;/p&gt;
+&lt;h5&gt;
+    2. Define unit test data
+&lt;/h5&gt;
+&lt;p&gt;
+    Define required data elements for successful unit testing of either the code or configured object. For the purpose of
+    unit testing, the data needed will be created.
+&lt;/p&gt;
+&lt;h5&gt;
+    3. Review and sign off unit test scripts
+&lt;/h5&gt;
+&lt;p&gt;
+    Review unit test scripts with the test workstream and functional teams (including key client stakeholders). Obtain
+    sign-off from these parties before proceeding.
+&lt;/p&gt;
+&lt;h5&gt;
+    4. Perform unit tests and log results
+&lt;/h5&gt;
+&lt;p&gt;
+    Execute unit test according to approved test scripts and record results, including whether expected (and desired)
+    results were achieved. Screenshots and key output should be attached to the test and form documentation to support
+    approval of test results by the test workstream.
+&lt;/p&gt;
+&lt;h5&gt;
+    5. Fix defects and retest
+&lt;/h5&gt;
+&lt;p&gt;
+    Resolve defects (i.e., configuration changes or code fixes) and retest. Record test results including whether the
+    object produced the expected (and desired) result. Repeat tasks 4 and 5 until all major defects have been resolved.
+&lt;/p&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="56b871b1">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_yVdJwTGPEe-TauTqJPNl_g,_YMkqcDGREe-TauTqJPNl_g" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/configure_package_solution_62BEBEE5.html" Name="configure_package_solution" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Configure package solution" Id="_YMkqcDGREe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="628cf66c"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Check in configuration objects to version control system" Id="_Tg8TkB4tEeSZH-OlPBHRPw" ShapeiconUrl="images/guidance.gif" nodeId="1eabeae1" Url="" Name="Check in configuration objects to version control system" BackPath="">
+<copyright nodeId="b0bffbd7">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="4be3266f">Check in configuration objects to version control system</attribute>
+<attribute name="guid" nodeId="3bfb5f4c">_Tg8TkB4tEeSZH-OlPBHRPw</attribute>
+<attribute name="presentationName" nodeId="146c2085">Check in configuration objects to version control system</attribute>
+<attribute name="briefDescription" nodeId="e69fab8"></attribute>
+<attribute name="suppressed" nodeId="af0d438f">false</attribute>
+<attribute name="orderingGuide" nodeId="afac72fe"></attribute>
+<attribute name="variabilityType" nodeId="f3c33df">na</attribute>
+<attribute name="sectionName" nodeId="eaacd177"></attribute>
+<attribute name="sectionDescription" nodeId="836fe051"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="16a69aec">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_yVdJwTGPEe-TauTqJPNl_g,_YMkqcDGREe-TauTqJPNl_g" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/configure_package_solution_62BEBEE5.html" Name="configure_package_solution" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Configure package solution" Id="_YMkqcDGREe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="49bd1087"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Update requirements traceability matrix" Id="_1tPv0ALZEeSFtNrJ4VAzEw" ShapeiconUrl="images/guidance.gif" nodeId="fee19949" Url="" Name="Update requirements traceability matrix" BackPath="">
+<copyright nodeId="ebce5aa4">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="c6fa2221">Update requirements traceability matrix</attribute>
+<attribute name="guid" nodeId="34a24a91">_1tPv0ALZEeSFtNrJ4VAzEw</attribute>
+<attribute name="presentationName" nodeId="714bf219">Update requirements traceability matrix</attribute>
+<attribute name="briefDescription" nodeId="9b1d4feb"></attribute>
+<attribute name="suppressed" nodeId="8cec14ed">false</attribute>
+<attribute name="orderingGuide" nodeId="f1dfa8a9"></attribute>
+<attribute name="variabilityType" nodeId="dc493529">na</attribute>
+<attribute name="sectionName" nodeId="ff08f7b6"></attribute>
+<attribute name="sectionDescription" nodeId="a36612d3">Open the requirements traceability matrix document and input the configuration identifiers / table names, etc. to the
+associated design specifications and requirement IDs.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="92fd6e87">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_yVdJwTGPEe-TauTqJPNl_g,_YMkqcDGREe-TauTqJPNl_g" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/configure_package_solution_62BEBEE5.html" Name="configure_package_solution" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Configure package solution" Id="_YMkqcDGREe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="d0300b31"></Element>
+</referenceList>
+</Element>
+</referenceList>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="performedBy" nodeId="6b832b20">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Functional Architect" Id="_EZAaoMxjEe-ZJLQgqxU0kQ" ShapeiconUrl="images/role.gif" nodeId="b095de54" Url="process.adv.eya_oracle.base/roles/func_architect_A28F4FB1.html" Name="func_architect" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="mandatoryInput" nodeId="36d92a56">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Configuration Specifications" Id="_wyMI4OzREeOSPP8M3ENqOA" ShapeiconUrl="images/artifact.gif" nodeId="30981e70" Url="core.i_t.common.base/workproducts/config_specs_BA3B70B0.html" Name="config_specs" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Functional Requirement" Id="_JUXPcMRiEeapHOG_ozfrTg" ShapeiconUrl="images/artifact.gif" nodeId="e7d11743" Url="core.gen.common.base/workproducts/func_rqmt_95C4EC3B.html" Name="func_rqmt" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Non-Functional Requirements" Id="_jbA9YAIPEeS9erBHLNmxUg" ShapeiconUrl="images/artifact.gif" nodeId="39d8670b" Url="core.gen.common.base/workproducts/non_func_rqmts_18CC3776.html" Name="non_func_rqmts" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="output" nodeId="d376d8e4">
+<Element ShowFullMethodContent="false" Type="Outcome" TypeName="Outcome" NodeiconUrl="" DisplayName="Solution Configuration Set" Id="_apbdsIiIEeWhGNFFZ7dBRQ" ShapeiconUrl="images/outcome.gif" nodeId="d68455f5" Url="core.i_t.common.base/workproducts/soln_config_F6287D98.html" Name="soln_config" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="additionallyPerformedBy" nodeId="adb38e6a">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Analyst" Id="_W7RhoAk9EeOR5fNLLJCc5g" ShapeiconUrl="images/role.gif" nodeId="d2b419ec" Url="core.default.role_def.base/roles/analyst_46D75ED7.html" Name="analyst" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="steps" nodeId="cb0caa06">
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Review configuration standards" Id="_rQQMgALZEeSFtNrJ4VAzEw" ShapeiconUrl="images/guidance.gif" nodeId="ad8dd983" Url="" Name="Review configuration standards" BackPath="">
+<copyright nodeId="513b3662">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="ea7161bd">Review configuration standards</attribute>
+<attribute name="guid" nodeId="dfa9c9a3">_rQQMgALZEeSFtNrJ4VAzEw</attribute>
+<attribute name="presentationName" nodeId="778bf7a7">Review configuration standards</attribute>
+<attribute name="briefDescription" nodeId="d79ec2fd"></attribute>
+<attribute name="suppressed" nodeId="2743e76b">false</attribute>
+<attribute name="orderingGuide" nodeId="4f2a1ac1"></attribute>
+<attribute name="variabilityType" nodeId="17bd01b1">na</attribute>
+<attribute name="sectionName" nodeId="7bf5e27c"></attribute>
+<attribute name="sectionDescription" nodeId="a053e981">Review configuration standards to ensure all necessary elements are considered during package application configuration.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="bbb12acd">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_yVdJwTGPEe-TauTqJPNl_g,_YMkqcDGREe-TauTqJPNl_g" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/configure_package_solution_62BEBEE5.html" Name="configure_package_solution" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Configure package solution" Id="_YMkqcDGREe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="7a6e9740"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Review system requirements" Id="_tIkZAALZEeSFtNrJ4VAzEw" ShapeiconUrl="images/guidance.gif" nodeId="9d928993" Url="" Name="Review system requirements" BackPath="">
+<copyright nodeId="b6bcea4c">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="98e4db72">Review system requirements</attribute>
+<attribute name="guid" nodeId="3cd21081">_tIkZAALZEeSFtNrJ4VAzEw</attribute>
+<attribute name="presentationName" nodeId="b9638a83">Review system requirements</attribute>
+<attribute name="briefDescription" nodeId="778e31df"></attribute>
+<attribute name="suppressed" nodeId="5efd4271">false</attribute>
+<attribute name="orderingGuide" nodeId="2a3aed57"></attribute>
+<attribute name="variabilityType" nodeId="a0f3669">na</attribute>
+<attribute name="sectionName" nodeId="66a1177b"></attribute>
+<attribute name="sectionDescription" nodeId="6855a177">Review system requirements to ensure all necessary elements are considered during package application configuration.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="d90d43a4">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_yVdJwTGPEe-TauTqJPNl_g,_YMkqcDGREe-TauTqJPNl_g" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/configure_package_solution_62BEBEE5.html" Name="configure_package_solution" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Configure package solution" Id="_YMkqcDGREe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="3ff2eb3e"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Review configuration parameters" Id="_uYSUcALZEeSFtNrJ4VAzEw" ShapeiconUrl="images/guidance.gif" nodeId="4e0fb67d" Url="" Name="Review configuration parameters" BackPath="">
+<copyright nodeId="7cfaba7a">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="8cce3b52">Review configuration parameters</attribute>
+<attribute name="guid" nodeId="90e25333">_uYSUcALZEeSFtNrJ4VAzEw</attribute>
+<attribute name="presentationName" nodeId="dff72b24">Review configuration parameters</attribute>
+<attribute name="briefDescription" nodeId="81536897"></attribute>
+<attribute name="suppressed" nodeId="2a17433f">false</attribute>
+<attribute name="orderingGuide" nodeId="cee38dec"></attribute>
+<attribute name="variabilityType" nodeId="2dd88475">na</attribute>
+<attribute name="sectionName" nodeId="abdf50d8"></attribute>
+<attribute name="sectionDescription" nodeId="22a94d2">Review configuration parameters to determine required package application settings.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="e09091e2">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_yVdJwTGPEe-TauTqJPNl_g,_YMkqcDGREe-TauTqJPNl_g" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/configure_package_solution_62BEBEE5.html" Name="configure_package_solution" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Configure package solution" Id="_YMkqcDGREe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="c9dc92a4"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Review any reported configuration defects and determine root causes" Id="_wAb-AALZEeSFtNrJ4VAzEw" ShapeiconUrl="images/guidance.gif" nodeId="8245dc33" Url="" Name="Review any reported configuration defects and determine root causes" BackPath="">
+<copyright nodeId="d12479e8">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="3523321d">Review any reported configuration defects and determine root causes</attribute>
+<attribute name="guid" nodeId="8a471cdb">_wAb-AALZEeSFtNrJ4VAzEw</attribute>
+<attribute name="presentationName" nodeId="ed5b4dee">Review any reported configuration defects and determine root causes</attribute>
+<attribute name="briefDescription" nodeId="e7127ff0"></attribute>
+<attribute name="suppressed" nodeId="97ab9260">false</attribute>
+<attribute name="orderingGuide" nodeId="ec530d85"></attribute>
+<attribute name="variabilityType" nodeId="9e96bdc0">na</attribute>
+<attribute name="sectionName" nodeId="9cd0b7d9"></attribute>
+<attribute name="sectionDescription" nodeId="1f3f0fe2">If they have been reported, review any configuration defects to determine cause, effect and resolution. If applicable,
+check out the configuration object from the version&amp;nbsp;control system.&amp;nbsp;Update any defect tracking tools used to
+communicate status to the rest of the team.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="158d189d">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_yVdJwTGPEe-TauTqJPNl_g,_YMkqcDGREe-TauTqJPNl_g" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/configure_package_solution_62BEBEE5.html" Name="configure_package_solution" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Configure package solution" Id="_YMkqcDGREe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="c9caab6e"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Set up legal entity structure" Id="_U8jHAIInEeSAdfEFdinTBA" ShapeiconUrl="images/guidance.gif" nodeId="ca9925b3" Url="" Name="Set up legal entity structure" BackPath="">
+<copyright nodeId="64244c9b">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="6747bd09">Set up legal entity structure</attribute>
+<attribute name="guid" nodeId="98fd99b7">_U8jHAIInEeSAdfEFdinTBA</attribute>
+<attribute name="presentationName" nodeId="ff8f37f9">Set up legal entity structure</attribute>
+<attribute name="briefDescription" nodeId="7456f8a0"></attribute>
+<attribute name="suppressed" nodeId="9ba6855a">false</attribute>
+<attribute name="orderingGuide" nodeId="c51827b6"></attribute>
+<attribute name="variabilityType" nodeId="8f4ec96f">na</attribute>
+<attribute name="sectionName" nodeId="e44c70c4"></attribute>
+<attribute name="sectionDescription" nodeId="549ad584"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="f15d3788">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_yVdJwTGPEe-TauTqJPNl_g,_YMkqcDGREe-TauTqJPNl_g" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/configure_package_solution_62BEBEE5.html" Name="configure_package_solution" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Configure package solution" Id="_YMkqcDGREe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="fab13e7c"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Configure package application according to the software development plan" Id="_xuKrIALZEeSFtNrJ4VAzEw" ShapeiconUrl="images/guidance.gif" nodeId="9a7f581c" Url="" Name="Configure package application according to the software development plan" BackPath="">
+<copyright nodeId="d24827f3">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="75b6cbc3">Configure package application according to the software development plan</attribute>
+<attribute name="guid" nodeId="d39eaad4">_xuKrIALZEeSFtNrJ4VAzEw</attribute>
+<attribute name="presentationName" nodeId="f7938159">Configure package application according to the software development plan</attribute>
+<attribute name="briefDescription" nodeId="95f76d8e"></attribute>
+<attribute name="suppressed" nodeId="b3876f1b">false</attribute>
+<attribute name="orderingGuide" nodeId="1ca7f17b"></attribute>
+<attribute name="variabilityType" nodeId="5b2427a3">na</attribute>
+<attribute name="sectionName" nodeId="dfed395f"></attribute>
+<attribute name="sectionDescription" nodeId="1580a560">Configure package application with the settings for the business process / function in question and as prioritized by the
+software development plan.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="bd628524">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_yVdJwTGPEe-TauTqJPNl_g,_YMkqcDGREe-TauTqJPNl_g" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/configure_package_solution_62BEBEE5.html" Name="configure_package_solution" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Configure package solution" Id="_YMkqcDGREe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="e555296b"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Create configuration documentation" Id="_y_eiAALZEeSFtNrJ4VAzEw" ShapeiconUrl="images/guidance.gif" nodeId="66d99400" Url="" Name="Create configuration documentation" BackPath="">
+<copyright nodeId="348b5873">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="fed2e8b6">Create configuration documentation</attribute>
+<attribute name="guid" nodeId="ec74aa4f">_y_eiAALZEeSFtNrJ4VAzEw</attribute>
+<attribute name="presentationName" nodeId="52ee7881">Create configuration documentation</attribute>
+<attribute name="briefDescription" nodeId="8307034b"></attribute>
+<attribute name="suppressed" nodeId="f25f1c24">false</attribute>
+<attribute name="orderingGuide" nodeId="b0300d4d"></attribute>
+<attribute name="variabilityType" nodeId="73e7618a">na</attribute>
+<attribute name="sectionName" nodeId="85f1c6df"></attribute>
+<attribute name="sectionDescription" nodeId="3fb31b10">Document key configuration settings that may need to be referenced by the maintenance and support team.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="e6761246">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_yVdJwTGPEe-TauTqJPNl_g,_YMkqcDGREe-TauTqJPNl_g" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/configure_package_solution_62BEBEE5.html" Name="configure_package_solution" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Configure package solution" Id="_YMkqcDGREe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="3a63110c"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Unit test configuration" Id="_0S__YALZEeSFtNrJ4VAzEw" ShapeiconUrl="images/guidance.gif" nodeId="989f492e" Url="" Name="Unit test configuration" BackPath="">
+<copyright nodeId="80be3bba">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="2d3cfa58">Unit test configuration</attribute>
+<attribute name="guid" nodeId="b26c8835">_0S__YALZEeSFtNrJ4VAzEw</attribute>
+<attribute name="presentationName" nodeId="233cda34">Unit test configuration</attribute>
+<attribute name="briefDescription" nodeId="25ece3e0"></attribute>
+<attribute name="suppressed" nodeId="5a9fd9e9">false</attribute>
+<attribute name="orderingGuide" nodeId="dddf19d"></attribute>
+<attribute name="variabilityType" nodeId="7daa0cb3">na</attribute>
+<attribute name="sectionName" nodeId="dd134005"></attribute>
+<attribute name="sectionDescription" nodeId="3124fce7">&lt;h5&gt;
+    1. Write unit test scripts
+&lt;/h5&gt;
+&lt;p&gt;
+    Develop unit test scripts based on functional requirements, including expected outcomes in the script. Unit test
+    scripts form the building blocks to create assembly, integration and user acceptance tests, therefore test scripts
+    should be detailed and robust so they can used by the test workstream to develop other tests.
+&lt;/p&gt;
+&lt;h5&gt;
+    2. Define unit test data
+&lt;/h5&gt;
+&lt;p&gt;
+    Define required data elements for successful unit testing of either the code or configured object. For the purpose of
+    unit testing, the data needed will be created.
+&lt;/p&gt;
+&lt;h5&gt;
+    3. Review and sign off unit test scripts
+&lt;/h5&gt;
+&lt;p&gt;
+    Review unit test scripts with the test workstream and functional teams (including key client stakeholders). Obtain
+    sign-off from these parties before proceeding.
+&lt;/p&gt;
+&lt;h5&gt;
+    4. Perform unit tests and log results
+&lt;/h5&gt;
+&lt;p&gt;
+    Execute unit test according to approved test scripts and record results, including whether expected (and desired)
+    results were achieved. Screenshots and key output should be attached to the test and form documentation to support
+    approval of test results by the test workstream.
+&lt;/p&gt;
+&lt;h5&gt;
+    5. Fix defects and retest
+&lt;/h5&gt;
+&lt;p&gt;
+    Resolve defects (i.e., configuration changes or code fixes) and retest. Record test results including whether the
+    object produced the expected (and desired) result. Repeat tasks 4 and 5 until all major defects have been resolved.
+&lt;/p&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="f8903505">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_yVdJwTGPEe-TauTqJPNl_g,_YMkqcDGREe-TauTqJPNl_g" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/configure_package_solution_62BEBEE5.html" Name="configure_package_solution" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Configure package solution" Id="_YMkqcDGREe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="7e9c3edf"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Check in configuration objects to version control system" Id="_Tg8TkB4tEeSZH-OlPBHRPw" ShapeiconUrl="images/guidance.gif" nodeId="40dcdde8" Url="" Name="Check in configuration objects to version control system" BackPath="">
+<copyright nodeId="c850d314">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="76ccfc11">Check in configuration objects to version control system</attribute>
+<attribute name="guid" nodeId="ccf6de3f">_Tg8TkB4tEeSZH-OlPBHRPw</attribute>
+<attribute name="presentationName" nodeId="2c40c1de">Check in configuration objects to version control system</attribute>
+<attribute name="briefDescription" nodeId="7f0c1f41"></attribute>
+<attribute name="suppressed" nodeId="d7d265e2">false</attribute>
+<attribute name="orderingGuide" nodeId="3b22c44c"></attribute>
+<attribute name="variabilityType" nodeId="45140eca">na</attribute>
+<attribute name="sectionName" nodeId="29c750e9"></attribute>
+<attribute name="sectionDescription" nodeId="a3253e59"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="fd1e4848">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_yVdJwTGPEe-TauTqJPNl_g,_YMkqcDGREe-TauTqJPNl_g" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/configure_package_solution_62BEBEE5.html" Name="configure_package_solution" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Configure package solution" Id="_YMkqcDGREe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="45b8ca00"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Update requirements traceability matrix" Id="_1tPv0ALZEeSFtNrJ4VAzEw" ShapeiconUrl="images/guidance.gif" nodeId="edea94d7" Url="" Name="Update requirements traceability matrix" BackPath="">
+<copyright nodeId="a457c244">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="9c666e6d">Update requirements traceability matrix</attribute>
+<attribute name="guid" nodeId="4fbe1597">_1tPv0ALZEeSFtNrJ4VAzEw</attribute>
+<attribute name="presentationName" nodeId="a992857d">Update requirements traceability matrix</attribute>
+<attribute name="briefDescription" nodeId="9cd8c282"></attribute>
+<attribute name="suppressed" nodeId="5ed5fa93">false</attribute>
+<attribute name="orderingGuide" nodeId="6a6f15de"></attribute>
+<attribute name="variabilityType" nodeId="2d5f65ed">na</attribute>
+<attribute name="sectionName" nodeId="22d238ad"></attribute>
+<attribute name="sectionDescription" nodeId="9ce668ee">Open the requirements traceability matrix document and input the configuration identifiers / table names, etc. to the
+associated design specifications and requirement IDs.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="8860756e">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_yVdJwTGPEe-TauTqJPNl_g,_YMkqcDGREe-TauTqJPNl_g" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/configure_package_solution_62BEBEE5.html" Name="configure_package_solution" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Configure package solution" Id="_YMkqcDGREe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="4589c85e"></Element>
+</referenceList>
+</Element>
+</referenceList>
+<referenceList name="Task_TaskDescriptors" nodeId="208dc447">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_yVdJwTGPEe-TauTqJPNl_g,_YMkqcDGREe-TauTqJPNl_g" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/configure_package_solution_62BEBEE5.html" Name="configure_package_solution" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Configure package solution" Id="_YMkqcDGREe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="986a1893"></Element>
+</referenceList>
+<referenceList name="VariabilityElement_ImmediateVarieties" nodeId="c36abe95"></referenceList>
+<reference name="performingRole" nodeId="84c6e7e1">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Functional Architect" Id="_EZAaoMxjEe-ZJLQgqxU0kQ" ShapeiconUrl="images/role.gif" nodeId="51e77861" Url="process.adv.eya_oracle.base/roles/func_architect_A28F4FB1.html" Name="func_architect" BackPath="./../../"></Element>
+</reference>
+<referenceList name="customCategories" nodeId="4c6300f0">
+<Element Type="CustomCategory" TypeName="Custom Category" NodeiconUrl="" DisplayName="Tasks" Id="_0Sj48KDNEeOMmqbYX27PPA" ShapeiconUrl="core.default.nav_view.base/customcategories/resources/cat_task51.png" nodeId="4e46fcb3" Url="core.default.nav_view.base/customcategories/task_list_CDC9CEA6.html" Name="task_list" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="20360fec">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_yVdJwTGPEe-TauTqJPNl_g,_YMkqcDGREe-TauTqJPNl_g" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/configure_package_solution_62BEBEE5.html" Name="configure_package_solution" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Configure package solution" Id="_YMkqcDGREe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="934f792d">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Business Functional Design" Id="_C-aFkZLKEe6Ji6GnvvUfqw" relProcessPath="_C-aFkZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw" nodeId="6fd939a2" Url="process.adv.eya_oracle.base/capabilitypatterns/bus_func_design_wkstrm_3B7B6F5B.html" Name="bus_func_design_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="d98d731f">bus_func_design_wkstrm</attribute>
+<attribute name="guid" nodeId="fd67e878">_C-aFkZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="7fca71ee">Business Functional Design</attribute>
+<attribute name="briefDescription" nodeId="7f9d5537"></attribute>
+<attribute name="suppressed" nodeId="8226be14">false</attribute>
+<attribute name="orderingGuide" nodeId="4abdb609"></attribute>
+<attribute name="isAbstract" nodeId="2fb21868">false</attribute>
+<attribute name="shapeicon" nodeId="9a8e11f8"></attribute>
+<attribute name="nodeicon" nodeId="fca564e8"></attribute>
+<attribute name="prefix" nodeId="d782cc04">workstream</attribute>
+<attribute name="isPlanned" nodeId="12236661">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="2fd8e419">false</attribute>
+<attribute name="isOptional" nodeId="66fe8f70">false</attribute>
+<attribute name="isRepeatable" nodeId="4a8d48f">false</attribute>
+<attribute name="isOngoing" nodeId="66b50209">false</attribute>
+<attribute name="isEventDriven" nodeId="476eda6e">false</attribute>
+<attribute name="variabilityType" nodeId="dcc5a260">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Perform Configurations" Id="_yVdJwTGPEe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_yVdJwTGPEe-TauTqJPNl_g" nodeId="f6900094" Url="process.adv.eya_oracle.base/capabilitypatterns/perform_configurations_383865CC.html" Name="perform_configurations" BackPath="./../../">
+<attribute name="name" nodeId="473d2f94">perform_configurations</attribute>
+<attribute name="guid" nodeId="3820de8">_yVdJwTGPEe-TauTqJPNl_g</attribute>
+<attribute name="presentationName" nodeId="67039c95">Perform Configurations</attribute>
+<attribute name="briefDescription" nodeId="afb281ca">Complete the in-scope configurations needed to implement the target state Oracle solution.</attribute>
+<attribute name="suppressed" nodeId="2a3c083a">false</attribute>
+<attribute name="orderingGuide" nodeId="b304998d"></attribute>
+<attribute name="isAbstract" nodeId="6ba4344a">false</attribute>
+<attribute name="shapeicon" nodeId="c39ef04f"></attribute>
+<attribute name="nodeicon" nodeId="9cf7f076"></attribute>
+<attribute name="prefix" nodeId="8ab7cfd2"></attribute>
+<attribute name="isPlanned" nodeId="e4258c01">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="cc8c9e26">false</attribute>
+<attribute name="isOptional" nodeId="d080cad8">false</attribute>
+<attribute name="isRepeatable" nodeId="770c44a">false</attribute>
+<attribute name="isOngoing" nodeId="f547baa4">false</attribute>
+<attribute name="isEventDriven" nodeId="e41467c9">false</attribute>
+<attribute name="variabilityType" nodeId="a27addc5">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_yVdJwTGPEe-TauTqJPNl_g,_YMkqcDGREe-TauTqJPNl_g" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/configure_package_solution_62BEBEE5.html" Name="configure_package_solution" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Configure package solution" Id="_YMkqcDGREe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="c3cc21ae">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="1bcaf92e" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="281e179c">eya_oracle</attribute>
+<attribute name="guid" nodeId="a22aa439">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="f731844a">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="cf378374"></attribute>
+<attribute name="suppressed" nodeId="e4739eb6">false</attribute>
+<attribute name="orderingGuide" nodeId="c2519b39"></attribute>
+<attribute name="isAbstract" nodeId="e9318b62">false</attribute>
+<attribute name="shapeicon" nodeId="d24fd179"></attribute>
+<attribute name="nodeicon" nodeId="4ebdb109"></attribute>
+<attribute name="prefix" nodeId="1d8a0d59"></attribute>
+<attribute name="isPlanned" nodeId="1520c146">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="f56ec45e">false</attribute>
+<attribute name="isOptional" nodeId="41c0762b">false</attribute>
+<attribute name="isRepeatable" nodeId="459c0b5b">false</attribute>
+<attribute name="isOngoing" nodeId="34b56c50">false</attribute>
+<attribute name="isEventDriven" nodeId="265c4e48">false</attribute>
+<attribute name="variabilityType" nodeId="6ff4e5ac">replaces</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Progressive Build" Id="_c4A0kYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA" nodeId="39442ff4" Url="process.adv.eya_oracle.base/deliveryprocesses/progressive_build_70B7DD74.html" Name="progressive_build" BackPath="./../../">
+<attribute name="name" nodeId="d5dea33f">progressive_build</attribute>
+<attribute name="guid" nodeId="ca5ee1be">_c4A0kYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="66cbec5c">Progressive Build</attribute>
+<attribute name="briefDescription" nodeId="25b053be">Iterate through the build cycles and drive business acceptance through incremental demos to key client stakeholders. Execute mock conversions and and prepare for system integration and user acceptance testing. Manage stakeholder engagement and communications around the change.</attribute>
+<attribute name="suppressed" nodeId="476004d7">false</attribute>
+<attribute name="orderingGuide" nodeId="20dd9dc9"></attribute>
+<attribute name="isAbstract" nodeId="160452c3">false</attribute>
+<attribute name="shapeicon" nodeId="714f0258"></attribute>
+<attribute name="nodeicon" nodeId="c33f70ad"></attribute>
+<attribute name="prefix" nodeId="38aad759"></attribute>
+<attribute name="isPlanned" nodeId="60195ba">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="68b2c910">false</attribute>
+<attribute name="isOptional" nodeId="37bde12b">false</attribute>
+<attribute name="isRepeatable" nodeId="49c9531b">true</attribute>
+<attribute name="isOngoing" nodeId="ac315f49">false</attribute>
+<attribute name="isEventDriven" nodeId="53d7e0b3">false</attribute>
+<attribute name="variabilityType" nodeId="e8102151">na</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Execute Build Cycles 1-n" Id="_Sd7D0duVEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_Sd7D0duVEe6TH6yb1zVWhw" nodeId="4a18b06a" Url="process.adv.eya_oracle.base/deliveryprocesses/execute_build_cycles_1_n_3FC12A80.html" Name="execute_build_cycles_1_n" BackPath="./../../">
+<attribute name="name" nodeId="a58bfe3f">execute_build_cycles_1_n</attribute>
+<attribute name="guid" nodeId="c2c405c">_Sd7D0duVEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="e707015f">Execute Build Cycles 1-n</attribute>
+<attribute name="briefDescription" nodeId="86e53eba">Iterate through the build cycles by planning for each sprint, defining the technical and integration specifications and data conversion scripts and completing the configurations and development. Validate the builds and conduct demos with the client.</attribute>
+<attribute name="suppressed" nodeId="da0becf">false</attribute>
+<attribute name="orderingGuide" nodeId="22a7b2b2"></attribute>
+<attribute name="isAbstract" nodeId="7d382f97">false</attribute>
+<attribute name="shapeicon" nodeId="55c42bb0"></attribute>
+<attribute name="nodeicon" nodeId="c9641fab"></attribute>
+<attribute name="prefix" nodeId="29a3a48"></attribute>
+<attribute name="isPlanned" nodeId="dd54a119">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="f83557b2">false</attribute>
+<attribute name="isOptional" nodeId="fd43bcc8">false</attribute>
+<attribute name="isRepeatable" nodeId="d1038f47">true</attribute>
+<attribute name="isOngoing" nodeId="3f5482f0">false</attribute>
+<attribute name="isEventDriven" nodeId="9c9341c">false</attribute>
+<attribute name="variabilityType" nodeId="8cb983b2">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Perform Configurations" Id="_mzq2sTGREe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_Sd7D0duVEe6TH6yb1zVWhw,_mzq2sTGREe-TauTqJPNl_g" nodeId="5dabeb5b" Url="process.adv.eya_oracle.base/deliveryprocesses/perform_configurations_CC24313D.html" Name="perform_configurations" BackPath="./../../">
+<attribute name="name" nodeId="1ae781b3">perform_configurations</attribute>
+<attribute name="guid" nodeId="d68b8434">_mzq2sTGREe-TauTqJPNl_g</attribute>
+<attribute name="presentationName" nodeId="824443b1">Perform Configurations</attribute>
+<attribute name="briefDescription" nodeId="3b73caa7">Complete the in-scope configurations needed to implement the target state Oracle solution.</attribute>
+<attribute name="suppressed" nodeId="21e18d4a">false</attribute>
+<attribute name="orderingGuide" nodeId="e490124b"></attribute>
+<attribute name="isAbstract" nodeId="c2051350">false</attribute>
+<attribute name="shapeicon" nodeId="3e7ee14"></attribute>
+<attribute name="nodeicon" nodeId="5c975cc6"></attribute>
+<attribute name="prefix" nodeId="bc5c2d52"></attribute>
+<attribute name="isPlanned" nodeId="3e91535b">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="85beacb2">false</attribute>
+<attribute name="isOptional" nodeId="90115eb4">false</attribute>
+<attribute name="isRepeatable" nodeId="72299e81">false</attribute>
+<attribute name="isOngoing" nodeId="7c703215">false</attribute>
+<attribute name="isEventDriven" nodeId="3d81995">false</attribute>
+<attribute name="variabilityType" nodeId="662309e1">extends</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

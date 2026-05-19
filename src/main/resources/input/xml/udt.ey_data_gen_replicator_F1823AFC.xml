@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element Type="udt" TypeName="Tool" NodeiconUrl="icons/job_aid16.png" DisplayName="EY Data Generator and Replicator" Id="_f0qJsNmkEe-AVuFqPhlIyg" ShapeiconUrl="images/job_aid51.png" lang="en" nodeId="d774ae2" Url="process.adv.eya_oracle.base/guidances/practices/ey_data_gen_replicator_F1823AFC.html" Name="ey_data_gen_replicator" BackPath="./../../../">
+<referenceList name="User defined type" nodeId="9f3edc54">
+<Element mainDescription="N/A" typeName="Tool" icon="file:/C:/eyumf/tfs/PROD_LIB/core_main/_udt/ey_types.udt/resources/job_aid16.png" referenceQualifierNames="referenceQualifierNames" shapeIconRelative="/resources/job_aid51.png" application="N/A" background="N/A" levelsOfAdoption="N/A" additionalInfo="N/A" iconRelative="/resources/job_aid16.png" typeId="com.ey.type.tool" nodeId="f8dcc745" referenceQualifiers="referenceQualifiers" problems="Main Description" goals="N/A" shapeIcon="file:/C:/eyumf/tfs/PROD_LIB/core_main/_udt/ey_types.udt/resources/job_aid51.png"></Element>
+</referenceList>
+<copyright nodeId="b3f7b5f6">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="2f7603ed">ey_data_gen_replicator</attribute>
+<attribute name="guid" nodeId="2e1fa2f5">_f0qJsNmkEe-AVuFqPhlIyg</attribute>
+<attribute name="presentationName" nodeId="b8f74198">EY Data Generator and Replicator</attribute>
+<attribute name="briefDescription" nodeId="2f59b102"></attribute>
+<attribute name="suppressed" nodeId="9d4efee2">false</attribute>
+<attribute name="orderingGuide" nodeId="68b9e1a3"></attribute>
+<attribute name="isAbstract" nodeId="e561aa26">false</attribute>
+<attribute name="shapeicon" nodeId="f79cd00b"></attribute>
+<attribute name="nodeicon" nodeId="3ca4245"></attribute>
+<attribute name="variabilityType" nodeId="5a1fd877">na</attribute>
+<reference name="presentation" nodeId="6f5a85a3">
+<Element Type="PracticeDescription" TypeName="Practice Description" NodeiconUrl="" DisplayName="EY Data Generator and Replicator" Id="-I1tzbGOEv6Um_cnshqjceg" ShapeiconUrl="images/guidance.gif" nodeId="2d707f03" Url="" Name="new_tool,_f0qJsNmkEe-AVuFqPhlIyg" BackPath="">
+<copyright nodeId="ac9c57fb">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="ce1b67cd">new_tool,_f0qJsNmkEe-AVuFqPhlIyg</attribute>
+<attribute name="guid" nodeId="e86bcfc1">-I1tzbGOEv6Um_cnshqjceg</attribute>
+<attribute name="presentationName" nodeId="18f439ae">EY Data Generator and Replicator</attribute>
+<attribute name="briefDescription" nodeId="d14d257d"></attribute>
+<attribute name="suppressed" nodeId="b8d047a3">false</attribute>
+<attribute name="orderingGuide" nodeId="9ffe723"></attribute>
+<attribute name="authors" nodeId="d448b352"></attribute>
+<attribute name="changeDate" nodeId="ad5eb46a">Tue Feb 18 11:39:21 EST 2025</attribute>
+<attribute name="changeDescription" nodeId="79c188fd">JAN 2025 - Baseline Version</attribute>
+<attribute name="version" nodeId="d09cefd"></attribute>
+<attribute name="mainDescription" nodeId="3f6d3676"></attribute>
+<attribute name="externalId" nodeId="799ea442"></attribute>
+<attribute name="keyConsiderations" nodeId="4fb3d725"></attribute>
+<attribute name="longPresentationName" nodeId="3ce8e1ee"></attribute>
+<attribute name="additionalInfo" nodeId="98bdb599"></attribute>
+<attribute name="problem" nodeId="111fd750">&lt;p&gt;
+    EY&apos;s Data Generator and Replicator (EDGAR) replicates instances of data within a single environment so that all
+    end-users can work with an identical data set.
+&lt;/p&gt;
+&lt;p&gt;
+    Please contact &lt;a class=&quot;urlFileLink&quot; href=&quot;mailto:Chad.Hamilton@ey.com&quot;&gt;Chad Hamilton&lt;/a&gt; for more information and
+    access to this tool.
+&lt;/p&gt;</attribute>
+<attribute name="background" nodeId="5350a8e0"></attribute>
+<attribute name="goals" nodeId="c29873c3"></attribute>
+<attribute name="application" nodeId="71e36fa1"></attribute>
+<attribute name="levelsOfAdoption" nodeId="c1f18759"></attribute>
+</Element>
+</reference>
+<referenceList name="Related Elements" referenceType="customOpposite" nodeId="9b173b2d">
+<Element Type="udt" TypeName="Getting Started" NodeiconUrl="icons/consider16.png" DisplayName="Getting Started" Id="_xAtvgEisEeqVp4fYjaNh1w" ShapeiconUrl="images/consider51.png" nodeId="9b4b0268" Url="core.default.nav_view.base/guidances/practices/getting_started_278A8205.html" Name="getting_started" BackPath="./../../../">
+<referenceList name="User defined type" nodeId="3d7fce61">
+<Element mainDescription="Scaling" typeName="Getting Started" icon="file:/C:/eyumf/tfs/PROD_LIB/core_main/_udt/ey_types.udt/resources/consider16.png" referenceQualifierNames="referenceQualifierNames" shapeIconRelative="/resources/consider51.png" application="Staffing" background="Considerations" levelsOfAdoption="Next Steps" additionalInfo="Purpose" iconRelative="/resources/consider16.png" typeId="com.ey.type.consider" nodeId="32888327" referenceQualifiers="referenceQualifiers" problems="Background" goals="How to Apply" shapeIcon="file:/C:/eyumf/tfs/PROD_LIB/core_main/_udt/ey_types.udt/resources/consider51.png"></Element>
+</referenceList>
+</Element>
+</referenceList>
+<referenceList name="Udt referencing list" nodeId="6c981adf">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="1831b47f" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="6f4e1343">eya_oracle</attribute>
+<attribute name="guid" nodeId="78ee3618">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="1395df7c">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="291c98fb"></attribute>
+<attribute name="suppressed" nodeId="d699db72">false</attribute>
+<attribute name="orderingGuide" nodeId="112bf761"></attribute>
+<attribute name="isAbstract" nodeId="96041a9a">false</attribute>
+<attribute name="shapeicon" nodeId="f0d19624"></attribute>
+<attribute name="nodeicon" nodeId="d9ac4fb4"></attribute>
+<attribute name="prefix" nodeId="b76a6ebe"></attribute>
+<attribute name="isPlanned" nodeId="69a8fe2f">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="75f3f0c1">false</attribute>
+<attribute name="isOptional" nodeId="37f05067">false</attribute>
+<attribute name="isRepeatable" nodeId="a7b9ca08">false</attribute>
+<attribute name="isOngoing" nodeId="f6a4c598">false</attribute>
+<attribute name="isEventDriven" nodeId="5aae5a16">false</attribute>
+<attribute name="variabilityType" nodeId="e92d1389">replaces</attribute>
+</Element>
+</referenceList>
+</Element>

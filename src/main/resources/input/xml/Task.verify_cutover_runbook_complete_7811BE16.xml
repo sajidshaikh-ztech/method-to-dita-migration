@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" TypeName="Task" Url="practice.ita.delv.deploy.base/tasks/verify_cutover_runbook_complete_7811BE16.html" Name="verify_cutover_runbook_complete" BackPath="./../../" Type="Task" NodeiconUrl="" performingRoleName="Transition Lead" DisplayName="Verify cutover runbook items have been completed" Id="_X1TEwPF3EeOFgpTUvzaUCQ" ShapeiconUrl="images/task.gif" lang="en" nodeId="3a5a41b8">
+<copyright nodeId="dfa84b0e">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="fc2e10d1">verify_cutover_runbook_complete</attribute>
+<attribute name="guid" nodeId="3c0cee75">_X1TEwPF3EeOFgpTUvzaUCQ</attribute>
+<attribute name="presentationName" nodeId="fc422c4d">Verify cutover runbook items have been completed</attribute>
+<attribute name="briefDescription" nodeId="4f8b5214">Substantiate that the task-level business and technology steps were completed in each phase of cutover as outlined in the cutover and deployment plan and detailed in the runbook. </attribute>
+<attribute name="suppressed" nodeId="b747da30">false</attribute>
+<attribute name="orderingGuide" nodeId="3200e37"></attribute>
+<attribute name="isAbstract" nodeId="6c9d91f6">false</attribute>
+<attribute name="shapeicon" nodeId="c76758"></attribute>
+<attribute name="nodeicon" nodeId="445ce2cd"></attribute>
+<attribute name="variabilityType" nodeId="5234c442">na</attribute>
+<reference name="presentation" nodeId="5bea4dc">
+<Element Type="TaskDescription" TypeName="Task Description" NodeiconUrl="" DisplayName="Verify cutover runbook items have been completed" Id="-hLEy61XjdHe0USVgHbNUyg" ShapeiconUrl="images/guidance.gif" nodeId="859cd898" Url="" Name="verify_cutover_runbook_completed,_X1TEwPF3EeOFgpTUvzaUCQ" BackPath="">
+<copyright nodeId="3d7709f4">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="554c8b6a">verify_cutover_runbook_completed,_X1TEwPF3EeOFgpTUvzaUCQ</attribute>
+<attribute name="guid" nodeId="bfe2ba10">-hLEy61XjdHe0USVgHbNUyg</attribute>
+<attribute name="presentationName" nodeId="68b66c55">Verify cutover runbook items have been completed</attribute>
+<attribute name="briefDescription" nodeId="a2dc1c45"></attribute>
+<attribute name="suppressed" nodeId="7a871eb4">false</attribute>
+<attribute name="orderingGuide" nodeId="c6a7b201"></attribute>
+<attribute name="authors" nodeId="f64de3b0"></attribute>
+<attribute name="changeDate" nodeId="be043ec0">Mon Aug 31 07:41:29 EDT 2015</attribute>
+<attribute name="changeDescription" nodeId="c582e">AUGUST 2014 - baseline version</attribute>
+<attribute name="version" nodeId="55030f61"></attribute>
+<attribute name="mainDescription" nodeId="3c26c9e3">The runbook must be reviewed item by item. If an item is deemed not relevant to the current release, then a description and
+action or exception should be noted.&amp;nbsp;</attribute>
+<attribute name="externalId" nodeId="9251a1fe"></attribute>
+<attribute name="keyConsiderations" nodeId="3d2f29a2"></attribute>
+<attribute name="longPresentationName" nodeId="fbb435f2"></attribute>
+<attribute name="purpose" nodeId="329a43c4">To confirm that the activities needed to cutover and deploy the system to production have been completed.</attribute>
+<attribute name="alternatives" nodeId="6b523bcd"></attribute>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="performedBy" nodeId="c1f71745">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Transition Lead" Id="_C2LiJz8gEeOOEPaNsP0t0A" ShapeiconUrl="images/role.gif" nodeId="94be2509" Url="core.default.role_def.base/roles/transition_lead_D1C56254.html" Name="transition_lead" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="mandatoryInput" nodeId="a3c39cd2">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Cutover Runbook" Id="_CEoYUPF4EeOFgpTUvzaUCQ" ShapeiconUrl="images/artifact.gif" nodeId="24dc9d5d" Url="core.ops.common.base/workproducts/cutover_runbook_28E93E5B.html" Name="cutover_runbook" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Cutover and Deployment Plan" Id="_kkusYPDVEeOFgpTUvzaUCQ" ShapeiconUrl="images/artifact.gif" nodeId="e54b5df4" Url="core.ops.common.base/workproducts/cutover_deploy_plan_9BE3B58D.html" Name="cutover_deploy_plan" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="output" nodeId="efa42af6">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Cutover Completion Sign-off" Id="_ZwkeoPF3EeOFgpTUvzaUCQ" ShapeiconUrl="images/artifact.gif" nodeId="13644248" Url="core.ops.common.base/workproducts/cutover_completion_signoff_5737BE4B.html" Name="cutover_completion_signoff" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="Task_TaskDescriptors" nodeId="c711d56c">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_tw8_IdEsEe6Y56Jk6jqfOA,_-CgiENEsEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.deploy.base/tasks/verify_cutover_runbook_complete_7811BE16.html" Name="verify_cutover_runbook_complete" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Verify cutover runbook items have been completed" Id="_-CgiENEsEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="318d0d0a"></Element>
+</referenceList>
+<reference name="performingRole" nodeId="61312164">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Transition Lead" Id="_C2LiJz8gEeOOEPaNsP0t0A" ShapeiconUrl="images/role.gif" nodeId="f1a17a9f" Url="core.default.role_def.base/roles/transition_lead_D1C56254.html" Name="transition_lead" BackPath="./../../"></Element>
+</reference>
+<referenceList name="customCategories" nodeId="943cb1c">
+<Element Type="CustomCategory" TypeName="Custom Category" NodeiconUrl="" DisplayName="Tasks" Id="_0Sj48KDNEeOMmqbYX27PPA" ShapeiconUrl="core.default.nav_view.base/customcategories/resources/cat_task51.png" nodeId="a7d24302" Url="core.default.nav_view.base/customcategories/task_list_CDC9CEA6.html" Name="task_list" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="b6eac438">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_tw8_IdEsEe6Y56Jk6jqfOA,_-CgiENEsEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.deploy.base/tasks/verify_cutover_runbook_complete_7811BE16.html" Name="verify_cutover_runbook_complete" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Verify cutover runbook items have been completed" Id="_-CgiENEsEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="3cc68851">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Development" Id="_N-58wdAOEe6H-rjlu9wPlA" relProcessPath="_N-58wdAOEe6H-rjlu9wPlA" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA" nodeId="8296d3ec" Url="process.adv.eya_oracle.base/capabilitypatterns/development_wkstrm_21C01F87.html" Name="development_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="ec6c63b8">development_wkstrm</attribute>
+<attribute name="guid" nodeId="8c811277">_N-58wdAOEe6H-rjlu9wPlA</attribute>
+<attribute name="presentationName" nodeId="88fa5035">Development</attribute>
+<attribute name="briefDescription" nodeId="39bdb13b"></attribute>
+<attribute name="suppressed" nodeId="d2bb8ce1">false</attribute>
+<attribute name="orderingGuide" nodeId="c5f3661f"></attribute>
+<attribute name="isAbstract" nodeId="eca930e1">false</attribute>
+<attribute name="shapeicon" nodeId="fc324c78"></attribute>
+<attribute name="nodeicon" nodeId="4b78da95"></attribute>
+<attribute name="prefix" nodeId="2169dede">workstream</attribute>
+<attribute name="isPlanned" nodeId="e2ff1c7">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="8a71d2d4">false</attribute>
+<attribute name="isOptional" nodeId="cf764591">false</attribute>
+<attribute name="isRepeatable" nodeId="cfdbaef1">false</attribute>
+<attribute name="isOngoing" nodeId="71ae34b6">false</attribute>
+<attribute name="isEventDriven" nodeId="db38ac5b">false</attribute>
+<attribute name="variabilityType" nodeId="8230ffe6">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Perform Cutover" Id="_tw8_IdEsEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_tw8_IdEsEe6Y56Jk6jqfOA" nodeId="8703c665" Url="process.adv.eya_oracle.base/capabilitypatterns/perform_cutover_CC2B4AD2.html" Name="perform_cutover" BackPath="./../../">
+<attribute name="name" nodeId="6fede2c0">perform_cutover</attribute>
+<attribute name="guid" nodeId="bbc25b99">_tw8_IdEsEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="91d0adac">Perform Cutover</attribute>
+<attribute name="briefDescription" nodeId="ec255d98">Complete the activities required to transition to production.</attribute>
+<attribute name="suppressed" nodeId="5ef9dea8">false</attribute>
+<attribute name="orderingGuide" nodeId="51880fbf"></attribute>
+<attribute name="isAbstract" nodeId="fb918964">false</attribute>
+<attribute name="shapeicon" nodeId="25ea9cf0"></attribute>
+<attribute name="nodeicon" nodeId="84ba784f"></attribute>
+<attribute name="prefix" nodeId="3a955104"></attribute>
+<attribute name="isPlanned" nodeId="f07f63a9">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d8dbe257">false</attribute>
+<attribute name="isOptional" nodeId="eb4d0e91">false</attribute>
+<attribute name="isRepeatable" nodeId="cbbd51e1">false</attribute>
+<attribute name="isOngoing" nodeId="13880bc6">false</attribute>
+<attribute name="isEventDriven" nodeId="3bf0724a">false</attribute>
+<attribute name="variabilityType" nodeId="85edee43">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_tw8_IdEsEe6Y56Jk6jqfOA,_-CgiENEsEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.deploy.base/tasks/verify_cutover_runbook_complete_7811BE16.html" Name="verify_cutover_runbook_complete" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Verify cutover runbook items have been completed" Id="_-CgiENEsEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="eabd0a09">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="37c69451" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="ef1c96a5">eya_oracle</attribute>
+<attribute name="guid" nodeId="b780eabd">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="7474b497">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="1f18e6ba"></attribute>
+<attribute name="suppressed" nodeId="9602ff00">false</attribute>
+<attribute name="orderingGuide" nodeId="f4445850"></attribute>
+<attribute name="isAbstract" nodeId="dffb8142">false</attribute>
+<attribute name="shapeicon" nodeId="53480322"></attribute>
+<attribute name="nodeicon" nodeId="4a69a530"></attribute>
+<attribute name="prefix" nodeId="50b81fd2"></attribute>
+<attribute name="isPlanned" nodeId="9f8c8135">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="16dd4ce2">false</attribute>
+<attribute name="isOptional" nodeId="532eb870">false</attribute>
+<attribute name="isRepeatable" nodeId="bb92f3df">false</attribute>
+<attribute name="isOngoing" nodeId="44ec8fb9">false</attribute>
+<attribute name="isEventDriven" nodeId="fb6a5f8b">false</attribute>
+<attribute name="variabilityType" nodeId="4985f5fe">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Deploy" Id="_fuFp0Ys6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA" nodeId="a3819dd0" Url="process.adv.eya_oracle.base/deliveryprocesses/deploy_DA41E608.html" Name="deploy" BackPath="./../../">
+<attribute name="name" nodeId="dc1cf148">deploy</attribute>
+<attribute name="guid" nodeId="1823ca0d">_fuFp0Ys6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="6245bc94">Deploy</attribute>
+<attribute name="briefDescription" nodeId="a962ea56">Deploy trainings to impacted stakeholders. Conduct data migration activities, confirm cutover readiness and perform the cutover.</attribute>
+<attribute name="suppressed" nodeId="307c0e93">false</attribute>
+<attribute name="orderingGuide" nodeId="52385ffd"></attribute>
+<attribute name="isAbstract" nodeId="8a38dda5">false</attribute>
+<attribute name="shapeicon" nodeId="94e1a5db"></attribute>
+<attribute name="nodeicon" nodeId="21d2c700"></attribute>
+<attribute name="prefix" nodeId="1d0dacb9"></attribute>
+<attribute name="isPlanned" nodeId="239f7ab5">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="71eb1d44">false</attribute>
+<attribute name="isOptional" nodeId="ccbe6add">false</attribute>
+<attribute name="isRepeatable" nodeId="12ed5b0">false</attribute>
+<attribute name="isOngoing" nodeId="faa026d8">false</attribute>
+<attribute name="isEventDriven" nodeId="e5d157c0">false</attribute>
+<attribute name="variabilityType" nodeId="4cab1241">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Perform Cutover" Id="_4Ar40dsMEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_4Ar40dsMEe6TH6yb1zVWhw" nodeId="f3eb3886" Url="process.adv.eya_oracle.base/deliveryprocesses/perform_cutover_D871D46A.html" Name="perform_cutover" BackPath="./../../">
+<attribute name="name" nodeId="893c97ec">perform_cutover</attribute>
+<attribute name="guid" nodeId="ea8f2e53">_4Ar40dsMEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="b955bd08">Perform Cutover</attribute>
+<attribute name="briefDescription" nodeId="e9903abc">Complete the activities required to transition to production.</attribute>
+<attribute name="suppressed" nodeId="bd808d33">false</attribute>
+<attribute name="orderingGuide" nodeId="f6aaec3f"></attribute>
+<attribute name="isAbstract" nodeId="769c7cd5">false</attribute>
+<attribute name="shapeicon" nodeId="a0226f02"></attribute>
+<attribute name="nodeicon" nodeId="eaa0fdef"></attribute>
+<attribute name="prefix" nodeId="a3204630"></attribute>
+<attribute name="isPlanned" nodeId="fbe42791">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="382b5ac0">false</attribute>
+<attribute name="isOptional" nodeId="2908d990">false</attribute>
+<attribute name="isRepeatable" nodeId="e2723758">false</attribute>
+<attribute name="isOngoing" nodeId="1077b317">false</attribute>
+<attribute name="isEventDriven" nodeId="43f71ca9">false</attribute>
+<attribute name="variabilityType" nodeId="9534400b">extends</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

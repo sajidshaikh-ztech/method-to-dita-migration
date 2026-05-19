@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" TypeName="Task" Url="process.adv.eya_oracle.base/tasks/create_cut_deploy_trans_des_plan_28A05931.html" Name="create_cut_deploy_trans_des_plan" BackPath="./../../" Type="Task" NodeiconUrl="" performingRoleName="Solution Architect" DisplayName="Create cutover deployment transitional design plan" Id="_XjlPoDHEEe-ymZgH1AiGoQ" ShapeiconUrl="images/task.gif" lang="en" nodeId="41a88017">
+<copyright nodeId="19e8cdef">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="5e83bf8d">create_cut_deploy_trans_des_plan</attribute>
+<attribute name="guid" nodeId="fa0ba065">_XjlPoDHEEe-ymZgH1AiGoQ</attribute>
+<attribute name="presentationName" nodeId="4fd9b9b3">Create cutover deployment transitional design plan</attribute>
+<attribute name="briefDescription" nodeId="468234fa">Identify transitional states, develop transitional process flows and develop transitional design plan.</attribute>
+<attribute name="suppressed" nodeId="614c47cb">false</attribute>
+<attribute name="orderingGuide" nodeId="7fc7e20c"></attribute>
+<attribute name="isAbstract" nodeId="60968279">false</attribute>
+<attribute name="shapeicon" nodeId="cc2b2d13"></attribute>
+<attribute name="nodeicon" nodeId="3ffd3db9"></attribute>
+<attribute name="variabilityType" nodeId="26bf44d5">extendsReplaces</attribute>
+<reference name="presentation" nodeId="e0664c6c">
+<Element Type="TaskDescription" TypeName="Task Description" NodeiconUrl="" DisplayName="" Id="-6ohr7l80jDaSMTzp3ArQjQ" ShapeiconUrl="images/guidance.gif" nodeId="b4d8a17c" Url="" Name="create_cut_deploy_trans_des_plan,_XjlPoDHEEe-ymZgH1AiGoQ" BackPath="">
+<attribute name="name" nodeId="b1409cce">create_cut_deploy_trans_des_plan,_XjlPoDHEEe-ymZgH1AiGoQ</attribute>
+<attribute name="guid" nodeId="53909069">-6ohr7l80jDaSMTzp3ArQjQ</attribute>
+<attribute name="presentationName" nodeId="d4f519a6"></attribute>
+<attribute name="briefDescription" nodeId="f525ceec"></attribute>
+<attribute name="suppressed" nodeId="364d4ea0">false</attribute>
+<attribute name="orderingGuide" nodeId="237a04e6"></attribute>
+<attribute name="authors" nodeId="1a56d191"></attribute>
+<attribute name="changeDate" nodeId="d75d9d09"></attribute>
+<attribute name="changeDescription" nodeId="325bd373">JAN 2026 - removed restricted language|OCT 2015 - Updated grammar in main description </attribute>
+<attribute name="version" nodeId="8e9217fb"></attribute>
+<attribute name="mainDescription" nodeId="bd42b773">&lt;p&gt;
+    The transitional design plan provides an integrated approach to transition planning. It improves alignment of service
+    management cutover and deployment plans, and helps to:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Plan appropriate capacity and resources for transitional states, and process flows including all necessary
+        work-arounds and temporary interfaces.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Provide support for the service transition teams and people.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Plan the changes required in a manner that maintains the integrity of all identified customer assets, service
+        assets and configurations&amp;nbsp;as they evolve through service transition.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Verify&amp;nbsp;that service transition issues, risks and deviations are reported to the appropriate stakeholders and
+        decision makers.&lt;br /&gt;
+        Coordinate activities across projects, suppliers and service teams where required.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Periodically update the transitional design plan to account for changes that affect cutover planning, to verify
+        that the plan is up-to-date and reflects the latest state of the implementation.
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="externalId" nodeId="b91195f1"></attribute>
+<attribute name="keyConsiderations" nodeId="9bd098f">&lt;p&gt;
+    Transition design planning should address:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Planning and coordination of resources so that the requirements in the service management strategy and plan are
+        effectively realized.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Identification, management and control the risks of failure and disruption across transition activities.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Assurance that all parties adopt the common framework of standard re-usable processes and supporting systems.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Provision of clear and comprehensive plans that enable the customer and business change projects to align their
+        activities with the service management plan.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Management of all necessary work-arounds and temporary interfaces.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    The transitional design plan is a living document until the final version is signed off. New inputs, constraints and
+    business requirements will drive periodic updates to the transitional design plan.
+&lt;/p&gt;</attribute>
+<attribute name="longPresentationName" nodeId="2ff774c0"></attribute>
+<attribute name="purpose" nodeId="3a98b87a">To improve a service management team&apos;s ability to handle change and to define steps that manage transition from the current
+state to the future state organization, processes, and information technology solution.</attribute>
+<attribute name="alternatives" nodeId="619376be"></attribute>
+<referenceList sortValue="Manual" name="sections" nodeId="a1d4d04c">
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Review change impact assessments and transition strategy for the proposed solution" Id="_vud1wEITEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="4f4e38d2" Url="" Name="Review change impact assessments and transition strategy for the proposed solution" BackPath="">
+<copyright nodeId="f7bfc68">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="ffdfa05e">Review change impact assessments and transition strategy for the proposed solution</attribute>
+<attribute name="guid" nodeId="a337e0ae">_vud1wEITEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="16dc1586">Review change impact assessments and transition strategy for the proposed solution</attribute>
+<attribute name="briefDescription" nodeId="fd92c3da"></attribute>
+<attribute name="suppressed" nodeId="17f1e80f">false</attribute>
+<attribute name="orderingGuide" nodeId="a7c35933"></attribute>
+<attribute name="variabilityType" nodeId="56870efb">na</attribute>
+<attribute name="sectionName" nodeId="e5417330"></attribute>
+<attribute name="sectionDescription" nodeId="ac704257"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="c9eb7cc0">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_EA-EQDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/create_cut_deploy_trans_des_plan_28A05931.html" Name="create_cut_deploy_trans_des_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Create cutover deployment transitional design plan" Id="_EA-EQDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="36b94797"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Review existing bridging processes and documented requirements" Id="_1XxAkEITEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="9bffae49" Url="" Name="Review existing bridging processes and documented requirements" BackPath="">
+<copyright nodeId="7d5aa847">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="6ffa61b0">Review existing bridging processes and documented requirements</attribute>
+<attribute name="guid" nodeId="29e30abf">_1XxAkEITEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="e55c7352">Review existing bridging processes and documented requirements</attribute>
+<attribute name="briefDescription" nodeId="a2ae771d"></attribute>
+<attribute name="suppressed" nodeId="194594b3">false</attribute>
+<attribute name="orderingGuide" nodeId="94628d21"></attribute>
+<attribute name="variabilityType" nodeId="945eba23">na</attribute>
+<attribute name="sectionName" nodeId="9b5d0d6d"></attribute>
+<attribute name="sectionDescription" nodeId="ceee54f2"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="bcb4437a">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_EA-EQDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/create_cut_deploy_trans_des_plan_28A05931.html" Name="create_cut_deploy_trans_des_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Create cutover deployment transitional design plan" Id="_EA-EQDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="656327f4"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Develop an interim or transitional design plan" Id="_4AKmMEITEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="daf7ca0f" Url="" Name="Develop an interim or transitional design plan" BackPath="">
+<copyright nodeId="1dfa4f32">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="71943c00">Develop an interim or transitional design plan</attribute>
+<attribute name="guid" nodeId="e31644c8">_4AKmMEITEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="3a954a33">Develop an interim or transitional design plan</attribute>
+<attribute name="briefDescription" nodeId="89a8e3c3"></attribute>
+<attribute name="suppressed" nodeId="f09ede69">false</attribute>
+<attribute name="orderingGuide" nodeId="7fc3e6b2"></attribute>
+<attribute name="variabilityType" nodeId="88d9ba9f">na</attribute>
+<attribute name="sectionName" nodeId="819bbcb7"></attribute>
+<attribute name="sectionDescription" nodeId="c0ec412f">&lt;ul&gt;
+    &lt;li&gt;
+        Review the documented transition strategy
+    &lt;/li&gt;
+    &lt;li&gt;
+        Review the service management resourcing plan
+    &lt;/li&gt;
+    &lt;li&gt;
+        Review the interim service management model
+    &lt;/li&gt;
+    &lt;li&gt;
+        Review the framework of standard re-usable processes and supporting systems
+    &lt;/li&gt;
+    &lt;li&gt;
+        Review the work-arounds for critical business processes
+    &lt;/li&gt;
+    &lt;li&gt;
+        Review the interfaces required during transition
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="339f62ad">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_EA-EQDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/create_cut_deploy_trans_des_plan_28A05931.html" Name="create_cut_deploy_trans_des_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Create cutover deployment transitional design plan" Id="_EA-EQDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="7e0f54c1"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Review the plan with all stakeholders impacted, receive feedback and finalize the plan" Id="_7U-l4EITEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="32e79e42" Url="" Name="Review the plan with all stakeholders impacted, receive feedback and finalize the plan" BackPath="">
+<copyright nodeId="345577d3">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="53f7c7ad">Review the plan with all stakeholders impacted, receive feedback and finalize the plan</attribute>
+<attribute name="guid" nodeId="f0da9ee3">_7U-l4EITEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="c0b3b652">Review the plan with all stakeholders impacted, receive feedback and finalize the plan</attribute>
+<attribute name="briefDescription" nodeId="38b26496"></attribute>
+<attribute name="suppressed" nodeId="fc9083ac">false</attribute>
+<attribute name="orderingGuide" nodeId="e17e1e0e"></attribute>
+<attribute name="variabilityType" nodeId="ec7974a6">na</attribute>
+<attribute name="sectionName" nodeId="d46213cf"></attribute>
+<attribute name="sectionDescription" nodeId="960b9ce0"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="e4b79800">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_EA-EQDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/create_cut_deploy_trans_des_plan_28A05931.html" Name="create_cut_deploy_trans_des_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Create cutover deployment transitional design plan" Id="_EA-EQDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="412dae99"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Update the plan with feedback received and finalize" Id="_96R0MEITEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="d10ca5eb" Url="" Name="Update the plan with feedback received and finalize" BackPath="">
+<copyright nodeId="7534f15d">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="830a2cf3">Update the plan with feedback received and finalize</attribute>
+<attribute name="guid" nodeId="c75ffec1">_96R0MEITEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="1f4e5e9b">Update the plan with feedback received and finalize</attribute>
+<attribute name="briefDescription" nodeId="4395a5fa"></attribute>
+<attribute name="suppressed" nodeId="950097ef">false</attribute>
+<attribute name="orderingGuide" nodeId="85a97ce4"></attribute>
+<attribute name="variabilityType" nodeId="8b88a0a7">na</attribute>
+<attribute name="sectionName" nodeId="454a3ddf"></attribute>
+<attribute name="sectionDescription" nodeId="543ff83b">&lt;ul&gt;
+    &lt;li&gt;
+        Synchronize transition strategy to the plan
+    &lt;/li&gt;
+    &lt;li&gt;
+        Coordinate resources of transition design plan by using the service management resourcing plan
+    &lt;/li&gt;
+    &lt;li&gt;
+        Finalize controls for disruption across transition activities by using the finalized interim service management
+        model
+    &lt;/li&gt;
+    &lt;li&gt;
+        Finalize a framework of standard re-usable processes and supporting systems resulting from additional cutover
+        activities by using the end-state service management model
+    &lt;/li&gt;
+    &lt;li&gt;
+        Finalize work-arounds for critical business processes in case of failures using the interim service management
+        model
+    &lt;/li&gt;
+    &lt;li&gt;
+        Finalize temporary interfaces required during transition using the interim service management model
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="133d2189">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_EA-EQDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/create_cut_deploy_trans_des_plan_28A05931.html" Name="create_cut_deploy_trans_des_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Create cutover deployment transitional design plan" Id="_EA-EQDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="baecaefd"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Agree that all transitional design plan activities are complete" Id="_JkeKcEIUEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="95855f40" Url="" Name="Agree that all transitional design plan activities are complete" BackPath="">
+<copyright nodeId="d374f0de">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="8330ee3c">Agree that all transitional design plan activities are complete</attribute>
+<attribute name="guid" nodeId="a499f67b">_JkeKcEIUEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="9b3d5648">Agree that all transitional design plan activities are complete</attribute>
+<attribute name="briefDescription" nodeId="e30b8758"></attribute>
+<attribute name="suppressed" nodeId="b17cc01">false</attribute>
+<attribute name="orderingGuide" nodeId="d9330a0e"></attribute>
+<attribute name="variabilityType" nodeId="3d6a2741">na</attribute>
+<attribute name="sectionName" nodeId="7471ac9c"></attribute>
+<attribute name="sectionDescription" nodeId="58a90ee6">&lt;p&gt;
+    Set up a meeting to seek agreement that the plan:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Aligns with the service management strategy for resource planning and coordination
+    &lt;/li&gt;
+    &lt;li&gt;
+        Controls the risks of failure and disruption across transition activities
+    &lt;/li&gt;
+    &lt;li&gt;
+        Includes a common framework of standard re-usable processes and supporting systems
+    &lt;/li&gt;
+    &lt;li&gt;
+        Includes work-arounds for critical business processes in case of failures
+    &lt;/li&gt;
+    &lt;li&gt;
+        Includes temporary interfaces required during transition
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    Obtain signatures from team leads.
+&lt;/p&gt;
+&lt;p&gt;
+    Communicate agreement to project team and key stakeholders.
+&lt;/p&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="8b5b023e">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_EA-EQDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/create_cut_deploy_trans_des_plan_28A05931.html" Name="create_cut_deploy_trans_des_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Create cutover deployment transitional design plan" Id="_EA-EQDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="439556c4"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Sign off plan and update project plan" Id="_lXXCkEIUEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="ba82e512" Url="" Name="Sign off plan and update project plan" BackPath="">
+<copyright nodeId="bf0ff560">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="619cd093">Sign off plan and update project plan</attribute>
+<attribute name="guid" nodeId="1f97e8ae">_lXXCkEIUEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="4f7d4fad">Sign off plan and update project plan</attribute>
+<attribute name="briefDescription" nodeId="aecb3d5c"></attribute>
+<attribute name="suppressed" nodeId="2cfb7e3e">false</attribute>
+<attribute name="orderingGuide" nodeId="c0a33f63"></attribute>
+<attribute name="variabilityType" nodeId="37c5e254">na</attribute>
+<attribute name="sectionName" nodeId="5f2fb502"></attribute>
+<attribute name="sectionDescription" nodeId="c492e073"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="434ee432">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_EA-EQDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/create_cut_deploy_trans_des_plan_28A05931.html" Name="create_cut_deploy_trans_des_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Create cutover deployment transitional design plan" Id="_EA-EQDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="7fb7e3fc"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Periodically review and update the transitional design plan" Id="_XGoH4EIUEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="1898e238" Url="" Name="Periodically review and update the transitional design plan" BackPath="">
+<copyright nodeId="db2858b9">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="6c656c81">Periodically review and update the transitional design plan</attribute>
+<attribute name="guid" nodeId="136b72b6">_XGoH4EIUEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="19febe0">Periodically review and update the transitional design plan</attribute>
+<attribute name="briefDescription" nodeId="950e3fa5"></attribute>
+<attribute name="suppressed" nodeId="b1d6015e">false</attribute>
+<attribute name="orderingGuide" nodeId="10e6e01"></attribute>
+<attribute name="variabilityType" nodeId="ec0e4887">na</attribute>
+<attribute name="sectionName" nodeId="18afd411"></attribute>
+<attribute name="sectionDescription" nodeId="89260ca7">&lt;p&gt;
+    To enable more current and complete assessments of scope change impacts, timing, and dependencies impacting the
+    cutover, review the&amp;nbsp;baseline cutover and deployment&amp;nbsp;transition design plan at agreed intervals.&amp;nbsp;
+    Determine potential impacts and potential risks to the cutover window,&amp;nbsp;make changes as necessary, and communicate
+    the most up-to-date information to inform re-planning to key stakeholders.&amp;nbsp;
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Review the baseline version of the cutover and deployment plan with impacted project teams and business
+        stakeholders during the middle-to-later-part of the build activity
+    &lt;/li&gt;
+    &lt;li&gt;
+        Determine changes to key business and technical activities along with their readiness criteria and approach (e.g.,
+        new or modified old tasks, dependencies and durations and impacts due to new change requests)
+    &lt;/li&gt;
+    &lt;li&gt;
+        Seek PMO input on the overall progress of the implementation plan to identify dependencies and potential impacts to
+        the cutover plan
+    &lt;/li&gt;
+    &lt;li&gt;
+        Seek inputs from program leadership for additional considerations (e.g., overall change in direction, release plan,
+        deployment options) in order to identify potential impacts to the cutover plan
+    &lt;/li&gt;
+    &lt;li&gt;
+        Incorporate all applicable changes into the revised version of the cutover and deployment plan 
+        &lt;ul&gt;
+            &lt;li&gt;
+                Update the plan for resource planning and coordination
+            &lt;/li&gt;
+            &lt;li&gt;
+                Update controls to address potential disruptions across transition activities
+            &lt;/li&gt;
+            &lt;li&gt;
+                Update the framework of standard re-usable processes and supporting systems
+            &lt;/li&gt;
+            &lt;li&gt;
+                Make adjustments to provide work-arounds for critical business processes in case of failures
+            &lt;/li&gt;
+            &lt;li&gt;
+                Add or make changes to temporary interfaces required during transition as a result of detailed cutover
+                activities information.
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Review significant impacts to the cutover window and timing with program leadership, especially if go-live date
+        changes are possible
+    &lt;/li&gt;
+    &lt;li&gt;
+        Distribute the updated plan to all workstream leads, PMO, program and business leadership&lt;br /&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="36c32188">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_EA-EQDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/create_cut_deploy_trans_des_plan_28A05931.html" Name="create_cut_deploy_trans_des_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Create cutover deployment transitional design plan" Id="_EA-EQDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="932357bc"></Element>
+</referenceList>
+</Element>
+</referenceList>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="performedBy" nodeId="7f425393">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Solution Architect" Id="_MaaBsNNoEe-Fuo3rkO5x4w" ShapeiconUrl="images/role.gif" nodeId="2ff610d4" Url="process.adv.eya_oracle.base/roles/soln_architect_1699084C.html" Name="soln_architect" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="mandatoryInput" nodeId="96f0a803">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Cutover and Deployment Approach" Id="_DsttgPDVEeOFgpTUvzaUCQ" ShapeiconUrl="images/artifact.gif" nodeId="47412674" Url="core.ops.common.base/workproducts/cutover_deploy_approach_284EDC70.html" Name="cutover_deploy_approach" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="output" nodeId="6eea9245">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Cutover and Deployment Plan" Id="_kkusYPDVEeOFgpTUvzaUCQ" ShapeiconUrl="images/artifact.gif" nodeId="ce65c33d" Url="core.ops.common.base/workproducts/cutover_deploy_plan_9BE3B58D.html" Name="cutover_deploy_plan" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="additionallyPerformedBy" nodeId="95d3be0">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Analyst" Id="_W7RhoAk9EeOR5fNLLJCc5g" ShapeiconUrl="images/role.gif" nodeId="ec1c5863" Url="core.default.role_def.base/roles/analyst_46D75ED7.html" Name="analyst" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Functional Architect" Id="_EZAaoMxjEe-ZJLQgqxU0kQ" ShapeiconUrl="images/role.gif" nodeId="eca18f99" Url="process.adv.eya_oracle.base/roles/func_architect_A28F4FB1.html" Name="func_architect" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Technical Lead" Id="_6At4MCygEe-bo7_6LoJ2iQ" ShapeiconUrl="images/role.gif" nodeId="8f899132" Url="process.adv.eya_oracle.base/roles/tech_lead_30CEAD95.html" Name="tech_lead" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Transition Lead" Id="_C2LiJz8gEeOOEPaNsP0t0A" ShapeiconUrl="images/role.gif" nodeId="bf970d70" Url="core.default.role_def.base/roles/transition_lead_D1C56254.html" Name="transition_lead" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="steps" nodeId="8ec7dbaf">
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Review change impact assessments and transition strategy for the proposed solution" Id="_vud1wEITEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="1d14e13" Url="" Name="Review change impact assessments and transition strategy for the proposed solution" BackPath="">
+<copyright nodeId="7fd79e2c">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="9a5f43b7">Review change impact assessments and transition strategy for the proposed solution</attribute>
+<attribute name="guid" nodeId="cd4191c4">_vud1wEITEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="6ada7fef">Review change impact assessments and transition strategy for the proposed solution</attribute>
+<attribute name="briefDescription" nodeId="b1367449"></attribute>
+<attribute name="suppressed" nodeId="fc107aca">false</attribute>
+<attribute name="orderingGuide" nodeId="8ca365a7"></attribute>
+<attribute name="variabilityType" nodeId="371dbb90">na</attribute>
+<attribute name="sectionName" nodeId="1924aea0"></attribute>
+<attribute name="sectionDescription" nodeId="6dd9a6bb"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="476cbd91">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_EA-EQDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/create_cut_deploy_trans_des_plan_28A05931.html" Name="create_cut_deploy_trans_des_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Create cutover deployment transitional design plan" Id="_EA-EQDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="521f22c7"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Review existing bridging processes and documented requirements" Id="_1XxAkEITEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="cbdd569e" Url="" Name="Review existing bridging processes and documented requirements" BackPath="">
+<copyright nodeId="64f05535">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="21364f20">Review existing bridging processes and documented requirements</attribute>
+<attribute name="guid" nodeId="ed189dbd">_1XxAkEITEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="d26abd7d">Review existing bridging processes and documented requirements</attribute>
+<attribute name="briefDescription" nodeId="225a7760"></attribute>
+<attribute name="suppressed" nodeId="e1c4c538">false</attribute>
+<attribute name="orderingGuide" nodeId="ffb62493"></attribute>
+<attribute name="variabilityType" nodeId="98c180cf">na</attribute>
+<attribute name="sectionName" nodeId="34b0d7ea"></attribute>
+<attribute name="sectionDescription" nodeId="156de7d3"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="e3c8443f">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_EA-EQDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/create_cut_deploy_trans_des_plan_28A05931.html" Name="create_cut_deploy_trans_des_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Create cutover deployment transitional design plan" Id="_EA-EQDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="6def6f21"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Develop an interim or transitional design plan" Id="_4AKmMEITEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="e9f82ce3" Url="" Name="Develop an interim or transitional design plan" BackPath="">
+<copyright nodeId="dcca6147">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="997b925d">Develop an interim or transitional design plan</attribute>
+<attribute name="guid" nodeId="abd218fc">_4AKmMEITEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="841a4448">Develop an interim or transitional design plan</attribute>
+<attribute name="briefDescription" nodeId="5ec6de80"></attribute>
+<attribute name="suppressed" nodeId="b345c489">false</attribute>
+<attribute name="orderingGuide" nodeId="bba8c74f"></attribute>
+<attribute name="variabilityType" nodeId="e61ed25f">na</attribute>
+<attribute name="sectionName" nodeId="cec9f76b"></attribute>
+<attribute name="sectionDescription" nodeId="78dee61e">&lt;ul&gt;
+    &lt;li&gt;
+        Review the documented transition strategy
+    &lt;/li&gt;
+    &lt;li&gt;
+        Review the service management resourcing plan
+    &lt;/li&gt;
+    &lt;li&gt;
+        Review the interim service management model
+    &lt;/li&gt;
+    &lt;li&gt;
+        Review the framework of standard re-usable processes and supporting systems
+    &lt;/li&gt;
+    &lt;li&gt;
+        Review the work-arounds for critical business processes
+    &lt;/li&gt;
+    &lt;li&gt;
+        Review the interfaces required during transition
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="f6ddfda">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_EA-EQDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/create_cut_deploy_trans_des_plan_28A05931.html" Name="create_cut_deploy_trans_des_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Create cutover deployment transitional design plan" Id="_EA-EQDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="492cee5f"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Review the plan with all stakeholders impacted, receive feedback and finalize the plan" Id="_7U-l4EITEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="16875992" Url="" Name="Review the plan with all stakeholders impacted, receive feedback and finalize the plan" BackPath="">
+<copyright nodeId="2e57864a">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="52bc478b">Review the plan with all stakeholders impacted, receive feedback and finalize the plan</attribute>
+<attribute name="guid" nodeId="e7a5d691">_7U-l4EITEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="479aec8d">Review the plan with all stakeholders impacted, receive feedback and finalize the plan</attribute>
+<attribute name="briefDescription" nodeId="c704662d"></attribute>
+<attribute name="suppressed" nodeId="17111ea2">false</attribute>
+<attribute name="orderingGuide" nodeId="7c3df1a0"></attribute>
+<attribute name="variabilityType" nodeId="1b2d9ff1">na</attribute>
+<attribute name="sectionName" nodeId="9ddf2268"></attribute>
+<attribute name="sectionDescription" nodeId="c21cacb7"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="94ef60b2">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_EA-EQDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/create_cut_deploy_trans_des_plan_28A05931.html" Name="create_cut_deploy_trans_des_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Create cutover deployment transitional design plan" Id="_EA-EQDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="3efe742d"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Update the plan with feedback received and finalize" Id="_96R0MEITEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="1f25109f" Url="" Name="Update the plan with feedback received and finalize" BackPath="">
+<copyright nodeId="dfd39fe">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="5b28d96c">Update the plan with feedback received and finalize</attribute>
+<attribute name="guid" nodeId="efb61aa4">_96R0MEITEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="2701a237">Update the plan with feedback received and finalize</attribute>
+<attribute name="briefDescription" nodeId="f0c88ad0"></attribute>
+<attribute name="suppressed" nodeId="a67dfa93">false</attribute>
+<attribute name="orderingGuide" nodeId="a38de8c9"></attribute>
+<attribute name="variabilityType" nodeId="bbd05751">na</attribute>
+<attribute name="sectionName" nodeId="dfe2b8b8"></attribute>
+<attribute name="sectionDescription" nodeId="41e9e1a8">&lt;ul&gt;
+    &lt;li&gt;
+        Synchronize transition strategy to the plan
+    &lt;/li&gt;
+    &lt;li&gt;
+        Coordinate resources of transition design plan by using the service management resourcing plan
+    &lt;/li&gt;
+    &lt;li&gt;
+        Finalize controls for disruption across transition activities by using the finalized interim service management
+        model
+    &lt;/li&gt;
+    &lt;li&gt;
+        Finalize a framework of standard re-usable processes and supporting systems resulting from additional cutover
+        activities by using the end-state service management model
+    &lt;/li&gt;
+    &lt;li&gt;
+        Finalize work-arounds for critical business processes in case of failures using the interim service management
+        model
+    &lt;/li&gt;
+    &lt;li&gt;
+        Finalize temporary interfaces required during transition using the interim service management model
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="1bd5d921">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_EA-EQDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/create_cut_deploy_trans_des_plan_28A05931.html" Name="create_cut_deploy_trans_des_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Create cutover deployment transitional design plan" Id="_EA-EQDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="6a1ff948"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Agree that all transitional design plan activities are complete" Id="_JkeKcEIUEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="ad27065f" Url="" Name="Agree that all transitional design plan activities are complete" BackPath="">
+<copyright nodeId="21620cec">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="6d861a70">Agree that all transitional design plan activities are complete</attribute>
+<attribute name="guid" nodeId="e0420f9d">_JkeKcEIUEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="1eb7fdf7">Agree that all transitional design plan activities are complete</attribute>
+<attribute name="briefDescription" nodeId="f96ae4fc"></attribute>
+<attribute name="suppressed" nodeId="3910053a">false</attribute>
+<attribute name="orderingGuide" nodeId="d6cd5ed5"></attribute>
+<attribute name="variabilityType" nodeId="3d89b521">na</attribute>
+<attribute name="sectionName" nodeId="4c8902d"></attribute>
+<attribute name="sectionDescription" nodeId="35947df0">&lt;p&gt;
+    Set up a meeting to seek agreement that the plan:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Aligns with the service management strategy for resource planning and coordination
+    &lt;/li&gt;
+    &lt;li&gt;
+        Controls the risks of failure and disruption across transition activities
+    &lt;/li&gt;
+    &lt;li&gt;
+        Includes a common framework of standard re-usable processes and supporting systems
+    &lt;/li&gt;
+    &lt;li&gt;
+        Includes work-arounds for critical business processes in case of failures
+    &lt;/li&gt;
+    &lt;li&gt;
+        Includes temporary interfaces required during transition
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    Obtain signatures from team leads.
+&lt;/p&gt;
+&lt;p&gt;
+    Communicate agreement to project team and key stakeholders.
+&lt;/p&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="beac8714">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_EA-EQDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/create_cut_deploy_trans_des_plan_28A05931.html" Name="create_cut_deploy_trans_des_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Create cutover deployment transitional design plan" Id="_EA-EQDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="6f94bf23"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Sign off plan and update project plan" Id="_lXXCkEIUEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="b60f815a" Url="" Name="Sign off plan and update project plan" BackPath="">
+<copyright nodeId="7ddaad2e">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="492f630b">Sign off plan and update project plan</attribute>
+<attribute name="guid" nodeId="8c176d8b">_lXXCkEIUEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="8050638b">Sign off plan and update project plan</attribute>
+<attribute name="briefDescription" nodeId="5fe9e65"></attribute>
+<attribute name="suppressed" nodeId="864cd2e8">false</attribute>
+<attribute name="orderingGuide" nodeId="f66617d3"></attribute>
+<attribute name="variabilityType" nodeId="7dbdd6e8">na</attribute>
+<attribute name="sectionName" nodeId="888ee58"></attribute>
+<attribute name="sectionDescription" nodeId="4695275c"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="6733531e">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_EA-EQDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/create_cut_deploy_trans_des_plan_28A05931.html" Name="create_cut_deploy_trans_des_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Create cutover deployment transitional design plan" Id="_EA-EQDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="fbbfc800"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Periodically review and update the transitional design plan" Id="_XGoH4EIUEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="29fd4961" Url="" Name="Periodically review and update the transitional design plan" BackPath="">
+<copyright nodeId="cfebf966">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="9db9bca4">Periodically review and update the transitional design plan</attribute>
+<attribute name="guid" nodeId="381f324d">_XGoH4EIUEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="4861debc">Periodically review and update the transitional design plan</attribute>
+<attribute name="briefDescription" nodeId="3f0b1a69"></attribute>
+<attribute name="suppressed" nodeId="10a3a09b">false</attribute>
+<attribute name="orderingGuide" nodeId="1efe6e5d"></attribute>
+<attribute name="variabilityType" nodeId="a674dc9">na</attribute>
+<attribute name="sectionName" nodeId="539b3f41"></attribute>
+<attribute name="sectionDescription" nodeId="c62584ff">&lt;p&gt;
+    To enable more current and complete assessments of scope change impacts, timing, and dependencies impacting the
+    cutover, review the&amp;nbsp;baseline cutover and deployment&amp;nbsp;transition design plan at agreed intervals.&amp;nbsp;
+    Determine potential impacts and potential risks to the cutover window,&amp;nbsp;make changes as necessary, and communicate
+    the most up-to-date information to inform re-planning to key stakeholders.&amp;nbsp;
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Review the baseline version of the cutover and deployment plan with impacted project teams and business
+        stakeholders during the middle-to-later-part of the build activity
+    &lt;/li&gt;
+    &lt;li&gt;
+        Determine changes to key business and technical activities along with their readiness criteria and approach (e.g.,
+        new or modified old tasks, dependencies and durations and impacts due to new change requests)
+    &lt;/li&gt;
+    &lt;li&gt;
+        Seek PMO input on the overall progress of the implementation plan to identify dependencies and potential impacts to
+        the cutover plan
+    &lt;/li&gt;
+    &lt;li&gt;
+        Seek inputs from program leadership for additional considerations (e.g., overall change in direction, release plan,
+        deployment options) in order to identify potential impacts to the cutover plan
+    &lt;/li&gt;
+    &lt;li&gt;
+        Incorporate all applicable changes into the revised version of the cutover and deployment plan 
+        &lt;ul&gt;
+            &lt;li&gt;
+                Update the plan for resource planning and coordination
+            &lt;/li&gt;
+            &lt;li&gt;
+                Update controls to address potential disruptions across transition activities
+            &lt;/li&gt;
+            &lt;li&gt;
+                Update the framework of standard re-usable processes and supporting systems
+            &lt;/li&gt;
+            &lt;li&gt;
+                Make adjustments to provide work-arounds for critical business processes in case of failures
+            &lt;/li&gt;
+            &lt;li&gt;
+                Add or make changes to temporary interfaces required during transition as a result of detailed cutover
+                activities information.
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Review significant impacts to the cutover window and timing with program leadership, especially if go-live date
+        changes are possible
+    &lt;/li&gt;
+    &lt;li&gt;
+        Distribute the updated plan to all workstream leads, PMO, program and business leadership&lt;br /&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="51529910">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_EA-EQDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/create_cut_deploy_trans_des_plan_28A05931.html" Name="create_cut_deploy_trans_des_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Create cutover deployment transitional design plan" Id="_EA-EQDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="f7c4aa66"></Element>
+</referenceList>
+</Element>
+</referenceList>
+<referenceList name="Task_TaskDescriptors" nodeId="7006c9c2">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_EA-EQDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/create_cut_deploy_trans_des_plan_28A05931.html" Name="create_cut_deploy_trans_des_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Create cutover deployment transitional design plan" Id="_EA-EQDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="ae7ff8a8"></Element>
+</referenceList>
+<referenceList name="VariabilityElement_ImmediateVarieties" nodeId="6cfef59e"></referenceList>
+<reference name="performingRole" nodeId="27744555">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Solution Architect" Id="_MaaBsNNoEe-Fuo3rkO5x4w" ShapeiconUrl="images/role.gif" nodeId="bed942a0" Url="process.adv.eya_oracle.base/roles/soln_architect_1699084C.html" Name="soln_architect" BackPath="./../../"></Element>
+</reference>
+<referenceList name="customCategories" nodeId="dc74a76">
+<Element Type="CustomCategory" TypeName="Custom Category" NodeiconUrl="" DisplayName="Tasks" Id="_0Sj48KDNEeOMmqbYX27PPA" ShapeiconUrl="core.default.nav_view.base/customcategories/resources/cat_task51.png" nodeId="f38bc840" Url="core.default.nav_view.base/customcategories/task_list_CDC9CEA6.html" Name="task_list" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="24899bdb">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_EA-EQDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/create_cut_deploy_trans_des_plan_28A05931.html" Name="create_cut_deploy_trans_des_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Create cutover deployment transitional design plan" Id="_EA-EQDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="98b82cb3">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="3bac3703" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="ea9358bd">eya_oracle</attribute>
+<attribute name="guid" nodeId="a286b864">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="1a498c9f">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="75c8eb72"></attribute>
+<attribute name="suppressed" nodeId="9f6e828f">false</attribute>
+<attribute name="orderingGuide" nodeId="eb9c7a3e"></attribute>
+<attribute name="isAbstract" nodeId="9be3919a">false</attribute>
+<attribute name="shapeicon" nodeId="433efec7"></attribute>
+<attribute name="nodeicon" nodeId="7ab19108"></attribute>
+<attribute name="prefix" nodeId="100538"></attribute>
+<attribute name="isPlanned" nodeId="aefc01b1">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="9d64e42">false</attribute>
+<attribute name="isOptional" nodeId="d0a296d9">false</attribute>
+<attribute name="isRepeatable" nodeId="6522108e">false</attribute>
+<attribute name="isOngoing" nodeId="f237a67d">false</attribute>
+<attribute name="isEventDriven" nodeId="955032f1">false</attribute>
+<attribute name="variabilityType" nodeId="dbdc86dd">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Test" Id="_esTcsYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA" nodeId="e2e219b0" Url="process.adv.eya_oracle.base/deliveryprocesses/test_E5EB30E9.html" Name="test" BackPath="./../../">
+<attribute name="name" nodeId="fd478b01">test</attribute>
+<attribute name="guid" nodeId="7af20bbc">_esTcsYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="7927693d">Test</attribute>
+<attribute name="briefDescription" nodeId="b5742f71">Perform tests on the integrated Oracle services solution and prepare for cutover and deployment. Additionally, design and prepare training materials.</attribute>
+<attribute name="suppressed" nodeId="b640d4a">false</attribute>
+<attribute name="orderingGuide" nodeId="701ce763"></attribute>
+<attribute name="isAbstract" nodeId="26821c5d">false</attribute>
+<attribute name="shapeicon" nodeId="5079a41f"></attribute>
+<attribute name="nodeicon" nodeId="33c456c0"></attribute>
+<attribute name="prefix" nodeId="6845794"></attribute>
+<attribute name="isPlanned" nodeId="590dd45d">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="92e4ef4c">false</attribute>
+<attribute name="isOptional" nodeId="ebeee0a2">false</attribute>
+<attribute name="isRepeatable" nodeId="2da1ade2">false</attribute>
+<attribute name="isOngoing" nodeId="47fc955d">false</attribute>
+<attribute name="isEventDriven" nodeId="9361fac">false</attribute>
+<attribute name="variabilityType" nodeId="921f1b25">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Prepare for Cutover and Deployment" Id="_vkzykdplEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw" nodeId="eecbcbb1" Url="process.adv.eya_oracle.base/deliveryprocesses/prepare_cutover_deployment_CE7AA5F6.html" Name="prepare_cutover_deployment" BackPath="./../../">
+<attribute name="name" nodeId="c3f39448">prepare_cutover_deployment</attribute>
+<attribute name="guid" nodeId="30f27f3">_vkzykdplEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="4ec74ad4">Prepare for Cutover and Deployment</attribute>
+<attribute name="briefDescription" nodeId="7aaa9ee1">Define the approach, plan and governance tasks to manage the transition of the target state Oracle solution into the production environment.</attribute>
+<attribute name="suppressed" nodeId="d789b73f">false</attribute>
+<attribute name="orderingGuide" nodeId="58eb5cbd"></attribute>
+<attribute name="isAbstract" nodeId="51c59b7f">false</attribute>
+<attribute name="shapeicon" nodeId="27bad781"></attribute>
+<attribute name="nodeicon" nodeId="da7ce48"></attribute>
+<attribute name="prefix" nodeId="eca6b609"></attribute>
+<attribute name="isPlanned" nodeId="78f82e40">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="50383c04">false</attribute>
+<attribute name="isOptional" nodeId="42c03fe7">false</attribute>
+<attribute name="isRepeatable" nodeId="5b7c5df1">false</attribute>
+<attribute name="isOngoing" nodeId="99b75794">false</attribute>
+<attribute name="isEventDriven" nodeId="eb44265b">false</attribute>
+<attribute name="variabilityType" nodeId="fc576bc5">extends</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

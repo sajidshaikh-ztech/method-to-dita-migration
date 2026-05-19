@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop user acceptance test execution schedule" Id="_FBkTYDcFEeWiCuaOJ9Py2A" ShapeiconUrl="images/task.gif" lang="en" nodeId="4d07919a" Url="practice.ita.delv.it_test.base/tasks/develop_uat_test_exec_schedule_FB46602B.html" Name="develop_uat_test_exec_schedule" BackPath="./../../">
+<copyright nodeId="ba9ec188">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="92d2cc16">develop_uat_test_exec_schedule</attribute>
+<attribute name="guid" nodeId="3efdb07">_FBkTYDcFEeWiCuaOJ9Py2A</attribute>
+<attribute name="presentationName" nodeId="7c7c9748">Develop user acceptance test execution schedule</attribute>
+<attribute name="briefDescription" nodeId="770d13cd">Define timing and responsibility for performing test execution.</attribute>
+<attribute name="suppressed" nodeId="1acbfebb">false</attribute>
+<attribute name="orderingGuide" nodeId="d1366583"></attribute>
+<attribute name="isAbstract" nodeId="6d811c58">false</attribute>
+<attribute name="shapeicon" nodeId="351f8deb"></attribute>
+<attribute name="nodeicon" nodeId="195d43b6"></attribute>
+<attribute name="variabilityType" nodeId="24a97d15">extends</attribute>
+<reference name="presentation" nodeId="3e86b40b">
+<Element Type="TaskDescription" TypeName="Task Description" NodeiconUrl="" DisplayName="Develop user acceptance test execution schedule" Id="-6vA2eHz_gPXkm-OSxF9aIA" ShapeiconUrl="images/guidance.gif" nodeId="100caad7" Url="" Name=",_FBkTYDcFEeWiCuaOJ9Py2A" BackPath="">
+<copyright nodeId="8c1e2272">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="c3851711">,_FBkTYDcFEeWiCuaOJ9Py2A</attribute>
+<attribute name="guid" nodeId="a0d3b963">-6vA2eHz_gPXkm-OSxF9aIA</attribute>
+<attribute name="presentationName" nodeId="9e5a05a2">Develop user acceptance test execution schedule</attribute>
+<attribute name="briefDescription" nodeId="364ed8ba"></attribute>
+<attribute name="suppressed" nodeId="a5728089">false</attribute>
+<attribute name="orderingGuide" nodeId="5b7c8aff"></attribute>
+<attribute name="authors" nodeId="d9723a3b"></attribute>
+<attribute name="changeDate" nodeId="d4a36286">Thu Jul 30 17:59:53 EDT 2015</attribute>
+<attribute name="changeDescription" nodeId="559f4f3a">APR 2018 - linked to existing Test Estimation Techniques concept|JAN 2016 - Grammatical and style errors were fixed in the brief description.||OCT 2015 - Grammatical and style errors were fixed in the main description and key considerations fields.</attribute>
+<attribute name="version" nodeId="98809282"></attribute>
+<attribute name="mainDescription" nodeId="bd943b98">&lt;p&gt;
+    Perform the following:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Prioritize scripts and assign&amp;nbsp;start and end dates for test script execution; prioritization is&amp;nbsp;based on
+        script complexity and length of time for the script to complete
+    &lt;/li&gt;
+    &lt;li&gt;
+        Calculate the total amount of time it should take to execute all test scenarios, resolve defects and re-execute
+    &lt;/li&gt;
+    &lt;li&gt;
+        Review and adjust the number of resources as required to meet the allotted time to complete the test execution
+    &lt;/li&gt;
+    &lt;li&gt;
+        Assign an&amp;nbsp;owner responsible for achieving successful execution&amp;nbsp;for each test script;&amp;nbsp;assignment is a
+        common practice&amp;nbsp;to increase accountability in the test effort
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="externalId" nodeId="eda0d7cc"></attribute>
+<attribute name="keyConsiderations" nodeId="77d805e7">&lt;p&gt;
+    Since test scripts often have specific data needs, availability of test data is also considered when scheduling test
+    execution. Scheduling execution of some test scripts may require discussion of when test data become&amp;nbsp;available,
+    which may be dependent on what type of test data is being used and how it is created.
+&lt;/p&gt;
+&lt;p&gt;
+    Another factor to consider while scheduling test execution is external dependencies that impact the test effort.
+    Particularly with large projects, the test effort may rely on completed tasks from other parts of the project. These
+    dependencies are discussed, documented and presented to stakeholders. For the duration of the test effort, external
+    dependencies and other integration points&amp;nbsp;are monitored, addressed and accounted for&amp;nbsp;while scheduling the
+    execution of test scripts.
+&lt;/p&gt;
+&lt;p&gt;
+    In agile methodology, scheduling test execution is an ongoing effort and test scripts are assigned to a test cycle on a
+    daily basis based on the available functionality. If there is a dependency between test scripts then they are assigned
+    to a different test cycle.
+&lt;/p&gt;</attribute>
+<attribute name="longPresentationName" nodeId="6b793f41"></attribute>
+<attribute name="purpose" nodeId="cbc8f71c">&lt;p&gt;
+    The purpose of this task is to:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Coordinate execution of user acceptance testing giving considerations to identifying and training users as well as
+        configuration of a proper environment
+    &lt;/li&gt;
+    &lt;li&gt;
+        Establish a baseline for tracking user&amp;nbsp;test execution progress
+    &lt;/li&gt;
+    &lt;li&gt;
+        Re-assess user acceptance&amp;nbsp;test effort estimates and evaluate any impacts to project timelines
+    &lt;/li&gt;
+    &lt;li&gt;
+        Verify that&amp;nbsp;enough resources have been assigned to the user acceptance test cycle so that it can be
+        accomplished on time
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="alternatives" nodeId="fed5cf39"></attribute>
+</Element>
+</reference>
+<reference name="variabilityBasedOnElement" nodeId="e6ab2ef7">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop test execution schedule" Id="_rBOcIOYIEeOqmb5IikO7mw" ShapeiconUrl="images/task.gif" nodeId="e0bf032d" Url="practice.ita.delv.it_test.base/tasks/develop_test_exec_schedule_D9B5C878.html" Name="develop_test_exec_schedule" BackPath="./../../"></Element>
+</reference>
+<referenceList sortValue="Manual" name="conceptsAndPapers" nodeId="d9efe5de">
+<Element Type="Concept" TypeName="Concept" NodeiconUrl="" DisplayName="Test Estimation Techniques" Id="_U_vvYCbqEeSoUcGUkQ65Ig" ShapeiconUrl="images/concept.gif" nodeId="d04dd488" Url="core.i_t.common.base/guidances/concepts/test_estimation_techniques_7DB0567D.html" Name="test_estimation_techniques" BackPath="./../../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="performedBy" nodeId="bc8f88f8">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Test Lead" Id="_Z11mxD8eEeOOEPaNsP0t0A" ShapeiconUrl="images/role.gif" nodeId="fcec9910" Url="core.default.role_def.base/roles/test_lead_3E7314F5.html" Name="test_lead" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="mandatoryInput" nodeId="9be3c77e">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Test Environment Specification" Id="_CH4gkOYHEeOqmb5IikO7mw" ShapeiconUrl="images/artifact.gif" nodeId="31d88b37" Url="core.i_t.common.base/workproducts/test_env_spec_FCDACF29.html" Name="test_env_spec" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Test Plan" Id="_Kme30OX3EeOqmb5IikO7mw" ShapeiconUrl="images/artifact.gif" nodeId="c49955c" Url="core.i_t.common.base/workproducts/test_plan_4519A68.html" Name="test_plan" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Test Script" Id="_7HV9YOYDEeOqmb5IikO7mw" ShapeiconUrl="images/artifact.gif" nodeId="a5e11c00" Url="core.i_t.common.base/workproducts/test_script_43C76873.html" Name="test_script" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="output" nodeId="c4c76b05">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Test Execution Schedule" Id="_n66ygOYIEeOqmb5IikO7mw" ShapeiconUrl="images/artifact.gif" nodeId="ecde7640" Url="core.i_t.common.base/workproducts/test_execution_schedule_3F6252E1.html" Name="test_execution_schedule" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="Task_TaskDescriptors" nodeId="d136acdb">
+<Element TypeName="Task Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_I_xX_ZK6EeSEOeG-bGncjA,_xk3oUDc_EeWp1olIN1xWiA" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/develop_uat_test_exec_schedule_FB46602B.html" Name="develop_uat_test_exec_schedule" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop user acceptance test execution schedule" Id="_xk3oUDc_EeWp1olIN1xWiA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="41631507"></Element>
+</referenceList>
+<referenceList name="customCategories" nodeId="711917ee">
+<Element Type="CustomCategory" TypeName="Custom Category" NodeiconUrl="" DisplayName="Tasks" Id="_0Sj48KDNEeOMmqbYX27PPA" ShapeiconUrl="core.default.nav_view.base/customcategories/resources/cat_task51.png" nodeId="9a0bc94e" Url="core.default.nav_view.base/customcategories/task_list_CDC9CEA6.html" Name="task_list" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="396af259">
+<Element TypeName="Task Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_I_xX_ZK6EeSEOeG-bGncjA,_xk3oUDc_EeWp1olIN1xWiA" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/develop_uat_test_exec_schedule_FB46602B.html" Name="develop_uat_test_exec_schedule" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop user acceptance test execution schedule" Id="_xk3oUDc_EeWp1olIN1xWiA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="3a5c3803">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="IT Testing (Levels)" Id="_HkiWIeW9EeOeOeyRJA3ZBg" relProcessPath="_HkiWIeW9EeOeOeyRJA3ZBg" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg" nodeId="17cf1002" Url="practice.ita.delv.it_test.assign/capabilitypatterns/it_test_levels_9A95B916.html" Name="it_test_levels" BackPath="./../../">
+<attribute name="name" nodeId="20e3bd1e">it_test_levels</attribute>
+<attribute name="guid" nodeId="515a5bf3">_HkiWIeW9EeOeOeyRJA3ZBg</attribute>
+<attribute name="presentationName" nodeId="7b09ffe0">IT Testing (Levels)</attribute>
+<attribute name="briefDescription" nodeId="3ac15d5c"></attribute>
+<attribute name="suppressed" nodeId="2d7a58ad">false</attribute>
+<attribute name="orderingGuide" nodeId="88532acb"></attribute>
+<attribute name="isAbstract" nodeId="fd2ad957">false</attribute>
+<attribute name="shapeicon" nodeId="b99cb030"></attribute>
+<attribute name="nodeicon" nodeId="3c3ee9f3"></attribute>
+<attribute name="prefix" nodeId="ce2a04c5"></attribute>
+<attribute name="isPlanned" nodeId="5002d03d">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="da26ecf6">false</attribute>
+<attribute name="isOptional" nodeId="9764cca1">false</attribute>
+<attribute name="isRepeatable" nodeId="e49bf54e">false</attribute>
+<attribute name="isOngoing" nodeId="77f2c11f">false</attribute>
+<attribute name="isEventDriven" nodeId="a25de9e7">false</attribute>
+<attribute name="variabilityType" nodeId="3a56abe1">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Prepare for User Acceptance Testing" Id="_I_xX_ZK6EeSEOeG-bGncjA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_I_xX_ZK6EeSEOeG-bGncjA" nodeId="ea373a9d" Url="practice.ita.delv.it_test.assign/capabilitypatterns/Prepare for User Acceptance Testing_733CE01A.html" Name="Prepare for User Acceptance Testing" BackPath="./../../">
+<attribute name="name" nodeId="1e84e55c">Prepare for User Acceptance Testing</attribute>
+<attribute name="guid" nodeId="988201a5">_I_xX_ZK6EeSEOeG-bGncjA</attribute>
+<attribute name="presentationName" nodeId="41988d85">Prepare for User Acceptance Testing</attribute>
+<attribute name="briefDescription" nodeId="68c62145">Proactively identify potential dependencies and issues in order to mitigate risks and increase successful test execution when validating solution behaviors satisfies user acceptance criteira.</attribute>
+<attribute name="suppressed" nodeId="4f852dc0">false</attribute>
+<attribute name="orderingGuide" nodeId="8ff275e5"></attribute>
+<attribute name="isAbstract" nodeId="8e539c3f">false</attribute>
+<attribute name="shapeicon" nodeId="cc0119b2"></attribute>
+<attribute name="nodeicon" nodeId="4e274cb3"></attribute>
+<attribute name="prefix" nodeId="db9f6a08"></attribute>
+<attribute name="isPlanned" nodeId="fd689dbb">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="838e2f76">false</attribute>
+<attribute name="isOptional" nodeId="b34ed0be">false</attribute>
+<attribute name="isRepeatable" nodeId="fc6d5953">false</attribute>
+<attribute name="isOngoing" nodeId="d93cfd7e">false</attribute>
+<attribute name="isEventDriven" nodeId="1d9c3b2f">false</attribute>
+<attribute name="variabilityType" nodeId="ff1ea74">na</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

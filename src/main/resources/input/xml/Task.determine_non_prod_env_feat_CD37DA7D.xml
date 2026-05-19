@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" TypeName="Task" Url="process.adv.eya_oracle.base/tasks/determine_non_prod_env_feat_CD37DA7D.html" Name="determine_non_prod_env_feat" BackPath="./../../" Type="Task" NodeiconUrl="" performingRoleName="Technical Lead" DisplayName="Define non-production environments and tools" Id="_2LRecNGMEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" lang="en" nodeId="32f53110">
+<copyright nodeId="aa9e4ba9">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="6251606f">determine_non_prod_env_feat</attribute>
+<attribute name="guid" nodeId="e8732f26">_2LRecNGMEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="6abd9a04">Define non-production environments and tools</attribute>
+<attribute name="briefDescription" nodeId="f24e24c3">For on-premises implementations, define the required non-production environment features and tools.</attribute>
+<attribute name="suppressed" nodeId="c9378964">false</attribute>
+<attribute name="orderingGuide" nodeId="63b085c7"></attribute>
+<attribute name="isAbstract" nodeId="7e2f63d7">false</attribute>
+<attribute name="shapeicon" nodeId="67a22fb"></attribute>
+<attribute name="nodeicon" nodeId="c2646fb0"></attribute>
+<attribute name="variabilityType" nodeId="681e8302">na</attribute>
+<reference name="presentation" nodeId="57e2c82c">
+<Element Type="TaskDescription" TypeName="Task Description" NodeiconUrl="" DisplayName="Define non-production environments and tools" Id="-KYXW7NjDxA2FM_JSS4V7xg" ShapeiconUrl="images/guidance.gif" nodeId="acf08c09" Url="" Name="determine_non_prod_envir_feat,_2LRecNGMEe6Y56Jk6jqfOA" BackPath="">
+<copyright nodeId="3d04bf26">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="cdf7d4ae">determine_non_prod_envir_feat,_2LRecNGMEe6Y56Jk6jqfOA</attribute>
+<attribute name="guid" nodeId="c35ebc4d">-KYXW7NjDxA2FM_JSS4V7xg</attribute>
+<attribute name="presentationName" nodeId="eace5ee7">Define non-production environments and tools</attribute>
+<attribute name="briefDescription" nodeId="b815ec1b"></attribute>
+<attribute name="suppressed" nodeId="a01d53e6">false</attribute>
+<attribute name="orderingGuide" nodeId="232e8346"></attribute>
+<attribute name="authors" nodeId="24a7c8bf"></attribute>
+<attribute name="changeDate" nodeId="1755f0ee">Tue Feb 18 16:18:11 EST 2025</attribute>
+<attribute name="changeDescription" nodeId="e3f38e45">FEB 2025 - Baseline</attribute>
+<attribute name="version" nodeId="ed4c1757"></attribute>
+<attribute name="mainDescription" nodeId="28615b01">&lt;p&gt;
+    Facilitate discussions with client stakeholders to understand the scope and desired features of non-production
+    environments. Hardware and software resources required are typically the main discussion topics. Capture all the
+    different interfaces, applications, hardware, and network requirements needed in each environment.
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;p&gt;
+            Conduct interviews to gather sizing metrics (e.g., number of dimensions for a multi-dimensional application)
+            which can be specific to the type of application being developed; common types of metrics include:
+        &lt;/p&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+    &lt;ol&gt;
+        &lt;li&gt;
+            Total number of users
+        &lt;/li&gt;
+        &lt;li&gt;
+            Number of concurrent users
+        &lt;/li&gt;
+        &lt;li&gt;
+            Number of business processes supported
+        &lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Review metrics with hardware vendor
+    &lt;/li&gt;
+    &lt;li&gt;
+        Run sizing estimation with hardware vendor
+    &lt;/li&gt;
+    &lt;li&gt;
+        Determine software features
+    &lt;/li&gt;
+    &lt;li&gt;
+        Validate results
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="externalId" nodeId="387ad5fe"></attribute>
+<attribute name="keyConsiderations" nodeId="ca29bfbf"></attribute>
+<attribute name="longPresentationName" nodeId="8a3b3e91"></attribute>
+<attribute name="purpose" nodeId="95fb81d9"></attribute>
+<attribute name="alternatives" nodeId="acc2d83f"></attribute>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="performedBy" nodeId="904c76ac">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Technical Lead" Id="_6At4MCygEe-bo7_6LoJ2iQ" ShapeiconUrl="images/role.gif" nodeId="a7a6a0bb" Url="process.adv.eya_oracle.base/roles/tech_lead_30CEAD95.html" Name="tech_lead" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="mandatoryInput" nodeId="a0873ba">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Solution Architecture" Id="_Ho1o4JXpEeSkn6Y9U7DN_w" ShapeiconUrl="images/artifact.gif" nodeId="d5c7db14" Url="core.i_t.common.base/workproducts/soln_arch_DB753696.html" Name="soln_arch" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="output" nodeId="6b60b7e9">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Non-production Environment Features" Id="__Q470CmSEeSNkYLq0Qo8IA" ShapeiconUrl="images/artifact.gif" nodeId="2f6822f2" Url="core.ops.common.base/workproducts/non_prod_env_features_D63E797D.html" Name="non_prod_env_features" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="Task_TaskDescriptors" nodeId="40f34ae4">
+<Element TypeName="Task Descriptor" queryString="?proc=__kYz8dANEe6H-rjlu9wPlA&amp;path=__kYz8dANEe6H-rjlu9wPlA,_gfXLodGMEe6Y56Jk6jqfOA,_3TylsNGMEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/determine_non_prod_env_feat_CD37DA7D.html" Name="determine_non_prod_env_feat" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define non-production environments and tools" Id="_3TylsNGMEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="ea25c125"></Element>
+</referenceList>
+<reference name="performingRole" nodeId="7bc29356">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Technical Lead" Id="_6At4MCygEe-bo7_6LoJ2iQ" ShapeiconUrl="images/role.gif" nodeId="160cd81b" Url="process.adv.eya_oracle.base/roles/tech_lead_30CEAD95.html" Name="tech_lead" BackPath="./../../"></Element>
+</reference>
+<referenceList name="customCategories" nodeId="49c98e5e">
+<Element Type="CustomCategory" TypeName="Custom Category" NodeiconUrl="" DisplayName="Tasks" Id="_0Sj48KDNEeOMmqbYX27PPA" ShapeiconUrl="core.default.nav_view.base/customcategories/resources/cat_task51.png" nodeId="31d76503" Url="core.default.nav_view.base/customcategories/task_list_CDC9CEA6.html" Name="task_list" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="4856bb24">
+<Element TypeName="Task Descriptor" queryString="?proc=__kYz8dANEe6H-rjlu9wPlA&amp;path=__kYz8dANEe6H-rjlu9wPlA,_gfXLodGMEe6Y56Jk6jqfOA,_3TylsNGMEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/determine_non_prod_env_feat_CD37DA7D.html" Name="determine_non_prod_env_feat" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define non-production environments and tools" Id="_3TylsNGMEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="48ba035c">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Technical Architecture and Integration" Id="__kYz8dANEe6H-rjlu9wPlA" relProcessPath="__kYz8dANEe6H-rjlu9wPlA" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=__kYz8dANEe6H-rjlu9wPlA&amp;path=__kYz8dANEe6H-rjlu9wPlA" nodeId="9b7eadc3" Url="process.adv.eya_oracle.base/capabilitypatterns/tech_arch_int_wkstrm_FC9A4290.html" Name="tech_arch_int_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="81b96ae5">tech_arch_int_wkstrm</attribute>
+<attribute name="guid" nodeId="9534e42a">__kYz8dANEe6H-rjlu9wPlA</attribute>
+<attribute name="presentationName" nodeId="58a19203">Technical Architecture and Integration</attribute>
+<attribute name="briefDescription" nodeId="1ceef2a3"></attribute>
+<attribute name="suppressed" nodeId="7f19daf2">false</attribute>
+<attribute name="orderingGuide" nodeId="d0c2d754"></attribute>
+<attribute name="isAbstract" nodeId="cf2261c2">false</attribute>
+<attribute name="shapeicon" nodeId="d574eb58"></attribute>
+<attribute name="nodeicon" nodeId="bbc069d8"></attribute>
+<attribute name="prefix" nodeId="1f5cb19a">workstream</attribute>
+<attribute name="isPlanned" nodeId="e5cea939">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="71610a64">false</attribute>
+<attribute name="isOptional" nodeId="8a26a42a">false</attribute>
+<attribute name="isRepeatable" nodeId="4db25c42">false</attribute>
+<attribute name="isOngoing" nodeId="4ad92c09">false</attribute>
+<attribute name="isEventDriven" nodeId="1e966ec7">false</attribute>
+<attribute name="variabilityType" nodeId="3cd47920">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Define Environments Plan and Specifications (On-premises)" Id="_gfXLodGMEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=__kYz8dANEe6H-rjlu9wPlA&amp;path=__kYz8dANEe6H-rjlu9wPlA,_gfXLodGMEe6Y56Jk6jqfOA" nodeId="5c27e075" Url="process.adv.eya_oracle.base/capabilitypatterns/define_env_plan_spec_on_permis_6C07946D.html" Name="define_env_plan_spec_on_permis" BackPath="./../../">
+<attribute name="name" nodeId="cd96948a">define_env_plan_spec_on_permis</attribute>
+<attribute name="guid" nodeId="8566ce3e">_gfXLodGMEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="fa141893">Define Environments Plan and Specifications (On-premises)</attribute>
+<attribute name="briefDescription" nodeId="69611dc1">For on-premises implementations, define the environments and tools needed to support the implementation of the Oracle solution. Determine how many environments will be needed and when.</attribute>
+<attribute name="suppressed" nodeId="4ec8de30">false</attribute>
+<attribute name="orderingGuide" nodeId="8dec1384"></attribute>
+<attribute name="isAbstract" nodeId="bc33457e">false</attribute>
+<attribute name="shapeicon" nodeId="a4b66bae"></attribute>
+<attribute name="nodeicon" nodeId="90c5099f"></attribute>
+<attribute name="prefix" nodeId="702e75af"></attribute>
+<attribute name="isPlanned" nodeId="ced5b07a">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="be15b9c2">false</attribute>
+<attribute name="isOptional" nodeId="31b548e6">false</attribute>
+<attribute name="isRepeatable" nodeId="9463f23b">false</attribute>
+<attribute name="isOngoing" nodeId="5ef09f93">false</attribute>
+<attribute name="isEventDriven" nodeId="c92ce895">false</attribute>
+<attribute name="variabilityType" nodeId="88a778b5">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Task Descriptor" queryString="?proc=__kYz8dANEe6H-rjlu9wPlA&amp;path=__kYz8dANEe6H-rjlu9wPlA,_gfXLodGMEe6Y56Jk6jqfOA,_3TylsNGMEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/determine_non_prod_env_feat_CD37DA7D.html" Name="determine_non_prod_env_feat" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define non-production environments and tools" Id="_3TylsNGMEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="20fa665f">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="b1adad19" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="ae179544">eya_oracle</attribute>
+<attribute name="guid" nodeId="6ed260ca">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="8536f9e0">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="f2d09b3e"></attribute>
+<attribute name="suppressed" nodeId="fe537588">false</attribute>
+<attribute name="orderingGuide" nodeId="51e90790"></attribute>
+<attribute name="isAbstract" nodeId="e9edac60">false</attribute>
+<attribute name="shapeicon" nodeId="3a1f8b13"></attribute>
+<attribute name="nodeicon" nodeId="8a3b58e4"></attribute>
+<attribute name="prefix" nodeId="1ddfb7a3"></attribute>
+<attribute name="isPlanned" nodeId="c0f33a2a">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="4da8c96c">false</attribute>
+<attribute name="isOptional" nodeId="6999302f">false</attribute>
+<attribute name="isRepeatable" nodeId="ab8204ee">false</attribute>
+<attribute name="isOngoing" nodeId="37a5a4cd">false</attribute>
+<attribute name="isEventDriven" nodeId="dbb4fe3e">false</attribute>
+<attribute name="variabilityType" nodeId="fa7177a9">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Confirm and Design" Id="_bRCPsIs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA" nodeId="71d011d8" Url="process.adv.eya_oracle.base/deliveryprocesses/confirm_and_design_29FFDB9.html" Name="confirm_and_design" BackPath="./../../">
+<attribute name="name" nodeId="e5036d29">confirm_and_design</attribute>
+<attribute name="guid" nodeId="47103581">_bRCPsIs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="738345cc">Confirm and Design</attribute>
+<attribute name="briefDescription" nodeId="996ead9a">Define business requirements, map process flows and facilitate fit-gap workshops. Define technology and testing strategies. Develop the master configuration workbook, RICEFW inventory and prepare for progressive build cycles.</attribute>
+<attribute name="suppressed" nodeId="8473323b">false</attribute>
+<attribute name="orderingGuide" nodeId="d22ce309"></attribute>
+<attribute name="isAbstract" nodeId="e9fb0c60">false</attribute>
+<attribute name="shapeicon" nodeId="138bfd3a"></attribute>
+<attribute name="nodeicon" nodeId="c603a275"></attribute>
+<attribute name="prefix" nodeId="9d50eba8"></attribute>
+<attribute name="isPlanned" nodeId="28eb4cff">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d5a8ff2c">false</attribute>
+<attribute name="isOptional" nodeId="ac465ed1">false</attribute>
+<attribute name="isRepeatable" nodeId="843bc9d4">false</attribute>
+<attribute name="isOngoing" nodeId="b68bd3e3">false</attribute>
+<attribute name="isEventDriven" nodeId="57e75221">false</attribute>
+<attribute name="variabilityType" nodeId="1db44c10">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Define Environments Plan and Specifications (On-premises)" Id="_xE0UIdpiEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA,_xE0UIdpiEe6TH6yb1zVWhw" nodeId="6f433584" Url="process.adv.eya_oracle.base/deliveryprocesses/define_env_plan_spec_on_permis_F321AC93.html" Name="define_env_plan_spec_on_permis" BackPath="./../../">
+<attribute name="name" nodeId="8d1fb845">define_env_plan_spec_on_permis</attribute>
+<attribute name="guid" nodeId="65e51486">_xE0UIdpiEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="17f36c9f">Define Environments Plan and Specifications (On-premises)</attribute>
+<attribute name="briefDescription" nodeId="1bf189ad">For on-premises implementations, define the environments and tools needed to support the implementation of the Oracle solution. Determine how many environments will be needed and when.</attribute>
+<attribute name="suppressed" nodeId="b74fb08b">false</attribute>
+<attribute name="orderingGuide" nodeId="5443a635"></attribute>
+<attribute name="isAbstract" nodeId="ba20a6d8">false</attribute>
+<attribute name="shapeicon" nodeId="9ab60186"></attribute>
+<attribute name="nodeicon" nodeId="a213b11a"></attribute>
+<attribute name="prefix" nodeId="72b66322"></attribute>
+<attribute name="isPlanned" nodeId="46b9c12f">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="ec993677">false</attribute>
+<attribute name="isOptional" nodeId="e451150">false</attribute>
+<attribute name="isRepeatable" nodeId="b50e1fbf">false</attribute>
+<attribute name="isOngoing" nodeId="f6fb0f3f">false</attribute>
+<attribute name="isEventDriven" nodeId="d384cb68">false</attribute>
+<attribute name="variabilityType" nodeId="40a0a68">extends</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

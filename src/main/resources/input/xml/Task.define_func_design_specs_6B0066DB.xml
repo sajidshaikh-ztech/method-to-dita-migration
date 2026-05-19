@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" TypeName="Task" Url="process.adv.eya_oracle.base/tasks/define_func_design_specs_6B0066DB.html" Name="define_func_design_specs" BackPath="./../../" Type="Task" NodeiconUrl="" performingRoleName="Analyst" DisplayName="Define functional design specifications" Id="_tARkQNAoEe6H-rjlu9wPlA" ShapeiconUrl="images/task.gif" lang="en" nodeId="13be3d0f">
+<copyright nodeId="14fbd2d6">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="a6b80094">define_func_design_specs</attribute>
+<attribute name="guid" nodeId="6d3de0d">_tARkQNAoEe6H-rjlu9wPlA</attribute>
+<attribute name="presentationName" nodeId="42521690">Define functional design specifications</attribute>
+<attribute name="briefDescription" nodeId="30316101">Document the functional design of how the package application will meet the client&apos;s requirements.</attribute>
+<attribute name="suppressed" nodeId="6a2c8023">false</attribute>
+<attribute name="orderingGuide" nodeId="df1ee36f"></attribute>
+<attribute name="isAbstract" nodeId="da7bca19">false</attribute>
+<attribute name="shapeicon" nodeId="20fb7ab0"></attribute>
+<attribute name="nodeicon" nodeId="db86ffa9"></attribute>
+<attribute name="variabilityType" nodeId="d64cc8b9">extendsReplaces</attribute>
+<reference name="presentation" nodeId="7c335c72">
+<Element Type="TaskDescription" TypeName="Task Description" NodeiconUrl="" DisplayName="" Id="-0mHe9GQLdlP36TsiW53xNQ" ShapeiconUrl="images/guidance.gif" nodeId="ec120d84" Url="" Name="define_func_design_specs,_tARkQNAoEe6H-rjlu9wPlA" BackPath="">
+<attribute name="name" nodeId="b6667d05">define_func_design_specs,_tARkQNAoEe6H-rjlu9wPlA</attribute>
+<attribute name="guid" nodeId="8da93420">-0mHe9GQLdlP36TsiW53xNQ</attribute>
+<attribute name="presentationName" nodeId="da8ee43a"></attribute>
+<attribute name="briefDescription" nodeId="bc7c67ac"></attribute>
+<attribute name="suppressed" nodeId="d6e05a1e">false</attribute>
+<attribute name="orderingGuide" nodeId="f908e8e3"></attribute>
+<attribute name="authors" nodeId="8b23342c"></attribute>
+<attribute name="changeDate" nodeId="c6cc4e9a"></attribute>
+<attribute name="changeDescription" nodeId="4bb4f811">MAR 2017 - remove optional input Reference Model|OCT 2015 - Updated grammar and punctuation in step fields.</attribute>
+<attribute name="version" nodeId="97c2fcf8"></attribute>
+<attribute name="mainDescription" nodeId="66238c5a"></attribute>
+<attribute name="externalId" nodeId="6bedf6b0"></attribute>
+<attribute name="keyConsiderations" nodeId="3f691263">Avoid scope creep by using previously documented artifacts to maintain focus on the stated business goals and to trace
+critical features back to the original requirements.</attribute>
+<attribute name="longPresentationName" nodeId="54b9fbb2"></attribute>
+<attribute name="purpose" nodeId="c8d2df4c">&lt;p&gt;
+    The purpose of the task is to:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Specify how a function should perform within a package
+    &lt;/li&gt;
+    &lt;li&gt;
+        A basis for estimating work and team/project scheduling
+    &lt;/li&gt;
+    &lt;li&gt;
+        Agreement with the client team on exactly what will be built
+    &lt;/li&gt;
+    &lt;li&gt;
+        Provide sufficient details that allow developers to create technical specifications
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="alternatives" nodeId="74eeae7e"></attribute>
+<referenceList sortValue="Manual" name="sections" nodeId="9bf6f411">
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Determine options" Id="_ExF1AGkNEeSPcdaSFis8Vg" ShapeiconUrl="images/guidance.gif" nodeId="8976c4f" Url="" Name="Determine options" BackPath="">
+<copyright nodeId="f70f4c58">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="12ce2294">Determine options</attribute>
+<attribute name="guid" nodeId="ef92e35a">_ExF1AGkNEeSPcdaSFis8Vg</attribute>
+<attribute name="presentationName" nodeId="45aabf7a">Determine options</attribute>
+<attribute name="briefDescription" nodeId="70106481"></attribute>
+<attribute name="suppressed" nodeId="447284de">false</attribute>
+<attribute name="orderingGuide" nodeId="980b0265"></attribute>
+<attribute name="variabilityType" nodeId="9daec8da">na</attribute>
+<attribute name="sectionName" nodeId="65bdf6c9"></attribute>
+<attribute name="sectionDescription" nodeId="171cf4e9">Determine and rationalize implementation options for the architecture and any tools that can be leveraged (e.g., Oracle
+OBIEE Suite, Microstrategy, Cognos, QlikView).</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="eba74e7d">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_c3qmQc6ZEe63wsgFeJIztg,_VyKe4NAoEe6H-rjlu9wPlA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_func_design_specs_6B0066DB.html" Name="define_func_design_specs" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define functional design specifications" Id="_VyKe4NAoEe6H-rjlu9wPlA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="673c5517"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Design interfaces" Id="_t1PkUGkMEeSPcdaSFis8Vg" ShapeiconUrl="images/guidance.gif" nodeId="a3853ce2" Url="" Name="Design interfaces" BackPath="">
+<copyright nodeId="a2bd756e">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="25aa5e82">Design interfaces</attribute>
+<attribute name="guid" nodeId="a2d59e14">_t1PkUGkMEeSPcdaSFis8Vg</attribute>
+<attribute name="presentationName" nodeId="ecd1f330">Design interfaces</attribute>
+<attribute name="briefDescription" nodeId="bf545fb8"></attribute>
+<attribute name="suppressed" nodeId="7fa10535">false</attribute>
+<attribute name="orderingGuide" nodeId="b71453d9"></attribute>
+<attribute name="variabilityType" nodeId="80091b91">na</attribute>
+<attribute name="sectionName" nodeId="5132247b"></attribute>
+<attribute name="sectionDescription" nodeId="68478a6a">&lt;ul&gt;
+    &lt;li&gt;
+        Describe the interface - provide a high level description of the interface and the business requirement that will
+        be addressed by the interface
+    &lt;/li&gt;
+    &lt;li&gt;
+        Define the interface process flow diagram - depict&amp;nbsp;source and target systems with directions
+        including&amp;nbsp;screen flow diagrams and the proposed transfer program name and the inbound/outbound file format
+        such as an Excel or text file
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="47b4bf82">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_c3qmQc6ZEe63wsgFeJIztg,_VyKe4NAoEe6H-rjlu9wPlA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_func_design_specs_6B0066DB.html" Name="define_func_design_specs" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define functional design specifications" Id="_VyKe4NAoEe6H-rjlu9wPlA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="a61b9bb1"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Design extensions" Id="_6-4pMGkOEeSPcdaSFis8Vg" ShapeiconUrl="images/guidance.gif" nodeId="10315aa5" Url="" Name="Design extensions" BackPath="">
+<copyright nodeId="d30929bd">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="8dff4a45">Design extensions</attribute>
+<attribute name="guid" nodeId="80f42d39">_6-4pMGkOEeSPcdaSFis8Vg</attribute>
+<attribute name="presentationName" nodeId="2d89e5e4">Design extensions</attribute>
+<attribute name="briefDescription" nodeId="6639ab36"></attribute>
+<attribute name="suppressed" nodeId="6ad5fb45">false</attribute>
+<attribute name="orderingGuide" nodeId="c3ac2222"></attribute>
+<attribute name="variabilityType" nodeId="ac2392e7">na</attribute>
+<attribute name="sectionName" nodeId="ccbf81c2"></attribute>
+<attribute name="sectionDescription" nodeId="b9374ba1">&lt;ul&gt;
+    &lt;li&gt;
+        Describe the&amp;nbsp;extension - provide a high level description of the&amp;nbsp;extension and the business requirement
+        that will be addressed by the extension
+    &lt;/li&gt;
+    &lt;li&gt;
+        Define the&amp;nbsp;functional design - provide the flow of object to be enhanced and&amp;nbsp;the detailed logic required
+        to develop the extension
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="17d70e89">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_c3qmQc6ZEe63wsgFeJIztg,_VyKe4NAoEe6H-rjlu9wPlA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_func_design_specs_6B0066DB.html" Name="define_func_design_specs" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define functional design specifications" Id="_VyKe4NAoEe6H-rjlu9wPlA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="ba65022b"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Design forms" Id="_EoPToGkQEeSPcdaSFis8Vg" ShapeiconUrl="images/guidance.gif" nodeId="f9e49ae6" Url="" Name="Design forms" BackPath="">
+<copyright nodeId="637c66f8">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="e9013c77">Design forms</attribute>
+<attribute name="guid" nodeId="f590caf">_EoPToGkQEeSPcdaSFis8Vg</attribute>
+<attribute name="presentationName" nodeId="3e517cf6">Design forms</attribute>
+<attribute name="briefDescription" nodeId="71ccc249"></attribute>
+<attribute name="suppressed" nodeId="177fcced">false</attribute>
+<attribute name="orderingGuide" nodeId="44a5ce90"></attribute>
+<attribute name="variabilityType" nodeId="a6235f4e">na</attribute>
+<attribute name="sectionName" nodeId="bf9379bf"></attribute>
+<attribute name="sectionDescription" nodeId="674f1c68">&lt;ul&gt;
+    &lt;li&gt;
+        Describe the form - provide a high level description of the form and the business requirement that will be
+        addressed by the form
+    &lt;/li&gt;
+    &lt;li&gt;
+        Define process flow -&amp;nbsp;depict&amp;nbsp;the form output procedure
+    &lt;/li&gt;
+    &lt;li&gt;
+        Describe the layout - define the fields&amp;nbsp;being outputted&amp;nbsp;in the program
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="6bdfa83c">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_c3qmQc6ZEe63wsgFeJIztg,_VyKe4NAoEe6H-rjlu9wPlA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_func_design_specs_6B0066DB.html" Name="define_func_design_specs" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define functional design specifications" Id="_VyKe4NAoEe6H-rjlu9wPlA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="e39afb57"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Design workflows" Id="_gjrDwGkQEeSPcdaSFis8Vg" ShapeiconUrl="images/guidance.gif" nodeId="e2f5d247" Url="" Name="Design workflows" BackPath="">
+<copyright nodeId="2d012b59">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="22b36a06">Design workflows</attribute>
+<attribute name="guid" nodeId="531b7e5d">_gjrDwGkQEeSPcdaSFis8Vg</attribute>
+<attribute name="presentationName" nodeId="124b8d40">Design workflows</attribute>
+<attribute name="briefDescription" nodeId="ff3310f3"></attribute>
+<attribute name="suppressed" nodeId="911c029c">false</attribute>
+<attribute name="orderingGuide" nodeId="2789f1ed"></attribute>
+<attribute name="variabilityType" nodeId="e7ab855b">na</attribute>
+<attribute name="sectionName" nodeId="4a240a09"></attribute>
+<attribute name="sectionDescription" nodeId="633e5a26">&lt;ul&gt;
+    &lt;li&gt;
+        Describe the workflow - provide a high level description of the workflow and the business requirement that will be
+        addressed by the workflow
+    &lt;/li&gt;
+    &lt;li&gt;
+        Define the process flow - depict the flow diagram&amp;nbsp;of the workflow
+    &lt;/li&gt;
+    &lt;li&gt;
+        Describe the triggering events -&amp;nbsp;define the triggering events in the workflow level including transactions and
+        batch programs
+    &lt;/li&gt;
+    &lt;li&gt;
+        Describe the start conditions - explain the start conditions of the workflow (e.g., check for specific material
+        group, check for PO value between certain range)
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="c4545575">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_c3qmQc6ZEe63wsgFeJIztg,_VyKe4NAoEe6H-rjlu9wPlA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_func_design_specs_6B0066DB.html" Name="define_func_design_specs" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define functional design specifications" Id="_VyKe4NAoEe6H-rjlu9wPlA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="cbd28735"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Design screen layouts and flows" Id="_clV3QCpCEeWUXoxRhMgajw" ShapeiconUrl="images/guidance.gif" nodeId="51d3d128" Url="" Name="Design screen layouts and flows" BackPath="">
+<copyright nodeId="2493056d">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="ecbb464">Design screen layouts and flows</attribute>
+<attribute name="guid" nodeId="97332706">_clV3QCpCEeWUXoxRhMgajw</attribute>
+<attribute name="presentationName" nodeId="c3cb08a6">Design screen layouts and flows</attribute>
+<attribute name="briefDescription" nodeId="79f54baf"></attribute>
+<attribute name="suppressed" nodeId="2a2f3520">false</attribute>
+<attribute name="orderingGuide" nodeId="a832590d"></attribute>
+<attribute name="variabilityType" nodeId="6abce2ac">na</attribute>
+<attribute name="sectionName" nodeId="f0128732"></attribute>
+<attribute name="sectionDescription" nodeId="84a69121">&lt;p&gt;
+    Design screen layouts and screen flows for the identified objects. This provides visualization of screen layouts and
+    screen flows of the proposed graphical user interface (GUI) so that the stakeholders can visualize and confirm the
+    proposed screen flow and navigation. This helps in early detection of any gaps in expectations that should be taken
+    into consideration.
+&lt;/p&gt;
+&lt;p&gt;
+    Design the screen layout and flows by:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Creating solution screen layouts and screen flows for identified requirements
+    &lt;/li&gt;
+    &lt;li&gt;
+        Conducting reviews of screen layouts and screen flows with stakeholders and gather their inputs
+    &lt;/li&gt;
+    &lt;li&gt;
+        Reworking any user interface requirements based on stakeholder feedback
+    &lt;/li&gt;
+    &lt;li&gt;
+        Confirming review of final screen layouts and screen flows after rework
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    Make sure stakeholders are involved in order to validate and confirm the proposed solution screen layout and screen
+    flows.
+&lt;/p&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="b91b4d6">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_c3qmQc6ZEe63wsgFeJIztg,_VyKe4NAoEe6H-rjlu9wPlA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_func_design_specs_6B0066DB.html" Name="define_func_design_specs" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define functional design specifications" Id="_VyKe4NAoEe6H-rjlu9wPlA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="4da281d3"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Design user navigation" Id="_61ZF8IB7EeSFZZ3aEJLW_Q" ShapeiconUrl="images/guidance.gif" nodeId="3d3be4a1" Url="" Name="Design user navigation" BackPath="">
+<copyright nodeId="2323a650">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="e58174fb">Design user navigation</attribute>
+<attribute name="guid" nodeId="b7b70959">_61ZF8IB7EeSFZZ3aEJLW_Q</attribute>
+<attribute name="presentationName" nodeId="31096be4">Design user navigation</attribute>
+<attribute name="briefDescription" nodeId="b099e6eb"></attribute>
+<attribute name="suppressed" nodeId="4141203f">false</attribute>
+<attribute name="orderingGuide" nodeId="d0d0c8d3"></attribute>
+<attribute name="variabilityType" nodeId="61c92871">na</attribute>
+<attribute name="sectionName" nodeId="f4de9148"></attribute>
+<attribute name="sectionDescription" nodeId="8d9b199e">For each design element, specify the details of the user navigation in as much detail as possible and include a mock-up of
+the new functionality if applicable.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="7a275081">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_c3qmQc6ZEe63wsgFeJIztg,_VyKe4NAoEe6H-rjlu9wPlA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_func_design_specs_6B0066DB.html" Name="define_func_design_specs" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define functional design specifications" Id="_VyKe4NAoEe6H-rjlu9wPlA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="d0e98346"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Design SOA" Id="_7C6n0IIsEeSxnrMjg_RVQg" ShapeiconUrl="images/guidance.gif" nodeId="57d0216" Url="" Name="Design SOA" BackPath="">
+<copyright nodeId="24032b46">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="6c184650">Design SOA</attribute>
+<attribute name="guid" nodeId="d7a08f94">_7C6n0IIsEeSxnrMjg_RVQg</attribute>
+<attribute name="presentationName" nodeId="2d38a213">Design SOA</attribute>
+<attribute name="briefDescription" nodeId="ea446112"></attribute>
+<attribute name="suppressed" nodeId="1b752e0d">false</attribute>
+<attribute name="orderingGuide" nodeId="e604256d"></attribute>
+<attribute name="variabilityType" nodeId="74298677">na</attribute>
+<attribute name="sectionName" nodeId="7c924d2b"></attribute>
+<attribute name="sectionDescription" nodeId="ea6a518c">If applicable, include designs for all SOA and 3rd party applications&amp;nbsp;or solution extensions.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="c906dfa5">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_c3qmQc6ZEe63wsgFeJIztg,_VyKe4NAoEe6H-rjlu9wPlA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_func_design_specs_6B0066DB.html" Name="define_func_design_specs" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define functional design specifications" Id="_VyKe4NAoEe6H-rjlu9wPlA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="a02ea02a"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Establish application error handling approach" Id="_9-1ykCpCEeWUXoxRhMgajw" ShapeiconUrl="images/guidance.gif" nodeId="5ce96b6a" Url="" Name="Establish application error handling approach" BackPath="">
+<copyright nodeId="97d56e8b">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="f2576c0a">Establish application error handling approach</attribute>
+<attribute name="guid" nodeId="644a15aa">_9-1ykCpCEeWUXoxRhMgajw</attribute>
+<attribute name="presentationName" nodeId="e34904a9">Establish application error handling approach</attribute>
+<attribute name="briefDescription" nodeId="97cd94e0"></attribute>
+<attribute name="suppressed" nodeId="d7be5798">false</attribute>
+<attribute name="orderingGuide" nodeId="cd8ca147"></attribute>
+<attribute name="variabilityType" nodeId="158180a2">na</attribute>
+<attribute name="sectionName" nodeId="4a2e9a3d"></attribute>
+<attribute name="sectionDescription" nodeId="dcdb45f0">&lt;p&gt;
+    Define the design approach that should be followed for capturing, reporting and resolving errors within applications
+    (e.g., interface and data transfer failures). The standards and guidelines should address the various categories of
+    errors and define appropriate resolution paths for each.
+&lt;/p&gt;
+&lt;p&gt;
+    In order to capture, report and resolve package application errors:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Define error categories and types of errors within each category
+    &lt;/li&gt;
+    &lt;li&gt;
+        Define error conditions and resolution options
+    &lt;/li&gt;
+    &lt;li&gt;
+        Define error and process log
+    &lt;/li&gt;
+    &lt;li&gt;
+        Define reconciliation report (and distribution list)
+    &lt;/li&gt;
+    &lt;li&gt;
+        Define post execution notification mechanism
+    &lt;/li&gt;
+    &lt;li&gt;
+        Define restart/recovery procedure
+    &lt;/li&gt;
+    &lt;li&gt;
+        Include monitoring/automated alert notifications where relevant and/or possible
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    The error handling strategy is most commonly identified as relevant for interface scenarios to track failures of data
+    transfers, but it is also relevant for other development (coding) scenarios. The development standards should also
+    contain guidance on error handling for each development object. Those standards should align with the overall error
+    handling strategy.
+&lt;/p&gt;
+&lt;p&gt;
+    The error handling framework should categorize the errors (business, technical, miscellaneous) and provide resolution
+    paths for the various categories:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Business errors include logic, data format, or data conversion errors
+    &lt;/li&gt;
+    &lt;li&gt;
+        Technical errors include communication (dropped database connections, unavailability of systems) or infrastructure
+        errors (network availability or performance, client library availability, disk usage)
+    &lt;/li&gt;
+    &lt;li&gt;
+        Miscellaneous errors include invalid logon credentials, scheduling, and time constraints or threshold errors
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="d1ac6c17">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_c3qmQc6ZEe63wsgFeJIztg,_VyKe4NAoEe6H-rjlu9wPlA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_func_design_specs_6B0066DB.html" Name="define_func_design_specs" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define functional design specifications" Id="_VyKe4NAoEe6H-rjlu9wPlA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="15940d36"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Update requirements traceability matrix" Id="_xV6TwIB7EeSFZZ3aEJLW_Q" ShapeiconUrl="images/guidance.gif" nodeId="dcc425a9" Url="" Name="Update requirements traceability matrix" BackPath="">
+<copyright nodeId="408631d3">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="de8e911f">Update requirements traceability matrix</attribute>
+<attribute name="guid" nodeId="e9eab0e4">_xV6TwIB7EeSFZZ3aEJLW_Q</attribute>
+<attribute name="presentationName" nodeId="ecc22b73">Update requirements traceability matrix</attribute>
+<attribute name="briefDescription" nodeId="1b4da200"></attribute>
+<attribute name="suppressed" nodeId="1cce0349">false</attribute>
+<attribute name="orderingGuide" nodeId="b5244890"></attribute>
+<attribute name="variabilityType" nodeId="7a027e8">na</attribute>
+<attribute name="sectionName" nodeId="9535e9a"></attribute>
+<attribute name="sectionDescription" nodeId="72c7cb19">Open the requirements traceability matrix document and&amp;nbsp;update accordingly.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="add82a7a">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_c3qmQc6ZEe63wsgFeJIztg,_VyKe4NAoEe6H-rjlu9wPlA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_func_design_specs_6B0066DB.html" Name="define_func_design_specs" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define functional design specifications" Id="_VyKe4NAoEe6H-rjlu9wPlA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="8d9d8b9c"></Element>
+</referenceList>
+</Element>
+</referenceList>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="conceptsAndPapers" nodeId="6c1658aa">
+<Element Type="Concept" TypeName="Concept" NodeiconUrl="" DisplayName="RICEFW" Id="_PHdnYGkXEeSPcdaSFis8Vg" ShapeiconUrl="images/concept.gif" nodeId="b5c5be6" Url="core.i_t.common.base/guidances/concepts/ricefw_3CF024A5.html" Name="ricefw" BackPath="./../../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="performedBy" nodeId="fb694311">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Analyst" Id="_W7RhoAk9EeOR5fNLLJCc5g" ShapeiconUrl="images/role.gif" nodeId="d39893c3" Url="core.default.role_def.base/roles/analyst_46D75ED7.html" Name="analyst" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="mandatoryInput" nodeId="19b7372c">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Development Inventory" Id="_M_kpEPrSEeOYIJIRcU8KOw" ShapeiconUrl="images/artifact.gif" nodeId="6b59c2ac" Url="core.i_t.common.base/workproducts/dev_inventory_1D466D63.html" Name="dev_inventory" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Functional Requirement" Id="_JUXPcMRiEeapHOG_ozfrTg" ShapeiconUrl="images/artifact.gif" nodeId="8752dd6b" Url="core.gen.common.base/workproducts/func_rqmt_95C4EC3B.html" Name="func_rqmt" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Non-Functional Requirements" Id="_jbA9YAIPEeS9erBHLNmxUg" ShapeiconUrl="images/artifact.gif" nodeId="2c836d7" Url="core.gen.common.base/workproducts/non_func_rqmts_18CC3776.html" Name="non_func_rqmts" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="output" nodeId="155830b2">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Functional Design" Id="_Gd7E4Gj6EeSPcdaSFis8Vg" ShapeiconUrl="images/artifact.gif" nodeId="55538051" Url="core.i_t.common.base/workproducts/func_design_16F6F92.html" Name="func_design" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="steps" nodeId="811761f4">
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Determine options" Id="_ExF1AGkNEeSPcdaSFis8Vg" ShapeiconUrl="images/guidance.gif" nodeId="4ce1d331" Url="" Name="Determine options" BackPath="">
+<copyright nodeId="82ad25ac">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="2175d11d">Determine options</attribute>
+<attribute name="guid" nodeId="152c7b3e">_ExF1AGkNEeSPcdaSFis8Vg</attribute>
+<attribute name="presentationName" nodeId="54b4fa69">Determine options</attribute>
+<attribute name="briefDescription" nodeId="ce1743a2"></attribute>
+<attribute name="suppressed" nodeId="90e5a81f">false</attribute>
+<attribute name="orderingGuide" nodeId="8dd5fa5a"></attribute>
+<attribute name="variabilityType" nodeId="f983e6f9">na</attribute>
+<attribute name="sectionName" nodeId="38ee1c74"></attribute>
+<attribute name="sectionDescription" nodeId="6e493a3c">Determine and rationalize implementation options for the architecture and any tools that can be leveraged (e.g., Oracle
+OBIEE Suite, Microstrategy, Cognos, QlikView).</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="29b11f66">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_c3qmQc6ZEe63wsgFeJIztg,_VyKe4NAoEe6H-rjlu9wPlA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_func_design_specs_6B0066DB.html" Name="define_func_design_specs" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define functional design specifications" Id="_VyKe4NAoEe6H-rjlu9wPlA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="3c035ae3"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Design interfaces" Id="_t1PkUGkMEeSPcdaSFis8Vg" ShapeiconUrl="images/guidance.gif" nodeId="5fa974de" Url="" Name="Design interfaces" BackPath="">
+<copyright nodeId="eba44051">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="3a56f9a1">Design interfaces</attribute>
+<attribute name="guid" nodeId="c8253369">_t1PkUGkMEeSPcdaSFis8Vg</attribute>
+<attribute name="presentationName" nodeId="21e22446">Design interfaces</attribute>
+<attribute name="briefDescription" nodeId="6b3217c4"></attribute>
+<attribute name="suppressed" nodeId="7b4dd985">false</attribute>
+<attribute name="orderingGuide" nodeId="a7633d90"></attribute>
+<attribute name="variabilityType" nodeId="70c739a9">na</attribute>
+<attribute name="sectionName" nodeId="28e5392a"></attribute>
+<attribute name="sectionDescription" nodeId="a99faf79">&lt;ul&gt;
+    &lt;li&gt;
+        Describe the interface - provide a high level description of the interface and the business requirement that will
+        be addressed by the interface
+    &lt;/li&gt;
+    &lt;li&gt;
+        Define the interface process flow diagram - depict&amp;nbsp;source and target systems with directions
+        including&amp;nbsp;screen flow diagrams and the proposed transfer program name and the inbound/outbound file format
+        such as an Excel or text file
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="5c8d55ca">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_c3qmQc6ZEe63wsgFeJIztg,_VyKe4NAoEe6H-rjlu9wPlA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_func_design_specs_6B0066DB.html" Name="define_func_design_specs" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define functional design specifications" Id="_VyKe4NAoEe6H-rjlu9wPlA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="6796c4a0"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Design extensions" Id="_6-4pMGkOEeSPcdaSFis8Vg" ShapeiconUrl="images/guidance.gif" nodeId="904821f9" Url="" Name="Design extensions" BackPath="">
+<copyright nodeId="d68be5ad">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="74e2976d">Design extensions</attribute>
+<attribute name="guid" nodeId="d838914e">_6-4pMGkOEeSPcdaSFis8Vg</attribute>
+<attribute name="presentationName" nodeId="b855af0b">Design extensions</attribute>
+<attribute name="briefDescription" nodeId="232a620"></attribute>
+<attribute name="suppressed" nodeId="470e05a0">false</attribute>
+<attribute name="orderingGuide" nodeId="b2348c73"></attribute>
+<attribute name="variabilityType" nodeId="3df8aab7">na</attribute>
+<attribute name="sectionName" nodeId="6dbc5626"></attribute>
+<attribute name="sectionDescription" nodeId="db90cb50">&lt;ul&gt;
+    &lt;li&gt;
+        Describe the&amp;nbsp;extension - provide a high level description of the&amp;nbsp;extension and the business requirement
+        that will be addressed by the extension
+    &lt;/li&gt;
+    &lt;li&gt;
+        Define the&amp;nbsp;functional design - provide the flow of object to be enhanced and&amp;nbsp;the detailed logic required
+        to develop the extension
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="4cd45397">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_c3qmQc6ZEe63wsgFeJIztg,_VyKe4NAoEe6H-rjlu9wPlA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_func_design_specs_6B0066DB.html" Name="define_func_design_specs" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define functional design specifications" Id="_VyKe4NAoEe6H-rjlu9wPlA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="c21082f0"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Design forms" Id="_EoPToGkQEeSPcdaSFis8Vg" ShapeiconUrl="images/guidance.gif" nodeId="a6aeb1c" Url="" Name="Design forms" BackPath="">
+<copyright nodeId="dbd23042">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="53698ed5">Design forms</attribute>
+<attribute name="guid" nodeId="e70ee30b">_EoPToGkQEeSPcdaSFis8Vg</attribute>
+<attribute name="presentationName" nodeId="826b7842">Design forms</attribute>
+<attribute name="briefDescription" nodeId="a2079554"></attribute>
+<attribute name="suppressed" nodeId="7105bd5">false</attribute>
+<attribute name="orderingGuide" nodeId="5ec385e6"></attribute>
+<attribute name="variabilityType" nodeId="7dfda21c">na</attribute>
+<attribute name="sectionName" nodeId="cf20d532"></attribute>
+<attribute name="sectionDescription" nodeId="fdcc7b02">&lt;ul&gt;
+    &lt;li&gt;
+        Describe the form - provide a high level description of the form and the business requirement that will be
+        addressed by the form
+    &lt;/li&gt;
+    &lt;li&gt;
+        Define process flow -&amp;nbsp;depict&amp;nbsp;the form output procedure
+    &lt;/li&gt;
+    &lt;li&gt;
+        Describe the layout - define the fields&amp;nbsp;being outputted&amp;nbsp;in the program
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="74adf5da">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_c3qmQc6ZEe63wsgFeJIztg,_VyKe4NAoEe6H-rjlu9wPlA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_func_design_specs_6B0066DB.html" Name="define_func_design_specs" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define functional design specifications" Id="_VyKe4NAoEe6H-rjlu9wPlA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="e3d14aef"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Design workflows" Id="_gjrDwGkQEeSPcdaSFis8Vg" ShapeiconUrl="images/guidance.gif" nodeId="69b0dddd" Url="" Name="Design workflows" BackPath="">
+<copyright nodeId="9ce6cd4f">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="503e9b63">Design workflows</attribute>
+<attribute name="guid" nodeId="e751428f">_gjrDwGkQEeSPcdaSFis8Vg</attribute>
+<attribute name="presentationName" nodeId="386d1ebe">Design workflows</attribute>
+<attribute name="briefDescription" nodeId="199cecd"></attribute>
+<attribute name="suppressed" nodeId="b7b85dc6">false</attribute>
+<attribute name="orderingGuide" nodeId="fab7b351"></attribute>
+<attribute name="variabilityType" nodeId="4f02ec06">na</attribute>
+<attribute name="sectionName" nodeId="dd017796"></attribute>
+<attribute name="sectionDescription" nodeId="325c2666">&lt;ul&gt;
+    &lt;li&gt;
+        Describe the workflow - provide a high level description of the workflow and the business requirement that will be
+        addressed by the workflow
+    &lt;/li&gt;
+    &lt;li&gt;
+        Define the process flow - depict the flow diagram&amp;nbsp;of the workflow
+    &lt;/li&gt;
+    &lt;li&gt;
+        Describe the triggering events -&amp;nbsp;define the triggering events in the workflow level including transactions and
+        batch programs
+    &lt;/li&gt;
+    &lt;li&gt;
+        Describe the start conditions - explain the start conditions of the workflow (e.g., check for specific material
+        group, check for PO value between certain range)
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="8f9eb4c">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_c3qmQc6ZEe63wsgFeJIztg,_VyKe4NAoEe6H-rjlu9wPlA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_func_design_specs_6B0066DB.html" Name="define_func_design_specs" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define functional design specifications" Id="_VyKe4NAoEe6H-rjlu9wPlA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="dd2f9b3f"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Design screen layouts and flows" Id="_clV3QCpCEeWUXoxRhMgajw" ShapeiconUrl="images/guidance.gif" nodeId="3233e7b4" Url="" Name="Design screen layouts and flows" BackPath="">
+<copyright nodeId="183677fb">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="bc78243">Design screen layouts and flows</attribute>
+<attribute name="guid" nodeId="9c4fdd2">_clV3QCpCEeWUXoxRhMgajw</attribute>
+<attribute name="presentationName" nodeId="cf69e2ed">Design screen layouts and flows</attribute>
+<attribute name="briefDescription" nodeId="3e20500c"></attribute>
+<attribute name="suppressed" nodeId="5f062601">false</attribute>
+<attribute name="orderingGuide" nodeId="d5411d68"></attribute>
+<attribute name="variabilityType" nodeId="d3c20890">na</attribute>
+<attribute name="sectionName" nodeId="e1df9a4b"></attribute>
+<attribute name="sectionDescription" nodeId="9212fffd">&lt;p&gt;
+    Design screen layouts and screen flows for the identified objects. This provides visualization of screen layouts and
+    screen flows of the proposed graphical user interface (GUI) so that the stakeholders can visualize and confirm the
+    proposed screen flow and navigation. This helps in early detection of any gaps in expectations that should be taken
+    into consideration.
+&lt;/p&gt;
+&lt;p&gt;
+    Design the screen layout and flows by:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Creating solution screen layouts and screen flows for identified requirements
+    &lt;/li&gt;
+    &lt;li&gt;
+        Conducting reviews of screen layouts and screen flows with stakeholders and gather their inputs
+    &lt;/li&gt;
+    &lt;li&gt;
+        Reworking any user interface requirements based on stakeholder feedback
+    &lt;/li&gt;
+    &lt;li&gt;
+        Confirming review of final screen layouts and screen flows after rework
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    Make sure stakeholders are involved in order to validate and confirm the proposed solution screen layout and screen
+    flows.
+&lt;/p&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="d695b74d">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_c3qmQc6ZEe63wsgFeJIztg,_VyKe4NAoEe6H-rjlu9wPlA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_func_design_specs_6B0066DB.html" Name="define_func_design_specs" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define functional design specifications" Id="_VyKe4NAoEe6H-rjlu9wPlA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="845829ec"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Design user navigation" Id="_61ZF8IB7EeSFZZ3aEJLW_Q" ShapeiconUrl="images/guidance.gif" nodeId="b898cce7" Url="" Name="Design user navigation" BackPath="">
+<copyright nodeId="a8a5a6f3">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="6bf72c65">Design user navigation</attribute>
+<attribute name="guid" nodeId="c717bb09">_61ZF8IB7EeSFZZ3aEJLW_Q</attribute>
+<attribute name="presentationName" nodeId="ca593751">Design user navigation</attribute>
+<attribute name="briefDescription" nodeId="4c2a94d6"></attribute>
+<attribute name="suppressed" nodeId="824aafc9">false</attribute>
+<attribute name="orderingGuide" nodeId="62dda8f0"></attribute>
+<attribute name="variabilityType" nodeId="ff41031e">na</attribute>
+<attribute name="sectionName" nodeId="685d105b"></attribute>
+<attribute name="sectionDescription" nodeId="ba6a10b3">For each design element, specify the details of the user navigation in as much detail as possible and include a mock-up of
+the new functionality if applicable.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="a25294bf">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_c3qmQc6ZEe63wsgFeJIztg,_VyKe4NAoEe6H-rjlu9wPlA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_func_design_specs_6B0066DB.html" Name="define_func_design_specs" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define functional design specifications" Id="_VyKe4NAoEe6H-rjlu9wPlA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="67e99e19"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Design SOA" Id="_7C6n0IIsEeSxnrMjg_RVQg" ShapeiconUrl="images/guidance.gif" nodeId="1c0c1fb5" Url="" Name="Design SOA" BackPath="">
+<copyright nodeId="282707e">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="b536292a">Design SOA</attribute>
+<attribute name="guid" nodeId="900339d4">_7C6n0IIsEeSxnrMjg_RVQg</attribute>
+<attribute name="presentationName" nodeId="82849c9a">Design SOA</attribute>
+<attribute name="briefDescription" nodeId="535022f6"></attribute>
+<attribute name="suppressed" nodeId="e11cc9da">false</attribute>
+<attribute name="orderingGuide" nodeId="f9c09994"></attribute>
+<attribute name="variabilityType" nodeId="972f551e">na</attribute>
+<attribute name="sectionName" nodeId="e51e562d"></attribute>
+<attribute name="sectionDescription" nodeId="2b18087c">If applicable, include designs for all SOA and 3rd party applications&amp;nbsp;or solution extensions.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="712b86fe">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_c3qmQc6ZEe63wsgFeJIztg,_VyKe4NAoEe6H-rjlu9wPlA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_func_design_specs_6B0066DB.html" Name="define_func_design_specs" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define functional design specifications" Id="_VyKe4NAoEe6H-rjlu9wPlA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="804c5eb1"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Establish application error handling approach" Id="_9-1ykCpCEeWUXoxRhMgajw" ShapeiconUrl="images/guidance.gif" nodeId="f1795a65" Url="" Name="Establish application error handling approach" BackPath="">
+<copyright nodeId="7b7128">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="50956fa8">Establish application error handling approach</attribute>
+<attribute name="guid" nodeId="53c02fa5">_9-1ykCpCEeWUXoxRhMgajw</attribute>
+<attribute name="presentationName" nodeId="ebe470ff">Establish application error handling approach</attribute>
+<attribute name="briefDescription" nodeId="1c2a523e"></attribute>
+<attribute name="suppressed" nodeId="78d10405">false</attribute>
+<attribute name="orderingGuide" nodeId="367c76f0"></attribute>
+<attribute name="variabilityType" nodeId="4d9ebba9">na</attribute>
+<attribute name="sectionName" nodeId="c65d42bb"></attribute>
+<attribute name="sectionDescription" nodeId="2e93935b">&lt;p&gt;
+    Define the design approach that should be followed for capturing, reporting and resolving errors within applications
+    (e.g., interface and data transfer failures). The standards and guidelines should address the various categories of
+    errors and define appropriate resolution paths for each.
+&lt;/p&gt;
+&lt;p&gt;
+    In order to capture, report and resolve package application errors:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Define error categories and types of errors within each category
+    &lt;/li&gt;
+    &lt;li&gt;
+        Define error conditions and resolution options
+    &lt;/li&gt;
+    &lt;li&gt;
+        Define error and process log
+    &lt;/li&gt;
+    &lt;li&gt;
+        Define reconciliation report (and distribution list)
+    &lt;/li&gt;
+    &lt;li&gt;
+        Define post execution notification mechanism
+    &lt;/li&gt;
+    &lt;li&gt;
+        Define restart/recovery procedure
+    &lt;/li&gt;
+    &lt;li&gt;
+        Include monitoring/automated alert notifications where relevant and/or possible
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    The error handling strategy is most commonly identified as relevant for interface scenarios to track failures of data
+    transfers, but it is also relevant for other development (coding) scenarios. The development standards should also
+    contain guidance on error handling for each development object. Those standards should align with the overall error
+    handling strategy.
+&lt;/p&gt;
+&lt;p&gt;
+    The error handling framework should categorize the errors (business, technical, miscellaneous) and provide resolution
+    paths for the various categories:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Business errors include logic, data format, or data conversion errors
+    &lt;/li&gt;
+    &lt;li&gt;
+        Technical errors include communication (dropped database connections, unavailability of systems) or infrastructure
+        errors (network availability or performance, client library availability, disk usage)
+    &lt;/li&gt;
+    &lt;li&gt;
+        Miscellaneous errors include invalid logon credentials, scheduling, and time constraints or threshold errors
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="c9045cd5">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_c3qmQc6ZEe63wsgFeJIztg,_VyKe4NAoEe6H-rjlu9wPlA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_func_design_specs_6B0066DB.html" Name="define_func_design_specs" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define functional design specifications" Id="_VyKe4NAoEe6H-rjlu9wPlA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="69dd51f7"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Update requirements traceability matrix" Id="_xV6TwIB7EeSFZZ3aEJLW_Q" ShapeiconUrl="images/guidance.gif" nodeId="6e3aad01" Url="" Name="Update requirements traceability matrix" BackPath="">
+<copyright nodeId="2e200e0a">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="12fcb175">Update requirements traceability matrix</attribute>
+<attribute name="guid" nodeId="cf5af0e">_xV6TwIB7EeSFZZ3aEJLW_Q</attribute>
+<attribute name="presentationName" nodeId="900556a3">Update requirements traceability matrix</attribute>
+<attribute name="briefDescription" nodeId="3dcd4679"></attribute>
+<attribute name="suppressed" nodeId="3e4c00e7">false</attribute>
+<attribute name="orderingGuide" nodeId="f84a6c5e"></attribute>
+<attribute name="variabilityType" nodeId="4a724257">na</attribute>
+<attribute name="sectionName" nodeId="936ebe16"></attribute>
+<attribute name="sectionDescription" nodeId="85879ee3">Open the requirements traceability matrix document and&amp;nbsp;update accordingly.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="fa934a18">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_c3qmQc6ZEe63wsgFeJIztg,_VyKe4NAoEe6H-rjlu9wPlA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_func_design_specs_6B0066DB.html" Name="define_func_design_specs" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define functional design specifications" Id="_VyKe4NAoEe6H-rjlu9wPlA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="97be47d6"></Element>
+</referenceList>
+</Element>
+</referenceList>
+<referenceList name="Task_TaskDescriptors" nodeId="6694189d">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_c3qmQc6ZEe63wsgFeJIztg,_VyKe4NAoEe6H-rjlu9wPlA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_func_design_specs_6B0066DB.html" Name="define_func_design_specs" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define functional design specifications" Id="_VyKe4NAoEe6H-rjlu9wPlA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="2e9709c8"></Element>
+</referenceList>
+<referenceList name="VariabilityElement_ImmediateVarieties" nodeId="b323aaaf"></referenceList>
+<reference name="performingRole" nodeId="bb9a91c6">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Analyst" Id="_W7RhoAk9EeOR5fNLLJCc5g" ShapeiconUrl="images/role.gif" nodeId="faf2cbb8" Url="core.default.role_def.base/roles/analyst_46D75ED7.html" Name="analyst" BackPath="./../../"></Element>
+</reference>
+<referenceList name="customCategories" nodeId="dfa74bc8">
+<Element Type="CustomCategory" TypeName="Custom Category" NodeiconUrl="" DisplayName="Tasks" Id="_0Sj48KDNEeOMmqbYX27PPA" ShapeiconUrl="core.default.nav_view.base/customcategories/resources/cat_task51.png" nodeId="855eee6e" Url="core.default.nav_view.base/customcategories/task_list_CDC9CEA6.html" Name="task_list" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="79579188">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_c3qmQc6ZEe63wsgFeJIztg,_VyKe4NAoEe6H-rjlu9wPlA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_func_design_specs_6B0066DB.html" Name="define_func_design_specs" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define functional design specifications" Id="_VyKe4NAoEe6H-rjlu9wPlA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="5d985a8d">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Business Functional Design" Id="_C-aFkZLKEe6Ji6GnvvUfqw" relProcessPath="_C-aFkZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw" nodeId="88ec6c36" Url="process.adv.eya_oracle.base/capabilitypatterns/bus_func_design_wkstrm_3B7B6F5B.html" Name="bus_func_design_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="cb2dbd2b">bus_func_design_wkstrm</attribute>
+<attribute name="guid" nodeId="d9f8b5b6">_C-aFkZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="bb2504dd">Business Functional Design</attribute>
+<attribute name="briefDescription" nodeId="554c7a3"></attribute>
+<attribute name="suppressed" nodeId="7ec443ed">false</attribute>
+<attribute name="orderingGuide" nodeId="dd42b874"></attribute>
+<attribute name="isAbstract" nodeId="a3820976">false</attribute>
+<attribute name="shapeicon" nodeId="260aeaa1"></attribute>
+<attribute name="nodeicon" nodeId="1d36cc99"></attribute>
+<attribute name="prefix" nodeId="e6a6d2a0">workstream</attribute>
+<attribute name="isPlanned" nodeId="84d9049c">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="65c9809e">false</attribute>
+<attribute name="isOptional" nodeId="4cbd80f6">false</attribute>
+<attribute name="isRepeatable" nodeId="7de2250a">false</attribute>
+<attribute name="isOngoing" nodeId="99804eb">false</attribute>
+<attribute name="isEventDriven" nodeId="e462a8fb">false</attribute>
+<attribute name="variabilityType" nodeId="ebca11fa">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Document Functional Design Specifications" Id="_c3qmQc6ZEe63wsgFeJIztg" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_c3qmQc6ZEe63wsgFeJIztg" nodeId="715b931f" Url="process.adv.eya_oracle.base/capabilitypatterns/document_func_design_spec_CFD425A2.html" Name="document_func_design_spec" BackPath="./../../">
+<attribute name="name" nodeId="e7dbbd8">document_func_design_spec</attribute>
+<attribute name="guid" nodeId="87722085">_c3qmQc6ZEe63wsgFeJIztg</attribute>
+<attribute name="presentationName" nodeId="171bec2b">Document Functional Design Specifications</attribute>
+<attribute name="briefDescription" nodeId="49377fae">For the in-scope RICEFW (reports, interfaces, conversions, extensions, forms and workflows) objects, document how the custom developed objects should function in the target state solution.</attribute>
+<attribute name="suppressed" nodeId="4ee8c39f">false</attribute>
+<attribute name="orderingGuide" nodeId="eeb5994e"></attribute>
+<attribute name="isAbstract" nodeId="1f71ea64">false</attribute>
+<attribute name="shapeicon" nodeId="f3016c84"></attribute>
+<attribute name="nodeicon" nodeId="895a4096"></attribute>
+<attribute name="prefix" nodeId="8dfa243b"></attribute>
+<attribute name="isPlanned" nodeId="2723b775">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="a110a2ca">false</attribute>
+<attribute name="isOptional" nodeId="e8c74bff">false</attribute>
+<attribute name="isRepeatable" nodeId="2ecb4f95">false</attribute>
+<attribute name="isOngoing" nodeId="6f12b0bc">false</attribute>
+<attribute name="isEventDriven" nodeId="73e9e0c6">false</attribute>
+<attribute name="variabilityType" nodeId="990c6713">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_c3qmQc6ZEe63wsgFeJIztg,_VyKe4NAoEe6H-rjlu9wPlA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_func_design_specs_6B0066DB.html" Name="define_func_design_specs" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define functional design specifications" Id="_VyKe4NAoEe6H-rjlu9wPlA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="c8189d1b">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="8f327d00" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="a680a58a">eya_oracle</attribute>
+<attribute name="guid" nodeId="7c850b6d">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="fbb46fcf">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="fd378f3f"></attribute>
+<attribute name="suppressed" nodeId="877db827">false</attribute>
+<attribute name="orderingGuide" nodeId="7c5ac09b"></attribute>
+<attribute name="isAbstract" nodeId="4eac3df2">false</attribute>
+<attribute name="shapeicon" nodeId="71e03dac"></attribute>
+<attribute name="nodeicon" nodeId="428af340"></attribute>
+<attribute name="prefix" nodeId="e4ab48f9"></attribute>
+<attribute name="isPlanned" nodeId="a4885869">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="3e6bcd32">false</attribute>
+<attribute name="isOptional" nodeId="b044fcd7">false</attribute>
+<attribute name="isRepeatable" nodeId="c475ff62">false</attribute>
+<attribute name="isOngoing" nodeId="fe37be87">false</attribute>
+<attribute name="isEventDriven" nodeId="9a1debc5">false</attribute>
+<attribute name="variabilityType" nodeId="eaeb631a">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Confirm and Design" Id="_bRCPsIs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA" nodeId="f1d76a63" Url="process.adv.eya_oracle.base/deliveryprocesses/confirm_and_design_29FFDB9.html" Name="confirm_and_design" BackPath="./../../">
+<attribute name="name" nodeId="524881e1">confirm_and_design</attribute>
+<attribute name="guid" nodeId="56c8c3eb">_bRCPsIs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="930eb8d7">Confirm and Design</attribute>
+<attribute name="briefDescription" nodeId="b9167515">Define business requirements, map process flows and facilitate fit-gap workshops. Define technology and testing strategies. Develop the master configuration workbook, RICEFW inventory and prepare for progressive build cycles.</attribute>
+<attribute name="suppressed" nodeId="fd495786">false</attribute>
+<attribute name="orderingGuide" nodeId="b365f22d"></attribute>
+<attribute name="isAbstract" nodeId="69d1c5dc">false</attribute>
+<attribute name="shapeicon" nodeId="b555be09"></attribute>
+<attribute name="nodeicon" nodeId="ce0c4f63"></attribute>
+<attribute name="prefix" nodeId="e8d48647"></attribute>
+<attribute name="isPlanned" nodeId="a236c713">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="dd580f88">false</attribute>
+<attribute name="isOptional" nodeId="4e16bc0f">false</attribute>
+<attribute name="isRepeatable" nodeId="43422fb8">false</attribute>
+<attribute name="isOngoing" nodeId="97b40c59">false</attribute>
+<attribute name="isEventDriven" nodeId="87a3ccec">false</attribute>
+<attribute name="variabilityType" nodeId="d891e0b9">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Document Functional Design Specifications" Id="_vX0F8dpFEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA,_vX0F8dpFEe6TH6yb1zVWhw" nodeId="388689f8" Url="process.adv.eya_oracle.base/deliveryprocesses/document_func_design_spec_71C52AA7.html" Name="document_func_design_spec" BackPath="./../../">
+<attribute name="name" nodeId="34250b9">document_func_design_spec</attribute>
+<attribute name="guid" nodeId="3fddd193">_vX0F8dpFEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="eba88182">Document Functional Design Specifications</attribute>
+<attribute name="briefDescription" nodeId="f4244d2c">For the in-scope RICEFW (reports, interfaces, conversions, extensions, forms and workflows) objects, document how the custom developed objects should function in the target state solution.</attribute>
+<attribute name="suppressed" nodeId="2c4ca9ea">false</attribute>
+<attribute name="orderingGuide" nodeId="189a8eca"></attribute>
+<attribute name="isAbstract" nodeId="6c58aefa">false</attribute>
+<attribute name="shapeicon" nodeId="88e9866f"></attribute>
+<attribute name="nodeicon" nodeId="4b33ec02"></attribute>
+<attribute name="prefix" nodeId="6b3bc15a"></attribute>
+<attribute name="isPlanned" nodeId="ee624b37">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="a24f5572">false</attribute>
+<attribute name="isOptional" nodeId="5ab54bc5">false</attribute>
+<attribute name="isRepeatable" nodeId="5108cd84">false</attribute>
+<attribute name="isOngoing" nodeId="93d3a480">false</attribute>
+<attribute name="isEventDriven" nodeId="32f59339">false</attribute>
+<attribute name="variabilityType" nodeId="40cc7dac">extends</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

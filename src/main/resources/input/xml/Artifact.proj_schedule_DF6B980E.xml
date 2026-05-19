@@ -1,0 +1,1553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Project Schedule" Id="_IK258o7DEeOoz-o29QgacA" ShapeiconUrl="images/artifact.gif" lang="en" nodeId="cf170c0d" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../">
+<copyright nodeId="515b7ab">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="af91e4b5">proj_schedule</attribute>
+<attribute name="guid" nodeId="c15351a2">_IK258o7DEeOoz-o29QgacA</attribute>
+<attribute name="presentationName" nodeId="9f47f271">Project Schedule</attribute>
+<attribute name="briefDescription" nodeId="7be58357">A listing of a project&apos;s milestones, activities, and deliverables, usually with intended start and finish dates. Those items are often estimated in terms of resource allocation, budget, and duration, linked by dependencies and scheduled events.</attribute>
+<attribute name="suppressed" nodeId="fdbbb001">false</attribute>
+<attribute name="orderingGuide" nodeId="45c30ec1"></attribute>
+<attribute name="isAbstract" nodeId="62086312">false</attribute>
+<attribute name="shapeicon" nodeId="bf799fb6"></attribute>
+<attribute name="nodeicon" nodeId="b2f924a6"></attribute>
+<attribute name="variabilityType" nodeId="48e0ace6">na</attribute>
+<reference name="presentation" nodeId="ecc62627">
+<Element Type="ArtifactDescription" TypeName="Artifact Description" NodeiconUrl="" DisplayName="Project Schedule" Id="-g6t6GiutPINeyKcHXZ_VhA" ShapeiconUrl="images/guidance.gif" nodeId="fe0bcbd2" Url="" Name="project_schedule.extends,_IK258o7DEeOoz-o29QgacA" BackPath="">
+<copyright nodeId="fa0d9b47">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="67570c9c">project_schedule.extends,_IK258o7DEeOoz-o29QgacA</attribute>
+<attribute name="guid" nodeId="e872881c">-g6t6GiutPINeyKcHXZ_VhA</attribute>
+<attribute name="presentationName" nodeId="a847be68">Project Schedule</attribute>
+<attribute name="briefDescription" nodeId="5a09dbc3"></attribute>
+<attribute name="suppressed" nodeId="7b714ab4">false</attribute>
+<attribute name="orderingGuide" nodeId="955f1bbb"></attribute>
+<attribute name="authors" nodeId="baa46226">process.adv.proj_mgmt.base</attribute>
+<attribute name="changeDate" nodeId="ab4e4ab3">Sun May 22 21:48:01 EDT 2022</attribute>
+<attribute name="changeDescription" nodeId="b3508c9d"></attribute>
+<attribute name="version" nodeId="96b00710"></attribute>
+<attribute name="mainDescription" nodeId="f088e1f">The project schedule presents linked activities with planned dates, durations, milestones, and resources. At a
+minimum, it includes a planned start date and planned finish date for each activity. If resource planning is done at
+an early stage, then the project schedule remains preliminary until resource assignments have been confirmed and scheduled
+start and finish dates are established.</attribute>
+<attribute name="externalId" nodeId="f656ac2d"></attribute>
+<attribute name="keyConsiderations" nodeId="dcb6b0f1"></attribute>
+<attribute name="longPresentationName" nodeId="f107d623"></attribute>
+<attribute name="purpose" nodeId="f1a18100">To represent the plan for executing the project’s activities including durations, dependencies, and other planning
+information.</attribute>
+<attribute name="impactOfNotHaving" nodeId="aeb82be1"></attribute>
+<attribute name="reasonsForNotNeeding" nodeId="8299f473"></attribute>
+<attribute name="briefOutline" nodeId="52f36382"></attribute>
+<attribute name="representationOptions" nodeId="a66e34e6">&lt;p&gt;
+    The project schedule presentation may be presented in summary form, sometimes referred to as the master schedule or
+    milestone schedule or presented in detail. Although a project schedule can be presented in tabular form, it is more
+    often presented graphically, using one or more of the following formats, which are classified as presentations:
+&lt;/p&gt;
+&lt;p&gt;
+    • Bar charts. These charts, also known as Gantt charts, represent schedule information where activities are listed on
+    the vertical axis, dates are shown on the horizontal axis, and activity durations are shown as horizontal bars placed
+    according to start and finish dates. Bar charts are easy to read and are frequently used in management presentations.
+    For control and management communications, the broader, more comprehensive summary activity, sometimes referred to as a
+    hammock activity, is used between milestones or across multiple interdependent work packages and is displayed in bar
+    chart reports.
+&lt;/p&gt;
+&lt;p&gt;
+    • Milestone charts. These charts are like bar charts, but only identify the scheduled start or completion of major
+    deliverables and key external interfaces.
+&lt;/p&gt;
+&lt;p&gt;
+    • Project schedule network diagrams. These diagrams are commonly presented in the activity-on-node diagram format
+    showing activities and relationships without a time scale, sometimes referred to as a pure logic diagram. These
+    diagrams, with activity date information, usually show both the project network logic and the project’s critical path
+    schedule activities. Another presentation of the project schedule network diagram is a time-scaled logic diagram. These
+    diagrams include a time scale and bars that represent the duration of activities with the logical relationships. It is
+    optimized to show the relationships between activities where any number of activities may appear on the same line of
+    the diagram in sequence.
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;img alt=&quot;&quot; src=&quot;./../../core.mgmt.common.base/workproducts/./resources/Figure_6-21.png&quot; width=&quot;416&quot; height=&quot;600&quot; /&gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;sup&gt;&lt;em&gt;Figure 6-21 PMBOK&lt;/em&gt;&lt;/sup&gt;
+&lt;/p&gt;</attribute>
+<attribute name="representation" nodeId="726a7542"></attribute>
+<attribute name="notation" nodeId="1ac2a2ec"></attribute>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="templates" nodeId="8dd37117">
+<Element Type="Template" TypeName="Template" NodeiconUrl="" DisplayName="Project Schedule" Id="_Yq_wcEriEeWnxZbZtYE0dA" ShapeiconUrl="images/template.gif" nodeId="7f287ea6" Url="core.mgmt.common.base/guidances/templates/proj_schedule_D88832A6.html" Name="proj_schedule" BackPath="./../../../"></Element>
+</referenceList>
+<referenceList name="WorkProduct_WorkProductDescriptors" nodeId="7bef359c">
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XoXcwWUjEeWWhIMIEcteog&amp;path=_XoXcwWUjEeWWhIMIEcteog,_cDCRQWUjEeWWhIMIEcteog,_g5hfEWUjEeWWhIMIEcteog,_oKsxMGUkEeWWhIMIEcteog_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_oKsxMGUkEeWWhIMIEcteog_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="58a0b60c"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_NdTLoWSOEeWJx47Q3R5FDw&amp;path=_NdTLoWSOEeWJx47Q3R5FDw,_SK_p0WSOEeWJx47Q3R5FDw,_TcqtEWSOEeWJx47Q3R5FDw,_r06N0GSPEeWH_LoPPeg8Xw_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_r06N0GSPEeWH_LoPPeg8Xw_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="762669ff"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_NdTLoWSOEeWJx47Q3R5FDw&amp;path=_NdTLoWSOEeWJx47Q3R5FDw,_SK_p0WSOEeWJx47Q3R5FDw,_UoY5UWSOEeWJx47Q3R5FDw,_2pTkgWSPEeWH_LoPPeg8Xw,_9M_7AGSPEeWH_LoPPeg8Xw_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_9M_7AGSPEeWH_LoPPeg8Xw_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="56c06ae1"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_NdTLoWSOEeWJx47Q3R5FDw&amp;path=_NdTLoWSOEeWJx47Q3R5FDw,_SK_p0WSOEeWJx47Q3R5FDw,_UoY5UWSOEeWJx47Q3R5FDw,_3wt4gWSPEeWH_LoPPeg8Xw,_JYRlEGSQEeWH_LoPPeg8Xw_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_JYRlEGSQEeWH_LoPPeg8Xw_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="aa6faa7c"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_NdTLoWSOEeWJx47Q3R5FDw&amp;path=_NdTLoWSOEeWJx47Q3R5FDw,_SK_p0WSOEeWJx47Q3R5FDw,_UoY5UWSOEeWJx47Q3R5FDw,_P-pcIGSQEeWH_LoPPeg8Xw_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_P-pcIGSQEeWH_LoPPeg8Xw_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="689ed66b"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_NdTLoWSOEeWJx47Q3R5FDw&amp;path=_NdTLoWSOEeWJx47Q3R5FDw,_SK_p0WSOEeWJx47Q3R5FDw,_VuK1oWSOEeWJx47Q3R5FDw,_LdxcgGSREeWH_LoPPeg8Xw_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_LdxcgGSREeWH_LoPPeg8Xw_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="bc893e6e"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_NdTLoWSOEeWJx47Q3R5FDw&amp;path=_NdTLoWSOEeWJx47Q3R5FDw,_SK_p0WSOEeWJx47Q3R5FDw,_W96mQWSOEeWJx47Q3R5FDw,_88rxoGSQEeWH_LoPPeg8Xw_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_88rxoGSQEeWH_LoPPeg8Xw_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="50de3953"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XoXcwWUjEeWWhIMIEcteog&amp;path=_XoXcwWUjEeWWhIMIEcteog,_cDCRQWUjEeWWhIMIEcteog,_of_hMWUjEeWWhIMIEcteog,_jPy9cGUkEeWWhIMIEcteog_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_jPy9cGUkEeWWhIMIEcteog_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="6b3c3a61"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XoXcwWUjEeWWhIMIEcteog&amp;path=_XoXcwWUjEeWWhIMIEcteog,_cDCRQWUjEeWWhIMIEcteog,_dZBz0WUjEeWWhIMIEcteog,_3NjsYGUkEeWWhIMIEcteog_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_3NjsYGUkEeWWhIMIEcteog_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="dfcd2c50"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_c2F1QZLKEe6Ji6GnvvUfqw&amp;path=_c2F1QZLKEe6Ji6GnvvUfqw,_oGw9UcUUEe6pmdl9Vi4qww,_9psVECaBEe-PpfYzLEtY7A_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_9psVECaBEe-PpfYzLEtY7A_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="5e52638f"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_O63QgZLKEe6Ji6GnvvUfqw&amp;path=_O63QgZLKEe6Ji6GnvvUfqw,_LfwWQbQhEe6xU5hv8znLZA,_WP3p9rQhEe6xU5hv8znLZA_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_WP3p9rQhEe6xU5hv8znLZA_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="617debe2"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_MDTAwcOOEe6pmdl9Vi4qww,_rvznQTGWEe-TauTqJPNl_g,_7beO4DGWEe-TauTqJPNl_g_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_7beO4DGWEe-TauTqJPNl_g_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="e2dd602a"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_BAXyIe2lEe-socSARGFgTg,_I5-LoO2lEe-socSARGFgTg_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_I5-LoO2lEe-socSARGFgTg_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="1c25d656"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_FBZV8O4FEe-socSARGFgTg,_aWBxMe4FEe-socSARGFgTg,_uiNWoO4FEe-socSARGFgTg_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_uiNWoO4FEe-socSARGFgTg_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="e6502569"></Element>
+</referenceList>
+<referenceList name="WorkProduct_OutputFrom_Tasks" nodeId="b6526c44">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Direct and manage project work" Id="_sg1qgHiEEeignMo4fzPYYw" ShapeiconUrl="images/task.gif" nodeId="be09153f" Url="practice.mgmt.proj.pm_small.base/tasks/direct_project_work_C274174D.html" Name="direct_project_work" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop project schedule" Id="_RRj48HiIEeignMo4fzPYYw" ShapeiconUrl="images/task.gif" nodeId="e03a2645" Url="practice.mgmt.proj.pm_mini.base/tasks/develop_schedule_44BF7AB6.html" Name="develop_schedule" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Establish project baseline" Id="_abbe8Io8EeOxJ_K6gIDF8g" ShapeiconUrl="images/task.gif" nodeId="8530e995" Url="practice.mgmt.proj.pm_med.base/tasks/establish_project_baseline_ADF58119.html" Name="establish_project_baseline" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Manage stakeholder engagement" Id="_8OfUMI42EeOoJbsqTa8nhw" ShapeiconUrl="images/task.gif" nodeId="26616408" Url="practice.mgmt.proj.pm_med.base/tasks/manage_stakeholder_engagement_CD298607.html" Name="manage_stakeholder_engagement" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Perform schedule control meetings" Id="_MhZokL0gEeS0Kb8X2ySpMA" ShapeiconUrl="images/task.gif" nodeId="aacc2df3" Url="practice.mgmt.proj.pm_small.base/tasks/perform_schedule_control_42C5F2D3.html" Name="perform_schedule_control" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Plan next project phase" Id="_UkV1ANL9EeSk770K_ykWZg" ShapeiconUrl="images/task.gif" nodeId="ea44a54a" Url="practice.mgmt.proj.pm_med.base/tasks/plan_next_phase_C8736010.html" Name="plan_next_phase" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="WorkProduct_Deliverables" nodeId="d0a5cd61">
+<Element ShowFullMethodContent="false" Type="Deliverable" TypeName="Deliverable" NodeiconUrl="" DisplayName="Project Schedule" Id="_UEdAgO-QEe6gj9VPFxE7ig" ShapeiconUrl="images/deliverable.gif" nodeId="2f5b6f76" Url="process.adv.eya_oracle.base/workproducts/proj_schedule_F3130134.html" Name="proj_schedule" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="WorkProduct_InputTo_Tasks" nodeId="8cfd85d">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Direct and manage project work" Id="_sg1qgHiEEeignMo4fzPYYw" ShapeiconUrl="images/task.gif" nodeId="7eb4c802" Url="practice.mgmt.proj.pm_small.base/tasks/direct_project_work_C274174D.html" Name="direct_project_work" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Acquire project team" Id="_dQuWwLyKEeS7s8GBdYS2UQ" ShapeiconUrl="images/task.gif" nodeId="34ebe622" Url="practice.mgmt.proj.pm_small.base/tasks/acquire_project_team_DB0AB409.html" Name="acquire_project_team" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Confirm cost baseline" Id="_ngN1sI4zEeOoJbsqTa8nhw" ShapeiconUrl="images/task.gif" nodeId="7d5aa7f" Url="practice.mgmt.proj.pm_small.base/tasks/confirm_cost_baseline_2BF1827F.html" Name="confirm_cost_baseline" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop test plan" Id="_7DJFwOX2EeOqmb5IikO7mw" ShapeiconUrl="images/task.gif" nodeId="a8cc3f17" Url="practice.ita.delv.test_mgmt.base/tasks/develop_test_plan_7D8DA5F9.html" Name="develop_test_plan" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Establish project baseline" Id="_abbe8Io8EeOxJ_K6gIDF8g" ShapeiconUrl="images/task.gif" nodeId="a29b5f4d" Url="practice.mgmt.proj.pm_med.base/tasks/establish_project_baseline_ADF58119.html" Name="establish_project_baseline" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Estimate costs" Id="_SVVHoI0HEeOxJ_K6gIDF8g" ShapeiconUrl="images/task.gif" nodeId="d905cb8f" Url="practice.mgmt.proj.pm_med.base/tasks/estimate_costs_E9BF49E2.html" Name="estimate_costs" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Finalize project schedule" Id="_qStZIO-VEe6gj9VPFxE7ig" ShapeiconUrl="images/task.gif" nodeId="5f2f0956" Url="process.adv.eya_oracle.base/tasks/fin_proj_sched_A2025D12.html" Name="fin_proj_sched" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Perform schedule control meetings" Id="_MhZokL0gEeS0Kb8X2ySpMA" ShapeiconUrl="images/task.gif" nodeId="5f93cf50" Url="practice.mgmt.proj.pm_small.base/tasks/perform_schedule_control_42C5F2D3.html" Name="perform_schedule_control" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Plan human resource management" Id="_9kwq8I4zEeOoJbsqTa8nhw" ShapeiconUrl="images/task.gif" nodeId="9c14e543" Url="practice.mgmt.proj.pm_med.base/tasks/plan_hr_mgmt_BA8A5DEA.html" Name="plan_hr_mgmt" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Plan stakeholder engagement" Id="_nbpsYLNQEe6xU5hv8znLZA" ShapeiconUrl="images/task.gif" nodeId="b9b12b02" Url="process.adv.eya_oracle.base/tasks/plan_stakeholder_engagement_848DE583.html" Name="plan_stakeholder_engagement" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Plan supplier management" Id="_ULR-cJQfEeOesMYdCVZY9w" ShapeiconUrl="images/task.gif" nodeId="5806ce67" Url="practice.mgmt.proj.pm_med.base/tasks/plan_supplier_management_77A4F978.html" Name="plan_supplier_management" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Report status" Id="_nDQ1UAiEEeStxvYZUNvzNw" ShapeiconUrl="images/task.gif" nodeId="514c9744" Url="practice.mgmt.proj.pm_mini.base/tasks/report_status_E94C9963.html" Name="report_status" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="modifyRoles" nodeId="b3b0715e">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Project Manager" Id="_PdB9X_mlEeK66c-ZdBvpxw" ShapeiconUrl="images/role.gif" nodeId="617745ef" Url="core.default.role_def.base/roles/project_manager_81311EEC.html" Name="project_manager" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="mandatoryInputToTasks" nodeId="97ecd322">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Direct and manage project work" Id="_sg1qgHiEEeignMo4fzPYYw" ShapeiconUrl="images/task.gif" nodeId="409205f" Url="practice.mgmt.proj.pm_small.base/tasks/direct_project_work_C274174D.html" Name="direct_project_work" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Acquire project team" Id="_dQuWwLyKEeS7s8GBdYS2UQ" ShapeiconUrl="images/task.gif" nodeId="bde44e14" Url="practice.mgmt.proj.pm_small.base/tasks/acquire_project_team_DB0AB409.html" Name="acquire_project_team" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Confirm cost baseline" Id="_ngN1sI4zEeOoJbsqTa8nhw" ShapeiconUrl="images/task.gif" nodeId="7e7475d9" Url="practice.mgmt.proj.pm_small.base/tasks/confirm_cost_baseline_2BF1827F.html" Name="confirm_cost_baseline" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop test plan" Id="_7DJFwOX2EeOqmb5IikO7mw" ShapeiconUrl="images/task.gif" nodeId="873a65a9" Url="practice.ita.delv.test_mgmt.base/tasks/develop_test_plan_7D8DA5F9.html" Name="develop_test_plan" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Establish project baseline" Id="_abbe8Io8EeOxJ_K6gIDF8g" ShapeiconUrl="images/task.gif" nodeId="aca9e4d8" Url="practice.mgmt.proj.pm_med.base/tasks/establish_project_baseline_ADF58119.html" Name="establish_project_baseline" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Estimate costs" Id="_SVVHoI0HEeOxJ_K6gIDF8g" ShapeiconUrl="images/task.gif" nodeId="e38ef760" Url="practice.mgmt.proj.pm_med.base/tasks/estimate_costs_E9BF49E2.html" Name="estimate_costs" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Finalize project schedule" Id="_qStZIO-VEe6gj9VPFxE7ig" ShapeiconUrl="images/task.gif" nodeId="66e73d59" Url="process.adv.eya_oracle.base/tasks/fin_proj_sched_A2025D12.html" Name="fin_proj_sched" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Perform schedule control meetings" Id="_MhZokL0gEeS0Kb8X2ySpMA" ShapeiconUrl="images/task.gif" nodeId="2fe51140" Url="practice.mgmt.proj.pm_small.base/tasks/perform_schedule_control_42C5F2D3.html" Name="perform_schedule_control" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Plan human resource management" Id="_9kwq8I4zEeOoJbsqTa8nhw" ShapeiconUrl="images/task.gif" nodeId="f907c33e" Url="practice.mgmt.proj.pm_med.base/tasks/plan_hr_mgmt_BA8A5DEA.html" Name="plan_hr_mgmt" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Plan stakeholder engagement" Id="_nbpsYLNQEe6xU5hv8znLZA" ShapeiconUrl="images/task.gif" nodeId="afc23671" Url="process.adv.eya_oracle.base/tasks/plan_stakeholder_engagement_848DE583.html" Name="plan_stakeholder_engagement" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Plan supplier management" Id="_ULR-cJQfEeOesMYdCVZY9w" ShapeiconUrl="images/task.gif" nodeId="765e604b" Url="practice.mgmt.proj.pm_med.base/tasks/plan_supplier_management_77A4F978.html" Name="plan_supplier_management" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Report status" Id="_nDQ1UAiEEeStxvYZUNvzNw" ShapeiconUrl="images/task.gif" nodeId="ee051eef" Url="practice.mgmt.proj.pm_mini.base/tasks/report_status_E94C9963.html" Name="report_status" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="outputFromTasks" nodeId="74bd5cf9">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Direct and manage project work" Id="_sg1qgHiEEeignMo4fzPYYw" ShapeiconUrl="images/task.gif" nodeId="e34b564e" Url="practice.mgmt.proj.pm_small.base/tasks/direct_project_work_C274174D.html" Name="direct_project_work" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop project schedule" Id="_RRj48HiIEeignMo4fzPYYw" ShapeiconUrl="images/task.gif" nodeId="393ce434" Url="practice.mgmt.proj.pm_mini.base/tasks/develop_schedule_44BF7AB6.html" Name="develop_schedule" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Establish project baseline" Id="_abbe8Io8EeOxJ_K6gIDF8g" ShapeiconUrl="images/task.gif" nodeId="22fba426" Url="practice.mgmt.proj.pm_med.base/tasks/establish_project_baseline_ADF58119.html" Name="establish_project_baseline" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Manage stakeholder engagement" Id="_8OfUMI42EeOoJbsqTa8nhw" ShapeiconUrl="images/task.gif" nodeId="d1ec8d54" Url="practice.mgmt.proj.pm_med.base/tasks/manage_stakeholder_engagement_CD298607.html" Name="manage_stakeholder_engagement" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Perform schedule control meetings" Id="_MhZokL0gEeS0Kb8X2ySpMA" ShapeiconUrl="images/task.gif" nodeId="5a51b998" Url="practice.mgmt.proj.pm_small.base/tasks/perform_schedule_control_42C5F2D3.html" Name="perform_schedule_control" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Plan next project phase" Id="_UkV1ANL9EeSk770K_ykWZg" ShapeiconUrl="images/task.gif" nodeId="ec8603bf" Url="practice.mgmt.proj.pm_med.base/tasks/plan_next_phase_C8736010.html" Name="plan_next_phase" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="cf5f9be8">
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XoXcwWUjEeWWhIMIEcteog&amp;path=_XoXcwWUjEeWWhIMIEcteog,_cDCRQWUjEeWWhIMIEcteog,_g5hfEWUjEeWWhIMIEcteog,_oKsxMGUkEeWWhIMIEcteog_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_oKsxMGUkEeWWhIMIEcteog_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="1dadc035">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Project Management (small)" Id="_XoXcwWUjEeWWhIMIEcteog" relProcessPath="_XoXcwWUjEeWWhIMIEcteog" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_XoXcwWUjEeWWhIMIEcteog&amp;path=_XoXcwWUjEeWWhIMIEcteog" nodeId="82e7b339" Url="practice.mgmt.proj.pm_small.assign/capabilitypatterns/pm_small_CFBEC99A.html" Name="pm_small" BackPath="./../../">
+<attribute name="name" nodeId="cab6fd15">pm_small</attribute>
+<attribute name="guid" nodeId="c7fab470">_XoXcwWUjEeWWhIMIEcteog</attribute>
+<attribute name="presentationName" nodeId="329369f3">Project Management (small)</attribute>
+<attribute name="briefDescription" nodeId="18a8ce31"></attribute>
+<attribute name="suppressed" nodeId="81d81113">false</attribute>
+<attribute name="orderingGuide" nodeId="a906b69e"></attribute>
+<attribute name="isAbstract" nodeId="ed3ef730">false</attribute>
+<attribute name="shapeicon" nodeId="6f481ccb"></attribute>
+<attribute name="nodeicon" nodeId="abd2e984"></attribute>
+<attribute name="prefix" nodeId="beea9073"></attribute>
+<attribute name="isPlanned" nodeId="e313304e">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="99822e3f">false</attribute>
+<attribute name="isOptional" nodeId="89512a6">false</attribute>
+<attribute name="isRepeatable" nodeId="d1be93d5">false</attribute>
+<attribute name="isOngoing" nodeId="3b0d2d38">false</attribute>
+<attribute name="isEventDriven" nodeId="5627f885">false</attribute>
+<attribute name="variabilityType" nodeId="cb6086a0">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Manage the Project" Id="_cDCRQWUjEeWWhIMIEcteog" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XoXcwWUjEeWWhIMIEcteog&amp;path=_XoXcwWUjEeWWhIMIEcteog,_cDCRQWUjEeWWhIMIEcteog" nodeId="aba8aee4" Url="practice.mgmt.proj.pm_small.assign/capabilitypatterns/manage_proj_A38DED8E.html" Name="manage_proj" BackPath="./../../">
+<attribute name="name" nodeId="9f890e53">manage_proj</attribute>
+<attribute name="guid" nodeId="b5b6440c">_cDCRQWUjEeWWhIMIEcteog</attribute>
+<attribute name="presentationName" nodeId="b6f83253">Manage the Project</attribute>
+<attribute name="briefDescription" nodeId="dd2a08c1">The tasks and activities necessary to support the execution of small projects.</attribute>
+<attribute name="suppressed" nodeId="3d31133b">false</attribute>
+<attribute name="orderingGuide" nodeId="5ba3e4e9"></attribute>
+<attribute name="isAbstract" nodeId="a8888b81">false</attribute>
+<attribute name="shapeicon" nodeId="6717ff10"></attribute>
+<attribute name="nodeicon" nodeId="5b35a37"></attribute>
+<attribute name="prefix" nodeId="cd41c5bb"></attribute>
+<attribute name="isPlanned" nodeId="d725a10e">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="f8fc0b70">false</attribute>
+<attribute name="isOptional" nodeId="5a8a06e9">false</attribute>
+<attribute name="isRepeatable" nodeId="cf3cc157">false</attribute>
+<attribute name="isOngoing" nodeId="9fb352ac">false</attribute>
+<attribute name="isEventDriven" nodeId="4b77905e">false</attribute>
+<attribute name="variabilityType" nodeId="58b546c1">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Execute the Project" Id="_g5hfEWUjEeWWhIMIEcteog" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XoXcwWUjEeWWhIMIEcteog&amp;path=_XoXcwWUjEeWWhIMIEcteog,_cDCRQWUjEeWWhIMIEcteog,_g5hfEWUjEeWWhIMIEcteog" nodeId="5d5e98b8" Url="practice.mgmt.proj.pm_small.assign/capabilitypatterns/execute_proj_558B7AD6.html" Name="execute_proj" BackPath="./../../">
+<attribute name="name" nodeId="fcc7d83e">execute_proj</attribute>
+<attribute name="guid" nodeId="8955bc29">_g5hfEWUjEeWWhIMIEcteog</attribute>
+<attribute name="presentationName" nodeId="2129794a">Execute the Project</attribute>
+<attribute name="briefDescription" nodeId="54e5d31">Deliver the work defined in the project management plan to satisfy the project specifications.</attribute>
+<attribute name="suppressed" nodeId="bc632896">false</attribute>
+<attribute name="orderingGuide" nodeId="ac1a0080"></attribute>
+<attribute name="isAbstract" nodeId="1dcb29e0">false</attribute>
+<attribute name="shapeicon" nodeId="1d7daa06"></attribute>
+<attribute name="nodeicon" nodeId="ea3f1cff"></attribute>
+<attribute name="prefix" nodeId="16bb9c5d"></attribute>
+<attribute name="isPlanned" nodeId="a1725e7d">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="b5a86698">false</attribute>
+<attribute name="isOptional" nodeId="33b808f0">false</attribute>
+<attribute name="isRepeatable" nodeId="ff4f499b">false</attribute>
+<attribute name="isOngoing" nodeId="83aadb4c">false</attribute>
+<attribute name="isEventDriven" nodeId="952b0c8c">false</attribute>
+<attribute name="variabilityType" nodeId="8ba176d4">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XoXcwWUjEeWWhIMIEcteog&amp;path=_XoXcwWUjEeWWhIMIEcteog,_cDCRQWUjEeWWhIMIEcteog,_g5hfEWUjEeWWhIMIEcteog,_oKsxMGUkEeWWhIMIEcteog_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_oKsxMGUkEeWWhIMIEcteog_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="a239d4f4">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Program and Project Management" Id="_c2F1QZLKEe6Ji6GnvvUfqw" relProcessPath="_c2F1QZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_c2F1QZLKEe6Ji6GnvvUfqw&amp;path=_c2F1QZLKEe6Ji6GnvvUfqw" nodeId="ee1decae" Url="process.adv.eya_oracle.base/capabilitypatterns/program_proj_mgmt_wkstrm_752F6C0.html" Name="program_proj_mgmt_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="f2ea85e6">program_proj_mgmt_wkstrm</attribute>
+<attribute name="guid" nodeId="2f141729">_c2F1QZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="128419c8">Program and Project Management</attribute>
+<attribute name="briefDescription" nodeId="fc8b6bc7"></attribute>
+<attribute name="suppressed" nodeId="524872ef">false</attribute>
+<attribute name="orderingGuide" nodeId="e10eb039"></attribute>
+<attribute name="isAbstract" nodeId="b1ea3f92">false</attribute>
+<attribute name="shapeicon" nodeId="a3ce18a6"></attribute>
+<attribute name="nodeicon" nodeId="97576cea"></attribute>
+<attribute name="prefix" nodeId="8696620f">workstream</attribute>
+<attribute name="isPlanned" nodeId="c67adcfe">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="41352ed8">false</attribute>
+<attribute name="isOptional" nodeId="a26727a8">false</attribute>
+<attribute name="isRepeatable" nodeId="8cff117e">false</attribute>
+<attribute name="isOngoing" nodeId="41c414b6">false</attribute>
+<attribute name="isEventDriven" nodeId="fd703714">false</attribute>
+<attribute name="variabilityType" nodeId="56ea9c9f">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Execute the Project" Id="_9W2isMUHEe6pmdl9Vi4qww" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_c2F1QZLKEe6Ji6GnvvUfqw&amp;path=_c2F1QZLKEe6Ji6GnvvUfqw,_9W2isMUHEe6pmdl9Vi4qww" nodeId="b8e0756f" Url="process.adv.eya_oracle.base/capabilitypatterns/execute_proj_F75122AF.html" Name="execute_proj" BackPath="./../../">
+<attribute name="name" nodeId="b84e4dfd">execute_proj</attribute>
+<attribute name="guid" nodeId="f04015">_9W2isMUHEe6pmdl9Vi4qww</attribute>
+<attribute name="presentationName" nodeId="7c5e48a">Execute the Project</attribute>
+<attribute name="briefDescription" nodeId="b23b28c9">Deliver the work defined in the project management plan to satisfy the project specifications.</attribute>
+<attribute name="suppressed" nodeId="bf1720cd">false</attribute>
+<attribute name="orderingGuide" nodeId="ec10a29b"></attribute>
+<attribute name="isAbstract" nodeId="ab184e2a">false</attribute>
+<attribute name="shapeicon" nodeId="873e24c8"></attribute>
+<attribute name="nodeicon" nodeId="60ea51c0"></attribute>
+<attribute name="prefix" nodeId="98812a28"></attribute>
+<attribute name="isPlanned" nodeId="34c88081">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="dbd54d1b">false</attribute>
+<attribute name="isOptional" nodeId="eba2f2ca">false</attribute>
+<attribute name="isRepeatable" nodeId="e9de7faa">false</attribute>
+<attribute name="isOngoing" nodeId="7e9430cb">false</attribute>
+<attribute name="isEventDriven" nodeId="912bf60a">false</attribute>
+<attribute name="variabilityType" nodeId="7594fecf">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XoXcwWUjEeWWhIMIEcteog&amp;path=_XoXcwWUjEeWWhIMIEcteog,_cDCRQWUjEeWWhIMIEcteog,_g5hfEWUjEeWWhIMIEcteog,_oKsxMGUkEeWWhIMIEcteog_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_oKsxMGUkEeWWhIMIEcteog_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="fd046d3">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="7bdcd9e9" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="b5620b4d">eya_oracle</attribute>
+<attribute name="guid" nodeId="e34e323d">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="23456e62">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="977a1319"></attribute>
+<attribute name="suppressed" nodeId="16a5dc9b">false</attribute>
+<attribute name="orderingGuide" nodeId="1f93c71b"></attribute>
+<attribute name="isAbstract" nodeId="b9181948">false</attribute>
+<attribute name="shapeicon" nodeId="f3fd31c9"></attribute>
+<attribute name="nodeicon" nodeId="a71fb43f"></attribute>
+<attribute name="prefix" nodeId="d3945ba7"></attribute>
+<attribute name="isPlanned" nodeId="79777773">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="ca24f831">false</attribute>
+<attribute name="isOptional" nodeId="31bc84df">false</attribute>
+<attribute name="isRepeatable" nodeId="387fceab">false</attribute>
+<attribute name="isOngoing" nodeId="b4ab5f7f">false</attribute>
+<attribute name="isEventDriven" nodeId="9117a465">false</attribute>
+<attribute name="variabilityType" nodeId="22569119">replaces</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Manage the Project" Id="_gyYx8OyXEe-socSARGFgTg" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_gyYx8OyXEe-socSARGFgTg" nodeId="9891e91" Url="process.adv.eya_oracle.base/deliveryprocesses/manage_project_1782D617.html" Name="manage_project" BackPath="./../../">
+<attribute name="name" nodeId="faacb4e">manage_project</attribute>
+<attribute name="guid" nodeId="9701e60e">_gyYx8OyXEe-socSARGFgTg</attribute>
+<attribute name="presentationName" nodeId="d27ef1e7">Manage the Project</attribute>
+<attribute name="briefDescription" nodeId="3a7f77c5">Project management activities and tasks to support the execution and monitoring of the project and track benefits realization. For project management activities and tasks related to the planning and closure of the project, refer to the Plan and Support phases, respectively.</attribute>
+<attribute name="suppressed" nodeId="e6e03d4">false</attribute>
+<attribute name="orderingGuide" nodeId="fe3cea9c"></attribute>
+<attribute name="isAbstract" nodeId="9072e6a9">false</attribute>
+<attribute name="shapeicon" nodeId="e1b7c8d9"></attribute>
+<attribute name="nodeicon" nodeId="429f6300"></attribute>
+<attribute name="prefix" nodeId="7165866d"></attribute>
+<attribute name="isPlanned" nodeId="b6d6894a">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="33ed4199">false</attribute>
+<attribute name="isOptional" nodeId="418912bf">false</attribute>
+<attribute name="isRepeatable" nodeId="270df84">false</attribute>
+<attribute name="isOngoing" nodeId="6b32b729">false</attribute>
+<attribute name="isEventDriven" nodeId="aed3a79">false</attribute>
+<attribute name="variabilityType" nodeId="9a346474">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Execute the Project" Id="_mR6VseyXEe-socSARGFgTg" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_gyYx8OyXEe-socSARGFgTg,_mR6VseyXEe-socSARGFgTg" nodeId="c2838a61" Url="process.adv.eya_oracle.base/deliveryprocesses/execute_proj_93CEB5C6.html" Name="execute_proj" BackPath="./../../">
+<attribute name="name" nodeId="dec505c7">execute_proj</attribute>
+<attribute name="guid" nodeId="36cb1a52">_mR6VseyXEe-socSARGFgTg</attribute>
+<attribute name="presentationName" nodeId="1ff53d6d">Execute the Project</attribute>
+<attribute name="briefDescription" nodeId="68e0e6bc">Deliver the work defined in the project management plan to satisfy the project specifications.</attribute>
+<attribute name="suppressed" nodeId="113f00ce">false</attribute>
+<attribute name="orderingGuide" nodeId="2dd174ec"></attribute>
+<attribute name="isAbstract" nodeId="6b819ad4">false</attribute>
+<attribute name="shapeicon" nodeId="ccbcf1ad"></attribute>
+<attribute name="nodeicon" nodeId="585568b9"></attribute>
+<attribute name="prefix" nodeId="7276a07a"></attribute>
+<attribute name="isPlanned" nodeId="38c64a80">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="18ba6ee2">false</attribute>
+<attribute name="isOptional" nodeId="33fabd5f">false</attribute>
+<attribute name="isRepeatable" nodeId="21799375">false</attribute>
+<attribute name="isOngoing" nodeId="b9351522">false</attribute>
+<attribute name="isEventDriven" nodeId="2b6f67d">false</attribute>
+<attribute name="variabilityType" nodeId="d5025479">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_NdTLoWSOEeWJx47Q3R5FDw&amp;path=_NdTLoWSOEeWJx47Q3R5FDw,_SK_p0WSOEeWJx47Q3R5FDw,_TcqtEWSOEeWJx47Q3R5FDw,_r06N0GSPEeWH_LoPPeg8Xw_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_r06N0GSPEeWH_LoPPeg8Xw_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="a018aad1">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Project Management" Id="_NdTLoWSOEeWJx47Q3R5FDw" relProcessPath="_NdTLoWSOEeWJx47Q3R5FDw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_NdTLoWSOEeWJx47Q3R5FDw&amp;path=_NdTLoWSOEeWJx47Q3R5FDw" nodeId="d14bcdfc" Url="practice.mgmt.proj.pm_med.assign/capabilitypatterns/pm_med_AEB6C9BD.html" Name="pm_med" BackPath="./../../">
+<attribute name="name" nodeId="b9fbd6d">pm_med</attribute>
+<attribute name="guid" nodeId="17c3b616">_NdTLoWSOEeWJx47Q3R5FDw</attribute>
+<attribute name="presentationName" nodeId="f40cda10">Project Management</attribute>
+<attribute name="briefDescription" nodeId="5cb62c0b"></attribute>
+<attribute name="suppressed" nodeId="3234718b">false</attribute>
+<attribute name="orderingGuide" nodeId="8c735471"></attribute>
+<attribute name="isAbstract" nodeId="9e068c7c">false</attribute>
+<attribute name="shapeicon" nodeId="f2b0f396"></attribute>
+<attribute name="nodeicon" nodeId="d5fde288"></attribute>
+<attribute name="prefix" nodeId="b89d7e99"></attribute>
+<attribute name="isPlanned" nodeId="fac01290">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="529ea440">false</attribute>
+<attribute name="isOptional" nodeId="b318219d">false</attribute>
+<attribute name="isRepeatable" nodeId="ddd09047">false</attribute>
+<attribute name="isOngoing" nodeId="dce5cda">false</attribute>
+<attribute name="isEventDriven" nodeId="a27aadbd">false</attribute>
+<attribute name="variabilityType" nodeId="d4892d70">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Manage the Project" Id="_SK_p0WSOEeWJx47Q3R5FDw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_NdTLoWSOEeWJx47Q3R5FDw&amp;path=_NdTLoWSOEeWJx47Q3R5FDw,_SK_p0WSOEeWJx47Q3R5FDw" nodeId="bf99d203" Url="practice.mgmt.proj.pm_med.assign/capabilitypatterns/manage_proj_9466C4D7.html" Name="manage_proj" BackPath="./../../">
+<attribute name="name" nodeId="7f14280c">manage_proj</attribute>
+<attribute name="guid" nodeId="58d0de9c">_SK_p0WSOEeWJx47Q3R5FDw</attribute>
+<attribute name="presentationName" nodeId="5b9b70a">Manage the Project</attribute>
+<attribute name="briefDescription" nodeId="ef59ba5f">The tasks and activities necessary to support the execution of typical projects.</attribute>
+<attribute name="suppressed" nodeId="9a5e7845">false</attribute>
+<attribute name="orderingGuide" nodeId="3237857"></attribute>
+<attribute name="isAbstract" nodeId="9802a790">false</attribute>
+<attribute name="shapeicon" nodeId="f498abd6"></attribute>
+<attribute name="nodeicon" nodeId="55e0dd5b"></attribute>
+<attribute name="prefix" nodeId="257f7cad"></attribute>
+<attribute name="isPlanned" nodeId="79baea2b">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="b214b70c">false</attribute>
+<attribute name="isOptional" nodeId="b3631f78">false</attribute>
+<attribute name="isRepeatable" nodeId="d43844e9">false</attribute>
+<attribute name="isOngoing" nodeId="5421b026">false</attribute>
+<attribute name="isEventDriven" nodeId="9e142122">false</attribute>
+<attribute name="variabilityType" nodeId="2ff2f7d0">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Initiate the Project" Id="_TcqtEWSOEeWJx47Q3R5FDw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_NdTLoWSOEeWJx47Q3R5FDw&amp;path=_NdTLoWSOEeWJx47Q3R5FDw,_SK_p0WSOEeWJx47Q3R5FDw,_TcqtEWSOEeWJx47Q3R5FDw" nodeId="38186754" Url="practice.mgmt.proj.pm_med.assign/capabilitypatterns/initiate_proj_E945A9CB.html" Name="initiate_proj" BackPath="./../../">
+<attribute name="name" nodeId="46b8c251">initiate_proj</attribute>
+<attribute name="guid" nodeId="98318c4">_TcqtEWSOEeWJx47Q3R5FDw</attribute>
+<attribute name="presentationName" nodeId="beaea38">Initiate the Project</attribute>
+<attribute name="briefDescription" nodeId="557105cd">Define a new project or a new phase of an existing project by obtaining authorization to start the project or phase.</attribute>
+<attribute name="suppressed" nodeId="131912b7">false</attribute>
+<attribute name="orderingGuide" nodeId="e750c38f"></attribute>
+<attribute name="isAbstract" nodeId="564d0ecb">false</attribute>
+<attribute name="shapeicon" nodeId="88c2ff52"></attribute>
+<attribute name="nodeicon" nodeId="25aaaead"></attribute>
+<attribute name="prefix" nodeId="f9f165c6"></attribute>
+<attribute name="isPlanned" nodeId="bfa56352">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="e2b1ae43">false</attribute>
+<attribute name="isOptional" nodeId="a144e72c">false</attribute>
+<attribute name="isRepeatable" nodeId="989127f2">false</attribute>
+<attribute name="isOngoing" nodeId="8f492825">false</attribute>
+<attribute name="isEventDriven" nodeId="e8a47c8b">false</attribute>
+<attribute name="variabilityType" nodeId="3246cfd8">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_NdTLoWSOEeWJx47Q3R5FDw&amp;path=_NdTLoWSOEeWJx47Q3R5FDw,_SK_p0WSOEeWJx47Q3R5FDw,_UoY5UWSOEeWJx47Q3R5FDw,_2pTkgWSPEeWH_LoPPeg8Xw,_9M_7AGSPEeWH_LoPPeg8Xw_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_9M_7AGSPEeWH_LoPPeg8Xw_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="7cd7261b">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Project Management" Id="_NdTLoWSOEeWJx47Q3R5FDw" relProcessPath="_NdTLoWSOEeWJx47Q3R5FDw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_NdTLoWSOEeWJx47Q3R5FDw&amp;path=_NdTLoWSOEeWJx47Q3R5FDw" nodeId="6d10af19" Url="practice.mgmt.proj.pm_med.assign/capabilitypatterns/pm_med_AEB6C9BD.html" Name="pm_med" BackPath="./../../">
+<attribute name="name" nodeId="7f17fe20">pm_med</attribute>
+<attribute name="guid" nodeId="7aaed3f5">_NdTLoWSOEeWJx47Q3R5FDw</attribute>
+<attribute name="presentationName" nodeId="efdc67fa">Project Management</attribute>
+<attribute name="briefDescription" nodeId="d681750c"></attribute>
+<attribute name="suppressed" nodeId="4d5ef07a">false</attribute>
+<attribute name="orderingGuide" nodeId="c99b3c20"></attribute>
+<attribute name="isAbstract" nodeId="b3509278">false</attribute>
+<attribute name="shapeicon" nodeId="bcfa7464"></attribute>
+<attribute name="nodeicon" nodeId="c3928b25"></attribute>
+<attribute name="prefix" nodeId="6e6d13df"></attribute>
+<attribute name="isPlanned" nodeId="548ba208">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="380c7b9">false</attribute>
+<attribute name="isOptional" nodeId="feba7db6">false</attribute>
+<attribute name="isRepeatable" nodeId="d8792f58">false</attribute>
+<attribute name="isOngoing" nodeId="90fc2205">false</attribute>
+<attribute name="isEventDriven" nodeId="8c8bfdc5">false</attribute>
+<attribute name="variabilityType" nodeId="239476b9">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Manage the Project" Id="_SK_p0WSOEeWJx47Q3R5FDw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_NdTLoWSOEeWJx47Q3R5FDw&amp;path=_NdTLoWSOEeWJx47Q3R5FDw,_SK_p0WSOEeWJx47Q3R5FDw" nodeId="4f12285d" Url="practice.mgmt.proj.pm_med.assign/capabilitypatterns/manage_proj_9466C4D7.html" Name="manage_proj" BackPath="./../../">
+<attribute name="name" nodeId="a76af03a">manage_proj</attribute>
+<attribute name="guid" nodeId="20be9a44">_SK_p0WSOEeWJx47Q3R5FDw</attribute>
+<attribute name="presentationName" nodeId="bea7c372">Manage the Project</attribute>
+<attribute name="briefDescription" nodeId="7057c38d">The tasks and activities necessary to support the execution of typical projects.</attribute>
+<attribute name="suppressed" nodeId="e95a90b1">false</attribute>
+<attribute name="orderingGuide" nodeId="e4271760"></attribute>
+<attribute name="isAbstract" nodeId="2dfb68fc">false</attribute>
+<attribute name="shapeicon" nodeId="b41ef3e0"></attribute>
+<attribute name="nodeicon" nodeId="99dffbb3"></attribute>
+<attribute name="prefix" nodeId="3cf75c3a"></attribute>
+<attribute name="isPlanned" nodeId="69a4f008">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="85c9726f">false</attribute>
+<attribute name="isOptional" nodeId="d74a6b1c">false</attribute>
+<attribute name="isRepeatable" nodeId="30706a53">false</attribute>
+<attribute name="isOngoing" nodeId="438bb68d">false</attribute>
+<attribute name="isEventDriven" nodeId="950be05c">false</attribute>
+<attribute name="variabilityType" nodeId="4e760f4c">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Plan the Project" Id="_UoY5UWSOEeWJx47Q3R5FDw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_NdTLoWSOEeWJx47Q3R5FDw&amp;path=_NdTLoWSOEeWJx47Q3R5FDw,_SK_p0WSOEeWJx47Q3R5FDw,_UoY5UWSOEeWJx47Q3R5FDw" nodeId="4350be94" Url="practice.mgmt.proj.pm_med.assign/capabilitypatterns/plan_proj_FBFAE0FF.html" Name="plan_proj" BackPath="./../../">
+<attribute name="name" nodeId="797db121">plan_proj</attribute>
+<attribute name="guid" nodeId="e7f23da0">_UoY5UWSOEeWJx47Q3R5FDw</attribute>
+<attribute name="presentationName" nodeId="89df72b8">Plan the Project</attribute>
+<attribute name="briefDescription" nodeId="c0314f3">Establish the scope of the project, refine the objectives, and define the course of action required to attain the objectives that the project is undertaken to achieve.</attribute>
+<attribute name="suppressed" nodeId="19a747d1">false</attribute>
+<attribute name="orderingGuide" nodeId="6d8e9f2a"></attribute>
+<attribute name="isAbstract" nodeId="7e0309f">false</attribute>
+<attribute name="shapeicon" nodeId="5c58700e"></attribute>
+<attribute name="nodeicon" nodeId="9a050939"></attribute>
+<attribute name="prefix" nodeId="8306ea6f"></attribute>
+<attribute name="isPlanned" nodeId="35048fbf">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="bc305e83">false</attribute>
+<attribute name="isOptional" nodeId="d9c01161">false</attribute>
+<attribute name="isRepeatable" nodeId="5b2013db">false</attribute>
+<attribute name="isOngoing" nodeId="71031173">false</attribute>
+<attribute name="isEventDriven" nodeId="7246ac1f">false</attribute>
+<attribute name="variabilityType" nodeId="d6425e0">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Plan Schedule" Id="_2pTkgWSPEeWH_LoPPeg8Xw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_NdTLoWSOEeWJx47Q3R5FDw&amp;path=_NdTLoWSOEeWJx47Q3R5FDw,_SK_p0WSOEeWJx47Q3R5FDw,_UoY5UWSOEeWJx47Q3R5FDw,_2pTkgWSPEeWH_LoPPeg8Xw" nodeId="f4e1d40b" Url="practice.mgmt.proj.pm_med.assign/capabilitypatterns/plan_schedule_449F6F25.html" Name="plan_schedule" BackPath="./../../">
+<attribute name="name" nodeId="10293466">plan_schedule</attribute>
+<attribute name="guid" nodeId="c88b7b59">_2pTkgWSPEeWH_LoPPeg8Xw</attribute>
+<attribute name="presentationName" nodeId="62cd8cca">Plan Schedule</attribute>
+<attribute name="briefDescription" nodeId="61981cfa">Define the course of action required to attain the objectives that the project is undertaken to achieve.</attribute>
+<attribute name="suppressed" nodeId="507e6cfe">false</attribute>
+<attribute name="orderingGuide" nodeId="be9f250d"></attribute>
+<attribute name="isAbstract" nodeId="e38d3e91">false</attribute>
+<attribute name="shapeicon" nodeId="1f2beb6a"></attribute>
+<attribute name="nodeicon" nodeId="5263c9f1"></attribute>
+<attribute name="prefix" nodeId="8713732c"></attribute>
+<attribute name="isPlanned" nodeId="3027d3de">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d40d6ea6">false</attribute>
+<attribute name="isOptional" nodeId="bbb3fe78">false</attribute>
+<attribute name="isRepeatable" nodeId="481c327e">false</attribute>
+<attribute name="isOngoing" nodeId="601bccbd">false</attribute>
+<attribute name="isEventDriven" nodeId="3b25b1f0">false</attribute>
+<attribute name="variabilityType" nodeId="ce1b798d">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_NdTLoWSOEeWJx47Q3R5FDw&amp;path=_NdTLoWSOEeWJx47Q3R5FDw,_SK_p0WSOEeWJx47Q3R5FDw,_UoY5UWSOEeWJx47Q3R5FDw,_3wt4gWSPEeWH_LoPPeg8Xw,_JYRlEGSQEeWH_LoPPeg8Xw_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_JYRlEGSQEeWH_LoPPeg8Xw_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="991abb7c">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Project Management" Id="_NdTLoWSOEeWJx47Q3R5FDw" relProcessPath="_NdTLoWSOEeWJx47Q3R5FDw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_NdTLoWSOEeWJx47Q3R5FDw&amp;path=_NdTLoWSOEeWJx47Q3R5FDw" nodeId="130afa83" Url="practice.mgmt.proj.pm_med.assign/capabilitypatterns/pm_med_AEB6C9BD.html" Name="pm_med" BackPath="./../../">
+<attribute name="name" nodeId="5b47af39">pm_med</attribute>
+<attribute name="guid" nodeId="2db173e">_NdTLoWSOEeWJx47Q3R5FDw</attribute>
+<attribute name="presentationName" nodeId="bdce248b">Project Management</attribute>
+<attribute name="briefDescription" nodeId="ee6dd5b9"></attribute>
+<attribute name="suppressed" nodeId="2b577826">false</attribute>
+<attribute name="orderingGuide" nodeId="9f3784c4"></attribute>
+<attribute name="isAbstract" nodeId="9678456d">false</attribute>
+<attribute name="shapeicon" nodeId="e3fd1f4a"></attribute>
+<attribute name="nodeicon" nodeId="5b410d2"></attribute>
+<attribute name="prefix" nodeId="6fc8c72c"></attribute>
+<attribute name="isPlanned" nodeId="8a2aa68e">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="6f8e57ce">false</attribute>
+<attribute name="isOptional" nodeId="d99aa208">false</attribute>
+<attribute name="isRepeatable" nodeId="2b798e3c">false</attribute>
+<attribute name="isOngoing" nodeId="a082dd01">false</attribute>
+<attribute name="isEventDriven" nodeId="e83d7559">false</attribute>
+<attribute name="variabilityType" nodeId="caaa205b">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Manage the Project" Id="_SK_p0WSOEeWJx47Q3R5FDw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_NdTLoWSOEeWJx47Q3R5FDw&amp;path=_NdTLoWSOEeWJx47Q3R5FDw,_SK_p0WSOEeWJx47Q3R5FDw" nodeId="d2bd55a7" Url="practice.mgmt.proj.pm_med.assign/capabilitypatterns/manage_proj_9466C4D7.html" Name="manage_proj" BackPath="./../../">
+<attribute name="name" nodeId="5af8c210">manage_proj</attribute>
+<attribute name="guid" nodeId="3748de3b">_SK_p0WSOEeWJx47Q3R5FDw</attribute>
+<attribute name="presentationName" nodeId="b47befe0">Manage the Project</attribute>
+<attribute name="briefDescription" nodeId="48d1119a">The tasks and activities necessary to support the execution of typical projects.</attribute>
+<attribute name="suppressed" nodeId="ebcdf424">false</attribute>
+<attribute name="orderingGuide" nodeId="c7612097"></attribute>
+<attribute name="isAbstract" nodeId="32028fc1">false</attribute>
+<attribute name="shapeicon" nodeId="d49f4143"></attribute>
+<attribute name="nodeicon" nodeId="cbab4b38"></attribute>
+<attribute name="prefix" nodeId="211b103e"></attribute>
+<attribute name="isPlanned" nodeId="3ec779e2">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="2d14f4b0">false</attribute>
+<attribute name="isOptional" nodeId="ef760d7">false</attribute>
+<attribute name="isRepeatable" nodeId="fe6d5d5b">false</attribute>
+<attribute name="isOngoing" nodeId="6435edc1">false</attribute>
+<attribute name="isEventDriven" nodeId="439cfa82">false</attribute>
+<attribute name="variabilityType" nodeId="ae30f354">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Plan the Project" Id="_UoY5UWSOEeWJx47Q3R5FDw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_NdTLoWSOEeWJx47Q3R5FDw&amp;path=_NdTLoWSOEeWJx47Q3R5FDw,_SK_p0WSOEeWJx47Q3R5FDw,_UoY5UWSOEeWJx47Q3R5FDw" nodeId="8fb2e9c7" Url="practice.mgmt.proj.pm_med.assign/capabilitypatterns/plan_proj_FBFAE0FF.html" Name="plan_proj" BackPath="./../../">
+<attribute name="name" nodeId="fb5e15af">plan_proj</attribute>
+<attribute name="guid" nodeId="8ca6559d">_UoY5UWSOEeWJx47Q3R5FDw</attribute>
+<attribute name="presentationName" nodeId="1c22c4f9">Plan the Project</attribute>
+<attribute name="briefDescription" nodeId="3b143096">Establish the scope of the project, refine the objectives, and define the course of action required to attain the objectives that the project is undertaken to achieve.</attribute>
+<attribute name="suppressed" nodeId="393b77c5">false</attribute>
+<attribute name="orderingGuide" nodeId="47b3b5bd"></attribute>
+<attribute name="isAbstract" nodeId="d7f11b6f">false</attribute>
+<attribute name="shapeicon" nodeId="e3f57a"></attribute>
+<attribute name="nodeicon" nodeId="b7213f8c"></attribute>
+<attribute name="prefix" nodeId="4be8d0b5"></attribute>
+<attribute name="isPlanned" nodeId="4e6c9925">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="9d72d8d2">false</attribute>
+<attribute name="isOptional" nodeId="f242a0a2">false</attribute>
+<attribute name="isRepeatable" nodeId="d288d573">false</attribute>
+<attribute name="isOngoing" nodeId="46aa20f9">false</attribute>
+<attribute name="isEventDriven" nodeId="904b801b">false</attribute>
+<attribute name="variabilityType" nodeId="41540279">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Plan Cost" Id="_3wt4gWSPEeWH_LoPPeg8Xw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_NdTLoWSOEeWJx47Q3R5FDw&amp;path=_NdTLoWSOEeWJx47Q3R5FDw,_SK_p0WSOEeWJx47Q3R5FDw,_UoY5UWSOEeWJx47Q3R5FDw,_3wt4gWSPEeWH_LoPPeg8Xw" nodeId="e3144f49" Url="practice.mgmt.proj.pm_med.assign/capabilitypatterns/plan_cost_E7F3ABB4.html" Name="plan_cost" BackPath="./../../">
+<attribute name="name" nodeId="d1c90fe0">plan_cost</attribute>
+<attribute name="guid" nodeId="f15efb66">_3wt4gWSPEeWH_LoPPeg8Xw</attribute>
+<attribute name="presentationName" nodeId="eec97f32">Plan Cost</attribute>
+<attribute name="briefDescription" nodeId="fcda48c1">Establish the policies, procedures, and documentation for planning, managing, expending, and controlling project costs.</attribute>
+<attribute name="suppressed" nodeId="6c7f070f">false</attribute>
+<attribute name="orderingGuide" nodeId="1e53920f"></attribute>
+<attribute name="isAbstract" nodeId="99f59943">false</attribute>
+<attribute name="shapeicon" nodeId="517a3de6"></attribute>
+<attribute name="nodeicon" nodeId="9e0e4dd3"></attribute>
+<attribute name="prefix" nodeId="1baaf2d2"></attribute>
+<attribute name="isPlanned" nodeId="d9296ac1">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="726e8571">false</attribute>
+<attribute name="isOptional" nodeId="79df6d51">false</attribute>
+<attribute name="isRepeatable" nodeId="88b4d5c0">false</attribute>
+<attribute name="isOngoing" nodeId="bfd712b4">false</attribute>
+<attribute name="isEventDriven" nodeId="19b0fda3">false</attribute>
+<attribute name="variabilityType" nodeId="328f3113">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_NdTLoWSOEeWJx47Q3R5FDw&amp;path=_NdTLoWSOEeWJx47Q3R5FDw,_SK_p0WSOEeWJx47Q3R5FDw,_UoY5UWSOEeWJx47Q3R5FDw,_P-pcIGSQEeWH_LoPPeg8Xw_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_P-pcIGSQEeWH_LoPPeg8Xw_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="a6983707">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Project Management" Id="_NdTLoWSOEeWJx47Q3R5FDw" relProcessPath="_NdTLoWSOEeWJx47Q3R5FDw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_NdTLoWSOEeWJx47Q3R5FDw&amp;path=_NdTLoWSOEeWJx47Q3R5FDw" nodeId="df8390bd" Url="practice.mgmt.proj.pm_med.assign/capabilitypatterns/pm_med_AEB6C9BD.html" Name="pm_med" BackPath="./../../">
+<attribute name="name" nodeId="9e7f3d43">pm_med</attribute>
+<attribute name="guid" nodeId="8b1240d0">_NdTLoWSOEeWJx47Q3R5FDw</attribute>
+<attribute name="presentationName" nodeId="c80b39e6">Project Management</attribute>
+<attribute name="briefDescription" nodeId="528f3f72"></attribute>
+<attribute name="suppressed" nodeId="b7b28efb">false</attribute>
+<attribute name="orderingGuide" nodeId="903cf4f5"></attribute>
+<attribute name="isAbstract" nodeId="6b93f088">false</attribute>
+<attribute name="shapeicon" nodeId="ce682278"></attribute>
+<attribute name="nodeicon" nodeId="a2e5340"></attribute>
+<attribute name="prefix" nodeId="7553bf7e"></attribute>
+<attribute name="isPlanned" nodeId="9ed24367">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="83d1b58c">false</attribute>
+<attribute name="isOptional" nodeId="34afa622">false</attribute>
+<attribute name="isRepeatable" nodeId="5a02a61f">false</attribute>
+<attribute name="isOngoing" nodeId="5b53495b">false</attribute>
+<attribute name="isEventDriven" nodeId="fc06a736">false</attribute>
+<attribute name="variabilityType" nodeId="3dec451c">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Manage the Project" Id="_SK_p0WSOEeWJx47Q3R5FDw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_NdTLoWSOEeWJx47Q3R5FDw&amp;path=_NdTLoWSOEeWJx47Q3R5FDw,_SK_p0WSOEeWJx47Q3R5FDw" nodeId="16206ddf" Url="practice.mgmt.proj.pm_med.assign/capabilitypatterns/manage_proj_9466C4D7.html" Name="manage_proj" BackPath="./../../">
+<attribute name="name" nodeId="43dc6889">manage_proj</attribute>
+<attribute name="guid" nodeId="be374a52">_SK_p0WSOEeWJx47Q3R5FDw</attribute>
+<attribute name="presentationName" nodeId="19740adc">Manage the Project</attribute>
+<attribute name="briefDescription" nodeId="bec06e0a">The tasks and activities necessary to support the execution of typical projects.</attribute>
+<attribute name="suppressed" nodeId="7c1abf25">false</attribute>
+<attribute name="orderingGuide" nodeId="e3021da7"></attribute>
+<attribute name="isAbstract" nodeId="70a8a65">false</attribute>
+<attribute name="shapeicon" nodeId="b9e6f733"></attribute>
+<attribute name="nodeicon" nodeId="b44f01b3"></attribute>
+<attribute name="prefix" nodeId="33e21faa"></attribute>
+<attribute name="isPlanned" nodeId="ae4c7580">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="46b4b9ee">false</attribute>
+<attribute name="isOptional" nodeId="b6e3437">false</attribute>
+<attribute name="isRepeatable" nodeId="bbb852e0">false</attribute>
+<attribute name="isOngoing" nodeId="e66ea9d">false</attribute>
+<attribute name="isEventDriven" nodeId="90688a05">false</attribute>
+<attribute name="variabilityType" nodeId="82c8386c">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Plan the Project" Id="_UoY5UWSOEeWJx47Q3R5FDw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_NdTLoWSOEeWJx47Q3R5FDw&amp;path=_NdTLoWSOEeWJx47Q3R5FDw,_SK_p0WSOEeWJx47Q3R5FDw,_UoY5UWSOEeWJx47Q3R5FDw" nodeId="72ae5e3a" Url="practice.mgmt.proj.pm_med.assign/capabilitypatterns/plan_proj_FBFAE0FF.html" Name="plan_proj" BackPath="./../../">
+<attribute name="name" nodeId="e4dccc8c">plan_proj</attribute>
+<attribute name="guid" nodeId="87c47c6b">_UoY5UWSOEeWJx47Q3R5FDw</attribute>
+<attribute name="presentationName" nodeId="236ef9d9">Plan the Project</attribute>
+<attribute name="briefDescription" nodeId="8b0d398b">Establish the scope of the project, refine the objectives, and define the course of action required to attain the objectives that the project is undertaken to achieve.</attribute>
+<attribute name="suppressed" nodeId="28b406cc">false</attribute>
+<attribute name="orderingGuide" nodeId="3eaed63d"></attribute>
+<attribute name="isAbstract" nodeId="664735dc">false</attribute>
+<attribute name="shapeicon" nodeId="a7ebc342"></attribute>
+<attribute name="nodeicon" nodeId="a6cc43c4"></attribute>
+<attribute name="prefix" nodeId="71242c9"></attribute>
+<attribute name="isPlanned" nodeId="3c8a069f">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="4403ec04">false</attribute>
+<attribute name="isOptional" nodeId="a5b3cd2e">false</attribute>
+<attribute name="isRepeatable" nodeId="9d26000a">false</attribute>
+<attribute name="isOngoing" nodeId="5fa9dd85">false</attribute>
+<attribute name="isEventDriven" nodeId="54c243f2">false</attribute>
+<attribute name="variabilityType" nodeId="da39c270">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_NdTLoWSOEeWJx47Q3R5FDw&amp;path=_NdTLoWSOEeWJx47Q3R5FDw,_SK_p0WSOEeWJx47Q3R5FDw,_VuK1oWSOEeWJx47Q3R5FDw,_LdxcgGSREeWH_LoPPeg8Xw_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_LdxcgGSREeWH_LoPPeg8Xw_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="9c28daf2">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Project Management" Id="_NdTLoWSOEeWJx47Q3R5FDw" relProcessPath="_NdTLoWSOEeWJx47Q3R5FDw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_NdTLoWSOEeWJx47Q3R5FDw&amp;path=_NdTLoWSOEeWJx47Q3R5FDw" nodeId="d127578d" Url="practice.mgmt.proj.pm_med.assign/capabilitypatterns/pm_med_AEB6C9BD.html" Name="pm_med" BackPath="./../../">
+<attribute name="name" nodeId="e29dc3fe">pm_med</attribute>
+<attribute name="guid" nodeId="c07630f9">_NdTLoWSOEeWJx47Q3R5FDw</attribute>
+<attribute name="presentationName" nodeId="29b0c809">Project Management</attribute>
+<attribute name="briefDescription" nodeId="d5616d49"></attribute>
+<attribute name="suppressed" nodeId="254bcda9">false</attribute>
+<attribute name="orderingGuide" nodeId="d665adf3"></attribute>
+<attribute name="isAbstract" nodeId="baa6cab9">false</attribute>
+<attribute name="shapeicon" nodeId="8e4e4ab5"></attribute>
+<attribute name="nodeicon" nodeId="1042ad7f"></attribute>
+<attribute name="prefix" nodeId="b43bc7ec"></attribute>
+<attribute name="isPlanned" nodeId="8371e1b4">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d2c154c4">false</attribute>
+<attribute name="isOptional" nodeId="41dd052b">false</attribute>
+<attribute name="isRepeatable" nodeId="a4fc022">false</attribute>
+<attribute name="isOngoing" nodeId="e8671a30">false</attribute>
+<attribute name="isEventDriven" nodeId="61a0f1b9">false</attribute>
+<attribute name="variabilityType" nodeId="18d9609c">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Manage the Project" Id="_SK_p0WSOEeWJx47Q3R5FDw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_NdTLoWSOEeWJx47Q3R5FDw&amp;path=_NdTLoWSOEeWJx47Q3R5FDw,_SK_p0WSOEeWJx47Q3R5FDw" nodeId="5b6d8019" Url="practice.mgmt.proj.pm_med.assign/capabilitypatterns/manage_proj_9466C4D7.html" Name="manage_proj" BackPath="./../../">
+<attribute name="name" nodeId="404266fa">manage_proj</attribute>
+<attribute name="guid" nodeId="b48d0bb4">_SK_p0WSOEeWJx47Q3R5FDw</attribute>
+<attribute name="presentationName" nodeId="6e8bcc72">Manage the Project</attribute>
+<attribute name="briefDescription" nodeId="defd5271">The tasks and activities necessary to support the execution of typical projects.</attribute>
+<attribute name="suppressed" nodeId="6b265155">false</attribute>
+<attribute name="orderingGuide" nodeId="67aa2ce9"></attribute>
+<attribute name="isAbstract" nodeId="8518384c">false</attribute>
+<attribute name="shapeicon" nodeId="29a2cd2e"></attribute>
+<attribute name="nodeicon" nodeId="549bd7b1"></attribute>
+<attribute name="prefix" nodeId="6464566a"></attribute>
+<attribute name="isPlanned" nodeId="84d33dc4">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="b4355ef0">false</attribute>
+<attribute name="isOptional" nodeId="9468431a">false</attribute>
+<attribute name="isRepeatable" nodeId="e41f2f8f">false</attribute>
+<attribute name="isOngoing" nodeId="b646f700">false</attribute>
+<attribute name="isEventDriven" nodeId="88309975">false</attribute>
+<attribute name="variabilityType" nodeId="62e017f">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Execute the Project" Id="_VuK1oWSOEeWJx47Q3R5FDw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_NdTLoWSOEeWJx47Q3R5FDw&amp;path=_NdTLoWSOEeWJx47Q3R5FDw,_SK_p0WSOEeWJx47Q3R5FDw,_VuK1oWSOEeWJx47Q3R5FDw" nodeId="1e79b89c" Url="practice.mgmt.proj.pm_med.assign/capabilitypatterns/execute_proj_E3641394.html" Name="execute_proj" BackPath="./../../">
+<attribute name="name" nodeId="c7229dd5">execute_proj</attribute>
+<attribute name="guid" nodeId="cebcf53d">_VuK1oWSOEeWJx47Q3R5FDw</attribute>
+<attribute name="presentationName" nodeId="41f0fd35">Execute the Project</attribute>
+<attribute name="briefDescription" nodeId="9ee0c479">Deliver the work defined in the project management plan to satisfy the project specifications.</attribute>
+<attribute name="suppressed" nodeId="2b231868">false</attribute>
+<attribute name="orderingGuide" nodeId="4c50f6f9"></attribute>
+<attribute name="isAbstract" nodeId="689671e4">false</attribute>
+<attribute name="shapeicon" nodeId="e7963d53"></attribute>
+<attribute name="nodeicon" nodeId="9d0a0fec"></attribute>
+<attribute name="prefix" nodeId="b47971f"></attribute>
+<attribute name="isPlanned" nodeId="1262546f">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="c94f4c06">false</attribute>
+<attribute name="isOptional" nodeId="6a18891a">false</attribute>
+<attribute name="isRepeatable" nodeId="c4d20e8b">false</attribute>
+<attribute name="isOngoing" nodeId="d1584e2e">false</attribute>
+<attribute name="isEventDriven" nodeId="cd880450">false</attribute>
+<attribute name="variabilityType" nodeId="3f960eb6">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_NdTLoWSOEeWJx47Q3R5FDw&amp;path=_NdTLoWSOEeWJx47Q3R5FDw,_SK_p0WSOEeWJx47Q3R5FDw,_W96mQWSOEeWJx47Q3R5FDw,_88rxoGSQEeWH_LoPPeg8Xw_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_88rxoGSQEeWH_LoPPeg8Xw_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="6aba9fc7">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Project Management" Id="_NdTLoWSOEeWJx47Q3R5FDw" relProcessPath="_NdTLoWSOEeWJx47Q3R5FDw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_NdTLoWSOEeWJx47Q3R5FDw&amp;path=_NdTLoWSOEeWJx47Q3R5FDw" nodeId="d4d67678" Url="practice.mgmt.proj.pm_med.assign/capabilitypatterns/pm_med_AEB6C9BD.html" Name="pm_med" BackPath="./../../">
+<attribute name="name" nodeId="b2be2890">pm_med</attribute>
+<attribute name="guid" nodeId="90fdc0a0">_NdTLoWSOEeWJx47Q3R5FDw</attribute>
+<attribute name="presentationName" nodeId="1e482557">Project Management</attribute>
+<attribute name="briefDescription" nodeId="2faf1481"></attribute>
+<attribute name="suppressed" nodeId="ef5991b6">false</attribute>
+<attribute name="orderingGuide" nodeId="dc72284b"></attribute>
+<attribute name="isAbstract" nodeId="71070cf7">false</attribute>
+<attribute name="shapeicon" nodeId="c102f069"></attribute>
+<attribute name="nodeicon" nodeId="a0b8a73c"></attribute>
+<attribute name="prefix" nodeId="bc375fbb"></attribute>
+<attribute name="isPlanned" nodeId="23389819">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="1ce8c13b">false</attribute>
+<attribute name="isOptional" nodeId="c00f7424">false</attribute>
+<attribute name="isRepeatable" nodeId="8527870c">false</attribute>
+<attribute name="isOngoing" nodeId="4e2c6e82">false</attribute>
+<attribute name="isEventDriven" nodeId="98ed5a9c">false</attribute>
+<attribute name="variabilityType" nodeId="ead887ab">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Manage the Project" Id="_SK_p0WSOEeWJx47Q3R5FDw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_NdTLoWSOEeWJx47Q3R5FDw&amp;path=_NdTLoWSOEeWJx47Q3R5FDw,_SK_p0WSOEeWJx47Q3R5FDw" nodeId="d230f27e" Url="practice.mgmt.proj.pm_med.assign/capabilitypatterns/manage_proj_9466C4D7.html" Name="manage_proj" BackPath="./../../">
+<attribute name="name" nodeId="e6e3615a">manage_proj</attribute>
+<attribute name="guid" nodeId="53316a5e">_SK_p0WSOEeWJx47Q3R5FDw</attribute>
+<attribute name="presentationName" nodeId="cc0d2bb3">Manage the Project</attribute>
+<attribute name="briefDescription" nodeId="8d58f7b4">The tasks and activities necessary to support the execution of typical projects.</attribute>
+<attribute name="suppressed" nodeId="3116bcd1">false</attribute>
+<attribute name="orderingGuide" nodeId="2e85b15"></attribute>
+<attribute name="isAbstract" nodeId="c97321a7">false</attribute>
+<attribute name="shapeicon" nodeId="895dc24a"></attribute>
+<attribute name="nodeicon" nodeId="9fae8c86"></attribute>
+<attribute name="prefix" nodeId="901dad51"></attribute>
+<attribute name="isPlanned" nodeId="f38ec609">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="c6c4dd7f">false</attribute>
+<attribute name="isOptional" nodeId="7eadca3f">false</attribute>
+<attribute name="isRepeatable" nodeId="cd62aadf">false</attribute>
+<attribute name="isOngoing" nodeId="3aff95a0">false</attribute>
+<attribute name="isEventDriven" nodeId="218cb7f5">false</attribute>
+<attribute name="variabilityType" nodeId="9f3787a7">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Monitor and Control the Project" Id="_W96mQWSOEeWJx47Q3R5FDw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_NdTLoWSOEeWJx47Q3R5FDw&amp;path=_NdTLoWSOEeWJx47Q3R5FDw,_SK_p0WSOEeWJx47Q3R5FDw,_W96mQWSOEeWJx47Q3R5FDw" nodeId="f165985f" Url="practice.mgmt.proj.pm_med.assign/capabilitypatterns/monitor_ctrl_proj_A0A017C6.html" Name="monitor_ctrl_proj" BackPath="./../../">
+<attribute name="name" nodeId="5288a43a">monitor_ctrl_proj</attribute>
+<attribute name="guid" nodeId="f3ca484f">_W96mQWSOEeWJx47Q3R5FDw</attribute>
+<attribute name="presentationName" nodeId="20b3ccf8">Monitor and Control the Project</attribute>
+<attribute name="briefDescription" nodeId="cbc9965d">Track, review, and regulate the progress and performance of the project; identify any areas in which changes to the plan are required; and initiate the corresponding changes.</attribute>
+<attribute name="suppressed" nodeId="52f951d3">false</attribute>
+<attribute name="orderingGuide" nodeId="9bb86442"></attribute>
+<attribute name="isAbstract" nodeId="ae0330c4">false</attribute>
+<attribute name="shapeicon" nodeId="6b066d12"></attribute>
+<attribute name="nodeicon" nodeId="852744a2"></attribute>
+<attribute name="prefix" nodeId="6eece630"></attribute>
+<attribute name="isPlanned" nodeId="5cb7c9b5">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="323aca75">false</attribute>
+<attribute name="isOptional" nodeId="9e91a928">false</attribute>
+<attribute name="isRepeatable" nodeId="d7790588">false</attribute>
+<attribute name="isOngoing" nodeId="b17d1e05">false</attribute>
+<attribute name="isEventDriven" nodeId="e27b67d7">false</attribute>
+<attribute name="variabilityType" nodeId="b58a091c">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XoXcwWUjEeWWhIMIEcteog&amp;path=_XoXcwWUjEeWWhIMIEcteog,_cDCRQWUjEeWWhIMIEcteog,_of_hMWUjEeWWhIMIEcteog,_jPy9cGUkEeWWhIMIEcteog_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_jPy9cGUkEeWWhIMIEcteog_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="597e200b">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Project Management (small)" Id="_XoXcwWUjEeWWhIMIEcteog" relProcessPath="_XoXcwWUjEeWWhIMIEcteog" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_XoXcwWUjEeWWhIMIEcteog&amp;path=_XoXcwWUjEeWWhIMIEcteog" nodeId="423635f1" Url="practice.mgmt.proj.pm_small.assign/capabilitypatterns/pm_small_CFBEC99A.html" Name="pm_small" BackPath="./../../">
+<attribute name="name" nodeId="b70365d8">pm_small</attribute>
+<attribute name="guid" nodeId="ceec498e">_XoXcwWUjEeWWhIMIEcteog</attribute>
+<attribute name="presentationName" nodeId="b4c8dc25">Project Management (small)</attribute>
+<attribute name="briefDescription" nodeId="2beb6c7a"></attribute>
+<attribute name="suppressed" nodeId="67260553">false</attribute>
+<attribute name="orderingGuide" nodeId="ed1f4212"></attribute>
+<attribute name="isAbstract" nodeId="9ebb8f4c">false</attribute>
+<attribute name="shapeicon" nodeId="48ae1be5"></attribute>
+<attribute name="nodeicon" nodeId="e0df373e"></attribute>
+<attribute name="prefix" nodeId="9357669d"></attribute>
+<attribute name="isPlanned" nodeId="43318393">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="5a3945b1">false</attribute>
+<attribute name="isOptional" nodeId="4059ed3e">false</attribute>
+<attribute name="isRepeatable" nodeId="1e6a2e8b">false</attribute>
+<attribute name="isOngoing" nodeId="44151f6d">false</attribute>
+<attribute name="isEventDriven" nodeId="ade51cba">false</attribute>
+<attribute name="variabilityType" nodeId="9bb96362">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Manage the Project" Id="_cDCRQWUjEeWWhIMIEcteog" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XoXcwWUjEeWWhIMIEcteog&amp;path=_XoXcwWUjEeWWhIMIEcteog,_cDCRQWUjEeWWhIMIEcteog" nodeId="2f004dda" Url="practice.mgmt.proj.pm_small.assign/capabilitypatterns/manage_proj_A38DED8E.html" Name="manage_proj" BackPath="./../../">
+<attribute name="name" nodeId="c8512c9b">manage_proj</attribute>
+<attribute name="guid" nodeId="c79b6ba8">_cDCRQWUjEeWWhIMIEcteog</attribute>
+<attribute name="presentationName" nodeId="8d2f2571">Manage the Project</attribute>
+<attribute name="briefDescription" nodeId="68bcba66">The tasks and activities necessary to support the execution of small projects.</attribute>
+<attribute name="suppressed" nodeId="2f26919a">false</attribute>
+<attribute name="orderingGuide" nodeId="b21f8817"></attribute>
+<attribute name="isAbstract" nodeId="d77d4490">false</attribute>
+<attribute name="shapeicon" nodeId="d717492c"></attribute>
+<attribute name="nodeicon" nodeId="3480f16e"></attribute>
+<attribute name="prefix" nodeId="ca37442e"></attribute>
+<attribute name="isPlanned" nodeId="14de9f3f">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="92d61dcb">false</attribute>
+<attribute name="isOptional" nodeId="3486fe6e">false</attribute>
+<attribute name="isRepeatable" nodeId="eff78f84">false</attribute>
+<attribute name="isOngoing" nodeId="bea3ebc">false</attribute>
+<attribute name="isEventDriven" nodeId="ebe74024">false</attribute>
+<attribute name="variabilityType" nodeId="f3ab213b">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Monitor and Control the Project" Id="_of_hMWUjEeWWhIMIEcteog" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XoXcwWUjEeWWhIMIEcteog&amp;path=_XoXcwWUjEeWWhIMIEcteog,_cDCRQWUjEeWWhIMIEcteog,_of_hMWUjEeWWhIMIEcteog" nodeId="6819f1ec" Url="practice.mgmt.proj.pm_small.assign/capabilitypatterns/monitor_ctrl_proj_8E3398A2.html" Name="monitor_ctrl_proj" BackPath="./../../">
+<attribute name="name" nodeId="199a5b9a">monitor_ctrl_proj</attribute>
+<attribute name="guid" nodeId="19d42c1c">_of_hMWUjEeWWhIMIEcteog</attribute>
+<attribute name="presentationName" nodeId="f5f8e7fa">Monitor and Control the Project</attribute>
+<attribute name="briefDescription" nodeId="86bc7d44">Track, review, and regulate the progress and performance of the project; identify any areas in which changes to the plan are required; and initiate the corresponding changes.</attribute>
+<attribute name="suppressed" nodeId="29b7c868">false</attribute>
+<attribute name="orderingGuide" nodeId="81fea430"></attribute>
+<attribute name="isAbstract" nodeId="39a1fc37">false</attribute>
+<attribute name="shapeicon" nodeId="300c9481"></attribute>
+<attribute name="nodeicon" nodeId="9f0c09cc"></attribute>
+<attribute name="prefix" nodeId="56c650a7"></attribute>
+<attribute name="isPlanned" nodeId="389bf82d">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="af4e6052">false</attribute>
+<attribute name="isOptional" nodeId="a92f8ef1">false</attribute>
+<attribute name="isRepeatable" nodeId="e7a4d511">false</attribute>
+<attribute name="isOngoing" nodeId="ad0bc577">false</attribute>
+<attribute name="isEventDriven" nodeId="a23298a">false</attribute>
+<attribute name="variabilityType" nodeId="3c394d3d">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XoXcwWUjEeWWhIMIEcteog&amp;path=_XoXcwWUjEeWWhIMIEcteog,_cDCRQWUjEeWWhIMIEcteog,_of_hMWUjEeWWhIMIEcteog,_jPy9cGUkEeWWhIMIEcteog_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_jPy9cGUkEeWWhIMIEcteog_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="e9edcb92">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Program and Project Management" Id="_c2F1QZLKEe6Ji6GnvvUfqw" relProcessPath="_c2F1QZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_c2F1QZLKEe6Ji6GnvvUfqw&amp;path=_c2F1QZLKEe6Ji6GnvvUfqw" nodeId="923b4f9d" Url="process.adv.eya_oracle.base/capabilitypatterns/program_proj_mgmt_wkstrm_752F6C0.html" Name="program_proj_mgmt_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="8315ee2c">program_proj_mgmt_wkstrm</attribute>
+<attribute name="guid" nodeId="f7d84c3d">_c2F1QZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="26bfbb01">Program and Project Management</attribute>
+<attribute name="briefDescription" nodeId="3ddd26a3"></attribute>
+<attribute name="suppressed" nodeId="851e5227">false</attribute>
+<attribute name="orderingGuide" nodeId="7ff3f15a"></attribute>
+<attribute name="isAbstract" nodeId="64e5fecf">false</attribute>
+<attribute name="shapeicon" nodeId="ef98044"></attribute>
+<attribute name="nodeicon" nodeId="f7cb8104"></attribute>
+<attribute name="prefix" nodeId="e6ba9db4">workstream</attribute>
+<attribute name="isPlanned" nodeId="4a6eac6">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="ffe34a54">false</attribute>
+<attribute name="isOptional" nodeId="a516201c">false</attribute>
+<attribute name="isRepeatable" nodeId="2c59ef2e">false</attribute>
+<attribute name="isOngoing" nodeId="dcc31e04">false</attribute>
+<attribute name="isEventDriven" nodeId="9b579ff0">false</attribute>
+<attribute name="variabilityType" nodeId="b87be802">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Monitor and Control the Project" Id="__CsZcMUHEe6pmdl9Vi4qww" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_c2F1QZLKEe6Ji6GnvvUfqw&amp;path=_c2F1QZLKEe6Ji6GnvvUfqw,__CsZcMUHEe6pmdl9Vi4qww" nodeId="1eb13c2d" Url="process.adv.eya_oracle.base/capabilitypatterns/monitor_ctrl_proj_6D353A15.html" Name="monitor_ctrl_proj" BackPath="./../../">
+<attribute name="name" nodeId="cde4cc17">monitor_ctrl_proj</attribute>
+<attribute name="guid" nodeId="2d223ae8">__CsZcMUHEe6pmdl9Vi4qww</attribute>
+<attribute name="presentationName" nodeId="2f519eb3">Monitor and Control the Project</attribute>
+<attribute name="briefDescription" nodeId="6ef25936">Track, review, and regulate the progress and performance of the project; identify any areas in which changes to the plan are required; and initiate the corresponding changes.</attribute>
+<attribute name="suppressed" nodeId="4a7977b8">false</attribute>
+<attribute name="orderingGuide" nodeId="3052cdb3"></attribute>
+<attribute name="isAbstract" nodeId="67724dac">false</attribute>
+<attribute name="shapeicon" nodeId="a5e57650"></attribute>
+<attribute name="nodeicon" nodeId="212c2969"></attribute>
+<attribute name="prefix" nodeId="40d2f3d3"></attribute>
+<attribute name="isPlanned" nodeId="c140ec48">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="3c3c2e3">false</attribute>
+<attribute name="isOptional" nodeId="bca8fc51">false</attribute>
+<attribute name="isRepeatable" nodeId="e2086bb0">false</attribute>
+<attribute name="isOngoing" nodeId="99fc1d79">false</attribute>
+<attribute name="isEventDriven" nodeId="5948a09">false</attribute>
+<attribute name="variabilityType" nodeId="543768b7">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XoXcwWUjEeWWhIMIEcteog&amp;path=_XoXcwWUjEeWWhIMIEcteog,_cDCRQWUjEeWWhIMIEcteog,_of_hMWUjEeWWhIMIEcteog,_jPy9cGUkEeWWhIMIEcteog_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_jPy9cGUkEeWWhIMIEcteog_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="cb1569c1">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="aca0abcd" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="c5dedfbc">eya_oracle</attribute>
+<attribute name="guid" nodeId="1c4f9aec">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="3dec05be">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="66db0023"></attribute>
+<attribute name="suppressed" nodeId="e3e09abc">false</attribute>
+<attribute name="orderingGuide" nodeId="22bd959a"></attribute>
+<attribute name="isAbstract" nodeId="e6a55c35">false</attribute>
+<attribute name="shapeicon" nodeId="c4020f34"></attribute>
+<attribute name="nodeicon" nodeId="7605eeb4"></attribute>
+<attribute name="prefix" nodeId="259e439d"></attribute>
+<attribute name="isPlanned" nodeId="fb0bd90f">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="66a44a1e">false</attribute>
+<attribute name="isOptional" nodeId="bc40c136">false</attribute>
+<attribute name="isRepeatable" nodeId="63f13d6c">false</attribute>
+<attribute name="isOngoing" nodeId="4f7ed5cd">false</attribute>
+<attribute name="isEventDriven" nodeId="aedc197f">false</attribute>
+<attribute name="variabilityType" nodeId="561ed40c">replaces</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Manage the Project" Id="_gyYx8OyXEe-socSARGFgTg" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_gyYx8OyXEe-socSARGFgTg" nodeId="619c15fe" Url="process.adv.eya_oracle.base/deliveryprocesses/manage_project_1782D617.html" Name="manage_project" BackPath="./../../">
+<attribute name="name" nodeId="8bfea990">manage_project</attribute>
+<attribute name="guid" nodeId="7613388a">_gyYx8OyXEe-socSARGFgTg</attribute>
+<attribute name="presentationName" nodeId="dab59581">Manage the Project</attribute>
+<attribute name="briefDescription" nodeId="19fe43ea">Project management activities and tasks to support the execution and monitoring of the project and track benefits realization. For project management activities and tasks related to the planning and closure of the project, refer to the Plan and Support phases, respectively.</attribute>
+<attribute name="suppressed" nodeId="1e9291e7">false</attribute>
+<attribute name="orderingGuide" nodeId="7ad3cdda"></attribute>
+<attribute name="isAbstract" nodeId="e3d02daf">false</attribute>
+<attribute name="shapeicon" nodeId="ae36c553"></attribute>
+<attribute name="nodeicon" nodeId="e1846245"></attribute>
+<attribute name="prefix" nodeId="7d483f0"></attribute>
+<attribute name="isPlanned" nodeId="93e8533f">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="a5d9bb0f">false</attribute>
+<attribute name="isOptional" nodeId="8412b285">false</attribute>
+<attribute name="isRepeatable" nodeId="7ff974a3">false</attribute>
+<attribute name="isOngoing" nodeId="1ee32132">false</attribute>
+<attribute name="isEventDriven" nodeId="612b1985">false</attribute>
+<attribute name="variabilityType" nodeId="e07e4275">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Monitor and Control the Project" Id="_oe2uYeyXEe-socSARGFgTg" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_gyYx8OyXEe-socSARGFgTg,_oe2uYeyXEe-socSARGFgTg" nodeId="483a6349" Url="process.adv.eya_oracle.base/deliveryprocesses/monitor_ctrl_proj_E27DE954.html" Name="monitor_ctrl_proj" BackPath="./../../">
+<attribute name="name" nodeId="f723c880">monitor_ctrl_proj</attribute>
+<attribute name="guid" nodeId="db29f699">_oe2uYeyXEe-socSARGFgTg</attribute>
+<attribute name="presentationName" nodeId="595770c6">Monitor and Control the Project</attribute>
+<attribute name="briefDescription" nodeId="2c66e0a1">Track, review, and regulate the progress and performance of the project; identify any areas in which changes to the plan are required; and initiate the corresponding changes.</attribute>
+<attribute name="suppressed" nodeId="d40f627c">false</attribute>
+<attribute name="orderingGuide" nodeId="e10e65f1"></attribute>
+<attribute name="isAbstract" nodeId="86fd6c6">false</attribute>
+<attribute name="shapeicon" nodeId="97fe1c0"></attribute>
+<attribute name="nodeicon" nodeId="1da58906"></attribute>
+<attribute name="prefix" nodeId="b9c8958a"></attribute>
+<attribute name="isPlanned" nodeId="8d32ac52">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="b795de38">false</attribute>
+<attribute name="isOptional" nodeId="875a02f1">false</attribute>
+<attribute name="isRepeatable" nodeId="e5f9fa1d">false</attribute>
+<attribute name="isOngoing" nodeId="f434cbb9">false</attribute>
+<attribute name="isEventDriven" nodeId="2957ebb8">false</attribute>
+<attribute name="variabilityType" nodeId="2610475d">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XoXcwWUjEeWWhIMIEcteog&amp;path=_XoXcwWUjEeWWhIMIEcteog,_cDCRQWUjEeWWhIMIEcteog,_dZBz0WUjEeWWhIMIEcteog,_3NjsYGUkEeWWhIMIEcteog_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_3NjsYGUkEeWWhIMIEcteog_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="3c7dc331">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Project Management (small)" Id="_XoXcwWUjEeWWhIMIEcteog" relProcessPath="_XoXcwWUjEeWWhIMIEcteog" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_XoXcwWUjEeWWhIMIEcteog&amp;path=_XoXcwWUjEeWWhIMIEcteog" nodeId="92043e5" Url="practice.mgmt.proj.pm_small.assign/capabilitypatterns/pm_small_CFBEC99A.html" Name="pm_small" BackPath="./../../">
+<attribute name="name" nodeId="95102ec0">pm_small</attribute>
+<attribute name="guid" nodeId="694bcb94">_XoXcwWUjEeWWhIMIEcteog</attribute>
+<attribute name="presentationName" nodeId="1bc67d32">Project Management (small)</attribute>
+<attribute name="briefDescription" nodeId="2013a66d"></attribute>
+<attribute name="suppressed" nodeId="8f4c0269">false</attribute>
+<attribute name="orderingGuide" nodeId="cead752a"></attribute>
+<attribute name="isAbstract" nodeId="b015af32">false</attribute>
+<attribute name="shapeicon" nodeId="1dd20ceb"></attribute>
+<attribute name="nodeicon" nodeId="b43f9a9e"></attribute>
+<attribute name="prefix" nodeId="c868e710"></attribute>
+<attribute name="isPlanned" nodeId="447849c5">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="7d2df357">false</attribute>
+<attribute name="isOptional" nodeId="2c9fd3fd">false</attribute>
+<attribute name="isRepeatable" nodeId="7f203fb4">false</attribute>
+<attribute name="isOngoing" nodeId="a1d9d659">false</attribute>
+<attribute name="isEventDriven" nodeId="22a81c26">false</attribute>
+<attribute name="variabilityType" nodeId="28ad982">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Manage the Project" Id="_cDCRQWUjEeWWhIMIEcteog" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XoXcwWUjEeWWhIMIEcteog&amp;path=_XoXcwWUjEeWWhIMIEcteog,_cDCRQWUjEeWWhIMIEcteog" nodeId="b0a76933" Url="practice.mgmt.proj.pm_small.assign/capabilitypatterns/manage_proj_A38DED8E.html" Name="manage_proj" BackPath="./../../">
+<attribute name="name" nodeId="a8fa5452">manage_proj</attribute>
+<attribute name="guid" nodeId="5b7c8d76">_cDCRQWUjEeWWhIMIEcteog</attribute>
+<attribute name="presentationName" nodeId="4b28c8b2">Manage the Project</attribute>
+<attribute name="briefDescription" nodeId="989b52cb">The tasks and activities necessary to support the execution of small projects.</attribute>
+<attribute name="suppressed" nodeId="741baff3">false</attribute>
+<attribute name="orderingGuide" nodeId="d08b0d9b"></attribute>
+<attribute name="isAbstract" nodeId="f26cab2">false</attribute>
+<attribute name="shapeicon" nodeId="5fd0637b"></attribute>
+<attribute name="nodeicon" nodeId="d96dcd49"></attribute>
+<attribute name="prefix" nodeId="83eff264"></attribute>
+<attribute name="isPlanned" nodeId="96973907">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="7303bac7">false</attribute>
+<attribute name="isOptional" nodeId="fb473f6e">false</attribute>
+<attribute name="isRepeatable" nodeId="bfbe7059">false</attribute>
+<attribute name="isOngoing" nodeId="eec06b99">false</attribute>
+<attribute name="isEventDriven" nodeId="5f21c9d2">false</attribute>
+<attribute name="variabilityType" nodeId="4927328e">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Start up and Prepare the Project" Id="_dZBz0WUjEeWWhIMIEcteog" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XoXcwWUjEeWWhIMIEcteog&amp;path=_XoXcwWUjEeWWhIMIEcteog,_cDCRQWUjEeWWhIMIEcteog,_dZBz0WUjEeWWhIMIEcteog" nodeId="b4906f02" Url="practice.mgmt.proj.pm_small.assign/capabilitypatterns/startup_prep_proj_23680B0D.html" Name="startup_prep_proj" BackPath="./../../">
+<attribute name="name" nodeId="a05cdd5a">startup_prep_proj</attribute>
+<attribute name="guid" nodeId="a1e0e365">_dZBz0WUjEeWWhIMIEcteog</attribute>
+<attribute name="presentationName" nodeId="ed474b03">Start up and Prepare the Project</attribute>
+<attribute name="briefDescription" nodeId="5ba54ca6">Define a new project or phase by obtaining authorization to start the project or phase and establish the scope of the project, refine the objectives, and define the course of action required to attain project objectives.</attribute>
+<attribute name="suppressed" nodeId="4f0a86ef">false</attribute>
+<attribute name="orderingGuide" nodeId="1431ad5a"></attribute>
+<attribute name="isAbstract" nodeId="7bc259">false</attribute>
+<attribute name="shapeicon" nodeId="ec7098bb"></attribute>
+<attribute name="nodeicon" nodeId="332e7611"></attribute>
+<attribute name="prefix" nodeId="a03bb021"></attribute>
+<attribute name="isPlanned" nodeId="8fccc847">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="ffc42a0">false</attribute>
+<attribute name="isOptional" nodeId="9ee202f1">false</attribute>
+<attribute name="isRepeatable" nodeId="4821ce75">false</attribute>
+<attribute name="isOngoing" nodeId="9c37cf04">false</attribute>
+<attribute name="isEventDriven" nodeId="c0ccf4bd">false</attribute>
+<attribute name="variabilityType" nodeId="de2b3dfb">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_c2F1QZLKEe6Ji6GnvvUfqw&amp;path=_c2F1QZLKEe6Ji6GnvvUfqw,_oGw9UcUUEe6pmdl9Vi4qww,_9psVECaBEe-PpfYzLEtY7A_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_9psVECaBEe-PpfYzLEtY7A_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="8d3fa05e">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Program and Project Management" Id="_c2F1QZLKEe6Ji6GnvvUfqw" relProcessPath="_c2F1QZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_c2F1QZLKEe6Ji6GnvvUfqw&amp;path=_c2F1QZLKEe6Ji6GnvvUfqw" nodeId="43ae29f5" Url="process.adv.eya_oracle.base/capabilitypatterns/program_proj_mgmt_wkstrm_752F6C0.html" Name="program_proj_mgmt_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="4afd086f">program_proj_mgmt_wkstrm</attribute>
+<attribute name="guid" nodeId="3783e7e3">_c2F1QZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="cf3182b1">Program and Project Management</attribute>
+<attribute name="briefDescription" nodeId="cdc20535"></attribute>
+<attribute name="suppressed" nodeId="357b5d84">false</attribute>
+<attribute name="orderingGuide" nodeId="a39417ee"></attribute>
+<attribute name="isAbstract" nodeId="b8ebb606">false</attribute>
+<attribute name="shapeicon" nodeId="c7137a64"></attribute>
+<attribute name="nodeicon" nodeId="511a2096"></attribute>
+<attribute name="prefix" nodeId="a29ac184">workstream</attribute>
+<attribute name="isPlanned" nodeId="c089539b">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="b55320d0">false</attribute>
+<attribute name="isOptional" nodeId="6ec3b497">false</attribute>
+<attribute name="isRepeatable" nodeId="50a44175">false</attribute>
+<attribute name="isOngoing" nodeId="8328cb7">false</attribute>
+<attribute name="isEventDriven" nodeId="1eb78db1">false</attribute>
+<attribute name="variabilityType" nodeId="7fa1c08f">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Initiate the Project" Id="_oGw9UcUUEe6pmdl9Vi4qww" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_c2F1QZLKEe6Ji6GnvvUfqw&amp;path=_c2F1QZLKEe6Ji6GnvvUfqw,_oGw9UcUUEe6pmdl9Vi4qww" nodeId="502d0aba" Url="process.adv.eya_oracle.base/capabilitypatterns/initiate_project_E2489555.html" Name="initiate_project" BackPath="./../../">
+<attribute name="name" nodeId="bff99116">initiate_project</attribute>
+<attribute name="guid" nodeId="1fe9db2d">_oGw9UcUUEe6pmdl9Vi4qww</attribute>
+<attribute name="presentationName" nodeId="61d4bd3f">Initiate the Project</attribute>
+<attribute name="briefDescription" nodeId="9e80c62e">Identify key client stakeholders and establish the core project team with representation from the client and EY. Additionally, develop the project charter and schedule and formally launch the project with the core team.</attribute>
+<attribute name="suppressed" nodeId="f8302144">false</attribute>
+<attribute name="orderingGuide" nodeId="9ab5ff3f"></attribute>
+<attribute name="isAbstract" nodeId="ce2055e0">false</attribute>
+<attribute name="shapeicon" nodeId="5136f5bc"></attribute>
+<attribute name="nodeicon" nodeId="ef14bf1c"></attribute>
+<attribute name="prefix" nodeId="e91d55c5"></attribute>
+<attribute name="isPlanned" nodeId="8ca450d2">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="94e10537">false</attribute>
+<attribute name="isOptional" nodeId="e43a71d8">false</attribute>
+<attribute name="isRepeatable" nodeId="dafe0f6c">false</attribute>
+<attribute name="isOngoing" nodeId="aea8842e">false</attribute>
+<attribute name="isEventDriven" nodeId="856bb194">false</attribute>
+<attribute name="variabilityType" nodeId="8298e5c0">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_c2F1QZLKEe6Ji6GnvvUfqw&amp;path=_c2F1QZLKEe6Ji6GnvvUfqw,_oGw9UcUUEe6pmdl9Vi4qww,_9psVECaBEe-PpfYzLEtY7A_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_9psVECaBEe-PpfYzLEtY7A_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="e86cea4d">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="b4495e76" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="9dc60f26">eya_oracle</attribute>
+<attribute name="guid" nodeId="497eb4cd">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="ec437a4a">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="ebeda6e0"></attribute>
+<attribute name="suppressed" nodeId="1f0c1059">false</attribute>
+<attribute name="orderingGuide" nodeId="ce9e5bcf"></attribute>
+<attribute name="isAbstract" nodeId="297e9246">false</attribute>
+<attribute name="shapeicon" nodeId="cd83fcad"></attribute>
+<attribute name="nodeicon" nodeId="bfb1aae1"></attribute>
+<attribute name="prefix" nodeId="e455b362"></attribute>
+<attribute name="isPlanned" nodeId="30639b57">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="f3e3ff9b">false</attribute>
+<attribute name="isOptional" nodeId="593f516b">false</attribute>
+<attribute name="isRepeatable" nodeId="7a8cce16">false</attribute>
+<attribute name="isOngoing" nodeId="d6a2f464">false</attribute>
+<attribute name="isEventDriven" nodeId="47933b95">false</attribute>
+<attribute name="variabilityType" nodeId="b2ca9b33">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Plan" Id="_aAaVUYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_aAaVUYs6Ee6Z58NF8Wy6XA" nodeId="e0eec01d" Url="process.adv.eya_oracle.base/deliveryprocesses/plan_9E6CBF9F.html" Name="plan" BackPath="./../../">
+<attribute name="name" nodeId="ed31a3c0">plan</attribute>
+<attribute name="guid" nodeId="5a719f9c">_aAaVUYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="66bb8db">Plan</attribute>
+<attribute name="briefDescription" nodeId="6afd82fc">Kick off the project and define the project management plan (PMP). Review in-scope business capabilities with key client stakeholders. Facilitate security and controls workshops, develop the change management strategy and prepare for the upcoming fit-gap and technical workshops.</attribute>
+<attribute name="suppressed" nodeId="235690d5">false</attribute>
+<attribute name="orderingGuide" nodeId="a4f71fed"></attribute>
+<attribute name="isAbstract" nodeId="84b4e917">false</attribute>
+<attribute name="shapeicon" nodeId="1f1bacd6"></attribute>
+<attribute name="nodeicon" nodeId="a240dbf9"></attribute>
+<attribute name="prefix" nodeId="4b767da"></attribute>
+<attribute name="isPlanned" nodeId="6d7ec45f">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="e6dc91b0">false</attribute>
+<attribute name="isOptional" nodeId="f7d0f8fc">false</attribute>
+<attribute name="isRepeatable" nodeId="78347d38">false</attribute>
+<attribute name="isOngoing" nodeId="d5da71f2">false</attribute>
+<attribute name="isEventDriven" nodeId="84c78857">false</attribute>
+<attribute name="variabilityType" nodeId="8283634d">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Initiate the Project" Id="_w5d0cSzPEe-bo7_6LoJ2iQ" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_aAaVUYs6Ee6Z58NF8Wy6XA,_w5d0cSzPEe-bo7_6LoJ2iQ" nodeId="99ae53f8" Url="process.adv.eya_oracle.base/deliveryprocesses/initiate_project_CED341B6.html" Name="initiate_project" BackPath="./../../">
+<attribute name="name" nodeId="c25c28b2">initiate_project</attribute>
+<attribute name="guid" nodeId="a7bd8e5e">_w5d0cSzPEe-bo7_6LoJ2iQ</attribute>
+<attribute name="presentationName" nodeId="ea3ebede">Initiate the Project</attribute>
+<attribute name="briefDescription" nodeId="2b794a61">Identify key client stakeholders and establish the core project team with representation from the client and EY. Additionally, develop the project charter and schedule and formally launch the project with the core team.</attribute>
+<attribute name="suppressed" nodeId="3e472738">false</attribute>
+<attribute name="orderingGuide" nodeId="f39e6b42"></attribute>
+<attribute name="isAbstract" nodeId="e4f1b162">false</attribute>
+<attribute name="shapeicon" nodeId="b63c278e"></attribute>
+<attribute name="nodeicon" nodeId="c7051fb8"></attribute>
+<attribute name="prefix" nodeId="34ccc176"></attribute>
+<attribute name="isPlanned" nodeId="22d10ef8">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="46b1eea5">false</attribute>
+<attribute name="isOptional" nodeId="7e47d308">false</attribute>
+<attribute name="isRepeatable" nodeId="b63a5d1b">false</attribute>
+<attribute name="isOngoing" nodeId="c08c2b75">false</attribute>
+<attribute name="isEventDriven" nodeId="bc882409">false</attribute>
+<attribute name="variabilityType" nodeId="ded1d842">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_O63QgZLKEe6Ji6GnvvUfqw&amp;path=_O63QgZLKEe6Ji6GnvvUfqw,_LfwWQbQhEe6xU5hv8znLZA,_WP3p9rQhEe6xU5hv8znLZA_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_WP3p9rQhEe6xU5hv8znLZA_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="999d540e">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Organizational Change Management and Training" Id="_O63QgZLKEe6Ji6GnvvUfqw" relProcessPath="_O63QgZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_O63QgZLKEe6Ji6GnvvUfqw&amp;path=_O63QgZLKEe6Ji6GnvvUfqw" nodeId="2fcc690f" Url="process.adv.eya_oracle.base/capabilitypatterns/org_chng_mgmt_training_wkstrm_2016F615.html" Name="org_chng_mgmt_training_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="b7e8e0ff">org_chng_mgmt_training_wkstrm</attribute>
+<attribute name="guid" nodeId="68cebfd5">_O63QgZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="fce28305">Organizational Change Management and Training</attribute>
+<attribute name="briefDescription" nodeId="f30f8394"></attribute>
+<attribute name="suppressed" nodeId="2fd7fa21">false</attribute>
+<attribute name="orderingGuide" nodeId="bcc2229e"></attribute>
+<attribute name="isAbstract" nodeId="4dff2db7">false</attribute>
+<attribute name="shapeicon" nodeId="995320f2"></attribute>
+<attribute name="nodeicon" nodeId="73a04f6c"></attribute>
+<attribute name="prefix" nodeId="bf9568a7">workstream</attribute>
+<attribute name="isPlanned" nodeId="d8ca6d16">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="3edf52a">false</attribute>
+<attribute name="isOptional" nodeId="4fc07978">false</attribute>
+<attribute name="isRepeatable" nodeId="ff3f50a2">false</attribute>
+<attribute name="isOngoing" nodeId="689bad21">false</attribute>
+<attribute name="isEventDriven" nodeId="3fcb8480">false</attribute>
+<attribute name="variabilityType" nodeId="47c87de4">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Manage Stakeholder Engagement and Communications" Id="_LfwWQbQhEe6xU5hv8znLZA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_O63QgZLKEe6Ji6GnvvUfqw&amp;path=_O63QgZLKEe6Ji6GnvvUfqw,_LfwWQbQhEe6xU5hv8znLZA" nodeId="71965b68" Url="process.adv.eya_oracle.base/capabilitypatterns/manage_stake_eng_commn_316F4678.html" Name="manage_stake_eng_commn" BackPath="./../../">
+<attribute name="name" nodeId="f576a8f">manage_stake_eng_commn</attribute>
+<attribute name="guid" nodeId="9ae3cb3">_LfwWQbQhEe6xU5hv8znLZA</attribute>
+<attribute name="presentationName" nodeId="80dcbfef">Manage Stakeholder Engagement and Communications</attribute>
+<attribute name="briefDescription" nodeId="e727b7c3">Develop and deliver consistent messaging throughout the transformation journey.</attribute>
+<attribute name="suppressed" nodeId="ca2f2baa">false</attribute>
+<attribute name="orderingGuide" nodeId="b11e5c81"></attribute>
+<attribute name="isAbstract" nodeId="b45f5a4d">false</attribute>
+<attribute name="shapeicon" nodeId="8f728997"></attribute>
+<attribute name="nodeicon" nodeId="6b56a98e"></attribute>
+<attribute name="prefix" nodeId="648cdf72"></attribute>
+<attribute name="isPlanned" nodeId="ef24ee1e">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="a4787aee">false</attribute>
+<attribute name="isOptional" nodeId="7dcaa796">false</attribute>
+<attribute name="isRepeatable" nodeId="b26e5f79">false</attribute>
+<attribute name="isOngoing" nodeId="7fdb9fe2">false</attribute>
+<attribute name="isEventDriven" nodeId="3841bc56">false</attribute>
+<attribute name="variabilityType" nodeId="f67271a7">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_O63QgZLKEe6Ji6GnvvUfqw&amp;path=_O63QgZLKEe6Ji6GnvvUfqw,_LfwWQbQhEe6xU5hv8znLZA,_WP3p9rQhEe6xU5hv8znLZA_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_WP3p9rQhEe6xU5hv8znLZA_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="b937b8a4">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="d9951ed1" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="dab9c933">eya_oracle</attribute>
+<attribute name="guid" nodeId="1db3cbdf">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="f2b8257c">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="b6302294"></attribute>
+<attribute name="suppressed" nodeId="15db293d">false</attribute>
+<attribute name="orderingGuide" nodeId="4ccf7dc7"></attribute>
+<attribute name="isAbstract" nodeId="40c0af24">false</attribute>
+<attribute name="shapeicon" nodeId="435f3d50"></attribute>
+<attribute name="nodeicon" nodeId="fde625fb"></attribute>
+<attribute name="prefix" nodeId="9dc366fe"></attribute>
+<attribute name="isPlanned" nodeId="903c7fae">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d4faba09">false</attribute>
+<attribute name="isOptional" nodeId="ad6b4c95">false</attribute>
+<attribute name="isRepeatable" nodeId="fbb6b308">false</attribute>
+<attribute name="isOngoing" nodeId="e9269e3d">false</attribute>
+<attribute name="isEventDriven" nodeId="aef0d2ea">false</attribute>
+<attribute name="variabilityType" nodeId="bda36b7a">replaces</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Progressive Build" Id="_c4A0kYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA" nodeId="5742b20f" Url="process.adv.eya_oracle.base/deliveryprocesses/progressive_build_70B7DD74.html" Name="progressive_build" BackPath="./../../">
+<attribute name="name" nodeId="ed469989">progressive_build</attribute>
+<attribute name="guid" nodeId="6d59c1bc">_c4A0kYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="270705ab">Progressive Build</attribute>
+<attribute name="briefDescription" nodeId="57328b28">Iterate through the build cycles and drive business acceptance through incremental demos to key client stakeholders. Execute mock conversions and and prepare for system integration and user acceptance testing. Manage stakeholder engagement and communications around the change.</attribute>
+<attribute name="suppressed" nodeId="19846a76">false</attribute>
+<attribute name="orderingGuide" nodeId="b5498695"></attribute>
+<attribute name="isAbstract" nodeId="dd886a6c">false</attribute>
+<attribute name="shapeicon" nodeId="e8eb0b9a"></attribute>
+<attribute name="nodeicon" nodeId="e0dacdc5"></attribute>
+<attribute name="prefix" nodeId="235f3018"></attribute>
+<attribute name="isPlanned" nodeId="2fc63ec3">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="79155a0a">false</attribute>
+<attribute name="isOptional" nodeId="dc625c64">false</attribute>
+<attribute name="isRepeatable" nodeId="30652684">true</attribute>
+<attribute name="isOngoing" nodeId="a21cc730">false</attribute>
+<attribute name="isEventDriven" nodeId="2310463f">false</attribute>
+<attribute name="variabilityType" nodeId="9be5916f">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Manage Stakeholder Engagement and Communications" Id="_5iCtMdpkEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_5iCtMdpkEe6TH6yb1zVWhw" nodeId="8e96a97e" Url="process.adv.eya_oracle.base/deliveryprocesses/manage_stake_eng_commn_62477784.html" Name="manage_stake_eng_commn" BackPath="./../../">
+<attribute name="name" nodeId="17e6dbe5">manage_stake_eng_commn</attribute>
+<attribute name="guid" nodeId="f8510f2c">_5iCtMdpkEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="288d8c5c">Manage Stakeholder Engagement and Communications</attribute>
+<attribute name="briefDescription" nodeId="3af71fd6">Develop and deliver consistent messaging throughout the transformation journey.</attribute>
+<attribute name="suppressed" nodeId="51f01dca">false</attribute>
+<attribute name="orderingGuide" nodeId="317fce19"></attribute>
+<attribute name="isAbstract" nodeId="94417dc">false</attribute>
+<attribute name="shapeicon" nodeId="981ab4e"></attribute>
+<attribute name="nodeicon" nodeId="11596411"></attribute>
+<attribute name="prefix" nodeId="e0aff55a"></attribute>
+<attribute name="isPlanned" nodeId="d2521111">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="200a026e">false</attribute>
+<attribute name="isOptional" nodeId="81b7200a">false</attribute>
+<attribute name="isRepeatable" nodeId="e0a1c4ee">false</attribute>
+<attribute name="isOngoing" nodeId="b05575a">false</attribute>
+<attribute name="isEventDriven" nodeId="dc517435">false</attribute>
+<attribute name="variabilityType" nodeId="538df26">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_MDTAwcOOEe6pmdl9Vi4qww,_rvznQTGWEe-TauTqJPNl_g,_7beO4DGWEe-TauTqJPNl_g_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_7beO4DGWEe-TauTqJPNl_g_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="b563cb99">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Testing" Id="_XaP3oZLKEe6Ji6GnvvUfqw" relProcessPath="_XaP3oZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw" nodeId="62519b3d" Url="process.adv.eya_oracle.base/capabilitypatterns/testing_wkstrm_4068A774.html" Name="testing_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="a9b3f4eb">testing_wkstrm</attribute>
+<attribute name="guid" nodeId="cb152c71">_XaP3oZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="8e93a79a">Testing</attribute>
+<attribute name="briefDescription" nodeId="d7a0ca04"></attribute>
+<attribute name="suppressed" nodeId="3447f868">false</attribute>
+<attribute name="orderingGuide" nodeId="2e010070"></attribute>
+<attribute name="isAbstract" nodeId="68c1aa16">false</attribute>
+<attribute name="shapeicon" nodeId="cfbc876f"></attribute>
+<attribute name="nodeicon" nodeId="e0c0556e"></attribute>
+<attribute name="prefix" nodeId="847faf75">workstream</attribute>
+<attribute name="isPlanned" nodeId="77c20d9b">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="f330be5a">false</attribute>
+<attribute name="isOptional" nodeId="22b2a9bf">false</attribute>
+<attribute name="isRepeatable" nodeId="524ce1b4">false</attribute>
+<attribute name="isOngoing" nodeId="56d65027">false</attribute>
+<attribute name="isEventDriven" nodeId="12e100d4">false</attribute>
+<attribute name="variabilityType" nodeId="94e5f0fb">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Execute Validation Testing" Id="_MDTAwcOOEe6pmdl9Vi4qww" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_MDTAwcOOEe6pmdl9Vi4qww" nodeId="3edacdbc" Url="process.adv.eya_oracle.base/capabilitypatterns/execute_validation_testing_57BE021D.html" Name="execute_validation_testing" BackPath="./../../">
+<attribute name="name" nodeId="7c5771c6">execute_validation_testing</attribute>
+<attribute name="guid" nodeId="268dd641">_MDTAwcOOEe6pmdl9Vi4qww</attribute>
+<attribute name="presentationName" nodeId="dc797ab">Execute Validation Testing</attribute>
+<attribute name="briefDescription" nodeId="127e9346">Plan, design, prepare for and execute end of cycle validation testing and address the defects.</attribute>
+<attribute name="suppressed" nodeId="459b3898">false</attribute>
+<attribute name="orderingGuide" nodeId="6b3bf7ec"></attribute>
+<attribute name="isAbstract" nodeId="8008447">false</attribute>
+<attribute name="shapeicon" nodeId="212532b5"></attribute>
+<attribute name="nodeicon" nodeId="d9d4fdf8"></attribute>
+<attribute name="prefix" nodeId="7d53d587"></attribute>
+<attribute name="isPlanned" nodeId="bb97cec5">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="759a8b25">false</attribute>
+<attribute name="isOptional" nodeId="a7eb603b">false</attribute>
+<attribute name="isRepeatable" nodeId="ffe72702">false</attribute>
+<attribute name="isOngoing" nodeId="69806eee">false</attribute>
+<attribute name="isEventDriven" nodeId="6cc8fc68">false</attribute>
+<attribute name="variabilityType" nodeId="c5122b64">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Plan and Design Tests" Id="_rvznQTGWEe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_MDTAwcOOEe6pmdl9Vi4qww,_rvznQTGWEe-TauTqJPNl_g" nodeId="759847e2" Url="process.adv.eya_oracle.base/capabilitypatterns/plan_design_tests_38E57E0E.html" Name="plan_design_tests" BackPath="./../../">
+<attribute name="name" nodeId="cba80f78">plan_design_tests</attribute>
+<attribute name="guid" nodeId="b62b7122">_rvznQTGWEe-TauTqJPNl_g</attribute>
+<attribute name="presentationName" nodeId="dfd38007">Plan and Design Tests</attribute>
+<attribute name="briefDescription" nodeId="ca0500ef">Plan for end of cycle validation testing and design test cases and scripts.</attribute>
+<attribute name="suppressed" nodeId="b21ca66b">false</attribute>
+<attribute name="orderingGuide" nodeId="c8ebfd51"></attribute>
+<attribute name="isAbstract" nodeId="7a7ca83b">false</attribute>
+<attribute name="shapeicon" nodeId="49ca1bf0"></attribute>
+<attribute name="nodeicon" nodeId="b0728d88"></attribute>
+<attribute name="prefix" nodeId="21ba040b"></attribute>
+<attribute name="isPlanned" nodeId="7c5abc47">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="9d003102">false</attribute>
+<attribute name="isOptional" nodeId="390cba6f">false</attribute>
+<attribute name="isRepeatable" nodeId="12d847d6">false</attribute>
+<attribute name="isOngoing" nodeId="6b39c1e7">false</attribute>
+<attribute name="isEventDriven" nodeId="f85ee588">false</attribute>
+<attribute name="variabilityType" nodeId="9892afb7">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_MDTAwcOOEe6pmdl9Vi4qww,_rvznQTGWEe-TauTqJPNl_g,_7beO4DGWEe-TauTqJPNl_g_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_7beO4DGWEe-TauTqJPNl_g_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="f9b614ca">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="86f29e26" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="8a6e5468">eya_oracle</attribute>
+<attribute name="guid" nodeId="7993e91a">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="6912d979">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="19d02d75"></attribute>
+<attribute name="suppressed" nodeId="ac038296">false</attribute>
+<attribute name="orderingGuide" nodeId="cdee95e5"></attribute>
+<attribute name="isAbstract" nodeId="3774196e">false</attribute>
+<attribute name="shapeicon" nodeId="762b3b09"></attribute>
+<attribute name="nodeicon" nodeId="92bb2c0a"></attribute>
+<attribute name="prefix" nodeId="a308a27a"></attribute>
+<attribute name="isPlanned" nodeId="1eb98d49">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="cad5d22">false</attribute>
+<attribute name="isOptional" nodeId="731e06d1">false</attribute>
+<attribute name="isRepeatable" nodeId="6988fec8">false</attribute>
+<attribute name="isOngoing" nodeId="c7af69f6">false</attribute>
+<attribute name="isEventDriven" nodeId="e8d0604b">false</attribute>
+<attribute name="variabilityType" nodeId="381a2636">replaces</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Progressive Build" Id="_c4A0kYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA" nodeId="4e0e994f" Url="process.adv.eya_oracle.base/deliveryprocesses/progressive_build_70B7DD74.html" Name="progressive_build" BackPath="./../../">
+<attribute name="name" nodeId="18e7bcd6">progressive_build</attribute>
+<attribute name="guid" nodeId="f481d9">_c4A0kYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="ad85a81d">Progressive Build</attribute>
+<attribute name="briefDescription" nodeId="d8717cd3">Iterate through the build cycles and drive business acceptance through incremental demos to key client stakeholders. Execute mock conversions and and prepare for system integration and user acceptance testing. Manage stakeholder engagement and communications around the change.</attribute>
+<attribute name="suppressed" nodeId="798320fd">false</attribute>
+<attribute name="orderingGuide" nodeId="a0ad6fbb"></attribute>
+<attribute name="isAbstract" nodeId="6b6ff9df">false</attribute>
+<attribute name="shapeicon" nodeId="a6b13b77"></attribute>
+<attribute name="nodeicon" nodeId="94ecc49c"></attribute>
+<attribute name="prefix" nodeId="80c57c1b"></attribute>
+<attribute name="isPlanned" nodeId="686bc321">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="153e86bd">false</attribute>
+<attribute name="isOptional" nodeId="e072160">false</attribute>
+<attribute name="isRepeatable" nodeId="e193682d">true</attribute>
+<attribute name="isOngoing" nodeId="5556f470">false</attribute>
+<attribute name="isEventDriven" nodeId="41cc02c9">false</attribute>
+<attribute name="variabilityType" nodeId="28f9826a">na</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Execute Build Cycles 1-n" Id="_Sd7D0duVEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_Sd7D0duVEe6TH6yb1zVWhw" nodeId="a12e49b2" Url="process.adv.eya_oracle.base/deliveryprocesses/execute_build_cycles_1_n_3FC12A80.html" Name="execute_build_cycles_1_n" BackPath="./../../">
+<attribute name="name" nodeId="788abc73">execute_build_cycles_1_n</attribute>
+<attribute name="guid" nodeId="fa006056">_Sd7D0duVEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="1003a990">Execute Build Cycles 1-n</attribute>
+<attribute name="briefDescription" nodeId="9f70922d">Iterate through the build cycles by planning for each sprint, defining the technical and integration specifications and data conversion scripts and completing the configurations and development. Validate the builds and conduct demos with the client.</attribute>
+<attribute name="suppressed" nodeId="c48344e6">false</attribute>
+<attribute name="orderingGuide" nodeId="62fe9111"></attribute>
+<attribute name="isAbstract" nodeId="e9000f2a">false</attribute>
+<attribute name="shapeicon" nodeId="51cfd565"></attribute>
+<attribute name="nodeicon" nodeId="34730e0"></attribute>
+<attribute name="prefix" nodeId="968c2410"></attribute>
+<attribute name="isPlanned" nodeId="c11ca23a">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="4823d38d">false</attribute>
+<attribute name="isOptional" nodeId="69706444">false</attribute>
+<attribute name="isRepeatable" nodeId="d1722492">true</attribute>
+<attribute name="isOngoing" nodeId="af55ce1d">false</attribute>
+<attribute name="isEventDriven" nodeId="8bc486a">false</attribute>
+<attribute name="variabilityType" nodeId="95bcc898">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Execute Validation Testing" Id="_HhS7wTGYEe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_Sd7D0duVEe6TH6yb1zVWhw,_HhS7wTGYEe-TauTqJPNl_g" nodeId="b15d0402" Url="process.adv.eya_oracle.base/deliveryprocesses/execute_validation_testing_DEB32F16.html" Name="execute_validation_testing" BackPath="./../../">
+<attribute name="name" nodeId="97b2c69d">execute_validation_testing</attribute>
+<attribute name="guid" nodeId="b70b4f3b">_HhS7wTGYEe-TauTqJPNl_g</attribute>
+<attribute name="presentationName" nodeId="66a7182a">Execute Validation Testing</attribute>
+<attribute name="briefDescription" nodeId="64e8dcf5">Plan, design, prepare for and execute end of cycle validation testing and address the defects.</attribute>
+<attribute name="suppressed" nodeId="9f9ac6a5">false</attribute>
+<attribute name="orderingGuide" nodeId="5a564828"></attribute>
+<attribute name="isAbstract" nodeId="8f5733bc">false</attribute>
+<attribute name="shapeicon" nodeId="bc44a236"></attribute>
+<attribute name="nodeicon" nodeId="1b7825f5"></attribute>
+<attribute name="prefix" nodeId="a6183745"></attribute>
+<attribute name="isPlanned" nodeId="5f47fa6b">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="a2303d40">false</attribute>
+<attribute name="isOptional" nodeId="83095dce">false</attribute>
+<attribute name="isRepeatable" nodeId="1f56a06e">false</attribute>
+<attribute name="isOngoing" nodeId="77de79e">false</attribute>
+<attribute name="isEventDriven" nodeId="62ec01f8">false</attribute>
+<attribute name="variabilityType" nodeId="70f1871c">extends</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Plan and Design Tests" Id="_rvznQTGWEe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_MDTAwcOOEe6pmdl9Vi4qww,_rvznQTGWEe-TauTqJPNl_g" nodeId="2cf4df83" Url="process.adv.eya_oracle.base/capabilitypatterns/plan_design_tests_38E57E0E.html" Name="plan_design_tests" BackPath="./../../">
+<attribute name="name" nodeId="81a237f6">plan_design_tests</attribute>
+<attribute name="guid" nodeId="691b8d52">_rvznQTGWEe-TauTqJPNl_g</attribute>
+<attribute name="presentationName" nodeId="6696490">Plan and Design Tests</attribute>
+<attribute name="briefDescription" nodeId="f4fc885b">Plan for end of cycle validation testing and design test cases and scripts.</attribute>
+<attribute name="suppressed" nodeId="8036312a">false</attribute>
+<attribute name="orderingGuide" nodeId="6eadb353"></attribute>
+<attribute name="isAbstract" nodeId="3ce17ce2">false</attribute>
+<attribute name="shapeicon" nodeId="1629036d"></attribute>
+<attribute name="nodeicon" nodeId="c5597687"></attribute>
+<attribute name="prefix" nodeId="e504e40b"></attribute>
+<attribute name="isPlanned" nodeId="f423e354">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="3089e6b7">false</attribute>
+<attribute name="isOptional" nodeId="9bb13af2">false</attribute>
+<attribute name="isRepeatable" nodeId="a1c49871">false</attribute>
+<attribute name="isOngoing" nodeId="abc98d39">false</attribute>
+<attribute name="isEventDriven" nodeId="7c56b4cd">false</attribute>
+<attribute name="variabilityType" nodeId="81f386e2">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_BAXyIe2lEe-socSARGFgTg,_I5-LoO2lEe-socSARGFgTg_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_I5-LoO2lEe-socSARGFgTg_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="f14bee7f">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Testing" Id="_XaP3oZLKEe6Ji6GnvvUfqw" relProcessPath="_XaP3oZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw" nodeId="d54f850b" Url="process.adv.eya_oracle.base/capabilitypatterns/testing_wkstrm_4068A774.html" Name="testing_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="9f6293e9">testing_wkstrm</attribute>
+<attribute name="guid" nodeId="393e9bae">_XaP3oZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="d35e7946">Testing</attribute>
+<attribute name="briefDescription" nodeId="e60bd820"></attribute>
+<attribute name="suppressed" nodeId="a6b7a901">false</attribute>
+<attribute name="orderingGuide" nodeId="f635585a"></attribute>
+<attribute name="isAbstract" nodeId="85d3a67e">false</attribute>
+<attribute name="shapeicon" nodeId="22c10b39"></attribute>
+<attribute name="nodeicon" nodeId="f56ec7ac"></attribute>
+<attribute name="prefix" nodeId="911f544a">workstream</attribute>
+<attribute name="isPlanned" nodeId="ad7d4ee2">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="1c4acc06">false</attribute>
+<attribute name="isOptional" nodeId="7e3df24">false</attribute>
+<attribute name="isRepeatable" nodeId="2e19c99e">false</attribute>
+<attribute name="isOngoing" nodeId="9f29eacc">false</attribute>
+<attribute name="isEventDriven" nodeId="340c155c">false</attribute>
+<attribute name="variabilityType" nodeId="5baecb4">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Prepare for System Integration Testing (SIT)" Id="_45Ha4ckfEe6KPaNasO6mNA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA" nodeId="560cb412" Url="process.adv.eya_oracle.base/capabilitypatterns/prepare_sit_F7633BE2.html" Name="prepare_sit" BackPath="./../../">
+<attribute name="name" nodeId="b0e7c14d">prepare_sit</attribute>
+<attribute name="guid" nodeId="69ffaf">_45Ha4ckfEe6KPaNasO6mNA</attribute>
+<attribute name="presentationName" nodeId="ccda34ce">Prepare for System Integration Testing (SIT)</attribute>
+<attribute name="briefDescription" nodeId="e61512ba">Plan for system integration testing (SIT) cycles 1 through n based on the test strategy and design the test scenarios, cases and scripts as well as the data requirements for conducting the tests.</attribute>
+<attribute name="suppressed" nodeId="bc70f280">false</attribute>
+<attribute name="orderingGuide" nodeId="c926ad77"></attribute>
+<attribute name="isAbstract" nodeId="47124dc0">false</attribute>
+<attribute name="shapeicon" nodeId="2e932de7"></attribute>
+<attribute name="nodeicon" nodeId="56e68e62"></attribute>
+<attribute name="prefix" nodeId="9b4a177"></attribute>
+<attribute name="isPlanned" nodeId="a42359f7">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="20541b83">false</attribute>
+<attribute name="isOptional" nodeId="73b0e081">false</attribute>
+<attribute name="isRepeatable" nodeId="304da943">false</attribute>
+<attribute name="isOngoing" nodeId="49adc2b">false</attribute>
+<attribute name="isEventDriven" nodeId="2eb8a75">false</attribute>
+<attribute name="variabilityType" nodeId="2a5fbff">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Plan and Design Tests" Id="_BAXyIe2lEe-socSARGFgTg" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_BAXyIe2lEe-socSARGFgTg" nodeId="95787a8c" Url="process.adv.eya_oracle.base/capabilitypatterns/plan_design_tests_3CBA90A6.html" Name="plan_design_tests" BackPath="./../../">
+<attribute name="name" nodeId="3a9c060b">plan_design_tests</attribute>
+<attribute name="guid" nodeId="61a9ff23">_BAXyIe2lEe-socSARGFgTg</attribute>
+<attribute name="presentationName" nodeId="765d07c">Plan and Design Tests</attribute>
+<attribute name="briefDescription" nodeId="7b36c487">Plan, design and prepare for system integration testing (SIT).</attribute>
+<attribute name="suppressed" nodeId="73ff243f">false</attribute>
+<attribute name="orderingGuide" nodeId="20e1d61c"></attribute>
+<attribute name="isAbstract" nodeId="4ffbe51e">false</attribute>
+<attribute name="shapeicon" nodeId="8edbe5a8"></attribute>
+<attribute name="nodeicon" nodeId="a2cd5f1a"></attribute>
+<attribute name="prefix" nodeId="198359b"></attribute>
+<attribute name="isPlanned" nodeId="325ba957">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="619091d2">false</attribute>
+<attribute name="isOptional" nodeId="64de54e5">false</attribute>
+<attribute name="isRepeatable" nodeId="678f41b">false</attribute>
+<attribute name="isOngoing" nodeId="a897119a">false</attribute>
+<attribute name="isEventDriven" nodeId="46afa917">false</attribute>
+<attribute name="variabilityType" nodeId="ebd47ca9">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_BAXyIe2lEe-socSARGFgTg,_I5-LoO2lEe-socSARGFgTg_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_I5-LoO2lEe-socSARGFgTg_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="9a08bc55">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="94a60b6" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="812d978">eya_oracle</attribute>
+<attribute name="guid" nodeId="3a143141">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="691f97ea">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="76dbe61b"></attribute>
+<attribute name="suppressed" nodeId="4eee2004">false</attribute>
+<attribute name="orderingGuide" nodeId="f59ce050"></attribute>
+<attribute name="isAbstract" nodeId="cd3fbfb">false</attribute>
+<attribute name="shapeicon" nodeId="3a751873"></attribute>
+<attribute name="nodeicon" nodeId="6e970ac7"></attribute>
+<attribute name="prefix" nodeId="407d1f92"></attribute>
+<attribute name="isPlanned" nodeId="a1330549">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="a451875d">false</attribute>
+<attribute name="isOptional" nodeId="849d9fab">false</attribute>
+<attribute name="isRepeatable" nodeId="e772da3a">false</attribute>
+<attribute name="isOngoing" nodeId="84d9fa2c">false</attribute>
+<attribute name="isEventDriven" nodeId="f56a406a">false</attribute>
+<attribute name="variabilityType" nodeId="fbd4a07c">replaces</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Progressive Build" Id="_c4A0kYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA" nodeId="3aca557b" Url="process.adv.eya_oracle.base/deliveryprocesses/progressive_build_70B7DD74.html" Name="progressive_build" BackPath="./../../">
+<attribute name="name" nodeId="43618437">progressive_build</attribute>
+<attribute name="guid" nodeId="cb5f731f">_c4A0kYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="2ec3dfd2">Progressive Build</attribute>
+<attribute name="briefDescription" nodeId="66fd6d9b">Iterate through the build cycles and drive business acceptance through incremental demos to key client stakeholders. Execute mock conversions and and prepare for system integration and user acceptance testing. Manage stakeholder engagement and communications around the change.</attribute>
+<attribute name="suppressed" nodeId="fde2fac6">false</attribute>
+<attribute name="orderingGuide" nodeId="151e0cd3"></attribute>
+<attribute name="isAbstract" nodeId="98564766">false</attribute>
+<attribute name="shapeicon" nodeId="6ac70b56"></attribute>
+<attribute name="nodeicon" nodeId="56279565"></attribute>
+<attribute name="prefix" nodeId="d5b41451"></attribute>
+<attribute name="isPlanned" nodeId="6ebd621e">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="a6d159aa">false</attribute>
+<attribute name="isOptional" nodeId="4b1ddf13">false</attribute>
+<attribute name="isRepeatable" nodeId="6719b84d">true</attribute>
+<attribute name="isOngoing" nodeId="df0349b8">false</attribute>
+<attribute name="isEventDriven" nodeId="2b9fd4b7">false</attribute>
+<attribute name="variabilityType" nodeId="235088af">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Prepare for System Integration Testing (SIT)" Id="_a02xsdplEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_a02xsdplEe6TH6yb1zVWhw" nodeId="b215358a" Url="process.adv.eya_oracle.base/deliveryprocesses/prepare_sit_FA226AF.html" Name="prepare_sit" BackPath="./../../">
+<attribute name="name" nodeId="719ad149">prepare_sit</attribute>
+<attribute name="guid" nodeId="ccba23cd">_a02xsdplEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="f30186fe">Prepare for System Integration Testing (SIT)</attribute>
+<attribute name="briefDescription" nodeId="d72567ae">Plan for system integration testing (SIT) cycles 1 through n based on the test strategy and design the test scenarios, cases and scripts as well as the data requirements for conducting the tests.</attribute>
+<attribute name="suppressed" nodeId="6899b25f">false</attribute>
+<attribute name="orderingGuide" nodeId="197a6510"></attribute>
+<attribute name="isAbstract" nodeId="4eb2248e">false</attribute>
+<attribute name="shapeicon" nodeId="fc47da9f"></attribute>
+<attribute name="nodeicon" nodeId="3b97f7a9"></attribute>
+<attribute name="prefix" nodeId="2bd2a7de"></attribute>
+<attribute name="isPlanned" nodeId="49cf0249">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="4d5852f7">false</attribute>
+<attribute name="isOptional" nodeId="dcecae3d">false</attribute>
+<attribute name="isRepeatable" nodeId="d876ac8e">false</attribute>
+<attribute name="isOngoing" nodeId="42fe8394">false</attribute>
+<attribute name="isEventDriven" nodeId="70794671">false</attribute>
+<attribute name="variabilityType" nodeId="d023a5b7">extends</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Plan and Design Tests" Id="_BAXyIe2lEe-socSARGFgTg" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_45Ha4ckfEe6KPaNasO6mNA,_BAXyIe2lEe-socSARGFgTg" nodeId="4339e51e" Url="process.adv.eya_oracle.base/capabilitypatterns/plan_design_tests_3CBA90A6.html" Name="plan_design_tests" BackPath="./../../">
+<attribute name="name" nodeId="bb8467a9">plan_design_tests</attribute>
+<attribute name="guid" nodeId="85e00fef">_BAXyIe2lEe-socSARGFgTg</attribute>
+<attribute name="presentationName" nodeId="70151d73">Plan and Design Tests</attribute>
+<attribute name="briefDescription" nodeId="5aec10e1">Plan, design and prepare for system integration testing (SIT).</attribute>
+<attribute name="suppressed" nodeId="6d68719">false</attribute>
+<attribute name="orderingGuide" nodeId="65240fd8"></attribute>
+<attribute name="isAbstract" nodeId="dea18214">false</attribute>
+<attribute name="shapeicon" nodeId="ce44121e"></attribute>
+<attribute name="nodeicon" nodeId="1551541b"></attribute>
+<attribute name="prefix" nodeId="948cc3b9"></attribute>
+<attribute name="isPlanned" nodeId="eb617551">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="4e55512d">false</attribute>
+<attribute name="isOptional" nodeId="d7aab516">false</attribute>
+<attribute name="isRepeatable" nodeId="1580d1c1">false</attribute>
+<attribute name="isOngoing" nodeId="adac4434">false</attribute>
+<attribute name="isEventDriven" nodeId="f7d82711">false</attribute>
+<attribute name="variabilityType" nodeId="de688ba3">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_FBZV8O4FEe-socSARGFgTg,_aWBxMe4FEe-socSARGFgTg,_uiNWoO4FEe-socSARGFgTg_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_uiNWoO4FEe-socSARGFgTg_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="371c172e">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Testing" Id="_XaP3oZLKEe6Ji6GnvvUfqw" relProcessPath="_XaP3oZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw" nodeId="5cc64387" Url="process.adv.eya_oracle.base/capabilitypatterns/testing_wkstrm_4068A774.html" Name="testing_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="25ce162a">testing_wkstrm</attribute>
+<attribute name="guid" nodeId="4a29047c">_XaP3oZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="c18becd9">Testing</attribute>
+<attribute name="briefDescription" nodeId="8768b2e9"></attribute>
+<attribute name="suppressed" nodeId="2d308e50">false</attribute>
+<attribute name="orderingGuide" nodeId="223c130a"></attribute>
+<attribute name="isAbstract" nodeId="df4b5d7c">false</attribute>
+<attribute name="shapeicon" nodeId="b0bf8d1d"></attribute>
+<attribute name="nodeicon" nodeId="3e424450"></attribute>
+<attribute name="prefix" nodeId="cc96cd44">workstream</attribute>
+<attribute name="isPlanned" nodeId="c59f3acd">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="8ad9c612">false</attribute>
+<attribute name="isOptional" nodeId="38296344">false</attribute>
+<attribute name="isRepeatable" nodeId="17fcf192">false</attribute>
+<attribute name="isOngoing" nodeId="69578fc2">false</attribute>
+<attribute name="isEventDriven" nodeId="e2904d44">false</attribute>
+<attribute name="variabilityType" nodeId="5a872ca">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Prepare for User Acceptance Testing (UAT)" Id="_FBZV8O4FEe-socSARGFgTg" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_FBZV8O4FEe-socSARGFgTg" nodeId="45858ee" Url="process.adv.eya_oracle.base/capabilitypatterns/prepare_uat_84AB9DF1.html" Name="prepare_uat" BackPath="./../../">
+<attribute name="name" nodeId="3987880d">prepare_uat</attribute>
+<attribute name="guid" nodeId="d45e0a0">_FBZV8O4FEe-socSARGFgTg</attribute>
+<attribute name="presentationName" nodeId="17678caf">Prepare for User Acceptance Testing (UAT)</attribute>
+<attribute name="briefDescription" nodeId="217b039f">Define how business users can validate that the solution requirements meet user acceptance criteria.</attribute>
+<attribute name="suppressed" nodeId="b8d92ab5">false</attribute>
+<attribute name="orderingGuide" nodeId="efffd166"></attribute>
+<attribute name="isAbstract" nodeId="61f31104">false</attribute>
+<attribute name="shapeicon" nodeId="ac4f6188"></attribute>
+<attribute name="nodeicon" nodeId="80ce8350"></attribute>
+<attribute name="prefix" nodeId="3a909336"></attribute>
+<attribute name="isPlanned" nodeId="13bdc50a">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="50d37e88">false</attribute>
+<attribute name="isOptional" nodeId="74f56fa3">false</attribute>
+<attribute name="isRepeatable" nodeId="d3dd4ec1">false</attribute>
+<attribute name="isOngoing" nodeId="b99bd4ad">false</attribute>
+<attribute name="isEventDriven" nodeId="f1773d26">false</attribute>
+<attribute name="variabilityType" nodeId="4436ae47">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Plan and Design Tests" Id="_aWBxMe4FEe-socSARGFgTg" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_FBZV8O4FEe-socSARGFgTg,_aWBxMe4FEe-socSARGFgTg" nodeId="9630fedd" Url="process.adv.eya_oracle.base/capabilitypatterns/plan_design_uat_tests_6557F3A6.html" Name="plan_design_uat_tests" BackPath="./../../">
+<attribute name="name" nodeId="27bb96eb">plan_design_uat_tests</attribute>
+<attribute name="guid" nodeId="2572d44e">_aWBxMe4FEe-socSARGFgTg</attribute>
+<attribute name="presentationName" nodeId="10f247da">Plan and Design Tests</attribute>
+<attribute name="briefDescription" nodeId="88bcb0fd">Plan, design and prepare for user acceptance testing (UAT).</attribute>
+<attribute name="suppressed" nodeId="3296e41e">false</attribute>
+<attribute name="orderingGuide" nodeId="1740f929"></attribute>
+<attribute name="isAbstract" nodeId="ec7c0541">false</attribute>
+<attribute name="shapeicon" nodeId="ee0fa4ea"></attribute>
+<attribute name="nodeicon" nodeId="5cbbbfa"></attribute>
+<attribute name="prefix" nodeId="dabd4b54"></attribute>
+<attribute name="isPlanned" nodeId="7db937ab">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="73a50269">false</attribute>
+<attribute name="isOptional" nodeId="867d0e71">false</attribute>
+<attribute name="isRepeatable" nodeId="7ffd7b32">false</attribute>
+<attribute name="isOngoing" nodeId="828afa54">false</attribute>
+<attribute name="isEventDriven" nodeId="a9a06f4b">false</attribute>
+<attribute name="variabilityType" nodeId="eb75c35b">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_FBZV8O4FEe-socSARGFgTg,_aWBxMe4FEe-socSARGFgTg,_uiNWoO4FEe-socSARGFgTg_IK258o7DEeOoz-o29QgacA" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/proj_schedule_DF6B980E.html" Name="proj_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Project Schedule" Id="_uiNWoO4FEe-socSARGFgTg_IK258o7DEeOoz-o29QgacA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="a1209494">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="38d5b698" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="361880b3">eya_oracle</attribute>
+<attribute name="guid" nodeId="1910765e">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="4dbf570c">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="7c06ffe1"></attribute>
+<attribute name="suppressed" nodeId="50c7b761">false</attribute>
+<attribute name="orderingGuide" nodeId="dbb03e47"></attribute>
+<attribute name="isAbstract" nodeId="d89a48fa">false</attribute>
+<attribute name="shapeicon" nodeId="79fae6ff"></attribute>
+<attribute name="nodeicon" nodeId="3744c25e"></attribute>
+<attribute name="prefix" nodeId="fe3b0f9e"></attribute>
+<attribute name="isPlanned" nodeId="842910dd">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="19dd305c">false</attribute>
+<attribute name="isOptional" nodeId="5875960a">false</attribute>
+<attribute name="isRepeatable" nodeId="a43c6df5">false</attribute>
+<attribute name="isOngoing" nodeId="cd8d7028">false</attribute>
+<attribute name="isEventDriven" nodeId="4f2896ea">false</attribute>
+<attribute name="variabilityType" nodeId="13a4ef2b">replaces</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Progressive Build" Id="_c4A0kYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA" nodeId="36826f19" Url="process.adv.eya_oracle.base/deliveryprocesses/progressive_build_70B7DD74.html" Name="progressive_build" BackPath="./../../">
+<attribute name="name" nodeId="66749b23">progressive_build</attribute>
+<attribute name="guid" nodeId="d8205b7d">_c4A0kYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="20d8501a">Progressive Build</attribute>
+<attribute name="briefDescription" nodeId="3961b6d8">Iterate through the build cycles and drive business acceptance through incremental demos to key client stakeholders. Execute mock conversions and and prepare for system integration and user acceptance testing. Manage stakeholder engagement and communications around the change.</attribute>
+<attribute name="suppressed" nodeId="d181b113">false</attribute>
+<attribute name="orderingGuide" nodeId="99d20fe7"></attribute>
+<attribute name="isAbstract" nodeId="e5e7a919">false</attribute>
+<attribute name="shapeicon" nodeId="2a84c04d"></attribute>
+<attribute name="nodeicon" nodeId="f4546d79"></attribute>
+<attribute name="prefix" nodeId="4a804a8b"></attribute>
+<attribute name="isPlanned" nodeId="df14798f">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="44a5a013">false</attribute>
+<attribute name="isOptional" nodeId="cea1646a">false</attribute>
+<attribute name="isRepeatable" nodeId="52d82a44">true</attribute>
+<attribute name="isOngoing" nodeId="df0c7fb2">false</attribute>
+<attribute name="isEventDriven" nodeId="4f0b128">false</attribute>
+<attribute name="variabilityType" nodeId="8292a166">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Prepare for User Acceptance Testing (UAT)" Id="_HqoXIe4HEe-socSARGFgTg" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_HqoXIe4HEe-socSARGFgTg" nodeId="61b0afb" Url="process.adv.eya_oracle.base/deliveryprocesses/prepare_uat_2D676BD2.html" Name="prepare_uat " BackPath="./../../">
+<attribute name="name" nodeId="5b5e846c">prepare_uat </attribute>
+<attribute name="guid" nodeId="1725ed0">_HqoXIe4HEe-socSARGFgTg</attribute>
+<attribute name="presentationName" nodeId="ca3b6a36">Prepare for User Acceptance Testing (UAT)</attribute>
+<attribute name="briefDescription" nodeId="c33011df">Define how business users can validate that the solution requirements meet user acceptance criteria.</attribute>
+<attribute name="suppressed" nodeId="7aa60e87">false</attribute>
+<attribute name="orderingGuide" nodeId="c21038d3"></attribute>
+<attribute name="isAbstract" nodeId="3cc76c0d">false</attribute>
+<attribute name="shapeicon" nodeId="d28ce1b1"></attribute>
+<attribute name="nodeicon" nodeId="b5777289"></attribute>
+<attribute name="prefix" nodeId="5a771f73"></attribute>
+<attribute name="isPlanned" nodeId="3cead1cc">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="7f4fd31a">false</attribute>
+<attribute name="isOptional" nodeId="bcff226c">false</attribute>
+<attribute name="isRepeatable" nodeId="cf4674f4">false</attribute>
+<attribute name="isOngoing" nodeId="388f9b32">false</attribute>
+<attribute name="isEventDriven" nodeId="c65d4e35">false</attribute>
+<attribute name="variabilityType" nodeId="9a4a6da9">extends</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Plan and Design Tests" Id="_aWBxMe4FEe-socSARGFgTg" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_FBZV8O4FEe-socSARGFgTg,_aWBxMe4FEe-socSARGFgTg" nodeId="6f2c3171" Url="process.adv.eya_oracle.base/capabilitypatterns/plan_design_uat_tests_6557F3A6.html" Name="plan_design_uat_tests" BackPath="./../../">
+<attribute name="name" nodeId="eae8b0f1">plan_design_uat_tests</attribute>
+<attribute name="guid" nodeId="91012756">_aWBxMe4FEe-socSARGFgTg</attribute>
+<attribute name="presentationName" nodeId="e7bbe384">Plan and Design Tests</attribute>
+<attribute name="briefDescription" nodeId="c9463d8">Plan, design and prepare for user acceptance testing (UAT).</attribute>
+<attribute name="suppressed" nodeId="21ea5dca">false</attribute>
+<attribute name="orderingGuide" nodeId="11259688"></attribute>
+<attribute name="isAbstract" nodeId="c2e65253">false</attribute>
+<attribute name="shapeicon" nodeId="2582bd4c"></attribute>
+<attribute name="nodeicon" nodeId="7560bf94"></attribute>
+<attribute name="prefix" nodeId="bcb130b6"></attribute>
+<attribute name="isPlanned" nodeId="73e28aef">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="3f859677">false</attribute>
+<attribute name="isOptional" nodeId="57cbe638">false</attribute>
+<attribute name="isRepeatable" nodeId="93900fb2">false</attribute>
+<attribute name="isOngoing" nodeId="e88cd383">false</attribute>
+<attribute name="isEventDriven" nodeId="b9185cef">false</attribute>
+<attribute name="variabilityType" nodeId="1a80ec8f">extends</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

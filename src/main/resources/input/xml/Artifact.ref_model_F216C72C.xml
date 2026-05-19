@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Reference Model" Id="_6uktEPoEEeOAdZK7OtksNQ" ShapeiconUrl="images/artifact.gif" lang="en" nodeId="5bee2274" Url="core.gen.common.base/workproducts/ref_model_F216C72C.html" Name="ref_model" BackPath="./../../">
+<copyright nodeId="7b3dabc0">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="dc88d44f">ref_model</attribute>
+<attribute name="guid" nodeId="e7a88dee">_6uktEPoEEeOAdZK7OtksNQ</attribute>
+<attribute name="presentationName" nodeId="c21cbed4">Reference Model</attribute>
+<attribute name="briefDescription" nodeId="ac92696a">An abstract framework for understanding the significant relationships among the entities of an environment, and for the development of consistent standards or specifications supporting that environment. [1]</attribute>
+<attribute name="suppressed" nodeId="ba95035c">false</attribute>
+<attribute name="orderingGuide" nodeId="ca22e7bc"></attribute>
+<attribute name="isAbstract" nodeId="7b064123">false</attribute>
+<attribute name="shapeicon" nodeId="e3725ca9"></attribute>
+<attribute name="nodeicon" nodeId="e5dd554d"></attribute>
+<attribute name="variabilityType" nodeId="4e685862">na</attribute>
+<reference name="presentation" nodeId="5c324b04">
+<Element Type="ArtifactDescription" TypeName="Artifact Description" NodeiconUrl="" DisplayName="Reference Model" Id="-u3mvzs-svSNO4nf5u7wYJg" ShapeiconUrl="images/guidance.gif" nodeId="6ae1d678" Url="" Name="ref_model,_6uktEPoEEeOAdZK7OtksNQ" BackPath="">
+<copyright nodeId="2826f823">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="e3f7ca38">ref_model,_6uktEPoEEeOAdZK7OtksNQ</attribute>
+<attribute name="guid" nodeId="bb01e284">-u3mvzs-svSNO4nf5u7wYJg</attribute>
+<attribute name="presentationName" nodeId="144ba806">Reference Model</attribute>
+<attribute name="briefDescription" nodeId="8436bb46"></attribute>
+<attribute name="suppressed" nodeId="caf595fc">false</attribute>
+<attribute name="orderingGuide" nodeId="c90324a1"></attribute>
+<attribute name="authors" nodeId="6d2ccf83">process.adv.core.base</attribute>
+<attribute name="changeDate" nodeId="d2e1d3d0">Wed Mar 15 18:09:38 EDT 2017</attribute>
+<attribute name="changeDescription" nodeId="cff9293c">SEP 2015 - removed an example|AUG 2014 – baseline version</attribute>
+<attribute name="version" nodeId="9c646b3d"></attribute>
+<attribute name="mainDescription" nodeId="8236d395">&lt;p&gt;
+    A reference model is an abstract framework for understanding significant relationships among the entities of an
+    environment. It enables the development of specific reference or concrete architectures using consistent standards or
+    specifications supporting that environment. A reference model consists of a minimal set of unifying concepts, axioms
+    and relationships within a particular problem domain, and is independent of specific standards, technologies,
+    implementations, or other concrete details.
+&lt;/p&gt;
+&lt;p&gt;
+    A reference model has certain key principles &lt;sup&gt;[1] [2]&lt;/sup&gt;:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Abstract&lt;/strong&gt; - reference model describes the type of entities that may occur in an environment
+        and not the actual entities. For example, when describing an office building, a smart
+        card based entrance door can have specifications and characteristics but the concept of secured
+        entrance (type of entity) is part of a reference model for that environment.
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Entities and relationships&lt;/strong&gt; - reference model should define entities and relationships with each
+        other. When only entities are listed, the relationships are neglected and the reference model and
+        its derived architectures as such are less useful. 
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Within a particular problem domain&lt;/strong&gt; - reference model should have a clearly focused
+        problem area for a specific environment.
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Technology agnostic&lt;/strong&gt; - reference model should not make assumptions about specific technology or
+        standard implementation.  
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    &lt;sup&gt;[1]&lt;/sup&gt; OASIS Reference Model for SOA, Version 1.0, OASIS Standard, October 2006
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;sup&gt;[2]&lt;/sup&gt; Morris Riedel, Design and Applications of an Interoperability Reference Model for Production e-Science
+    Infrastructures, July 2012
+&lt;/p&gt;</attribute>
+<attribute name="externalId" nodeId="ae14fa70"></attribute>
+<attribute name="keyConsiderations" nodeId="6cab3667"></attribute>
+<attribute name="longPresentationName" nodeId="2b404a29"></attribute>
+<attribute name="purpose" nodeId="8f4866d">&lt;p&gt;
+    The purpose of this artifact is to:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Provide abstract and consistent solutions to specific problems.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Provide taxonomy for developing standards and specifications.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Serve as a common frame of reference for communication among stakeholders.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Serve as a basis for education and explaining standards to non-specialists.
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="impactOfNotHaving" nodeId="3438793e"></attribute>
+<attribute name="reasonsForNotNeeding" nodeId="91047d22"></attribute>
+<attribute name="briefOutline" nodeId="236be2b6">&lt;p&gt;
+    The typical components of a reference model are:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Taxonomy&lt;/strong&gt; - defines terminology, and provides a coherent description of the components and
+        conceptual structure of the systems in scope for the reference model.
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Associated graphic&lt;/strong&gt; - provides a visual representation of the taxonomy and serves as an aid to
+        understand the model.
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="representationOptions" nodeId="7c84fbbf"></attribute>
+<attribute name="representation" nodeId="63f7efcf"></attribute>
+<attribute name="notation" nodeId="14d452d4"></attribute>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="examples" nodeId="10f6e37e">
+<Element Type="Example" TypeName="Example" NodeiconUrl="" DisplayName="Reference Model" Id="_8FIUYBtCEeS-I4YUnue8HA" ShapeiconUrl="images/example.gif" nodeId="39607a66" Url="core.gen.common.base/guidances/examples/ref_model_77683805.html" Name="ref_model" BackPath="./../../../"></Element>
+</referenceList>
+<referenceList name="WorkProduct_WorkProductDescriptors" nodeId="ba5e6e9e">
+<Element TypeName="Work Product Descriptor" queryString="?proc=__kYz8dANEe6H-rjlu9wPlA&amp;path=__kYz8dANEe6H-rjlu9wPlA,_H3Z-cdGMEe6Y56Jk6jqfOA,_ZJl38NGMEe6Y56Jk6jqfOA_6uktEPoEEeOAdZK7OtksNQ" ConcreteType="Artifact" Url="core.gen.common.base/workproducts/ref_model_F216C72C.html" Name="ref_model" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Reference Model" Id="_ZJl38NGMEe6Y56Jk6jqfOA_6uktEPoEEeOAdZK7OtksNQ" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="e34d3869"></Element>
+</referenceList>
+<referenceList name="WorkProduct_InputTo_Tasks" nodeId="7f8fb287">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop integrated solution architecture" Id="_H0mlQGeMEeSg-t4DVsRJcA" ShapeiconUrl="images/task.gif" nodeId="ae896e11" Url="practice.ita.eff.arch_gov.base/tasks/develop_integrated_soln_arch_F66DBD02.html" Name="develop_integrated_soln_arch" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="mandatoryInputToTasks" nodeId="69bdb15a">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop integrated solution architecture" Id="_H0mlQGeMEeSg-t4DVsRJcA" ShapeiconUrl="images/task.gif" nodeId="b2e39ffb" Url="practice.ita.eff.arch_gov.base/tasks/develop_integrated_soln_arch_F66DBD02.html" Name="develop_integrated_soln_arch" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="65673341">
+<Element TypeName="Work Product Descriptor" queryString="?proc=__kYz8dANEe6H-rjlu9wPlA&amp;path=__kYz8dANEe6H-rjlu9wPlA,_H3Z-cdGMEe6Y56Jk6jqfOA,_ZJl38NGMEe6Y56Jk6jqfOA_6uktEPoEEeOAdZK7OtksNQ" ConcreteType="Artifact" Url="core.gen.common.base/workproducts/ref_model_F216C72C.html" Name="ref_model" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Reference Model" Id="_ZJl38NGMEe6Y56Jk6jqfOA_6uktEPoEEeOAdZK7OtksNQ" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="8f17f96c">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Technical Architecture and Integration" Id="__kYz8dANEe6H-rjlu9wPlA" relProcessPath="__kYz8dANEe6H-rjlu9wPlA" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=__kYz8dANEe6H-rjlu9wPlA&amp;path=__kYz8dANEe6H-rjlu9wPlA" nodeId="934e5b56" Url="process.adv.eya_oracle.base/capabilitypatterns/tech_arch_int_wkstrm_FC9A4290.html" Name="tech_arch_int_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="d7bc4a93">tech_arch_int_wkstrm</attribute>
+<attribute name="guid" nodeId="44c07724">__kYz8dANEe6H-rjlu9wPlA</attribute>
+<attribute name="presentationName" nodeId="122dbba4">Technical Architecture and Integration</attribute>
+<attribute name="briefDescription" nodeId="bb5905d4"></attribute>
+<attribute name="suppressed" nodeId="b8db3347">false</attribute>
+<attribute name="orderingGuide" nodeId="71be1039"></attribute>
+<attribute name="isAbstract" nodeId="7aa11758">false</attribute>
+<attribute name="shapeicon" nodeId="47f10908"></attribute>
+<attribute name="nodeicon" nodeId="891b27d4"></attribute>
+<attribute name="prefix" nodeId="eb3b9a52">workstream</attribute>
+<attribute name="isPlanned" nodeId="39dda42b">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="72715653">false</attribute>
+<attribute name="isOptional" nodeId="9c9440d9">false</attribute>
+<attribute name="isRepeatable" nodeId="5e89d511">false</attribute>
+<attribute name="isOngoing" nodeId="cbea5acd">false</attribute>
+<attribute name="isEventDriven" nodeId="c30446db">false</attribute>
+<attribute name="variabilityType" nodeId="34b61de0">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Design Target State Architecture" Id="_H3Z-cdGMEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=__kYz8dANEe6H-rjlu9wPlA&amp;path=__kYz8dANEe6H-rjlu9wPlA,_H3Z-cdGMEe6Y56Jk6jqfOA" nodeId="5ea29701" Url="process.adv.eya_oracle.base/capabilitypatterns/design_target_state_arch_50284F64.html" Name="design_target_state_arch" BackPath="./../../">
+<attribute name="name" nodeId="7acf6e7f">design_target_state_arch</attribute>
+<attribute name="guid" nodeId="5cb8fd7e">_H3Z-cdGMEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="a9e95687">Design Target State Architecture</attribute>
+<attribute name="briefDescription" nodeId="269f1c8d">Document architectural decisions and the integrated solution architecture.</attribute>
+<attribute name="suppressed" nodeId="2f9cf265">false</attribute>
+<attribute name="orderingGuide" nodeId="3fd9e23e"></attribute>
+<attribute name="isAbstract" nodeId="38e069d2">false</attribute>
+<attribute name="shapeicon" nodeId="94dccbb5"></attribute>
+<attribute name="nodeicon" nodeId="de8748de"></attribute>
+<attribute name="prefix" nodeId="898a3743"></attribute>
+<attribute name="isPlanned" nodeId="b499c47e">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="6b4e0c32">false</attribute>
+<attribute name="isOptional" nodeId="1e405cd6">false</attribute>
+<attribute name="isRepeatable" nodeId="c4c56984">false</attribute>
+<attribute name="isOngoing" nodeId="b6c0d094">false</attribute>
+<attribute name="isEventDriven" nodeId="8ed00faa">false</attribute>
+<attribute name="variabilityType" nodeId="cf60a7b5">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=__kYz8dANEe6H-rjlu9wPlA&amp;path=__kYz8dANEe6H-rjlu9wPlA,_H3Z-cdGMEe6Y56Jk6jqfOA,_ZJl38NGMEe6Y56Jk6jqfOA_6uktEPoEEeOAdZK7OtksNQ" ConcreteType="Artifact" Url="core.gen.common.base/workproducts/ref_model_F216C72C.html" Name="ref_model" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Reference Model" Id="_ZJl38NGMEe6Y56Jk6jqfOA_6uktEPoEEeOAdZK7OtksNQ" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="1db2d0a2">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="ad79d6dc" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="23f74682">eya_oracle</attribute>
+<attribute name="guid" nodeId="2f823f4c">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="f32ceb8e">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="8ca64936"></attribute>
+<attribute name="suppressed" nodeId="34538971">false</attribute>
+<attribute name="orderingGuide" nodeId="66a0c29f"></attribute>
+<attribute name="isAbstract" nodeId="4e1e7d03">false</attribute>
+<attribute name="shapeicon" nodeId="a7de429d"></attribute>
+<attribute name="nodeicon" nodeId="50a80d69"></attribute>
+<attribute name="prefix" nodeId="9b22270f"></attribute>
+<attribute name="isPlanned" nodeId="f97664ba">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="e43d9bc9">false</attribute>
+<attribute name="isOptional" nodeId="eb9c850c">false</attribute>
+<attribute name="isRepeatable" nodeId="9b46c1fd">false</attribute>
+<attribute name="isOngoing" nodeId="63c85230">false</attribute>
+<attribute name="isEventDriven" nodeId="7bbb353a">false</attribute>
+<attribute name="variabilityType" nodeId="fcb8d766">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Confirm and Design" Id="_bRCPsIs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA" nodeId="9d5f48da" Url="process.adv.eya_oracle.base/deliveryprocesses/confirm_and_design_29FFDB9.html" Name="confirm_and_design" BackPath="./../../">
+<attribute name="name" nodeId="b3f012c0">confirm_and_design</attribute>
+<attribute name="guid" nodeId="7856093c">_bRCPsIs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="d42b9c58">Confirm and Design</attribute>
+<attribute name="briefDescription" nodeId="7283ccb0">Define business requirements, map process flows and facilitate fit-gap workshops. Define technology and testing strategies. Develop the master configuration workbook, RICEFW inventory and prepare for progressive build cycles.</attribute>
+<attribute name="suppressed" nodeId="2fa91d6e">false</attribute>
+<attribute name="orderingGuide" nodeId="fecc192e"></attribute>
+<attribute name="isAbstract" nodeId="e95f92f4">false</attribute>
+<attribute name="shapeicon" nodeId="105061d4"></attribute>
+<attribute name="nodeicon" nodeId="cefe149d"></attribute>
+<attribute name="prefix" nodeId="72654db2"></attribute>
+<attribute name="isPlanned" nodeId="10e176b4">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="11bdfa1">false</attribute>
+<attribute name="isOptional" nodeId="35f1b1f4">false</attribute>
+<attribute name="isRepeatable" nodeId="e06b661">false</attribute>
+<attribute name="isOngoing" nodeId="a941d7e">false</attribute>
+<attribute name="isEventDriven" nodeId="a3c7af7a">false</attribute>
+<attribute name="variabilityType" nodeId="f9c3e8b6">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Design Target State Architecture" Id="_yyQtYdpiEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA,_yyQtYdpiEe6TH6yb1zVWhw" nodeId="ba4f2ecf" Url="process.adv.eya_oracle.base/deliveryprocesses/design_target_state_arch_1555DFF4.html" Name="design_target_state_arch" BackPath="./../../">
+<attribute name="name" nodeId="ec947d1">design_target_state_arch</attribute>
+<attribute name="guid" nodeId="b2db3b05">_yyQtYdpiEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="8860c066">Design Target State Architecture</attribute>
+<attribute name="briefDescription" nodeId="fe7ad478">Document architectural decisions and the integrated solution architecture.</attribute>
+<attribute name="suppressed" nodeId="d965b4ff">false</attribute>
+<attribute name="orderingGuide" nodeId="95222a76"></attribute>
+<attribute name="isAbstract" nodeId="81969dc7">false</attribute>
+<attribute name="shapeicon" nodeId="fdeed71d"></attribute>
+<attribute name="nodeicon" nodeId="55974f22"></attribute>
+<attribute name="prefix" nodeId="2018fbe9"></attribute>
+<attribute name="isPlanned" nodeId="84e3f56f">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="ef03af00">false</attribute>
+<attribute name="isOptional" nodeId="cb25c342">false</attribute>
+<attribute name="isRepeatable" nodeId="4beb6247">false</attribute>
+<attribute name="isOngoing" nodeId="b19afaf6">false</attribute>
+<attribute name="isEventDriven" nodeId="18045970">false</attribute>
+<attribute name="variabilityType" nodeId="f8f73d01">extends</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

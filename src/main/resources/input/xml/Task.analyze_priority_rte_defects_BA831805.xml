@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" TypeName="Task" Url="practice.ita.delv.test_mgmt.base/tasks/analyze_priority_rte_defects_BA831805.html" Name="analyze_priority_rte_defects" BackPath="./../../" Type="Task" NodeiconUrl="" performingRoleName="Test Lead" DisplayName="Analyze, prioritize and route defects" Id="_6ShM4BNjEeSXeLswwMJXqw" ShapeiconUrl="images/task.gif" lang="en" nodeId="c960a950">
+<copyright nodeId="7c340cb8">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="5b1f4506">analyze_priority_rte_defects</attribute>
+<attribute name="guid" nodeId="e202cd02">_6ShM4BNjEeSXeLswwMJXqw</attribute>
+<attribute name="presentationName" nodeId="59ecca67">Analyze, prioritize and route defects</attribute>
+<attribute name="briefDescription" nodeId="8f19f6c5">Analyze, prioritize and route defects recorded during test execution for appropriate action to achieve resolution.</attribute>
+<attribute name="suppressed" nodeId="17ce1cd1">false</attribute>
+<attribute name="orderingGuide" nodeId="9bced945"></attribute>
+<attribute name="isAbstract" nodeId="723b96e0">false</attribute>
+<attribute name="shapeicon" nodeId="84fdb411"></attribute>
+<attribute name="nodeicon" nodeId="37d8922b"></attribute>
+<attribute name="variabilityType" nodeId="10dbc333">na</attribute>
+<reference name="presentation" nodeId="bab41b2c">
+<Element Type="TaskDescription" TypeName="Task Description" NodeiconUrl="" DisplayName="Analyze, prioritize and route defects" Id="-dpmZPrK3474OOrNdpzp0QA" ShapeiconUrl="images/guidance.gif" nodeId="d2761c81" Url="" Name="analyze_prioritize_route_defects,_6ShM4BNjEeSXeLswwMJXqw" BackPath="">
+<copyright nodeId="a7fda26f">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="3a79b660">analyze_prioritize_route_defects,_6ShM4BNjEeSXeLswwMJXqw</attribute>
+<attribute name="guid" nodeId="51b691b5">-dpmZPrK3474OOrNdpzp0QA</attribute>
+<attribute name="presentationName" nodeId="f47ee87f">Analyze, prioritize and route defects</attribute>
+<attribute name="briefDescription" nodeId="c4877aa9"></attribute>
+<attribute name="suppressed" nodeId="19296967">false</attribute>
+<attribute name="orderingGuide" nodeId="ec3b8fb2"></attribute>
+<attribute name="authors" nodeId="78d38176"></attribute>
+<attribute name="changeDate" nodeId="1459d138">Thu Jul 16 00:56:29 EDT 2015</attribute>
+<attribute name="changeDescription" nodeId="d6b29495"></attribute>
+<attribute name="version" nodeId="e7c1cb02"></attribute>
+<attribute name="mainDescription" nodeId="e1328b12">&lt;p&gt;
+    Perform the following:
+&lt;/p&gt;
+&lt;ul class=&quot;noindent&quot;&gt;
+    &lt;li&gt;
+        Review defect documentation and verify defect validity
+    &lt;/li&gt;
+    &lt;li&gt;
+        Review defects to understand the underlying issue (e.g. wrong data was used, user did not execute the step
+        correctly or executed out of order, missing configuration, etc.)
+    &lt;/li&gt;
+    &lt;li&gt;
+        Perform defect analysis by assigning defect severity, priority and classification
+    &lt;/li&gt;
+    &lt;li&gt;
+        Route defects for resolution based on analysis to appropriate teams
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="externalId" nodeId="8838b696"></attribute>
+<attribute name="keyConsiderations" nodeId="8179d11b"></attribute>
+<attribute name="longPresentationName" nodeId="5ca372a"></attribute>
+<attribute name="purpose" nodeId="7881f97b">&lt;p&gt;
+    The purpose of this task is to:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Understand the defect impact on solution quality
+    &lt;/li&gt;
+    &lt;li&gt;
+        Investigate defect origins&amp;nbsp;and address irregularities and inconsistencies in the target solution
+    &lt;/li&gt;
+    &lt;li&gt;
+        Address defects&amp;nbsp;in the most optimal order within timing and schedule constraints&lt;br /&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="alternatives" nodeId="994e7826"></attribute>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="performedBy" nodeId="2ef8eefb">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Test Lead" Id="_Z11mxD8eEeOOEPaNsP0t0A" ShapeiconUrl="images/role.gif" nodeId="3743d5c1" Url="core.default.role_def.base/roles/test_lead_3E7314F5.html" Name="test_lead" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="mandatoryInput" nodeId="92c9a5df">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Defect Tracker" Id="_1QgeIOYJEeOqmb5IikO7mw" ShapeiconUrl="images/artifact.gif" nodeId="b7b9acc9" Url="core.i_t.common.base/workproducts/defect_tracker_1B140F53.html" Name="defect_tracker" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="output" nodeId="60dc61fc">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Defect Tracker" Id="_1QgeIOYJEeOqmb5IikO7mw" ShapeiconUrl="images/artifact.gif" nodeId="d29dccb6" Url="core.i_t.common.base/workproducts/defect_tracker_1B140F53.html" Name="defect_tracker" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="Task_TaskDescriptors" nodeId="b674d9bd">
+<Element TypeName="Task Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_MDTAwcOOEe6pmdl9Vi4qww,_suh6UciQEe6KPaNasO6mNA,_0FdEkMiQEe6KPaNasO6mNA" ConcreteType="Task" Url="practice.ita.delv.test_mgmt.base/tasks/analyze_priority_rte_defects_BA831805.html" Name="analyze_priority_rte_defects" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Analyze, prioritize and route defects" Id="_0FdEkMiQEe6KPaNasO6mNA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="a4b94feb"></Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_JL-WocREEe6pmdl9Vi4qww,_PcaZ8MREEe6pmdl9Vi4qww" ConcreteType="Task" Url="practice.ita.delv.test_mgmt.base/tasks/analyze_priority_rte_defects_BA831805.html" Name="analyze_priority_rte_defects" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Analyze, prioritize and route defects" Id="_PcaZ8MREEe6pmdl9Vi4qww" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="71500f69"></Element>
+</referenceList>
+<reference name="performingRole" nodeId="2e752299">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Test Lead" Id="_Z11mxD8eEeOOEPaNsP0t0A" ShapeiconUrl="images/role.gif" nodeId="2eda86bb" Url="core.default.role_def.base/roles/test_lead_3E7314F5.html" Name="test_lead" BackPath="./../../"></Element>
+</reference>
+<referenceList name="customCategories" nodeId="98b3b49">
+<Element Type="CustomCategory" TypeName="Custom Category" NodeiconUrl="" DisplayName="Tasks" Id="_0Sj48KDNEeOMmqbYX27PPA" ShapeiconUrl="core.default.nav_view.base/customcategories/resources/cat_task51.png" nodeId="7736cfa9" Url="core.default.nav_view.base/customcategories/task_list_CDC9CEA6.html" Name="task_list" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="5930acbf">
+<Element TypeName="Task Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_MDTAwcOOEe6pmdl9Vi4qww,_suh6UciQEe6KPaNasO6mNA,_0FdEkMiQEe6KPaNasO6mNA" ConcreteType="Task" Url="practice.ita.delv.test_mgmt.base/tasks/analyze_priority_rte_defects_BA831805.html" Name="analyze_priority_rte_defects" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Analyze, prioritize and route defects" Id="_0FdEkMiQEe6KPaNasO6mNA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="90703d9e">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Testing" Id="_XaP3oZLKEe6Ji6GnvvUfqw" relProcessPath="_XaP3oZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw" nodeId="681f92cc" Url="process.adv.eya_oracle.base/capabilitypatterns/testing_wkstrm_4068A774.html" Name="testing_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="3243b440">testing_wkstrm</attribute>
+<attribute name="guid" nodeId="40c3072c">_XaP3oZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="3c2ed0f4">Testing</attribute>
+<attribute name="briefDescription" nodeId="5bc1719e"></attribute>
+<attribute name="suppressed" nodeId="204bce59">false</attribute>
+<attribute name="orderingGuide" nodeId="191eddcc"></attribute>
+<attribute name="isAbstract" nodeId="f7970aae">false</attribute>
+<attribute name="shapeicon" nodeId="45768731"></attribute>
+<attribute name="nodeicon" nodeId="a350d8af"></attribute>
+<attribute name="prefix" nodeId="e7352fbb">workstream</attribute>
+<attribute name="isPlanned" nodeId="9bb7c331">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="13836dd9">false</attribute>
+<attribute name="isOptional" nodeId="332654c9">false</attribute>
+<attribute name="isRepeatable" nodeId="e43e2dbc">false</attribute>
+<attribute name="isOngoing" nodeId="1e5547ac">false</attribute>
+<attribute name="isEventDriven" nodeId="658e5291">false</attribute>
+<attribute name="variabilityType" nodeId="7a71aab3">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Execute Validation Testing" Id="_MDTAwcOOEe6pmdl9Vi4qww" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_MDTAwcOOEe6pmdl9Vi4qww" nodeId="50c0062d" Url="process.adv.eya_oracle.base/capabilitypatterns/execute_validation_testing_57BE021D.html" Name="execute_validation_testing" BackPath="./../../">
+<attribute name="name" nodeId="d523b333">execute_validation_testing</attribute>
+<attribute name="guid" nodeId="ab2274f8">_MDTAwcOOEe6pmdl9Vi4qww</attribute>
+<attribute name="presentationName" nodeId="2f3b0bd1">Execute Validation Testing</attribute>
+<attribute name="briefDescription" nodeId="5e4c55a9">Plan, design, prepare for and execute end of cycle validation testing and address the defects.</attribute>
+<attribute name="suppressed" nodeId="525408e4">false</attribute>
+<attribute name="orderingGuide" nodeId="713eb70b"></attribute>
+<attribute name="isAbstract" nodeId="d9d4c523">false</attribute>
+<attribute name="shapeicon" nodeId="647fcb5d"></attribute>
+<attribute name="nodeicon" nodeId="5879060"></attribute>
+<attribute name="prefix" nodeId="387330e"></attribute>
+<attribute name="isPlanned" nodeId="2d44d935">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="cc9a0c9c">false</attribute>
+<attribute name="isOptional" nodeId="b5bacb08">false</attribute>
+<attribute name="isRepeatable" nodeId="84e63d86">false</attribute>
+<attribute name="isOngoing" nodeId="b15d0a2">false</attribute>
+<attribute name="isEventDriven" nodeId="a0d14a6b">false</attribute>
+<attribute name="variabilityType" nodeId="f796909e">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Manage Defects" Id="_suh6UciQEe6KPaNasO6mNA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_MDTAwcOOEe6pmdl9Vi4qww,_suh6UciQEe6KPaNasO6mNA" nodeId="37e43048" Url="process.adv.eya_oracle.base/capabilitypatterns/manage_defects_D5D09CA4.html" Name="manage_defects" BackPath="./../../">
+<attribute name="name" nodeId="dffe5c9e">manage_defects</attribute>
+<attribute name="guid" nodeId="c86aa83e">_suh6UciQEe6KPaNasO6mNA</attribute>
+<attribute name="presentationName" nodeId="22a5a959">Manage Defects</attribute>
+<attribute name="briefDescription" nodeId="b724e414">Log and track defects based on the defect management process and standards.</attribute>
+<attribute name="suppressed" nodeId="b1e05941">false</attribute>
+<attribute name="orderingGuide" nodeId="a3103ed5"></attribute>
+<attribute name="isAbstract" nodeId="eeb21650">false</attribute>
+<attribute name="shapeicon" nodeId="d8c17c91"></attribute>
+<attribute name="nodeicon" nodeId="cdd08ba"></attribute>
+<attribute name="prefix" nodeId="45176348"></attribute>
+<attribute name="isPlanned" nodeId="aa686d75">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="afcb1a03">false</attribute>
+<attribute name="isOptional" nodeId="694aa526">false</attribute>
+<attribute name="isRepeatable" nodeId="10384ff5">false</attribute>
+<attribute name="isOngoing" nodeId="c0125dc0">false</attribute>
+<attribute name="isEventDriven" nodeId="dc79879">false</attribute>
+<attribute name="variabilityType" nodeId="f54af30">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_MDTAwcOOEe6pmdl9Vi4qww,_suh6UciQEe6KPaNasO6mNA,_0FdEkMiQEe6KPaNasO6mNA" ConcreteType="Task" Url="practice.ita.delv.test_mgmt.base/tasks/analyze_priority_rte_defects_BA831805.html" Name="analyze_priority_rte_defects" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Analyze, prioritize and route defects" Id="_0FdEkMiQEe6KPaNasO6mNA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="b8ae0573">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="ff60963c" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="10006967">eya_oracle</attribute>
+<attribute name="guid" nodeId="c3690243">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="45937647">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="e1f6cfaa"></attribute>
+<attribute name="suppressed" nodeId="3e363439">false</attribute>
+<attribute name="orderingGuide" nodeId="2d0f2d2"></attribute>
+<attribute name="isAbstract" nodeId="d88e609f">false</attribute>
+<attribute name="shapeicon" nodeId="6eb95046"></attribute>
+<attribute name="nodeicon" nodeId="8f74a4b"></attribute>
+<attribute name="prefix" nodeId="a1a472c0"></attribute>
+<attribute name="isPlanned" nodeId="8987b37b">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="456281a">false</attribute>
+<attribute name="isOptional" nodeId="c0594646">false</attribute>
+<attribute name="isRepeatable" nodeId="adb59472">false</attribute>
+<attribute name="isOngoing" nodeId="6b718ef9">false</attribute>
+<attribute name="isEventDriven" nodeId="fb5771f7">false</attribute>
+<attribute name="variabilityType" nodeId="73e08b88">replaces</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Progressive Build" Id="_c4A0kYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA" nodeId="839b0ca4" Url="process.adv.eya_oracle.base/deliveryprocesses/progressive_build_70B7DD74.html" Name="progressive_build" BackPath="./../../">
+<attribute name="name" nodeId="21f8d11d">progressive_build</attribute>
+<attribute name="guid" nodeId="2e69857d">_c4A0kYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="c844643f">Progressive Build</attribute>
+<attribute name="briefDescription" nodeId="21c59f64">Iterate through the build cycles and drive business acceptance through incremental demos to key client stakeholders. Execute mock conversions and and prepare for system integration and user acceptance testing. Manage stakeholder engagement and communications around the change.</attribute>
+<attribute name="suppressed" nodeId="6acd5eb8">false</attribute>
+<attribute name="orderingGuide" nodeId="c9091a36"></attribute>
+<attribute name="isAbstract" nodeId="6992a92f">false</attribute>
+<attribute name="shapeicon" nodeId="dbeb5dfc"></attribute>
+<attribute name="nodeicon" nodeId="9e315cdd"></attribute>
+<attribute name="prefix" nodeId="13b8c210"></attribute>
+<attribute name="isPlanned" nodeId="1b23dbea">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="cc19c114">false</attribute>
+<attribute name="isOptional" nodeId="33242907">false</attribute>
+<attribute name="isRepeatable" nodeId="edbe8406">true</attribute>
+<attribute name="isOngoing" nodeId="63d0050c">false</attribute>
+<attribute name="isEventDriven" nodeId="e198e877">false</attribute>
+<attribute name="variabilityType" nodeId="3db893d0">na</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Execute Build Cycles 1-n" Id="_Sd7D0duVEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_Sd7D0duVEe6TH6yb1zVWhw" nodeId="d4cbc692" Url="process.adv.eya_oracle.base/deliveryprocesses/execute_build_cycles_1_n_3FC12A80.html" Name="execute_build_cycles_1_n" BackPath="./../../">
+<attribute name="name" nodeId="7cc771ed">execute_build_cycles_1_n</attribute>
+<attribute name="guid" nodeId="b6dac699">_Sd7D0duVEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="7b3a4117">Execute Build Cycles 1-n</attribute>
+<attribute name="briefDescription" nodeId="6a993be0">Iterate through the build cycles by planning for each sprint, defining the technical and integration specifications and data conversion scripts and completing the configurations and development. Validate the builds and conduct demos with the client.</attribute>
+<attribute name="suppressed" nodeId="be594c7c">false</attribute>
+<attribute name="orderingGuide" nodeId="ef5f0fd0"></attribute>
+<attribute name="isAbstract" nodeId="4a936f45">false</attribute>
+<attribute name="shapeicon" nodeId="603f349f"></attribute>
+<attribute name="nodeicon" nodeId="26f166de"></attribute>
+<attribute name="prefix" nodeId="be3e382a"></attribute>
+<attribute name="isPlanned" nodeId="cebc3275">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="ed7ae77f">false</attribute>
+<attribute name="isOptional" nodeId="4a83fec1">false</attribute>
+<attribute name="isRepeatable" nodeId="5b6e7f87">true</attribute>
+<attribute name="isOngoing" nodeId="29ed2a72">false</attribute>
+<attribute name="isEventDriven" nodeId="bd12fc41">false</attribute>
+<attribute name="variabilityType" nodeId="e08b112c">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Execute Validation Testing" Id="_HhS7wTGYEe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_Sd7D0duVEe6TH6yb1zVWhw,_HhS7wTGYEe-TauTqJPNl_g" nodeId="68dc880c" Url="process.adv.eya_oracle.base/deliveryprocesses/execute_validation_testing_DEB32F16.html" Name="execute_validation_testing" BackPath="./../../">
+<attribute name="name" nodeId="7c4329f7">execute_validation_testing</attribute>
+<attribute name="guid" nodeId="dba84746">_HhS7wTGYEe-TauTqJPNl_g</attribute>
+<attribute name="presentationName" nodeId="cdbf7bb6">Execute Validation Testing</attribute>
+<attribute name="briefDescription" nodeId="d772eb3c">Plan, design, prepare for and execute end of cycle validation testing and address the defects.</attribute>
+<attribute name="suppressed" nodeId="83ee8258">false</attribute>
+<attribute name="orderingGuide" nodeId="bcba2927"></attribute>
+<attribute name="isAbstract" nodeId="8f660d28">false</attribute>
+<attribute name="shapeicon" nodeId="31fbd931"></attribute>
+<attribute name="nodeicon" nodeId="f1af615c"></attribute>
+<attribute name="prefix" nodeId="86f9ee2e"></attribute>
+<attribute name="isPlanned" nodeId="75fc02dc">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="4e3e1d8a">false</attribute>
+<attribute name="isOptional" nodeId="7b86e3f4">false</attribute>
+<attribute name="isRepeatable" nodeId="8a7e07ea">false</attribute>
+<attribute name="isOngoing" nodeId="9bc6c535">false</attribute>
+<attribute name="isEventDriven" nodeId="3facc17b">false</attribute>
+<attribute name="variabilityType" nodeId="27ecb593">extends</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Manage Defects" Id="_suh6UciQEe6KPaNasO6mNA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_MDTAwcOOEe6pmdl9Vi4qww,_suh6UciQEe6KPaNasO6mNA" nodeId="edcbdf55" Url="process.adv.eya_oracle.base/capabilitypatterns/manage_defects_D5D09CA4.html" Name="manage_defects" BackPath="./../../">
+<attribute name="name" nodeId="4ec53398">manage_defects</attribute>
+<attribute name="guid" nodeId="cf61d6f3">_suh6UciQEe6KPaNasO6mNA</attribute>
+<attribute name="presentationName" nodeId="97dfb543">Manage Defects</attribute>
+<attribute name="briefDescription" nodeId="feb7303c">Log and track defects based on the defect management process and standards.</attribute>
+<attribute name="suppressed" nodeId="3c3cc007">false</attribute>
+<attribute name="orderingGuide" nodeId="ce70cd78"></attribute>
+<attribute name="isAbstract" nodeId="4a23f8df">false</attribute>
+<attribute name="shapeicon" nodeId="46a18ad9"></attribute>
+<attribute name="nodeicon" nodeId="a7556f1d"></attribute>
+<attribute name="prefix" nodeId="18eaae2e"></attribute>
+<attribute name="isPlanned" nodeId="ad59a2ce">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="ad3efd9f">false</attribute>
+<attribute name="isOptional" nodeId="217eaea9">false</attribute>
+<attribute name="isRepeatable" nodeId="38c8148e">false</attribute>
+<attribute name="isOngoing" nodeId="5e5b2abc">false</attribute>
+<attribute name="isEventDriven" nodeId="3a74cd9d">false</attribute>
+<attribute name="variabilityType" nodeId="faadd905">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_JL-WocREEe6pmdl9Vi4qww,_PcaZ8MREEe6pmdl9Vi4qww" ConcreteType="Task" Url="practice.ita.delv.test_mgmt.base/tasks/analyze_priority_rte_defects_BA831805.html" Name="analyze_priority_rte_defects" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Analyze, prioritize and route defects" Id="_PcaZ8MREEe6pmdl9Vi4qww" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="55f20986">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Testing" Id="_XaP3oZLKEe6Ji6GnvvUfqw" relProcessPath="_XaP3oZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw" nodeId="81b130c6" Url="process.adv.eya_oracle.base/capabilitypatterns/testing_wkstrm_4068A774.html" Name="testing_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="2896b242">testing_wkstrm</attribute>
+<attribute name="guid" nodeId="967b1a95">_XaP3oZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="1c618484">Testing</attribute>
+<attribute name="briefDescription" nodeId="719dc45e"></attribute>
+<attribute name="suppressed" nodeId="8d5f58ae">false</attribute>
+<attribute name="orderingGuide" nodeId="48bc77aa"></attribute>
+<attribute name="isAbstract" nodeId="32dcefc2">false</attribute>
+<attribute name="shapeicon" nodeId="e115cb74"></attribute>
+<attribute name="nodeicon" nodeId="21b74fb"></attribute>
+<attribute name="prefix" nodeId="8bf3b6e5">workstream</attribute>
+<attribute name="isPlanned" nodeId="6fd80e8e">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="9e32738c">false</attribute>
+<attribute name="isOptional" nodeId="c119378e">false</attribute>
+<attribute name="isRepeatable" nodeId="3a8f1479">false</attribute>
+<attribute name="isOngoing" nodeId="6116ef07">false</attribute>
+<attribute name="isEventDriven" nodeId="35770fc1">false</attribute>
+<attribute name="variabilityType" nodeId="1b4b8ecd">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Monitor On-going Test Effort" Id="_JL-WocREEe6pmdl9Vi4qww" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_JL-WocREEe6pmdl9Vi4qww" nodeId="30d08cb6" Url="process.adv.eya_oracle.base/capabilitypatterns/monitor_on_going_test_effort_89859E80.html" Name="monitor_on_going_test_effort" BackPath="./../../">
+<attribute name="name" nodeId="85091b35">monitor_on_going_test_effort</attribute>
+<attribute name="guid" nodeId="61ee12c7">_JL-WocREEe6pmdl9Vi4qww</attribute>
+<attribute name="presentationName" nodeId="9588f27b">Monitor On-going Test Effort</attribute>
+<attribute name="briefDescription" nodeId="e04f218f">Monitor the overall progress of testing and capture and track defects based on defect management process and standards.</attribute>
+<attribute name="suppressed" nodeId="e743c9a8">false</attribute>
+<attribute name="orderingGuide" nodeId="55bf613a"></attribute>
+<attribute name="isAbstract" nodeId="1e961811">false</attribute>
+<attribute name="shapeicon" nodeId="2d11932d"></attribute>
+<attribute name="nodeicon" nodeId="2b88fcdd"></attribute>
+<attribute name="prefix" nodeId="d3d631f7"></attribute>
+<attribute name="isPlanned" nodeId="b844aea7">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="7338b215">false</attribute>
+<attribute name="isOptional" nodeId="1f2777f8">false</attribute>
+<attribute name="isRepeatable" nodeId="30998664">false</attribute>
+<attribute name="isOngoing" nodeId="85e60bac">false</attribute>
+<attribute name="isEventDriven" nodeId="c09ab864">false</attribute>
+<attribute name="variabilityType" nodeId="dcdfab81">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_XaP3oZLKEe6Ji6GnvvUfqw&amp;path=_XaP3oZLKEe6Ji6GnvvUfqw,_JL-WocREEe6pmdl9Vi4qww,_PcaZ8MREEe6pmdl9Vi4qww" ConcreteType="Task" Url="practice.ita.delv.test_mgmt.base/tasks/analyze_priority_rte_defects_BA831805.html" Name="analyze_priority_rte_defects" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Analyze, prioritize and route defects" Id="_PcaZ8MREEe6pmdl9Vi4qww" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="b29f6429">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="b2900486" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="3ab56ec5">eya_oracle</attribute>
+<attribute name="guid" nodeId="db6447ff">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="5120f993">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="d8407d89"></attribute>
+<attribute name="suppressed" nodeId="72188429">false</attribute>
+<attribute name="orderingGuide" nodeId="e1723dfa"></attribute>
+<attribute name="isAbstract" nodeId="15003493">false</attribute>
+<attribute name="shapeicon" nodeId="51bc5565"></attribute>
+<attribute name="nodeicon" nodeId="f83788ee"></attribute>
+<attribute name="prefix" nodeId="b53edcba"></attribute>
+<attribute name="isPlanned" nodeId="867d9bc7">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d4289c12">false</attribute>
+<attribute name="isOptional" nodeId="1e3caf2f">false</attribute>
+<attribute name="isRepeatable" nodeId="92003deb">false</attribute>
+<attribute name="isOngoing" nodeId="93627ffc">false</attribute>
+<attribute name="isEventDriven" nodeId="931322ca">false</attribute>
+<attribute name="variabilityType" nodeId="720cdc77">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Test" Id="_esTcsYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA" nodeId="5bb4c051" Url="process.adv.eya_oracle.base/deliveryprocesses/test_E5EB30E9.html" Name="test" BackPath="./../../">
+<attribute name="name" nodeId="c561a8e3">test</attribute>
+<attribute name="guid" nodeId="8653a275">_esTcsYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="85036a1c">Test</attribute>
+<attribute name="briefDescription" nodeId="8663b4ba">Perform tests on the integrated Oracle services solution and prepare for cutover and deployment. Additionally, design and prepare training materials.</attribute>
+<attribute name="suppressed" nodeId="9b066815">false</attribute>
+<attribute name="orderingGuide" nodeId="6b20c46f"></attribute>
+<attribute name="isAbstract" nodeId="8c501e1b">false</attribute>
+<attribute name="shapeicon" nodeId="a67d5b18"></attribute>
+<attribute name="nodeicon" nodeId="4fe84f4d"></attribute>
+<attribute name="prefix" nodeId="ee3d17b0"></attribute>
+<attribute name="isPlanned" nodeId="56bf40b7">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="680f1834">false</attribute>
+<attribute name="isOptional" nodeId="335608cc">false</attribute>
+<attribute name="isRepeatable" nodeId="9e87a26d">false</attribute>
+<attribute name="isOngoing" nodeId="4b895264">false</attribute>
+<attribute name="isEventDriven" nodeId="eb3813ee">false</attribute>
+<attribute name="variabilityType" nodeId="b0f8dc1">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Monitor On-going Test Effort" Id="_Fbx5kTHAEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_Fbx5kTHAEe-ymZgH1AiGoQ" nodeId="23297e05" Url="process.adv.eya_oracle.base/deliveryprocesses/monitor_on_going_test_effort_9F7F9A4.html" Name="monitor_on_going_test_effort" BackPath="./../../">
+<attribute name="name" nodeId="b898a866">monitor_on_going_test_effort</attribute>
+<attribute name="guid" nodeId="ff808e6a">_Fbx5kTHAEe-ymZgH1AiGoQ</attribute>
+<attribute name="presentationName" nodeId="bfea430c">Monitor On-going Test Effort</attribute>
+<attribute name="briefDescription" nodeId="55c70fc1">Monitor the overall progress of testing and capture and track defects based on defect management process and standards.</attribute>
+<attribute name="suppressed" nodeId="6f286d46">false</attribute>
+<attribute name="orderingGuide" nodeId="5199192"></attribute>
+<attribute name="isAbstract" nodeId="ac37c56b">false</attribute>
+<attribute name="shapeicon" nodeId="e0868809"></attribute>
+<attribute name="nodeicon" nodeId="c3215f39"></attribute>
+<attribute name="prefix" nodeId="6a1e3b5f"></attribute>
+<attribute name="isPlanned" nodeId="a10ec3b3">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="e996b977">false</attribute>
+<attribute name="isOptional" nodeId="4013d1aa">false</attribute>
+<attribute name="isRepeatable" nodeId="80ed19fa">false</attribute>
+<attribute name="isOngoing" nodeId="6c7b5900">false</attribute>
+<attribute name="isEventDriven" nodeId="97982ea6">false</attribute>
+<attribute name="variabilityType" nodeId="d4581528">extends</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

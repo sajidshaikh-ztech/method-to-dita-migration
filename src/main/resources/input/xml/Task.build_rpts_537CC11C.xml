@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" TypeName="Task" Url="process.adv.eya_oracle.base/tasks/build_rpts_537CC11C.html" Name="build_rpts" BackPath="./../../" Type="Task" NodeiconUrl="" performingRoleName="Application Developer" DisplayName="Build reports" Id="_ti54MDF4Ee-TauTqJPNl_g" ShapeiconUrl="images/task.gif" lang="en" nodeId="6bf8a361">
+<copyright nodeId="fdcc48cc">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="378cb81b">build_rpts</attribute>
+<attribute name="guid" nodeId="3fc36acd">_ti54MDF4Ee-TauTqJPNl_g</attribute>
+<attribute name="presentationName" nodeId="7da2447a">Build reports</attribute>
+<attribute name="briefDescription" nodeId="c02a560c">Construct reports based on the design specifications, review any open defects discovered during unit testing or demonstration of the software package components, and address root causes of issues.</attribute>
+<attribute name="suppressed" nodeId="c9dd951d">false</attribute>
+<attribute name="orderingGuide" nodeId="bb3fcdf8"></attribute>
+<attribute name="isAbstract" nodeId="60b6cd35">false</attribute>
+<attribute name="shapeicon" nodeId="254bcd76"></attribute>
+<attribute name="nodeicon" nodeId="f4cfb7bb"></attribute>
+<attribute name="variabilityType" nodeId="df51f50e">extendsReplaces</attribute>
+<reference name="presentation" nodeId="e9c107e4">
+<Element Type="TaskDescription" TypeName="Task Description" NodeiconUrl="" DisplayName="" Id="-IFFLN-bQgBp42dJg1Po9kA" ShapeiconUrl="images/guidance.gif" nodeId="d4a3cedb" Url="" Name="build_rpts,_ti54MDF4Ee-TauTqJPNl_g" BackPath="">
+<attribute name="name" nodeId="a77f49c9">build_rpts,_ti54MDF4Ee-TauTqJPNl_g</attribute>
+<attribute name="guid" nodeId="f423ae84">-IFFLN-bQgBp42dJg1Po9kA</attribute>
+<attribute name="presentationName" nodeId="745e6d3d"></attribute>
+<attribute name="briefDescription" nodeId="e82d7f30"></attribute>
+<attribute name="suppressed" nodeId="c0cfe074">false</attribute>
+<attribute name="orderingGuide" nodeId="4f26e847"></attribute>
+<attribute name="authors" nodeId="6fb4769"></attribute>
+<attribute name="changeDate" nodeId="51294ce3"></attribute>
+<attribute name="changeDescription" nodeId="67ec91cd">Aug 2014 - baseline|</attribute>
+<attribute name="version" nodeId="6bce1504"></attribute>
+<attribute name="mainDescription" nodeId="e862b2dd">Develop the package reports according to the specifications. This typically requires using a package-specific report
+editor. Refer to guidance documents for any package-specific considerations.</attribute>
+<attribute name="externalId" nodeId="876313f7"></attribute>
+<attribute name="keyConsiderations" nodeId="c0fd0ad7"></attribute>
+<attribute name="longPresentationName" nodeId="b87642a4"></attribute>
+<attribute name="purpose" nodeId="4883de1b">To develop the customized or packaged reports requested by stakeholders.</attribute>
+<attribute name="alternatives" nodeId="d24216b3"></attribute>
+<referenceList sortValue="Manual" name="sections" nodeId="1e6a67fc">
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Review design specifications" Id="_Cb6t0Kp-EeS-xozEsogeWg" ShapeiconUrl="images/guidance.gif" nodeId="1fde9e0b" Url="" Name="Review design specifications" BackPath="">
+<copyright nodeId="ee8e0cb9">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="b632cd97">Review design specifications</attribute>
+<attribute name="guid" nodeId="84b1f8e3">_Cb6t0Kp-EeS-xozEsogeWg</attribute>
+<attribute name="presentationName" nodeId="463a7d9c">Review design specifications</attribute>
+<attribute name="briefDescription" nodeId="4457cff"></attribute>
+<attribute name="suppressed" nodeId="53232f84">false</attribute>
+<attribute name="orderingGuide" nodeId="67d9d202"></attribute>
+<attribute name="variabilityType" nodeId="5404c294">na</attribute>
+<attribute name="sectionName" nodeId="826a6972"></attribute>
+<attribute name="sectionDescription" nodeId="ed6388e2">Review the reporting specifications and mock-up designs&amp;nbsp;to ensure that&amp;nbsp;reports are developed as per the
+requirements of the stakeholders.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="e5673ee6">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Ik-HINEgEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/build_rpts_537CC11C.html" Name="build_rpts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Build reports" Id="_Ik-HINEgEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="a0bc7c97"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Review development and configuration standards" Id="__uvV4Kp9EeS-xozEsogeWg" ShapeiconUrl="images/guidance.gif" nodeId="85a11313" Url="" Name="Review development and configuration standards" BackPath="">
+<copyright nodeId="894da785">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="81be09e">Review development and configuration standards</attribute>
+<attribute name="guid" nodeId="557bde2a">__uvV4Kp9EeS-xozEsogeWg</attribute>
+<attribute name="presentationName" nodeId="a3613633">Review development and configuration standards</attribute>
+<attribute name="briefDescription" nodeId="afdc1ac4"></attribute>
+<attribute name="suppressed" nodeId="6d4473ea">false</attribute>
+<attribute name="orderingGuide" nodeId="2452feec"></attribute>
+<attribute name="variabilityType" nodeId="4a2c171f">na</attribute>
+<attribute name="sectionName" nodeId="66213bd"></attribute>
+<attribute name="sectionDescription" nodeId="71ae784">Review development and configuration standards&amp;nbsp;so that&amp;nbsp;all necessary elements are considered during coding and
+setting up of configuration parameters.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="d2484bf5">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Ik-HINEgEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/build_rpts_537CC11C.html" Name="build_rpts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Build reports" Id="_Ik-HINEgEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="6e25c558"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Review any reported report defects and determine root causes" Id="_DGBawKp-EeS-xozEsogeWg" ShapeiconUrl="images/guidance.gif" nodeId="7330f195" Url="" Name="Review any reported report defects and determine root causes" BackPath="">
+<copyright nodeId="943bbded">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="8c83460d">Review any reported report defects and determine root causes</attribute>
+<attribute name="guid" nodeId="4d4f4ba1">_DGBawKp-EeS-xozEsogeWg</attribute>
+<attribute name="presentationName" nodeId="d1b5312">Review any reported report defects and determine root causes</attribute>
+<attribute name="briefDescription" nodeId="686b9d3c"></attribute>
+<attribute name="suppressed" nodeId="cae91dfc">false</attribute>
+<attribute name="orderingGuide" nodeId="739d135f"></attribute>
+<attribute name="variabilityType" nodeId="c35dea67">na</attribute>
+<attribute name="sectionName" nodeId="b819f83"></attribute>
+<attribute name="sectionDescription" nodeId="f1a145c4">For existing reports, review any&amp;nbsp;report defects to determine cause, effect, and resolution. If applicable, check out
+the form object from the version control system. Update any defect tracking tools used to communicate status to the rest of
+the team.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="8ab4bf27">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Ik-HINEgEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/build_rpts_537CC11C.html" Name="build_rpts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Build reports" Id="_Ik-HINEgEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="f2c03bd4"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Develop report objects" Id="_FAwpIKp-EeS-xozEsogeWg" ShapeiconUrl="images/guidance.gif" nodeId="3d92557b" Url="" Name="Develop report objects" BackPath="">
+<copyright nodeId="8cad7528">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="587f67a5">Develop report objects</attribute>
+<attribute name="guid" nodeId="7621a76f">_FAwpIKp-EeS-xozEsogeWg</attribute>
+<attribute name="presentationName" nodeId="798a8037">Develop report objects</attribute>
+<attribute name="briefDescription" nodeId="81fb775c"></attribute>
+<attribute name="suppressed" nodeId="93c4038e">false</attribute>
+<attribute name="orderingGuide" nodeId="f068e1f4"></attribute>
+<attribute name="variabilityType" nodeId="5a1471df">na</attribute>
+<attribute name="sectionName" nodeId="32806805"></attribute>
+<attribute name="sectionDescription" nodeId="b92acf44">&lt;p&gt;
+    If a package is being used, develop the package application reports according to design specifications, and as
+    prioritized by the software development plan. Inform functional design team of any design issues due to technical
+    limitations.
+&lt;/p&gt;
+&lt;p&gt;
+    If customized reports are&amp;nbsp;to be&amp;nbsp;developed, ensure that the appropriate development standards are being
+    followed.
+&lt;/p&gt;
+&lt;p&gt;
+    As the reports are developed, keep the following in mind:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Basic error handling, messages and audit trail
+    &lt;/li&gt;
+    &lt;li&gt;
+        Calculation field overflows and errors (e.g. dividing by zero)
+    &lt;/li&gt;
+    &lt;li&gt;
+        Field formatting (layout accuracy, decodes, pagination, headers, footers, tabs, currency, decimals)
+    &lt;/li&gt;
+    &lt;li&gt;
+        Selection criteria all work (WHERE clause completeness)
+    &lt;/li&gt;
+    &lt;li&gt;
+        Calculation correctness (summation and grouping)
+    &lt;/li&gt;
+    &lt;li&gt;
+        Time/date/user stamps complete
+    &lt;/li&gt;
+    &lt;li&gt;
+        Printing and downloading if specified
+    &lt;/li&gt;
+    &lt;li&gt;
+        Sufficiently commented code
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="84d1391c">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Ik-HINEgEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/build_rpts_537CC11C.html" Name="build_rpts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Build reports" Id="_Ik-HINEgEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="13acbe00"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Create accompanying documentation" Id="_FVuzkKp-EeS-xozEsogeWg" ShapeiconUrl="images/guidance.gif" nodeId="30d6a911" Url="" Name="Create accompanying documentation" BackPath="">
+<copyright nodeId="b0494aac">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="4ca7eae3">Create accompanying documentation</attribute>
+<attribute name="guid" nodeId="6a210a27">_FVuzkKp-EeS-xozEsogeWg</attribute>
+<attribute name="presentationName" nodeId="7269948e">Create accompanying documentation</attribute>
+<attribute name="briefDescription" nodeId="84db7271"></attribute>
+<attribute name="suppressed" nodeId="dc13c609">false</attribute>
+<attribute name="orderingGuide" nodeId="4564fd12"></attribute>
+<attribute name="variabilityType" nodeId="6583328">na</attribute>
+<attribute name="sectionName" nodeId="5489e634"></attribute>
+<attribute name="sectionDescription" nodeId="5a63592">Document important or complex functionality that may need to be referenced later by the maintenance and support team.&amp;nbsp;
+For example, create report documentation on any custom fields, formulas, or formats.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="992a7ad3">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Ik-HINEgEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/build_rpts_537CC11C.html" Name="build_rpts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Build reports" Id="_Ik-HINEgEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="c7a72eb9"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Unit test report objects" Id="_ImwfcKp-EeS-xozEsogeWg" ShapeiconUrl="images/guidance.gif" nodeId="a2964a8" Url="" Name="Unit test report objects" BackPath="">
+<copyright nodeId="e36d1095">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="8a92f037">Unit test report objects</attribute>
+<attribute name="guid" nodeId="c70df61">_ImwfcKp-EeS-xozEsogeWg</attribute>
+<attribute name="presentationName" nodeId="8e94a6c6">Unit test report objects</attribute>
+<attribute name="briefDescription" nodeId="b6b132d3"></attribute>
+<attribute name="suppressed" nodeId="2b509beb">false</attribute>
+<attribute name="orderingGuide" nodeId="3ce4e0de"></attribute>
+<attribute name="variabilityType" nodeId="2facb331">na</attribute>
+<attribute name="sectionName" nodeId="240f0241"></attribute>
+<attribute name="sectionDescription" nodeId="89c09703">&lt;p&gt;
+    Develop and perform unit test cases based on:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Business and technical requirements
+    &lt;/li&gt;
+    &lt;li&gt;
+        Expected behavior of the reporting object
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    Unit test cases should be independent of each other to ensure robustness and to simplify maintenance.&lt;br /&gt;
+    &lt;br /&gt;
+    Automate the test cases such that they can be executed on a regular basis.&lt;br /&gt;
+&lt;/p&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="f56892e1">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Ik-HINEgEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/build_rpts_537CC11C.html" Name="build_rpts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Build reports" Id="_Ik-HINEgEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="f3239ba6"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Check in report objects to version control system" Id="_Kt2HwKp-EeS-xozEsogeWg" ShapeiconUrl="images/guidance.gif" nodeId="11cc8cd" Url="" Name="Check in report objects to version control system" BackPath="">
+<copyright nodeId="88af2357">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="2b6d8359">Check in report objects to version control system</attribute>
+<attribute name="guid" nodeId="6ea0304e">_Kt2HwKp-EeS-xozEsogeWg</attribute>
+<attribute name="presentationName" nodeId="332ad5f4">Check in report objects to version control system</attribute>
+<attribute name="briefDescription" nodeId="4574f913"></attribute>
+<attribute name="suppressed" nodeId="f3ae5b0f">false</attribute>
+<attribute name="orderingGuide" nodeId="6114e201"></attribute>
+<attribute name="variabilityType" nodeId="8265bf23">na</attribute>
+<attribute name="sectionName" nodeId="73b43f6b"></attribute>
+<attribute name="sectionDescription" nodeId="4f899b1d">When changes are being made to report objects, they are checked out for editing to prevent corruption by others. Once
+updates are completed, they should be checked in again so that version control can be maintained for future edits.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="9abaf79a">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Ik-HINEgEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/build_rpts_537CC11C.html" Name="build_rpts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Build reports" Id="_Ik-HINEgEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="dbc53f64"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Update requirements traceability matrix" Id="_L6nc4Kp-EeS-xozEsogeWg" ShapeiconUrl="images/guidance.gif" nodeId="eb772ad6" Url="" Name="Update requirements traceability matrix" BackPath="">
+<copyright nodeId="3b79ac7c">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="cca92d39">Update requirements traceability matrix</attribute>
+<attribute name="guid" nodeId="68417371">_L6nc4Kp-EeS-xozEsogeWg</attribute>
+<attribute name="presentationName" nodeId="fa70a3c6">Update requirements traceability matrix</attribute>
+<attribute name="briefDescription" nodeId="51303b6c"></attribute>
+<attribute name="suppressed" nodeId="60ef2074">false</attribute>
+<attribute name="orderingGuide" nodeId="870f0147"></attribute>
+<attribute name="variabilityType" nodeId="98e1d63d">na</attribute>
+<attribute name="sectionName" nodeId="76d1268f"></attribute>
+<attribute name="sectionDescription" nodeId="39aa0432">Open the requirements traceability matrix document and input the report object names to the associated design
+specifications and requirement IDs.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="40186836">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Ik-HINEgEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/build_rpts_537CC11C.html" Name="build_rpts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Build reports" Id="_Ik-HINEgEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="e9eab606"></Element>
+</referenceList>
+</Element>
+</referenceList>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="guidelines" nodeId="f849dd92">
+<Element Type="Guideline" TypeName="Guideline" NodeiconUrl="" DisplayName="OLAP report development" Id="_smntsJxUEeSP76v-BlOf3Q" ShapeiconUrl="images/guidance.gif" nodeId="f24723cf" Url="practice.ita.delv.rpt_info_mgmt.base/guidances/guidelines/olap_rep_dev_A4F11325.html" Name="olap_rep_dev" BackPath="./../../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="performedBy" nodeId="8d59fff4">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Application Developer" Id="_kWXJsTYfEeOOP7mzKGsP2A" ShapeiconUrl="images/role.gif" nodeId="5f968491" Url="core.default.role_def.base/roles/app_developer_8EC93FA7.html" Name="app_developer" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="mandatoryInput" nodeId="ffcdeb90">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Report Mock-ups" Id="_-mKgQI_OEeSIwd3evKddXQ" ShapeiconUrl="images/artifact.gif" nodeId="a0828bf4" Url="core.i_t.common.base/workproducts/report_mockups_8EF5C766.html" Name="report_mockups" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Reporting Specifications " Id="_nj9-EAxHEeSH-8b382SNHg" ShapeiconUrl="images/artifact.gif" nodeId="a194b9a6" Url="core.i_t.common.base/workproducts/rpt_specs_2985A9E0.html" Name="rpt_specs" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="output" nodeId="74d1dacb">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Report Implementation" Id="_FERGIAw7EeSrGtL1-U_hTg" ShapeiconUrl="images/artifact.gif" nodeId="87f5005a" Url="core.i_t.common.base/workproducts/report_impl_A2D0C140.html" Name="report_impl" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="steps" nodeId="8d9ef11e">
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Review design specifications" Id="_Cb6t0Kp-EeS-xozEsogeWg" ShapeiconUrl="images/guidance.gif" nodeId="cb97ae62" Url="" Name="Review design specifications" BackPath="">
+<copyright nodeId="5a1d070d">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="84d719ad">Review design specifications</attribute>
+<attribute name="guid" nodeId="69b39462">_Cb6t0Kp-EeS-xozEsogeWg</attribute>
+<attribute name="presentationName" nodeId="ea53fdce">Review design specifications</attribute>
+<attribute name="briefDescription" nodeId="8f077c25"></attribute>
+<attribute name="suppressed" nodeId="f2ac01c8">false</attribute>
+<attribute name="orderingGuide" nodeId="b14cdf64"></attribute>
+<attribute name="variabilityType" nodeId="874a45c7">na</attribute>
+<attribute name="sectionName" nodeId="9dd648f1"></attribute>
+<attribute name="sectionDescription" nodeId="60d683b7">Review the reporting specifications and mock-up designs&amp;nbsp;to ensure that&amp;nbsp;reports are developed as per the
+requirements of the stakeholders.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="211bb8">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Ik-HINEgEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/build_rpts_537CC11C.html" Name="build_rpts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Build reports" Id="_Ik-HINEgEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="d767d679"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Review development and configuration standards" Id="__uvV4Kp9EeS-xozEsogeWg" ShapeiconUrl="images/guidance.gif" nodeId="bf46b8ea" Url="" Name="Review development and configuration standards" BackPath="">
+<copyright nodeId="58fdd444">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="9843300b">Review development and configuration standards</attribute>
+<attribute name="guid" nodeId="3ea20ac2">__uvV4Kp9EeS-xozEsogeWg</attribute>
+<attribute name="presentationName" nodeId="d4077ae0">Review development and configuration standards</attribute>
+<attribute name="briefDescription" nodeId="75b645ca"></attribute>
+<attribute name="suppressed" nodeId="bc0b4dfa">false</attribute>
+<attribute name="orderingGuide" nodeId="f594178d"></attribute>
+<attribute name="variabilityType" nodeId="b5b334b6">na</attribute>
+<attribute name="sectionName" nodeId="c76bc98c"></attribute>
+<attribute name="sectionDescription" nodeId="a9b6f53f">Review development and configuration standards&amp;nbsp;so that&amp;nbsp;all necessary elements are considered during coding and
+setting up of configuration parameters.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="7221ef2e">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Ik-HINEgEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/build_rpts_537CC11C.html" Name="build_rpts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Build reports" Id="_Ik-HINEgEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="92d90d32"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Review any reported report defects and determine root causes" Id="_DGBawKp-EeS-xozEsogeWg" ShapeiconUrl="images/guidance.gif" nodeId="950088c4" Url="" Name="Review any reported report defects and determine root causes" BackPath="">
+<copyright nodeId="308de054">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="2a03a5c9">Review any reported report defects and determine root causes</attribute>
+<attribute name="guid" nodeId="236e748f">_DGBawKp-EeS-xozEsogeWg</attribute>
+<attribute name="presentationName" nodeId="72abbb4a">Review any reported report defects and determine root causes</attribute>
+<attribute name="briefDescription" nodeId="8e29abea"></attribute>
+<attribute name="suppressed" nodeId="ed3144b5">false</attribute>
+<attribute name="orderingGuide" nodeId="d349fd4d"></attribute>
+<attribute name="variabilityType" nodeId="5d5bfa01">na</attribute>
+<attribute name="sectionName" nodeId="c7ef505f"></attribute>
+<attribute name="sectionDescription" nodeId="4dda5d35">For existing reports, review any&amp;nbsp;report defects to determine cause, effect, and resolution. If applicable, check out
+the form object from the version control system. Update any defect tracking tools used to communicate status to the rest of
+the team.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="ce1a3b87">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Ik-HINEgEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/build_rpts_537CC11C.html" Name="build_rpts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Build reports" Id="_Ik-HINEgEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="f798ff08"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Develop report objects" Id="_FAwpIKp-EeS-xozEsogeWg" ShapeiconUrl="images/guidance.gif" nodeId="545200f4" Url="" Name="Develop report objects" BackPath="">
+<copyright nodeId="9990e500">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="781bca74">Develop report objects</attribute>
+<attribute name="guid" nodeId="e390e504">_FAwpIKp-EeS-xozEsogeWg</attribute>
+<attribute name="presentationName" nodeId="2a2e34f2">Develop report objects</attribute>
+<attribute name="briefDescription" nodeId="62864fbd"></attribute>
+<attribute name="suppressed" nodeId="ceeb8fbf">false</attribute>
+<attribute name="orderingGuide" nodeId="793286cb"></attribute>
+<attribute name="variabilityType" nodeId="94788abd">na</attribute>
+<attribute name="sectionName" nodeId="fcf274cd"></attribute>
+<attribute name="sectionDescription" nodeId="1f632152">&lt;p&gt;
+    If a package is being used, develop the package application reports according to design specifications, and as
+    prioritized by the software development plan. Inform functional design team of any design issues due to technical
+    limitations.
+&lt;/p&gt;
+&lt;p&gt;
+    If customized reports are&amp;nbsp;to be&amp;nbsp;developed, ensure that the appropriate development standards are being
+    followed.
+&lt;/p&gt;
+&lt;p&gt;
+    As the reports are developed, keep the following in mind:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Basic error handling, messages and audit trail
+    &lt;/li&gt;
+    &lt;li&gt;
+        Calculation field overflows and errors (e.g. dividing by zero)
+    &lt;/li&gt;
+    &lt;li&gt;
+        Field formatting (layout accuracy, decodes, pagination, headers, footers, tabs, currency, decimals)
+    &lt;/li&gt;
+    &lt;li&gt;
+        Selection criteria all work (WHERE clause completeness)
+    &lt;/li&gt;
+    &lt;li&gt;
+        Calculation correctness (summation and grouping)
+    &lt;/li&gt;
+    &lt;li&gt;
+        Time/date/user stamps complete
+    &lt;/li&gt;
+    &lt;li&gt;
+        Printing and downloading if specified
+    &lt;/li&gt;
+    &lt;li&gt;
+        Sufficiently commented code
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="729c5215">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Ik-HINEgEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/build_rpts_537CC11C.html" Name="build_rpts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Build reports" Id="_Ik-HINEgEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="e4f724d1"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Create accompanying documentation" Id="_FVuzkKp-EeS-xozEsogeWg" ShapeiconUrl="images/guidance.gif" nodeId="3666ae7e" Url="" Name="Create accompanying documentation" BackPath="">
+<copyright nodeId="b20d7175">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="366929f3">Create accompanying documentation</attribute>
+<attribute name="guid" nodeId="f3362a80">_FVuzkKp-EeS-xozEsogeWg</attribute>
+<attribute name="presentationName" nodeId="2618e619">Create accompanying documentation</attribute>
+<attribute name="briefDescription" nodeId="a6084a44"></attribute>
+<attribute name="suppressed" nodeId="94854560">false</attribute>
+<attribute name="orderingGuide" nodeId="3256e8fa"></attribute>
+<attribute name="variabilityType" nodeId="2986cf4">na</attribute>
+<attribute name="sectionName" nodeId="d48092e7"></attribute>
+<attribute name="sectionDescription" nodeId="a71114c4">Document important or complex functionality that may need to be referenced later by the maintenance and support team.&amp;nbsp;
+For example, create report documentation on any custom fields, formulas, or formats.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="4c5d9283">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Ik-HINEgEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/build_rpts_537CC11C.html" Name="build_rpts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Build reports" Id="_Ik-HINEgEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="d531fe46"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Unit test report objects" Id="_ImwfcKp-EeS-xozEsogeWg" ShapeiconUrl="images/guidance.gif" nodeId="28ce75b7" Url="" Name="Unit test report objects" BackPath="">
+<copyright nodeId="3f1b704a">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="7b2d2357">Unit test report objects</attribute>
+<attribute name="guid" nodeId="2f292788">_ImwfcKp-EeS-xozEsogeWg</attribute>
+<attribute name="presentationName" nodeId="aaa15636">Unit test report objects</attribute>
+<attribute name="briefDescription" nodeId="1244b9ba"></attribute>
+<attribute name="suppressed" nodeId="ee2ced47">false</attribute>
+<attribute name="orderingGuide" nodeId="be2f584f"></attribute>
+<attribute name="variabilityType" nodeId="4fa0fc90">na</attribute>
+<attribute name="sectionName" nodeId="ea4e06ea"></attribute>
+<attribute name="sectionDescription" nodeId="4648f878">&lt;p&gt;
+    Develop and perform unit test cases based on:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Business and technical requirements
+    &lt;/li&gt;
+    &lt;li&gt;
+        Expected behavior of the reporting object
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    Unit test cases should be independent of each other to ensure robustness and to simplify maintenance.&lt;br /&gt;
+    &lt;br /&gt;
+    Automate the test cases such that they can be executed on a regular basis.&lt;br /&gt;
+&lt;/p&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="173fbecf">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Ik-HINEgEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/build_rpts_537CC11C.html" Name="build_rpts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Build reports" Id="_Ik-HINEgEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="ca372944"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Check in report objects to version control system" Id="_Kt2HwKp-EeS-xozEsogeWg" ShapeiconUrl="images/guidance.gif" nodeId="393b147f" Url="" Name="Check in report objects to version control system" BackPath="">
+<copyright nodeId="870115a0">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="90e5d108">Check in report objects to version control system</attribute>
+<attribute name="guid" nodeId="c31138ca">_Kt2HwKp-EeS-xozEsogeWg</attribute>
+<attribute name="presentationName" nodeId="68198843">Check in report objects to version control system</attribute>
+<attribute name="briefDescription" nodeId="2991fd6d"></attribute>
+<attribute name="suppressed" nodeId="77047d87">false</attribute>
+<attribute name="orderingGuide" nodeId="2f604070"></attribute>
+<attribute name="variabilityType" nodeId="68eab7c2">na</attribute>
+<attribute name="sectionName" nodeId="c64aa68b"></attribute>
+<attribute name="sectionDescription" nodeId="19a2a263">When changes are being made to report objects, they are checked out for editing to prevent corruption by others. Once
+updates are completed, they should be checked in again so that version control can be maintained for future edits.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="d8918968">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Ik-HINEgEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/build_rpts_537CC11C.html" Name="build_rpts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Build reports" Id="_Ik-HINEgEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="1f1467c0"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Update requirements traceability matrix" Id="_L6nc4Kp-EeS-xozEsogeWg" ShapeiconUrl="images/guidance.gif" nodeId="885f770c" Url="" Name="Update requirements traceability matrix" BackPath="">
+<copyright nodeId="e40726dd">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="a035af92">Update requirements traceability matrix</attribute>
+<attribute name="guid" nodeId="6b999a4c">_L6nc4Kp-EeS-xozEsogeWg</attribute>
+<attribute name="presentationName" nodeId="70c4214">Update requirements traceability matrix</attribute>
+<attribute name="briefDescription" nodeId="3d60078b"></attribute>
+<attribute name="suppressed" nodeId="96ebb970">false</attribute>
+<attribute name="orderingGuide" nodeId="1b6d7d6b"></attribute>
+<attribute name="variabilityType" nodeId="1463a1c3">na</attribute>
+<attribute name="sectionName" nodeId="ac411ad3"></attribute>
+<attribute name="sectionDescription" nodeId="6dd9d35c">Open the requirements traceability matrix document and input the report object names to the associated design
+specifications and requirement IDs.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="a153282d">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Ik-HINEgEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/build_rpts_537CC11C.html" Name="build_rpts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Build reports" Id="_Ik-HINEgEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="1e4996b1"></Element>
+</referenceList>
+</Element>
+</referenceList>
+<referenceList name="Task_TaskDescriptors" nodeId="e619cfac">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Ik-HINEgEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/build_rpts_537CC11C.html" Name="build_rpts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Build reports" Id="_Ik-HINEgEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="77160e8"></Element>
+</referenceList>
+<referenceList name="VariabilityElement_ImmediateVarieties" nodeId="ea48314e"></referenceList>
+<reference name="performingRole" nodeId="fa61bf40">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Application Developer" Id="_kWXJsTYfEeOOP7mzKGsP2A" ShapeiconUrl="images/role.gif" nodeId="dc8b0499" Url="core.default.role_def.base/roles/app_developer_8EC93FA7.html" Name="app_developer" BackPath="./../../"></Element>
+</reference>
+<referenceList name="customCategories" nodeId="99a8bce2">
+<Element Type="CustomCategory" TypeName="Custom Category" NodeiconUrl="" DisplayName="Tasks" Id="_0Sj48KDNEeOMmqbYX27PPA" ShapeiconUrl="core.default.nav_view.base/customcategories/resources/cat_task51.png" nodeId="7befcf0e" Url="core.default.nav_view.base/customcategories/task_list_CDC9CEA6.html" Name="task_list" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="4ce6f1ad">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Ik-HINEgEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/build_rpts_537CC11C.html" Name="build_rpts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Build reports" Id="_Ik-HINEgEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="c9dcd41e">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Development" Id="_N-58wdAOEe6H-rjlu9wPlA" relProcessPath="_N-58wdAOEe6H-rjlu9wPlA" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA" nodeId="afc29a0d" Url="process.adv.eya_oracle.base/capabilitypatterns/development_wkstrm_21C01F87.html" Name="development_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="d803b87f">development_wkstrm</attribute>
+<attribute name="guid" nodeId="5a8cb09b">_N-58wdAOEe6H-rjlu9wPlA</attribute>
+<attribute name="presentationName" nodeId="969e0f68">Development</attribute>
+<attribute name="briefDescription" nodeId="6de14fe1"></attribute>
+<attribute name="suppressed" nodeId="d6586fd">false</attribute>
+<attribute name="orderingGuide" nodeId="aa7a8e8f"></attribute>
+<attribute name="isAbstract" nodeId="d8606f55">false</attribute>
+<attribute name="shapeicon" nodeId="e9d5673f"></attribute>
+<attribute name="nodeicon" nodeId="5f5574f1"></attribute>
+<attribute name="prefix" nodeId="23e5bb9d">workstream</attribute>
+<attribute name="isPlanned" nodeId="edc3b0fc">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="4dc7dad9">false</attribute>
+<attribute name="isOptional" nodeId="3efc49a2">false</attribute>
+<attribute name="isRepeatable" nodeId="8a08e38">false</attribute>
+<attribute name="isOngoing" nodeId="3a6c6a43">false</attribute>
+<attribute name="isEventDriven" nodeId="b5e61bf1">false</attribute>
+<attribute name="variabilityType" nodeId="b6e8f4e0">na</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="[Execute Build Cycles 1-n]" Id="_LOhWgduYEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw" nodeId="e715c173" Url="process.adv.eya_oracle.base/capabilitypatterns/execute_build_cycles_1_n_6C160980.html" Name="execute_build_cycles_1_n" BackPath="./../../">
+<attribute name="name" nodeId="8909ba54">execute_build_cycles_1_n</attribute>
+<attribute name="guid" nodeId="7d3874db">_LOhWgduYEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="eb276330">[Execute Build Cycles 1-n]</attribute>
+<attribute name="briefDescription" nodeId="a5557df4">Set of activities and tasks to be performed by the Development workstream while executing build iterations 1-n, spanning from planning for each sprint through unit testing custom components.</attribute>
+<attribute name="suppressed" nodeId="67196c7b">false</attribute>
+<attribute name="orderingGuide" nodeId="f7f52aea"></attribute>
+<attribute name="isAbstract" nodeId="eef43a08">false</attribute>
+<attribute name="shapeicon" nodeId="2fa224df"></attribute>
+<attribute name="nodeicon" nodeId="fbef15cd"></attribute>
+<attribute name="prefix" nodeId="3890db32"></attribute>
+<attribute name="isPlanned" nodeId="fcb9d96a">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="731a248a">false</attribute>
+<attribute name="isOptional" nodeId="66d5fbbd">false</attribute>
+<attribute name="isRepeatable" nodeId="33ceae1d">true</attribute>
+<attribute name="isOngoing" nodeId="594d4b50">false</attribute>
+<attribute name="isEventDriven" nodeId="ea85c495">false</attribute>
+<attribute name="variabilityType" nodeId="84b1a27e">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Perform Development" Id="_ekqtsdDVEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA" nodeId="4f606d21" Url="process.adv.eya_oracle.base/capabilitypatterns/perf_dev_F5AECB4B.html" Name="perf_dev" BackPath="./../../">
+<attribute name="name" nodeId="c486a964">perf_dev</attribute>
+<attribute name="guid" nodeId="d2c678b2">_ekqtsdDVEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="9b5db334">Perform Development</attribute>
+<attribute name="briefDescription" nodeId="8e74d730">Develop the approved target state RICEFW objects per the tecnical design specifications and perform unit testing.</attribute>
+<attribute name="suppressed" nodeId="bcc92a68">false</attribute>
+<attribute name="orderingGuide" nodeId="9250f1e3"></attribute>
+<attribute name="isAbstract" nodeId="50b0e28c">false</attribute>
+<attribute name="shapeicon" nodeId="c323f8d5"></attribute>
+<attribute name="nodeicon" nodeId="d82a598d"></attribute>
+<attribute name="prefix" nodeId="70363e"></attribute>
+<attribute name="isPlanned" nodeId="f3c2c32a">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="b467d2a9">false</attribute>
+<attribute name="isOptional" nodeId="ed91914f">false</attribute>
+<attribute name="isRepeatable" nodeId="7764b8c7">false</attribute>
+<attribute name="isOngoing" nodeId="fa118bf1">false</attribute>
+<attribute name="isEventDriven" nodeId="97d1f413">false</attribute>
+<attribute name="variabilityType" nodeId="dd79e1cd">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Ik-HINEgEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/build_rpts_537CC11C.html" Name="build_rpts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Build reports" Id="_Ik-HINEgEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="e84d9733">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="85e70da3" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="d2d09606">eya_oracle</attribute>
+<attribute name="guid" nodeId="8aa66a06">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="9e2dd38">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="2eb5c178"></attribute>
+<attribute name="suppressed" nodeId="145c6900">false</attribute>
+<attribute name="orderingGuide" nodeId="a76f30ea"></attribute>
+<attribute name="isAbstract" nodeId="d76fceb1">false</attribute>
+<attribute name="shapeicon" nodeId="cf81407c"></attribute>
+<attribute name="nodeicon" nodeId="19769ea3"></attribute>
+<attribute name="prefix" nodeId="390c2274"></attribute>
+<attribute name="isPlanned" nodeId="eb11d8fb">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="4e656021">false</attribute>
+<attribute name="isOptional" nodeId="a6d13f3a">false</attribute>
+<attribute name="isRepeatable" nodeId="883fde7e">false</attribute>
+<attribute name="isOngoing" nodeId="6ed7b4c4">false</attribute>
+<attribute name="isEventDriven" nodeId="23f2d323">false</attribute>
+<attribute name="variabilityType" nodeId="518e2bd6">replaces</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Progressive Build" Id="_c4A0kYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA" nodeId="eb3f5f76" Url="process.adv.eya_oracle.base/deliveryprocesses/progressive_build_70B7DD74.html" Name="progressive_build" BackPath="./../../">
+<attribute name="name" nodeId="8ea63ff4">progressive_build</attribute>
+<attribute name="guid" nodeId="80ef11dd">_c4A0kYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="54847920">Progressive Build</attribute>
+<attribute name="briefDescription" nodeId="96ef90cd">Iterate through the build cycles and drive business acceptance through incremental demos to key client stakeholders. Execute mock conversions and and prepare for system integration and user acceptance testing. Manage stakeholder engagement and communications around the change.</attribute>
+<attribute name="suppressed" nodeId="7942a18a">false</attribute>
+<attribute name="orderingGuide" nodeId="deeaa050"></attribute>
+<attribute name="isAbstract" nodeId="c77029ac">false</attribute>
+<attribute name="shapeicon" nodeId="ebbf5553"></attribute>
+<attribute name="nodeicon" nodeId="301b3b3b"></attribute>
+<attribute name="prefix" nodeId="439d5482"></attribute>
+<attribute name="isPlanned" nodeId="1517db4">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="22f29e54">false</attribute>
+<attribute name="isOptional" nodeId="ea3441e0">false</attribute>
+<attribute name="isRepeatable" nodeId="b00b39c4">true</attribute>
+<attribute name="isOngoing" nodeId="5af8b0c1">false</attribute>
+<attribute name="isEventDriven" nodeId="e4d3a4f0">false</attribute>
+<attribute name="variabilityType" nodeId="ad99c352">na</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Execute Build Cycles 1-n" Id="_Sd7D0duVEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_Sd7D0duVEe6TH6yb1zVWhw" nodeId="8453812e" Url="process.adv.eya_oracle.base/deliveryprocesses/execute_build_cycles_1_n_3FC12A80.html" Name="execute_build_cycles_1_n" BackPath="./../../">
+<attribute name="name" nodeId="f2f657de">execute_build_cycles_1_n</attribute>
+<attribute name="guid" nodeId="30b4f709">_Sd7D0duVEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="29e658c1">Execute Build Cycles 1-n</attribute>
+<attribute name="briefDescription" nodeId="5b6271c6">Iterate through the build cycles by planning for each sprint, defining the technical and integration specifications and data conversion scripts and completing the configurations and development. Validate the builds and conduct demos with the client.</attribute>
+<attribute name="suppressed" nodeId="d1f248af">false</attribute>
+<attribute name="orderingGuide" nodeId="5749205d"></attribute>
+<attribute name="isAbstract" nodeId="80ea3d31">false</attribute>
+<attribute name="shapeicon" nodeId="9fd7be82"></attribute>
+<attribute name="nodeicon" nodeId="6a06f16a"></attribute>
+<attribute name="prefix" nodeId="fbdda432"></attribute>
+<attribute name="isPlanned" nodeId="1bb8e084">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="950ddf">false</attribute>
+<attribute name="isOptional" nodeId="6572b36e">false</attribute>
+<attribute name="isRepeatable" nodeId="52e5b40b">true</attribute>
+<attribute name="isOngoing" nodeId="c061ea4a">false</attribute>
+<attribute name="isEventDriven" nodeId="bcef1acc">false</attribute>
+<attribute name="variabilityType" nodeId="85e1d03b">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Perform Development" Id="_VRUbQTGGEe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_Sd7D0duVEe6TH6yb1zVWhw,_VRUbQTGGEe-TauTqJPNl_g" nodeId="996c4a8b" Url="process.adv.eya_oracle.base/deliveryprocesses/perf_dev_AB59AF.html" Name="perf_dev" BackPath="./../../">
+<attribute name="name" nodeId="ccc4595e">perf_dev</attribute>
+<attribute name="guid" nodeId="5b1a54a9">_VRUbQTGGEe-TauTqJPNl_g</attribute>
+<attribute name="presentationName" nodeId="713482da">Perform Development</attribute>
+<attribute name="briefDescription" nodeId="9d4bab16">Develop the approved target state RICEFW objects per the tecnical design specifications and perform unit testing.</attribute>
+<attribute name="suppressed" nodeId="4864edd">false</attribute>
+<attribute name="orderingGuide" nodeId="5a07bd43"></attribute>
+<attribute name="isAbstract" nodeId="9ce4e3b5">false</attribute>
+<attribute name="shapeicon" nodeId="380f0f47"></attribute>
+<attribute name="nodeicon" nodeId="a69f45d6"></attribute>
+<attribute name="prefix" nodeId="f80443d0"></attribute>
+<attribute name="isPlanned" nodeId="7e8bf1f9">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="5b8a2f4">false</attribute>
+<attribute name="isOptional" nodeId="981d8eb">false</attribute>
+<attribute name="isRepeatable" nodeId="3dddf203">false</attribute>
+<attribute name="isOngoing" nodeId="a3078b67">false</attribute>
+<attribute name="isEventDriven" nodeId="3e3f5841">false</attribute>
+<attribute name="variabilityType" nodeId="99ea285d">extends</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

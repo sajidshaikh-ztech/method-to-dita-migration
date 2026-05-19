@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Map requirements to user acceptance tests" Id="_XELc4DcIEeWiCuaOJ9Py2A" ShapeiconUrl="images/task.gif" lang="en" nodeId="412da57d" Url="practice.ita.delv.it_test.base/tasks/map_rqmts_to_uat_tests_3B57B4F2.html" Name="map_rqmts_to_uat_tests" BackPath="./../../">
+<copyright nodeId="4a3e16eb">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="6bab2e52">map_rqmts_to_uat_tests</attribute>
+<attribute name="guid" nodeId="e7276caf">_XELc4DcIEeWiCuaOJ9Py2A</attribute>
+<attribute name="presentationName" nodeId="d8ba9aca">Map requirements to user acceptance tests</attribute>
+<attribute name="briefDescription" nodeId="87968375">Map identified business requirements to the different test cycles, test cases, and scenarios. </attribute>
+<attribute name="suppressed" nodeId="c00100be">false</attribute>
+<attribute name="orderingGuide" nodeId="d8021f23"></attribute>
+<attribute name="isAbstract" nodeId="bbe04a10">false</attribute>
+<attribute name="shapeicon" nodeId="5849efdc"></attribute>
+<attribute name="nodeicon" nodeId="4987bb33"></attribute>
+<attribute name="variabilityType" nodeId="971b7d66">extends</attribute>
+<reference name="presentation" nodeId="b662580e">
+<Element Type="TaskDescription" TypeName="Task Description" NodeiconUrl="" DisplayName="Map requirements to user acceptance tests" Id="-tUxGfybUZHsP3ezWjerlfA" ShapeiconUrl="images/guidance.gif" nodeId="e19f4184" Url="" Name=",_XELc4DcIEeWiCuaOJ9Py2A" BackPath="">
+<copyright nodeId="cbef6e92">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="c3a80a3b">,_XELc4DcIEeWiCuaOJ9Py2A</attribute>
+<attribute name="guid" nodeId="c2c8e2cd">-tUxGfybUZHsP3ezWjerlfA</attribute>
+<attribute name="presentationName" nodeId="df463b5f">Map requirements to user acceptance tests</attribute>
+<attribute name="briefDescription" nodeId="60a20595"></attribute>
+<attribute name="suppressed" nodeId="414935c2">false</attribute>
+<attribute name="orderingGuide" nodeId="b55f882f"></attribute>
+<attribute name="authors" nodeId="7f792fa5"></attribute>
+<attribute name="changeDate" nodeId="76ceb1a5"></attribute>
+<attribute name="changeDescription" nodeId="9e374a96">OCT 2015 - Grammatical and style errors in the key considerations were fixed.|JUNE 2016: Added additonal text to main description. Use of test management tools  to maiantain RTM</attribute>
+<attribute name="version" nodeId="9d8b7b1e"></attribute>
+<attribute name="mainDescription" nodeId="4bf98ee1">&lt;ul&gt;
+    &lt;li&gt;
+        Review current Requirements Traceability Matrix (RTM)&amp;nbsp;for referential integrity
+    &lt;/li&gt;
+    &lt;li&gt;
+        Verify that all known requirements have been documented, i.e. scope updates have been incorporated into the RTM
+    &lt;/li&gt;
+    &lt;li&gt;
+        Review current test case inventory
+    &lt;/li&gt;
+    &lt;li&gt;
+        Reconcile RTM with test case inventory
+    &lt;/li&gt;
+    &lt;li&gt;
+        Resolve any discrepancies found by updating the RTM or creating new test cases as required
+    &lt;/li&gt;
+    &lt;li&gt;
+        Submit updated RTM for approval
+    &lt;/li&gt;
+    &lt;li&gt;
+        RTM can be maintained using test management tools (ex: HP ALM)
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="externalId" nodeId="f5fae06e"></attribute>
+<attribute name="keyConsiderations" nodeId="53dcea4">&lt;p&gt;
+    The RTM is tracking requirements from identification to process decomposition, to solution object, to test case.
+    Mapping requirements to test is the logical conclusion.
+&lt;/p&gt;
+&lt;p&gt;
+    Mapping all requirements gathered throughout the planning and design sessions to specific test cases is a key activity
+    to validate the designed target solution translates into the&amp;nbsp;implemented solution and is fit for purpose.
+&lt;/p&gt;
+&lt;p&gt;
+    Traceability may be captured manually with spreadsheets or with testing software. If the project is using testing
+    software there may be a data field to list the requirement; if this is not available, the mapping of requirements to
+    test should be tracked manually.
+&lt;/p&gt;
+&lt;p&gt;
+    Each functional team is responsible to make sure each and every requirement is linked to one or more test cases. In the
+    end, traceability should be established to demonstrate to stakeholders that all requirements have been tested.
+&lt;/p&gt;</attribute>
+<attribute name="longPresentationName" nodeId="6a3de8b4"></attribute>
+<attribute name="purpose" nodeId="636a2a88">To validate that&amp;nbsp;functional and technical requirements which correspond to user needs&amp;nbsp;have been identified and
+are accounted for in one or more test scripts.</attribute>
+<attribute name="alternatives" nodeId="c3a2dfb8"></attribute>
+</Element>
+</reference>
+<reference name="variabilityBasedOnElement" nodeId="8c92d441">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Map requirements to tests" Id="_WvJPgCtsEeWug-Xr2qMLsA" ShapeiconUrl="images/task.gif" nodeId="6249ddda" Url="practice.ita.delv.it_test.base/tasks/map_rqmts_to_tests_ACC0D0E9.html" Name="map_rqmts_to_tests" BackPath="./../../"></Element>
+</reference>
+<referenceList sortValue="Manual" name="performedBy" nodeId="975f8909">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Test Lead" Id="_Z11mxD8eEeOOEPaNsP0t0A" ShapeiconUrl="images/role.gif" nodeId="ec2be2e8" Url="core.default.role_def.base/roles/test_lead_3E7314F5.html" Name="test_lead" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="mandatoryInput" nodeId="87bc95be">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Requirements Traceability Matrix" Id="_7I8toC9GEeSJ-4uKHZ771A" ShapeiconUrl="images/artifact.gif" nodeId="850b0c38" Url="core.gen.common.base/workproducts/rqmts_traceability_matrix_6BABB1C5.html" Name="rqmts_traceability_matrix" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Test Case" Id="_ufvyIHncEeSYMYqbqbHk3g" ShapeiconUrl="images/artifact.gif" nodeId="80d4be60" Url="core.i_t.common.base/workproducts/test_case_8FD80E72.html" Name="test_case" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Test Scenario" Id="_5czZEOYBEeOqmb5IikO7mw" ShapeiconUrl="images/artifact.gif" nodeId="c17bd5fa" Url="core.i_t.common.base/workproducts/test_scenario_917A181F.html" Name="test_scenario" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="output" nodeId="337b4245">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Requirements Traceability Matrix" Id="_7I8toC9GEeSJ-4uKHZ771A" ShapeiconUrl="images/artifact.gif" nodeId="b248e1c7" Url="core.gen.common.base/workproducts/rqmts_traceability_matrix_6BABB1C5.html" Name="rqmts_traceability_matrix" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="Task_TaskDescriptors" nodeId="2f390622">
+<Element TypeName="Task Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_H1-eaJK6EeSEOeG-bGncjA,_jgl1QDc_EeWp1olIN1xWiA" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/map_rqmts_to_uat_tests_3B57B4F2.html" Name="map_rqmts_to_uat_tests" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Map requirements to user acceptance tests" Id="_jgl1QDc_EeWp1olIN1xWiA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="a3eb792f"></Element>
+</referenceList>
+<referenceList name="customCategories" nodeId="bd507532">
+<Element Type="CustomCategory" TypeName="Custom Category" NodeiconUrl="" DisplayName="Tasks" Id="_0Sj48KDNEeOMmqbYX27PPA" ShapeiconUrl="core.default.nav_view.base/customcategories/resources/cat_task51.png" nodeId="1df3690d" Url="core.default.nav_view.base/customcategories/task_list_CDC9CEA6.html" Name="task_list" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="3e077dbb">
+<Element TypeName="Task Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_H1-eaJK6EeSEOeG-bGncjA,_jgl1QDc_EeWp1olIN1xWiA" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/map_rqmts_to_uat_tests_3B57B4F2.html" Name="map_rqmts_to_uat_tests" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Map requirements to user acceptance tests" Id="_jgl1QDc_EeWp1olIN1xWiA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="d44b3f46">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="IT Testing (Levels)" Id="_HkiWIeW9EeOeOeyRJA3ZBg" relProcessPath="_HkiWIeW9EeOeOeyRJA3ZBg" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg" nodeId="56109155" Url="practice.ita.delv.it_test.assign/capabilitypatterns/it_test_levels_9A95B916.html" Name="it_test_levels" BackPath="./../../">
+<attribute name="name" nodeId="650cce96">it_test_levels</attribute>
+<attribute name="guid" nodeId="4f491520">_HkiWIeW9EeOeOeyRJA3ZBg</attribute>
+<attribute name="presentationName" nodeId="b3df8079">IT Testing (Levels)</attribute>
+<attribute name="briefDescription" nodeId="a4f4b37b"></attribute>
+<attribute name="suppressed" nodeId="cb56220c">false</attribute>
+<attribute name="orderingGuide" nodeId="ac773537"></attribute>
+<attribute name="isAbstract" nodeId="8587b579">false</attribute>
+<attribute name="shapeicon" nodeId="3ca69ad"></attribute>
+<attribute name="nodeicon" nodeId="591a8deb"></attribute>
+<attribute name="prefix" nodeId="de4a6f7d"></attribute>
+<attribute name="isPlanned" nodeId="a025e88c">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="632a1a4d">false</attribute>
+<attribute name="isOptional" nodeId="bce48ec0">false</attribute>
+<attribute name="isRepeatable" nodeId="127b0f9b">false</attribute>
+<attribute name="isOngoing" nodeId="225ea88b">false</attribute>
+<attribute name="isEventDriven" nodeId="a13f2681">false</attribute>
+<attribute name="variabilityType" nodeId="9b36ab71">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Design User Acceptance Tests" Id="_H1-eaJK6EeSEOeG-bGncjA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_H1-eaJK6EeSEOeG-bGncjA" nodeId="f30b527f" Url="practice.ita.delv.it_test.assign/capabilitypatterns/Design User Acceptance Tests_BCFE1573.html" Name="Design User Acceptance Tests" BackPath="./../../">
+<attribute name="name" nodeId="37c391b6">Design User Acceptance Tests</attribute>
+<attribute name="guid" nodeId="e444dca9">_H1-eaJK6EeSEOeG-bGncjA</attribute>
+<attribute name="presentationName" nodeId="fbba319b">Design User Acceptance Tests</attribute>
+<attribute name="briefDescription" nodeId="f74345d8">Define how business users can validate that the solution requirements meet user acceptance criteria.</attribute>
+<attribute name="suppressed" nodeId="bb62fb16">false</attribute>
+<attribute name="orderingGuide" nodeId="6630653"></attribute>
+<attribute name="isAbstract" nodeId="62644b8a">false</attribute>
+<attribute name="shapeicon" nodeId="5db7e825"></attribute>
+<attribute name="nodeicon" nodeId="b3c30af1"></attribute>
+<attribute name="prefix" nodeId="3a934a26"></attribute>
+<attribute name="isPlanned" nodeId="61ef55a6">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="b73c1fcf">false</attribute>
+<attribute name="isOptional" nodeId="bf5830b6">false</attribute>
+<attribute name="isRepeatable" nodeId="b9ecd289">false</attribute>
+<attribute name="isOngoing" nodeId="3309aa38">false</attribute>
+<attribute name="isEventDriven" nodeId="bd57801">false</attribute>
+<attribute name="variabilityType" nodeId="37ffc174">na</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element Type="Guideline" TypeName="Guideline" NodeiconUrl="" DisplayName="OLAP report development" Id="_smntsJxUEeSP76v-BlOf3Q" ShapeiconUrl="images/guidance.gif" lang="en" nodeId="138f6ec3" Url="practice.ita.delv.rpt_info_mgmt.base/guidances/guidelines/olap_rep_dev_A4F11325.html" Name="olap_rep_dev" BackPath="./../../../">
+<copyright nodeId="f51660e9">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="75d162ed">olap_rep_dev</attribute>
+<attribute name="guid" nodeId="3a89462f">_smntsJxUEeSP76v-BlOf3Q</attribute>
+<attribute name="presentationName" nodeId="91cb8d2b">OLAP report development</attribute>
+<attribute name="briefDescription" nodeId="c568db64"></attribute>
+<attribute name="suppressed" nodeId="e04d1a65">false</attribute>
+<attribute name="orderingGuide" nodeId="68f0109a"></attribute>
+<attribute name="isAbstract" nodeId="67118be2">false</attribute>
+<attribute name="shapeicon" nodeId="895ccf0f"></attribute>
+<attribute name="nodeicon" nodeId="35ea6b3c"></attribute>
+<attribute name="variabilityType" nodeId="ef4d7036">na</attribute>
+<reference name="presentation" nodeId="2687cbc6">
+<Element Type="ContentDescription" TypeName="Content Description" NodeiconUrl="" DisplayName="OLAP report development" Id="-ARbB_aJf9p9LATWLPuXGbg" ShapeiconUrl="images/guidance.gif" nodeId="be6ea7d" Url="" Name="olap_rep_dev,_smntsJxUEeSP76v-BlOf3Q" BackPath="">
+<copyright nodeId="e281bb40">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="a9b3e38f">olap_rep_dev,_smntsJxUEeSP76v-BlOf3Q</attribute>
+<attribute name="guid" nodeId="fe74148e">-ARbB_aJf9p9LATWLPuXGbg</attribute>
+<attribute name="presentationName" nodeId="a036f646">OLAP report development</attribute>
+<attribute name="briefDescription" nodeId="e53dd4"></attribute>
+<attribute name="suppressed" nodeId="4a9455a2">false</attribute>
+<attribute name="orderingGuide" nodeId="9ef71ac8"></attribute>
+<attribute name="authors" nodeId="6930d07e"></attribute>
+<attribute name="changeDate" nodeId="82b90699">Wed Mar 22 16:45:43 EDT 2023</attribute>
+<attribute name="changeDescription" nodeId="d052239c">MAR 2023 - moved brief description to main|AUG 2014 - baseline version</attribute>
+<attribute name="version" nodeId="ee1437a1"></attribute>
+<attribute name="mainDescription" nodeId="ac2ad212">&lt;p&gt;
+    A technique that assists with the generation of multidimensional reports.
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Online Analytical Processing (OLAP):&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    Historical data from multiple lines of business (LOB) is integrated from various systems in an aggregated form to
+    provide a broader landscape of the enterprise. This data contains numerous business categories, which are essential for
+    analytical purposes like data filtering and aggregation and hierarchical grouping. These business categories are
+    defined as dimensions (Product, LOB, Geography, Channel etc.) and the quantitative values captured around these
+    dimensions are called facts. This process is termed as OLAP and the corresponding multivariate data structures
+    containing pre-aggregated data are referred to as OLAP cubes.
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;OLAP Cubes:&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    OLAP cubes are used to generate predefined reports on a regular basis (canned/package reports) for both internal and
+    external audiences for various analytical purposes.&lt;br /&gt;
+    &lt;br /&gt;
+    OLAP cubes have a number of benefits for the end users. Aligning data as a cube and forming hierarchical dimensions
+    allows for simple and straightforward analysis in a number of ways such as a) slice and dice of data, b) drill up/drill
+    down of data, c) roll-up and pivot of data. In addition, since a cube is pre-summarized across dimensions this
+    drastically speeds up the query and output time over relational databases. The MDX query language is typically used to
+    interact with cubes.&lt;br /&gt;
+&lt;/p&gt;</attribute>
+<attribute name="externalId" nodeId="5a739a3d"></attribute>
+<attribute name="keyConsiderations" nodeId="7f16612c"></attribute>
+<attribute name="longPresentationName" nodeId="c6f3c7ae"></attribute>
+</Element>
+</reference>
+<referenceList name="Guideline_BreakdownElements" nodeId="94bea8b5">
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Ik-HINEgEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/build_rpts_537CC11C.html" Name="build_rpts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Build reports" Id="_Ik-HINEgEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="3865785"></Element>
+</referenceList>
+<referenceList name="Guideline_ContentElements" nodeId="36308cac">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Build reports" Id="_ti54MDF4Ee-TauTqJPNl_g" ShapeiconUrl="images/task.gif" nodeId="6c53536d" Url="process.adv.eya_oracle.base/tasks/build_rpts_537CC11C.html" Name="build_rpts" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="contentElements" nodeId="240fa9bc">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Build reports" Id="_ti54MDF4Ee-TauTqJPNl_g" ShapeiconUrl="images/task.gif" nodeId="129dbc0c" Url="process.adv.eya_oracle.base/tasks/build_rpts_537CC11C.html" Name="build_rpts" BackPath="./../../"></Element>
+</referenceList>
+</Element>

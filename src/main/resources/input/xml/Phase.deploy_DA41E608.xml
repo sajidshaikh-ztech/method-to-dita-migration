@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" TypeName="Phase" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA" Url="process.adv.eya_oracle.base/deliveryprocesses/deploy_DA41E608.html" Name="deploy" BackPath="./../../" Type="Phase" NodeiconUrl="" DisplayName="Deploy" Id="_fuFp0Ys6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" lang="en" nodeId="eb971e2d">
+<attribute name="name" nodeId="ebe2e41a">deploy</attribute>
+<attribute name="guid" nodeId="9269ced4">_fuFp0Ys6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="643e0e1e">Deploy</attribute>
+<attribute name="briefDescription" nodeId="856dd1a9">Deploy trainings to impacted stakeholders. Conduct data migration activities, confirm cutover readiness and perform the cutover.</attribute>
+<attribute name="suppressed" nodeId="9e820e6b">false</attribute>
+<attribute name="orderingGuide" nodeId="516600d3"></attribute>
+<attribute name="isAbstract" nodeId="c2bcfbfb">false</attribute>
+<attribute name="shapeicon" nodeId="bb3f4365"></attribute>
+<attribute name="nodeicon" nodeId="d8459f9d"></attribute>
+<attribute name="prefix" nodeId="9ebd9dc8"></attribute>
+<attribute name="isPlanned" nodeId="9b3b51bc">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="9e673238">false</attribute>
+<attribute name="isOptional" nodeId="16218e21">false</attribute>
+<attribute name="isRepeatable" nodeId="e65af401">false</attribute>
+<attribute name="isOngoing" nodeId="3ceb4180">false</attribute>
+<attribute name="isEventDriven" nodeId="ba081e20">false</attribute>
+<attribute name="variabilityType" nodeId="b0bde15d">na</attribute>
+<tabs nodeId="f3990a31">
+<tab name="Description" nodeId="728dfb7a" url="process.adv.eya_oracle.base/deliveryprocesses/deploy_DA41E608.html_desc.html"></tab>
+<tab name="WPBS" nodeId="b67b398d" url="process.adv.eya_oracle.base/deliveryprocesses/deploy_DA41E608.html_wpbs.html"></tab>
+<tab name="TBS" nodeId="aeb261bc" url="process.adv.eya_oracle.base/deliveryprocesses/deploy_DA41E608.html_tbs.html"></tab>
+<tab name="WBS" nodeId="313de243" url="process.adv.eya_oracle.base/deliveryprocesses/deploy_DA41E608.html_wbs.html"></tab>
+</tabs>
+<copyright nodeId="77a0f24b">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<referenceList sortValue="Manual" name="ownedRules" nodeId="35025d09">
+<Element Type="Constraint" TypeName="Constraint" NodeiconUrl="" DisplayName="diagram" Id="_H5zCwA6jEe-LXf6tWclvXQ" ShapeiconUrl="images/guidance.gif" nodeId="8dfcda77" Url="process.adv.eya_oracle.base/deliveryprocesses/diagram_E600412D.html" Name="diagram" BackPath="./../../"></Element>
+</referenceList>
+<reference name="presentation" nodeId="95851fcb">
+<Element Type="ActivityDescription" TypeName="Activity Description" NodeiconUrl="" DisplayName="" Id="-MAobmFv7bafZr5ocuff6uA" ShapeiconUrl="images/guidance.gif" nodeId="5612452" Url="" Name="deploy,_fuFp0Ys6Ee6Z58NF8Wy6XA" BackPath="">
+<attribute name="name" nodeId="887b0fe0">deploy,_fuFp0Ys6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="guid" nodeId="dc8990ae">-MAobmFv7bafZr5ocuff6uA</attribute>
+<attribute name="presentationName" nodeId="7cd992de"></attribute>
+<attribute name="briefDescription" nodeId="8b651651"></attribute>
+<attribute name="suppressed" nodeId="7ea2170c">false</attribute>
+<attribute name="orderingGuide" nodeId="9d2da2a4"></attribute>
+<attribute name="authors" nodeId="bd4032c"></attribute>
+<attribute name="changeDate" nodeId="7c71601e"></attribute>
+<attribute name="changeDescription" nodeId="566a1197"></attribute>
+<attribute name="version" nodeId="4a62676f"></attribute>
+<attribute name="mainDescription" nodeId="2fcc1e1"></attribute>
+<attribute name="externalId" nodeId="b30eb43f"></attribute>
+<attribute name="keyConsiderations" nodeId="8bb9fc56"></attribute>
+<attribute name="longPresentationName" nodeId="33021811"></attribute>
+<attribute name="usageGuidance" nodeId="731e6b78"></attribute>
+<attribute name="purpose" nodeId="3cd2f6f6"></attribute>
+<attribute name="alternatives" nodeId="a838ce89"></attribute>
+<attribute name="howtoStaff" nodeId="dce1b94d"></attribute>
+</Element>
+</reference>
+<reference name="superActivities" nodeId="6533db25">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="7b6de30d" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="374c7e5c">eya_oracle</attribute>
+<attribute name="guid" nodeId="dbb90546">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="33eae615">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="fb4a0ae3"></attribute>
+<attribute name="suppressed" nodeId="a3a784dc">false</attribute>
+<attribute name="orderingGuide" nodeId="1f5a3ff9"></attribute>
+<attribute name="isAbstract" nodeId="d92848ee">false</attribute>
+<attribute name="shapeicon" nodeId="d9521660"></attribute>
+<attribute name="nodeicon" nodeId="b746bca6"></attribute>
+<attribute name="prefix" nodeId="a9adba97"></attribute>
+<attribute name="isPlanned" nodeId="5ef4a3b">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="eaa1738a">false</attribute>
+<attribute name="isOptional" nodeId="e843453f">false</attribute>
+<attribute name="isRepeatable" nodeId="b0223a8c">false</attribute>
+<attribute name="isOngoing" nodeId="9429b236">false</attribute>
+<attribute name="isEventDriven" nodeId="fe88ec83">false</attribute>
+<attribute name="variabilityType" nodeId="db1b3b69">replaces</attribute>
+</Element>
+</reference>
+<breakdown name="Work Breakdown Structure" DisplayName="Deploy" nodeId="85a0a603">
+<columns nodeId="64956451">
+<column id="presentation_name" label="Name" nodeId="a187e1cd"></column>
+<column id="steps" label="Steps" nodeId="21644f63"></column>
+<column id="id" label="Index" nodeId="bc035b15"></column>
+<column id="predecessors" label="Predecessors" nodeId="de69b218"></column>
+<column id="model_info" label="Model Info" nodeId="e5cb36fa"></column>
+<column id="type" label="Type" nodeId="cffb3bf4"></column>
+<column id="prefix" label="Prefix" nodeId="cb88917d"></column>
+<column id="is_planned" label="Planned" nodeId="79c92267"></column>
+<column id="is_repeatable" label="Repeatable" nodeId="ea7d4518"></column>
+<column id="is_ongoing" label="Ongoing" nodeId="6980d81d"></column>
+<column id="is_event_driven" label="Event Driven" nodeId="69d6601a"></column>
+<column id="teams" label="Team" nodeId="55a21ad5"></column>
+</columns>
+<Element TypeName="Activity" ModelInfo="extends \&apos;deploy_training, process.adv.eya_oracle.base/org_chng_mgmt_training_wkstrm\&apos;; extends \&apos;deploy_training, practice.pas.perf.train_delivery.assign/train_delivery\&apos;" Index="305" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_6vkg8dsMEe6TH6yb1zVWhw" Url="process.adv.eya_oracle.base/deliveryprocesses/deploy_training_493BCB2F.html" Name="deploy_training" BackPath="./../../" Type="Activity" NodeiconUrl="" DisplayName="Deploy Training" Predecessors="" Team="" Id="_6vkg8dsMEe6TH6yb1zVWhw" relProcessPath=",_6vkg8dsMEe6TH6yb1zVWhw" ShapeiconUrl="images/activity.gif" ModelInfoKey="" nodeId="aa5c8c46">
+<attribute name="name" nodeId="722598ce">deploy_training</attribute>
+<attribute name="guid" nodeId="62cdcd4a">_6vkg8dsMEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="f45394c8">Deploy Training</attribute>
+<attribute name="briefDescription" nodeId="c57815f2">Support the delivery of virtual and instructor-led end-user trainings to impacted employees, track participation and evaluate the effectiveness of the training sessions.</attribute>
+<attribute name="suppressed" nodeId="37e8bfec">false</attribute>
+<attribute name="orderingGuide" nodeId="ba4f4b1d"></attribute>
+<attribute name="isAbstract" nodeId="b72629ac">false</attribute>
+<attribute name="shapeicon" nodeId="58a00e32"></attribute>
+<attribute name="nodeicon" nodeId="3197d9e6"></attribute>
+<attribute name="prefix" nodeId="84417180"></attribute>
+<attribute name="isPlanned" nodeId="60605160">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="472c5d4">false</attribute>
+<attribute name="isOptional" nodeId="b4c480fc">false</attribute>
+<attribute name="isRepeatable" nodeId="67f370e5">false</attribute>
+<attribute name="isOngoing" nodeId="1cf7cf86">false</attribute>
+<attribute name="isEventDriven" nodeId="98f333ca">false</attribute>
+<attribute name="variabilityType" nodeId="53081406">extends</attribute>
+<attribute name="prefix" nodeId="5294e352"></attribute>
+<attribute name="isEventDriven" nodeId="5ca627d9">false</attribute>
+<attribute name="isOngoing" nodeId="fa8cdffd">false</attribute>
+<attribute name="isOptional" nodeId="c7ff9b24">false</attribute>
+<attribute name="isPlanned" nodeId="e7dd2df2">true</attribute>
+<attribute name="isRepeatable" nodeId="a3514313">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="373be375">false</attribute>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="306" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_6vkg8dsMEe6TH6yb1zVWhw,_DnLDgGNdEeeIXt1F3AlowQ" ConcreteType="Task" Url="practice.pas.perf.train_delivery.base/tasks/conduct_pilot_training_2ED093DB.html" Name="conduct_pilot_training" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Conduct pilot training" Predecessors="" Team="" Id="_DnLDgGNdEeeIXt1F3AlowQ" relProcessPath=",_6vkg8dsMEe6TH6yb1zVWhw,_DnLDgGNdEeeIXt1F3AlowQ" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="98e12edf">
+<attribute name="prefix" nodeId="fa447893"></attribute>
+<attribute name="isEventDriven" nodeId="fedb1cde">false</attribute>
+<attribute name="isOngoing" nodeId="db998c85">false</attribute>
+<attribute name="isOptional" nodeId="4d42d9b4">false</attribute>
+<attribute name="isPlanned" nodeId="b025536d">true</attribute>
+<attribute name="isRepeatable" nodeId="d0122a64">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="b7036636">false</attribute>
+<Steps nodeId="b9a2080b">
+<Step index="0" nodeId="f7429c0e" selected="true"></Step>
+<Step index="1" nodeId="e0ccdf85" selected="true"></Step>
+<Step index="2" nodeId="6884d4da" selected="true"></Step>
+<Step index="3" nodeId="162f74d6" selected="true"></Step>
+</Steps>
+</Element>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="307" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_6vkg8dsMEe6TH6yb1zVWhw,_EA5yIGNdEeeIXt1F3AlowQ" ConcreteType="Task" Url="practice.pas.perf.train_delivery.base/tasks/deliver_training_5C15C32C.html" Name="deliver_training" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Deliver training" Predecessors="306" Team="" Id="_EA5yIGNdEeeIXt1F3AlowQ" relProcessPath=",_6vkg8dsMEe6TH6yb1zVWhw,_EA5yIGNdEeeIXt1F3AlowQ" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="695cc37a">
+<attribute name="prefix" nodeId="fbf0df9f"></attribute>
+<attribute name="isEventDriven" nodeId="7c34c602">false</attribute>
+<attribute name="isOngoing" nodeId="304c3391">false</attribute>
+<attribute name="isOptional" nodeId="3c88ff14">false</attribute>
+<attribute name="isPlanned" nodeId="2017bb24">true</attribute>
+<attribute name="isRepeatable" nodeId="52d50635">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="1aa8dcc0">false</attribute>
+<Steps nodeId="10ca08f9"></Steps>
+</Element>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="308" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_6vkg8dsMEe6TH6yb1zVWhw,_EVLZAGNdEeeIXt1F3AlowQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/eval_training_effect_CF308CFA.html" Name="eval_training_effect" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Evaluate training effectiveness" Predecessors="307" Team="" Id="_EVLZAGNdEeeIXt1F3AlowQ" relProcessPath=",_6vkg8dsMEe6TH6yb1zVWhw,_EVLZAGNdEeeIXt1F3AlowQ" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="c010da1f">
+<attribute name="prefix" nodeId="1e3f8a21"></attribute>
+<attribute name="isEventDriven" nodeId="34b04ea8">false</attribute>
+<attribute name="isOngoing" nodeId="82f02bf5">false</attribute>
+<attribute name="isOptional" nodeId="b393a4df">false</attribute>
+<attribute name="isPlanned" nodeId="549bdfd9">true</attribute>
+<attribute name="isRepeatable" nodeId="1a6806c">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="c6b1955b">false</attribute>
+<Steps nodeId="3c351ec7">
+<Step index="0" nodeId="8ceb119d" selected="true"></Step>
+<Step index="1" nodeId="221f9290" selected="true"></Step>
+<Step index="2" nodeId="52364657" selected="true"></Step>
+<Step index="3" nodeId="2904ee4e" selected="true"></Step>
+</Steps>
+</Element>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="309" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_6vkg8dsMEe6TH6yb1zVWhw,_px1wIDyWEe-lca5ajdCLeA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/fin_training_delivery_B20BA53C.html" Name="fin_training_delivery" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Finalize training delivery" Predecessors="" Team="" Id="_px1wIDyWEe-lca5ajdCLeA" relProcessPath=",_6vkg8dsMEe6TH6yb1zVWhw,_px1wIDyWEe-lca5ajdCLeA" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="531c9cec">
+<attribute name="prefix" nodeId="b7340d3c"></attribute>
+<attribute name="isEventDriven" nodeId="a447addb">false</attribute>
+<attribute name="isOngoing" nodeId="51a9568f">false</attribute>
+<attribute name="isOptional" nodeId="72fbecb6">false</attribute>
+<attribute name="isPlanned" nodeId="82ce9c8c">true</attribute>
+<attribute name="isRepeatable" nodeId="b9d2fcc5">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="39e83b3b">false</attribute>
+<Steps nodeId="a5d8d83c">
+<Step index="0" nodeId="59433f60" selected="true"></Step>
+<Step index="1" nodeId="9a100937" selected="true"></Step>
+<Step index="2" nodeId="34c816d1" selected="true"></Step>
+<Step index="3" nodeId="e8704e0" selected="true"></Step>
+<Step index="4" nodeId="6cb19c22" selected="true"></Step>
+<Step index="5" nodeId="682d895" selected="true"></Step>
+</Steps>
+</Element>
+</Element>
+<Element TypeName="Activity" ModelInfo="extends \&apos;perform_dress_rehearsal, process.adv.eya_oracle.base/data_conv_wkstrm\&apos;" Index="310" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_0FengdsMEe6TH6yb1zVWhw" Url="process.adv.eya_oracle.base/deliveryprocesses/perform_dress_rehearsal_E118D03.html" Name="perform_dress_rehearsal" BackPath="./../../" Type="Activity" NodeiconUrl="" DisplayName="Perform Dress Rehearsal" Predecessors="" Team="" Id="_0FengdsMEe6TH6yb1zVWhw" relProcessPath=",_0FengdsMEe6TH6yb1zVWhw" ShapeiconUrl="images/activity.gif" ModelInfoKey="" nodeId="f6027bee">
+<attribute name="name" nodeId="46647ffc">perform_dress_rehearsal</attribute>
+<attribute name="guid" nodeId="886ad1d3">_0FengdsMEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="43a201b8">Perform Dress Rehearsal</attribute>
+<attribute name="briefDescription" nodeId="450218c6">Prepare for and execute the data migration dress rehearsal and address any findings.</attribute>
+<attribute name="suppressed" nodeId="3b71226c">false</attribute>
+<attribute name="orderingGuide" nodeId="da009c3c"></attribute>
+<attribute name="isAbstract" nodeId="b7dfba81">false</attribute>
+<attribute name="shapeicon" nodeId="219ebce7"></attribute>
+<attribute name="nodeicon" nodeId="c8ae7ebb"></attribute>
+<attribute name="prefix" nodeId="fbb07c8b"></attribute>
+<attribute name="isPlanned" nodeId="a279c247">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="3fab3e03">false</attribute>
+<attribute name="isOptional" nodeId="c645ace4">false</attribute>
+<attribute name="isRepeatable" nodeId="1c584ed2">false</attribute>
+<attribute name="isOngoing" nodeId="1f2d7c7a">false</attribute>
+<attribute name="isEventDriven" nodeId="ef5665">false</attribute>
+<attribute name="variabilityType" nodeId="5f2ed359">extends</attribute>
+<attribute name="prefix" nodeId="7975bd3"></attribute>
+<attribute name="isEventDriven" nodeId="cc0d9aa5">false</attribute>
+<attribute name="isOngoing" nodeId="406b1ddd">false</attribute>
+<attribute name="isOptional" nodeId="71980789">false</attribute>
+<attribute name="isPlanned" nodeId="c5212da9">true</attribute>
+<attribute name="isRepeatable" nodeId="b659c966">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="17d7fd9a">false</attribute>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="311" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_0FengdsMEe6TH6yb1zVWhw,_MfELQNF6Ee6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/exec_dress_rehearsal_EFCBEC15.html" Name="exec_dress_rehearsal" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Execute dress rehearsal" Predecessors="" Team="" Id="_MfELQNF6Ee6Y56Jk6jqfOA" relProcessPath=",_0FengdsMEe6TH6yb1zVWhw,_MfELQNF6Ee6Y56Jk6jqfOA" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="9d75f379">
+<attribute name="prefix" nodeId="ab3358c5"></attribute>
+<attribute name="isEventDriven" nodeId="738b6f3a">false</attribute>
+<attribute name="isOngoing" nodeId="611f4c0c">false</attribute>
+<attribute name="isOptional" nodeId="559aa648">false</attribute>
+<attribute name="isPlanned" nodeId="a03bf7d2">true</attribute>
+<attribute name="isRepeatable" nodeId="c9f6b813">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="9a2d9255">false</attribute>
+<Steps nodeId="b0f3c79d"></Steps>
+</Element>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="312" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_0FengdsMEe6TH6yb1zVWhw,_gwqcMNF6Ee6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/address_findings_36F5D8F5.html" Name="address_findings" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Address findings" Predecessors="" Team="" Id="_gwqcMNF6Ee6Y56Jk6jqfOA" relProcessPath=",_0FengdsMEe6TH6yb1zVWhw,_gwqcMNF6Ee6Y56Jk6jqfOA" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="ee701da5">
+<attribute name="prefix" nodeId="66d42b2a"></attribute>
+<attribute name="isEventDriven" nodeId="4dbd7723">false</attribute>
+<attribute name="isOngoing" nodeId="d46df662">false</attribute>
+<attribute name="isOptional" nodeId="e82157a2">false</attribute>
+<attribute name="isPlanned" nodeId="fd419c27">true</attribute>
+<attribute name="isRepeatable" nodeId="f3bdef7f">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="1b1adc8e">false</attribute>
+<Steps nodeId="5dd600c7"></Steps>
+</Element>
+</Element>
+<Element TypeName="Activity" ModelInfo="extends \&apos;confirm_cutover_readiness, process.adv.eya_oracle.base/development_wkstrm\&apos;" Index="313" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_3OXrEdsMEe6TH6yb1zVWhw" Url="process.adv.eya_oracle.base/deliveryprocesses/confirm_cutover_readiness_6B14FA7C.html" Name="confirm_cutover_readiness" BackPath="./../../" Type="Activity" NodeiconUrl="" DisplayName="Confirm Cutover Readiness" Predecessors="" Team="" Id="_3OXrEdsMEe6TH6yb1zVWhw" relProcessPath=",_3OXrEdsMEe6TH6yb1zVWhw" ShapeiconUrl="images/activity.gif" ModelInfoKey="" nodeId="e304cfbb">
+<attribute name="name" nodeId="91893b9f">confirm_cutover_readiness</attribute>
+<attribute name="guid" nodeId="17c849c2">_3OXrEdsMEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="cf9e882d">Confirm Cutover Readiness</attribute>
+<attribute name="briefDescription" nodeId="a44bb2ef">Confirm that all essential elements are ready for go-live, including service management, production infrastructure, code and configurations, monitoring, data migration and end users, and role access.</attribute>
+<attribute name="suppressed" nodeId="4229e421">false</attribute>
+<attribute name="orderingGuide" nodeId="cd3725d0"></attribute>
+<attribute name="isAbstract" nodeId="c4b42118">false</attribute>
+<attribute name="shapeicon" nodeId="aad50dc5"></attribute>
+<attribute name="nodeicon" nodeId="cf92bd84"></attribute>
+<attribute name="prefix" nodeId="ffd66f3d"></attribute>
+<attribute name="isPlanned" nodeId="60c4dd20">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="b217bc6f">false</attribute>
+<attribute name="isOptional" nodeId="ddd11cc2">false</attribute>
+<attribute name="isRepeatable" nodeId="8aaaaa52">false</attribute>
+<attribute name="isOngoing" nodeId="6ae1db8c">false</attribute>
+<attribute name="isEventDriven" nodeId="5afdb25f">false</attribute>
+<attribute name="variabilityType" nodeId="412dd7c9">extends</attribute>
+<attribute name="prefix" nodeId="47d89e1f"></attribute>
+<attribute name="isEventDriven" nodeId="68f2ddba">false</attribute>
+<attribute name="isOngoing" nodeId="3feda8e5">false</attribute>
+<attribute name="isOptional" nodeId="6bb8d9a7">false</attribute>
+<attribute name="isPlanned" nodeId="d8ca0c82">true</attribute>
+<attribute name="isRepeatable" nodeId="d3c70c1f">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="4dd49a19">false</attribute>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="314" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_3OXrEdsMEe6TH6yb1zVWhw,_dohjANEsEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/review_cutover_plan_teams_A2705D40.html" Name="review_cutover_plan_teams" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Review cutover plan with all stakeholders" Predecessors="" Team="" Id="_dohjANEsEe6Y56Jk6jqfOA" relProcessPath=",_3OXrEdsMEe6TH6yb1zVWhw,_dohjANEsEe6Y56Jk6jqfOA" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="5164992">
+<attribute name="prefix" nodeId="3c9e328f"></attribute>
+<attribute name="isEventDriven" nodeId="97ee2862">false</attribute>
+<attribute name="isOngoing" nodeId="7d4bc99c">false</attribute>
+<attribute name="isOptional" nodeId="d4b526ce">false</attribute>
+<attribute name="isPlanned" nodeId="8e02dc0b">true</attribute>
+<attribute name="isRepeatable" nodeId="f33fcce8">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="23be9a6e">false</attribute>
+<Steps nodeId="6df20839"></Steps>
+</Element>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="315" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_3OXrEdsMEe6TH6yb1zVWhw,_-OK08NErEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/prep_prod_supp_plan_6E104A41.html" Name="prep_prod_supp_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Prepare production support plan" Predecessors="" Team="" Id="_-OK08NErEe6Y56Jk6jqfOA" relProcessPath=",_3OXrEdsMEe6TH6yb1zVWhw,_-OK08NErEe6Y56Jk6jqfOA" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="6b01e30f">
+<attribute name="prefix" nodeId="c15b12cb"></attribute>
+<attribute name="isEventDriven" nodeId="68dd7da3">false</attribute>
+<attribute name="isOngoing" nodeId="f70e954e">false</attribute>
+<attribute name="isOptional" nodeId="c1bd0ff5">false</attribute>
+<attribute name="isPlanned" nodeId="3ae31991">true</attribute>
+<attribute name="isRepeatable" nodeId="11192de0">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="f1c27574">false</attribute>
+<Steps nodeId="5507940c"></Steps>
+</Element>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="316" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_3OXrEdsMEe6TH6yb1zVWhw,_mFqHYNEsEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/make_go_nogo_for_go_live_F4FA1A13.html" Name="make_go_nogo_for_go_live" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Make go/no-go decision for go-live" Predecessors="" Team="" Id="_mFqHYNEsEe6Y56Jk6jqfOA" relProcessPath=",_3OXrEdsMEe6TH6yb1zVWhw,_mFqHYNEsEe6Y56Jk6jqfOA" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="ed1e67b1">
+<attribute name="prefix" nodeId="8bc168a9"></attribute>
+<attribute name="isEventDriven" nodeId="e9324778">false</attribute>
+<attribute name="isOngoing" nodeId="2dcbe28c">false</attribute>
+<attribute name="isOptional" nodeId="2906fc10">false</attribute>
+<attribute name="isPlanned" nodeId="29df4ba">true</attribute>
+<attribute name="isRepeatable" nodeId="1c0fc07e">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="c80e56c9">false</attribute>
+<Steps nodeId="6a2e2de0">
+<Step index="0" nodeId="67f1911f" selected="true"></Step>
+<Step index="1" nodeId="febd0b2c" selected="true"></Step>
+</Steps>
+</Element>
+</Element>
+<Element TypeName="Activity" ModelInfo="extends \&apos;perform_data_conv, process.adv.eya_oracle.base/data_conv_wkstrm\&apos;" Index="317" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_02yvsdsMEe6TH6yb1zVWhw" Url="process.adv.eya_oracle.base/deliveryprocesses/perform_data_conv_CEECC5D7.html" Name="perform_data_conv" BackPath="./../../" Type="Activity" NodeiconUrl="" DisplayName="Perform Data Conversion" Predecessors="" Team="" Id="_02yvsdsMEe6TH6yb1zVWhw" relProcessPath=",_02yvsdsMEe6TH6yb1zVWhw" ShapeiconUrl="images/activity.gif" ModelInfoKey="" nodeId="e71bf897">
+<attribute name="name" nodeId="d9b64861">perform_data_conv</attribute>
+<attribute name="guid" nodeId="f01095c1">_02yvsdsMEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="b88bde08">Perform Data Conversion</attribute>
+<attribute name="briefDescription" nodeId="de108">Identify and prepare the participants of the migration for the conversion event. Migrate the data, then manually remediate any data issues remaining in the target system after the migration.</attribute>
+<attribute name="suppressed" nodeId="e00a1077">false</attribute>
+<attribute name="orderingGuide" nodeId="fe7892e"></attribute>
+<attribute name="isAbstract" nodeId="45380d8d">false</attribute>
+<attribute name="shapeicon" nodeId="3bd58ef6"></attribute>
+<attribute name="nodeicon" nodeId="9ff0a2a1"></attribute>
+<attribute name="prefix" nodeId="34c7b3e4"></attribute>
+<attribute name="isPlanned" nodeId="ee2fa0e3">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="5c02332">false</attribute>
+<attribute name="isOptional" nodeId="429f1fd8">false</attribute>
+<attribute name="isRepeatable" nodeId="b845245b">false</attribute>
+<attribute name="isOngoing" nodeId="d539c5f3">false</attribute>
+<attribute name="isEventDriven" nodeId="88187683">false</attribute>
+<attribute name="variabilityType" nodeId="4764ce04">extends</attribute>
+<attribute name="prefix" nodeId="7892f8e"></attribute>
+<attribute name="isEventDriven" nodeId="df1e3426">false</attribute>
+<attribute name="isOngoing" nodeId="a12a2974">false</attribute>
+<attribute name="isOptional" nodeId="badaef1a">false</attribute>
+<attribute name="isPlanned" nodeId="225640be">true</attribute>
+<attribute name="isRepeatable" nodeId="c71ee29b">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="63d382c2">false</attribute>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="318" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_02yvsdsMEe6TH6yb1zVWhw,_obVzcNF7Ee6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/exec_data_conv_FEC2B92A.html" Name="exec_data_conv" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Execute data conversion" Predecessors="" Team="" Id="_obVzcNF7Ee6Y56Jk6jqfOA" relProcessPath=",_02yvsdsMEe6TH6yb1zVWhw,_obVzcNF7Ee6Y56Jk6jqfOA" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="3fbd218f">
+<attribute name="prefix" nodeId="cc897d94"></attribute>
+<attribute name="isEventDriven" nodeId="a1dd515e">false</attribute>
+<attribute name="isOngoing" nodeId="65bfb693">false</attribute>
+<attribute name="isOptional" nodeId="e2d7c810">false</attribute>
+<attribute name="isPlanned" nodeId="b7da7ebd">true</attribute>
+<attribute name="isRepeatable" nodeId="6378c24d">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="67278a70">false</attribute>
+<Steps nodeId="32c8653c"></Steps>
+</Element>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="319" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_02yvsdsMEe6TH6yb1zVWhw,_1oejINF7Ee6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/add_data_conv_issues_DEAD86EB.html" Name="add_data_conv_issues" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Address data conversion issues in target solution" Predecessors="" Team="" Id="_1oejINF7Ee6Y56Jk6jqfOA" relProcessPath=",_02yvsdsMEe6TH6yb1zVWhw,_1oejINF7Ee6Y56Jk6jqfOA" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="5b9221cc">
+<attribute name="prefix" nodeId="ff3aa8ef"></attribute>
+<attribute name="isEventDriven" nodeId="768e382a">false</attribute>
+<attribute name="isOngoing" nodeId="7a9232d4">false</attribute>
+<attribute name="isOptional" nodeId="51b4f85d">false</attribute>
+<attribute name="isPlanned" nodeId="994c7685">true</attribute>
+<attribute name="isRepeatable" nodeId="26036d3f">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="16ee5c95">false</attribute>
+<Steps nodeId="da683d74"></Steps>
+</Element>
+</Element>
+<Element TypeName="Activity" ModelInfo="extends \&apos;perform_cutover, process.adv.eya_oracle.base/development_wkstrm\&apos;" Index="320" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_4Ar40dsMEe6TH6yb1zVWhw" Url="process.adv.eya_oracle.base/deliveryprocesses/perform_cutover_D871D46A.html" Name="perform_cutover" BackPath="./../../" Type="Activity" NodeiconUrl="" DisplayName="Perform Cutover" Predecessors="" Team="" Id="_4Ar40dsMEe6TH6yb1zVWhw" relProcessPath=",_4Ar40dsMEe6TH6yb1zVWhw" ShapeiconUrl="images/activity.gif" ModelInfoKey="" nodeId="1b330e76">
+<attribute name="name" nodeId="706d6d16">perform_cutover</attribute>
+<attribute name="guid" nodeId="78d3ac8c">_4Ar40dsMEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="640ac805">Perform Cutover</attribute>
+<attribute name="briefDescription" nodeId="24342985">Complete the activities required to transition to production.</attribute>
+<attribute name="suppressed" nodeId="1ebde910">false</attribute>
+<attribute name="orderingGuide" nodeId="520f8817"></attribute>
+<attribute name="isAbstract" nodeId="d301f391">false</attribute>
+<attribute name="shapeicon" nodeId="9539edc4"></attribute>
+<attribute name="nodeicon" nodeId="95aaf276"></attribute>
+<attribute name="prefix" nodeId="cd2d2058"></attribute>
+<attribute name="isPlanned" nodeId="99d225bc">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="e16bcf3c">false</attribute>
+<attribute name="isOptional" nodeId="9ae5df65">false</attribute>
+<attribute name="isRepeatable" nodeId="68eaa8b2">false</attribute>
+<attribute name="isOngoing" nodeId="790cebef">false</attribute>
+<attribute name="isEventDriven" nodeId="cd64edb9">false</attribute>
+<attribute name="variabilityType" nodeId="2ef2a0cc">extends</attribute>
+<attribute name="prefix" nodeId="6b254e46"></attribute>
+<attribute name="isEventDriven" nodeId="58d063ad">false</attribute>
+<attribute name="isOngoing" nodeId="82641b8c">false</attribute>
+<attribute name="isOptional" nodeId="368babc2">false</attribute>
+<attribute name="isPlanned" nodeId="849ef418">true</attribute>
+<attribute name="isRepeatable" nodeId="e317feef">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="749a621f">false</attribute>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="321" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_4Ar40dsMEe6TH6yb1zVWhw,_74F48NEsEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.deploy.base/tasks/perform_cutover_using_runbook_9ABBFDDF.html" Name="perform_cutover_using_runbook" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Perform cutover using the runbook" Predecessors="" Team="" Id="_74F48NEsEe6Y56Jk6jqfOA" relProcessPath=",_4Ar40dsMEe6TH6yb1zVWhw,_74F48NEsEe6Y56Jk6jqfOA" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="157bcf3c">
+<attribute name="prefix" nodeId="48a3145b"></attribute>
+<attribute name="isEventDriven" nodeId="bc9f788a">false</attribute>
+<attribute name="isOngoing" nodeId="cd70f9d5">false</attribute>
+<attribute name="isOptional" nodeId="86fab91a">false</attribute>
+<attribute name="isPlanned" nodeId="e3f5d87e">true</attribute>
+<attribute name="isRepeatable" nodeId="f3713cd2">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="a0dc6b6a">false</attribute>
+<Steps nodeId="2971177b"></Steps>
+</Element>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="322" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_4Ar40dsMEe6TH6yb1zVWhw,_-CgiENEsEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.deploy.base/tasks/verify_cutover_runbook_complete_7811BE16.html" Name="verify_cutover_runbook_complete" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Verify cutover runbook items have been completed" Predecessors="" Team="" Id="_-CgiENEsEe6Y56Jk6jqfOA" relProcessPath=",_4Ar40dsMEe6TH6yb1zVWhw,_-CgiENEsEe6Y56Jk6jqfOA" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="dfa0b1d1">
+<attribute name="prefix" nodeId="eb6ef23a"></attribute>
+<attribute name="isEventDriven" nodeId="e6d81753">false</attribute>
+<attribute name="isOngoing" nodeId="3a09ed02">false</attribute>
+<attribute name="isOptional" nodeId="c4f37836">false</attribute>
+<attribute name="isPlanned" nodeId="8d2d827f">true</attribute>
+<attribute name="isRepeatable" nodeId="16e793fe">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="ec82951c">false</attribute>
+<Steps nodeId="a74b7a7b"></Steps>
+</Element>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="323" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_4Ar40dsMEe6TH6yb1zVWhw,_Eqm3cNEtEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.pkg_dev.base/tasks/create_user_supp_mat_6C8C0761.html" Name="create_user_supp_mat" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Create user support materials" Predecessors="" Team="" Id="_Eqm3cNEtEe6Y56Jk6jqfOA" relProcessPath=",_4Ar40dsMEe6TH6yb1zVWhw,_Eqm3cNEtEe6Y56Jk6jqfOA" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="b21154">
+<attribute name="prefix" nodeId="7a503a61"></attribute>
+<attribute name="isEventDriven" nodeId="1d3956cc">false</attribute>
+<attribute name="isOngoing" nodeId="754cf2e5">false</attribute>
+<attribute name="isOptional" nodeId="4abbbc4a">false</attribute>
+<attribute name="isPlanned" nodeId="e1e169a3">true</attribute>
+<attribute name="isRepeatable" nodeId="6cc866ab">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="1b5756fe">false</attribute>
+<Steps nodeId="212a48b3"></Steps>
+</Element>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="324" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_4Ar40dsMEe6TH6yb1zVWhw,_G0JW0NEtEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.pkg_dev.base/tasks/create_release_notes_B10DFB18.html" Name="create_release_notes" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Create release notes" Predecessors="" Team="" Id="_G0JW0NEtEe6Y56Jk6jqfOA" relProcessPath=",_4Ar40dsMEe6TH6yb1zVWhw,_G0JW0NEtEe6Y56Jk6jqfOA" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="2e01dacd">
+<attribute name="prefix" nodeId="35b0846e"></attribute>
+<attribute name="isEventDriven" nodeId="8d01104b">false</attribute>
+<attribute name="isOngoing" nodeId="48ed542b">false</attribute>
+<attribute name="isOptional" nodeId="3a25d1dc">false</attribute>
+<attribute name="isPlanned" nodeId="bc64c7c4">true</attribute>
+<attribute name="isRepeatable" nodeId="1876e7c5">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="8058966c">false</attribute>
+<Steps nodeId="9b41fef9"></Steps>
+</Element>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="325" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_4Ar40dsMEe6TH6yb1zVWhw,_aA1J8NE0Ee6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/fin_prod_release_7167DC72.html" Name="fin_prod_release" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Finalize production release" Predecessors="" Team="" Id="_aA1J8NE0Ee6Y56Jk6jqfOA" relProcessPath=",_4Ar40dsMEe6TH6yb1zVWhw,_aA1J8NE0Ee6Y56Jk6jqfOA" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="95f8e765">
+<attribute name="prefix" nodeId="2288135"></attribute>
+<attribute name="isEventDriven" nodeId="56c5f4fb">false</attribute>
+<attribute name="isOngoing" nodeId="b77ddef">false</attribute>
+<attribute name="isOptional" nodeId="37c54804">false</attribute>
+<attribute name="isPlanned" nodeId="25708a87">true</attribute>
+<attribute name="isRepeatable" nodeId="550729e9">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="e160f61f">false</attribute>
+<Steps nodeId="220717e0">
+<Step index="0" nodeId="25df8aab" selected="true"></Step>
+<Step index="1" nodeId="67d03080" selected="true"></Step>
+<Step index="2" nodeId="e459332b" selected="true"></Step>
+<Step index="3" nodeId="c4e58d6d" selected="true"></Step>
+<Step index="4" nodeId="edc2e4de" selected="true"></Step>
+<Step index="5" nodeId="bc47d0e6" selected="true"></Step>
+</Steps>
+</Element>
+</Element>
+</breakdown>
+<diagrams nodeId="6a561a8b">
+<userdiagram name="ActivityDetail" nodeId="689cec92">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&lt;!-- Generator: Adobe Illustrator 28.5.0, SVG Export Plug-In . SVG Version: 9.03 Build 54727)  --&gt;&lt;?XML:NAMESPACE PREFIX = &quot;[default] http://www.w3.org/2000/svg&quot; NS = &quot;http://www.w3.org/2000/svg&quot; /&gt;&lt;svg id=Layer_1 style=&quot;enable-background: new 0 0 989 268&quot; xml:space=&quot;preserve&quot; viewBox=&quot;0 0 989 268&quot; y=&quot;0px&quot; x=&quot;0px&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; version=&quot;1.1&quot;&gt;
+&lt;STYLE type=text/css&gt;
+.svgBackground {fill: #2E2E38;}
+.svgChevron {fill-rule: evenodd; clip-rule: evenodd; fill: #747480;}
+.svgPoint {fill-rule: evenodd; clip-rule: evenodd; fill: #747480;}
+.svgPhase {fill: #2E2E38; stroke: #747480; stroke-width: 5;}
+.svgIcon {fill: #747480;}
+.svgLabel {fill: #747480; font-family: EYInterstate, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: bold;}
+.svgAltIcon1 {fill: none; stroke: #747480; stroke-width: 2; stroke-miterlimit: 10;}
+.svgAltIcon2 {fill: none; stroke: #747480; stroke-width: 6; stroke-miterlimit: 10;}
+.svgAltIcon3 {fill: #747480;}
+.svgIterationCircle {fill: none; stroke: #747480; stroke-width: 2; stroke-miterlimit: 10;}
+.svgText {fill: #747480; font-family: EYInterstate, Helvetica, Arial, sans-serif; font-size: 12px;}
+.svgIconText {fill: #747480; font-family: EYInterstate, Helvetica, Arial, sans-serif; font-size: 10px;}
+.svgWorkstreamText {fill: #FFE600; font-family: EYInterstate, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: bold;}
+.svgLine {fill: none; stroke: #FFE600; stroke-width: 3; stroke-miterlimit: 10;}
+.svgHotspot a:hover {text-decoration: none;}
+.svgHotspot:hover .svgPhase {stroke: #FFE600;}
+.svgHotspot:hover .svgPoint {fill: #FFE600;}
+.svgHotspot:hover .svgLabel {fill: #FFE600; text-decoration: none;}
+.svgHotspot:hover .svgHiLiLabel {fill: #FFE600; text-decoration: none;}
+a:hover {text-decoration: none;}
+.altHotspot a:hover {text-decoration: none;}
+.altHotspot:hover .svgChevron {fill: #FFE600;}
+.altHotspot:hover text {fill: #2E2E38;}
+.svgCapability {fill: #2E2E38; stroke: #FFE600; stroke-width: 3; stroke-miterlimit: 10;}
+.svgHotspotCapability:hover .svgCapability {fill: #FFE600;}
+.svgHotspotCapability:hover text {fill: #2E2E38;}
+.svgHiLiChevron {fill-rule: evenodd; clip-rule: evenodd; fill: #FFE600;}
+.svgHiLiPhase {fill: #747480; stroke: #FFE600; stroke-width: 5;}
+.svgHiLiPoint {fill-rule: evenodd; clip-rule: evenodd; fill: #FFE600;}
+.svgHiLiIcon {fill: #FFFFFF;}
+.svgHiLiLabel {fill: #FFFFFF; font-family: EYInterstate, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: bold;}
+.svgAltLabel {fill: #2E2E38; font-family: EYInterstate, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: bold;}
+&lt;/STYLE&gt;
+&lt;rect class=svgBackground height=&quot;268&quot; width=&quot;989&quot;&gt;&lt;/rect&gt;&lt;g id=Plan class=svgHotspot&gt;&lt;a href=&quot;./../../../process.adv.eya_oracle.base/deliveryprocesses/plan_9E6CBF9F.html&quot; target=&quot;_self&quot; guid=&quot;_aAaVUYs6Ee6Z58NF8Wy6XA&quot;&gt;&lt;polygon class=svgPoint points=&quot;184.6 75 149.6 40 134.1 40 134.1 110 149.6 110 184.6 75&quot;&gt;&lt;/polygon&gt;&lt;circle class=svgPhase r=&quot;65&quot; cy=&quot;75&quot; cx=&quot;91.9&quot;&gt;&lt;/circle&gt;&lt;g class=svgIcon&gt;&lt;path d=&quot;M104.7,123.6h-25.4v-29.7h0l-2.3-1.2-2.1-1.2-1.8-1.4-1.8-1.4-1.8-1.6-1.6-1.6-1.4-1.9-1.4-1.9-1.2-2.1-1.2-2.1-.9-2.1-.7-2.3-.7-2.1-.5-2.6-.2-2.3v-2.3h0v-3.5l.7-3.2.7-3,1.2-3,1.4-3,1.6-2.6,1.8-2.6,2.1-2.3,2.3-2.1,2.5-1.9,2.5-1.6,3-1.4,3-1.2,3-.7,3.2-.7h6.7l3.2.7,3,.7,3,1.2,3,1.4,2.5,1.6,2.5,1.9,2.3,2.1,2.1,2.3,1.8,2.6,1.6,2.6,1.4,3,1.2,3,.7,3,.7,3.2v3.5h0v2.3l-.2,2.6-.5,2.3-.7,2.3-.7,2.3-.9,2.1-1.2,2.1-1.2,2.1-1.4,1.9-1.6,1.9-1.6,1.6-1.6,1.6-2.1,1.4-1.8,1.4-2.3,1.2-2.1.9v29.7h.2ZM81.4,121.5h21.2v-29l.7-.2h0l2.1-.9,2.1-1.2,1.8-1.2,1.8-1.4,1.8-1.4,1.4-1.6,1.6-1.6,1.4-1.9,1.2-1.9.9-2.1.9-2.1.7-2.1.7-2.3.5-2.1.2-2.3v-2.3h0v-3.2l-.5-3-.9-3-.9-2.8-1.4-2.6-1.4-2.6-1.8-2.3-1.8-2.3-2.3-1.9-2.3-1.9-2.5-1.4-2.5-1.4-2.8-.9-3-.9-3-.5h-6.2l-3,.5-3,.9-2.8.9-2.5,1.4-2.5,1.4-2.3,1.9-2.3,1.9-1.8,2.3-1.8,2.3-1.4,2.6-1.4,2.6-.9,2.8-.9,3-.5,3v3.2h0v2.3l.2,2.1.5,2.3.7,2.1.7,2.3.9,1.9.9,2.1,1.2,1.9,1.4,1.9,1.4,1.6,1.6,1.6,1.6,1.6,1.8,1.2,1.8,1.4,2.1.9,2.1,1.2.7.2v29h-.2Z&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M95.2,129.8h-6.8l-3.3-7.8h13.3l-3.3,7.8h.1ZM89.8,127.8h4l1.4-3.8h-6.8l1.4,3.8h0Z&quot;&gt;&lt;/path&gt;&lt;polygon points=&quot;73.5 102.5 110.1 102.5 110.1 104.7 73.5 104.7 73.5 102.5&quot;&gt;&lt;/polygon&gt;&lt;polygon points=&quot;73.5 108.6 110.1 108.6 110.1 110.8 73.5 110.8 73.5 108.6&quot;&gt;&lt;/polygon&gt;&lt;polygon points=&quot;73.5 114.7 110.1 114.7 110.1 116.4 73.5 116.4 73.5 114.7&quot;&gt;&lt;/polygon&gt;&lt;polygon points=&quot;71.3 30.2 73.5 30.2 73.5 33.5 71.3 33.5 71.3 30.2&quot;&gt;&lt;/polygon&gt;&lt;polygon points=&quot;58 42.4 59.6 42.4 59.6 45.7 58 45.7 58 42.4&quot;&gt;&lt;/polygon&gt;&lt;polygon points=&quot;90.7 24.6 92.9 24.6 92.9 28.5 90.7 28.5 90.7 24.6&quot;&gt;&lt;/polygon&gt;&lt;polygon points=&quot;110.7 30.2 112.3 30.2 112.3 33.5 110.7 33.5 110.7 30.2&quot;&gt;&lt;/polygon&gt;&lt;polygon points=&quot;122.9 42.4 124.5 42.4 124.5 45.7 122.9 45.7 122.9 42.4&quot;&gt;&lt;/polygon&gt;&lt;polygon points=&quot;58 81.9 59.6 81.9 59.6 85.2 58 85.2 58 81.9&quot;&gt;&lt;/polygon&gt;&lt;polygon points=&quot;122.9 81.9 124.5 81.9 124.5 85.2 122.9 85.2 122.9 81.9&quot;&gt;&lt;/polygon&gt;&lt;polygon points=&quot;128.4 61.3 130.1 61.3 130.1 64.7 128.4 64.7 128.4 61.3&quot;&gt;&lt;/polygon&gt;&lt;polygon points=&quot;53.5 61.3 55.8 61.3 55.8 64.7 53.5 64.7 53.5 61.3&quot;&gt;&lt;/polygon&gt;&lt;polygon points=&quot;87.4 93.6 89.6 93.6 89.6 104.7 87.4 104.7 87.4 93.6&quot;&gt;&lt;/polygon&gt;&lt;polygon points=&quot;94 93.6 96.3 93.6 96.3 104.7 94 104.7 94 93.6&quot;&gt;&lt;/polygon&gt;&lt;path d=&quot;M96.3,88h-9v-5.5h0l-2.8-.9-2.8-1.4-3.9,3.9-6.5-6.5,3.9-3.7h0l-1.4-2.8-.9-3h-5.6v-9h5.6l.9-2.8,1.4-2.8-3.9-3.9,6.5-6.2,3.9,3.9h0l2.8-1.4,2.8-.9v-5.5h9v5.5h0l2.8.9,2.8,1.4,3.9-3.9,6.5,6.2-3.9,3.9h0l1.4,2.8.9,2.8h5.6v9h-5.6l-.9,3-1.4,2.8,3.9,3.7-6.5,6.5-3.9-3.9h0l-2.8,1.4-2.8.9v5.5h0ZM89.4,86h4.9v-5.1l.9-.2h0l1.6-.5,1.6-.5,1.6-.9,1.4-.9.7-.5,3.7,3.7,3.5-3.5-3.7-3.5.5-.7h0l.9-1.6.7-1.6.7-1.6.5-1.6v-.9h5.3v-4.8h-5.3v-.7h0l-.5-1.8-.7-1.6-.7-1.4-.9-1.6-.5-.7,3.7-3.7-3.5-3.2-3.7,3.5-.7-.5h0l-1.4-.9-1.6-.7-1.6-.5-1.6-.5-.9-.2v-5.1h-4.9v5.1l-.9.2h0l-1.6.5-1.6.5-1.6.7-1.4.9-.7.5-3.7-3.5-3.5,3.2,3.7,3.7-.5.7h0l-.9,1.6-.7,1.4-.7,1.6-.5,1.8v.7h-5.3v4.8h5.3v.9h0l.5,1.6.7,1.6.7,1.6.9,1.6.5.7-3.7,3.5,3.5,3.5,3.7-3.7.7.5h0l1.4.9,1.6.9,1.6.5,1.6.5.9.2v5.1h0Z&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M91.9,76.9h0l-2.8-.5-2.3-.7-2.3-1.2-1.8-1.6-1.6-1.9-1.1-2.1-.7-2.6-.2-2.6h0l.2-2.6.7-2.6,1.1-2.1,1.6-1.9,1.8-1.6,2.3-1.2,2.3-.9,2.8-.2h0l2.5.2,2.3.9,2.3,1.2,1.8,1.6,1.6,1.9,1.1,2.1.7,2.6.2,2.6h0l-.2,2.6-.7,2.6-1.1,2.1-1.6,1.9-1.8,1.6-2.3,1.2-2.3.7-2.5.5h0ZM91.9,52.9h0l-2.3.2-2.1.7-1.8.9-1.4,1.4-1.4,1.6-.9,1.9-.7,1.9-.2,2.3h0l.2,2.1.7,2.1.9,1.9,1.4,1.6,1.4,1.4,1.8.9,2.1.7,2.3.2h0l2.1-.2,2.1-.7,1.8-.9,1.6-1.4,1.1-1.6,1.1-1.9.5-2.1.2-2.1h0l-.2-2.3-.5-1.9-1.1-1.9-1.1-1.6-1.6-1.4-1.8-.9-2.1-.7-2.1-.2h0Z&quot;&gt;&lt;/path&gt;&lt;/g&gt;&lt;text class=svgLabel transform=&quot;translate(73 165.5)&quot;&gt;Plan&lt;/text&gt; &lt;/a&gt;&lt;/g&gt;&lt;g id=Confirm_and_Design class=svgHotspot&gt;&lt;a href=&quot;./../../../process.adv.eya_oracle.base/deliveryprocesses/confirm_and_design_29FFDB9.html&quot; target=&quot;_self&quot; guid=&quot;_bRCPsIs6Ee6Z58NF8Wy6XA&quot;&gt;&lt;polygon class=svgPoint points=&quot;345.6 75 310.6 40 295.1 40 295.1 110 310.6 110 345.6 75&quot;&gt;&lt;/polygon&gt;&lt;circle class=svgPhase r=&quot;65&quot; cy=&quot;75&quot; cx=&quot;252.9&quot;&gt;&lt;/circle&gt;&lt;g class=svgIcon&gt;&lt;polygon points=&quot;276.4 93 200.6 93 252 41.5 277.3 67.3 275.8 68.6 252 44.4 205.4 91.1 276.4 91.1 276.4 93&quot;&gt;&lt;/polygon&gt;&lt;path d=&quot;M275.5,81.6h-47.7l24.2-24,23.5,24h0ZM232.6,79.7h38.3l-18.9-19.2-19.4,19.2h0Z&quot;&gt;&lt;/path&gt;&lt;polygon points=&quot;214.5 87.1 216.5 87.1 216.5 93 214.5 93 214.5 87.1&quot;&gt;&lt;/polygon&gt;&lt;polygon points=&quot;222.4 87.1 224.3 87.1 224.3 93 222.4 93 222.4 87.1&quot;&gt;&lt;/polygon&gt;&lt;polygon points=&quot;230.4 87.1 232.4 87.1 232.4 93 230.4 93 230.4 87.1&quot;&gt;&lt;/polygon&gt;&lt;polygon points=&quot;238.5 87.1 240.5 87.1 240.5 93 238.5 93 238.5 87.1&quot;&gt;&lt;/polygon&gt;&lt;polygon points=&quot;246.5 87.1 248.5 87.1 248.5 93 246.5 93 246.5 87.1&quot;&gt;&lt;/polygon&gt;&lt;polygon points=&quot;254.6 87.1 256.6 87.1 256.6 93 254.6 93 254.6 87.1&quot;&gt;&lt;/polygon&gt;&lt;polygon points=&quot;262.8 87.1 264.6 87.1 264.6 93 262.8 93 262.8 87.1&quot;&gt;&lt;/polygon&gt;&lt;polygon points=&quot;270.8 87.1 272.7 87.1 272.7 93 270.8 93 270.8 87.1&quot;&gt;&lt;/polygon&gt;&lt;path d=&quot;M287.1,112.2h0l-.6-.2-.6-.7-7-13.7v-55.4h0v-1.7l.6-1.5.6-1.5,1.1-1.3,1.3-.9,1.3-.9,1.5-.4,1.7-.2h0l1.7.2,1.5.4,1.5.9,1.3.9.9,1.3.9,1.5.4,1.5.2,1.7v55.2l-7.2,13.9h0l-.4.6-.7.3h0ZM280.8,96.9l6.3,12.7,6.5-12.7v-54.7h0l-.2-1.3-.2-1.3-.6-1.1-.9-.9-.9-.9-1.1-.7-1.3-.2-1.3-.2h0l-1.3.2-1.1.2-1,.7-1.1.9-.6.9-.6,1.1-.4,1.3v1.3l-.2,54.7h0Z&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M295.6,97.5h-16.7v-53.8h16.7v53.8h0ZM280.8,95.6h12.8v-49.9h-12.8v49.9h0Z&quot;&gt;&lt;/path&gt;&lt;polygon points=&quot;286.3 43.7 288.2 43.7 288.2 97.5 286.3 97.5 286.3 43.7&quot;&gt;&lt;/polygon&gt;&lt;/g&gt;&lt;text class=svgLabel transform=&quot;translate(201.4 165.5)&quot;&gt;Confirm and&lt;/text&gt; &lt;text class=svgLabel transform=&quot;translate(224.1 186.5)&quot;&gt;Design&lt;/text&gt; &lt;/a&gt;&lt;/g&gt;&lt;g id=Progressive_Build class=svgHotspot&gt;&lt;a href=&quot;./../../../process.adv.eya_oracle.base/deliveryprocesses/progressive_build_70B7DD74.html&quot; target=&quot;_self&quot; guid=&quot;_c4A0kYs6Ee6Z58NF8Wy6XA&quot;&gt;&lt;polygon class=svgPoint points=&quot;506.6 75 471.6 40 456.1 40 456.1 110 471.6 110 506.6 75&quot;&gt;&lt;/polygon&gt;&lt;circle class=svgPhase r=&quot;65&quot; cy=&quot;75&quot; cx=&quot;413.9&quot;&gt;&lt;/circle&gt;&lt;g&gt;&lt;line class=svgAltIcon1 y2=&quot;50.7&quot; x2=&quot;394.3&quot; y1=&quot;25.2&quot; x1=&quot;372.7&quot;&gt;&lt;/line&gt;&lt;line class=svgAltIcon2 y2=&quot;32.5&quot; x2=&quot;389.6&quot; y1=&quot;37.8&quot; x1=&quot;383.8&quot;&gt;&lt;/line&gt;&lt;polygon class=svgAltIcon3 points=&quot;382.1 26.3 393.1 29.4 395 40.7 394.9 40.7 382 26.3 382.1 26.3&quot;&gt;&lt;/polygon&gt;&lt;line class=svgAltIcon1 y2=&quot;87.5&quot; x2=&quot;438.8&quot; y1=&quot;108.7&quot; x1=&quot;464.5&quot;&gt;&lt;/line&gt;&lt;line class=svgAltIcon2 y2=&quot;104&quot; x2=&quot;447.2&quot; y1=&quot;97.7&quot; x1=&quot;451.9&quot;&gt;&lt;/line&gt;&lt;polygon class=svgAltIcon3 points=&quot;455.8 108.6 444.4 107.7 440.4 97 440.4 97 455.8 108.6&quot;&gt;&lt;/polygon&gt;&lt;line class=svgAltIcon1 y2=&quot;92.7&quot; x2=&quot;393.1&quot; y1=&quot;115.2&quot; x1=&quot;368.4&quot;&gt;&lt;/line&gt;&lt;line class=svgAltIcon2 y2=&quot;98.1&quot; x2=&quot;375.3&quot; y1=&quot;103.8&quot; x1=&quot;380.7&quot;&gt;&lt;/line&gt;&lt;polygon class=svgAltIcon3 points=&quot;369.3 105.8 372 94.8 383.2 92.4 383.3 92.5 369.3 105.9 369.3 105.8&quot;&gt;&lt;/polygon&gt;&lt;line class=svgAltIcon1 y2=&quot;49.8&quot; x2=&quot;432.7&quot; y1=&quot;25.5&quot; x1=&quot;455.7&quot;&gt;&lt;/line&gt;&lt;line class=svgAltIcon2 y2=&quot;43&quot; x2=&quot;450.1&quot; y1=&quot;37.8&quot; x1=&quot;444.3&quot;&gt;&lt;/line&gt;&lt;polygon class=svgAltIcon3 points=&quot;455.5 34.9 453.6 46.2 442.6 49.3 442.6 49.3 455.5 34.9&quot;&gt;&lt;/polygon&gt;&lt;circle class=svgIterationCircle r=&quot;29&quot; cy=&quot;72&quot; cx=&quot;413.9&quot;&gt;&lt;/circle&gt;&lt;text class=svgIconText transform=&quot;translate(402.7 32.8)&quot;&gt;Design&lt;/text&gt; &lt;text class=svgIconText transform=&quot;translate(461.3 52.5) rotate(90)&quot;&gt;Solution&lt;/text&gt; &lt;text class=svgIconText transform=&quot;translate(449.3 49.9) rotate(90)&quot;&gt;assembly&lt;/text&gt; &lt;text class=svgIconText transform=&quot;translate(366.5 80.4) rotate(-90)&quot;&gt;Cycle&lt;/text&gt; &lt;text class=svgIconText transform=&quot;translate(378.5 90.4) rotate(-90)&quot;&gt;validation&lt;/text&gt; &lt;text class=svgIconText transform=&quot;translate(397.1 69.7)&quot;&gt;Sprints&lt;/text&gt; &lt;text class=svgIconText transform=&quot;translate(403.3 81.7)&quot;&gt;1...n&lt;/text&gt; &lt;text class=svgIconText transform=&quot;translate(385.1 111.3)&quot;&gt;Incremental&lt;/text&gt; &lt;text class=svgIconText transform=&quot;translate(382.6 123.3)&quot;&gt;data delivery&lt;/text&gt; &lt;/g&gt;&lt;text class=svgLabel transform=&quot;translate(363.6 165.5)&quot;&gt;Progressive&lt;/text&gt; &lt;text class=svgLabel transform=&quot;translate(392.2 186.5)&quot;&gt;Build&lt;/text&gt; &lt;/a&gt;&lt;/g&gt;&lt;g id=Test class=svgHotspot&gt;&lt;a href=&quot;./../../../process.adv.eya_oracle.base/deliveryprocesses/test_E5EB30E9.html&quot; target=&quot;_self&quot; guid=&quot;_esTcsYs6Ee6Z58NF8Wy6XA&quot;&gt;&lt;polygon class=svgPoint points=&quot;667.6 75 632.6 40 617.1 40 617.1 110 632.6 110 667.6 75&quot;&gt;&lt;/polygon&gt;&lt;circle class=svgPhase r=&quot;65&quot; cy=&quot;75&quot; cx=&quot;574.9&quot;&gt;&lt;/circle&gt;&lt;g class=svgIcon&gt;&lt;path d=&quot;M612.2,115.6l-5-9.8V39.5h10v66.4l-5,9.8h0ZM609.4,105.5l2.9,5.5,2.9-5.5v-63.8h-5.7v63.8h-.1Z&quot;&gt;&lt;/path&gt;&lt;polygon points=&quot;611.1 112.9 613.4 112.9 613.4 116.6 611.1 116.6 611.1 112.9&quot;&gt;&lt;/polygon&gt;&lt;polygon points=&quot;607.2 102.4 617.2 102.4 617.2 104.3 607.2 104.3 607.2 102.4&quot;&gt;&lt;/polygon&gt;&lt;path d=&quot;M615.3,41.4h-6.2v-7.1h6.2v7.1h0ZM611.2,39.3h2.1v-2.9h-2.1v2.9h0Z&quot;&gt;&lt;/path&gt;&lt;polygon points=&quot;623.4 73.8 621.3 73.8 621.3 48.6 621.3 48.6 621.1 47.9 620.6 47.2 619.9 46.7 619.1 46.4 607.2 46.4 607.2 44.3 619.1 44.3 619.1 44.3 619.9 44.5 620.8 44.8 621.5 45.2 622 45.7 622.7 46.2 623 46.9 623.2 47.9 623.4 48.6 623.4 73.8&quot;&gt;&lt;/polygon&gt;&lt;path d=&quot;M586.3,41.9h-32.4v-13.3h32.4v13.3h0ZM556.1,39.8h28.1v-9h-28.1v9h0Z&quot;&gt;&lt;/path&gt;&lt;polygon points=&quot;600.6 116.6 540.1 116.6 540.1 34.3 555.3 34.3 555.3 36.4 542.3 36.4 542.3 114.5 598.4 114.5 598.4 109.5 600.6 109.5 600.6 116.6&quot;&gt;&lt;/polygon&gt;&lt;polygon points=&quot;600.6 109.5 598.4 109.5 598.4 36.4 585.3 36.4 585.3 34.3 600.6 34.3 600.6 109.5&quot;&gt;&lt;/polygon&gt;&lt;polygon points=&quot;563 34.3 577.3 34.3 577.3 36.7 563 36.7 563 34.3&quot;&gt;&lt;/polygon&gt;&lt;polygon points=&quot;552.4 61 547.3 55.7 548.7 54.3 552.4 57.9 558.7 51.4 560.1 52.9 552.4 61&quot;&gt;&lt;/polygon&gt;&lt;polygon points=&quot;552.4 75.7 547.3 70.7 548.7 69.1 552.4 72.9 558.7 66.2 560.1 67.9 552.4 75.7&quot;&gt;&lt;/polygon&gt;&lt;polygon points=&quot;552.4 90.5 547.3 85.2 548.7 83.8 552.4 87.4 558.7 81 560.1 82.4 552.4 90.5&quot;&gt;&lt;/polygon&gt;&lt;polygon points=&quot;552.4 105.7 547.3 100.5 548.7 99.1 552.4 102.6 558.7 96.2 560.1 97.6 552.4 105.7&quot;&gt;&lt;/polygon&gt;&lt;polygon points=&quot;565.4 54.8 591.5 54.8 591.5 57.1 565.4 57.1 565.4 54.8&quot;&gt;&lt;/polygon&gt;&lt;polygon points=&quot;565.4 70 591.5 70 591.5 71.9 565.4 71.9 565.4 70&quot;&gt;&lt;/polygon&gt;&lt;polygon points=&quot;565.4 84.8 591.5 84.8 591.5 86.7 565.4 86.7 565.4 84.8&quot;&gt;&lt;/polygon&gt;&lt;polygon points=&quot;565.4 99.5 591.5 99.5 591.5 101.9 565.4 101.9 565.4 99.5&quot;&gt;&lt;/polygon&gt;&lt;/g&gt;&lt;text class=svgLabel transform=&quot;translate(556.8 165.5)&quot;&gt;Test&lt;/text&gt; &lt;/a&gt;&lt;/g&gt;&lt;g id=Deploy class=svgHotspot&gt;&lt;a href=&quot;./../../../process.adv.eya_oracle.base/deliveryprocesses/deploy_DA41E608.html&quot; target=&quot;_self&quot; guid=&quot;_fuFp0Ys6Ee6Z58NF8Wy6XA&quot;&gt;&lt;polygon class=svgHiLiPoint points=&quot;828.6 75 793.6 40 778.1 40 778.1 110 793.6 110 828.6 75&quot;&gt;&lt;/polygon&gt;&lt;circle class=svgHiLiPhase r=&quot;65&quot; cy=&quot;75&quot; cx=&quot;735.9&quot;&gt;&lt;/circle&gt;&lt;g class=svgHiLiIcon&gt;&lt;path d=&quot;M766.4,73.7c-.4,0-.8-.4-.8-.8s.4-.8.8-.8c2,0,4.6-1.8,4.6-3.7v-2.6c0-2-1.6-3.6-3.5-3.6s-.8-.4-.8-.8.4-.8.8-.8c2.9,0,5.2,2.3,5.2,5.2v2.6c0,2.9-3.5,5.3-6.3,5.3h0Z&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M764.9,85.1c-.5,0-.8-.4-.8-.8s.4-.8.8-.8c2,0,4.7-1.7,4.7-3.6v-2.6c0-1.8-1.1-3.7-3.2-3.7s-.8-.4-.8-.8.4-.8.8-.8c2.7,0,4.9,2.3,4.9,5.3v2.6c0,2.9-3.5,5.2-6.4,5.2h0Z&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M757.2,108.2c-9.9,0-37.3-.8-57.6-9.4-.3,0-.5-.4-.5-.8v-31.5c0-.5.4-.8.8-.8h7.7c12.2,0,22.6-10.7,22.6-23.4v-6.8c0-1.1.6-2.3,1.6-2.9.9-.7,2.2-.8,3.2-.4,4.8,1.8,8,6.9,8,12.7v15.7h24.1c.4,0,.8.4.8.8s-.4.8-.8.8h-24.9c-.2,0-.4,0-.6-.2-.2-.2-.2-.4-.2-.6v-16.6c0-5.1-2.8-9.7-6.9-11.2-.6-.2-1.2,0-1.7.2s-.8.9-.8,1.5v6.8c0,13.6-11.1,25.1-24.2,25.1h-6.9v30.1c24.7,10.2,59.8,9,60.2,9h.4c2,0,3.5-1.6,3.5-3.5v-2.6c0-1.9-1.5-3.5-3.4-3.5h0c-.5,0-.8-.4-.8-.8s.4-.8.8-.8h3c1.8,0,3.5-1.8,3.5-3.9v-2.6c0-1.7-.9-3.6-3-3.6s-.8-.4-.8-.8.4-.8.8-.8c2.7,0,4.7,2.2,4.7,5.2v2.6c0,2.7-2,5-4.4,5.5.9.9,1.4,2.2,1.4,3.5v2.6c0,2.9-2.3,5.2-5.2,5.2h-.4c-.2.1-1.5.2-3.9.2h0Z&quot;&gt;&lt;/path&gt;&lt;/g&gt;&lt;text class=svgHiLiLabel transform=&quot;translate(707 165.5)&quot;&gt;Deploy&lt;/text&gt; &lt;/a&gt;&lt;/g&gt;&lt;g id=Support class=svgHotspot&gt;&lt;a href=&quot;./../../../process.adv.eya_oracle.base/deliveryprocesses/support_2BECA82C.html&quot; target=&quot;_self&quot; guid=&quot;_g2xwMIs6Ee6Z58NF8Wy6XA&quot;&gt;&lt;circle class=svgPhase r=&quot;65&quot; cy=&quot;75&quot; cx=&quot;900&quot;&gt;&lt;/circle&gt;&lt;g class=svgIcon&gt;&lt;path d=&quot;M938.3,96.9c-.5,0-1-.4-1-1s.5-1,1-1c1.1,0,2.4-.9,2.4-1.7v-1.6c0-.9-.5-1.8-1.5-1.8s-1-.4-1-1,.5-1,1-1c1.9,0,3.5,1.7,3.5,3.8v1.6c0,2.1-2.4,3.7-4.4,3.7Z&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M939.7,89.9h-.4c-.5,0-1-.4-1-1s.5-1,1-1h.2c.9,0,2.2,0,2.8-.6.3-.3.4-.6.4-1.2v-1.6c0-.6,0-1.1-.4-1.3-.4-.4-1.2-.4-2-.3h-10.9c0,0-10.5-.3-17.8,3.2-4.9,2.4-13.6,2.6-14,2.6h-5.6c-.5,0-1-.4-1-1s.5-1,1-1h5.6c0,0,8.6-.3,13.2-2.4,7.8-3.7,18.3-3.4,18.7-3.4h10.9c1,0,2.4,0,3.4.9.6.6,1,1.6,1,2.8v1.6c0,1.1-.3,1.9-1,2.6-1.2,1-2.9,1.1-4.1,1.1Z&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M924.6,111.3c-7.8,0-18.3-.5-27.1-2.6h-3.3c-.5,0-1-.4-1-1s.5-1,1-1h3.6c16.1,3.9,37.9,2.3,38.1,2.2h.3c.9,0,1.7-.7,1.7-1.7v-1.6c0-.9-.7-1.6-1.6-1.7h0c-.5,0-1-.5-1-1s.5-1,1.1-1h1.7c.8,0,1.7-.9,1.7-1.9v-1.6c0-.8-.4-1.7-1.4-1.7s-1-.4-1-1,.5-1,1-1c2,0,3.4,1.6,3.4,3.7v1.6c0,1.6-1,3-2.4,3.6.3.6.5,1.2.5,1.9v1.6c0,2-1.7,3.7-3.7,3.7h-.2c0,.2-4.7.5-11.3.5Z&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M921.9,40.1c-.5,0-1-.5-1-1,0-1.1-.9-2.4-1.7-2.4h-1.6c-.9,0-1.8.5-1.8,1.5s-.5,1-1,1-1-.5-1-1c0-1.9,1.7-3.5,3.8-3.5h1.6c2,0,3.7,2.4,3.7,4.4s-.5,1-1,1Z&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M913.7,85c-.5,0-1-.4-1-1v-4.1c0,0-.3-8.6-2.4-13.2-3.8-7.7-3.5-18.2-3.5-18.7v-10.9c0-1,0-2.4.9-3.4.6-.6,1.5-1,2.8-1h1.6c1.1,0,2,.3,2.6,1,1.2,1.2,1.2,3.1,1.2,4.2v.2c0,.5-.5,1-1,1s-1-.5-1-1h0c0-1,0-2.3-.6-2.9s-.6-.4-1.2-.4h-1.6c-.6,0-1.1,0-1.3.4-.4.4-.4,1.2-.3,2v10.8c0,0-.3,10.5,3.2,17.8,2.4,4.9,2.6,13.6,2.6,14v4.2c0,.5-.5,1-1,1Z&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M933.7,82.8c-.5,0-1-.4-1-1v-2c3.9-16.1,2.3-37.9,2.2-38.1v-.3c0-.9-.7-1.7-1.7-1.7h-1.6c-.9,0-1.6.7-1.7,1.6h0c0,.6-.5,1.1-1,1.1h0c-.5,0-1-.5-1-1h0v-1.8c0-.8-.9-1.7-1.9-1.7h-1.6c-.8,0-1.7.4-1.7,1.4s-.5,1-1,1-1-.5-1-1c0-2,1.5-3.4,3.7-3.4h1.6c1.6,0,3,1,3.6,2.4.6-.3,1.2-.5,1.9-.5h1.6c2,0,3.7,1.7,3.7,3.7v.2c0,0,1.7,22.1-2.3,38.5v1.7c.2.4-.3.9-.8.9Z&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M884.3,116.7h-1.5c-2,0-3.7-2.4-3.7-4.4s.5-1,1-1,1,.4,1,1c0,1.1.9,2.4,1.7,2.4h1.6c.9,0,1.8-.5,1.8-1.5s.5-1,1-1,1,.4,1,1c0,1.9-1.7,3.5-3.9,3.5Z&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M891.5,118.7h-1.6c-1.1,0-2-.3-2.6-1-1.2-1.2-1.2-3.1-1.2-4.2v-.2c0-.6.5-1,1-1s1,.4,1,1v.2c0,.9,0,2.2.6,2.8s.6.4,1.2.4h1.6c.6,0,1.1-.1,1.3-.4.4-.4.4-1.2.3-2v-10.9c0,0,.3-10.5-3.2-17.8-2.4-4.9-2.6-13.6-2.6-14v-4.1c0-.6.5-1,1-1s1,.4,1,1v4.1c0,0,.3,8.6,2.4,13.2,3.7,7.8,3.4,18.3,3.4,18.7v10.9c0,1,0,2.4-.9,3.4-.6.6-1.5.9-2.7.9Z&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M877.4,115.7h-1.6c-1.6,0-3-1-3.6-2.4-.6.3-1.2.5-1.9.5h-1.6c-2,0-3.7-1.7-3.7-3.7v-.2c0,0-1.7-22.1,2.3-38.5v-1.7c0-.6.5-1,1-1s1,.4,1,1v2c-3.9,16.1-2.3,37.9-2.2,38.1v.3c0,.9.7,1.7,1.7,1.7h1.6c.9,0,1.6-.7,1.7-1.6h0c0-.7.5-1.1,1-1.1s1,.4,1,1h0v1.8c0,.8.9,1.7,1.9,1.7h1.6c.8,0,1.7-.4,1.7-1.4s.5-1,1-1,1,.4,1,1c-.2,2.1-1.8,3.5-3.9,3.5Z&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M861.4,63.3c-1.9,0-3.5-1.7-3.5-3.8v-1.6c0-2.1,2.4-3.7,4.4-3.7s1,.4,1,1-.5,1-1,1c-1.1,0-2.4.9-2.4,1.7v1.6c0,.9.5,1.8,1.5,1.8s1,.4,1,1-.5,1-1,1Z&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M859.9,70.3c-1,0-2.1,0-3-.9-.6-.6-1-1.6-1-2.8v-1.6c0-1.1.3-1.9,1-2.6,1.2-1.2,3.1-1.2,4.2-1.2h.2c.5,0,1,.4,1,1s-.5,1-1,1h-.2c-.9,0-2.2,0-2.8.6-.3.3-.4.6-.4,1.2v1.6c0,.6,0,1.1.4,1.3.4.4,1.2.4,2,.3h10.9c0,0,10.5.3,17.8-3.2,4.9-2.4,13.6-2.6,14-2.6h6.5c.5,0,1,.4,1,1s-.5,1-1,1h-6.5c0,0-8.6.3-13.2,2.4-7.8,3.7-18.3,3.4-18.7,3.4h-10.9c0,0-.2,0-.3,0Z&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M862.3,56.2c-2,0-3.4-1.6-3.4-3.7v-1.5c0-1.6,1-3,2.4-3.6-.3-.6-.5-1.2-.5-1.9v-1.6c0-2,1.7-3.7,3.7-3.7h.2c0,0,22.1-1.7,38.5,2.3h4.4c.5,0,1,.5,1,1s-.5,1-1,1h-4.7c-16.1-3.9-37.9-2.3-38.1-2.2h-.3c-.9,0-1.7.7-1.7,1.7v1.6c0,.9.7,1.6,1.6,1.7h0c.5,0,1,.5,1,1s-.5,1-1.1,1h-1.7c-.8,0-1.7.9-1.7,1.9v1.6c0,.8.4,1.7,1.4,1.7s1,.4,1,1-.5.7-1.1.7Z&quot;&gt;&lt;/path&gt;&lt;rect y=&quot;110.2&quot; x=&quot;912.6&quot; height=&quot;6.9&quot; width=&quot;2&quot;&gt;&lt;/rect&gt;&lt;rect y=&quot;110.2&quot; x=&quot;932.6&quot; height=&quot;6.9&quot; width=&quot;2&quot;&gt;&lt;/rect&gt;&lt;rect y=&quot;62.4&quot; x=&quot;936&quot; height=&quot;2&quot; width=&quot;6.9&quot;&gt;&lt;/rect&gt;&lt;rect y=&quot;42.4&quot; x=&quot;936&quot; height=&quot;2&quot; width=&quot;6.9&quot;&gt;&lt;/rect&gt;&lt;rect y=&quot;34.3&quot; x=&quot;887.2&quot; height=&quot;6.9&quot; width=&quot;2&quot;&gt;&lt;/rect&gt;&lt;rect y=&quot;34.3&quot; x=&quot;867.2&quot; height=&quot;6.9&quot; width=&quot;2&quot;&gt;&lt;/rect&gt;&lt;rect y=&quot;106.6&quot; x=&quot;859&quot; height=&quot;2&quot; width=&quot;6.9&quot;&gt;&lt;/rect&gt;&lt;rect y=&quot;86.6&quot; x=&quot;859&quot; height=&quot;2&quot; width=&quot;6.9&quot;&gt;&lt;/rect&gt;&lt;/g&gt;&lt;text class=svgLabel transform=&quot;matrix(1 0 0 1 865.9807 165.5)&quot;&gt;Support&lt;/text&gt; &lt;/a&gt;&lt;/g&gt;&lt;g id=Manage_the_project class=altHotspot&gt;&lt;a href=&quot;./../../../process.adv.eya_oracle.base/deliveryprocesses/manage_project_1782D617.html&quot; target=&quot;_self&quot; guid=&quot;_gyYx8OyXEe-socSARGFgTg&quot;&gt;&lt;polygon class=svgChevron points=&quot;969.9 233.5 948.3 256 14.9 256 36.5 233.5 14.9 211 948.3 211 969.9 233.5&quot;&gt;&lt;/polygon&gt;&lt;text class=svgAltLabel transform=&quot;translate(409.4 239)&quot;&gt;Manage the Project&lt;/text&gt; &lt;/a&gt;&lt;/g&gt;&lt;/svg&gt;</userdiagram>
+</diagrams>
+<breakdown name="Team Breakdown Structure" DisplayName="Deploy" nodeId="ac2818f8">
+<columns nodeId="bb96fc0c">
+<column id="presentation_name" label="Name" nodeId="e9dfc253"></column>
+<column id="model_info" label="Model Info" nodeId="654d487b"></column>
+<column id="teams" label="Team" nodeId="cfec2c8f"></column>
+<column id="type" label="Type" nodeId="38a2a37d"></column>
+<column id="prefix" label="Prefix" nodeId="1f426059"></column>
+<column id="is_planned" label="Planned" nodeId="362ced3c"></column>
+</columns>
+<Element TypeName="Role Descriptor" ModelInfo="" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_aA1J8NE0Ee6Y56Jk6jqfOA_kWXJsTYfEeOOP7mzKGsP2A" ConcreteType="Role" Url="core.default.role_def.base/roles/app_developer_8EC93FA7.html" Name="app_developer" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Application Developer" Team="" Id="_aA1J8NE0Ee6Y56Jk6jqfOA_kWXJsTYfEeOOP7mzKGsP2A" relProcessPath=",_aA1J8NE0Ee6Y56Jk6jqfOA_kWXJsTYfEeOOP7mzKGsP2A" ShapeiconUrl="images/roledes_lg_dgm32.gif" ModelInfoKey="" nodeId="caab7606">
+<attribute name="prefix" nodeId="eb6b71b8"></attribute>
+<attribute name="isEventDriven" nodeId="4e6c9b00"></attribute>
+<attribute name="isOngoing" nodeId="695e2f9a"></attribute>
+<attribute name="isOptional" nodeId="6b5a9cd6">false</attribute>
+<attribute name="isPlanned" nodeId="62cf8531">true</attribute>
+<attribute name="isRepeatable" nodeId="5014031f"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d2e8fe8c">false</attribute>
+<Element TypeName="Work Product Descriptor" ModelInfo="Modifies" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_tw8_IdEsEe6Y56Jk6jqfOA,_G0JW0NEtEe6Y56Jk6jqfOA_sNr34JaDEeSe0L5Xs0XXyg" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/release_notes_291C7F0.html" Name="release_notes" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Release Notes" Id="_G0JW0NEtEe6Y56Jk6jqfOA_sNr34JaDEeSe0L5Xs0XXyg" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="Modifies" nodeId="ed8dd85f"></Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Modifies" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_tw8_IdEsEe6Y56Jk6jqfOA,_Eqm3cNEtEe6Y56Jk6jqfOA_0zP4IGEpEeWjx9HVFtpEzA" ConcreteType="Artifact" Url="core.org.common.base/workproducts/user_supp_mat_B37E4DC2.html" Name="user_supp_mat" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="User Support Materials" Id="_Eqm3cNEtEe6Y56Jk6jqfOA_0zP4IGEpEeWjx9HVFtpEzA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="Modifies" nodeId="6cb58046"></Element>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Owner" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_tw8_IdEsEe6Y56Jk6jqfOA,_G0JW0NEtEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.pkg_dev.base/tasks/create_release_notes_B10DFB18.html" Name="create_release_notes" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Create release notes" Id="_G0JW0NEtEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="primaryTasks" nodeId="873b375a"></Element>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Owner" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_tw8_IdEsEe6Y56Jk6jqfOA,_Eqm3cNEtEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.pkg_dev.base/tasks/create_user_supp_mat_6C8C0761.html" Name="create_user_supp_mat" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Create user support materials" Id="_Eqm3cNEtEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="primaryTasks" nodeId="ef366726"></Element>
+</Element>
+<Element TypeName="Role Descriptor" ModelInfo="" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_v68agpCXEe-V6_hI2aWEGg" ConcreteType="Role" Url="core.default.role_def.base/roles/conversion_lead_D4ACE143.html" Name="conversion_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Conversion Lead" Team="" Id="_v68agpCXEe-V6_hI2aWEGg" relProcessPath=",_v68agpCXEe-V6_hI2aWEGg" ShapeiconUrl="images/roledes_lg_dgm32.gif" ModelInfoKey="" nodeId="ea46cb04">
+<attribute name="prefix" nodeId="792e13f9"></attribute>
+<attribute name="isEventDriven" nodeId="66f3f80c"></attribute>
+<attribute name="isOngoing" nodeId="800d09b2"></attribute>
+<attribute name="isOptional" nodeId="ee427dd8">false</attribute>
+<attribute name="isPlanned" nodeId="cfda6a0f">true</attribute>
+<attribute name="isRepeatable" nodeId="eb3864c"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d3a19074">false</attribute>
+<Element TypeName="Work Product Descriptor" ModelInfo="Modifies" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_CL0vwdFMEe6Y56Jk6jqfOA,_MfELQNF6Ee6Y56Jk6jqfOA_hNuZMDiYEeqr99br-irnoQ" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/conversion_rpts_3A21EEDC.html" Name="conversion_rpts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Conversion Reports" Id="_MfELQNF6Ee6Y56Jk6jqfOA_hNuZMDiYEeqr99br-irnoQ" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="Modifies" nodeId="818e8262"></Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Modifies" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_CL0vwdFMEe6Y56Jk6jqfOA,_MfELQNF6Ee6Y56Jk6jqfOA_2hQWUH_CEeSnjIKMFkkdjQ" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/data_migration_deploy_runbook_8EC6B3.html" Name="data_migration_deploy_runbook" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Data Migration Deployment Runbook" Id="_MfELQNF6Ee6Y56Jk6jqfOA_2hQWUH_CEeSnjIKMFkkdjQ" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="Modifies" nodeId="72a8cd1f"></Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Modifies" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_Auu7UdF7Ee6Y56Jk6jqfOA,_1oejINF7Ee6Y56Jk6jqfOA_TTV9QNxrEeSFJbbBGVuBWQ" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/dq_remediation_plan_64772B5A.html" Name="dq_remediation_plan" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Data Quality Remediation Plan" Id="_1oejINF7Ee6Y56Jk6jqfOA_TTV9QNxrEeSFJbbBGVuBWQ" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="Modifies" nodeId="d37d675c"></Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Modifies" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_CL0vwdFMEe6Y56Jk6jqfOA,_MfELQNF6Ee6Y56Jk6jqfOA_40rDEII2EeSQGLhbveWyfw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/data_reconcile_rpt_77975499.html" Name="data_reconcile_rpt" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Data Reconciliation Report" Id="_MfELQNF6Ee6Y56Jk6jqfOA_40rDEII2EeSQGLhbveWyfw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="Modifies" nodeId="86cbc52b"></Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Modifies" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_CL0vwdFMEe6Y56Jk6jqfOA,_MfELQNF6Ee6Y56Jk6jqfOA_1QgeIOYJEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/defect_tracker_1B140F53.html" Name="defect_tracker" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Defect Tracker" Id="_MfELQNF6Ee6Y56Jk6jqfOA_1QgeIOYJEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="Modifies" nodeId="311ac479"></Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Modifies" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_CL0vwdFMEe6Y56Jk6jqfOA,_MfELQNF6Ee6Y56Jk6jqfOA_oOGCYPyfEeOOGZZA-JKR9Q" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/issue_register_3A274CB5.html" Name="issue_register" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Issue Register" Id="_MfELQNF6Ee6Y56Jk6jqfOA_oOGCYPyfEeOOGZZA-JKR9Q" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="Modifies" nodeId="562dfae"></Element>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Owner" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_Auu7UdF7Ee6Y56Jk6jqfOA,_1oejINF7Ee6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/add_data_conv_issues_DEAD86EB.html" Name="add_data_conv_issues" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Address data conversion issues in target solution" Id="_1oejINF7Ee6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="primaryTasks" nodeId="25e403d5"></Element>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Owner" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_CL0vwdFMEe6Y56Jk6jqfOA,_gwqcMNF6Ee6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/address_findings_36F5D8F5.html" Name="address_findings" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Address findings" Id="_gwqcMNF6Ee6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="primaryTasks" nodeId="ea2978a1"></Element>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Owner" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_Auu7UdF7Ee6Y56Jk6jqfOA,_obVzcNF7Ee6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/exec_data_conv_FEC2B92A.html" Name="exec_data_conv" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Execute data conversion" Id="_obVzcNF7Ee6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="primaryTasks" nodeId="d9d94f15"></Element>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Owner" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_CL0vwdFMEe6Y56Jk6jqfOA,_MfELQNF6Ee6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/exec_dress_rehearsal_EFCBEC15.html" Name="exec_dress_rehearsal" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Execute dress rehearsal" Id="_MfELQNF6Ee6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="primaryTasks" nodeId="34553e48"></Element>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Additional" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_tw8_IdEsEe6Y56Jk6jqfOA,_aA1J8NE0Ee6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/fin_prod_release_7167DC72.html" Name="fin_prod_release" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Finalize production release" Id="_aA1J8NE0Ee6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="additionalTasks" nodeId="1555dfd0"></Element>
+</Element>
+<Element TypeName="Role Descriptor" ModelInfo="" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_DnIAMGNdEeeIXt1F3AlowQ" ConcreteType="Role" Url="core.default.role_def.base/roles/instructor_8A316FDA.html" Name="instructor" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Instructor" Team="" Id="_DnIAMGNdEeeIXt1F3AlowQ" relProcessPath=",_DnIAMGNdEeeIXt1F3AlowQ" ShapeiconUrl="images/roledes_lg_dgm32.gif" ModelInfoKey="" nodeId="3040f60d">
+<attribute name="prefix" nodeId="967139c1"></attribute>
+<attribute name="isEventDriven" nodeId="3ca2a0ec"></attribute>
+<attribute name="isOngoing" nodeId="da913d7f"></attribute>
+<attribute name="isOptional" nodeId="f535132b">false</attribute>
+<attribute name="isPlanned" nodeId="c55a76cc">true</attribute>
+<attribute name="isRepeatable" nodeId="84744bf"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="45fa7135">false</attribute>
+<Element TypeName="Work Product Descriptor" ModelInfo="Modifies" queryString="?proc=_yXwKIWNcEeeIXt1F3AlowQ&amp;path=_yXwKIWNcEeeIXt1F3AlowQ,__l4_YGNcEeeIXt1F3AlowQ,_EA5yIGNdEeeIXt1F3AlowQ_t3JVsBOBEeSXeLswwMJXqw" ConcreteType="Outcome" Url="core.org.common.base/workproducts/training_delivered_8FDD466.html" Name="training_delivered" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Training Delivered" Id="_EA5yIGNdEeeIXt1F3AlowQ_t3JVsBOBEeSXeLswwMJXqw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="Modifies" nodeId="faf79221"></Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Modifies" queryString="?proc=_yXwKIWNcEeeIXt1F3AlowQ&amp;path=_yXwKIWNcEeeIXt1F3AlowQ,__l4_YGNcEeeIXt1F3AlowQ,_DnLDgGNdEeeIXt1F3AlowQ_gNebABOBEeSXeLswwMJXqw" ConcreteType="Outcome" Url="core.org.common.base/workproducts/training_pilots_conducted_35E545F1.html" Name="training_pilots_conducted" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Training Pilots Conducted" Id="_DnLDgGNdEeeIXt1F3AlowQ_gNebABOBEeSXeLswwMJXqw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="Modifies" nodeId="b24f9aa"></Element>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Owner" queryString="?proc=_yXwKIWNcEeeIXt1F3AlowQ&amp;path=_yXwKIWNcEeeIXt1F3AlowQ,__l4_YGNcEeeIXt1F3AlowQ,_DnLDgGNdEeeIXt1F3AlowQ" ConcreteType="Task" Url="practice.pas.perf.train_delivery.base/tasks/conduct_pilot_training_2ED093DB.html" Name="conduct_pilot_training" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Conduct pilot training" Id="_DnLDgGNdEeeIXt1F3AlowQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="primaryTasks" nodeId="a4524213"></Element>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Owner" queryString="?proc=_yXwKIWNcEeeIXt1F3AlowQ&amp;path=_yXwKIWNcEeeIXt1F3AlowQ,__l4_YGNcEeeIXt1F3AlowQ,_EA5yIGNdEeeIXt1F3AlowQ" ConcreteType="Task" Url="practice.pas.perf.train_delivery.base/tasks/deliver_training_5C15C32C.html" Name="deliver_training" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Deliver training" Id="_EA5yIGNdEeeIXt1F3AlowQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="primaryTasks" nodeId="3dfef236"></Element>
+</Element>
+<Element TypeName="Role Descriptor" ModelInfo="" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_EVLZAGNdEeeIXt1F3AlowQ_eJet8jJsEeOXhriiTiD54w" ConcreteType="Role" Url="core.default.role_def.base/roles/org_chng_manager_7BA9818A.html" Name="org_chng_manager" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Organizational Change Manager" Team="" Id="_EVLZAGNdEeeIXt1F3AlowQ_eJet8jJsEeOXhriiTiD54w" relProcessPath=",_EVLZAGNdEeeIXt1F3AlowQ_eJet8jJsEeOXhriiTiD54w" ShapeiconUrl="images/roledes_lg_dgm32.gif" ModelInfoKey="" nodeId="1f6d752d">
+<attribute name="prefix" nodeId="138ad748"></attribute>
+<attribute name="isEventDriven" nodeId="25e8074e"></attribute>
+<attribute name="isOngoing" nodeId="a09db690"></attribute>
+<attribute name="isOptional" nodeId="4f6af7c9">false</attribute>
+<attribute name="isPlanned" nodeId="fe4690e8">true</attribute>
+<attribute name="isRepeatable" nodeId="b0e9facf"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="2e0ff8c">false</attribute>
+<Element TypeName="Work Product Descriptor" ModelInfo="Modifies" queryString="?proc=_O63QgZLKEe6Ji6GnvvUfqw&amp;path=_O63QgZLKEe6Ji6GnvvUfqw,_PPVxYbYZEe6pBYic1q4uAA,_px1wIDyWEe-lca5ajdCLeA_CrD7gJChEe-V6_hI2aWEGg" ConcreteType="Deliverable" Url="process.adv.eya_oracle.base/workproducts/training_delivery_8C9662F9.html" Name="training_delivery" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Training Delivery" Id="_px1wIDyWEe-lca5ajdCLeA_CrD7gJChEe-V6_hI2aWEGg" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="Modifies" nodeId="380a04eb"></Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Modifies" queryString="?proc=_yXwKIWNcEeeIXt1F3AlowQ&amp;path=_yXwKIWNcEeeIXt1F3AlowQ,__l4_YGNcEeeIXt1F3AlowQ,_EVLZAGNdEeeIXt1F3AlowQ_0DZckBOBEeSXeLswwMJXqw" ConcreteType="Artifact" Url="core.org.common.base/workproducts/training_evaluation_EAD5DB80.html" Name="training_evaluation" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Training/Learning Evaluation" Id="_EVLZAGNdEeeIXt1F3AlowQ_0DZckBOBEeSXeLswwMJXqw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="Modifies" nodeId="a819ede7"></Element>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Owner" queryString="?proc=_yXwKIWNcEeeIXt1F3AlowQ&amp;path=_yXwKIWNcEeeIXt1F3AlowQ,__l4_YGNcEeeIXt1F3AlowQ,_EVLZAGNdEeeIXt1F3AlowQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/eval_training_effect_CF308CFA.html" Name="eval_training_effect" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Evaluate training effectiveness" Id="_EVLZAGNdEeeIXt1F3AlowQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="primaryTasks" nodeId="2c411231"></Element>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Owner" queryString="?proc=_O63QgZLKEe6Ji6GnvvUfqw&amp;path=_O63QgZLKEe6Ji6GnvvUfqw,_PPVxYbYZEe6pBYic1q4uAA,_px1wIDyWEe-lca5ajdCLeA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/fin_training_delivery_B20BA53C.html" Name="fin_training_delivery" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Finalize training delivery" Id="_px1wIDyWEe-lca5ajdCLeA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="primaryTasks" nodeId="53b42111"></Element>
+</Element>
+<Element TypeName="Role Descriptor" ModelInfo="" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_QlzklJFQEe-HIdwCQRVfUg" ConcreteType="Role" Url="core.default.role_def.base/roles/project_manager_81311EEC.html" Name="project_manager" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Project Manager" Team="" Id="_QlzklJFQEe-HIdwCQRVfUg" relProcessPath=",_QlzklJFQEe-HIdwCQRVfUg" ShapeiconUrl="images/roledes_lg_dgm32.gif" ModelInfoKey="" nodeId="b5189ee4">
+<attribute name="prefix" nodeId="f7be27e1"></attribute>
+<attribute name="isEventDriven" nodeId="bebbc691"></attribute>
+<attribute name="isOngoing" nodeId="6dabe9e6"></attribute>
+<attribute name="isOptional" nodeId="b160000c">false</attribute>
+<attribute name="isPlanned" nodeId="3933df9b">true</attribute>
+<attribute name="isRepeatable" nodeId="ad37aa4e"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="6fa290a8">false</attribute>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Additional" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_UUXh8dEqEe6Y56Jk6jqfOA,_-OK08NErEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/prep_prod_supp_plan_6E104A41.html" Name="prep_prod_supp_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Prepare production support plan" Id="_-OK08NErEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="additionalTasks" nodeId="f44751c4"></Element>
+</Element>
+<Element TypeName="Role Descriptor" ModelInfo="" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_aA1J8NE0Ee6Y56Jk6jqfOA_wH46wLiVEe6mIfhV0mJMlA" ConcreteType="Role" Url="process.adv.eya_oracle.base/roles/sec_controls_lead_1D93838B.html" Name="sec_controls_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Security and Controls Lead" Team="" Id="_aA1J8NE0Ee6Y56Jk6jqfOA_wH46wLiVEe6mIfhV0mJMlA" relProcessPath=",_aA1J8NE0Ee6Y56Jk6jqfOA_wH46wLiVEe6mIfhV0mJMlA" ShapeiconUrl="images/roledes_lg_dgm32.gif" ModelInfoKey="" nodeId="756fe5c5">
+<attribute name="prefix" nodeId="ae05a2bb"></attribute>
+<attribute name="isEventDriven" nodeId="8f0f7ffc"></attribute>
+<attribute name="isOngoing" nodeId="dafc4d3e"></attribute>
+<attribute name="isOptional" nodeId="9e515307">false</attribute>
+<attribute name="isPlanned" nodeId="8ca0ed36">true</attribute>
+<attribute name="isRepeatable" nodeId="ef17672d"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="a732b1dd">false</attribute>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Additional" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_tw8_IdEsEe6Y56Jk6jqfOA,_aA1J8NE0Ee6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/fin_prod_release_7167DC72.html" Name="fin_prod_release" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Finalize production release" Id="_aA1J8NE0Ee6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="additionalTasks" nodeId="9ef54a9e"></Element>
+</Element>
+<Element TypeName="Role Descriptor" ModelInfo="" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_gYrzQu1tEe-oXdl_wfbebQ" ConcreteType="Role" Url="process.adv.eya_oracle.base/roles/soln_architect_1699084C.html" Name="soln_architect" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Solution Architect" Team="" Id="_gYrzQu1tEe-oXdl_wfbebQ" relProcessPath=",_gYrzQu1tEe-oXdl_wfbebQ" ShapeiconUrl="images/roledes_lg_dgm32.gif" ModelInfoKey="" nodeId="500495a5">
+<attribute name="prefix" nodeId="63dfe4c2"></attribute>
+<attribute name="isEventDriven" nodeId="1d72bcba"></attribute>
+<attribute name="isOngoing" nodeId="e2fba3ad"></attribute>
+<attribute name="isOptional" nodeId="fbf642d2">false</attribute>
+<attribute name="isPlanned" nodeId="15ee4247">true</attribute>
+<attribute name="isRepeatable" nodeId="6c2de9b0"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="3d22e5c3">false</attribute>
+<Element TypeName="Work Product Descriptor" ModelInfo="Modifies" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_UUXh8dEqEe6Y56Jk6jqfOA,_mFqHYNEsEe6Y56Jk6jqfOA_aIGIsFeoEeWVqN1Jb7PaQg" ConcreteType="Outcome" Url="core.mgmt.common.base/workproducts/go_or_no_go_decision_C1D43DD7.html" Name="go_or_no_go_decision" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Go No-Go Decision" Id="_mFqHYNEsEe6Y56Jk6jqfOA_aIGIsFeoEeWVqN1Jb7PaQg" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="Modifies" nodeId="eb1df79b"></Element>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Owner" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_UUXh8dEqEe6Y56Jk6jqfOA,_mFqHYNEsEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/make_go_nogo_for_go_live_F4FA1A13.html" Name="make_go_nogo_for_go_live" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Make go/no-go decision for go-live" Id="_mFqHYNEsEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="primaryTasks" nodeId="6e193964"></Element>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Additional" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_tw8_IdEsEe6Y56Jk6jqfOA,_aA1J8NE0Ee6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/fin_prod_release_7167DC72.html" Name="fin_prod_release" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Finalize production release" Id="_aA1J8NE0Ee6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="additionalTasks" nodeId="b30d9673"></Element>
+</Element>
+<Element TypeName="Role Descriptor" ModelInfo="" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_gYrzRe1tEe-oXdl_wfbebQ" ConcreteType="Role" Url="core.default.role_def.base/roles/stakeholder_8C587575.html" Name="stakeholder" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Stakeholder" Team="" Id="_gYrzRe1tEe-oXdl_wfbebQ" relProcessPath=",_gYrzRe1tEe-oXdl_wfbebQ" ShapeiconUrl="images/roledes_lg_dgm32.gif" ModelInfoKey="" nodeId="7e75875a">
+<attribute name="prefix" nodeId="170db401"></attribute>
+<attribute name="isEventDriven" nodeId="ce19acc6"></attribute>
+<attribute name="isOngoing" nodeId="fa6ed83d"></attribute>
+<attribute name="isOptional" nodeId="db7eeab9">false</attribute>
+<attribute name="isPlanned" nodeId="5012ad43">true</attribute>
+<attribute name="isRepeatable" nodeId="eea53923"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="100a5542">false</attribute>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Additional" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_UUXh8dEqEe6Y56Jk6jqfOA,_mFqHYNEsEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/make_go_nogo_for_go_live_F4FA1A13.html" Name="make_go_nogo_for_go_live" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Make go/no-go decision for go-live" Id="_mFqHYNEsEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="additionalTasks" nodeId="52ab4f93"></Element>
+</Element>
+<Element TypeName="Role Descriptor" ModelInfo="" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_QlzkkZFQEe-HIdwCQRVfUg" ConcreteType="Role" Url="process.adv.eya_oracle.base/roles/tech_lead_30CEAD95.html" Name="tech_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Technical Lead" Team="" Id="_QlzkkZFQEe-HIdwCQRVfUg" relProcessPath=",_QlzkkZFQEe-HIdwCQRVfUg" ShapeiconUrl="images/roledes_lg_dgm32.gif" ModelInfoKey="" nodeId="78c575fa">
+<attribute name="prefix" nodeId="fe6b0f5d"></attribute>
+<attribute name="isEventDriven" nodeId="ff16f22f"></attribute>
+<attribute name="isOngoing" nodeId="694fbfc"></attribute>
+<attribute name="isOptional" nodeId="c6f628d4">false</attribute>
+<attribute name="isPlanned" nodeId="687c36fa">true</attribute>
+<attribute name="isRepeatable" nodeId="32d98c6"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="c6217af7">false</attribute>
+<Element TypeName="Work Product Descriptor" ModelInfo="Modifies" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_UUXh8dEqEe6Y56Jk6jqfOA,_-OK08NErEe6Y56Jk6jqfOA_TW-K4LiOEeSceKOp7BoYmA" ConcreteType="Artifact" Url="core.org.common.base/workproducts/post_imp_support_resources_7FAB7A9E.html" Name="post_imp_support_resources" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Post Implementation Support Resource List" Id="_-OK08NErEe6Y56Jk6jqfOA_TW-K4LiOEeSceKOp7BoYmA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="Modifies" nodeId="5161aba7"></Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Modifies" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_tw8_IdEsEe6Y56Jk6jqfOA,_aA1J8NE0Ee6Y56Jk6jqfOA_C2-VMI1WEe6j7Io7DmDR6A" ConcreteType="Deliverable" Url="process.adv.eya_oracle.base/workproducts/prod_release_BEF6B829.html" Name="prod_release" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Production Release" Id="_aA1J8NE0Ee6Y56Jk6jqfOA_C2-VMI1WEe6j7Io7DmDR6A" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="Modifies" nodeId="8daef75a"></Element>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Owner" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_tw8_IdEsEe6Y56Jk6jqfOA,_aA1J8NE0Ee6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/fin_prod_release_7167DC72.html" Name="fin_prod_release" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Finalize production release" Id="_aA1J8NE0Ee6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="primaryTasks" nodeId="6b9c10ce"></Element>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Owner" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_UUXh8dEqEe6Y56Jk6jqfOA,_-OK08NErEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/prep_prod_supp_plan_6E104A41.html" Name="prep_prod_supp_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Prepare production support plan" Id="_-OK08NErEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="primaryTasks" nodeId="d009735b"></Element>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Additional" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_UUXh8dEqEe6Y56Jk6jqfOA,_mFqHYNEsEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/make_go_nogo_for_go_live_F4FA1A13.html" Name="make_go_nogo_for_go_live" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Make go/no-go decision for go-live" Id="_mFqHYNEsEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="additionalTasks" nodeId="d4cc05e1"></Element>
+</Element>
+<Element TypeName="Role Descriptor" ModelInfo="" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_DnIAMmNdEeeIXt1F3AlowQ" ConcreteType="Role" Url="core.default.role_def.base/roles/training_specialist_A775B7C0.html" Name="training_specialist" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Training/Learning Specialist" Team="" Id="_DnIAMmNdEeeIXt1F3AlowQ" relProcessPath=",_DnIAMmNdEeeIXt1F3AlowQ" ShapeiconUrl="images/roledes_lg_dgm32.gif" ModelInfoKey="" nodeId="387c0258">
+<attribute name="prefix" nodeId="803d8ae5"></attribute>
+<attribute name="isEventDriven" nodeId="d96ff511"></attribute>
+<attribute name="isOngoing" nodeId="2a49bef1"></attribute>
+<attribute name="isOptional" nodeId="d529693d">false</attribute>
+<attribute name="isPlanned" nodeId="c95ff8d9">true</attribute>
+<attribute name="isRepeatable" nodeId="d6cee9a5"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="28e581f4">false</attribute>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Additional" queryString="?proc=_yXwKIWNcEeeIXt1F3AlowQ&amp;path=_yXwKIWNcEeeIXt1F3AlowQ,__l4_YGNcEeeIXt1F3AlowQ,_DnLDgGNdEeeIXt1F3AlowQ" ConcreteType="Task" Url="practice.pas.perf.train_delivery.base/tasks/conduct_pilot_training_2ED093DB.html" Name="conduct_pilot_training" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Conduct pilot training" Id="_DnLDgGNdEeeIXt1F3AlowQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="additionalTasks" nodeId="1334a06a"></Element>
+</Element>
+<Element TypeName="Role Descriptor" ModelInfo="" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_-OK08dErEe6Y56Jk6jqfOA" ConcreteType="Role" Url="core.default.role_def.base/roles/transition_lead_D1C56254.html" Name="transition_lead" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Transition Lead" Team="" Id="_-OK08dErEe6Y56Jk6jqfOA" relProcessPath=",_-OK08dErEe6Y56Jk6jqfOA" ShapeiconUrl="images/roledes_lg_dgm32.gif" ModelInfoKey="" nodeId="28db5301">
+<attribute name="prefix" nodeId="f77bd5a6"></attribute>
+<attribute name="isEventDriven" nodeId="3c77ae8e"></attribute>
+<attribute name="isOngoing" nodeId="2b32c18"></attribute>
+<attribute name="isOptional" nodeId="7f239da7">false</attribute>
+<attribute name="isPlanned" nodeId="454e7573">true</attribute>
+<attribute name="isRepeatable" nodeId="4c04f1a1"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="178a4a9c">false</attribute>
+<Element TypeName="Work Product Descriptor" ModelInfo="Modifies" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_UUXh8dEqEe6Y56Jk6jqfOA,_dohjANEsEe6Y56Jk6jqfOA_kkusYPDVEeOFgpTUvzaUCQ" ConcreteType="Artifact" Url="core.ops.common.base/workproducts/cutover_deploy_plan_9BE3B58D.html" Name="cutover_deploy_plan" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Cutover and Deployment Plan" Id="_dohjANEsEe6Y56Jk6jqfOA_kkusYPDVEeOFgpTUvzaUCQ" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="Modifies" nodeId="f04a52d8"></Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Modifies" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_tw8_IdEsEe6Y56Jk6jqfOA,_74F48NEsEe6Y56Jk6jqfOA_ZwkeoPF3EeOFgpTUvzaUCQ" ConcreteType="Artifact" Url="core.ops.common.base/workproducts/cutover_completion_signoff_5737BE4B.html" Name="cutover_completion_signoff" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Cutover Completion Sign-off" Id="_74F48NEsEe6Y56Jk6jqfOA_ZwkeoPF3EeOFgpTUvzaUCQ" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="Modifies" nodeId="6a4bfce1"></Element>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Owner" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_tw8_IdEsEe6Y56Jk6jqfOA,_74F48NEsEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.deploy.base/tasks/perform_cutover_using_runbook_9ABBFDDF.html" Name="perform_cutover_using_runbook" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Perform cutover using the runbook" Id="_74F48NEsEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="primaryTasks" nodeId="1943b5ac"></Element>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Owner" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_UUXh8dEqEe6Y56Jk6jqfOA,_dohjANEsEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/review_cutover_plan_teams_A2705D40.html" Name="review_cutover_plan_teams" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Review cutover plan with all stakeholders" Id="_dohjANEsEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="primaryTasks" nodeId="858240f"></Element>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Owner" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_tw8_IdEsEe6Y56Jk6jqfOA,_-CgiENEsEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.deploy.base/tasks/verify_cutover_runbook_complete_7811BE16.html" Name="verify_cutover_runbook_complete" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Verify cutover runbook items have been completed" Id="_-CgiENEsEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="primaryTasks" nodeId="2c056e49"></Element>
+</Element>
+</breakdown>
+<breakdown name="Work Product Breakdown Structure" DisplayName="Deploy" nodeId="1c99a14b">
+<columns nodeId="189a30">
+<column id="presentation_name" label="Name" nodeId="1a747d0b"></column>
+<column id="model_info" label="Model Info" nodeId="e4bfd7bc"></column>
+<column id="deliverable" label="Deliverable" nodeId="3c818a94"></column>
+<column id="type" label="Type" nodeId="378835f2"></column>
+<column id="prefix" label="Prefix" nodeId="350aaa87"></column>
+<column id="is_planned" label="Planned" nodeId="f189c55d"></column>
+</columns>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_aA1J8NE0Ee6Y56Jk6jqfOA_DSpuYMjDEeSen_qZHXggIA" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/application_release_B529D755.html" Name="application_release" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Application Release" Team="" Id="_aA1J8NE0Ee6Y56Jk6jqfOA_DSpuYMjDEeSen_qZHXggIA" relProcessPath=",_aA1J8NE0Ee6Y56Jk6jqfOA_DSpuYMjDEeSen_qZHXggIA" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="17d1f50e" Deliverable="Production Release">
+<attribute name="prefix" nodeId="c2005d98"></attribute>
+<attribute name="isEventDriven" nodeId="a34480d8"></attribute>
+<attribute name="isOngoing" nodeId="350ae120"></attribute>
+<attribute name="isOptional" nodeId="574227d0">false</attribute>
+<attribute name="isPlanned" nodeId="afa984e8">true</attribute>
+<attribute name="isRepeatable" nodeId="68934e0d"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="8135e1b7">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Output" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_MfELQNF6Ee6Y56Jk6jqfOA_hNuZMDiYEeqr99br-irnoQ" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/conversion_rpts_3A21EEDC.html" Name="conversion_rpts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Conversion Reports" Team="" Id="_MfELQNF6Ee6Y56Jk6jqfOA_hNuZMDiYEeqr99br-irnoQ" relProcessPath=",_MfELQNF6Ee6Y56Jk6jqfOA_hNuZMDiYEeqr99br-irnoQ" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="output" nodeId="7ffeb1e1" Deliverable="">
+<attribute name="prefix" nodeId="1120e28e"></attribute>
+<attribute name="isEventDriven" nodeId="f4c3c976"></attribute>
+<attribute name="isOngoing" nodeId="1b0711bf"></attribute>
+<attribute name="isOptional" nodeId="334233e3">false</attribute>
+<attribute name="isPlanned" nodeId="376dad52">true</attribute>
+<attribute name="isRepeatable" nodeId="1a728aa2"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="197ecdf4">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_dohjANEsEe6Y56Jk6jqfOA_kkusYPDVEeOFgpTUvzaUCQ" ConcreteType="Artifact" Url="core.ops.common.base/workproducts/cutover_deploy_plan_9BE3B58D.html" Name="cutover_deploy_plan" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Cutover and Deployment Plan" Team="" Id="_dohjANEsEe6Y56Jk6jqfOA_kkusYPDVEeOFgpTUvzaUCQ" relProcessPath=",_dohjANEsEe6Y56Jk6jqfOA_kkusYPDVEeOFgpTUvzaUCQ" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="9404dd21" Deliverable="">
+<attribute name="prefix" nodeId="b40cebda"></attribute>
+<attribute name="isEventDriven" nodeId="73c5c9e0"></attribute>
+<attribute name="isOngoing" nodeId="a1dd4bda"></attribute>
+<attribute name="isOptional" nodeId="2fd3aa70">false</attribute>
+<attribute name="isPlanned" nodeId="ca014f04">true</attribute>
+<attribute name="isRepeatable" nodeId="b8c73738"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="b310c2fe">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Output" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_74F48NEsEe6Y56Jk6jqfOA_ZwkeoPF3EeOFgpTUvzaUCQ" ConcreteType="Artifact" Url="core.ops.common.base/workproducts/cutover_completion_signoff_5737BE4B.html" Name="cutover_completion_signoff" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Cutover Completion Sign-off" Team="" Id="_74F48NEsEe6Y56Jk6jqfOA_ZwkeoPF3EeOFgpTUvzaUCQ" relProcessPath=",_74F48NEsEe6Y56Jk6jqfOA_ZwkeoPF3EeOFgpTUvzaUCQ" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="output" nodeId="c7308794" Deliverable="">
+<attribute name="prefix" nodeId="df6603a4"></attribute>
+<attribute name="isEventDriven" nodeId="a0efebc7"></attribute>
+<attribute name="isOngoing" nodeId="f088c92"></attribute>
+<attribute name="isOptional" nodeId="18ca5dec">false</attribute>
+<attribute name="isPlanned" nodeId="b358688b">true</attribute>
+<attribute name="isRepeatable" nodeId="f2417d64"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="b005174a">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_mFqHYNEsEe6Y56Jk6jqfOA_F4lyIPF4EeOFgpTUvzaUCQ" ConcreteType="Artifact" Url="core.ops.common.base/workproducts/cutover_go_nogo_chklist_ADE23C36.html" Name="cutover_go_nogo_chklist" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Cutover Go/No-Go Checklist" Team="" Id="_mFqHYNEsEe6Y56Jk6jqfOA_F4lyIPF4EeOFgpTUvzaUCQ" relProcessPath=",_mFqHYNEsEe6Y56Jk6jqfOA_F4lyIPF4EeOFgpTUvzaUCQ" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="dbf7218a" Deliverable="">
+<attribute name="prefix" nodeId="a5720121"></attribute>
+<attribute name="isEventDriven" nodeId="c9eaf839"></attribute>
+<attribute name="isOngoing" nodeId="b65bc11c"></attribute>
+<attribute name="isOptional" nodeId="5d3ca65d">false</attribute>
+<attribute name="isPlanned" nodeId="9c7b35ba">true</attribute>
+<attribute name="isRepeatable" nodeId="5b1f6328"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="c4e21e9c">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_dohjANEsEe6Y56Jk6jqfOA_EWo3MPF4EeOFgpTUvzaUCQ" ConcreteType="Artifact" Url="core.ops.common.base/workproducts/readiness_criteria_6CDC630D.html" Name="readiness_criteria" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Cutover Readiness Criteria" Team="" Id="_dohjANEsEe6Y56Jk6jqfOA_EWo3MPF4EeOFgpTUvzaUCQ" relProcessPath=",_dohjANEsEe6Y56Jk6jqfOA_EWo3MPF4EeOFgpTUvzaUCQ" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="896e4eb5" Deliverable="">
+<attribute name="prefix" nodeId="bacf867c"></attribute>
+<attribute name="isEventDriven" nodeId="220294b9"></attribute>
+<attribute name="isOngoing" nodeId="7622a25e"></attribute>
+<attribute name="isOptional" nodeId="dbb65083">false</attribute>
+<attribute name="isPlanned" nodeId="1d2c3f3a">true</attribute>
+<attribute name="isRepeatable" nodeId="ee390595"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="4d07e3ba">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_mFqHYNEsEe6Y56Jk6jqfOA_CEoYUPF4EeOFgpTUvzaUCQ" ConcreteType="Artifact" Url="core.ops.common.base/workproducts/cutover_runbook_28E93E5B.html" Name="cutover_runbook" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Cutover Runbook" Team="" Id="_mFqHYNEsEe6Y56Jk6jqfOA_CEoYUPF4EeOFgpTUvzaUCQ" relProcessPath=",_mFqHYNEsEe6Y56Jk6jqfOA_CEoYUPF4EeOFgpTUvzaUCQ" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="e624b991" Deliverable="">
+<attribute name="prefix" nodeId="6db51b12"></attribute>
+<attribute name="isEventDriven" nodeId="f264c66a"></attribute>
+<attribute name="isOngoing" nodeId="b0496be4"></attribute>
+<attribute name="isOptional" nodeId="abb4e8c7">false</attribute>
+<attribute name="isPlanned" nodeId="eb4601ae">true</attribute>
+<attribute name="isRepeatable" nodeId="71c688b4"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="e57d4e9a">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_MfELQNF6Ee6Y56Jk6jqfOA_2hQWUH_CEeSnjIKMFkkdjQ" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/data_migration_deploy_runbook_8EC6B3.html" Name="data_migration_deploy_runbook" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Data Migration Deployment Runbook" Team="" Id="_MfELQNF6Ee6Y56Jk6jqfOA_2hQWUH_CEeSnjIKMFkkdjQ" relProcessPath=",_MfELQNF6Ee6Y56Jk6jqfOA_2hQWUH_CEeSnjIKMFkkdjQ" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="142b13cd" Deliverable="">
+<attribute name="prefix" nodeId="7ab450fe"></attribute>
+<attribute name="isEventDriven" nodeId="50e30040"></attribute>
+<attribute name="isOngoing" nodeId="3a8ee484"></attribute>
+<attribute name="isOptional" nodeId="1c385165">false</attribute>
+<attribute name="isPlanned" nodeId="332c16a3">true</attribute>
+<attribute name="isRepeatable" nodeId="84b3e64a"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="78705db3">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Output" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_1oejINF7Ee6Y56Jk6jqfOA_TTV9QNxrEeSFJbbBGVuBWQ" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/dq_remediation_plan_64772B5A.html" Name="dq_remediation_plan" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Data Quality Remediation Plan" Team="" Id="_1oejINF7Ee6Y56Jk6jqfOA_TTV9QNxrEeSFJbbBGVuBWQ" relProcessPath=",_1oejINF7Ee6Y56Jk6jqfOA_TTV9QNxrEeSFJbbBGVuBWQ" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="output" nodeId="b8bbdee3" Deliverable="">
+<attribute name="prefix" nodeId="66a339ed"></attribute>
+<attribute name="isEventDriven" nodeId="680781e1"></attribute>
+<attribute name="isOngoing" nodeId="9e1c7fd6"></attribute>
+<attribute name="isOptional" nodeId="24452fd2">false</attribute>
+<attribute name="isPlanned" nodeId="da797f66">true</attribute>
+<attribute name="isRepeatable" nodeId="c6e12e76"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="61f9f021">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Output" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_MfELQNF6Ee6Y56Jk6jqfOA_40rDEII2EeSQGLhbveWyfw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/data_reconcile_rpt_77975499.html" Name="data_reconcile_rpt" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Data Reconciliation Report" Team="" Id="_MfELQNF6Ee6Y56Jk6jqfOA_40rDEII2EeSQGLhbveWyfw" relProcessPath=",_MfELQNF6Ee6Y56Jk6jqfOA_40rDEII2EeSQGLhbveWyfw" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="output" nodeId="c4538a4c" Deliverable="">
+<attribute name="prefix" nodeId="3132e424"></attribute>
+<attribute name="isEventDriven" nodeId="4a76aaf6"></attribute>
+<attribute name="isOngoing" nodeId="5bfe45de"></attribute>
+<attribute name="isOptional" nodeId="50331b5">false</attribute>
+<attribute name="isPlanned" nodeId="73610f12">true</attribute>
+<attribute name="isRepeatable" nodeId="fdd7284b"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="9685f014">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_MfELQNF6Ee6Y56Jk6jqfOA_1QgeIOYJEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/defect_tracker_1B140F53.html" Name="defect_tracker" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Defect Tracker" Team="" Id="_MfELQNF6Ee6Y56Jk6jqfOA_1QgeIOYJEeOqmb5IikO7mw" relProcessPath=",_MfELQNF6Ee6Y56Jk6jqfOA_1QgeIOYJEeOqmb5IikO7mw" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="7f066952" Deliverable="">
+<attribute name="prefix" nodeId="8bfe0247"></attribute>
+<attribute name="isEventDriven" nodeId="95bd8def"></attribute>
+<attribute name="isOngoing" nodeId="7585752a"></attribute>
+<attribute name="isOptional" nodeId="7afa7ff">false</attribute>
+<attribute name="isPlanned" nodeId="3a99bf81">true</attribute>
+<attribute name="isRepeatable" nodeId="42d4f0c8"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="f509cc1c">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_G0JW0NEtEe6Y56Jk6jqfOA_ze7VgIomEeWrpeIkgDRvEQ" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/enhance_comp_53354928.html" Name="enhance_comp" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Enhancement Components" Team="" Id="_G0JW0NEtEe6Y56Jk6jqfOA_ze7VgIomEeWrpeIkgDRvEQ" relProcessPath=",_G0JW0NEtEe6Y56Jk6jqfOA_ze7VgIomEeWrpeIkgDRvEQ" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="7362d168" Deliverable="">
+<attribute name="prefix" nodeId="2197de"></attribute>
+<attribute name="isEventDriven" nodeId="3fcc9a2"></attribute>
+<attribute name="isOngoing" nodeId="781baa87"></attribute>
+<attribute name="isOptional" nodeId="9f004f62">false</attribute>
+<attribute name="isPlanned" nodeId="ff7a7790">true</attribute>
+<attribute name="isRepeatable" nodeId="95043191"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="4e176c4a">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_MfELQNF6Ee6Y56Jk6jqfOA_2_U6UJQPEeW-dodM24rwlQ" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/etl_scripts_1F3AC897.html" Name="etl_scripts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="ETL Scripts" Team="" Id="_MfELQNF6Ee6Y56Jk6jqfOA_2_U6UJQPEeW-dodM24rwlQ" relProcessPath=",_MfELQNF6Ee6Y56Jk6jqfOA_2_U6UJQPEeW-dodM24rwlQ" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="fc6e5ce4" Deliverable="">
+<attribute name="prefix" nodeId="96ef9f52"></attribute>
+<attribute name="isEventDriven" nodeId="af52068e"></attribute>
+<attribute name="isOngoing" nodeId="65beaa62"></attribute>
+<attribute name="isOptional" nodeId="b999fb89">false</attribute>
+<attribute name="isPlanned" nodeId="72a347b6">true</attribute>
+<attribute name="isRepeatable" nodeId="7961c7a"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="10bdf3f0">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_G0JW0NEtEe6Y56Jk6jqfOA_5xzo0IomEeWrpeIkgDRvEQ" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/form_comp_7A2B46ED.html" Name="form_comp" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Form Components" Team="" Id="_G0JW0NEtEe6Y56Jk6jqfOA_5xzo0IomEeWrpeIkgDRvEQ" relProcessPath=",_G0JW0NEtEe6Y56Jk6jqfOA_5xzo0IomEeWrpeIkgDRvEQ" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="ea71c9a8" Deliverable="">
+<attribute name="prefix" nodeId="f7bd438a"></attribute>
+<attribute name="isEventDriven" nodeId="26a87087"></attribute>
+<attribute name="isOngoing" nodeId="64e20f4b"></attribute>
+<attribute name="isOptional" nodeId="55fa31d8">false</attribute>
+<attribute name="isPlanned" nodeId="b05115be">true</attribute>
+<attribute name="isRepeatable" nodeId="4bc59d3"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="1242e993">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Output" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_mFqHYNEsEe6Y56Jk6jqfOA_aIGIsFeoEeWVqN1Jb7PaQg" ConcreteType="Outcome" Url="core.mgmt.common.base/workproducts/go_or_no_go_decision_C1D43DD7.html" Name="go_or_no_go_decision" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Go No-Go Decision" Team="" Id="_mFqHYNEsEe6Y56Jk6jqfOA_aIGIsFeoEeWVqN1Jb7PaQg" relProcessPath=",_mFqHYNEsEe6Y56Jk6jqfOA_aIGIsFeoEeWVqN1Jb7PaQg" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="output" nodeId="c8a83f9f" Deliverable="">
+<attribute name="prefix" nodeId="d12b2950"></attribute>
+<attribute name="isEventDriven" nodeId="252d0291"></attribute>
+<attribute name="isOngoing" nodeId="eef05a3"></attribute>
+<attribute name="isOptional" nodeId="5bfe4475">false</attribute>
+<attribute name="isPlanned" nodeId="7d63c331">true</attribute>
+<attribute name="isRepeatable" nodeId="92989887"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="b8a8bad6">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_DnLDgGNdEeeIXt1F3AlowQ_V-gFkBOBEeSXeLswwMJXqw" ConcreteType="Outcome" Url="core.org.common.base/workproducts/instructors_identified_trained_37DC5079.html" Name="instructors_identified_trained" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Instructors Identified and Trained" Team="" Id="_DnLDgGNdEeeIXt1F3AlowQ_V-gFkBOBEeSXeLswwMJXqw" relProcessPath=",_DnLDgGNdEeeIXt1F3AlowQ_V-gFkBOBEeSXeLswwMJXqw" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="e83c1df7" Deliverable="">
+<attribute name="prefix" nodeId="6faaca75"></attribute>
+<attribute name="isEventDriven" nodeId="8d4204a"></attribute>
+<attribute name="isOngoing" nodeId="ed8cdc57"></attribute>
+<attribute name="isOptional" nodeId="fb8cb97a">false</attribute>
+<attribute name="isPlanned" nodeId="bad11474">true</attribute>
+<attribute name="isRepeatable" nodeId="5d39470"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="421ac661">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_G0JW0NEtEe6Y56Jk6jqfOA_LpkKAIomEeWrpeIkgDRvEQ" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/interface_comp_BAA61488.html" Name="interface_comp" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Interface Components" Team="" Id="_G0JW0NEtEe6Y56Jk6jqfOA_LpkKAIomEeWrpeIkgDRvEQ" relProcessPath=",_G0JW0NEtEe6Y56Jk6jqfOA_LpkKAIomEeWrpeIkgDRvEQ" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="440d1f3b" Deliverable="">
+<attribute name="prefix" nodeId="ec13da01"></attribute>
+<attribute name="isEventDriven" nodeId="d58cbf41"></attribute>
+<attribute name="isOngoing" nodeId="1e4f2790"></attribute>
+<attribute name="isOptional" nodeId="d4fa15ca">false</attribute>
+<attribute name="isPlanned" nodeId="c789cd1d">true</attribute>
+<attribute name="isRepeatable" nodeId="56e44b13"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="22cc14a4">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_MfELQNF6Ee6Y56Jk6jqfOA_oOGCYPyfEeOOGZZA-JKR9Q" ConcreteType="Artifact" Url="core.mgmt.common.base/workproducts/issue_register_3A274CB5.html" Name="issue_register" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Issue Register" Team="" Id="_MfELQNF6Ee6Y56Jk6jqfOA_oOGCYPyfEeOOGZZA-JKR9Q" relProcessPath=",_MfELQNF6Ee6Y56Jk6jqfOA_oOGCYPyfEeOOGZZA-JKR9Q" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="4f335ffe" Deliverable="">
+<attribute name="prefix" nodeId="37973ec5"></attribute>
+<attribute name="isEventDriven" nodeId="e28dcf8c"></attribute>
+<attribute name="isOngoing" nodeId="7abc3ff8"></attribute>
+<attribute name="isOptional" nodeId="62db035d">false</attribute>
+<attribute name="isPlanned" nodeId="7c28ebde">true</attribute>
+<attribute name="isRepeatable" nodeId="cae2b77e"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="9eeff06e">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Output" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_-OK08NErEe6Y56Jk6jqfOA_TW-K4LiOEeSceKOp7BoYmA" ConcreteType="Artifact" Url="core.org.common.base/workproducts/post_imp_support_resources_7FAB7A9E.html" Name="post_imp_support_resources" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Post Implementation Support Resource List" Team="" Id="_-OK08NErEe6Y56Jk6jqfOA_TW-K4LiOEeSceKOp7BoYmA" relProcessPath=",_-OK08NErEe6Y56Jk6jqfOA_TW-K4LiOEeSceKOp7BoYmA" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="output" nodeId="3e6a05b6" Deliverable="">
+<attribute name="prefix" nodeId="78f00ec6"></attribute>
+<attribute name="isEventDriven" nodeId="34da3fe8"></attribute>
+<attribute name="isOngoing" nodeId="f53900b4"></attribute>
+<attribute name="isOptional" nodeId="62dd283">false</attribute>
+<attribute name="isPlanned" nodeId="bb9a1c4a">true</attribute>
+<attribute name="isRepeatable" nodeId="73b25234"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="f648f96b">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Output" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_aA1J8NE0Ee6Y56Jk6jqfOA_C2-VMI1WEe6j7Io7DmDR6A" ConcreteType="Deliverable" Url="process.adv.eya_oracle.base/workproducts/prod_release_BEF6B829.html" Name="prod_release" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Production Release" Team="" Id="_aA1J8NE0Ee6Y56Jk6jqfOA_C2-VMI1WEe6j7Io7DmDR6A" relProcessPath=",_aA1J8NE0Ee6Y56Jk6jqfOA_C2-VMI1WEe6j7Io7DmDR6A" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="output" nodeId="1a5dedc3" Deliverable="">
+<attribute name="prefix" nodeId="a8f13240"></attribute>
+<attribute name="isEventDriven" nodeId="57d0b778"></attribute>
+<attribute name="isOngoing" nodeId="88c7a9ce"></attribute>
+<attribute name="isOptional" nodeId="fb529738">false</attribute>
+<attribute name="isPlanned" nodeId="1a5a4f41">true</attribute>
+<attribute name="isRepeatable" nodeId="7ff07eab"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="8facb50d">false</attribute>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_aA1J8NE0Ee6Y56Jk6jqfOA_C2-VMI1WEe6j7Io7DmDR6A,_G0JW0NEtEe6Y56Jk6jqfOA_sNr34JaDEeSe0L5Xs0XXyg" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/release_notes_291C7F0.html" Name="release_notes" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Release Notes" Team="" Id="_G0JW0NEtEe6Y56Jk6jqfOA_sNr34JaDEeSe0L5Xs0XXyg" relProcessPath=",_aA1J8NE0Ee6Y56Jk6jqfOA_C2-VMI1WEe6j7Io7DmDR6A,_G0JW0NEtEe6Y56Jk6jqfOA_sNr34JaDEeSe0L5Xs0XXyg" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="6be4ed27" Deliverable="Production Release">
+<attribute name="prefix" nodeId="6ac51e07"></attribute>
+<attribute name="isEventDriven" nodeId="997ae810"></attribute>
+<attribute name="isOngoing" nodeId="f7c953df"></attribute>
+<attribute name="isOptional" nodeId="c297c326">false</attribute>
+<attribute name="isPlanned" nodeId="2fa3e48">true</attribute>
+<attribute name="isRepeatable" nodeId="1a1b51df"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d5d69649">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_aA1J8NE0Ee6Y56Jk6jqfOA_C2-VMI1WEe6j7Io7DmDR6A,_Eqm3cNEtEe6Y56Jk6jqfOA_0zP4IGEpEeWjx9HVFtpEzA" ConcreteType="Artifact" Url="core.org.common.base/workproducts/user_supp_mat_B37E4DC2.html" Name="user_supp_mat" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="User Support Materials" Team="" Id="_Eqm3cNEtEe6Y56Jk6jqfOA_0zP4IGEpEeWjx9HVFtpEzA" relProcessPath=",_aA1J8NE0Ee6Y56Jk6jqfOA_C2-VMI1WEe6j7Io7DmDR6A,_Eqm3cNEtEe6Y56Jk6jqfOA_0zP4IGEpEeWjx9HVFtpEzA" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="bc8a9f9b" Deliverable="Production Release">
+<attribute name="prefix" nodeId="9b875f41"></attribute>
+<attribute name="isEventDriven" nodeId="42353052"></attribute>
+<attribute name="isOngoing" nodeId="d80e7a55"></attribute>
+<attribute name="isOptional" nodeId="2bfe2a57">false</attribute>
+<attribute name="isPlanned" nodeId="4a626799">true</attribute>
+<attribute name="isRepeatable" nodeId="d0935a6a"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="fcf67175">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_aA1J8NE0Ee6Y56Jk6jqfOA_C2-VMI1WEe6j7Io7DmDR6A,_aA1J8NE0Ee6Y56Jk6jqfOA_DSpuYMjDEeSen_qZHXggIA" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/application_release_B529D755.html" Name="application_release" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Application Release" Team="" Id="_aA1J8NE0Ee6Y56Jk6jqfOA_DSpuYMjDEeSen_qZHXggIA" relProcessPath=",_aA1J8NE0Ee6Y56Jk6jqfOA_C2-VMI1WEe6j7Io7DmDR6A,_aA1J8NE0Ee6Y56Jk6jqfOA_DSpuYMjDEeSen_qZHXggIA" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="cecfd6dd" Deliverable="Production Release">
+<attribute name="prefix" nodeId="168949e8"></attribute>
+<attribute name="isEventDriven" nodeId="c9e65a26"></attribute>
+<attribute name="isOngoing" nodeId="3ace5cd"></attribute>
+<attribute name="isOptional" nodeId="2c736215">false</attribute>
+<attribute name="isPlanned" nodeId="b24bf30">true</attribute>
+<attribute name="isRepeatable" nodeId="40ba97a1"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="e5f62124">false</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_G0JW0NEtEe6Y56Jk6jqfOA_sNr34JaDEeSe0L5Xs0XXyg" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/release_notes_291C7F0.html" Name="release_notes" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Release Notes" Team="" Id="_G0JW0NEtEe6Y56Jk6jqfOA_sNr34JaDEeSe0L5Xs0XXyg" relProcessPath=",_G0JW0NEtEe6Y56Jk6jqfOA_sNr34JaDEeSe0L5Xs0XXyg" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="6099fe84" Deliverable="Production Release">
+<attribute name="prefix" nodeId="31b69985"></attribute>
+<attribute name="isEventDriven" nodeId="77281ad4"></attribute>
+<attribute name="isOngoing" nodeId="e06f1e56"></attribute>
+<attribute name="isOptional" nodeId="1b990092">false</attribute>
+<attribute name="isPlanned" nodeId="cd4635ff">true</attribute>
+<attribute name="isRepeatable" nodeId="8a22fdd6"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d26c0ef8">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_EA5yIGNdEeeIXt1F3AlowQ_t3JVsBOBEeSXeLswwMJXqw" ConcreteType="Outcome" Url="core.org.common.base/workproducts/training_delivered_8FDD466.html" Name="training_delivered" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Training Delivered" Team="" Id="_EA5yIGNdEeeIXt1F3AlowQ_t3JVsBOBEeSXeLswwMJXqw" relProcessPath=",_EA5yIGNdEeeIXt1F3AlowQ_t3JVsBOBEeSXeLswwMJXqw" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="7d099537" Deliverable="Training Delivery">
+<attribute name="prefix" nodeId="7617ddeb"></attribute>
+<attribute name="isEventDriven" nodeId="8309b5bf"></attribute>
+<attribute name="isOngoing" nodeId="1fc0b16d"></attribute>
+<attribute name="isOptional" nodeId="f671b626">false</attribute>
+<attribute name="isPlanned" nodeId="a4940d1c">true</attribute>
+<attribute name="isRepeatable" nodeId="e868180f"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="b9ac6d1">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_EA5yIGNdEeeIXt1F3AlowQ_t3JVsBOBEeSXeLswwMJXqw" ConcreteType="Outcome" Url="core.org.common.base/workproducts/training_delivered_8FDD466.html" Name="training_delivered" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Training Delivered" Team="" Id="_EA5yIGNdEeeIXt1F3AlowQ_t3JVsBOBEeSXeLswwMJXqw" relProcessPath=",_EA5yIGNdEeeIXt1F3AlowQ_t3JVsBOBEeSXeLswwMJXqw" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="6bc2c31b" Deliverable="Training Delivery">
+<attribute name="prefix" nodeId="62b1ef2"></attribute>
+<attribute name="isEventDriven" nodeId="71e05c9f"></attribute>
+<attribute name="isOngoing" nodeId="bc3adf0"></attribute>
+<attribute name="isOptional" nodeId="e03b0062">false</attribute>
+<attribute name="isPlanned" nodeId="2d02f345">true</attribute>
+<attribute name="isRepeatable" nodeId="52459dfd"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="c6cdcfa8">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Output" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_px1wIDyWEe-lca5ajdCLeA_CrD7gJChEe-V6_hI2aWEGg" ConcreteType="Deliverable" Url="process.adv.eya_oracle.base/workproducts/training_delivery_8C9662F9.html" Name="training_delivery" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Training Delivery" Team="" Id="_px1wIDyWEe-lca5ajdCLeA_CrD7gJChEe-V6_hI2aWEGg" relProcessPath=",_px1wIDyWEe-lca5ajdCLeA_CrD7gJChEe-V6_hI2aWEGg" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="output" nodeId="798accdc" Deliverable="">
+<attribute name="prefix" nodeId="3f7c7f87"></attribute>
+<attribute name="isEventDriven" nodeId="8ec353b0"></attribute>
+<attribute name="isOngoing" nodeId="800bc6b7"></attribute>
+<attribute name="isOptional" nodeId="a3969ad4">false</attribute>
+<attribute name="isPlanned" nodeId="3bd60506">true</attribute>
+<attribute name="isRepeatable" nodeId="31e34761"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="13c3d3ce">false</attribute>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_px1wIDyWEe-lca5ajdCLeA_CrD7gJChEe-V6_hI2aWEGg,_EA5yIGNdEeeIXt1F3AlowQ_t3JVsBOBEeSXeLswwMJXqw" ConcreteType="Outcome" Url="core.org.common.base/workproducts/training_delivered_8FDD466.html" Name="training_delivered" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Training Delivered" Team="" Id="_EA5yIGNdEeeIXt1F3AlowQ_t3JVsBOBEeSXeLswwMJXqw" relProcessPath=",_px1wIDyWEe-lca5ajdCLeA_CrD7gJChEe-V6_hI2aWEGg,_EA5yIGNdEeeIXt1F3AlowQ_t3JVsBOBEeSXeLswwMJXqw" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="a4f65c59" Deliverable="Training Delivery,Training Delivery">
+<attribute name="prefix" nodeId="b8a8945"></attribute>
+<attribute name="isEventDriven" nodeId="3987eb02"></attribute>
+<attribute name="isOngoing" nodeId="7a0c7aa8"></attribute>
+<attribute name="isOptional" nodeId="7e165250">false</attribute>
+<attribute name="isPlanned" nodeId="74d15190">true</attribute>
+<attribute name="isRepeatable" nodeId="521d40aa"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="9a1cd2d3">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_px1wIDyWEe-lca5ajdCLeA_CrD7gJChEe-V6_hI2aWEGg,_EVLZAGNdEeeIXt1F3AlowQ_0DZckBOBEeSXeLswwMJXqw" ConcreteType="Artifact" Url="core.org.common.base/workproducts/training_evaluation_EAD5DB80.html" Name="training_evaluation" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Training/Learning Evaluation" Team="" Id="_EVLZAGNdEeeIXt1F3AlowQ_0DZckBOBEeSXeLswwMJXqw" relProcessPath=",_px1wIDyWEe-lca5ajdCLeA_CrD7gJChEe-V6_hI2aWEGg,_EVLZAGNdEeeIXt1F3AlowQ_0DZckBOBEeSXeLswwMJXqw" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="800d9e8b" Deliverable="Training Delivery,Training Delivery">
+<attribute name="prefix" nodeId="e15b7735"></attribute>
+<attribute name="isEventDriven" nodeId="839bc8d5"></attribute>
+<attribute name="isOngoing" nodeId="f72dfc5c"></attribute>
+<attribute name="isOptional" nodeId="e7c9b8de">false</attribute>
+<attribute name="isPlanned" nodeId="bb68d616">true</attribute>
+<attribute name="isRepeatable" nodeId="d5dfb834"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="1596c34c">false</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_DnLDgGNdEeeIXt1F3AlowQ_gNebABOBEeSXeLswwMJXqw" ConcreteType="Outcome" Url="core.org.common.base/workproducts/training_pilots_conducted_35E545F1.html" Name="training_pilots_conducted" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Training Pilots Conducted" Team="" Id="_DnLDgGNdEeeIXt1F3AlowQ_gNebABOBEeSXeLswwMJXqw" relProcessPath=",_DnLDgGNdEeeIXt1F3AlowQ_gNebABOBEeSXeLswwMJXqw" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="1b652e70" Deliverable="Training Delivery">
+<attribute name="prefix" nodeId="a064f5c9"></attribute>
+<attribute name="isEventDriven" nodeId="f051ef77"></attribute>
+<attribute name="isOngoing" nodeId="6ce9b4e5"></attribute>
+<attribute name="isOptional" nodeId="3b4c8c75">false</attribute>
+<attribute name="isPlanned" nodeId="d6b96966">true</attribute>
+<attribute name="isRepeatable" nodeId="e724272b"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d7bd3252">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_DnLDgGNdEeeIXt1F3AlowQ_4V7r8BOFEeSXeLswwMJXqw" ConcreteType="Artifact" Url="core.org.common.base/workproducts/training_curriculum_87E71137.html" Name="training_curriculum" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Training/Learning Curriculum" Team="" Id="_DnLDgGNdEeeIXt1F3AlowQ_4V7r8BOFEeSXeLswwMJXqw" relProcessPath=",_DnLDgGNdEeeIXt1F3AlowQ_4V7r8BOFEeSXeLswwMJXqw" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="1a6519b3" Deliverable="">
+<attribute name="prefix" nodeId="8f35629b"></attribute>
+<attribute name="isEventDriven" nodeId="9cc504ae"></attribute>
+<attribute name="isOngoing" nodeId="f5cf5118"></attribute>
+<attribute name="isOptional" nodeId="5091def">false</attribute>
+<attribute name="isPlanned" nodeId="8caba5e">true</attribute>
+<attribute name="isRepeatable" nodeId="fd68c969"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="404866e6">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_EVLZAGNdEeeIXt1F3AlowQ_0DZckBOBEeSXeLswwMJXqw" ConcreteType="Artifact" Url="core.org.common.base/workproducts/training_evaluation_EAD5DB80.html" Name="training_evaluation" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Training/Learning Evaluation" Team="" Id="_EVLZAGNdEeeIXt1F3AlowQ_0DZckBOBEeSXeLswwMJXqw" relProcessPath=",_EVLZAGNdEeeIXt1F3AlowQ_0DZckBOBEeSXeLswwMJXqw" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="5d21c657" Deliverable="Training Delivery">
+<attribute name="prefix" nodeId="3a41a9f5"></attribute>
+<attribute name="isEventDriven" nodeId="f1b1c8cd"></attribute>
+<attribute name="isOngoing" nodeId="e24e5cc9"></attribute>
+<attribute name="isOptional" nodeId="d10951fe">false</attribute>
+<attribute name="isPlanned" nodeId="90992d08">true</attribute>
+<attribute name="isRepeatable" nodeId="20a312af"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="38d14505">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_EVLZAGNdEeeIXt1F3AlowQ_0DZckBOBEeSXeLswwMJXqw" ConcreteType="Artifact" Url="core.org.common.base/workproducts/training_evaluation_EAD5DB80.html" Name="training_evaluation" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Training/Learning Evaluation" Team="" Id="_EVLZAGNdEeeIXt1F3AlowQ_0DZckBOBEeSXeLswwMJXqw" relProcessPath=",_EVLZAGNdEeeIXt1F3AlowQ_0DZckBOBEeSXeLswwMJXqw" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="7156414b" Deliverable="Training Delivery">
+<attribute name="prefix" nodeId="408be7f7"></attribute>
+<attribute name="isEventDriven" nodeId="9e156e0a"></attribute>
+<attribute name="isOngoing" nodeId="3b6a7642"></attribute>
+<attribute name="isOptional" nodeId="4cd6dd44">false</attribute>
+<attribute name="isPlanned" nodeId="2409cbef">true</attribute>
+<attribute name="isRepeatable" nodeId="2d6e4d37"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="7a984479">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_DnLDgGNdEeeIXt1F3AlowQ_ao3i8BOBEeSXeLswwMJXqw" ConcreteType="Artifact" Url="core.org.common.base/workproducts/training_logistic_sched_2766667A.html" Name="training_logistic_sched" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Training/Learning Logistics and Schedule" Team="" Id="_DnLDgGNdEeeIXt1F3AlowQ_ao3i8BOBEeSXeLswwMJXqw" relProcessPath=",_DnLDgGNdEeeIXt1F3AlowQ_ao3i8BOBEeSXeLswwMJXqw" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="b4363575" Deliverable="">
+<attribute name="prefix" nodeId="bebb9610"></attribute>
+<attribute name="isEventDriven" nodeId="aabb572"></attribute>
+<attribute name="isOngoing" nodeId="9313f16b"></attribute>
+<attribute name="isOptional" nodeId="97a5ac2">false</attribute>
+<attribute name="isPlanned" nodeId="8d9f290">true</attribute>
+<attribute name="isRepeatable" nodeId="86b20c11"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="ff90ab68">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_DnLDgGNdEeeIXt1F3AlowQ_O2pSEBOBEeSXeLswwMJXqw" ConcreteType="Artifact" Url="core.org.common.base/workproducts/training_materials_31E0F12F.html" Name="training_materials" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Training/Learning Materials" Team="" Id="_DnLDgGNdEeeIXt1F3AlowQ_O2pSEBOBEeSXeLswwMJXqw" relProcessPath=",_DnLDgGNdEeeIXt1F3AlowQ_O2pSEBOBEeSXeLswwMJXqw" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="1eb0ed8" Deliverable="">
+<attribute name="prefix" nodeId="4c8442d0"></attribute>
+<attribute name="isEventDriven" nodeId="e35dfd94"></attribute>
+<attribute name="isOngoing" nodeId="1f9166cc"></attribute>
+<attribute name="isOptional" nodeId="90b7535">false</attribute>
+<attribute name="isPlanned" nodeId="20756d41">true</attribute>
+<attribute name="isRepeatable" nodeId="953f432c"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="23d1034f">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_DnLDgGNdEeeIXt1F3AlowQ_plIcABODEeSXeLswwMJXqw" ConcreteType="Artifact" Url="core.org.common.base/workproducts/training_plan_96335E85.html" Name="training_plan" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Training/Learning Plan" Team="" Id="_DnLDgGNdEeeIXt1F3AlowQ_plIcABODEeSXeLswwMJXqw" relProcessPath=",_DnLDgGNdEeeIXt1F3AlowQ_plIcABODEeSXeLswwMJXqw" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="a45af541" Deliverable="">
+<attribute name="prefix" nodeId="22f492e6"></attribute>
+<attribute name="isEventDriven" nodeId="d03af352"></attribute>
+<attribute name="isOngoing" nodeId="a1f2f270"></attribute>
+<attribute name="isOptional" nodeId="4ac13857">false</attribute>
+<attribute name="isPlanned" nodeId="2661a918">true</attribute>
+<attribute name="isRepeatable" nodeId="ba34e089"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="66a8d299">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_EA5yIGNdEeeIXt1F3AlowQ_sds5sBOFEeSXeLswwMJXqw" ConcreteType="Artifact" Url="core.org.common.base/workproducts/training_strategy_E9217BD2.html" Name="training_strategy" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Training/Learning Strategy" Team="" Id="_EA5yIGNdEeeIXt1F3AlowQ_sds5sBOFEeSXeLswwMJXqw" relProcessPath=",_EA5yIGNdEeeIXt1F3AlowQ_sds5sBOFEeSXeLswwMJXqw" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="16ea8c3d" Deliverable="">
+<attribute name="prefix" nodeId="39c16c76"></attribute>
+<attribute name="isEventDriven" nodeId="624e21b7"></attribute>
+<attribute name="isOngoing" nodeId="81c806a7"></attribute>
+<attribute name="isOptional" nodeId="b4a6c0f1">false</attribute>
+<attribute name="isPlanned" nodeId="f1127af4">true</attribute>
+<attribute name="isRepeatable" nodeId="c27381ba"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="86bacfe1">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_Eqm3cNEtEe6Y56Jk6jqfOA_0zP4IGEpEeWjx9HVFtpEzA" ConcreteType="Artifact" Url="core.org.common.base/workproducts/user_supp_mat_B37E4DC2.html" Name="user_supp_mat" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="User Support Materials" Team="" Id="_Eqm3cNEtEe6Y56Jk6jqfOA_0zP4IGEpEeWjx9HVFtpEzA" relProcessPath=",_Eqm3cNEtEe6Y56Jk6jqfOA_0zP4IGEpEeWjx9HVFtpEzA" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="d5fc4f69" Deliverable="Production Release">
+<attribute name="prefix" nodeId="35acde24"></attribute>
+<attribute name="isEventDriven" nodeId="d3ad7737"></attribute>
+<attribute name="isOngoing" nodeId="da0183f7"></attribute>
+<attribute name="isOptional" nodeId="f3eaea8d">false</attribute>
+<attribute name="isPlanned" nodeId="d7b141bd">true</attribute>
+<attribute name="isRepeatable" nodeId="219ad111"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="93d00e0d">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input" Index="" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_fuFp0Ys6Ee6Z58NF8Wy6XA,_G0JW0NEtEe6Y56Jk6jqfOA__mEGcIomEeWrpeIkgDRvEQ" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/workflow_comp_1378BCD2.html" Name="workflow_comp" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Workflow Components" Team="" Id="_G0JW0NEtEe6Y56Jk6jqfOA__mEGcIomEeWrpeIkgDRvEQ" relProcessPath=",_G0JW0NEtEe6Y56Jk6jqfOA__mEGcIomEeWrpeIkgDRvEQ" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="926e84d9" Deliverable="">
+<attribute name="prefix" nodeId="c6dd8d1a"></attribute>
+<attribute name="isEventDriven" nodeId="19e982c5"></attribute>
+<attribute name="isOngoing" nodeId="992e4f68"></attribute>
+<attribute name="isOptional" nodeId="8ff948bb">false</attribute>
+<attribute name="isPlanned" nodeId="673ee003">true</attribute>
+<attribute name="isRepeatable" nodeId="39588dd2"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="85d785db">false</attribute>
+</Element>
+</breakdown>
+</Element>

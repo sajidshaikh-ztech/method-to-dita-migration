@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element Type="Guideline" TypeName="Guideline" NodeiconUrl="" DisplayName="Burndown Chart Creation" Id="_CmklYEM5EeizC_qXJeYMtg" ShapeiconUrl="images/guidance.gif" lang="en" nodeId="529fde4" Url="practice.mgmt.proj.agile_pm.base/guidances/guidelines/burndown_chart_creation_D054B2B4.html" Name="burndown_chart_creation" BackPath="./../../../">
+<copyright nodeId="f6b0c180">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="579e9241">burndown_chart_creation</attribute>
+<attribute name="guid" nodeId="561d43ed">_CmklYEM5EeizC_qXJeYMtg</attribute>
+<attribute name="presentationName" nodeId="83c94777">Burndown Chart Creation</attribute>
+<attribute name="briefDescription" nodeId="9e300cf7"></attribute>
+<attribute name="suppressed" nodeId="fb896807">false</attribute>
+<attribute name="orderingGuide" nodeId="7477fad7"></attribute>
+<attribute name="isAbstract" nodeId="def16846">false</attribute>
+<attribute name="shapeicon" nodeId="3f8cd104"></attribute>
+<attribute name="nodeicon" nodeId="54c389a8"></attribute>
+<attribute name="variabilityType" nodeId="7befe4a1">na</attribute>
+<reference name="presentation" nodeId="db37845f">
+<Element Type="ContentDescription" TypeName="Content Description" NodeiconUrl="" DisplayName="Burndown Chart Creation" Id="-v5QzEt8TZt_F2OB_C8ufjw" ShapeiconUrl="images/guidance.gif" nodeId="c41d6313" Url="" Name="new_guideline,_CmklYEM5EeizC_qXJeYMtg" BackPath="">
+<copyright nodeId="85ee0b09">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="37b915d1">new_guideline,_CmklYEM5EeizC_qXJeYMtg</attribute>
+<attribute name="guid" nodeId="358cf121">-v5QzEt8TZt_F2OB_C8ufjw</attribute>
+<attribute name="presentationName" nodeId="ebcb1739">Burndown Chart Creation</attribute>
+<attribute name="briefDescription" nodeId="9298ff1"></attribute>
+<attribute name="suppressed" nodeId="eb115d5a">false</attribute>
+<attribute name="orderingGuide" nodeId="d3acde6"></attribute>
+<attribute name="authors" nodeId="44bdaeb4">process.adv.core.base</attribute>
+<attribute name="changeDate" nodeId="a36bf829">Wed Mar 22 17:07:03 EDT 2023</attribute>
+<attribute name="changeDescription" nodeId="d70b1cae">MAR 2023 - moved brief description to main|MAR 2018 - Baseline</attribute>
+<attribute name="version" nodeId="cba66d2d"></attribute>
+<attribute name="mainDescription" nodeId="73ac2534">&lt;p&gt;
+    Understand how to create a Burndown Chart at both the sprint and release level in order to product an accurate view of
+    the team&apos;s daily progress within a given sprint or release.
+&lt;/p&gt;
+&lt;p&gt;
+    Create the Burndown Chart if one is not readily available to leverage. Use either an Agile tracking tool, such as JIRA
+    or Agile Central, if available otherwise manually create one for the team.
+&lt;/p&gt;
+&lt;p&gt;
+    To create a manual version, sum up the total amount of story points, tasks or task hours for the work outlined in the
+    Sprint Backlog. Plot this total effort estimate on the vertical axis (Y), using an appropriate scale. Next, plot all of
+    the days allotted for the sprint on the horizontal axis (X).&lt;br /&gt;
+    &lt;br /&gt;
+    Use this graph to draw a line from the total sum of work, found at the top of the Y axis, to the last day of the
+    sprint, found at the end of the X axis. This straight line represents the ideal burndown, or the speed at which the
+    team would complete work, if working at a uniform speed throughout the entire sprint.&lt;br /&gt;
+    &lt;br /&gt;
+    Once a Burndown Chart has been created and made available, remember to update it on a regular basis. The manner in
+    which the chart is updated will depend on the type or format being used. For manual Burndown Charts, update it during
+    daily Scrum meetings to reflect all work completed since the last meeting. Burndown Charts being maintained by an Agile
+    tracking tool will dynamically update to show progress as work items are marked complete, or task hour estimates are
+    updated, by team members.&lt;br /&gt;
+    &lt;br /&gt;
+    Update the manual Burndown Chart to reflect the latest sum of story points, tasks or task hours for all remaining, or
+    incomplete, work in the Sprint Backlog on a given day. To do this, plot those remaining story points, tasks or task
+    hours for all outstanding work items against the specific day in the sprint to see the actual pace at which the team is
+    delivering. If the team is delivering work at the pace originally estimated and expected, the actual burndown line will
+    follow the ideal burndown line, plotted at the beginning of the sprint before any work commenced. The chart should
+    always reflect a downward trend unless one of the following exceptions has occurred:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Work added mid-sprint
+    &lt;/li&gt;
+    &lt;li&gt;
+        New tasks identified, after sprint planning, as being necessary to complete a Backlog Item
+    &lt;/li&gt;
+    &lt;li&gt;
+        Remaining task estimate re-assessed to be higher than originally anticipated during sprint planning
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    However, if the actual burndown value plotted appears above the ideal burndown line, this indicates the team is behind
+    schedule. Alternatively, the team is working ahead of schedule when the actual burndown value plotted appears below the
+    one for ideal burndown.
+&lt;/p&gt;
+&lt;p&gt;
+    It&amp;nbsp;is also possible to&amp;nbsp;create a Burndown Chart for an entire release, if needed, by reflecting all of the
+    work to be conducted across all sprints as opposed to a subset selected for a single sprint as explained above. To do
+    this,&amp;nbsp;follow the same guidance above but plot all planned sprints on the X axis, instead of&amp;nbsp;days, and plot
+    story points on&amp;nbsp;the Y axis.
+&lt;/p&gt;</attribute>
+<attribute name="externalId" nodeId="5ea276f1"></attribute>
+<attribute name="keyConsiderations" nodeId="b5170b40"></attribute>
+<attribute name="longPresentationName" nodeId="754ddc68"></attribute>
+</Element>
+</reference>
+<referenceList name="Guideline_BreakdownElements" nodeId="67750994">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Agile Project Management" Id="_dsHkARylEei6qIpqDo2Odw" relProcessPath="_dsHkARylEei6qIpqDo2Odw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_dsHkARylEei6qIpqDo2Odw&amp;path=_dsHkARylEei6qIpqDo2Odw" nodeId="3d4ed0c" Url="practice.mgmt.proj.agile_pm.assign/capabilitypatterns/agile_pm_BEFE816.html" Name="agile_pm" BackPath="./../../">
+<attribute name="name" nodeId="9d4f35d9">agile_pm</attribute>
+<attribute name="guid" nodeId="a6e7b0b2">_dsHkARylEei6qIpqDo2Odw</attribute>
+<attribute name="presentationName" nodeId="14950e5b">Agile Project Management</attribute>
+<attribute name="briefDescription" nodeId="8f185e39"></attribute>
+<attribute name="suppressed" nodeId="39758f5d">false</attribute>
+<attribute name="orderingGuide" nodeId="1905ac41"></attribute>
+<attribute name="isAbstract" nodeId="7f1e9940">false</attribute>
+<attribute name="shapeicon" nodeId="5ffee964"></attribute>
+<attribute name="nodeicon" nodeId="3700e64f"></attribute>
+<attribute name="prefix" nodeId="9f4193de"></attribute>
+<attribute name="isPlanned" nodeId="26470f09">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="2ec70497">false</attribute>
+<attribute name="isOptional" nodeId="ed5808ed">false</attribute>
+<attribute name="isRepeatable" nodeId="79bcf05">false</attribute>
+<attribute name="isOngoing" nodeId="58376e34">false</attribute>
+<attribute name="isEventDriven" nodeId="b28d3e4">false</attribute>
+<attribute name="variabilityType" nodeId="b52a38a6">na</attribute>
+</Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_dsHkARylEei6qIpqDo2Odw&amp;path=_dsHkARylEei6qIpqDo2Odw,_w1KRcBylEei6qIpqDo2Odw,__0O40RylEei6qIpqDo2Odw,_L04AMBymEei6qIpqDo2Odw" ConcreteType="Task" Url="practice.mgmt.proj.agile_pm.base/tasks/conduct_release_planning_D737C1EC.html" Name="conduct_release_planning" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Conduct release planning" Id="_L04AMBymEei6qIpqDo2Odw" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="125b9f5"></Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_c2F1QZLKEe6Ji6GnvvUfqw&amp;path=_c2F1QZLKEe6Ji6GnvvUfqw,_orEwkTEKEe-TauTqJPNl_g,_Q2mZUDELEe-TauTqJPNl_g" ConcreteType="Task" Url="practice.mgmt.proj.agile_pm.base/tasks/conduct_sprint_planning_A7D62A34.html" Name="conduct_sprint_planning" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Conduct sprint planning" Id="_Q2mZUDELEe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="d180668b"></Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_dsHkARylEei6qIpqDo2Odw&amp;path=_dsHkARylEei6qIpqDo2Odw,_w1KRcBylEei6qIpqDo2Odw,_3kXq8UMyEeizC_qXJeYMtg,_IGRXAEMzEeizC_qXJeYMtg" ConcreteType="Task" Url="practice.mgmt.proj.agile_pm.base/tasks/conduct_sprint_planning_A7D62A34.html" Name="conduct_sprint_planning" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Conduct sprint planning" Id="_IGRXAEMzEeizC_qXJeYMtg" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="cdc46d46"></Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_qaapIdDUEe6Y56Jk6jqfOA,_zXmmkNDUEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.mgmt.proj.agile_pm.base/tasks/conduct_sprint_planning_A7D62A34.html" Name="conduct_sprint_planning" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Conduct sprint planning" Id="_zXmmkNDUEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="a638407f"></Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_dsHkARylEei6qIpqDo2Odw&amp;path=_dsHkARylEei6qIpqDo2Odw,_w1KRcBylEei6qIpqDo2Odw,_3kXq8UMyEeizC_qXJeYMtg,_I6DkYEMzEeizC_qXJeYMtg" ConcreteType="Task" Url="practice.mgmt.proj.agile_pm.base/tasks/hold_daily_scrum_mtg_BF50EC9B.html" Name="hold_daily_scrum_mtg" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Hold daily scrum meeting" Id="_I6DkYEMzEeizC_qXJeYMtg" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="631caf72"></Element>
+</referenceList>
+<referenceList name="Guideline_ContentElements" nodeId="84efce3d">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Conduct release planning" Id="_Cceb8IwjEeeUdawzHJKfbA" ShapeiconUrl="images/task.gif" nodeId="ef1ac747" Url="practice.mgmt.proj.agile_pm.base/tasks/conduct_release_planning_D737C1EC.html" Name="conduct_release_planning" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Conduct sprint planning" Id="_bJAxsIwkEeeUdawzHJKfbA" ShapeiconUrl="images/task.gif" nodeId="7013d4bc" Url="practice.mgmt.proj.agile_pm.base/tasks/conduct_sprint_planning_A7D62A34.html" Name="conduct_sprint_planning" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Hold daily scrum meeting" Id="_Ao-zIIwlEeeUdawzHJKfbA" ShapeiconUrl="images/task.gif" nodeId="d9d42278" Url="practice.mgmt.proj.agile_pm.base/tasks/hold_daily_scrum_mtg_BF50EC9B.html" Name="hold_daily_scrum_mtg" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="contentElements" nodeId="2beb2b9">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Agile Project Management" Id="_dsHkARylEei6qIpqDo2Odw" relProcessPath="_dsHkARylEei6qIpqDo2Odw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_dsHkARylEei6qIpqDo2Odw&amp;path=_dsHkARylEei6qIpqDo2Odw" nodeId="587ccd1b" Url="practice.mgmt.proj.agile_pm.assign/capabilitypatterns/agile_pm_BEFE816.html" Name="agile_pm" BackPath="./../../">
+<attribute name="name" nodeId="176e7f71">agile_pm</attribute>
+<attribute name="guid" nodeId="b895c138">_dsHkARylEei6qIpqDo2Odw</attribute>
+<attribute name="presentationName" nodeId="bab75bdc">Agile Project Management</attribute>
+<attribute name="briefDescription" nodeId="30b22d0c"></attribute>
+<attribute name="suppressed" nodeId="d5df8463">false</attribute>
+<attribute name="orderingGuide" nodeId="467fbbeb"></attribute>
+<attribute name="isAbstract" nodeId="7ebe2171">false</attribute>
+<attribute name="shapeicon" nodeId="50adeac1"></attribute>
+<attribute name="nodeicon" nodeId="139987e3"></attribute>
+<attribute name="prefix" nodeId="da594735"></attribute>
+<attribute name="isPlanned" nodeId="43a8060f">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="b0114d84">false</attribute>
+<attribute name="isOptional" nodeId="68bfcea7">false</attribute>
+<attribute name="isRepeatable" nodeId="65a6ec8b">false</attribute>
+<attribute name="isOngoing" nodeId="a18a2f18">false</attribute>
+<attribute name="isEventDriven" nodeId="1677a6ec">false</attribute>
+<attribute name="variabilityType" nodeId="92e31b4">na</attribute>
+</Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Conduct release planning" Id="_Cceb8IwjEeeUdawzHJKfbA" ShapeiconUrl="images/task.gif" nodeId="8a5d2705" Url="practice.mgmt.proj.agile_pm.base/tasks/conduct_release_planning_D737C1EC.html" Name="conduct_release_planning" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Conduct sprint planning" Id="_bJAxsIwkEeeUdawzHJKfbA" ShapeiconUrl="images/task.gif" nodeId="982549d3" Url="practice.mgmt.proj.agile_pm.base/tasks/conduct_sprint_planning_A7D62A34.html" Name="conduct_sprint_planning" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Hold daily scrum meeting" Id="_Ao-zIIwlEeeUdawzHJKfbA" ShapeiconUrl="images/task.gif" nodeId="8d69a020" Url="practice.mgmt.proj.agile_pm.base/tasks/hold_daily_scrum_mtg_BF50EC9B.html" Name="hold_daily_scrum_mtg" BackPath="./../../"></Element>
+</referenceList>
+</Element>

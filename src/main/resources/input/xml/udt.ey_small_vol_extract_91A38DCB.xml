@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element Type="udt" TypeName="Tool" NodeiconUrl="icons/job_aid16.png" DisplayName="EY Small Volume Extract" Id="_z184UNmlEe-AVuFqPhlIyg" ShapeiconUrl="images/job_aid51.png" lang="en" nodeId="79fc4860" Url="process.adv.eya_oracle.base/guidances/practices/ey_small_vol_extract_91A38DCB.html" Name="ey_small_vol_extract" BackPath="./../../../">
+<referenceList name="User defined type" nodeId="338791e8">
+<Element mainDescription="N/A" typeName="Tool" icon="file:/C:/eyumf/tfs/PROD_LIB/core_main/_udt/ey_types.udt/resources/job_aid16.png" referenceQualifierNames="referenceQualifierNames" shapeIconRelative="/resources/job_aid51.png" application="N/A" background="N/A" levelsOfAdoption="N/A" additionalInfo="N/A" iconRelative="/resources/job_aid16.png" typeId="com.ey.type.tool" nodeId="66eddeb1" referenceQualifiers="referenceQualifiers" problems="Main Description" goals="N/A" shapeIcon="file:/C:/eyumf/tfs/PROD_LIB/core_main/_udt/ey_types.udt/resources/job_aid51.png"></Element>
+</referenceList>
+<copyright nodeId="9fcf202">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="4ea7e38c">ey_small_vol_extract</attribute>
+<attribute name="guid" nodeId="5732549a">_z184UNmlEe-AVuFqPhlIyg</attribute>
+<attribute name="presentationName" nodeId="112b6f50">EY Small Volume Extract</attribute>
+<attribute name="briefDescription" nodeId="578a3ccc"></attribute>
+<attribute name="suppressed" nodeId="c35d8d5b">false</attribute>
+<attribute name="orderingGuide" nodeId="541d7494"></attribute>
+<attribute name="isAbstract" nodeId="f2dc26cd">false</attribute>
+<attribute name="shapeicon" nodeId="d80b7560"></attribute>
+<attribute name="nodeicon" nodeId="712f0a59"></attribute>
+<attribute name="variabilityType" nodeId="b8fc3b57">na</attribute>
+<reference name="presentation" nodeId="24928df9">
+<Element Type="PracticeDescription" TypeName="Practice Description" NodeiconUrl="" DisplayName="EY Small Volume Extract" Id="-68L03euL9AlhBE-vQQRYtg" ShapeiconUrl="images/guidance.gif" nodeId="6ea9fcdf" Url="" Name="new_tool,_z184UNmlEe-AVuFqPhlIyg" BackPath="">
+<copyright nodeId="be5b5ed">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="223330ba">new_tool,_z184UNmlEe-AVuFqPhlIyg</attribute>
+<attribute name="guid" nodeId="cc2429a4">-68L03euL9AlhBE-vQQRYtg</attribute>
+<attribute name="presentationName" nodeId="6772219b">EY Small Volume Extract</attribute>
+<attribute name="briefDescription" nodeId="38005024"></attribute>
+<attribute name="suppressed" nodeId="b6f8295a">false</attribute>
+<attribute name="orderingGuide" nodeId="178980c3"></attribute>
+<attribute name="authors" nodeId="83b2c561"></attribute>
+<attribute name="changeDate" nodeId="fd4ac2dd">Tue Feb 18 11:42:04 EST 2025</attribute>
+<attribute name="changeDescription" nodeId="812de2">JAN 2025 - Baseline Version</attribute>
+<attribute name="version" nodeId="e1e13c00"></attribute>
+<attribute name="mainDescription" nodeId="f6a6ea09"></attribute>
+<attribute name="externalId" nodeId="8e4d196f"></attribute>
+<attribute name="keyConsiderations" nodeId="a0118e60"></attribute>
+<attribute name="longPresentationName" nodeId="30a5d8df"></attribute>
+<attribute name="additionalInfo" nodeId="584947b1"></attribute>
+<attribute name="problem" nodeId="44476545">&lt;p&gt;
+    EY&apos;s Small Volume Extract (SVE) enables importing a subset of data that meets specific criteria from a larger data set
+    into a training environment. This makes it possible to house more environments on a single server and reduces the time
+    needed to refresh the environments.
+&lt;/p&gt;
+&lt;p&gt;
+    Please contact &lt;a class=&quot;urlFileLink&quot; href=&quot;mailto:Prasad.Kulkarni1@gds.ey.com&quot;&gt;Prasad Kulkarni&lt;/a&gt; and &lt;a
+    class=&quot;urlFileLink&quot; href=&quot;mailto:Deepak.Anand@ey.com&quot;&gt;Deepak Anand&lt;/a&gt; for more information and access to this tool.
+&lt;/p&gt;</attribute>
+<attribute name="background" nodeId="e94cf0d8"></attribute>
+<attribute name="goals" nodeId="84188dda"></attribute>
+<attribute name="application" nodeId="8bd60c28"></attribute>
+<attribute name="levelsOfAdoption" nodeId="565c55c4"></attribute>
+</Element>
+</reference>
+<referenceList name="Related Elements" referenceType="customOpposite" nodeId="15b5c519">
+<Element Type="udt" TypeName="Getting Started" NodeiconUrl="icons/consider16.png" DisplayName="Getting Started" Id="_xAtvgEisEeqVp4fYjaNh1w" ShapeiconUrl="images/consider51.png" nodeId="e4ac82a" Url="core.default.nav_view.base/guidances/practices/getting_started_278A8205.html" Name="getting_started" BackPath="./../../../">
+<referenceList name="User defined type" nodeId="16349bcf">
+<Element mainDescription="Scaling" typeName="Getting Started" icon="file:/C:/eyumf/tfs/PROD_LIB/core_main/_udt/ey_types.udt/resources/consider16.png" referenceQualifierNames="referenceQualifierNames" shapeIconRelative="/resources/consider51.png" application="Staffing" background="Considerations" levelsOfAdoption="Next Steps" additionalInfo="Purpose" iconRelative="/resources/consider16.png" typeId="com.ey.type.consider" nodeId="707ec28a" referenceQualifiers="referenceQualifiers" problems="Background" goals="How to Apply" shapeIcon="file:/C:/eyumf/tfs/PROD_LIB/core_main/_udt/ey_types.udt/resources/consider51.png"></Element>
+</referenceList>
+</Element>
+</referenceList>
+<referenceList name="Udt referencing list" nodeId="25742a82">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="d197e010" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="eddd3470">eya_oracle</attribute>
+<attribute name="guid" nodeId="48998004">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="75a14a36">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="28178768"></attribute>
+<attribute name="suppressed" nodeId="8bfd34cf">false</attribute>
+<attribute name="orderingGuide" nodeId="878ac840"></attribute>
+<attribute name="isAbstract" nodeId="4793b8e">false</attribute>
+<attribute name="shapeicon" nodeId="d2f53b70"></attribute>
+<attribute name="nodeicon" nodeId="e8a288c3"></attribute>
+<attribute name="prefix" nodeId="57dfecc6"></attribute>
+<attribute name="isPlanned" nodeId="c05edf90">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="6be349b2">false</attribute>
+<attribute name="isOptional" nodeId="bf105e2">false</attribute>
+<attribute name="isRepeatable" nodeId="4b4d7ff2">false</attribute>
+<attribute name="isOngoing" nodeId="72b51ee0">false</attribute>
+<attribute name="isEventDriven" nodeId="a5def71e">false</attribute>
+<attribute name="variabilityType" nodeId="c61cb196">replaces</attribute>
+</Element>
+</referenceList>
+</Element>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" TypeName="Task" Url="practice.ita.delv.rqmts_mgmt.base/tasks/manage_rqmt_traceability_A0B423F7.html" Name="manage_rqmt_traceability" BackPath="./../../" Type="Task" NodeiconUrl="" performingRoleName="Analyst" DisplayName="Manage requirements traceability" Id="_RdXLcGKiEeOC5OOeI1fD1w" ShapeiconUrl="images/task.gif" lang="en" nodeId="cade011e">
+<copyright nodeId="bdf38002">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="a414cc08">manage_rqmt_traceability</attribute>
+<attribute name="guid" nodeId="4121da04">_RdXLcGKiEeOC5OOeI1fD1w</attribute>
+<attribute name="presentationName" nodeId="d826e2cd">Manage requirements traceability</attribute>
+<attribute name="briefDescription" nodeId="6fbfb246">This task describes the work to define, trace, track and manage requirements and manage the linkage between &amp;quot;valid&amp;quot; requirements and other requirements, impacted systems, solution components, artifacts, processes and objectives/goals.</attribute>
+<attribute name="suppressed" nodeId="21d0f39">false</attribute>
+<attribute name="orderingGuide" nodeId="b4201d46"></attribute>
+<attribute name="isAbstract" nodeId="341fe0cf">false</attribute>
+<attribute name="shapeicon" nodeId="1703c855"></attribute>
+<attribute name="nodeicon" nodeId="a1f9ac4c"></attribute>
+<attribute name="variabilityType" nodeId="300bf057">na</attribute>
+<reference name="presentation" nodeId="6d5c4155">
+<Element Type="TaskDescription" TypeName="Task Description" NodeiconUrl="" DisplayName="Manage requirements traceability" Id="-UJ9ilKfyRsxLd1yOOqov5Q" ShapeiconUrl="images/guidance.gif" nodeId="6fb2a2ed" Url="" Name="manage_requirements_traceability,_RdXLcGKiEeOC5OOeI1fD1w" BackPath="">
+<copyright nodeId="15348341">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="87fa596d">manage_requirements_traceability,_RdXLcGKiEeOC5OOeI1fD1w</attribute>
+<attribute name="guid" nodeId="6ea241db">-UJ9ilKfyRsxLd1yOOqov5Q</attribute>
+<attribute name="presentationName" nodeId="acb1b525">Manage requirements traceability</attribute>
+<attribute name="briefDescription" nodeId="3c9fa1c9"></attribute>
+<attribute name="suppressed" nodeId="91b7d44f">false</attribute>
+<attribute name="orderingGuide" nodeId="eace68c0"></attribute>
+<attribute name="authors" nodeId="5b1141cb"></attribute>
+<attribute name="changeDate" nodeId="a856e18f">Sat Apr 16 12:54:55 EDT 2016</attribute>
+<attribute name="changeDescription" nodeId="22b252f8">NOV 2015 - fixed typos in main description</attribute>
+<attribute name="version" nodeId="98f73147"></attribute>
+<attribute name="mainDescription" nodeId="e374727">&lt;p&gt;
+    Requirements are related to other requirements, to solution components and to other artifacts such as test
+    cases.&amp;nbsp;&apos;Tracing&apos; a requirement refers to the ability to look at a requirement and identify other requirements it
+    is related to.&amp;nbsp;Tracing links business requirements to stakeholder and solution requirements, to other artifacts
+    produced by the team and to solution components.
+&lt;/p&gt;
+&lt;p&gt;
+    Requirements traceability identifies and documents the lineage of each requirement, including its backward traceability
+    (derivation), its forward traceability (allocation) and its relationship to other requirements.&amp;nbsp;Traceability is
+    used to help ensure solution conformance to requirements and to assist in scope and change management, risk management,
+    time management, cost management and communication management.&amp;nbsp;It also is used to detect missing functionality or
+    to identify if implemented functionality is not supported by a specific requirement.
+&lt;/p&gt;
+&lt;p&gt;
+    Tracing may be performed at the individual requirement level, at the model or package level or at the feature level as
+    appropriate.&amp;nbsp; The goal of tracing is to ensure that requirements (and ultimately, solution components) are linked
+    back to a business objective.&amp;nbsp; Tracing requirements also supports impact analysis, change management and
+    requirements allocation. Individual requirements almost always have inherent dependencies and interrelationships.&amp;nbsp;
+    There are several reasons for creating these relationships.
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Impact analysis&lt;/strong&gt; - When a requirement is changed, the business analyst can easily review all of the
+        related requirements and software components in order to understand the &apos;impact&apos; of change.
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Requirements coverage&lt;/strong&gt; - When business objectives are traced to detailed requirements such as
+        business rules, data elements and use cases, it is clear how they will be accomplished.&amp;nbsp;Each business
+        objective can be reviewed to make sure that it will be addressed by the appropriate solution components.&amp;nbsp;If a
+        business objective is not tied to anything, it has not been analyzed and included in the solution.
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Requirements allocation&lt;/strong&gt; - Decomposing&amp;nbsp;top-level requirements and assigning them to
+        sub-requirements help confirm that high top-level requirements are met by the aggregate of
+        the&amp;nbsp;sub-requirements.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;
+    Relationships
+&lt;/h4&gt;
+&lt;p&gt;
+    After examining and organizing the set of requirements, record the dependencies and relationships for each of the
+    requirements. Knowing the dependencies and relationships between requirements helps when determining the sequence in
+    which requirements are to be addressed.&amp;nbsp;Common relationships include:
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Necessity&lt;/strong&gt; - This relationship exists when it only makes sense to implement a particular requirement if
+    a related requirement is also implemented. This relationship may be unidirectional or bidirectional.
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Effort&lt;/strong&gt; - This relationship exists when a requirement is easier to implement if a related requirement
+    is also implemented.
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Subset&lt;/strong&gt; - When the requirement is the decomposed outcome of another requirement.
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Cover&lt;/strong&gt; - When the requirement fully includes the other requirement. This is a special case of subset,
+    where the top-level requirement is the sum of the sub-requirements.
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Value&lt;/strong&gt; - When including a requirement affects the desirability of a related&amp;nbsp;requirement (either
+    increasing or decreasing it). This may occur because the related requirement is only necessary if the first requirement
+    is implemented or because only one of the requirements should be implemented (e.g., when discussing two features that
+    potentially meet a business requirement).
+&lt;/p&gt;
+&lt;h4&gt;
+    Impact analysis
+&lt;/h4&gt;
+&lt;p&gt;
+    Impact analysis is performed to assess or evaluate the impact of a change.&amp;nbsp;Traceability is a useful tool for
+    performing impact analysis.&amp;nbsp;When a requirement changes, its relationships to other requirements or system
+    components can be reviewed. Each related requirement or component may also require a change to support the new
+    requirement.
+&lt;/p&gt;
+&lt;p&gt;
+    These components can also be traced to their related components and those components reviewed for needed changes.
+    Knowing the impact of a change helps business decision makers evaluate their&amp;nbsp;options with facts.
+&lt;/p&gt;
+&lt;h4&gt;
+    Requirements&amp;nbsp;management system
+&lt;/h4&gt;
+&lt;p&gt;
+    A specialized requirements management tool is generally needed to trace large numbers of requirements.
+&lt;/p&gt;&lt;br /&gt;</attribute>
+<attribute name="externalId" nodeId="d7f9f9d"></attribute>
+<attribute name="keyConsiderations" nodeId="350e93ba">Consider giving one team member the responsibility to manage the reusable requirements register.&amp;nbsp; This resource will
+adapt existing requirements knowledge to represent and store the&amp;nbsp;requirements in a form suitable for efficient
+discovery, retrieval and reuse.</attribute>
+<attribute name="longPresentationName" nodeId="f281b604"></attribute>
+<attribute name="purpose" nodeId="747e1d50">To create and maintain bi-directional relationships between business objectives, requirements, other team deliverables and
+solution components to support business analysis or other activities.</attribute>
+<attribute name="alternatives" nodeId="48b01d46"></attribute>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="performedBy" nodeId="647338ee">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Analyst" Id="_W7RhoAk9EeOR5fNLLJCc5g" ShapeiconUrl="images/role.gif" nodeId="29aa5371" Url="core.default.role_def.base/roles/analyst_46D75ED7.html" Name="analyst" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="mandatoryInput" nodeId="745bdf78">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Requirement Attributes" Id="_tLFfsOqqEeOsN7G93Q46Rw" ShapeiconUrl="images/artifact.gif" nodeId="f0a3f6a4" Url="core.gen.common.base/workproducts/rqmts_attributes_68251057.html" Name="rqmts_attributes" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product Slot" NodeiconUrl="" DisplayName="[Requirements]" Id="_fN52YPsBEeOR0vuuc0PDYA" ShapeiconUrl="images/artifact.gif" nodeId="868e53af" Url="core.default.slots.base/workproducts/rqmts_slot_A6B14D9C.html" Name="rqmts_slot" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="output" nodeId="63fae007">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Requirements Traceability Matrix" Id="_7I8toC9GEeSJ-4uKHZ771A" ShapeiconUrl="images/artifact.gif" nodeId="263139c4" Url="core.gen.common.base/workproducts/rqmts_traceability_matrix_6BABB1C5.html" Name="rqmts_traceability_matrix" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="Task_TaskDescriptors" nodeId="5c542090">
+<Element TypeName="Task Descriptor" queryString="?proc=_c2F1QZLKEe6Ji6GnvvUfqw&amp;path=_c2F1QZLKEe6Ji6GnvvUfqw,_SXyf0TF6Ee-TauTqJPNl_g,_VKfbgDF7Ee-TauTqJPNl_g" ConcreteType="Task" Url="practice.ita.delv.rqmts_mgmt.base/tasks/manage_rqmt_traceability_A0B423F7.html" Name="manage_rqmt_traceability" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Manage requirements traceability" Id="_VKfbgDF7Ee-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="1a8e8fd"></Element>
+</referenceList>
+<reference name="performingRole" nodeId="ac8a0c30">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Analyst" Id="_W7RhoAk9EeOR5fNLLJCc5g" ShapeiconUrl="images/role.gif" nodeId="82cb466d" Url="core.default.role_def.base/roles/analyst_46D75ED7.html" Name="analyst" BackPath="./../../"></Element>
+</reference>
+<referenceList name="customCategories" nodeId="e1cb526e">
+<Element Type="CustomCategory" TypeName="Custom Category" NodeiconUrl="" DisplayName="Tasks" Id="_0Sj48KDNEeOMmqbYX27PPA" ShapeiconUrl="core.default.nav_view.base/customcategories/resources/cat_task51.png" nodeId="9446e6d" Url="core.default.nav_view.base/customcategories/task_list_CDC9CEA6.html" Name="task_list" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="e822e3f0">
+<Element TypeName="Task Descriptor" queryString="?proc=_c2F1QZLKEe6Ji6GnvvUfqw&amp;path=_c2F1QZLKEe6Ji6GnvvUfqw,_SXyf0TF6Ee-TauTqJPNl_g,_VKfbgDF7Ee-TauTqJPNl_g" ConcreteType="Task" Url="practice.ita.delv.rqmts_mgmt.base/tasks/manage_rqmt_traceability_A0B423F7.html" Name="manage_rqmt_traceability" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Manage requirements traceability" Id="_VKfbgDF7Ee-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="5e532a4c">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Program and Project Management" Id="_c2F1QZLKEe6Ji6GnvvUfqw" relProcessPath="_c2F1QZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_c2F1QZLKEe6Ji6GnvvUfqw&amp;path=_c2F1QZLKEe6Ji6GnvvUfqw" nodeId="253629a9" Url="process.adv.eya_oracle.base/capabilitypatterns/program_proj_mgmt_wkstrm_752F6C0.html" Name="program_proj_mgmt_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="8c6b8688">program_proj_mgmt_wkstrm</attribute>
+<attribute name="guid" nodeId="c21a18c0">_c2F1QZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="986a0ce2">Program and Project Management</attribute>
+<attribute name="briefDescription" nodeId="ef56566f"></attribute>
+<attribute name="suppressed" nodeId="b25b3224">false</attribute>
+<attribute name="orderingGuide" nodeId="26e4e10e"></attribute>
+<attribute name="isAbstract" nodeId="c3abb18">false</attribute>
+<attribute name="shapeicon" nodeId="c739b187"></attribute>
+<attribute name="nodeicon" nodeId="c32ad21b"></attribute>
+<attribute name="prefix" nodeId="343986e5">workstream</attribute>
+<attribute name="isPlanned" nodeId="bce9d0c">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="5ca1a26e">false</attribute>
+<attribute name="isOptional" nodeId="51ffbf0d">false</attribute>
+<attribute name="isRepeatable" nodeId="aad75132">false</attribute>
+<attribute name="isOngoing" nodeId="55fd008e">false</attribute>
+<attribute name="isEventDriven" nodeId="f6a1ef1e">false</attribute>
+<attribute name="variabilityType" nodeId="47b931f6">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Manage Backlog, Dependencies and Traceability" Id="_SXyf0TF6Ee-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_c2F1QZLKEe6Ji6GnvvUfqw&amp;path=_c2F1QZLKEe6Ji6GnvvUfqw,_SXyf0TF6Ee-TauTqJPNl_g" nodeId="1bfd7f5a" Url="process.adv.eya_oracle.base/capabilitypatterns/manage_backlog_depend_trace_52298509.html" Name="manage_backlog_depend_trace" BackPath="./../../">
+<attribute name="name" nodeId="20d73cd9">manage_backlog_depend_trace</attribute>
+<attribute name="guid" nodeId="f90afee1">_SXyf0TF6Ee-TauTqJPNl_g</attribute>
+<attribute name="presentationName" nodeId="2ffc1157">Manage Backlog, Dependencies and Traceability</attribute>
+<attribute name="briefDescription" nodeId="886314b">Throughout the implementation, actively manage the backlog. Document dependencies and govern traceability.</attribute>
+<attribute name="suppressed" nodeId="a480f256">false</attribute>
+<attribute name="orderingGuide" nodeId="b694dbfc"></attribute>
+<attribute name="isAbstract" nodeId="6d1b13dd">false</attribute>
+<attribute name="shapeicon" nodeId="d606a6ad"></attribute>
+<attribute name="nodeicon" nodeId="391f930"></attribute>
+<attribute name="prefix" nodeId="330f460e"></attribute>
+<attribute name="isPlanned" nodeId="f50596de">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="dce214bc">false</attribute>
+<attribute name="isOptional" nodeId="8fcc6877">false</attribute>
+<attribute name="isRepeatable" nodeId="b80fd861">false</attribute>
+<attribute name="isOngoing" nodeId="9ef4ffc3">false</attribute>
+<attribute name="isEventDriven" nodeId="fc8f057e">false</attribute>
+<attribute name="variabilityType" nodeId="ed1556ef">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_c2F1QZLKEe6Ji6GnvvUfqw&amp;path=_c2F1QZLKEe6Ji6GnvvUfqw,_SXyf0TF6Ee-TauTqJPNl_g,_VKfbgDF7Ee-TauTqJPNl_g" ConcreteType="Task" Url="practice.ita.delv.rqmts_mgmt.base/tasks/manage_rqmt_traceability_A0B423F7.html" Name="manage_rqmt_traceability" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Manage requirements traceability" Id="_VKfbgDF7Ee-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="e54c326d">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="3ba37a5a" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="8b079778">eya_oracle</attribute>
+<attribute name="guid" nodeId="b6362082">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="e26627e2">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="cc87eaa8"></attribute>
+<attribute name="suppressed" nodeId="20cd28bd">false</attribute>
+<attribute name="orderingGuide" nodeId="f60a177b"></attribute>
+<attribute name="isAbstract" nodeId="959f0506">false</attribute>
+<attribute name="shapeicon" nodeId="e64a101e"></attribute>
+<attribute name="nodeicon" nodeId="639c8141"></attribute>
+<attribute name="prefix" nodeId="8245cd05"></attribute>
+<attribute name="isPlanned" nodeId="288d4ea6">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="fd25e304">false</attribute>
+<attribute name="isOptional" nodeId="e0a3f3c1">false</attribute>
+<attribute name="isRepeatable" nodeId="399bffb6">false</attribute>
+<attribute name="isOngoing" nodeId="20f5a1ee">false</attribute>
+<attribute name="isEventDriven" nodeId="12c0162c">false</attribute>
+<attribute name="variabilityType" nodeId="be5bee41">replaces</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Progressive Build" Id="_c4A0kYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA" nodeId="9f91f565" Url="process.adv.eya_oracle.base/deliveryprocesses/progressive_build_70B7DD74.html" Name="progressive_build" BackPath="./../../">
+<attribute name="name" nodeId="f8e1cb8f">progressive_build</attribute>
+<attribute name="guid" nodeId="c0faefa0">_c4A0kYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="d5acfd4c">Progressive Build</attribute>
+<attribute name="briefDescription" nodeId="655fd503">Iterate through the build cycles and drive business acceptance through incremental demos to key client stakeholders. Execute mock conversions and and prepare for system integration and user acceptance testing. Manage stakeholder engagement and communications around the change.</attribute>
+<attribute name="suppressed" nodeId="22d2a1f">false</attribute>
+<attribute name="orderingGuide" nodeId="996616cc"></attribute>
+<attribute name="isAbstract" nodeId="a8cbb72c">false</attribute>
+<attribute name="shapeicon" nodeId="136af57f"></attribute>
+<attribute name="nodeicon" nodeId="8df07f97"></attribute>
+<attribute name="prefix" nodeId="76512e42"></attribute>
+<attribute name="isPlanned" nodeId="ceb16538">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="dbc4fb2f">false</attribute>
+<attribute name="isOptional" nodeId="ee1769f7">false</attribute>
+<attribute name="isRepeatable" nodeId="6d7cffc2">true</attribute>
+<attribute name="isOngoing" nodeId="a0a032e2">false</attribute>
+<attribute name="isEventDriven" nodeId="c4102545">false</attribute>
+<attribute name="variabilityType" nodeId="b6a63952">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Manage Backlog, Dependencies and Traceability" Id="_acjfAY_WEe-90KkSLG-9Nw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_acjfAY_WEe-90KkSLG-9Nw" nodeId="f76e4cca" Url="process.adv.eya_oracle.base/deliveryprocesses/manage_backlog_depend_trace_3ECCE8EC.html" Name="manage_backlog_depend_trace" BackPath="./../../">
+<attribute name="name" nodeId="1a1437f9">manage_backlog_depend_trace</attribute>
+<attribute name="guid" nodeId="ef8e4528">_acjfAY_WEe-90KkSLG-9Nw</attribute>
+<attribute name="presentationName" nodeId="20f596e9">Manage Backlog, Dependencies and Traceability</attribute>
+<attribute name="briefDescription" nodeId="51f22e60">Throughout the implementation, actively manage the backlog. Document dependencies and govern traceability.</attribute>
+<attribute name="suppressed" nodeId="a01b664b">false</attribute>
+<attribute name="orderingGuide" nodeId="b8b02569"></attribute>
+<attribute name="isAbstract" nodeId="c1aba985">false</attribute>
+<attribute name="shapeicon" nodeId="e4cab7b8"></attribute>
+<attribute name="nodeicon" nodeId="c9370ad9"></attribute>
+<attribute name="prefix" nodeId="fa1efc6c"></attribute>
+<attribute name="isPlanned" nodeId="b9be0d36">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d34cb729">false</attribute>
+<attribute name="isOptional" nodeId="6fb63634">false</attribute>
+<attribute name="isRepeatable" nodeId="fb047868">false</attribute>
+<attribute name="isOngoing" nodeId="b5535ce0">false</attribute>
+<attribute name="isEventDriven" nodeId="b07ae610">false</attribute>
+<attribute name="variabilityType" nodeId="56ad834b">extends</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

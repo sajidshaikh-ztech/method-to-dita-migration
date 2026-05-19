@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Data Mapping Specifications" Id="_IcRXQGXhEeSU9pNl520DCw" ShapeiconUrl="images/artifact.gif" lang="en" nodeId="a70641c9" Url="core.i_t.common.base/workproducts/data_map_specs_C4F66F61.html" Name="data_map_specs" BackPath="./../../">
+<copyright nodeId="df2ecbf">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="61f59b3b">data_map_specs</attribute>
+<attribute name="guid" nodeId="c2c59d52">_IcRXQGXhEeSU9pNl520DCw</attribute>
+<attribute name="presentationName" nodeId="eab0fd6f">Data Mapping Specifications</attribute>
+<attribute name="briefDescription" nodeId="878cfd8f">Document that details the technical specifications for mapping data between two or more systems by defining the criteria for linkage.</attribute>
+<attribute name="suppressed" nodeId="4a8a422">false</attribute>
+<attribute name="orderingGuide" nodeId="1d8b8001"></attribute>
+<attribute name="isAbstract" nodeId="5335c6c6">false</attribute>
+<attribute name="shapeicon" nodeId="37f487f6"></attribute>
+<attribute name="nodeicon" nodeId="986f8eed"></attribute>
+<attribute name="variabilityType" nodeId="8d78b32">na</attribute>
+<reference name="presentation" nodeId="189358ee">
+<Element Type="ArtifactDescription" TypeName="Artifact Description" NodeiconUrl="" DisplayName="Data Mapping Specifications" Id="-SUFHG_FgJTd4tGoynZIw7w" ShapeiconUrl="images/guidance.gif" nodeId="92256de" Url="" Name="data_map_specs,_IcRXQGXhEeSU9pNl520DCw" BackPath="">
+<copyright nodeId="9fed2e36">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="a4b7469b">data_map_specs,_IcRXQGXhEeSU9pNl520DCw</attribute>
+<attribute name="guid" nodeId="bc186868">-SUFHG_FgJTd4tGoynZIw7w</attribute>
+<attribute name="presentationName" nodeId="93421bf9">Data Mapping Specifications</attribute>
+<attribute name="briefDescription" nodeId="5dce9886"></attribute>
+<attribute name="suppressed" nodeId="36daa0dc">false</attribute>
+<attribute name="orderingGuide" nodeId="d5a596e3"></attribute>
+<attribute name="authors" nodeId="66cf7316"></attribute>
+<attribute name="changeDate" nodeId="c5036246">Sat Sep 24 19:03:40 EDT 2022</attribute>
+<attribute name="changeDescription" nodeId="8a79795">APR 2016 - Renamed work product to make it more descriptive. Enhanced content in Brief Description, and Purpose.  Added Brief Outline.</attribute>
+<attribute name="version" nodeId="d522f04f"></attribute>
+<attribute name="mainDescription" nodeId="e52ded22"></attribute>
+<attribute name="externalId" nodeId="2334f6b5"></attribute>
+<attribute name="keyConsiderations" nodeId="eef5ac96"></attribute>
+<attribute name="longPresentationName" nodeId="28d06d69"></attribute>
+<attribute name="purpose" nodeId="cedc0ba8">To facilitate the integration of data from one or more source systems into target system(s) in order to meet data
+consumption requirements of all end users.</attribute>
+<attribute name="impactOfNotHaving" nodeId="72360b29"></attribute>
+<attribute name="reasonsForNotNeeding" nodeId="4be834ff"></attribute>
+<attribute name="briefOutline" nodeId="e09d278c">&lt;p&gt;
+    The Data Mapping Specification documents typically contain the following information:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Entity mappings for source and target systems
+    &lt;/li&gt;
+    &lt;li&gt;
+        Attribute and field mappings for source and target systems
+    &lt;/li&gt;
+    &lt;li&gt;
+        Join logic for entities, attributes, and fields
+    &lt;/li&gt;
+    &lt;li&gt;
+        Entity and attribute filter tables
+    &lt;/li&gt;
+    &lt;li&gt;
+        Reference data entities and attributes
+    &lt;/li&gt;
+    &lt;li&gt;
+        Value mapping tables
+    &lt;/li&gt;
+    &lt;li&gt;
+        Data mapping issues log
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="representationOptions" nodeId="5bf0b5fe"></attribute>
+<attribute name="representation" nodeId="a22d4af9"></attribute>
+<attribute name="notation" nodeId="d947516"></attribute>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="templates" nodeId="8c66e320">
+<Element Type="Template" TypeName="Template" NodeiconUrl="" DisplayName="Data Mapping Specifications" Id="_zOt4EIbUEeS4lNZ9f4Ws9g" ShapeiconUrl="images/template.gif" nodeId="4b99702a" Url="core.i_t.common.base/guidances/templates/data_map_specs_5F97B965.html" Name="data_map_specs" BackPath="./../../../"></Element>
+</referenceList>
+<referenceList name="WorkProduct_WorkProductDescriptors" nodeId="3c8fc238">
+<Element TypeName="Work Product Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_MerLgdE_Ee6Y56Jk6jqfOA,_XlkyANFAEe6Y56Jk6jqfOA_IcRXQGXhEeSU9pNl520DCw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/data_map_specs_C4F66F61.html" Name="data_map_specs" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Data Mapping Specifications" Id="_XlkyANFAEe6Y56Jk6jqfOA_IcRXQGXhEeSU9pNl520DCw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="d12c0666"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_W5xXwdFHEe6Y56Jk6jqfOA,_2f6fENFHEe6Y56Jk6jqfOA_IcRXQGXhEeSU9pNl520DCw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/data_map_specs_C4F66F61.html" Name="data_map_specs" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Data Mapping Specifications" Id="_2f6fENFHEe6Y56Jk6jqfOA_IcRXQGXhEeSU9pNl520DCw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="abe1caa9"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_Yye68dFJEe6Y56Jk6jqfOA,_q8LEMNFJEe6Y56Jk6jqfOA_IcRXQGXhEeSU9pNl520DCw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/data_map_specs_C4F66F61.html" Name="data_map_specs" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Data Mapping Specifications" Id="_q8LEMNFJEe6Y56Jk6jqfOA_IcRXQGXhEeSU9pNl520DCw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="d1b60ae1"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_dzIuANEgEe6Y56Jk6jqfOA_IcRXQGXhEeSU9pNl520DCw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/data_map_specs_C4F66F61.html" Name="data_map_specs" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Data Mapping Specifications" Id="_dzIuANEgEe6Y56Jk6jqfOA_IcRXQGXhEeSU9pNl520DCw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="991d3130"></Element>
+</referenceList>
+<referenceList name="WorkProduct_OutputFrom_Tasks" nodeId="f4a16bf7">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Map source system data fields to target" Id="_WqAhoNFAEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="598ac829" Url="process.adv.eya_oracle.base/tasks/map_src_sys_data_target_sys_data_36E2F89A.html" Name="map_src_sys_data_target_sys_data" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="WorkProduct_Deliverables" nodeId="27a787c6">
+<Element ShowFullMethodContent="false" Type="Deliverable" TypeName="Deliverable" NodeiconUrl="" DisplayName="Data Mapping and Conversion Specifications" Id="_Cdl2MNFBEe6Y56Jk6jqfOA" ShapeiconUrl="images/deliverable.gif" nodeId="624008cd" Url="process.adv.eya_oracle.base/workproducts/data_mapping_conv_specs_D565B203.html" Name="data_mapping_conv_specs" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="WorkProduct_InputTo_Tasks" nodeId="394481a3">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Build conversion components" Id="_atqK0NEgEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="6e6577fa" Url="process.adv.eya_oracle.base/tasks/build_conv_cmpt_D50B846C.html" Name="build_conv_cmpt" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Design data migration rollback plan" Id="_RKXFQNFEEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="1a546803" Url="process.adv.eya_oracle.base/tasks/design_dm_rollback_plans_94D052A2.html" Name="design_dm_rollback_plans" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop data conversion runbook" Id="_qKvnQNFJEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="128c0cb1" Url="process.adv.eya_oracle.base/tasks/dev_data_conv_runbook_E7E16472.html" Name="dev_data_conv_runbook" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop extract, transform and load scripts" Id="_1e0OcNFHEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="bf63c57" Url="process.adv.eya_oracle.base/tasks/dev_etl_scripts_6EA4491F.html" Name="dev_etl_scripts" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop reconciliation scripts" Id="_EDYrINFIEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="8adf5d29" Url="process.adv.eya_oracle.base/tasks/dev_recon_scripts_EBA05D9F.html" Name="dev_recon_scripts" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Finalize data mapping and conversion specifications" Id="_sUIEsNFAEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="e9997975" Url="process.adv.eya_oracle.base/tasks/fin_data_conv_specs_BDD365F3.html" Name="fin_data_conv_specs" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="modifyRoles" nodeId="4566d72c">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Conversion Lead" Id="_dnKZsDyfEeqFL87Rj0GF5A" ShapeiconUrl="images/role.gif" nodeId="38ad1feb" Url="core.default.role_def.base/roles/conversion_lead_D4ACE143.html" Name="conversion_lead" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="mandatoryInputToTasks" nodeId="a01831d8">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Build conversion components" Id="_atqK0NEgEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="900a191" Url="process.adv.eya_oracle.base/tasks/build_conv_cmpt_D50B846C.html" Name="build_conv_cmpt" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Design data migration rollback plan" Id="_RKXFQNFEEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="867d66ae" Url="process.adv.eya_oracle.base/tasks/design_dm_rollback_plans_94D052A2.html" Name="design_dm_rollback_plans" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop data conversion runbook" Id="_qKvnQNFJEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="8a1682c5" Url="process.adv.eya_oracle.base/tasks/dev_data_conv_runbook_E7E16472.html" Name="dev_data_conv_runbook" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop extract, transform and load scripts" Id="_1e0OcNFHEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="b649d4f7" Url="process.adv.eya_oracle.base/tasks/dev_etl_scripts_6EA4491F.html" Name="dev_etl_scripts" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop reconciliation scripts" Id="_EDYrINFIEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="b241d203" Url="process.adv.eya_oracle.base/tasks/dev_recon_scripts_EBA05D9F.html" Name="dev_recon_scripts" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Finalize data mapping and conversion specifications" Id="_sUIEsNFAEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="f842234a" Url="process.adv.eya_oracle.base/tasks/fin_data_conv_specs_BDD365F3.html" Name="fin_data_conv_specs" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="outputFromTasks" nodeId="d5144c8e">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Map source system data fields to target" Id="_WqAhoNFAEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="2c46ca2a" Url="process.adv.eya_oracle.base/tasks/map_src_sys_data_target_sys_data_36E2F89A.html" Name="map_src_sys_data_target_sys_data" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="6add9dbb">
+<Element TypeName="Work Product Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_MerLgdE_Ee6Y56Jk6jqfOA,_XlkyANFAEe6Y56Jk6jqfOA_IcRXQGXhEeSU9pNl520DCw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/data_map_specs_C4F66F61.html" Name="data_map_specs" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Data Mapping Specifications" Id="_XlkyANFAEe6Y56Jk6jqfOA_IcRXQGXhEeSU9pNl520DCw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="44b31c6b">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Data Conversion" Id="_K4NTYZLKEe6Ji6GnvvUfqw" relProcessPath="_K4NTYZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw" nodeId="5d5bcce8" Url="process.adv.eya_oracle.base/capabilitypatterns/data_conv_wkstrm_3E4842D.html" Name="data_conv_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="17a777a3">data_conv_wkstrm</attribute>
+<attribute name="guid" nodeId="604c70c0">_K4NTYZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="a7e9c201">Data Conversion</attribute>
+<attribute name="briefDescription" nodeId="1a09fa2"></attribute>
+<attribute name="suppressed" nodeId="a38a546e">false</attribute>
+<attribute name="orderingGuide" nodeId="6689b5"></attribute>
+<attribute name="isAbstract" nodeId="db81973f">false</attribute>
+<attribute name="shapeicon" nodeId="1a903935"></attribute>
+<attribute name="nodeicon" nodeId="2fd7ee2"></attribute>
+<attribute name="prefix" nodeId="16f49c78">workstream</attribute>
+<attribute name="isPlanned" nodeId="eb51a1c2">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="8a0a37aa">false</attribute>
+<attribute name="isOptional" nodeId="9d8074d4">false</attribute>
+<attribute name="isRepeatable" nodeId="15ee35c9">false</attribute>
+<attribute name="isOngoing" nodeId="9c86fa9b">false</attribute>
+<attribute name="isEventDriven" nodeId="263ffad9">false</attribute>
+<attribute name="variabilityType" nodeId="37e4fcb4">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Document Data Mapping and Conversion Specifications" Id="_MerLgdE_Ee6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_MerLgdE_Ee6Y56Jk6jqfOA" nodeId="3b15cbf0" Url="process.adv.eya_oracle.base/capabilitypatterns/doc_data_map_conv_spec_A6041C48.html" Name="doc_data_map_conv_spec" BackPath="./../../">
+<attribute name="name" nodeId="a461e008">doc_data_map_conv_spec</attribute>
+<attribute name="guid" nodeId="3b1db6e2">_MerLgdE_Ee6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="d37ffef5">Document Data Mapping and Conversion Specifications</attribute>
+<attribute name="briefDescription" nodeId="540b8b36">Understand the data flows, map data to processes and define the data conversion specifications.</attribute>
+<attribute name="suppressed" nodeId="13e7c248">false</attribute>
+<attribute name="orderingGuide" nodeId="c876c90d"></attribute>
+<attribute name="isAbstract" nodeId="564b753f">false</attribute>
+<attribute name="shapeicon" nodeId="ccd70b95"></attribute>
+<attribute name="nodeicon" nodeId="2c39ab6b"></attribute>
+<attribute name="prefix" nodeId="e370817"></attribute>
+<attribute name="isPlanned" nodeId="a367caf1">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d06e1024">false</attribute>
+<attribute name="isOptional" nodeId="e601431b">false</attribute>
+<attribute name="isRepeatable" nodeId="25bc7d1a">false</attribute>
+<attribute name="isOngoing" nodeId="2da8e1bd">false</attribute>
+<attribute name="isEventDriven" nodeId="2656e48c">false</attribute>
+<attribute name="variabilityType" nodeId="cdfa969e">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_MerLgdE_Ee6Y56Jk6jqfOA,_XlkyANFAEe6Y56Jk6jqfOA_IcRXQGXhEeSU9pNl520DCw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/data_map_specs_C4F66F61.html" Name="data_map_specs" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Data Mapping Specifications" Id="_XlkyANFAEe6Y56Jk6jqfOA_IcRXQGXhEeSU9pNl520DCw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="6f3b125b">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="4701eb77" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="9bb713ff">eya_oracle</attribute>
+<attribute name="guid" nodeId="f7b0da6b">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="f829dd6c">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="b1f8ca6b"></attribute>
+<attribute name="suppressed" nodeId="3bf1dade">false</attribute>
+<attribute name="orderingGuide" nodeId="9e4a2c60"></attribute>
+<attribute name="isAbstract" nodeId="6284df0d">false</attribute>
+<attribute name="shapeicon" nodeId="14696076"></attribute>
+<attribute name="nodeicon" nodeId="c9623da8"></attribute>
+<attribute name="prefix" nodeId="6a3b9e14"></attribute>
+<attribute name="isPlanned" nodeId="e69187bf">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="ca383429">false</attribute>
+<attribute name="isOptional" nodeId="1c3955ff">false</attribute>
+<attribute name="isRepeatable" nodeId="3efdbecf">false</attribute>
+<attribute name="isOngoing" nodeId="66ff8141">false</attribute>
+<attribute name="isEventDriven" nodeId="9bf3c57">false</attribute>
+<attribute name="variabilityType" nodeId="3525405f">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Confirm and Design" Id="_bRCPsIs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA" nodeId="425cf7c9" Url="process.adv.eya_oracle.base/deliveryprocesses/confirm_and_design_29FFDB9.html" Name="confirm_and_design" BackPath="./../../">
+<attribute name="name" nodeId="61e0abb2">confirm_and_design</attribute>
+<attribute name="guid" nodeId="45229b99">_bRCPsIs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="4cffa98a">Confirm and Design</attribute>
+<attribute name="briefDescription" nodeId="3c68e938">Define business requirements, map process flows and facilitate fit-gap workshops. Define technology and testing strategies. Develop the master configuration workbook, RICEFW inventory and prepare for progressive build cycles.</attribute>
+<attribute name="suppressed" nodeId="dda430c1">false</attribute>
+<attribute name="orderingGuide" nodeId="bfd8371b"></attribute>
+<attribute name="isAbstract" nodeId="b5a89f22">false</attribute>
+<attribute name="shapeicon" nodeId="6c6215e6"></attribute>
+<attribute name="nodeicon" nodeId="b5c49404"></attribute>
+<attribute name="prefix" nodeId="7f03a80f"></attribute>
+<attribute name="isPlanned" nodeId="bdd18675">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="6c0c131a">false</attribute>
+<attribute name="isOptional" nodeId="3766bc83">false</attribute>
+<attribute name="isRepeatable" nodeId="4d3dde48">false</attribute>
+<attribute name="isOngoing" nodeId="3c0bd735">false</attribute>
+<attribute name="isEventDriven" nodeId="4b93f507">false</attribute>
+<attribute name="variabilityType" nodeId="19191cbf">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Document Data Mapping and Conversion Specifications" Id="_5-KZkdpFEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA,_5-KZkdpFEe6TH6yb1zVWhw" nodeId="777a8141" Url="process.adv.eya_oracle.base/deliveryprocesses/doc_data_map_conv_spec_D490D6E3.html" Name="doc_data_map_conv_spec" BackPath="./../../">
+<attribute name="name" nodeId="49440086">doc_data_map_conv_spec</attribute>
+<attribute name="guid" nodeId="b4329c1c">_5-KZkdpFEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="7493b196">Document Data Mapping and Conversion Specifications</attribute>
+<attribute name="briefDescription" nodeId="a189a21a">Understand the data flows, map data to processes and define the data conversion specifications.</attribute>
+<attribute name="suppressed" nodeId="a54532bb">false</attribute>
+<attribute name="orderingGuide" nodeId="b95496c9"></attribute>
+<attribute name="isAbstract" nodeId="5cc177ec">false</attribute>
+<attribute name="shapeicon" nodeId="9f935a1f"></attribute>
+<attribute name="nodeicon" nodeId="cfc71dcf"></attribute>
+<attribute name="prefix" nodeId="902060da"></attribute>
+<attribute name="isPlanned" nodeId="52822878">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="e5f3f2">false</attribute>
+<attribute name="isOptional" nodeId="fcd5c6dc">false</attribute>
+<attribute name="isRepeatable" nodeId="e8cc62dd">false</attribute>
+<attribute name="isOngoing" nodeId="7362703e">false</attribute>
+<attribute name="isEventDriven" nodeId="e7c2369f">false</attribute>
+<attribute name="variabilityType" nodeId="41c4ca61">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_W5xXwdFHEe6Y56Jk6jqfOA,_2f6fENFHEe6Y56Jk6jqfOA_IcRXQGXhEeSU9pNl520DCw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/data_map_specs_C4F66F61.html" Name="data_map_specs" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Data Mapping Specifications" Id="_2f6fENFHEe6Y56Jk6jqfOA_IcRXQGXhEeSU9pNl520DCw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="d811d570">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Data Conversion" Id="_K4NTYZLKEe6Ji6GnvvUfqw" relProcessPath="_K4NTYZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw" nodeId="a26cf48c" Url="process.adv.eya_oracle.base/capabilitypatterns/data_conv_wkstrm_3E4842D.html" Name="data_conv_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="d8ee234e">data_conv_wkstrm</attribute>
+<attribute name="guid" nodeId="1727f305">_K4NTYZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="ebe6ae66">Data Conversion</attribute>
+<attribute name="briefDescription" nodeId="d0aea7f7"></attribute>
+<attribute name="suppressed" nodeId="559113d2">false</attribute>
+<attribute name="orderingGuide" nodeId="60322aaa"></attribute>
+<attribute name="isAbstract" nodeId="704f03ff">false</attribute>
+<attribute name="shapeicon" nodeId="f1adf4b4"></attribute>
+<attribute name="nodeicon" nodeId="9e8490b8"></attribute>
+<attribute name="prefix" nodeId="5ddcb9a9">workstream</attribute>
+<attribute name="isPlanned" nodeId="d0803084">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="862a4a46">false</attribute>
+<attribute name="isOptional" nodeId="efdc8ad8">false</attribute>
+<attribute name="isRepeatable" nodeId="2d05e4c2">false</attribute>
+<attribute name="isOngoing" nodeId="f3c9c1d">false</attribute>
+<attribute name="isEventDriven" nodeId="d71876c5">false</attribute>
+<attribute name="variabilityType" nodeId="ccf33b38">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Develop Data Conversion Scripts" Id="_W5xXwdFHEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_W5xXwdFHEe6Y56Jk6jqfOA" nodeId="c532a251" Url="process.adv.eya_oracle.base/capabilitypatterns/develop_data_conv_scripts_B4506D8C.html" Name="develop_data_conv_scripts" BackPath="./../../">
+<attribute name="name" nodeId="4906a500">develop_data_conv_scripts</attribute>
+<attribute name="guid" nodeId="5da31a2e">_W5xXwdFHEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="846f9983">Develop Data Conversion Scripts</attribute>
+<attribute name="briefDescription" nodeId="4f5c2b3">Develop the extract, transform and load (ETL) scripts per the scope of the build cycle and the data conversion specifications.</attribute>
+<attribute name="suppressed" nodeId="3eaee9c6">false</attribute>
+<attribute name="orderingGuide" nodeId="12fa834e"></attribute>
+<attribute name="isAbstract" nodeId="8a70d9cd">false</attribute>
+<attribute name="shapeicon" nodeId="b51d271c"></attribute>
+<attribute name="nodeicon" nodeId="38f1a8d4"></attribute>
+<attribute name="prefix" nodeId="e64d5f1"></attribute>
+<attribute name="isPlanned" nodeId="d8d90d14">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="78a5eeec">false</attribute>
+<attribute name="isOptional" nodeId="d670e66b">false</attribute>
+<attribute name="isRepeatable" nodeId="20f7867">false</attribute>
+<attribute name="isOngoing" nodeId="9e87a292">false</attribute>
+<attribute name="isEventDriven" nodeId="6c2141da">false</attribute>
+<attribute name="variabilityType" nodeId="9c00e78f">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_W5xXwdFHEe6Y56Jk6jqfOA,_2f6fENFHEe6Y56Jk6jqfOA_IcRXQGXhEeSU9pNl520DCw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/data_map_specs_C4F66F61.html" Name="data_map_specs" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Data Mapping Specifications" Id="_2f6fENFHEe6Y56Jk6jqfOA_IcRXQGXhEeSU9pNl520DCw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="34319e21">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="3845eccf" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="6ad33bdb">eya_oracle</attribute>
+<attribute name="guid" nodeId="a11c85d1">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="b45a5696">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="da0e5710"></attribute>
+<attribute name="suppressed" nodeId="5b41b4be">false</attribute>
+<attribute name="orderingGuide" nodeId="1568d64c"></attribute>
+<attribute name="isAbstract" nodeId="5262945a">false</attribute>
+<attribute name="shapeicon" nodeId="9a30e6b8"></attribute>
+<attribute name="nodeicon" nodeId="f160dcfc"></attribute>
+<attribute name="prefix" nodeId="b64aaf6"></attribute>
+<attribute name="isPlanned" nodeId="b0fd2fe8">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="e49eeb09">false</attribute>
+<attribute name="isOptional" nodeId="4d7d2b28">false</attribute>
+<attribute name="isRepeatable" nodeId="a27d49e3">false</attribute>
+<attribute name="isOngoing" nodeId="ff4d5cbb">false</attribute>
+<attribute name="isEventDriven" nodeId="68bbac46">false</attribute>
+<attribute name="variabilityType" nodeId="2b6a4f1b">replaces</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Progressive Build" Id="_c4A0kYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA" nodeId="52c241b1" Url="process.adv.eya_oracle.base/deliveryprocesses/progressive_build_70B7DD74.html" Name="progressive_build" BackPath="./../../">
+<attribute name="name" nodeId="216fdf25">progressive_build</attribute>
+<attribute name="guid" nodeId="ce42f95f">_c4A0kYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="697fff7c">Progressive Build</attribute>
+<attribute name="briefDescription" nodeId="cefeaa31">Iterate through the build cycles and drive business acceptance through incremental demos to key client stakeholders. Execute mock conversions and and prepare for system integration and user acceptance testing. Manage stakeholder engagement and communications around the change.</attribute>
+<attribute name="suppressed" nodeId="6cb2556d">false</attribute>
+<attribute name="orderingGuide" nodeId="1cec3635"></attribute>
+<attribute name="isAbstract" nodeId="e6086b77">false</attribute>
+<attribute name="shapeicon" nodeId="d9b8338d"></attribute>
+<attribute name="nodeicon" nodeId="6d8420d5"></attribute>
+<attribute name="prefix" nodeId="7552c081"></attribute>
+<attribute name="isPlanned" nodeId="9b125d08">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="cd3d99be">false</attribute>
+<attribute name="isOptional" nodeId="4cc2dd37">false</attribute>
+<attribute name="isRepeatable" nodeId="cad24ff7">true</attribute>
+<attribute name="isOngoing" nodeId="f21eb9e6">false</attribute>
+<attribute name="isEventDriven" nodeId="340a6802">false</attribute>
+<attribute name="variabilityType" nodeId="98f108bb">na</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Execute Build Cycles 1-n" Id="_Sd7D0duVEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_Sd7D0duVEe6TH6yb1zVWhw" nodeId="ebe502ab" Url="process.adv.eya_oracle.base/deliveryprocesses/execute_build_cycles_1_n_3FC12A80.html" Name="execute_build_cycles_1_n" BackPath="./../../">
+<attribute name="name" nodeId="80596aed">execute_build_cycles_1_n</attribute>
+<attribute name="guid" nodeId="67520e5e">_Sd7D0duVEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="f19bc225">Execute Build Cycles 1-n</attribute>
+<attribute name="briefDescription" nodeId="296ff497">Iterate through the build cycles by planning for each sprint, defining the technical and integration specifications and data conversion scripts and completing the configurations and development. Validate the builds and conduct demos with the client.</attribute>
+<attribute name="suppressed" nodeId="4a46b231">false</attribute>
+<attribute name="orderingGuide" nodeId="9fa9787b"></attribute>
+<attribute name="isAbstract" nodeId="1a931b4e">false</attribute>
+<attribute name="shapeicon" nodeId="8b7afd3d"></attribute>
+<attribute name="nodeicon" nodeId="6f74f774"></attribute>
+<attribute name="prefix" nodeId="f0e89624"></attribute>
+<attribute name="isPlanned" nodeId="866cf431">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="2582df3a">false</attribute>
+<attribute name="isOptional" nodeId="6d1c52db">false</attribute>
+<attribute name="isRepeatable" nodeId="59beefbb">true</attribute>
+<attribute name="isOngoing" nodeId="88e7ce8e">false</attribute>
+<attribute name="isEventDriven" nodeId="bc3eb26c">false</attribute>
+<attribute name="variabilityType" nodeId="598c5f39">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Develop Data Conversion Scripts" Id="_yuAYEY_TEe-90KkSLG-9Nw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_Sd7D0duVEe6TH6yb1zVWhw,_yuAYEY_TEe-90KkSLG-9Nw" nodeId="16f3d9ab" Url="process.adv.eya_oracle.base/deliveryprocesses/develop_data_conv_scripts_383AA89B.html" Name="develop_data_conv_scripts" BackPath="./../../">
+<attribute name="name" nodeId="1923c56e">develop_data_conv_scripts</attribute>
+<attribute name="guid" nodeId="7acfafb2">_yuAYEY_TEe-90KkSLG-9Nw</attribute>
+<attribute name="presentationName" nodeId="e53d3abc">Develop Data Conversion Scripts</attribute>
+<attribute name="briefDescription" nodeId="4f395924">Develop the extract, transform and load (ETL) scripts per the scope of the build cycle and the data conversion specifications.</attribute>
+<attribute name="suppressed" nodeId="1bdf0fbc">false</attribute>
+<attribute name="orderingGuide" nodeId="98210a8a"></attribute>
+<attribute name="isAbstract" nodeId="35e432cb">false</attribute>
+<attribute name="shapeicon" nodeId="6f46caae"></attribute>
+<attribute name="nodeicon" nodeId="a215125"></attribute>
+<attribute name="prefix" nodeId="6fda7cad"></attribute>
+<attribute name="isPlanned" nodeId="c067d145">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="262efb58">false</attribute>
+<attribute name="isOptional" nodeId="4578daf5">false</attribute>
+<attribute name="isRepeatable" nodeId="e1c9233f">false</attribute>
+<attribute name="isOngoing" nodeId="6b33e3bf">false</attribute>
+<attribute name="isEventDriven" nodeId="a6907c01">false</attribute>
+<attribute name="variabilityType" nodeId="1d302157">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_Yye68dFJEe6Y56Jk6jqfOA,_q8LEMNFJEe6Y56Jk6jqfOA_IcRXQGXhEeSU9pNl520DCw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/data_map_specs_C4F66F61.html" Name="data_map_specs" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Data Mapping Specifications" Id="_q8LEMNFJEe6Y56Jk6jqfOA_IcRXQGXhEeSU9pNl520DCw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="1c2c61fa">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Data Conversion" Id="_K4NTYZLKEe6Ji6GnvvUfqw" relProcessPath="_K4NTYZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw" nodeId="ec8de6db" Url="process.adv.eya_oracle.base/capabilitypatterns/data_conv_wkstrm_3E4842D.html" Name="data_conv_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="1e6e7f5c">data_conv_wkstrm</attribute>
+<attribute name="guid" nodeId="3f26f3fc">_K4NTYZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="c865af3">Data Conversion</attribute>
+<attribute name="briefDescription" nodeId="8641dc47"></attribute>
+<attribute name="suppressed" nodeId="794a5d35">false</attribute>
+<attribute name="orderingGuide" nodeId="839fe674"></attribute>
+<attribute name="isAbstract" nodeId="867ef4da">false</attribute>
+<attribute name="shapeicon" nodeId="37d180c7"></attribute>
+<attribute name="nodeicon" nodeId="306a139f"></attribute>
+<attribute name="prefix" nodeId="e22e4fb6">workstream</attribute>
+<attribute name="isPlanned" nodeId="4833d5b0">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="81a72bd5">false</attribute>
+<attribute name="isOptional" nodeId="aea908">false</attribute>
+<attribute name="isRepeatable" nodeId="3fa4f440">false</attribute>
+<attribute name="isOngoing" nodeId="4e6b4e2a">false</attribute>
+<attribute name="isEventDriven" nodeId="32b3eb48">false</attribute>
+<attribute name="variabilityType" nodeId="620ddab5">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Execute Mock Conversions" Id="_Yye68dFJEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_Yye68dFJEe6Y56Jk6jqfOA" nodeId="c3237784" Url="process.adv.eya_oracle.base/capabilitypatterns/execute_mock_conv_EC296340.html" Name="execute_mock_conv" BackPath="./../../">
+<attribute name="name" nodeId="720630a1">execute_mock_conv</attribute>
+<attribute name="guid" nodeId="3b3e6044">_Yye68dFJEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="9a428a5a">Execute Mock Conversions</attribute>
+<attribute name="briefDescription" nodeId="c4f96e3b">Create the data conversion runbook in preparation for the mock conversion event. Execute the mock conversion as well as the defined roll-back plans and address any findings.</attribute>
+<attribute name="suppressed" nodeId="14959b69">false</attribute>
+<attribute name="orderingGuide" nodeId="44b7af23"></attribute>
+<attribute name="isAbstract" nodeId="af688edc">false</attribute>
+<attribute name="shapeicon" nodeId="d07651c8"></attribute>
+<attribute name="nodeicon" nodeId="4f4a8e94"></attribute>
+<attribute name="prefix" nodeId="e4c22ac"></attribute>
+<attribute name="isPlanned" nodeId="1c48f59">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d92d5be8">false</attribute>
+<attribute name="isOptional" nodeId="59a78669">false</attribute>
+<attribute name="isRepeatable" nodeId="4000adc0">false</attribute>
+<attribute name="isOngoing" nodeId="696559c2">false</attribute>
+<attribute name="isEventDriven" nodeId="484baeba">false</attribute>
+<attribute name="variabilityType" nodeId="b8e86a91">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_Yye68dFJEe6Y56Jk6jqfOA,_q8LEMNFJEe6Y56Jk6jqfOA_IcRXQGXhEeSU9pNl520DCw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/data_map_specs_C4F66F61.html" Name="data_map_specs" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Data Mapping Specifications" Id="_q8LEMNFJEe6Y56Jk6jqfOA_IcRXQGXhEeSU9pNl520DCw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="5809116a">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="bb5e5d76" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="fc1bb8c7">eya_oracle</attribute>
+<attribute name="guid" nodeId="f674e159">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="3bb7a907">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="8416f054"></attribute>
+<attribute name="suppressed" nodeId="7c61306f">false</attribute>
+<attribute name="orderingGuide" nodeId="fe289568"></attribute>
+<attribute name="isAbstract" nodeId="14bde39">false</attribute>
+<attribute name="shapeicon" nodeId="ce51da8b"></attribute>
+<attribute name="nodeicon" nodeId="a0ca0651"></attribute>
+<attribute name="prefix" nodeId="1550aee4"></attribute>
+<attribute name="isPlanned" nodeId="ad050d90">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="f4721ff1">false</attribute>
+<attribute name="isOptional" nodeId="e2f15589">false</attribute>
+<attribute name="isRepeatable" nodeId="a38717f">false</attribute>
+<attribute name="isOngoing" nodeId="4e560fc6">false</attribute>
+<attribute name="isEventDriven" nodeId="11f15f05">false</attribute>
+<attribute name="variabilityType" nodeId="7c40c7bf">replaces</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Progressive Build" Id="_c4A0kYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA" nodeId="3b4cb012" Url="process.adv.eya_oracle.base/deliveryprocesses/progressive_build_70B7DD74.html" Name="progressive_build" BackPath="./../../">
+<attribute name="name" nodeId="bd34df36">progressive_build</attribute>
+<attribute name="guid" nodeId="a00bcc24">_c4A0kYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="bfce0d1c">Progressive Build</attribute>
+<attribute name="briefDescription" nodeId="58dc8e3b">Iterate through the build cycles and drive business acceptance through incremental demos to key client stakeholders. Execute mock conversions and and prepare for system integration and user acceptance testing. Manage stakeholder engagement and communications around the change.</attribute>
+<attribute name="suppressed" nodeId="bd220f33">false</attribute>
+<attribute name="orderingGuide" nodeId="237d9fe8"></attribute>
+<attribute name="isAbstract" nodeId="391241bd">false</attribute>
+<attribute name="shapeicon" nodeId="6c0c42b2"></attribute>
+<attribute name="nodeicon" nodeId="43633527"></attribute>
+<attribute name="prefix" nodeId="74d4d4a3"></attribute>
+<attribute name="isPlanned" nodeId="7942f118">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="925e71f7">false</attribute>
+<attribute name="isOptional" nodeId="6efaacfb">false</attribute>
+<attribute name="isRepeatable" nodeId="d0f63ab7">true</attribute>
+<attribute name="isOngoing" nodeId="20ac10e4">false</attribute>
+<attribute name="isEventDriven" nodeId="d957a7ea">false</attribute>
+<attribute name="variabilityType" nodeId="d18dbe58">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Execute Mock Conversions" Id="_vSESMdpkEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_vSESMdpkEe6TH6yb1zVWhw" nodeId="6de859b6" Url="process.adv.eya_oracle.base/deliveryprocesses/execute_mock_conv_C163D3AA.html" Name="execute_mock_conv" BackPath="./../../">
+<attribute name="name" nodeId="390d1ede">execute_mock_conv</attribute>
+<attribute name="guid" nodeId="9774ce99">_vSESMdpkEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="eb9fd2b0">Execute Mock Conversions</attribute>
+<attribute name="briefDescription" nodeId="e837c319">Create the data conversion runbook in preparation for the mock conversion event. Execute the mock conversion as well as the defined roll-back plans and address any findings.</attribute>
+<attribute name="suppressed" nodeId="f95c477d">false</attribute>
+<attribute name="orderingGuide" nodeId="bbd10d2"></attribute>
+<attribute name="isAbstract" nodeId="a858ecb5">false</attribute>
+<attribute name="shapeicon" nodeId="3aecefb7"></attribute>
+<attribute name="nodeicon" nodeId="e7b52bcd"></attribute>
+<attribute name="prefix" nodeId="75547dd5"></attribute>
+<attribute name="isPlanned" nodeId="49353683">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="f7dcde35">false</attribute>
+<attribute name="isOptional" nodeId="1ee846f3">false</attribute>
+<attribute name="isRepeatable" nodeId="33527e30">false</attribute>
+<attribute name="isOngoing" nodeId="cfe44922">false</attribute>
+<attribute name="isEventDriven" nodeId="53ad026f">false</attribute>
+<attribute name="variabilityType" nodeId="454a2064">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_dzIuANEgEe6Y56Jk6jqfOA_IcRXQGXhEeSU9pNl520DCw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/data_map_specs_C4F66F61.html" Name="data_map_specs" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Data Mapping Specifications" Id="_dzIuANEgEe6Y56Jk6jqfOA_IcRXQGXhEeSU9pNl520DCw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="b05ba9e2">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Development" Id="_N-58wdAOEe6H-rjlu9wPlA" relProcessPath="_N-58wdAOEe6H-rjlu9wPlA" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA" nodeId="5ec37e96" Url="process.adv.eya_oracle.base/capabilitypatterns/development_wkstrm_21C01F87.html" Name="development_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="47712631">development_wkstrm</attribute>
+<attribute name="guid" nodeId="6ab24487">_N-58wdAOEe6H-rjlu9wPlA</attribute>
+<attribute name="presentationName" nodeId="2b9a74ac">Development</attribute>
+<attribute name="briefDescription" nodeId="58c6e802"></attribute>
+<attribute name="suppressed" nodeId="fa2d1d8c">false</attribute>
+<attribute name="orderingGuide" nodeId="ea475455"></attribute>
+<attribute name="isAbstract" nodeId="7309b10">false</attribute>
+<attribute name="shapeicon" nodeId="ce877c0a"></attribute>
+<attribute name="nodeicon" nodeId="b2bcbdf0"></attribute>
+<attribute name="prefix" nodeId="5252116a">workstream</attribute>
+<attribute name="isPlanned" nodeId="1cd6af08">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="a8c04f3a">false</attribute>
+<attribute name="isOptional" nodeId="f273b438">false</attribute>
+<attribute name="isRepeatable" nodeId="f302e0e4">false</attribute>
+<attribute name="isOngoing" nodeId="63bdb86c">false</attribute>
+<attribute name="isEventDriven" nodeId="6c22311f">false</attribute>
+<attribute name="variabilityType" nodeId="d0804a23">na</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="[Execute Build Cycles 1-n]" Id="_LOhWgduYEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw" nodeId="bfd7da35" Url="process.adv.eya_oracle.base/capabilitypatterns/execute_build_cycles_1_n_6C160980.html" Name="execute_build_cycles_1_n" BackPath="./../../">
+<attribute name="name" nodeId="c9af737">execute_build_cycles_1_n</attribute>
+<attribute name="guid" nodeId="8786a86b">_LOhWgduYEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="d349880b">[Execute Build Cycles 1-n]</attribute>
+<attribute name="briefDescription" nodeId="902054f3">Set of activities and tasks to be performed by the Development workstream while executing build iterations 1-n, spanning from planning for each sprint through unit testing custom components.</attribute>
+<attribute name="suppressed" nodeId="93d106c6">false</attribute>
+<attribute name="orderingGuide" nodeId="5ec00baa"></attribute>
+<attribute name="isAbstract" nodeId="a571da10">false</attribute>
+<attribute name="shapeicon" nodeId="5850b8c5"></attribute>
+<attribute name="nodeicon" nodeId="ef7746da"></attribute>
+<attribute name="prefix" nodeId="848dc725"></attribute>
+<attribute name="isPlanned" nodeId="2b3b9282">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="11724b85">false</attribute>
+<attribute name="isOptional" nodeId="14e1530b">false</attribute>
+<attribute name="isRepeatable" nodeId="7b18c4f8">true</attribute>
+<attribute name="isOngoing" nodeId="74a0305">false</attribute>
+<attribute name="isEventDriven" nodeId="81601f49">false</attribute>
+<attribute name="variabilityType" nodeId="f4682209">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Perform Development" Id="_ekqtsdDVEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA" nodeId="2b77708f" Url="process.adv.eya_oracle.base/capabilitypatterns/perf_dev_F5AECB4B.html" Name="perf_dev" BackPath="./../../">
+<attribute name="name" nodeId="7fa959d2">perf_dev</attribute>
+<attribute name="guid" nodeId="b5607d36">_ekqtsdDVEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="9d975409">Perform Development</attribute>
+<attribute name="briefDescription" nodeId="1e86a0ae">Develop the approved target state RICEFW objects per the tecnical design specifications and perform unit testing.</attribute>
+<attribute name="suppressed" nodeId="46884fc0">false</attribute>
+<attribute name="orderingGuide" nodeId="a52c20f4"></attribute>
+<attribute name="isAbstract" nodeId="4ad17260">false</attribute>
+<attribute name="shapeicon" nodeId="f2bd2160"></attribute>
+<attribute name="nodeicon" nodeId="d43535c0"></attribute>
+<attribute name="prefix" nodeId="de95dc86"></attribute>
+<attribute name="isPlanned" nodeId="c1d435e6">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="1f20b3a6">false</attribute>
+<attribute name="isOptional" nodeId="7a67cad0">false</attribute>
+<attribute name="isRepeatable" nodeId="e561a03e">false</attribute>
+<attribute name="isOngoing" nodeId="4f4f92a3">false</attribute>
+<attribute name="isEventDriven" nodeId="637ef124">false</attribute>
+<attribute name="variabilityType" nodeId="60f1cb88">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_dzIuANEgEe6Y56Jk6jqfOA_IcRXQGXhEeSU9pNl520DCw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/data_map_specs_C4F66F61.html" Name="data_map_specs" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Data Mapping Specifications" Id="_dzIuANEgEe6Y56Jk6jqfOA_IcRXQGXhEeSU9pNl520DCw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="4bdd1283">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="6e989741" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="82982214">eya_oracle</attribute>
+<attribute name="guid" nodeId="f8354b53">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="19f1f321">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="d203d224"></attribute>
+<attribute name="suppressed" nodeId="e913fc96">false</attribute>
+<attribute name="orderingGuide" nodeId="ee0bfe85"></attribute>
+<attribute name="isAbstract" nodeId="716f526a">false</attribute>
+<attribute name="shapeicon" nodeId="ccaa970f"></attribute>
+<attribute name="nodeicon" nodeId="f2526f1c"></attribute>
+<attribute name="prefix" nodeId="5c7883a6"></attribute>
+<attribute name="isPlanned" nodeId="d8d92689">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="fc70bb93">false</attribute>
+<attribute name="isOptional" nodeId="a0d2db22">false</attribute>
+<attribute name="isRepeatable" nodeId="7660816d">false</attribute>
+<attribute name="isOngoing" nodeId="5187dd0d">false</attribute>
+<attribute name="isEventDriven" nodeId="928f7a75">false</attribute>
+<attribute name="variabilityType" nodeId="d9136e17">replaces</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Progressive Build" Id="_c4A0kYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA" nodeId="285582a8" Url="process.adv.eya_oracle.base/deliveryprocesses/progressive_build_70B7DD74.html" Name="progressive_build" BackPath="./../../">
+<attribute name="name" nodeId="fbb452e5">progressive_build</attribute>
+<attribute name="guid" nodeId="12ca8403">_c4A0kYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="8d3a794d">Progressive Build</attribute>
+<attribute name="briefDescription" nodeId="ce4844b8">Iterate through the build cycles and drive business acceptance through incremental demos to key client stakeholders. Execute mock conversions and and prepare for system integration and user acceptance testing. Manage stakeholder engagement and communications around the change.</attribute>
+<attribute name="suppressed" nodeId="bb32906f">false</attribute>
+<attribute name="orderingGuide" nodeId="1c328012"></attribute>
+<attribute name="isAbstract" nodeId="8cf6337a">false</attribute>
+<attribute name="shapeicon" nodeId="c9b378b5"></attribute>
+<attribute name="nodeicon" nodeId="77323923"></attribute>
+<attribute name="prefix" nodeId="3187d085"></attribute>
+<attribute name="isPlanned" nodeId="7651cdfc">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="b5382b64">false</attribute>
+<attribute name="isOptional" nodeId="789f5fae">false</attribute>
+<attribute name="isRepeatable" nodeId="18e35745">true</attribute>
+<attribute name="isOngoing" nodeId="e15234a9">false</attribute>
+<attribute name="isEventDriven" nodeId="68247b9f">false</attribute>
+<attribute name="variabilityType" nodeId="fa4fe079">na</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Execute Build Cycles 1-n" Id="_Sd7D0duVEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_Sd7D0duVEe6TH6yb1zVWhw" nodeId="59caf655" Url="process.adv.eya_oracle.base/deliveryprocesses/execute_build_cycles_1_n_3FC12A80.html" Name="execute_build_cycles_1_n" BackPath="./../../">
+<attribute name="name" nodeId="f244d2f1">execute_build_cycles_1_n</attribute>
+<attribute name="guid" nodeId="375eec10">_Sd7D0duVEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="9960fa3b">Execute Build Cycles 1-n</attribute>
+<attribute name="briefDescription" nodeId="98519e65">Iterate through the build cycles by planning for each sprint, defining the technical and integration specifications and data conversion scripts and completing the configurations and development. Validate the builds and conduct demos with the client.</attribute>
+<attribute name="suppressed" nodeId="506300a6">false</attribute>
+<attribute name="orderingGuide" nodeId="5a68da5f"></attribute>
+<attribute name="isAbstract" nodeId="5b5b8b20">false</attribute>
+<attribute name="shapeicon" nodeId="f54662c1"></attribute>
+<attribute name="nodeicon" nodeId="2a3ccc46"></attribute>
+<attribute name="prefix" nodeId="3237f425"></attribute>
+<attribute name="isPlanned" nodeId="7074d6fb">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="b8e0200f">false</attribute>
+<attribute name="isOptional" nodeId="364ccc03">false</attribute>
+<attribute name="isRepeatable" nodeId="a8c44100">true</attribute>
+<attribute name="isOngoing" nodeId="a53c8900">false</attribute>
+<attribute name="isEventDriven" nodeId="a386ce21">false</attribute>
+<attribute name="variabilityType" nodeId="f1d08eba">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Perform Development" Id="_VRUbQTGGEe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_Sd7D0duVEe6TH6yb1zVWhw,_VRUbQTGGEe-TauTqJPNl_g" nodeId="59d9a9d5" Url="process.adv.eya_oracle.base/deliveryprocesses/perf_dev_AB59AF.html" Name="perf_dev" BackPath="./../../">
+<attribute name="name" nodeId="85770d12">perf_dev</attribute>
+<attribute name="guid" nodeId="54e7dac2">_VRUbQTGGEe-TauTqJPNl_g</attribute>
+<attribute name="presentationName" nodeId="98cd5dbd">Perform Development</attribute>
+<attribute name="briefDescription" nodeId="cf61b9b1">Develop the approved target state RICEFW objects per the tecnical design specifications and perform unit testing.</attribute>
+<attribute name="suppressed" nodeId="bb811fda">false</attribute>
+<attribute name="orderingGuide" nodeId="275a6f7d"></attribute>
+<attribute name="isAbstract" nodeId="5f8d7356">false</attribute>
+<attribute name="shapeicon" nodeId="35e61b01"></attribute>
+<attribute name="nodeicon" nodeId="7f59a5ea"></attribute>
+<attribute name="prefix" nodeId="7d245413"></attribute>
+<attribute name="isPlanned" nodeId="d7d25ad">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="aeab53da">false</attribute>
+<attribute name="isOptional" nodeId="d653bfcd">false</attribute>
+<attribute name="isRepeatable" nodeId="3aff7032">false</attribute>
+<attribute name="isOngoing" nodeId="d0232681">false</attribute>
+<attribute name="isEventDriven" nodeId="87d9c017">false</attribute>
+<attribute name="variabilityType" nodeId="7eb063c2">extends</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

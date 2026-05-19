@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" TypeName="Activity" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA" Url="process.adv.eya_oracle.base/capabilitypatterns/perf_dev_F5AECB4B.html" Name="perf_dev" BackPath="./../../" Type="Activity" NodeiconUrl="" DisplayName="Perform Development" Id="_ekqtsdDVEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/activity.gif" lang="en" nodeId="6547abc9">
+<attribute name="name" nodeId="7392531f">perf_dev</attribute>
+<attribute name="guid" nodeId="b3928286">_ekqtsdDVEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="c129a1bc">Perform Development</attribute>
+<attribute name="briefDescription" nodeId="1e51634c">Develop the approved target state RICEFW objects per the tecnical design specifications and perform unit testing.</attribute>
+<attribute name="suppressed" nodeId="cee0f508">false</attribute>
+<attribute name="orderingGuide" nodeId="e30b7904"></attribute>
+<attribute name="isAbstract" nodeId="b4e3e477">false</attribute>
+<attribute name="shapeicon" nodeId="3ddb0cc2"></attribute>
+<attribute name="nodeicon" nodeId="b8e5fc8b"></attribute>
+<attribute name="prefix" nodeId="1eb72b7d"></attribute>
+<attribute name="isPlanned" nodeId="2de69d03">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d3cde811">false</attribute>
+<attribute name="isOptional" nodeId="16368685">false</attribute>
+<attribute name="isRepeatable" nodeId="961491bc">false</attribute>
+<attribute name="isOngoing" nodeId="2fdcd810">false</attribute>
+<attribute name="isEventDriven" nodeId="378280c2">false</attribute>
+<attribute name="variabilityType" nodeId="2ea65f07">na</attribute>
+<tabs nodeId="425de304">
+<tab name="Description" nodeId="c2a18089" url="process.adv.eya_oracle.base/capabilitypatterns/perf_dev_F5AECB4B.html_desc.html"></tab>
+<tab name="WPBS" nodeId="b158c8fd" url="process.adv.eya_oracle.base/capabilitypatterns/perf_dev_F5AECB4B.html_wpbs.html"></tab>
+<tab name="TBS" nodeId="a9066a88" url="process.adv.eya_oracle.base/capabilitypatterns/perf_dev_F5AECB4B.html_tbs.html"></tab>
+<tab name="WBS" nodeId="5d3d701e" url="process.adv.eya_oracle.base/capabilitypatterns/perf_dev_F5AECB4B.html_wbs.html"></tab>
+</tabs>
+<copyright nodeId="9aec71f4">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<reference name="presentation" nodeId="453683a8">
+<Element Type="ActivityDescription" TypeName="Activity Description" NodeiconUrl="" DisplayName="" Id="-p_B1lLsrGw_X8295Hn-D2g" ShapeiconUrl="images/guidance.gif" nodeId="a0048224" Url="" Name="perf_dev,_ekqtsdDVEe6Y56Jk6jqfOA" BackPath="">
+<attribute name="name" nodeId="9537d519">perf_dev,_ekqtsdDVEe6Y56Jk6jqfOA</attribute>
+<attribute name="guid" nodeId="fb5f6cf3">-p_B1lLsrGw_X8295Hn-D2g</attribute>
+<attribute name="presentationName" nodeId="bd00bf0a"></attribute>
+<attribute name="briefDescription" nodeId="4177cf2b"></attribute>
+<attribute name="suppressed" nodeId="a085c159">false</attribute>
+<attribute name="orderingGuide" nodeId="b14e334"></attribute>
+<attribute name="authors" nodeId="17dcf45d"></attribute>
+<attribute name="changeDate" nodeId="c92bed87"></attribute>
+<attribute name="changeDescription" nodeId="f84995e5"></attribute>
+<attribute name="version" nodeId="a8f26257"></attribute>
+<attribute name="mainDescription" nodeId="e1860eae"></attribute>
+<attribute name="externalId" nodeId="35253138"></attribute>
+<attribute name="keyConsiderations" nodeId="a40802d3"></attribute>
+<attribute name="longPresentationName" nodeId="3c4c0b1b"></attribute>
+<attribute name="usageGuidance" nodeId="a01dfc99"></attribute>
+<attribute name="purpose" nodeId="a4d58e65"></attribute>
+<attribute name="alternatives" nodeId="644f0d3d"></attribute>
+<attribute name="howtoStaff" nodeId="52d9be0f"></attribute>
+</Element>
+</reference>
+<reference name="superActivities" nodeId="5d605a62">
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="[Execute Build Cycles 1-n]" Id="_LOhWgduYEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw" nodeId="49fd03cd" Url="process.adv.eya_oracle.base/capabilitypatterns/execute_build_cycles_1_n_6C160980.html" Name="execute_build_cycles_1_n" BackPath="./../../">
+<attribute name="name" nodeId="1e60e9c4">execute_build_cycles_1_n</attribute>
+<attribute name="guid" nodeId="4a1e85ec">_LOhWgduYEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="382812b6">[Execute Build Cycles 1-n]</attribute>
+<attribute name="briefDescription" nodeId="97e131ab">Set of activities and tasks to be performed by the Development workstream while executing build iterations 1-n, spanning from planning for each sprint through unit testing custom components.</attribute>
+<attribute name="suppressed" nodeId="63dd7a83">false</attribute>
+<attribute name="orderingGuide" nodeId="58851010"></attribute>
+<attribute name="isAbstract" nodeId="3f9e9c64">false</attribute>
+<attribute name="shapeicon" nodeId="24a1d3d8"></attribute>
+<attribute name="nodeicon" nodeId="4e0b2377"></attribute>
+<attribute name="prefix" nodeId="44d76a8a"></attribute>
+<attribute name="isPlanned" nodeId="a5383a66">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="777e7ae4">false</attribute>
+<attribute name="isOptional" nodeId="bcb807cc">false</attribute>
+<attribute name="isRepeatable" nodeId="f6abe8aa">true</attribute>
+<attribute name="isOngoing" nodeId="5967131a">false</attribute>
+<attribute name="isEventDriven" nodeId="6d454500">false</attribute>
+<attribute name="variabilityType" nodeId="ec7a5dc3">na</attribute>
+</Element>
+</reference>
+<referenceList name="VariabilityElement_ImmediateVarieties" nodeId="77fc587f">
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Perform Development" Id="_VRUbQTGGEe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_Sd7D0duVEe6TH6yb1zVWhw,_VRUbQTGGEe-TauTqJPNl_g" nodeId="4083239f" Url="process.adv.eya_oracle.base/deliveryprocesses/perf_dev_AB59AF.html" Name="perf_dev" BackPath="./../../">
+<attribute name="name" nodeId="d956e0c6">perf_dev</attribute>
+<attribute name="guid" nodeId="b0dad0ee">_VRUbQTGGEe-TauTqJPNl_g</attribute>
+<attribute name="presentationName" nodeId="faa6c7b1">Perform Development</attribute>
+<attribute name="briefDescription" nodeId="4a0a63ad">Develop the approved target state RICEFW objects per the tecnical design specifications and perform unit testing.</attribute>
+<attribute name="suppressed" nodeId="a29f2b70">false</attribute>
+<attribute name="orderingGuide" nodeId="e11ed67e"></attribute>
+<attribute name="isAbstract" nodeId="29a9df57">false</attribute>
+<attribute name="shapeicon" nodeId="7505d967"></attribute>
+<attribute name="nodeicon" nodeId="44bfe37d"></attribute>
+<attribute name="prefix" nodeId="cf313399"></attribute>
+<attribute name="isPlanned" nodeId="dc9d78be">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="c59b3070">false</attribute>
+<attribute name="isOptional" nodeId="6ef6d7d6">false</attribute>
+<attribute name="isRepeatable" nodeId="8c79d36d">false</attribute>
+<attribute name="isOngoing" nodeId="da201df5">false</attribute>
+<attribute name="isEventDriven" nodeId="f5a3a9d9">false</attribute>
+<attribute name="variabilityType" nodeId="db8bc160">extends</attribute>
+</Element>
+</referenceList>
+<breakdown name="Work Breakdown Structure" DisplayName="Perform Development" nodeId="daf5286c">
+<columns nodeId="c7e67fe7">
+<column id="presentation_name" label="Name" nodeId="4bb20aea"></column>
+<column id="steps" label="Steps" nodeId="cb587ce"></column>
+<column id="id" label="Index" nodeId="ecaa8e0d"></column>
+<column id="predecessors" label="Predecessors" nodeId="eb100b7b"></column>
+<column id="model_info" label="Model Info" nodeId="90a820d5"></column>
+<column id="type" label="Type" nodeId="96eb0997"></column>
+<column id="prefix" label="Prefix" nodeId="824879e"></column>
+<column id="is_planned" label="Planned" nodeId="da168b17"></column>
+<column id="is_repeatable" label="Repeatable" nodeId="a3e3bb87"></column>
+<column id="is_ongoing" label="Ongoing" nodeId="7b2b9948"></column>
+<column id="is_event_driven" label="Event Driven" nodeId="543025fd"></column>
+<column id="teams" label="Team" nodeId="7326ee2b"></column>
+</columns>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="9" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Ik-HINEgEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/build_rpts_537CC11C.html" Name="build_rpts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Build reports" Predecessors="" Team="" Id="_Ik-HINEgEe6Y56Jk6jqfOA" relProcessPath=",_Ik-HINEgEe6Y56Jk6jqfOA" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="d0c7209e">
+<attribute name="prefix" nodeId="702906ef"></attribute>
+<attribute name="isEventDriven" nodeId="525df91e">false</attribute>
+<attribute name="isOngoing" nodeId="b0211788">false</attribute>
+<attribute name="isOptional" nodeId="99c0f39f">false</attribute>
+<attribute name="isPlanned" nodeId="35da31c2">true</attribute>
+<attribute name="isRepeatable" nodeId="f919ed17">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="dd9b7c4a">false</attribute>
+<Steps nodeId="a053b4c8">
+<Step index="0" nodeId="e13f9fe3" selected="true"></Step>
+<Step index="1" nodeId="40009832" selected="true"></Step>
+<Step index="2" nodeId="6ef3b274" selected="true"></Step>
+<Step index="3" nodeId="c0163790" selected="true"></Step>
+<Step index="4" nodeId="52114759" selected="true"></Step>
+<Step index="5" nodeId="b6c7334c" selected="true"></Step>
+<Step index="6" nodeId="71a6530a" selected="true"></Step>
+<Step index="7" nodeId="9930fc4a" selected="true"></Step>
+</Steps>
+</Element>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="10" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_NGJzUNEgEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.pkg_dev.base/tasks/build_interface_cmpt_EAA3C4D1.html" Name="build_interface_cmpt" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Build interface components" Predecessors="" Team="" Id="_NGJzUNEgEe6Y56Jk6jqfOA" relProcessPath=",_NGJzUNEgEe6Y56Jk6jqfOA" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="728d97b5">
+<attribute name="prefix" nodeId="3d7ffe23"></attribute>
+<attribute name="isEventDriven" nodeId="db25c3fd">false</attribute>
+<attribute name="isOngoing" nodeId="c9d3dd5a">false</attribute>
+<attribute name="isOptional" nodeId="9ec6580a">false</attribute>
+<attribute name="isPlanned" nodeId="6a1fded5">true</attribute>
+<attribute name="isRepeatable" nodeId="69b2d234">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="9c66aaad">false</attribute>
+<Steps nodeId="6bb90424"></Steps>
+</Element>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="11" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_dzIuANEgEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/build_conv_cmpt_D50B846C.html" Name="build_conv_cmpt" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Build conversion components" Predecessors="" Team="" Id="_dzIuANEgEe6Y56Jk6jqfOA" relProcessPath=",_dzIuANEgEe6Y56Jk6jqfOA" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="3e61a618">
+<attribute name="prefix" nodeId="a9f0b611"></attribute>
+<attribute name="isEventDriven" nodeId="3601a82d">false</attribute>
+<attribute name="isOngoing" nodeId="30b67e72">false</attribute>
+<attribute name="isOptional" nodeId="c4afdb88">false</attribute>
+<attribute name="isPlanned" nodeId="7024ad4">true</attribute>
+<attribute name="isRepeatable" nodeId="62faed80">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="74f8bcf4">false</attribute>
+<Steps nodeId="1041329f"></Steps>
+</Element>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="12" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Bfzl0NEhEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.pkg_dev.base/tasks/build_enhc_cmpt_8BF1E673.html" Name="build_enhc_cmpt" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Build enhancement components" Predecessors="" Team="" Id="_Bfzl0NEhEe6Y56Jk6jqfOA" relProcessPath=",_Bfzl0NEhEe6Y56Jk6jqfOA" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="891994d7">
+<attribute name="prefix" nodeId="854ecc00"></attribute>
+<attribute name="isEventDriven" nodeId="20e1ea0">false</attribute>
+<attribute name="isOngoing" nodeId="8ab18cd6">false</attribute>
+<attribute name="isOptional" nodeId="5a935745">false</attribute>
+<attribute name="isPlanned" nodeId="292723a8">true</attribute>
+<attribute name="isRepeatable" nodeId="48b6c4b">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="40f244c5">false</attribute>
+<Steps nodeId="fd02442c"></Steps>
+</Element>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="13" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_DCmOQNEhEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.pkg_dev.base/tasks/build_form_cmpt_96F304C8.html" Name="build_form_cmpt" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Build form components" Predecessors="" Team="" Id="_DCmOQNEhEe6Y56Jk6jqfOA" relProcessPath=",_DCmOQNEhEe6Y56Jk6jqfOA" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="50ea27b5">
+<attribute name="prefix" nodeId="eb0acf52"></attribute>
+<attribute name="isEventDriven" nodeId="5491a51">false</attribute>
+<attribute name="isOngoing" nodeId="b1b6c4c7">false</attribute>
+<attribute name="isOptional" nodeId="f3401520">false</attribute>
+<attribute name="isPlanned" nodeId="b4dc639b">true</attribute>
+<attribute name="isRepeatable" nodeId="862f2350">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="fcb3df7b">false</attribute>
+<Steps nodeId="2ce1aa6a"></Steps>
+</Element>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="14" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_DnBxANEhEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.pkg_dev.base/tasks/build_wkfl_cmpt_2DFFF8CF.html" Name="build_wkfl_cmpt" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Build workflow components" Predecessors="" Team="" Id="_DnBxANEhEe6Y56Jk6jqfOA" relProcessPath=",_DnBxANEhEe6Y56Jk6jqfOA" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="3ad71bda">
+<attribute name="prefix" nodeId="ed5a5c48"></attribute>
+<attribute name="isEventDriven" nodeId="c4e4967d">false</attribute>
+<attribute name="isOngoing" nodeId="fc76535d">false</attribute>
+<attribute name="isOptional" nodeId="6ced3313">false</attribute>
+<attribute name="isPlanned" nodeId="7c093da">true</attribute>
+<attribute name="isRepeatable" nodeId="40ed743">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="db1b191b">false</attribute>
+<Steps nodeId="f8f98345"></Steps>
+</Element>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="15" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_FXWfINEhEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.pkg_dev.base/tasks/prepare_package_app_build_E461952C.html" Name="prepare_package_app_build" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Prepare package application build" Predecessors="" Team="" Id="_FXWfINEhEe6Y56Jk6jqfOA" relProcessPath=",_FXWfINEhEe6Y56Jk6jqfOA" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="ba448241">
+<attribute name="prefix" nodeId="920ecd14"></attribute>
+<attribute name="isEventDriven" nodeId="ad2a9ca3">false</attribute>
+<attribute name="isOngoing" nodeId="37e15ef3">false</attribute>
+<attribute name="isOptional" nodeId="d2043366">false</attribute>
+<attribute name="isPlanned" nodeId="6e61581b">true</attribute>
+<attribute name="isRepeatable" nodeId="7cd51a8d">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="f3d9012">false</attribute>
+<Steps nodeId="2a854c86"></Steps>
+</Element>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="16" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_arYdcNEhEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/perform_tests_2E8D7174.html" Name="perform_tests" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Perform tests" Predecessors="" Team="" Id="_arYdcNEhEe6Y56Jk6jqfOA" relProcessPath=",_arYdcNEhEe6Y56Jk6jqfOA" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="be08278e">
+<attribute name="prefix" nodeId="31fd99d"></attribute>
+<attribute name="isEventDriven" nodeId="4f267371">false</attribute>
+<attribute name="isOngoing" nodeId="6212c3f7">false</attribute>
+<attribute name="isOptional" nodeId="71de0b39">false</attribute>
+<attribute name="isPlanned" nodeId="cab54ceb">true</attribute>
+<attribute name="isRepeatable" nodeId="1b00b401">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="efa7aee7">false</attribute>
+<Steps nodeId="bf03bfb6"></Steps>
+</Element>
+<Element TypeName="Task Descriptor" ModelInfo="" Index="17" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Omo5MNEhEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.pkg_dev.base/tasks/conduct_peer_review_99AA2990.html" Name="conduct_peer_review" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Conduct peer review" Predecessors="" Team="" Id="_Omo5MNEhEe6Y56Jk6jqfOA" relProcessPath=",_Omo5MNEhEe6Y56Jk6jqfOA" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="" nodeId="84e266ba">
+<attribute name="prefix" nodeId="c6c2bc9d"></attribute>
+<attribute name="isEventDriven" nodeId="78d91bf0">false</attribute>
+<attribute name="isOngoing" nodeId="e50c780a">false</attribute>
+<attribute name="isOptional" nodeId="e0f20299">false</attribute>
+<attribute name="isPlanned" nodeId="d9dd7043">true</attribute>
+<attribute name="isRepeatable" nodeId="46435a5d">false</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="c11af99b">false</attribute>
+<Steps nodeId="33b96cb1">
+<Step index="0" nodeId="431638ce" selected="true"></Step>
+<Step index="1" nodeId="696bcfb0" selected="true"></Step>
+<Step index="2" nodeId="68ae8b46" selected="true"></Step>
+</Steps>
+</Element>
+</breakdown>
+<diagrams nodeId="aa285c35"></diagrams>
+<breakdown name="Team Breakdown Structure" DisplayName="Perform Development" nodeId="556dac38">
+<columns nodeId="dc64bd9c">
+<column id="presentation_name" label="Name" nodeId="895c274a"></column>
+<column id="model_info" label="Model Info" nodeId="b4adc300"></column>
+<column id="teams" label="Team" nodeId="8c710e37"></column>
+<column id="type" label="Type" nodeId="e433c502"></column>
+<column id="prefix" label="Prefix" nodeId="a8df20b0"></column>
+<column id="is_planned" label="Planned" nodeId="dd57d193"></column>
+</columns>
+<Element TypeName="Role Descriptor" ModelInfo="" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Ik-HINEgEe6Y56Jk6jqfOA_kWXJsTYfEeOOP7mzKGsP2A" ConcreteType="Role" Url="core.default.role_def.base/roles/app_developer_8EC93FA7.html" Name="app_developer" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Application Developer" Team="" Id="_Ik-HINEgEe6Y56Jk6jqfOA_kWXJsTYfEeOOP7mzKGsP2A" relProcessPath=",_Ik-HINEgEe6Y56Jk6jqfOA_kWXJsTYfEeOOP7mzKGsP2A" ShapeiconUrl="images/roledes_lg_dgm32.gif" ModelInfoKey="" nodeId="325b26d1">
+<attribute name="prefix" nodeId="be58a85e"></attribute>
+<attribute name="isEventDriven" nodeId="373fcc7e"></attribute>
+<attribute name="isOngoing" nodeId="8e592bb8"></attribute>
+<attribute name="isOptional" nodeId="abdb2c2">false</attribute>
+<attribute name="isPlanned" nodeId="7c4f3a19">true</attribute>
+<attribute name="isRepeatable" nodeId="bec6d290"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="4369047e">false</attribute>
+<Element TypeName="Work Product Descriptor" ModelInfo="Modifies" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_dzIuANEgEe6Y56Jk6jqfOA_coiwAJtaEeSvEpamr9McgQ" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/app_build_94C7A510.html" Name="app_build" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Application Build" Id="_dzIuANEgEe6Y56Jk6jqfOA_coiwAJtaEeSvEpamr9McgQ" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="Modifies" nodeId="84fe3669"></Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Modifies" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Bfzl0NEhEe6Y56Jk6jqfOA_ze7VgIomEeWrpeIkgDRvEQ" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/enhance_comp_53354928.html" Name="enhance_comp" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Enhancement Components" Id="_Bfzl0NEhEe6Y56Jk6jqfOA_ze7VgIomEeWrpeIkgDRvEQ" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="Modifies" nodeId="c9ab36ac"></Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Modifies" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_dzIuANEgEe6Y56Jk6jqfOA_2_U6UJQPEeW-dodM24rwlQ" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/etl_scripts_1F3AC897.html" Name="etl_scripts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="ETL Scripts" Id="_dzIuANEgEe6Y56Jk6jqfOA_2_U6UJQPEeW-dodM24rwlQ" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="Modifies" nodeId="4fd142f7"></Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Modifies" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_DCmOQNEhEe6Y56Jk6jqfOA_5xzo0IomEeWrpeIkgDRvEQ" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/form_comp_7A2B46ED.html" Name="form_comp" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Form Components" Id="_DCmOQNEhEe6Y56Jk6jqfOA_5xzo0IomEeWrpeIkgDRvEQ" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="Modifies" nodeId="4dcf4031"></Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Modifies" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_NGJzUNEgEe6Y56Jk6jqfOA_LpkKAIomEeWrpeIkgDRvEQ" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/interface_comp_BAA61488.html" Name="interface_comp" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Interface Components" Id="_NGJzUNEgEe6Y56Jk6jqfOA_LpkKAIomEeWrpeIkgDRvEQ" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="Modifies" nodeId="c9a724e"></Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Modifies" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Ik-HINEgEe6Y56Jk6jqfOA_FERGIAw7EeSrGtL1-U_hTg" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/report_impl_A2D0C140.html" Name="report_impl" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Report Implementation" Id="_Ik-HINEgEe6Y56Jk6jqfOA_FERGIAw7EeSrGtL1-U_hTg" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="Modifies" nodeId="6212b730"></Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Modifies" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Omo5MNEhEe6Y56Jk6jqfOA_jAEDcDcxEeWp1olIN1xWiA" ConcreteType="Outcome" Url="core.i_t.common.base/workproducts/review_completed_82958C39.html" Name="review_completed" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Review Completed" Id="_Omo5MNEhEe6Y56Jk6jqfOA_jAEDcDcxEeWp1olIN1xWiA" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="Modifies" nodeId="60cea113"></Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Modifies" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_DnBxANEhEe6Y56Jk6jqfOA__mEGcIomEeWrpeIkgDRvEQ" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/workflow_comp_1378BCD2.html" Name="workflow_comp" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Workflow Components" Id="_DnBxANEhEe6Y56Jk6jqfOA__mEGcIomEeWrpeIkgDRvEQ" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="Modifies" nodeId="b4007393"></Element>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Owner" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_dzIuANEgEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/build_conv_cmpt_D50B846C.html" Name="build_conv_cmpt" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Build conversion components" Id="_dzIuANEgEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="primaryTasks" nodeId="3ba90c01"></Element>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Owner" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Bfzl0NEhEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.pkg_dev.base/tasks/build_enhc_cmpt_8BF1E673.html" Name="build_enhc_cmpt" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Build enhancement components" Id="_Bfzl0NEhEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="primaryTasks" nodeId="dc179dff"></Element>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Owner" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_DCmOQNEhEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.pkg_dev.base/tasks/build_form_cmpt_96F304C8.html" Name="build_form_cmpt" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Build form components" Id="_DCmOQNEhEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="primaryTasks" nodeId="ff7166a6"></Element>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Owner" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_NGJzUNEgEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.pkg_dev.base/tasks/build_interface_cmpt_EAA3C4D1.html" Name="build_interface_cmpt" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Build interface components" Id="_NGJzUNEgEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="primaryTasks" nodeId="bbc7d74c"></Element>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Owner" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Ik-HINEgEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/build_rpts_537CC11C.html" Name="build_rpts" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Build reports" Id="_Ik-HINEgEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="primaryTasks" nodeId="7c4ccafd"></Element>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Owner" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_DnBxANEhEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.pkg_dev.base/tasks/build_wkfl_cmpt_2DFFF8CF.html" Name="build_wkfl_cmpt" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Build workflow components" Id="_DnBxANEhEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="primaryTasks" nodeId="b39509f4"></Element>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Owner" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Omo5MNEhEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.pkg_dev.base/tasks/conduct_peer_review_99AA2990.html" Name="conduct_peer_review" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Conduct peer review" Id="_Omo5MNEhEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="primaryTasks" nodeId="f8ff89ba"></Element>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Owner" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_Sd7D0duVEe6TH6yb1zVWhw,_VRUbQTGGEe-TauTqJPNl_g,_aloykDGcEe-TauTqJPNl_g" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/dev_integrations_A59A7870.html" Name="dev_integrations" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop integrations" Id="_aloykDGcEe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="primaryTasks" nodeId="8c5ea6e1"></Element>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Owner" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_FXWfINEhEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.pkg_dev.base/tasks/prepare_package_app_build_E461952C.html" Name="prepare_package_app_build" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Prepare package application build" Id="_FXWfINEhEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="primaryTasks" nodeId="bb3acc3d"></Element>
+</Element>
+<Element TypeName="Role Descriptor" ModelInfo="" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_arZEgNEhEe6Y56Jk6jqfOA" ConcreteType="Role" Url="core.default.role_def.base/roles/tester_B8C2206D.html" Name="tester" BackPath="./../../" Type="RoleDescriptor" NodeiconUrl="" DisplayName="Tester" Team="" Id="_arZEgNEhEe6Y56Jk6jqfOA" relProcessPath=",_arZEgNEhEe6Y56Jk6jqfOA" ShapeiconUrl="images/roledes_lg_dgm32.gif" ModelInfoKey="" nodeId="d60cd2d4">
+<attribute name="prefix" nodeId="61b612c8"></attribute>
+<attribute name="isEventDriven" nodeId="59cb35b9"></attribute>
+<attribute name="isOngoing" nodeId="b479f8d0"></attribute>
+<attribute name="isOptional" nodeId="59723ac4">false</attribute>
+<attribute name="isPlanned" nodeId="cd2266af">true</attribute>
+<attribute name="isRepeatable" nodeId="cbf888c8"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="293a7a1">false</attribute>
+<Element TypeName="Work Product Descriptor" ModelInfo="Modifies" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_arYdcNEhEe6Y56Jk6jqfOA_UB49IOYJEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_logs_CA656907.html" Name="test_logs" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Test Logs" Id="_arYdcNEhEe6Y56Jk6jqfOA_UB49IOYJEeOqmb5IikO7mw" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="Modifies" nodeId="8f437bc0"></Element>
+<Element TypeName="Task Descriptor" ModelInfo="Performs as Owner" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_arYdcNEhEe6Y56Jk6jqfOA" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/perform_tests_2E8D7174.html" Name="perform_tests" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Perform tests" Id="_arYdcNEhEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" ModelInfoKey="primaryTasks" nodeId="cbd3670a"></Element>
+</Element>
+</breakdown>
+<breakdown name="Work Product Breakdown Structure" DisplayName="Perform Development" nodeId="3592a335">
+<columns nodeId="727385a7">
+<column id="presentation_name" label="Name" nodeId="7ed29ab7"></column>
+<column id="model_info" label="Model Info" nodeId="b598bee4"></column>
+<column id="deliverable" label="Deliverable" nodeId="b127fba"></column>
+<column id="type" label="Type" nodeId="b0eedcb"></column>
+<column id="prefix" label="Prefix" nodeId="cc9ec7f3"></column>
+<column id="is_planned" label="Planned" nodeId="f0505866"></column>
+</columns>
+<Element TypeName="Work Product Slot" ModelInfo="Mandatory Input" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_NGJzUNEgEe6Y56Jk6jqfOA_fN52YPsBEeOR0vuuc0PDYA" ConcreteType="Artifact" Url="core.default.slots.base/workproducts/rqmts_slot_A6B14D9C.html" Name="rqmts_slot" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="[Requirements]" Team="" Id="_NGJzUNEgEe6Y56Jk6jqfOA_fN52YPsBEeOR0vuuc0PDYA" relProcessPath=",_NGJzUNEgEe6Y56Jk6jqfOA_fN52YPsBEeOR0vuuc0PDYA" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="ccb592a9" Deliverable="">
+<attribute name="prefix" nodeId="38f9d944"></attribute>
+<attribute name="isEventDriven" nodeId="26c0c166"></attribute>
+<attribute name="isOngoing" nodeId="67e1ff1c"></attribute>
+<attribute name="isOptional" nodeId="12dc046e">false</attribute>
+<attribute name="isPlanned" nodeId="1118e445">true</attribute>
+<attribute name="isRepeatable" nodeId="82bbdfa0"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="491b791f">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Output" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_dzIuANEgEe6Y56Jk6jqfOA_coiwAJtaEeSvEpamr9McgQ" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/app_build_94C7A510.html" Name="app_build" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Application Build" Team="" Id="_dzIuANEgEe6Y56Jk6jqfOA_coiwAJtaEeSvEpamr9McgQ" relProcessPath=",_dzIuANEgEe6Y56Jk6jqfOA_coiwAJtaEeSvEpamr9McgQ" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="output" nodeId="bc6d6f26" Deliverable="">
+<attribute name="prefix" nodeId="6e5a09d3"></attribute>
+<attribute name="isEventDriven" nodeId="37e8a876"></attribute>
+<attribute name="isOngoing" nodeId="3fcfcc2e"></attribute>
+<attribute name="isOptional" nodeId="c5f9dc5b">false</attribute>
+<attribute name="isPlanned" nodeId="79bf1dcd">true</attribute>
+<attribute name="isRepeatable" nodeId="18b50fa4"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="6007960b">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_NGJzUNEgEe6Y56Jk6jqfOA_X3iH8GZ8EeS2OI5bP0AbiQ" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/app_tech_specs_FB64BD75.html" Name="app_tech_specs" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Application Technical Specifications" Team="" Id="_NGJzUNEgEe6Y56Jk6jqfOA_X3iH8GZ8EeS2OI5bP0AbiQ" relProcessPath=",_NGJzUNEgEe6Y56Jk6jqfOA_X3iH8GZ8EeS2OI5bP0AbiQ" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="60272368" Deliverable="">
+<attribute name="prefix" nodeId="36bfa3c7"></attribute>
+<attribute name="isEventDriven" nodeId="3177b33e"></attribute>
+<attribute name="isOngoing" nodeId="6dfbeffa"></attribute>
+<attribute name="isOptional" nodeId="373becec">false</attribute>
+<attribute name="isPlanned" nodeId="7452ef1d">true</attribute>
+<attribute name="isRepeatable" nodeId="3d25fd79"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="f8361c2b">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_dzIuANEgEe6Y56Jk6jqfOA_3FwdwKy1EeSOBpYsYCrh6Q" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/data_flow_diag_5D2BD70A.html" Name="data_flow_diag" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Data Flow Diagram (DFD)" Team="" Id="_dzIuANEgEe6Y56Jk6jqfOA_3FwdwKy1EeSOBpYsYCrh6Q" relProcessPath=",_dzIuANEgEe6Y56Jk6jqfOA_3FwdwKy1EeSOBpYsYCrh6Q" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="30ac83bf" Deliverable="">
+<attribute name="prefix" nodeId="4468f64b"></attribute>
+<attribute name="isEventDriven" nodeId="24060ec1"></attribute>
+<attribute name="isOngoing" nodeId="7549ec3d"></attribute>
+<attribute name="isOptional" nodeId="fcd5454c">false</attribute>
+<attribute name="isPlanned" nodeId="b9e6d94f">true</attribute>
+<attribute name="isRepeatable" nodeId="64290af7"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="be577321">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_dzIuANEgEe6Y56Jk6jqfOA_IcRXQGXhEeSU9pNl520DCw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/data_map_specs_C4F66F61.html" Name="data_map_specs" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Data Mapping Specifications" Team="" Id="_dzIuANEgEe6Y56Jk6jqfOA_IcRXQGXhEeSU9pNl520DCw" relProcessPath=",_dzIuANEgEe6Y56Jk6jqfOA_IcRXQGXhEeSU9pNl520DCw" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="a72dbd54" Deliverable="">
+<attribute name="prefix" nodeId="4da109e"></attribute>
+<attribute name="isEventDriven" nodeId="f8317f6"></attribute>
+<attribute name="isOngoing" nodeId="8ffe1b95"></attribute>
+<attribute name="isOptional" nodeId="d2b704c1">false</attribute>
+<attribute name="isPlanned" nodeId="f38effe8">true</attribute>
+<attribute name="isRepeatable" nodeId="c190889e"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="adebba55">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_NGJzUNEgEe6Y56Jk6jqfOA_1QgeIOYJEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/defect_tracker_1B140F53.html" Name="defect_tracker" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Defect Tracker" Team="" Id="_NGJzUNEgEe6Y56Jk6jqfOA_1QgeIOYJEeOqmb5IikO7mw" relProcessPath=",_NGJzUNEgEe6Y56Jk6jqfOA_1QgeIOYJEeOqmb5IikO7mw" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="17da2e6a" Deliverable="">
+<attribute name="prefix" nodeId="6c2c216c"></attribute>
+<attribute name="isEventDriven" nodeId="867726c5"></attribute>
+<attribute name="isOngoing" nodeId="b59565d0"></attribute>
+<attribute name="isOptional" nodeId="47616041">false</attribute>
+<attribute name="isPlanned" nodeId="6b83ffab">true</attribute>
+<attribute name="isRepeatable" nodeId="1aadb91"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="e1f73581">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_NGJzUNEgEe6Y56Jk6jqfOA_baPb0IIqEeSxnrMjg_RVQg" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/dev_standards_E11875E9.html" Name="dev_standards" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Development Standards" Team="" Id="_NGJzUNEgEe6Y56Jk6jqfOA_baPb0IIqEeSxnrMjg_RVQg" relProcessPath=",_NGJzUNEgEe6Y56Jk6jqfOA_baPb0IIqEeSxnrMjg_RVQg" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="adcb481e" Deliverable="">
+<attribute name="prefix" nodeId="295cbc88"></attribute>
+<attribute name="isEventDriven" nodeId="fa9c152"></attribute>
+<attribute name="isOngoing" nodeId="f5cea459"></attribute>
+<attribute name="isOptional" nodeId="4beb7e7b">false</attribute>
+<attribute name="isPlanned" nodeId="fb609dce">true</attribute>
+<attribute name="isRepeatable" nodeId="fb0951a3"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="e9be7e10">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Bfzl0NEhEe6Y56Jk6jqfOA_ze7VgIomEeWrpeIkgDRvEQ" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/enhance_comp_53354928.html" Name="enhance_comp" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Enhancement Components" Team="" Id="_Bfzl0NEhEe6Y56Jk6jqfOA_ze7VgIomEeWrpeIkgDRvEQ" relProcessPath=",_Bfzl0NEhEe6Y56Jk6jqfOA_ze7VgIomEeWrpeIkgDRvEQ" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="58b40b79" Deliverable="">
+<attribute name="prefix" nodeId="327a430"></attribute>
+<attribute name="isEventDriven" nodeId="e549505d"></attribute>
+<attribute name="isOngoing" nodeId="4c6de561"></attribute>
+<attribute name="isOptional" nodeId="4b839862">false</attribute>
+<attribute name="isPlanned" nodeId="700e97ea">true</attribute>
+<attribute name="isRepeatable" nodeId="1e85165e"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="6de8ae">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Output" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_dzIuANEgEe6Y56Jk6jqfOA_2_U6UJQPEeW-dodM24rwlQ" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/etl_scripts_1F3AC897.html" Name="etl_scripts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="ETL Scripts" Team="" Id="_dzIuANEgEe6Y56Jk6jqfOA_2_U6UJQPEeW-dodM24rwlQ" relProcessPath=",_dzIuANEgEe6Y56Jk6jqfOA_2_U6UJQPEeW-dodM24rwlQ" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="output" nodeId="3458c460" Deliverable="">
+<attribute name="prefix" nodeId="3adc5d16"></attribute>
+<attribute name="isEventDriven" nodeId="37519ba3"></attribute>
+<attribute name="isOngoing" nodeId="9ba7f001"></attribute>
+<attribute name="isOptional" nodeId="824b9dd">false</attribute>
+<attribute name="isPlanned" nodeId="fefc0f5d">true</attribute>
+<attribute name="isRepeatable" nodeId="64c3f807"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="3a835971">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_DCmOQNEhEe6Y56Jk6jqfOA_5xzo0IomEeWrpeIkgDRvEQ" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/form_comp_7A2B46ED.html" Name="form_comp" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Form Components" Team="" Id="_DCmOQNEhEe6Y56Jk6jqfOA_5xzo0IomEeWrpeIkgDRvEQ" relProcessPath=",_DCmOQNEhEe6Y56Jk6jqfOA_5xzo0IomEeWrpeIkgDRvEQ" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="54d5c410" Deliverable="">
+<attribute name="prefix" nodeId="6f1849e0"></attribute>
+<attribute name="isEventDriven" nodeId="304450ff"></attribute>
+<attribute name="isOngoing" nodeId="50c0fa28"></attribute>
+<attribute name="isOptional" nodeId="804cd9e5">false</attribute>
+<attribute name="isPlanned" nodeId="22cbd827">true</attribute>
+<attribute name="isRepeatable" nodeId="9672cf9e"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="4eddf840">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_NGJzUNEgEe6Y56Jk6jqfOA_Gd7E4Gj6EeSPcdaSFis8Vg" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/func_design_16F6F92.html" Name="func_design" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Functional Design" Team="" Id="_NGJzUNEgEe6Y56Jk6jqfOA_Gd7E4Gj6EeSPcdaSFis8Vg" relProcessPath=",_NGJzUNEgEe6Y56Jk6jqfOA_Gd7E4Gj6EeSPcdaSFis8Vg" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="32ef71d7" Deliverable="">
+<attribute name="prefix" nodeId="ae9f7f30"></attribute>
+<attribute name="isEventDriven" nodeId="b3e1eb39"></attribute>
+<attribute name="isOngoing" nodeId="19afff9"></attribute>
+<attribute name="isOptional" nodeId="452680e1">false</attribute>
+<attribute name="isPlanned" nodeId="37f5422a">true</attribute>
+<attribute name="isRepeatable" nodeId="80394ec9"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="66265059">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_NGJzUNEgEe6Y56Jk6jqfOA_LpkKAIomEeWrpeIkgDRvEQ" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/interface_comp_BAA61488.html" Name="interface_comp" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Interface Components" Team="" Id="_NGJzUNEgEe6Y56Jk6jqfOA_LpkKAIomEeWrpeIkgDRvEQ" relProcessPath=",_NGJzUNEgEe6Y56Jk6jqfOA_LpkKAIomEeWrpeIkgDRvEQ" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="56e7b7dc" Deliverable="">
+<attribute name="prefix" nodeId="d5838683"></attribute>
+<attribute name="isEventDriven" nodeId="7142f00d"></attribute>
+<attribute name="isOngoing" nodeId="90c334b3"></attribute>
+<attribute name="isOptional" nodeId="f3a15182">false</attribute>
+<attribute name="isPlanned" nodeId="4ca9dd72">true</attribute>
+<attribute name="isRepeatable" nodeId="534732f7"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="85e29ac4">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Output" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Ik-HINEgEe6Y56Jk6jqfOA_FERGIAw7EeSrGtL1-U_hTg" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/report_impl_A2D0C140.html" Name="report_impl" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Report Implementation" Team="" Id="_Ik-HINEgEe6Y56Jk6jqfOA_FERGIAw7EeSrGtL1-U_hTg" relProcessPath=",_Ik-HINEgEe6Y56Jk6jqfOA_FERGIAw7EeSrGtL1-U_hTg" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="output" nodeId="e26426c" Deliverable="">
+<attribute name="prefix" nodeId="faef7ba5"></attribute>
+<attribute name="isEventDriven" nodeId="3e401ef6"></attribute>
+<attribute name="isOngoing" nodeId="35d2fc16"></attribute>
+<attribute name="isOptional" nodeId="702d45d9">false</attribute>
+<attribute name="isPlanned" nodeId="e5554ec1">true</attribute>
+<attribute name="isRepeatable" nodeId="25d36b1e"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="187f6a39">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Ik-HINEgEe6Y56Jk6jqfOA_-mKgQI_OEeSIwd3evKddXQ" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/report_mockups_8EF5C766.html" Name="report_mockups" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Report Mock-ups" Team="" Id="_Ik-HINEgEe6Y56Jk6jqfOA_-mKgQI_OEeSIwd3evKddXQ" relProcessPath=",_Ik-HINEgEe6Y56Jk6jqfOA_-mKgQI_OEeSIwd3evKddXQ" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="a8ad2b2" Deliverable="">
+<attribute name="prefix" nodeId="96046271"></attribute>
+<attribute name="isEventDriven" nodeId="c1678769"></attribute>
+<attribute name="isOngoing" nodeId="1d26e611"></attribute>
+<attribute name="isOptional" nodeId="685d6a7e">false</attribute>
+<attribute name="isPlanned" nodeId="707c71b2">true</attribute>
+<attribute name="isRepeatable" nodeId="9c64e157"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="3e8e2df2">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Ik-HINEgEe6Y56Jk6jqfOA_nj9-EAxHEeSH-8b382SNHg" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/rpt_specs_2985A9E0.html" Name="rpt_specs" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Reporting Specifications " Team="" Id="_Ik-HINEgEe6Y56Jk6jqfOA_nj9-EAxHEeSH-8b382SNHg" relProcessPath=",_Ik-HINEgEe6Y56Jk6jqfOA_nj9-EAxHEeSH-8b382SNHg" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="e3414821" Deliverable="">
+<attribute name="prefix" nodeId="8b7c4b0a"></attribute>
+<attribute name="isEventDriven" nodeId="2d08619d"></attribute>
+<attribute name="isOngoing" nodeId="f0daec7b"></attribute>
+<attribute name="isOptional" nodeId="7bebae0b">false</attribute>
+<attribute name="isPlanned" nodeId="ed221ee7">true</attribute>
+<attribute name="isRepeatable" nodeId="6d999cf0"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="354f24da">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Output" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_Omo5MNEhEe6Y56Jk6jqfOA_jAEDcDcxEeWp1olIN1xWiA" ConcreteType="Outcome" Url="core.i_t.common.base/workproducts/review_completed_82958C39.html" Name="review_completed" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Review Completed" Team="" Id="_Omo5MNEhEe6Y56Jk6jqfOA_jAEDcDcxEeWp1olIN1xWiA" relProcessPath=",_Omo5MNEhEe6Y56Jk6jqfOA_jAEDcDcxEeWp1olIN1xWiA" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="output" nodeId="8f5e53a" Deliverable="">
+<attribute name="prefix" nodeId="977d5793"></attribute>
+<attribute name="isEventDriven" nodeId="e539d445"></attribute>
+<attribute name="isOngoing" nodeId="a2e0fcc4"></attribute>
+<attribute name="isOptional" nodeId="c3a41591">false</attribute>
+<attribute name="isPlanned" nodeId="c7262a63">true</attribute>
+<attribute name="isRepeatable" nodeId="21fac735"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="3e453216">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_FXWfINEhEe6Y56Jk6jqfOA_apbdsIiIEeWhGNFFZ7dBRQ" ConcreteType="Outcome" Url="core.i_t.common.base/workproducts/soln_config_F6287D98.html" Name="soln_config" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Solution Configuration Set" Team="" Id="_FXWfINEhEe6Y56Jk6jqfOA_apbdsIiIEeWhGNFFZ7dBRQ" relProcessPath=",_FXWfINEhEe6Y56Jk6jqfOA_apbdsIiIEeWhGNFFZ7dBRQ" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="a9f7ae66" Deliverable="">
+<attribute name="prefix" nodeId="aabaf209"></attribute>
+<attribute name="isEventDriven" nodeId="11c59cb8"></attribute>
+<attribute name="isOngoing" nodeId="3a7f07c8"></attribute>
+<attribute name="isOptional" nodeId="871c76b3">false</attribute>
+<attribute name="isPlanned" nodeId="9144f97">true</attribute>
+<attribute name="isRepeatable" nodeId="76a29c25"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="ac4a2d57">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_arYdcNEhEe6Y56Jk6jqfOA_pV0VIOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_96A6C07E.html" Name="test_data" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Test Data" Team="" Id="_arYdcNEhEe6Y56Jk6jqfOA_pV0VIOYGEeOqmb5IikO7mw" relProcessPath=",_arYdcNEhEe6Y56Jk6jqfOA_pV0VIOYGEeOqmb5IikO7mw" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="7184873c" Deliverable="">
+<attribute name="prefix" nodeId="aaa86cbc"></attribute>
+<attribute name="isEventDriven" nodeId="1f7db989"></attribute>
+<attribute name="isOngoing" nodeId="36493e65"></attribute>
+<attribute name="isOptional" nodeId="cb82d4c4">false</attribute>
+<attribute name="isPlanned" nodeId="b42d2b97">true</attribute>
+<attribute name="isRepeatable" nodeId="2852546"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="2eb39f69">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_arYdcNEhEe6Y56Jk6jqfOA_geehAOYGEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_data_rqmts_DED6C3BB.html" Name="test_data_rqmts" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Test Data Requirements" Team="" Id="_arYdcNEhEe6Y56Jk6jqfOA_geehAOYGEeOqmb5IikO7mw" relProcessPath=",_arYdcNEhEe6Y56Jk6jqfOA_geehAOYGEeOqmb5IikO7mw" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="cae1b3e1" Deliverable="">
+<attribute name="prefix" nodeId="5d050b0"></attribute>
+<attribute name="isEventDriven" nodeId="3549db2c"></attribute>
+<attribute name="isOngoing" nodeId="4aa42c14"></attribute>
+<attribute name="isOptional" nodeId="8189a906">false</attribute>
+<attribute name="isPlanned" nodeId="bef99015">true</attribute>
+<attribute name="isRepeatable" nodeId="73ad98f9"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="1f546889">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_arYdcNEhEe6Y56Jk6jqfOA_-tJpoOYHEeOqmb5IikO7mw" ConcreteType="Outcome" Url="core.i_t.common.base/workproducts/test_env_configured_CCD45C1A.html" Name="test_env_configured" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Test Environment Configured" Team="" Id="_arYdcNEhEe6Y56Jk6jqfOA_-tJpoOYHEeOqmb5IikO7mw" relProcessPath=",_arYdcNEhEe6Y56Jk6jqfOA_-tJpoOYHEeOqmb5IikO7mw" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="8ce851d8" Deliverable="">
+<attribute name="prefix" nodeId="fed427c1"></attribute>
+<attribute name="isEventDriven" nodeId="78d47574"></attribute>
+<attribute name="isOngoing" nodeId="320a53cd"></attribute>
+<attribute name="isOptional" nodeId="a830b392">false</attribute>
+<attribute name="isPlanned" nodeId="7f5be76c">true</attribute>
+<attribute name="isRepeatable" nodeId="a654e0d9"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="1be40c99">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_arYdcNEhEe6Y56Jk6jqfOA_n66ygOYIEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_execution_schedule_3F6252E1.html" Name="test_execution_schedule" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Test Execution Schedule" Team="" Id="_arYdcNEhEe6Y56Jk6jqfOA_n66ygOYIEeOqmb5IikO7mw" relProcessPath=",_arYdcNEhEe6Y56Jk6jqfOA_n66ygOYIEeOqmb5IikO7mw" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="5443d1ba" Deliverable="">
+<attribute name="prefix" nodeId="729647b7"></attribute>
+<attribute name="isEventDriven" nodeId="ba42b018"></attribute>
+<attribute name="isOngoing" nodeId="2123cef3"></attribute>
+<attribute name="isOptional" nodeId="4d2521c6">false</attribute>
+<attribute name="isPlanned" nodeId="df9f978e">true</attribute>
+<attribute name="isRepeatable" nodeId="54757f36"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="aecc717">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Output" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_arYdcNEhEe6Y56Jk6jqfOA_UB49IOYJEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_logs_CA656907.html" Name="test_logs" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Test Logs" Team="" Id="_arYdcNEhEe6Y56Jk6jqfOA_UB49IOYJEeOqmb5IikO7mw" relProcessPath=",_arYdcNEhEe6Y56Jk6jqfOA_UB49IOYJEeOqmb5IikO7mw" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="output" nodeId="27fe2815" Deliverable="">
+<attribute name="prefix" nodeId="5ea0fda2"></attribute>
+<attribute name="isEventDriven" nodeId="694649a9"></attribute>
+<attribute name="isOngoing" nodeId="ccf38a46"></attribute>
+<attribute name="isOptional" nodeId="1be156ac">false</attribute>
+<attribute name="isPlanned" nodeId="7ca1e6d0">true</attribute>
+<attribute name="isRepeatable" nodeId="52442984"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="363a464e">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_arYdcNEhEe6Y56Jk6jqfOA_7HV9YOYDEeOqmb5IikO7mw" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/test_script_43C76873.html" Name="test_script" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Test Script" Team="" Id="_arYdcNEhEe6Y56Jk6jqfOA_7HV9YOYDEeOqmb5IikO7mw" relProcessPath=",_arYdcNEhEe6Y56Jk6jqfOA_7HV9YOYDEeOqmb5IikO7mw" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput" nodeId="7907831" Deliverable="">
+<attribute name="prefix" nodeId="6a9ee6f8"></attribute>
+<attribute name="isEventDriven" nodeId="5433fc6d"></attribute>
+<attribute name="isOngoing" nodeId="5f0d873"></attribute>
+<attribute name="isOptional" nodeId="180d2550">false</attribute>
+<attribute name="isPlanned" nodeId="a8b19228">true</attribute>
+<attribute name="isRepeatable" nodeId="e2874b8"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="32be77f">false</attribute>
+</Element>
+<Element TypeName="Work Product Descriptor" ModelInfo="Mandatory Input,Output" Index="" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_ekqtsdDVEe6Y56Jk6jqfOA,_DnBxANEhEe6Y56Jk6jqfOA__mEGcIomEeWrpeIkgDRvEQ" ConcreteType="Artifact" Url="core.i_t.common.base/workproducts/workflow_comp_1378BCD2.html" Name="workflow_comp" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" ExitState="" DisplayName="Workflow Components" Team="" Id="_DnBxANEhEe6Y56Jk6jqfOA__mEGcIomEeWrpeIkgDRvEQ" relProcessPath=",_DnBxANEhEe6Y56Jk6jqfOA__mEGcIomEeWrpeIkgDRvEQ" EntryState="" ShapeiconUrl="images/workdes_lg_dgm32.gif" ModelInfoKey="mandatoryInput, output" nodeId="38a1d25a" Deliverable="">
+<attribute name="prefix" nodeId="80d0b2d5"></attribute>
+<attribute name="isEventDriven" nodeId="9ad1dcc2"></attribute>
+<attribute name="isOngoing" nodeId="54ddf95"></attribute>
+<attribute name="isOptional" nodeId="f4067fbd">false</attribute>
+<attribute name="isPlanned" nodeId="42b75840">true</attribute>
+<attribute name="isRepeatable" nodeId="4b1313a5"></attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d9f90115">false</attribute>
+</Element>
+</breakdown>
+</Element>

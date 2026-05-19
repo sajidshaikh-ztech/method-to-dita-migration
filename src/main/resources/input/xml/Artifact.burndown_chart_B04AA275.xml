@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Burndown Chart" Id="_Q-3Z0AHAEeiqI8ZIs5UpAg" ShapeiconUrl="images/artifact.gif" lang="en" nodeId="9b17565b" Url="practice.mgmt.proj.agile_pm.base/workproducts/burndown_chart_B04AA275.html" Name="burndown_chart" BackPath="./../../">
+<copyright nodeId="3bdeb06a">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="e54ec0b8">burndown_chart</attribute>
+<attribute name="guid" nodeId="8e2e941b">_Q-3Z0AHAEeiqI8ZIs5UpAg</attribute>
+<attribute name="presentationName" nodeId="3b56380b">Burndown Chart</attribute>
+<attribute name="briefDescription" nodeId="88d61905">Graphical representation of the work planned and remaining (vertical, Y axis) plotted against the time elapsed since the start of the given time period (horizontal, X axis) to track progress in a sprint, or release, against expected velocity.</attribute>
+<attribute name="suppressed" nodeId="dc50758a">false</attribute>
+<attribute name="orderingGuide" nodeId="3fb032f7"></attribute>
+<attribute name="isAbstract" nodeId="b1b0ca6">false</attribute>
+<attribute name="shapeicon" nodeId="556c610d"></attribute>
+<attribute name="nodeicon" nodeId="3b9b33ee"></attribute>
+<attribute name="variabilityType" nodeId="39a0b614">na</attribute>
+<reference name="presentation" nodeId="c918ebef">
+<Element Type="ArtifactDescription" TypeName="Artifact Description" NodeiconUrl="" DisplayName="Burndown Chart" Id="-dXn73NGE2xpULOGSHi6N3Q" ShapeiconUrl="images/guidance.gif" nodeId="d6c30b24" Url="" Name="burndown_chart,_Q-3Z0AHAEeiqI8ZIs5UpAg" BackPath="">
+<copyright nodeId="67b0cada">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="7dfbefee">burndown_chart,_Q-3Z0AHAEeiqI8ZIs5UpAg</attribute>
+<attribute name="guid" nodeId="27980515">-dXn73NGE2xpULOGSHi6N3Q</attribute>
+<attribute name="presentationName" nodeId="8414585">Burndown Chart</attribute>
+<attribute name="briefDescription" nodeId="9712befc"></attribute>
+<attribute name="suppressed" nodeId="b0843097">false</attribute>
+<attribute name="orderingGuide" nodeId="3708fb08"></attribute>
+<attribute name="authors" nodeId="f4edf7e">process.adv.core.base</attribute>
+<attribute name="changeDate" nodeId="4c1311a2">Tue Aug 14 00:15:22 EDT 2018</attribute>
+<attribute name="changeDescription" nodeId="4c8ebf21">AUG 2018 - qualified impact of not having|MAR 2018 - Baseline</attribute>
+<attribute name="version" nodeId="f9dead95"></attribute>
+<attribute name="mainDescription" nodeId="da96faeb">&lt;p&gt;
+    A Burndown Chart is a graphical representation to track work completed by the team against the work planned for a given
+    sprint. The graph displays all of the work planned as well as remaining (Y axis) on any given day of the sprint (X
+    axis). The chart will show less and less work remaining as the team progresses and completes work. The chart empowers
+    the team to own and visualize the plan thereby allowing them to manage any difficulties earlier and more decisively.
+&lt;/p&gt;
+&lt;p&gt;
+    The Burndown Chart also has a line to represent the &quot;ideal burndown&quot;. This indicates the ideal scenario where work
+    would be completed at a uniform pace throughout the course of the sprint. Once the sprint is complete, the Burndown
+    Chart is a catalog of patterns on observed performance. Compiled over time the Burndown Charts become an extensive
+    history of past performance.
+&lt;/p&gt;
+&lt;p&gt;
+    The chart contains information on the:
+&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Dynamics of the sprint&lt;/strong&gt; - such as the pace of work, discoveries made and the impact of adding work
+        to the sprint in the case where the team is running ahead of schedule
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Current progress&lt;/strong&gt; - toward achieving the goal outlined for the sprint
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Need to adjust&lt;/strong&gt; - such as changes to the sprint goal&amp;nbsp;or removing impediments to speed up
+        progress
+    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+    Finally, progress for an entire release can also be documented and tracked&amp;nbsp;via a Burndown Chart at the release
+    level. The key differences between sprint and release level Burndown Charts are as follows:&lt;br /&gt;
+&lt;/p&gt;
+&lt;table title=&quot;&quot; style=&quot;HEIGHT: 234px; WIDTH: 466px&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot; width=&quot;466&quot; border=&quot;1&quot;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;th scope=&quot;col&quot; abbr=&quot;&quot;&gt;
+            &lt;/th&gt;
+            &lt;th scope=&quot;col&quot; abbr=&quot;&quot;&gt;
+                Sprint Burndown Chart
+            &lt;/th&gt;
+            &lt;th scope=&quot;col&quot; abbr=&quot;&quot;&gt;
+                Release Burndown Chart
+            &lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th scope=&quot;row&quot; abbr=&quot;&quot;&gt;
+                X axis
+            &lt;/th&gt;
+            &lt;td&gt;
+                Days
+            &lt;/td&gt;
+            &lt;td&gt;
+                #&amp;nbsp;of Sprints
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th scope=&quot;row&quot; abbr=&quot;&quot;&gt;
+                Y axis
+            &lt;/th&gt;
+            &lt;td&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;
+                        Story points sum,
+                    &lt;/li&gt;
+                    &lt;li&gt;
+                        Ideal Days, or
+                    &lt;/li&gt;
+                    &lt;li&gt;
+                        # of Tasks
+                    &lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;ul class=&quot;noindent&quot;&gt;
+                    &lt;li&gt;
+                        Story points sum,
+                    &lt;/li&gt;
+                    &lt;li&gt;
+                        Ideal Days, or
+                    &lt;/li&gt;
+                    &lt;li&gt;
+                        # of Backlog Items
+                    &lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th scope=&quot;row&quot; abbr=&quot;&quot;&gt;
+                Update Frequency
+            &lt;/th&gt;
+            &lt;td&gt;
+                As work is completed or at least daily
+            &lt;/td&gt;
+            &lt;td&gt;
+                Updated once per sprint, at the end
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th scope=&quot;row&quot; abbr=&quot;&quot;&gt;
+                Inputs
+            &lt;/th&gt;
+            &lt;td&gt;
+                Sprint Backlog estimates
+            &lt;/td&gt;
+            &lt;td&gt;
+                Product Backlog estimates
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;</attribute>
+<attribute name="externalId" nodeId="1b911d6f"></attribute>
+<attribute name="keyConsiderations" nodeId="38cb094">&lt;p&gt;
+    The Burndown Chart:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Does not indicate scope changes to items
+    &lt;/li&gt;
+    &lt;li&gt;
+        Can provide insight on trends such as progress of work but does not provide details on partially complete work
+        items
+    &lt;/li&gt;
+    &lt;li&gt;
+        Cannot calculate expected cost or budget overruns but can indicate the trajectory of the team
+    &lt;/li&gt;
+    &lt;li&gt;
+        Can be maintained in a digital format for ease of collaboration and communication
+    &lt;/li&gt;
+    &lt;li&gt;
+        Should be updated as soon as work is completed, this is done automatically if using an Agile tracking tool, or at a
+        minimum during the daily scrum meeting for sprint level Burndown Charts 
+        &lt;ul&gt;
+            &lt;li&gt;
+                An outdated Burndown Chart can prevent the team from understanding their actual progress against ideal
+                burndown, which ultimately informs the team whether they are on track for the current sprint
+            &lt;/li&gt;
+            &lt;li&gt;
+                Release level Burndown Charts need only be updated once per sprint, at the end
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="longPresentationName" nodeId="e9a0446f"></attribute>
+<attribute name="purpose" nodeId="1a390c9e">To track and monitor progress of the team against the work committed to for a given sprint as well as inform
+retrospectives.</attribute>
+<attribute name="impactOfNotHaving" nodeId="de54c31c">&lt;p&gt;
+    Without this work product it is:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Difficult to monitor daily progress in a given sprint
+    &lt;/li&gt;
+    &lt;li&gt;
+        Difficult to mitigate the risk of not completing the remaining work in a sprint
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="reasonsForNotNeeding" nodeId="da2db7c8"></attribute>
+<attribute name="briefOutline" nodeId="28f47dce">&lt;p&gt;
+    The X axis details time typically expressed in daily intervals starting with the first day of the&amp;nbsp;sprint and
+    ending on the last day of the sprint. Meanwhile, the Y axis depicts planned work remaining which can be expressed via
+    any of the following (depending upon team/project standards):
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Sum of story point estimates&lt;/strong&gt; - represents the estimated level of effort in terms of&amp;nbsp;story
+        point&amp;nbsp;summed across&amp;nbsp;all&amp;nbsp;work items in the sprint
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Sum of hour estimates&lt;/strong&gt; -&amp;nbsp;represents the&amp;nbsp;estimated level of effort in terms of hours
+        summed across all work items for the sprint
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Number of tasks&lt;/strong&gt; - represents the tasks necessary to complete all&amp;nbsp;of the work items&amp;nbsp;for
+        the sprint
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="representationOptions" nodeId="f6a2f4bf">&lt;ol&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Digitally&lt;/strong&gt; - The chart can be maintained digitally via any number of Agile tools which have the
+        capability to generate and maintain Burndown Charts (Rally, Rational Team Concert, Version One, JIRA, etc.).
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Manually&lt;/strong&gt; - The chart, in its simplest form, can be maintained on a piece of paper hung in the
+        team&apos;s working area. Alternatively, it can be manually updated via a spreadsheet.
+    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+    Regardless of the means by which the chart is maintained, it can be displayed in a variety of forms to varying levels
+    of detail:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Sprint Burndown Chart via any of the following units of measure: 
+        &lt;ul&gt;
+            &lt;li&gt;
+                Total effort remaining in hours
+            &lt;/li&gt;
+            &lt;li&gt;
+                Story point estimates of Backlog items completed
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        Release Burndown Chart
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="representation" nodeId="4c1a2580"></attribute>
+<attribute name="notation" nodeId="8a7d198f"></attribute>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="examples" nodeId="b4075253">
+<Element Type="Example" TypeName="Example" NodeiconUrl="" DisplayName="Release Burndown Chart" Id="_iCw0MDHaEeihodRCHSWSXA" ShapeiconUrl="images/example.gif" nodeId="b7fb0a2e" Url="practice.mgmt.proj.agile_pm.base/guidances/examples/release_burndown_5B6B4A17.html" Name="release_burndown" BackPath="./../../../"></Element>
+<Element Type="Example" TypeName="Example" NodeiconUrl="" DisplayName="Sprint Burndown Chart" Id="_gw_foDNhEeiQe93m5lGAfw" ShapeiconUrl="images/example.gif" nodeId="f0dd9965" Url="practice.mgmt.proj.agile_pm.base/guidances/examples/sprint_burndown_8986361D.html" Name="sprint_burndown" BackPath="./../../../"></Element>
+</referenceList>
+<referenceList name="WorkProduct_WorkProductDescriptors" nodeId="d14df56a">
+<Element TypeName="Work Product Descriptor" queryString="?proc=_c2F1QZLKEe6Ji6GnvvUfqw&amp;path=_c2F1QZLKEe6Ji6GnvvUfqw,_orEwkTEKEe-TauTqJPNl_g,_Q2mZUDELEe-TauTqJPNl_g_Q-3Z0AHAEeiqI8ZIs5UpAg" ConcreteType="Artifact" Url="practice.mgmt.proj.agile_pm.base/workproducts/burndown_chart_B04AA275.html" Name="burndown_chart" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Burndown Chart" Id="_Q2mZUDELEe-TauTqJPNl_g_Q-3Z0AHAEeiqI8ZIs5UpAg" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="ef443a27"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_dsHkARylEei6qIpqDo2Odw&amp;path=_dsHkARylEei6qIpqDo2Odw,_w1KRcBylEei6qIpqDo2Odw,__0O40RylEei6qIpqDo2Odw,_L04AMBymEei6qIpqDo2Odw_Q-3Z0AHAEeiqI8ZIs5UpAg" ConcreteType="Artifact" Url="practice.mgmt.proj.agile_pm.base/workproducts/burndown_chart_B04AA275.html" Name="burndown_chart" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Burndown Chart" Id="_L04AMBymEei6qIpqDo2Odw_Q-3Z0AHAEeiqI8ZIs5UpAg" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="bbd16bbe"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_dsHkARylEei6qIpqDo2Odw&amp;path=_dsHkARylEei6qIpqDo2Odw,_w1KRcBylEei6qIpqDo2Odw,_3kXq8UMyEeizC_qXJeYMtg,_IGRXAEMzEeizC_qXJeYMtg_Q-3Z0AHAEeiqI8ZIs5UpAg" ConcreteType="Artifact" Url="practice.mgmt.proj.agile_pm.base/workproducts/burndown_chart_B04AA275.html" Name="burndown_chart" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Burndown Chart" Id="_IGRXAEMzEeizC_qXJeYMtg_Q-3Z0AHAEeiqI8ZIs5UpAg" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="24e20e69"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_qck98dEkEe6Y56Jk6jqfOA,_xffnENEkEe6Y56Jk6jqfOA_Q-3Z0AHAEeiqI8ZIs5UpAg" ConcreteType="Artifact" Url="practice.mgmt.proj.agile_pm.base/workproducts/burndown_chart_B04AA275.html" Name="burndown_chart" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Burndown Chart" Id="_xffnENEkEe6Y56Jk6jqfOA_Q-3Z0AHAEeiqI8ZIs5UpAg" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="c75463a5"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_qaapIdDUEe6Y56Jk6jqfOA,_zXmmkNDUEe6Y56Jk6jqfOA_Q-3Z0AHAEeiqI8ZIs5UpAg" ConcreteType="Artifact" Url="practice.mgmt.proj.agile_pm.base/workproducts/burndown_chart_B04AA275.html" Name="burndown_chart" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Burndown Chart" Id="_zXmmkNDUEe6Y56Jk6jqfOA_Q-3Z0AHAEeiqI8ZIs5UpAg" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="77384dc4"></Element>
+</referenceList>
+<referenceList name="WorkProduct_OutputFrom_Tasks" nodeId="31d75211">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Conduct release planning" Id="_Cceb8IwjEeeUdawzHJKfbA" ShapeiconUrl="images/task.gif" nodeId="49e941b5" Url="practice.mgmt.proj.agile_pm.base/tasks/conduct_release_planning_D737C1EC.html" Name="conduct_release_planning" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Conduct sprint planning" Id="_bJAxsIwkEeeUdawzHJKfbA" ShapeiconUrl="images/task.gif" nodeId="904f49" Url="practice.mgmt.proj.agile_pm.base/tasks/conduct_sprint_planning_A7D62A34.html" Name="conduct_sprint_planning" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Hold daily scrum meeting" Id="_Ao-zIIwlEeeUdawzHJKfbA" ShapeiconUrl="images/task.gif" nodeId="c64f4c00" Url="practice.mgmt.proj.agile_pm.base/tasks/hold_daily_scrum_mtg_BF50EC9B.html" Name="hold_daily_scrum_mtg" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Prepare for the sprint review" Id="_Y58dMI8FEeewLf27-A5tVw" ShapeiconUrl="images/task.gif" nodeId="255e1638" Url="practice.mgmt.proj.agile_pm.base/tasks/prep_sprint_rev_BF97FF36.html" Name="prep_sprint_rev" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="WorkProduct_InputTo_Tasks" nodeId="163371f1">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Conduct sprint review" Id="_n4Jb0C68Eeijg_kSV5Ftfg" ShapeiconUrl="images/task.gif" nodeId="632dafea" Url="practice.mgmt.proj.agile_pm.base/tasks/conduct_sprint_review_90E7E61.html" Name="conduct_sprint_review" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Report status" Id="_K-JZsENMEeizC_qXJeYMtg" ShapeiconUrl="images/task.gif" nodeId="ff3a3989" Url="practice.mgmt.proj.agile_pm.base/tasks/report_status_D16270B8.html" Name="report_status" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="modifyRoles" nodeId="3738ba06">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Development Team" Id="_xSPl0LAXEeeR2YAZ8achWA" ShapeiconUrl="images/role.gif" nodeId="df905ef" Url="practice.mgmt.proj.agile_pm.base/roles/dev_team_1F86862E.html" Name="dev_team" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Product Owner" Id="_8L_9oLAXEeeR2YAZ8achWA" ShapeiconUrl="images/role.gif" nodeId="12993256" Url="practice.mgmt.proj.agile_pm.base/roles/product_owner_1F59E3A6.html" Name="product_owner" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="mandatoryInputToTasks" nodeId="27515be3">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Conduct sprint review" Id="_n4Jb0C68Eeijg_kSV5Ftfg" ShapeiconUrl="images/task.gif" nodeId="f41c47ca" Url="practice.mgmt.proj.agile_pm.base/tasks/conduct_sprint_review_90E7E61.html" Name="conduct_sprint_review" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Report status" Id="_K-JZsENMEeizC_qXJeYMtg" ShapeiconUrl="images/task.gif" nodeId="d0718f0b" Url="practice.mgmt.proj.agile_pm.base/tasks/report_status_D16270B8.html" Name="report_status" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="outputFromTasks" nodeId="efb73c82">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Conduct release planning" Id="_Cceb8IwjEeeUdawzHJKfbA" ShapeiconUrl="images/task.gif" nodeId="edf6a614" Url="practice.mgmt.proj.agile_pm.base/tasks/conduct_release_planning_D737C1EC.html" Name="conduct_release_planning" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Conduct sprint planning" Id="_bJAxsIwkEeeUdawzHJKfbA" ShapeiconUrl="images/task.gif" nodeId="3ae9c1c8" Url="practice.mgmt.proj.agile_pm.base/tasks/conduct_sprint_planning_A7D62A34.html" Name="conduct_sprint_planning" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Hold daily scrum meeting" Id="_Ao-zIIwlEeeUdawzHJKfbA" ShapeiconUrl="images/task.gif" nodeId="69af1e1b" Url="practice.mgmt.proj.agile_pm.base/tasks/hold_daily_scrum_mtg_BF50EC9B.html" Name="hold_daily_scrum_mtg" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Prepare for the sprint review" Id="_Y58dMI8FEeewLf27-A5tVw" ShapeiconUrl="images/task.gif" nodeId="77e5e8ed" Url="practice.mgmt.proj.agile_pm.base/tasks/prep_sprint_rev_BF97FF36.html" Name="prep_sprint_rev" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="508b6129">
+<Element TypeName="Work Product Descriptor" queryString="?proc=_c2F1QZLKEe6Ji6GnvvUfqw&amp;path=_c2F1QZLKEe6Ji6GnvvUfqw,_orEwkTEKEe-TauTqJPNl_g,_Q2mZUDELEe-TauTqJPNl_g_Q-3Z0AHAEeiqI8ZIs5UpAg" ConcreteType="Artifact" Url="practice.mgmt.proj.agile_pm.base/workproducts/burndown_chart_B04AA275.html" Name="burndown_chart" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Burndown Chart" Id="_Q2mZUDELEe-TauTqJPNl_g_Q-3Z0AHAEeiqI8ZIs5UpAg" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="61af7551">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Program and Project Management" Id="_c2F1QZLKEe6Ji6GnvvUfqw" relProcessPath="_c2F1QZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_c2F1QZLKEe6Ji6GnvvUfqw&amp;path=_c2F1QZLKEe6Ji6GnvvUfqw" nodeId="527df32c" Url="process.adv.eya_oracle.base/capabilitypatterns/program_proj_mgmt_wkstrm_752F6C0.html" Name="program_proj_mgmt_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="9f66b4e3">program_proj_mgmt_wkstrm</attribute>
+<attribute name="guid" nodeId="1cec804c">_c2F1QZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="b01ab162">Program and Project Management</attribute>
+<attribute name="briefDescription" nodeId="910af75f"></attribute>
+<attribute name="suppressed" nodeId="320ec7a7">false</attribute>
+<attribute name="orderingGuide" nodeId="a83c7dad"></attribute>
+<attribute name="isAbstract" nodeId="c2672e5d">false</attribute>
+<attribute name="shapeicon" nodeId="6c209495"></attribute>
+<attribute name="nodeicon" nodeId="6abb549b"></attribute>
+<attribute name="prefix" nodeId="cfb6c864">workstream</attribute>
+<attribute name="isPlanned" nodeId="17bd6295">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="b9064222">false</attribute>
+<attribute name="isOptional" nodeId="a58d492f">false</attribute>
+<attribute name="isRepeatable" nodeId="a88974fe">false</attribute>
+<attribute name="isOngoing" nodeId="ac24e06">false</attribute>
+<attribute name="isEventDriven" nodeId="d82fd1ab">false</attribute>
+<attribute name="variabilityType" nodeId="750a4eb3">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Plan Progressive Build Cycles" Id="_orEwkTEKEe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_c2F1QZLKEe6Ji6GnvvUfqw&amp;path=_c2F1QZLKEe6Ji6GnvvUfqw,_orEwkTEKEe-TauTqJPNl_g" nodeId="7a88496e" Url="process.adv.eya_oracle.base/capabilitypatterns/plan_prog_build_cycle_B6D0C6A7.html" Name="plan_prog_build_cycle" BackPath="./../../">
+<attribute name="name" nodeId="69308fd0">plan_prog_build_cycle</attribute>
+<attribute name="guid" nodeId="6b88723">_orEwkTEKEe-TauTqJPNl_g</attribute>
+<attribute name="presentationName" nodeId="63dbb7a1">Plan Progressive Build Cycles</attribute>
+<attribute name="briefDescription" nodeId="b45181a8">Define the overall implementation plan as well as the release plan that details the configurations and RICEFW objects that will be completed in each build iteration (1-n). Additionally, define the iteration cadence and synchronization of work.</attribute>
+<attribute name="suppressed" nodeId="a0a9f87c">false</attribute>
+<attribute name="orderingGuide" nodeId="bb8124cb"></attribute>
+<attribute name="isAbstract" nodeId="44771982">false</attribute>
+<attribute name="shapeicon" nodeId="f835270e"></attribute>
+<attribute name="nodeicon" nodeId="15e30c5a"></attribute>
+<attribute name="prefix" nodeId="cbaf68c9"></attribute>
+<attribute name="isPlanned" nodeId="54314821">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="7ac71b4a">false</attribute>
+<attribute name="isOptional" nodeId="2f75f06">false</attribute>
+<attribute name="isRepeatable" nodeId="30fda2bf">false</attribute>
+<attribute name="isOngoing" nodeId="ed0f96f6">false</attribute>
+<attribute name="isEventDriven" nodeId="4519e148">false</attribute>
+<attribute name="variabilityType" nodeId="f09ac562">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_c2F1QZLKEe6Ji6GnvvUfqw&amp;path=_c2F1QZLKEe6Ji6GnvvUfqw,_orEwkTEKEe-TauTqJPNl_g,_Q2mZUDELEe-TauTqJPNl_g_Q-3Z0AHAEeiqI8ZIs5UpAg" ConcreteType="Artifact" Url="practice.mgmt.proj.agile_pm.base/workproducts/burndown_chart_B04AA275.html" Name="burndown_chart" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Burndown Chart" Id="_Q2mZUDELEe-TauTqJPNl_g_Q-3Z0AHAEeiqI8ZIs5UpAg" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="2b60d76f">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="e4a671ed" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="ae88b858">eya_oracle</attribute>
+<attribute name="guid" nodeId="6b69eeb6">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="240b76a0">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="41532ce"></attribute>
+<attribute name="suppressed" nodeId="4a758756">false</attribute>
+<attribute name="orderingGuide" nodeId="9f0d72a2"></attribute>
+<attribute name="isAbstract" nodeId="4edce1f7">false</attribute>
+<attribute name="shapeicon" nodeId="e437a4b"></attribute>
+<attribute name="nodeicon" nodeId="a036a099"></attribute>
+<attribute name="prefix" nodeId="e03f6751"></attribute>
+<attribute name="isPlanned" nodeId="38b81f7a">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="ad763c67">false</attribute>
+<attribute name="isOptional" nodeId="737bcbfe">false</attribute>
+<attribute name="isRepeatable" nodeId="50d7ade2">false</attribute>
+<attribute name="isOngoing" nodeId="26bf7dd9">false</attribute>
+<attribute name="isEventDriven" nodeId="edac658d">false</attribute>
+<attribute name="variabilityType" nodeId="d0118b14">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Confirm and Design" Id="_bRCPsIs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA" nodeId="be7f282" Url="process.adv.eya_oracle.base/deliveryprocesses/confirm_and_design_29FFDB9.html" Name="confirm_and_design" BackPath="./../../">
+<attribute name="name" nodeId="7d591ae2">confirm_and_design</attribute>
+<attribute name="guid" nodeId="719937b8">_bRCPsIs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="21826ca4">Confirm and Design</attribute>
+<attribute name="briefDescription" nodeId="d1caf512">Define business requirements, map process flows and facilitate fit-gap workshops. Define technology and testing strategies. Develop the master configuration workbook, RICEFW inventory and prepare for progressive build cycles.</attribute>
+<attribute name="suppressed" nodeId="fabb41f1">false</attribute>
+<attribute name="orderingGuide" nodeId="c7d50410"></attribute>
+<attribute name="isAbstract" nodeId="431f2073">false</attribute>
+<attribute name="shapeicon" nodeId="a46feb65"></attribute>
+<attribute name="nodeicon" nodeId="4036172"></attribute>
+<attribute name="prefix" nodeId="997412ba"></attribute>
+<attribute name="isPlanned" nodeId="68274ff4">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="115d0291">false</attribute>
+<attribute name="isOptional" nodeId="16874f24">false</attribute>
+<attribute name="isRepeatable" nodeId="9295b04b">false</attribute>
+<attribute name="isOngoing" nodeId="32831e03">false</attribute>
+<attribute name="isEventDriven" nodeId="7fc29507">false</attribute>
+<attribute name="variabilityType" nodeId="15fcc300">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Plan Progressive Build Cycles" Id="_v02aMTELEe-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA,_v02aMTELEe-TauTqJPNl_g" nodeId="962547c5" Url="process.adv.eya_oracle.base/deliveryprocesses/plan_prog_build_cycle_982530BA.html" Name="plan_prog_build_cycle" BackPath="./../../">
+<attribute name="name" nodeId="86f37411">plan_prog_build_cycle</attribute>
+<attribute name="guid" nodeId="a0fef2f6">_v02aMTELEe-TauTqJPNl_g</attribute>
+<attribute name="presentationName" nodeId="3b7b646d">Plan Progressive Build Cycles</attribute>
+<attribute name="briefDescription" nodeId="56b8df7b">Define the overall implementation plan as well as the release plan that details the configurations and RICEFW objects that will be completed in each build iteration (1-n). Additionally, define the iteration cadence and synchronization of work.</attribute>
+<attribute name="suppressed" nodeId="8a004e1d">false</attribute>
+<attribute name="orderingGuide" nodeId="43b0c8e1"></attribute>
+<attribute name="isAbstract" nodeId="70d68c72">false</attribute>
+<attribute name="shapeicon" nodeId="bad89d22"></attribute>
+<attribute name="nodeicon" nodeId="145c32e7"></attribute>
+<attribute name="prefix" nodeId="1f05bdbc"></attribute>
+<attribute name="isPlanned" nodeId="3006b0e3">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="45b6ac7c">false</attribute>
+<attribute name="isOptional" nodeId="62392bb9">false</attribute>
+<attribute name="isRepeatable" nodeId="fcb0a3b3">false</attribute>
+<attribute name="isOngoing" nodeId="80fd876f">false</attribute>
+<attribute name="isEventDriven" nodeId="2db9248">false</attribute>
+<attribute name="variabilityType" nodeId="ee0be3e9">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_dsHkARylEei6qIpqDo2Odw&amp;path=_dsHkARylEei6qIpqDo2Odw,_w1KRcBylEei6qIpqDo2Odw,__0O40RylEei6qIpqDo2Odw,_L04AMBymEei6qIpqDo2Odw_Q-3Z0AHAEeiqI8ZIs5UpAg" ConcreteType="Artifact" Url="practice.mgmt.proj.agile_pm.base/workproducts/burndown_chart_B04AA275.html" Name="burndown_chart" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Burndown Chart" Id="_L04AMBymEei6qIpqDo2Odw_Q-3Z0AHAEeiqI8ZIs5UpAg" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="8631c360">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Agile Project Management" Id="_dsHkARylEei6qIpqDo2Odw" relProcessPath="_dsHkARylEei6qIpqDo2Odw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_dsHkARylEei6qIpqDo2Odw&amp;path=_dsHkARylEei6qIpqDo2Odw" nodeId="3aea689e" Url="practice.mgmt.proj.agile_pm.assign/capabilitypatterns/agile_pm_BEFE816.html" Name="agile_pm" BackPath="./../../">
+<attribute name="name" nodeId="fc550ebd">agile_pm</attribute>
+<attribute name="guid" nodeId="8283b33e">_dsHkARylEei6qIpqDo2Odw</attribute>
+<attribute name="presentationName" nodeId="80e99e51">Agile Project Management</attribute>
+<attribute name="briefDescription" nodeId="d86e77a8"></attribute>
+<attribute name="suppressed" nodeId="f17066f3">false</attribute>
+<attribute name="orderingGuide" nodeId="c34d4818"></attribute>
+<attribute name="isAbstract" nodeId="bbcfc109">false</attribute>
+<attribute name="shapeicon" nodeId="d286785c"></attribute>
+<attribute name="nodeicon" nodeId="2240ed85"></attribute>
+<attribute name="prefix" nodeId="7b20cce3"></attribute>
+<attribute name="isPlanned" nodeId="8773a605">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="9f0d4ba5">false</attribute>
+<attribute name="isOptional" nodeId="5550d41c">false</attribute>
+<attribute name="isRepeatable" nodeId="daf272f1">false</attribute>
+<attribute name="isOngoing" nodeId="89a92c09">false</attribute>
+<attribute name="isEventDriven" nodeId="994b092">false</attribute>
+<attribute name="variabilityType" nodeId="cf3485ef">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Manage the Project (Agile)" Id="_w1KRcBylEei6qIpqDo2Odw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_dsHkARylEei6qIpqDo2Odw&amp;path=_dsHkARylEei6qIpqDo2Odw,_w1KRcBylEei6qIpqDo2Odw" nodeId="6b3ef6a4" Url="practice.mgmt.proj.agile_pm.assign/capabilitypatterns/manage_proj_agile_7A7195F3.html" Name="manage_proj_agile" BackPath="./../../">
+<attribute name="name" nodeId="efa7ec8">manage_proj_agile</attribute>
+<attribute name="guid" nodeId="ab62fc52">_w1KRcBylEei6qIpqDo2Odw</attribute>
+<attribute name="presentationName" nodeId="cad94151">Manage the Project (Agile)</attribute>
+<attribute name="briefDescription" nodeId="4a042a5a">Manage the full project lifecycle using a Scrum based Agile framework.</attribute>
+<attribute name="suppressed" nodeId="746f21cd">false</attribute>
+<attribute name="orderingGuide" nodeId="cb7c0399"></attribute>
+<attribute name="isAbstract" nodeId="96b78dbb">false</attribute>
+<attribute name="shapeicon" nodeId="db3c25d"></attribute>
+<attribute name="nodeicon" nodeId="c79523a"></attribute>
+<attribute name="prefix" nodeId="fe55c3ac"></attribute>
+<attribute name="isPlanned" nodeId="bd2db071">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="ed1ac539">false</attribute>
+<attribute name="isOptional" nodeId="5aa6a29f">false</attribute>
+<attribute name="isRepeatable" nodeId="b89b7898">false</attribute>
+<attribute name="isOngoing" nodeId="65cbb54">false</attribute>
+<attribute name="isEventDriven" nodeId="f37f9924">false</attribute>
+<attribute name="variabilityType" nodeId="16c2f206">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Define Product Vision and Backlog" Id="__0O40RylEei6qIpqDo2Odw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_dsHkARylEei6qIpqDo2Odw&amp;path=_dsHkARylEei6qIpqDo2Odw,_w1KRcBylEei6qIpqDo2Odw,__0O40RylEei6qIpqDo2Odw" nodeId="6e398124" Url="practice.mgmt.proj.agile_pm.assign/capabilitypatterns/define_product_vision_backlog_376CDA4B.html" Name="define_product_vision_backlog" BackPath="./../../">
+<attribute name="name" nodeId="993737cd">define_product_vision_backlog</attribute>
+<attribute name="guid" nodeId="1e2b2da4">__0O40RylEei6qIpqDo2Odw</attribute>
+<attribute name="presentationName" nodeId="fd0c5b68">Define Product Vision and Backlog</attribute>
+<attribute name="briefDescription" nodeId="c676fd14">Initiate the project by defining the scope, vision and initial backlog. Identify the necessary resources to support the work, acquire the team and conduct release planning.</attribute>
+<attribute name="suppressed" nodeId="a80b0547">false</attribute>
+<attribute name="orderingGuide" nodeId="c41c442a"></attribute>
+<attribute name="isAbstract" nodeId="5fda9850">false</attribute>
+<attribute name="shapeicon" nodeId="187e2569"></attribute>
+<attribute name="nodeicon" nodeId="59ab390"></attribute>
+<attribute name="prefix" nodeId="52d2a22"></attribute>
+<attribute name="isPlanned" nodeId="e77e7b7e">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="61e3cb6b">false</attribute>
+<attribute name="isOptional" nodeId="bcc08ba6">false</attribute>
+<attribute name="isRepeatable" nodeId="d28faf10">false</attribute>
+<attribute name="isOngoing" nodeId="d7cbaa1f">false</attribute>
+<attribute name="isEventDriven" nodeId="448ecf0b">false</attribute>
+<attribute name="variabilityType" nodeId="a194ab32">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_dsHkARylEei6qIpqDo2Odw&amp;path=_dsHkARylEei6qIpqDo2Odw,_w1KRcBylEei6qIpqDo2Odw,_3kXq8UMyEeizC_qXJeYMtg,_IGRXAEMzEeizC_qXJeYMtg_Q-3Z0AHAEeiqI8ZIs5UpAg" ConcreteType="Artifact" Url="practice.mgmt.proj.agile_pm.base/workproducts/burndown_chart_B04AA275.html" Name="burndown_chart" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Burndown Chart" Id="_IGRXAEMzEeizC_qXJeYMtg_Q-3Z0AHAEeiqI8ZIs5UpAg" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="215f5fd9">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Agile Project Management" Id="_dsHkARylEei6qIpqDo2Odw" relProcessPath="_dsHkARylEei6qIpqDo2Odw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_dsHkARylEei6qIpqDo2Odw&amp;path=_dsHkARylEei6qIpqDo2Odw" nodeId="c8c0382f" Url="practice.mgmt.proj.agile_pm.assign/capabilitypatterns/agile_pm_BEFE816.html" Name="agile_pm" BackPath="./../../">
+<attribute name="name" nodeId="1af77226">agile_pm</attribute>
+<attribute name="guid" nodeId="5e7f6793">_dsHkARylEei6qIpqDo2Odw</attribute>
+<attribute name="presentationName" nodeId="4ffa3f85">Agile Project Management</attribute>
+<attribute name="briefDescription" nodeId="56bc9f52"></attribute>
+<attribute name="suppressed" nodeId="23e7760b">false</attribute>
+<attribute name="orderingGuide" nodeId="4857a013"></attribute>
+<attribute name="isAbstract" nodeId="4b58e327">false</attribute>
+<attribute name="shapeicon" nodeId="b03738cf"></attribute>
+<attribute name="nodeicon" nodeId="b2463bb"></attribute>
+<attribute name="prefix" nodeId="762d1a2f"></attribute>
+<attribute name="isPlanned" nodeId="9f81abff">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="5d2edf8e">false</attribute>
+<attribute name="isOptional" nodeId="cf511456">false</attribute>
+<attribute name="isRepeatable" nodeId="7a1e70e">false</attribute>
+<attribute name="isOngoing" nodeId="18efc09f">false</attribute>
+<attribute name="isEventDriven" nodeId="83d710a">false</attribute>
+<attribute name="variabilityType" nodeId="76a557c8">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Manage the Project (Agile)" Id="_w1KRcBylEei6qIpqDo2Odw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_dsHkARylEei6qIpqDo2Odw&amp;path=_dsHkARylEei6qIpqDo2Odw,_w1KRcBylEei6qIpqDo2Odw" nodeId="c73f0e7f" Url="practice.mgmt.proj.agile_pm.assign/capabilitypatterns/manage_proj_agile_7A7195F3.html" Name="manage_proj_agile" BackPath="./../../">
+<attribute name="name" nodeId="1187dd20">manage_proj_agile</attribute>
+<attribute name="guid" nodeId="6fcd10c1">_w1KRcBylEei6qIpqDo2Odw</attribute>
+<attribute name="presentationName" nodeId="45d7a17b">Manage the Project (Agile)</attribute>
+<attribute name="briefDescription" nodeId="962c5790">Manage the full project lifecycle using a Scrum based Agile framework.</attribute>
+<attribute name="suppressed" nodeId="d103e8d0">false</attribute>
+<attribute name="orderingGuide" nodeId="79d26934"></attribute>
+<attribute name="isAbstract" nodeId="9e57869b">false</attribute>
+<attribute name="shapeicon" nodeId="4a6e9789"></attribute>
+<attribute name="nodeicon" nodeId="f98e394b"></attribute>
+<attribute name="prefix" nodeId="2f63432a"></attribute>
+<attribute name="isPlanned" nodeId="8bddc643">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="9a2cdcd5">false</attribute>
+<attribute name="isOptional" nodeId="486dafb3">false</attribute>
+<attribute name="isRepeatable" nodeId="4a53fe35">false</attribute>
+<attribute name="isOngoing" nodeId="2241149c">false</attribute>
+<attribute name="isEventDriven" nodeId="93dc0bcf">false</attribute>
+<attribute name="variabilityType" nodeId="e73a9c0a">na</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Execute Sprints" Id="_3kXq8UMyEeizC_qXJeYMtg" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_dsHkARylEei6qIpqDo2Odw&amp;path=_dsHkARylEei6qIpqDo2Odw,_w1KRcBylEei6qIpqDo2Odw,_3kXq8UMyEeizC_qXJeYMtg" nodeId="95d33022" Url="practice.mgmt.proj.agile_pm.assign/capabilitypatterns/execute_sprints_B43010CF.html" Name="execute_sprints" BackPath="./../../">
+<attribute name="name" nodeId="9459d99a">execute_sprints</attribute>
+<attribute name="guid" nodeId="bd564072">_3kXq8UMyEeizC_qXJeYMtg</attribute>
+<attribute name="presentationName" nodeId="9acddd29">Execute Sprints</attribute>
+<attribute name="briefDescription" nodeId="935fa141">Initiate delivery via iterative sprints. The scope for each sprint will be individually assessed, evaluated, selected and executed. While the scope for each sprint will vary, the structure of the tasks will remain relatively constant starting with sprint planning through to the sprint retrospective.</attribute>
+<attribute name="suppressed" nodeId="ac20f3de">false</attribute>
+<attribute name="orderingGuide" nodeId="9a146670"></attribute>
+<attribute name="isAbstract" nodeId="5563851c">false</attribute>
+<attribute name="shapeicon" nodeId="d4696eaa"></attribute>
+<attribute name="nodeicon" nodeId="8f995993"></attribute>
+<attribute name="prefix" nodeId="8f9323d5"></attribute>
+<attribute name="isPlanned" nodeId="aef136fa">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="5ec84869">false</attribute>
+<attribute name="isOptional" nodeId="7630e69f">false</attribute>
+<attribute name="isRepeatable" nodeId="6b77e227">true</attribute>
+<attribute name="isOngoing" nodeId="793e1089">false</attribute>
+<attribute name="isEventDriven" nodeId="a77c4c98">false</attribute>
+<attribute name="variabilityType" nodeId="ba00ce87">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_qck98dEkEe6Y56Jk6jqfOA,_xffnENEkEe6Y56Jk6jqfOA_Q-3Z0AHAEeiqI8ZIs5UpAg" ConcreteType="Artifact" Url="practice.mgmt.proj.agile_pm.base/workproducts/burndown_chart_B04AA275.html" Name="burndown_chart" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Burndown Chart" Id="_xffnENEkEe6Y56Jk6jqfOA_Q-3Z0AHAEeiqI8ZIs5UpAg" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="6f4b8011">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Development" Id="_N-58wdAOEe6H-rjlu9wPlA" relProcessPath="_N-58wdAOEe6H-rjlu9wPlA" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA" nodeId="9366da38" Url="process.adv.eya_oracle.base/capabilitypatterns/development_wkstrm_21C01F87.html" Name="development_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="1eaaf2a6">development_wkstrm</attribute>
+<attribute name="guid" nodeId="aebc7760">_N-58wdAOEe6H-rjlu9wPlA</attribute>
+<attribute name="presentationName" nodeId="579bacf2">Development</attribute>
+<attribute name="briefDescription" nodeId="ea91478"></attribute>
+<attribute name="suppressed" nodeId="8828c1fb">false</attribute>
+<attribute name="orderingGuide" nodeId="d176200b"></attribute>
+<attribute name="isAbstract" nodeId="fda7a250">false</attribute>
+<attribute name="shapeicon" nodeId="48a9a835"></attribute>
+<attribute name="nodeicon" nodeId="6e4e726b"></attribute>
+<attribute name="prefix" nodeId="9ff174fd">workstream</attribute>
+<attribute name="isPlanned" nodeId="b266c9d0">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="46ac03b2">false</attribute>
+<attribute name="isOptional" nodeId="b92b94c3">false</attribute>
+<attribute name="isRepeatable" nodeId="351affcc">false</attribute>
+<attribute name="isOngoing" nodeId="1ab8f097">false</attribute>
+<attribute name="isEventDriven" nodeId="51900ffd">false</attribute>
+<attribute name="variabilityType" nodeId="71774ede">na</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="[Execute Build Cycles 1-n]" Id="_LOhWgduYEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw" nodeId="5589df48" Url="process.adv.eya_oracle.base/capabilitypatterns/execute_build_cycles_1_n_6C160980.html" Name="execute_build_cycles_1_n" BackPath="./../../">
+<attribute name="name" nodeId="ab710879">execute_build_cycles_1_n</attribute>
+<attribute name="guid" nodeId="28911e8f">_LOhWgduYEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="66da8e37">[Execute Build Cycles 1-n]</attribute>
+<attribute name="briefDescription" nodeId="e150b9e4">Set of activities and tasks to be performed by the Development workstream while executing build iterations 1-n, spanning from planning for each sprint through unit testing custom components.</attribute>
+<attribute name="suppressed" nodeId="b94b0c41">false</attribute>
+<attribute name="orderingGuide" nodeId="e89e09bf"></attribute>
+<attribute name="isAbstract" nodeId="6899eba6">false</attribute>
+<attribute name="shapeicon" nodeId="cbeab0ac"></attribute>
+<attribute name="nodeicon" nodeId="329f32ea"></attribute>
+<attribute name="prefix" nodeId="aff87bc6"></attribute>
+<attribute name="isPlanned" nodeId="6d9014dc">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="7b69521b">false</attribute>
+<attribute name="isOptional" nodeId="65f416aa">false</attribute>
+<attribute name="isRepeatable" nodeId="359fab10">true</attribute>
+<attribute name="isOngoing" nodeId="10c6d965">false</attribute>
+<attribute name="isEventDriven" nodeId="6fd0ad18">false</attribute>
+<attribute name="variabilityType" nodeId="47cdd370">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Conduct Iteration Demos" Id="_qck98dEkEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_qck98dEkEe6Y56Jk6jqfOA" nodeId="d2b3cdb1" Url="process.adv.eya_oracle.base/capabilitypatterns/conduct_iteration_demo_FE0EC911.html" Name="conduct_iteration_demo" BackPath="./../../">
+<attribute name="name" nodeId="46975cef">conduct_iteration_demo</attribute>
+<attribute name="guid" nodeId="89a6d645">_qck98dEkEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="8b0cb873">Conduct Iteration Demos</attribute>
+<attribute name="briefDescription" nodeId="885c9577">Review and present incrementally completed builds to project stakeholders; capture feedback and sign-offs from key stakeholders for completion of work.</attribute>
+<attribute name="suppressed" nodeId="2f676f88">false</attribute>
+<attribute name="orderingGuide" nodeId="5ccc3224"></attribute>
+<attribute name="isAbstract" nodeId="ec403c51">false</attribute>
+<attribute name="shapeicon" nodeId="d19817cd"></attribute>
+<attribute name="nodeicon" nodeId="20b27808"></attribute>
+<attribute name="prefix" nodeId="b1f0628a"></attribute>
+<attribute name="isPlanned" nodeId="d2f25e2e">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="39a0e175">false</attribute>
+<attribute name="isOptional" nodeId="c1696031">false</attribute>
+<attribute name="isRepeatable" nodeId="e0e37e74">false</attribute>
+<attribute name="isOngoing" nodeId="9ac12f39">false</attribute>
+<attribute name="isEventDriven" nodeId="6441da6a">false</attribute>
+<attribute name="variabilityType" nodeId="341e2b70">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_qck98dEkEe6Y56Jk6jqfOA,_xffnENEkEe6Y56Jk6jqfOA_Q-3Z0AHAEeiqI8ZIs5UpAg" ConcreteType="Artifact" Url="practice.mgmt.proj.agile_pm.base/workproducts/burndown_chart_B04AA275.html" Name="burndown_chart" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Burndown Chart" Id="_xffnENEkEe6Y56Jk6jqfOA_Q-3Z0AHAEeiqI8ZIs5UpAg" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="20728364">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="51995af3" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="e2365bd9">eya_oracle</attribute>
+<attribute name="guid" nodeId="e564ce78">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="87e3ba86">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="ee56757a"></attribute>
+<attribute name="suppressed" nodeId="8bca5aa6">false</attribute>
+<attribute name="orderingGuide" nodeId="4c7d0a24"></attribute>
+<attribute name="isAbstract" nodeId="f4b0e38f">false</attribute>
+<attribute name="shapeicon" nodeId="ee2a90f3"></attribute>
+<attribute name="nodeicon" nodeId="1aa73651"></attribute>
+<attribute name="prefix" nodeId="36ad884e"></attribute>
+<attribute name="isPlanned" nodeId="842e7921">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="38195b8f">false</attribute>
+<attribute name="isOptional" nodeId="ff804b7a">false</attribute>
+<attribute name="isRepeatable" nodeId="65d24aa6">false</attribute>
+<attribute name="isOngoing" nodeId="c1e05a69">false</attribute>
+<attribute name="isEventDriven" nodeId="70458e9e">false</attribute>
+<attribute name="variabilityType" nodeId="c0105e6c">replaces</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Progressive Build" Id="_c4A0kYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA" nodeId="339aa3c2" Url="process.adv.eya_oracle.base/deliveryprocesses/progressive_build_70B7DD74.html" Name="progressive_build" BackPath="./../../">
+<attribute name="name" nodeId="98b4decb">progressive_build</attribute>
+<attribute name="guid" nodeId="84899a40">_c4A0kYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="9e28c1c0">Progressive Build</attribute>
+<attribute name="briefDescription" nodeId="dbaf2fef">Iterate through the build cycles and drive business acceptance through incremental demos to key client stakeholders. Execute mock conversions and and prepare for system integration and user acceptance testing. Manage stakeholder engagement and communications around the change.</attribute>
+<attribute name="suppressed" nodeId="4d2a8f9c">false</attribute>
+<attribute name="orderingGuide" nodeId="a60b874f"></attribute>
+<attribute name="isAbstract" nodeId="f081e022">false</attribute>
+<attribute name="shapeicon" nodeId="1e921702"></attribute>
+<attribute name="nodeicon" nodeId="6b9c8205"></attribute>
+<attribute name="prefix" nodeId="1e08d5b8"></attribute>
+<attribute name="isPlanned" nodeId="40b480fe">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="a189d59c">false</attribute>
+<attribute name="isOptional" nodeId="a37561e9">false</attribute>
+<attribute name="isRepeatable" nodeId="c76ab36d">true</attribute>
+<attribute name="isOngoing" nodeId="670cbf58">false</attribute>
+<attribute name="isEventDriven" nodeId="2c95391b">false</attribute>
+<attribute name="variabilityType" nodeId="fcfbf3d2">na</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Execute Build Cycles 1-n" Id="_Sd7D0duVEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_Sd7D0duVEe6TH6yb1zVWhw" nodeId="fb2da6dc" Url="process.adv.eya_oracle.base/deliveryprocesses/execute_build_cycles_1_n_3FC12A80.html" Name="execute_build_cycles_1_n" BackPath="./../../">
+<attribute name="name" nodeId="8ad92262">execute_build_cycles_1_n</attribute>
+<attribute name="guid" nodeId="581ed42f">_Sd7D0duVEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="66d59165">Execute Build Cycles 1-n</attribute>
+<attribute name="briefDescription" nodeId="78f126fb">Iterate through the build cycles by planning for each sprint, defining the technical and integration specifications and data conversion scripts and completing the configurations and development. Validate the builds and conduct demos with the client.</attribute>
+<attribute name="suppressed" nodeId="9eb280b7">false</attribute>
+<attribute name="orderingGuide" nodeId="cb64736c"></attribute>
+<attribute name="isAbstract" nodeId="8165b702">false</attribute>
+<attribute name="shapeicon" nodeId="e12ae75a"></attribute>
+<attribute name="nodeicon" nodeId="95d9cf48"></attribute>
+<attribute name="prefix" nodeId="4e21e9d2"></attribute>
+<attribute name="isPlanned" nodeId="741c7884">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d85fafff">false</attribute>
+<attribute name="isOptional" nodeId="4f396472">false</attribute>
+<attribute name="isRepeatable" nodeId="e715271c">true</attribute>
+<attribute name="isOngoing" nodeId="3035f7d7">false</attribute>
+<attribute name="isEventDriven" nodeId="a545de40">false</attribute>
+<attribute name="variabilityType" nodeId="2ee44da0">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Conduct Iteration Demos" Id="_2g_XAdpkEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_Sd7D0duVEe6TH6yb1zVWhw,_2g_XAdpkEe6TH6yb1zVWhw" nodeId="e32a6de5" Url="process.adv.eya_oracle.base/deliveryprocesses/conduct_iteration_demo_55BE8479.html" Name="conduct_iteration_demo" BackPath="./../../">
+<attribute name="name" nodeId="5118358e">conduct_iteration_demo</attribute>
+<attribute name="guid" nodeId="fb162658">_2g_XAdpkEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="ac22ce72">Conduct Iteration Demos</attribute>
+<attribute name="briefDescription" nodeId="d94923a">Review and present incrementally completed builds to project stakeholders; capture feedback and sign-offs from key stakeholders for completion of work.</attribute>
+<attribute name="suppressed" nodeId="afb30edf">false</attribute>
+<attribute name="orderingGuide" nodeId="e9b1d95"></attribute>
+<attribute name="isAbstract" nodeId="8c43955f">false</attribute>
+<attribute name="shapeicon" nodeId="5535af09"></attribute>
+<attribute name="nodeicon" nodeId="bbd1bf22"></attribute>
+<attribute name="prefix" nodeId="927d3346"></attribute>
+<attribute name="isPlanned" nodeId="702d711b">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="818b724">false</attribute>
+<attribute name="isOptional" nodeId="65ca7a69">false</attribute>
+<attribute name="isRepeatable" nodeId="cccfb0ec">false</attribute>
+<attribute name="isOngoing" nodeId="f1b74c4f">false</attribute>
+<attribute name="isEventDriven" nodeId="2f3cecf4">false</attribute>
+<attribute name="variabilityType" nodeId="1be389a3">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_qaapIdDUEe6Y56Jk6jqfOA,_zXmmkNDUEe6Y56Jk6jqfOA_Q-3Z0AHAEeiqI8ZIs5UpAg" ConcreteType="Artifact" Url="practice.mgmt.proj.agile_pm.base/workproducts/burndown_chart_B04AA275.html" Name="burndown_chart" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Burndown Chart" Id="_zXmmkNDUEe6Y56Jk6jqfOA_Q-3Z0AHAEeiqI8ZIs5UpAg" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="8e943613">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Development" Id="_N-58wdAOEe6H-rjlu9wPlA" relProcessPath="_N-58wdAOEe6H-rjlu9wPlA" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA" nodeId="688ae9e" Url="process.adv.eya_oracle.base/capabilitypatterns/development_wkstrm_21C01F87.html" Name="development_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="bc88c336">development_wkstrm</attribute>
+<attribute name="guid" nodeId="50f64aa3">_N-58wdAOEe6H-rjlu9wPlA</attribute>
+<attribute name="presentationName" nodeId="61bd13b2">Development</attribute>
+<attribute name="briefDescription" nodeId="d3b4bac5"></attribute>
+<attribute name="suppressed" nodeId="c029ad99">false</attribute>
+<attribute name="orderingGuide" nodeId="c56c283d"></attribute>
+<attribute name="isAbstract" nodeId="eb3ae7b">false</attribute>
+<attribute name="shapeicon" nodeId="5da5335"></attribute>
+<attribute name="nodeicon" nodeId="697de1a3"></attribute>
+<attribute name="prefix" nodeId="4e6cb31c">workstream</attribute>
+<attribute name="isPlanned" nodeId="83ff9378">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="2781806c">false</attribute>
+<attribute name="isOptional" nodeId="69616a0b">false</attribute>
+<attribute name="isRepeatable" nodeId="b310c446">false</attribute>
+<attribute name="isOngoing" nodeId="60430690">false</attribute>
+<attribute name="isEventDriven" nodeId="40329393">false</attribute>
+<attribute name="variabilityType" nodeId="eaf416f9">na</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="[Execute Build Cycles 1-n]" Id="_LOhWgduYEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw" nodeId="e8bbd13c" Url="process.adv.eya_oracle.base/capabilitypatterns/execute_build_cycles_1_n_6C160980.html" Name="execute_build_cycles_1_n" BackPath="./../../">
+<attribute name="name" nodeId="5d7d22a5">execute_build_cycles_1_n</attribute>
+<attribute name="guid" nodeId="6df23a13">_LOhWgduYEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="37cd56dd">[Execute Build Cycles 1-n]</attribute>
+<attribute name="briefDescription" nodeId="4af8e114">Set of activities and tasks to be performed by the Development workstream while executing build iterations 1-n, spanning from planning for each sprint through unit testing custom components.</attribute>
+<attribute name="suppressed" nodeId="ae326201">false</attribute>
+<attribute name="orderingGuide" nodeId="7c7aeb9f"></attribute>
+<attribute name="isAbstract" nodeId="65de6cdb">false</attribute>
+<attribute name="shapeicon" nodeId="aa495825"></attribute>
+<attribute name="nodeicon" nodeId="390294ce"></attribute>
+<attribute name="prefix" nodeId="e0ae32d8"></attribute>
+<attribute name="isPlanned" nodeId="879f2a41">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="ef0d2f84">false</attribute>
+<attribute name="isOptional" nodeId="8be6fa82">false</attribute>
+<attribute name="isRepeatable" nodeId="ca6e9188">true</attribute>
+<attribute name="isOngoing" nodeId="cb76d56">false</attribute>
+<attribute name="isEventDriven" nodeId="cbaa3700">false</attribute>
+<attribute name="variabilityType" nodeId="725a0d80">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Perform Sprint Planning" Id="_qaapIdDUEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_qaapIdDUEe6Y56Jk6jqfOA" nodeId="cb263b51" Url="process.adv.eya_oracle.base/capabilitypatterns/perf_sprint_planning_7B68836A.html" Name="perf_sprint_planning" BackPath="./../../">
+<attribute name="name" nodeId="dcbb8ffe">perf_sprint_planning</attribute>
+<attribute name="guid" nodeId="b1228f87">_qaapIdDUEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="41478c69">Perform Sprint Planning</attribute>
+<attribute name="briefDescription" nodeId="18f78870">Define tasks for the upcoming iterations based on the backlog or RICEFW objects inventory.</attribute>
+<attribute name="suppressed" nodeId="37f22d9e">false</attribute>
+<attribute name="orderingGuide" nodeId="3ac110fb"></attribute>
+<attribute name="isAbstract" nodeId="285b23ce">false</attribute>
+<attribute name="shapeicon" nodeId="7afce4ab"></attribute>
+<attribute name="nodeicon" nodeId="c1b80c4"></attribute>
+<attribute name="prefix" nodeId="d665ba30"></attribute>
+<attribute name="isPlanned" nodeId="e73a1358">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="b4451ce3">false</attribute>
+<attribute name="isOptional" nodeId="d14602a5">false</attribute>
+<attribute name="isRepeatable" nodeId="e5548a0">false</attribute>
+<attribute name="isOngoing" nodeId="e538d5fb">false</attribute>
+<attribute name="isEventDriven" nodeId="2d9b64ef">false</attribute>
+<attribute name="variabilityType" nodeId="f85477f2">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_N-58wdAOEe6H-rjlu9wPlA&amp;path=_N-58wdAOEe6H-rjlu9wPlA,_LOhWgduYEe6TH6yb1zVWhw,_qaapIdDUEe6Y56Jk6jqfOA,_zXmmkNDUEe6Y56Jk6jqfOA_Q-3Z0AHAEeiqI8ZIs5UpAg" ConcreteType="Artifact" Url="practice.mgmt.proj.agile_pm.base/workproducts/burndown_chart_B04AA275.html" Name="burndown_chart" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Burndown Chart" Id="_zXmmkNDUEe6Y56Jk6jqfOA_Q-3Z0AHAEeiqI8ZIs5UpAg" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="81cd2168">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="a61b6ad9" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="6cb8e99f">eya_oracle</attribute>
+<attribute name="guid" nodeId="53cd2cb2">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="a47282e9">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="1b445be"></attribute>
+<attribute name="suppressed" nodeId="465ab411">false</attribute>
+<attribute name="orderingGuide" nodeId="b1b7ed82"></attribute>
+<attribute name="isAbstract" nodeId="4b02c535">false</attribute>
+<attribute name="shapeicon" nodeId="5435cc4f"></attribute>
+<attribute name="nodeicon" nodeId="f53ccca5"></attribute>
+<attribute name="prefix" nodeId="b77a64b4"></attribute>
+<attribute name="isPlanned" nodeId="9aaab25f">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="b3925750">false</attribute>
+<attribute name="isOptional" nodeId="8356d0c6">false</attribute>
+<attribute name="isRepeatable" nodeId="69ae2642">false</attribute>
+<attribute name="isOngoing" nodeId="bc3d4367">false</attribute>
+<attribute name="isEventDriven" nodeId="d0b435fa">false</attribute>
+<attribute name="variabilityType" nodeId="8fb03e20">replaces</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Progressive Build" Id="_c4A0kYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA" nodeId="ffd78928" Url="process.adv.eya_oracle.base/deliveryprocesses/progressive_build_70B7DD74.html" Name="progressive_build" BackPath="./../../">
+<attribute name="name" nodeId="7ba572a3">progressive_build</attribute>
+<attribute name="guid" nodeId="ce08826a">_c4A0kYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="fd91eb12">Progressive Build</attribute>
+<attribute name="briefDescription" nodeId="5a62ec2a">Iterate through the build cycles and drive business acceptance through incremental demos to key client stakeholders. Execute mock conversions and and prepare for system integration and user acceptance testing. Manage stakeholder engagement and communications around the change.</attribute>
+<attribute name="suppressed" nodeId="ccb7729a">false</attribute>
+<attribute name="orderingGuide" nodeId="e7bd1339"></attribute>
+<attribute name="isAbstract" nodeId="dea2c90e">false</attribute>
+<attribute name="shapeicon" nodeId="65567ea"></attribute>
+<attribute name="nodeicon" nodeId="6a253d59"></attribute>
+<attribute name="prefix" nodeId="f1016840"></attribute>
+<attribute name="isPlanned" nodeId="57c05db4">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d42dcf6f">false</attribute>
+<attribute name="isOptional" nodeId="199a347f">false</attribute>
+<attribute name="isRepeatable" nodeId="69037200">true</attribute>
+<attribute name="isOngoing" nodeId="196369ce">false</attribute>
+<attribute name="isEventDriven" nodeId="8391f7cb">false</attribute>
+<attribute name="variabilityType" nodeId="327ce5a7">na</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Execute Build Cycles 1-n" Id="_Sd7D0duVEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_Sd7D0duVEe6TH6yb1zVWhw" nodeId="f8381ec0" Url="process.adv.eya_oracle.base/deliveryprocesses/execute_build_cycles_1_n_3FC12A80.html" Name="execute_build_cycles_1_n" BackPath="./../../">
+<attribute name="name" nodeId="c8b71e34">execute_build_cycles_1_n</attribute>
+<attribute name="guid" nodeId="341aabcf">_Sd7D0duVEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="eeee1efc">Execute Build Cycles 1-n</attribute>
+<attribute name="briefDescription" nodeId="90072c71">Iterate through the build cycles by planning for each sprint, defining the technical and integration specifications and data conversion scripts and completing the configurations and development. Validate the builds and conduct demos with the client.</attribute>
+<attribute name="suppressed" nodeId="16dc47dd">false</attribute>
+<attribute name="orderingGuide" nodeId="68ab617e"></attribute>
+<attribute name="isAbstract" nodeId="89a68ce">false</attribute>
+<attribute name="shapeicon" nodeId="e7e9d49b"></attribute>
+<attribute name="nodeicon" nodeId="17d05b24"></attribute>
+<attribute name="prefix" nodeId="5bb48d00"></attribute>
+<attribute name="isPlanned" nodeId="7110c107">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="91d867aa">false</attribute>
+<attribute name="isOptional" nodeId="97c4c3e4">false</attribute>
+<attribute name="isRepeatable" nodeId="a2ea2055">true</attribute>
+<attribute name="isOngoing" nodeId="e156c77">false</attribute>
+<attribute name="isEventDriven" nodeId="e936fc0e">false</attribute>
+<attribute name="variabilityType" nodeId="d4fb0bab">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Perform Sprint Planning" Id="_xDt2AdpkEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_Sd7D0duVEe6TH6yb1zVWhw,_xDt2AdpkEe6TH6yb1zVWhw" nodeId="63960976" Url="process.adv.eya_oracle.base/deliveryprocesses/perf_sprint_planning_DE620E75.html" Name="perf_sprint_planning" BackPath="./../../">
+<attribute name="name" nodeId="48a7132a">perf_sprint_planning</attribute>
+<attribute name="guid" nodeId="893f6057">_xDt2AdpkEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="8ec1b8c7">Perform Sprint Planning</attribute>
+<attribute name="briefDescription" nodeId="a5db87ed">Define tasks for the upcoming iterations based on the backlog or RICEFW objects inventory.</attribute>
+<attribute name="suppressed" nodeId="e7d82cc0">false</attribute>
+<attribute name="orderingGuide" nodeId="7fdd4979"></attribute>
+<attribute name="isAbstract" nodeId="3d9ac2ea">false</attribute>
+<attribute name="shapeicon" nodeId="451e77f3"></attribute>
+<attribute name="nodeicon" nodeId="6ed5f838"></attribute>
+<attribute name="prefix" nodeId="a3dfb6bf"></attribute>
+<attribute name="isPlanned" nodeId="51d8c3e3">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d27e1274">false</attribute>
+<attribute name="isOptional" nodeId="a0c83d2b">false</attribute>
+<attribute name="isRepeatable" nodeId="b00d3b1e">false</attribute>
+<attribute name="isOngoing" nodeId="bcc600b3">false</attribute>
+<attribute name="isEventDriven" nodeId="85f8be47">false</attribute>
+<attribute name="variabilityType" nodeId="f3323680">extends</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

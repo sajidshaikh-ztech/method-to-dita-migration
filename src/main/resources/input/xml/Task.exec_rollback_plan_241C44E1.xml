@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" TypeName="Task" Url="process.adv.eya_oracle.base/tasks/exec_rollback_plan_241C44E1.html" Name="exec_rollback_plan" BackPath="./../../" Type="Task" NodeiconUrl="" performingRoleName="Conversion Lead" DisplayName="Execute rollback plan" Id="_6nt6kNFKEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" lang="en" nodeId="6387755c">
+<copyright nodeId="f3b50a69">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="73f46296">exec_rollback_plan</attribute>
+<attribute name="guid" nodeId="c0be89af">_6nt6kNFKEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="d2157ade">Execute rollback plan</attribute>
+<attribute name="briefDescription" nodeId="e4fbb2a3">Execute the data migration rollback plan.</attribute>
+<attribute name="suppressed" nodeId="52b77d3d">false</attribute>
+<attribute name="orderingGuide" nodeId="de6c8822"></attribute>
+<attribute name="isAbstract" nodeId="6e97f357">false</attribute>
+<attribute name="shapeicon" nodeId="95961596"></attribute>
+<attribute name="nodeicon" nodeId="66d83e8a"></attribute>
+<attribute name="variabilityType" nodeId="872947db">na</attribute>
+<reference name="presentation" nodeId="8a466db2">
+<Element Type="TaskDescription" TypeName="Task Description" NodeiconUrl="" DisplayName="Execute rollback plan" Id="-BcR7tSLpOl9IG3wcoe_a-A" ShapeiconUrl="images/guidance.gif" nodeId="7e6dbdf9" Url="" Name="exec_rollback_plan,_6nt6kNFKEe6Y56Jk6jqfOA" BackPath="">
+<copyright nodeId="8caf8b1">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="c5b4203a">exec_rollback_plan,_6nt6kNFKEe6Y56Jk6jqfOA</attribute>
+<attribute name="guid" nodeId="15a9aa61">-BcR7tSLpOl9IG3wcoe_a-A</attribute>
+<attribute name="presentationName" nodeId="bf847c5a">Execute rollback plan</attribute>
+<attribute name="briefDescription" nodeId="b14300cd"></attribute>
+<attribute name="suppressed" nodeId="46c9d49f">false</attribute>
+<attribute name="orderingGuide" nodeId="f85828e"></attribute>
+<attribute name="authors" nodeId="64f45d79"></attribute>
+<attribute name="changeDate" nodeId="3bd82dfb">Tue Oct 22 12:52:38 EDT 2024</attribute>
+<attribute name="changeDescription" nodeId="b162f536">MAY 2024 - Baseline Version</attribute>
+<attribute name="version" nodeId="194c508c"></attribute>
+<attribute name="mainDescription" nodeId="63f5b92a">Validate that the migrated data from the mock conversion has been removed from the target system and any conditions, such
+as marking an account as converted, have been reversed. Document any issues encountered during this process.</attribute>
+<attribute name="externalId" nodeId="4a923778"></attribute>
+<attribute name="keyConsiderations" nodeId="3a1a7dac"></attribute>
+<attribute name="longPresentationName" nodeId="3f87862b"></attribute>
+<attribute name="purpose" nodeId="a0bb5943"></attribute>
+<attribute name="alternatives" nodeId="cc4dfb41"></attribute>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="performedBy" nodeId="d360c6db">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Conversion Lead" Id="_dnKZsDyfEeqFL87Rj0GF5A" ShapeiconUrl="images/role.gif" nodeId="e36e5826" Url="core.default.role_def.base/roles/conversion_lead_D4ACE143.html" Name="conversion_lead" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="mandatoryInput" nodeId="7d1952">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Rollback Plan" Id="_TOLlcPdmEeOgTqoejOJlgA" ShapeiconUrl="images/artifact.gif" nodeId="47788627" Url="core.ops.common.base/workproducts/rollback_plan_2FC382BC.html" Name="rollback_plan" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="output" nodeId="24988d3">
+<Element ShowFullMethodContent="false" Type="Outcome" TypeName="Outcome" NodeiconUrl="" DisplayName="Data Migration Rolled Back" Id="_tZnHQDiYEeqr99br-irnoQ" ShapeiconUrl="images/outcome.gif" nodeId="4f80532" Url="core.i_t.common.base/workproducts/data_migrate_rollback_6671FCAD.html" Name="data_migrate_rollback" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="Task_TaskDescriptors" nodeId="54a2204">
+<Element TypeName="Task Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_Yye68dFJEe6Y56Jk6jqfOA,_7xXqQNFKEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/exec_rollback_plan_241C44E1.html" Name="exec_rollback_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Execute rollback plan" Id="_7xXqQNFKEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="b274c230"></Element>
+</referenceList>
+<reference name="performingRole" nodeId="93d59f4">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Conversion Lead" Id="_dnKZsDyfEeqFL87Rj0GF5A" ShapeiconUrl="images/role.gif" nodeId="1f15e531" Url="core.default.role_def.base/roles/conversion_lead_D4ACE143.html" Name="conversion_lead" BackPath="./../../"></Element>
+</reference>
+<referenceList name="customCategories" nodeId="ac447737">
+<Element Type="CustomCategory" TypeName="Custom Category" NodeiconUrl="" DisplayName="Tasks" Id="_0Sj48KDNEeOMmqbYX27PPA" ShapeiconUrl="core.default.nav_view.base/customcategories/resources/cat_task51.png" nodeId="7b24b23e" Url="core.default.nav_view.base/customcategories/task_list_CDC9CEA6.html" Name="task_list" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="d9e029bd">
+<Element TypeName="Task Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_Yye68dFJEe6Y56Jk6jqfOA,_7xXqQNFKEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/exec_rollback_plan_241C44E1.html" Name="exec_rollback_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Execute rollback plan" Id="_7xXqQNFKEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="d9de9da1">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Data Conversion" Id="_K4NTYZLKEe6Ji6GnvvUfqw" relProcessPath="_K4NTYZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw" nodeId="1c91b369" Url="process.adv.eya_oracle.base/capabilitypatterns/data_conv_wkstrm_3E4842D.html" Name="data_conv_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="44cbb28e">data_conv_wkstrm</attribute>
+<attribute name="guid" nodeId="89f8a665">_K4NTYZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="b56ea4a3">Data Conversion</attribute>
+<attribute name="briefDescription" nodeId="5eca5e8"></attribute>
+<attribute name="suppressed" nodeId="cbaa6d79">false</attribute>
+<attribute name="orderingGuide" nodeId="cf14a150"></attribute>
+<attribute name="isAbstract" nodeId="9481d620">false</attribute>
+<attribute name="shapeicon" nodeId="c09bbefc"></attribute>
+<attribute name="nodeicon" nodeId="9c4ee948"></attribute>
+<attribute name="prefix" nodeId="d11c65e0">workstream</attribute>
+<attribute name="isPlanned" nodeId="6649f2df">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="e9ca6907">false</attribute>
+<attribute name="isOptional" nodeId="dd8bdb02">false</attribute>
+<attribute name="isRepeatable" nodeId="141da01a">false</attribute>
+<attribute name="isOngoing" nodeId="204592b2">false</attribute>
+<attribute name="isEventDriven" nodeId="15e913ad">false</attribute>
+<attribute name="variabilityType" nodeId="613e4993">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Execute Mock Conversions" Id="_Yye68dFJEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_Yye68dFJEe6Y56Jk6jqfOA" nodeId="58e8e565" Url="process.adv.eya_oracle.base/capabilitypatterns/execute_mock_conv_EC296340.html" Name="execute_mock_conv" BackPath="./../../">
+<attribute name="name" nodeId="4743e343">execute_mock_conv</attribute>
+<attribute name="guid" nodeId="df797d16">_Yye68dFJEe6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="d81043e4">Execute Mock Conversions</attribute>
+<attribute name="briefDescription" nodeId="bf6db905">Create the data conversion runbook in preparation for the mock conversion event. Execute the mock conversion as well as the defined roll-back plans and address any findings.</attribute>
+<attribute name="suppressed" nodeId="35cc5580">false</attribute>
+<attribute name="orderingGuide" nodeId="ec95a004"></attribute>
+<attribute name="isAbstract" nodeId="f4245835">false</attribute>
+<attribute name="shapeicon" nodeId="7a32e9a7"></attribute>
+<attribute name="nodeicon" nodeId="21a70ef0"></attribute>
+<attribute name="prefix" nodeId="2560d4a0"></attribute>
+<attribute name="isPlanned" nodeId="985f1da1">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="b33dc70b">false</attribute>
+<attribute name="isOptional" nodeId="cd887042">false</attribute>
+<attribute name="isRepeatable" nodeId="398355ba">false</attribute>
+<attribute name="isOngoing" nodeId="d0983ee4">false</attribute>
+<attribute name="isEventDriven" nodeId="c2bcdb4a">false</attribute>
+<attribute name="variabilityType" nodeId="d8266325">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_Yye68dFJEe6Y56Jk6jqfOA,_7xXqQNFKEe6Y56Jk6jqfOA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/exec_rollback_plan_241C44E1.html" Name="exec_rollback_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Execute rollback plan" Id="_7xXqQNFKEe6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="449e0934">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="a4d04abb" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="25c71e36">eya_oracle</attribute>
+<attribute name="guid" nodeId="dd8704d6">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="d525ac38">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="ee3dd588"></attribute>
+<attribute name="suppressed" nodeId="64a0f7ee">false</attribute>
+<attribute name="orderingGuide" nodeId="d64b946b"></attribute>
+<attribute name="isAbstract" nodeId="898fad9a">false</attribute>
+<attribute name="shapeicon" nodeId="3ef37272"></attribute>
+<attribute name="nodeicon" nodeId="a9ef3896"></attribute>
+<attribute name="prefix" nodeId="b7833166"></attribute>
+<attribute name="isPlanned" nodeId="28d83836">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="37fe2916">false</attribute>
+<attribute name="isOptional" nodeId="e8e93c4b">false</attribute>
+<attribute name="isRepeatable" nodeId="495b918a">false</attribute>
+<attribute name="isOngoing" nodeId="b313f21">false</attribute>
+<attribute name="isEventDriven" nodeId="bbb5e3ed">false</attribute>
+<attribute name="variabilityType" nodeId="d68cfd45">replaces</attribute>
+</Element>
+<Element Type="Iteration" TypeName="Iteration" NodeiconUrl="" DisplayName="Progressive Build" Id="_c4A0kYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/iteration.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA" nodeId="7214e692" Url="process.adv.eya_oracle.base/deliveryprocesses/progressive_build_70B7DD74.html" Name="progressive_build" BackPath="./../../">
+<attribute name="name" nodeId="f27c077c">progressive_build</attribute>
+<attribute name="guid" nodeId="4c0ec77d">_c4A0kYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="dc4bcf19">Progressive Build</attribute>
+<attribute name="briefDescription" nodeId="9344c3b4">Iterate through the build cycles and drive business acceptance through incremental demos to key client stakeholders. Execute mock conversions and and prepare for system integration and user acceptance testing. Manage stakeholder engagement and communications around the change.</attribute>
+<attribute name="suppressed" nodeId="4386f748">false</attribute>
+<attribute name="orderingGuide" nodeId="53e14b58"></attribute>
+<attribute name="isAbstract" nodeId="3c0cd868">false</attribute>
+<attribute name="shapeicon" nodeId="c95818b8"></attribute>
+<attribute name="nodeicon" nodeId="e24a537b"></attribute>
+<attribute name="prefix" nodeId="e4b09713"></attribute>
+<attribute name="isPlanned" nodeId="f4e0c8dc">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="a0df6c1b">false</attribute>
+<attribute name="isOptional" nodeId="9f4fd147">false</attribute>
+<attribute name="isRepeatable" nodeId="43073987">true</attribute>
+<attribute name="isOngoing" nodeId="b7e0fbea">false</attribute>
+<attribute name="isEventDriven" nodeId="cbb88c91">false</attribute>
+<attribute name="variabilityType" nodeId="cb3392d7">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Execute Mock Conversions" Id="_vSESMdpkEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_c4A0kYs6Ee6Z58NF8Wy6XA,_vSESMdpkEe6TH6yb1zVWhw" nodeId="b3e5ffd2" Url="process.adv.eya_oracle.base/deliveryprocesses/execute_mock_conv_C163D3AA.html" Name="execute_mock_conv" BackPath="./../../">
+<attribute name="name" nodeId="6a614264">execute_mock_conv</attribute>
+<attribute name="guid" nodeId="c227521a">_vSESMdpkEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="60604edd">Execute Mock Conversions</attribute>
+<attribute name="briefDescription" nodeId="d1a68e23">Create the data conversion runbook in preparation for the mock conversion event. Execute the mock conversion as well as the defined roll-back plans and address any findings.</attribute>
+<attribute name="suppressed" nodeId="7175aba3">false</attribute>
+<attribute name="orderingGuide" nodeId="5a33cf56"></attribute>
+<attribute name="isAbstract" nodeId="e26e748e">false</attribute>
+<attribute name="shapeicon" nodeId="ddb353ca"></attribute>
+<attribute name="nodeicon" nodeId="5a146b03"></attribute>
+<attribute name="prefix" nodeId="2f384495"></attribute>
+<attribute name="isPlanned" nodeId="a46479c8">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="d9ce5f71">false</attribute>
+<attribute name="isOptional" nodeId="a9c9ced3">false</attribute>
+<attribute name="isRepeatable" nodeId="7d238d28">false</attribute>
+<attribute name="isOngoing" nodeId="7fc1a3cd">false</attribute>
+<attribute name="isEventDriven" nodeId="4d6c5f9b">false</attribute>
+<attribute name="variabilityType" nodeId="316489f3">extends</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

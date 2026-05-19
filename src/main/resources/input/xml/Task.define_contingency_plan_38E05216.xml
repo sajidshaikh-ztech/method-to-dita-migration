@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" TypeName="Task" Url="process.adv.eya_oracle.base/tasks/define_contingency_plan_38E05216.html" Name="define_contingency_plan" BackPath="./../../" Type="Task" NodeiconUrl="" performingRoleName="Solution Architect" DisplayName="Define contingency plan" Id="_L7TTADHGEe-ymZgH1AiGoQ" ShapeiconUrl="images/task.gif" lang="en" nodeId="6ce20279">
+<copyright nodeId="b3cd5ebb">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="269b616a">define_contingency_plan</attribute>
+<attribute name="guid" nodeId="e056a963">_L7TTADHGEe-ymZgH1AiGoQ</attribute>
+<attribute name="presentationName" nodeId="48bf2daa">Define contingency plan</attribute>
+<attribute name="briefDescription" nodeId="113aa3f0">Document a plan that will allow the organization to dismiss or stop the process to transition a solution into production, if a decision not to proceed is made prior to the start of the cutover and deployment.</attribute>
+<attribute name="suppressed" nodeId="81895b40">false</attribute>
+<attribute name="orderingGuide" nodeId="92efbd9e"></attribute>
+<attribute name="isAbstract" nodeId="40bcc5bb">false</attribute>
+<attribute name="shapeicon" nodeId="7074f7d3"></attribute>
+<attribute name="nodeicon" nodeId="480b513d"></attribute>
+<attribute name="variabilityType" nodeId="65c7a87">extendsReplaces</attribute>
+<reference name="presentation" nodeId="394e502d">
+<Element Type="TaskDescription" TypeName="Task Description" NodeiconUrl="" DisplayName="" Id="-OkeSJkwdEuAwqtOY9qwUbg" ShapeiconUrl="images/guidance.gif" nodeId="ba861e41" Url="" Name="define_contingency_plan,_L7TTADHGEe-ymZgH1AiGoQ" BackPath="">
+<attribute name="name" nodeId="e15a0f27">define_contingency_plan,_L7TTADHGEe-ymZgH1AiGoQ</attribute>
+<attribute name="guid" nodeId="71f8a2e9">-OkeSJkwdEuAwqtOY9qwUbg</attribute>
+<attribute name="presentationName" nodeId="4ff9a63a"></attribute>
+<attribute name="briefDescription" nodeId="ab159014"></attribute>
+<attribute name="suppressed" nodeId="f24a3b8b">false</attribute>
+<attribute name="orderingGuide" nodeId="b6a9a5de"></attribute>
+<attribute name="authors" nodeId="acfbb658"></attribute>
+<attribute name="changeDate" nodeId="91c98d1a"></attribute>
+<attribute name="changeDescription" nodeId="2c804a2c">AUGUST 2014 - baseline version</attribute>
+<attribute name="version" nodeId="e8334901"></attribute>
+<attribute name="mainDescription" nodeId="369beea3">The contingency plan establishes how to delay a go-live date or how to proceed with limited functionality or restricted
+scope. Its main goal is to maintain a minimum level of service and business functionality, or to revert to the previous
+environment.</attribute>
+<attribute name="externalId" nodeId="52b0bc4d"></attribute>
+<attribute name="keyConsiderations" nodeId="71e750bc">&lt;p&gt;
+    A contingency plan is required in the event that cutover issues cannot be resolved in a timely manner and business may
+    suffer as a result. The plan must address how long (in hours or days) the new production system may be in operation
+    before it is no longer possible to roll back to the legacy systems. It is standard practice to have a point of no
+    return for making the new system operative.
+&lt;/p&gt;
+&lt;p&gt;
+    Include contingency plans in standard operating procedures. Make sure initial training is provided on the plan.&amp;nbsp;
+&lt;/p&gt;
+&lt;p&gt;
+    Keep the plan current and everyone up-to-date on changes.
+&lt;/p&gt;
+&lt;p&gt;
+    Manage risk;&amp;nbsp;look for opportunities to reduce risk wherever possible. This may help reduce, or even eliminate, the
+    need for full contingency plans in certain areas.
+&lt;/p&gt;
+&lt;p&gt;
+    Consider resource restrictions. Will the organization be able to function the same way if you have to implement Plan B,
+    or will Plan B necessarily reduce capabilities?
+&lt;/p&gt;</attribute>
+<attribute name="longPresentationName" nodeId="b44f7295"></attribute>
+<attribute name="purpose" nodeId="8f3cb6c5">To define the activities required for the organization to be able to quickly respond if plans for a solution&amp;nbsp;cutover
+into product cannot go forward.</attribute>
+<attribute name="alternatives" nodeId="2f756335"></attribute>
+<referenceList sortValue="Manual" name="sections" nodeId="1d923489">
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Keep the plan simple" Id="_UcOKADUsEeSZU_LgSfWBxQ" ShapeiconUrl="images/guidance.gif" nodeId="50207cc2" Url="" Name="Keep the plan simple" BackPath="">
+<copyright nodeId="342f2b7e">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="b6056da2">Keep the plan simple</attribute>
+<attribute name="guid" nodeId="9fa5bec4">_UcOKADUsEeSZU_LgSfWBxQ</attribute>
+<attribute name="presentationName" nodeId="db1052a9">Keep the plan simple</attribute>
+<attribute name="briefDescription" nodeId="1a77c27"></attribute>
+<attribute name="suppressed" nodeId="eb091e85">false</attribute>
+<attribute name="orderingGuide" nodeId="32747488"></attribute>
+<attribute name="variabilityType" nodeId="a8541bee">na</attribute>
+<attribute name="sectionName" nodeId="4faf740d"></attribute>
+<attribute name="sectionDescription" nodeId="73106fb">Use clear, plain language</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="937eecd3">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_hUwHYDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_contingency_plan_38E05216.html" Name="define_contingency_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define contingency plan" Id="_hUwHYDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="33323d9c"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Define time periods" Id="_WiaacDUsEeSZU_LgSfWBxQ" ShapeiconUrl="images/guidance.gif" nodeId="9a02bfd9" Url="" Name="Define time periods" BackPath="">
+<copyright nodeId="85d7c958">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="e228dfd3">Define time periods</attribute>
+<attribute name="guid" nodeId="457409f1">_WiaacDUsEeSZU_LgSfWBxQ</attribute>
+<attribute name="presentationName" nodeId="a1602bcc">Define time periods</attribute>
+<attribute name="briefDescription" nodeId="fd9a6079"></attribute>
+<attribute name="suppressed" nodeId="8bd92a90">false</attribute>
+<attribute name="orderingGuide" nodeId="20c69bcd"></attribute>
+<attribute name="variabilityType" nodeId="51d78e3">na</attribute>
+<attribute name="sectionName" nodeId="70b4bf83"></attribute>
+<attribute name="sectionDescription" nodeId="d74f0211">&lt;p&gt;
+    What must be done during the first hour of the plan being implemented? The first day? The first week?
+&lt;/p&gt;
+&lt;p&gt;
+    If the team looks at the plan in this way, they&apos;re less likely to leave out important details.
+&lt;/p&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="3fcf73a0">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_hUwHYDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_contingency_plan_38E05216.html" Name="define_contingency_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define contingency plan" Id="_hUwHYDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="3953334"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Identify the trigger" Id="_kHAA0DUsEeSZU_LgSfWBxQ" ShapeiconUrl="images/guidance.gif" nodeId="87881652" Url="" Name="Identify the trigger" BackPath="">
+<copyright nodeId="ba0fc223">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="ff0460f9">Identify the trigger</attribute>
+<attribute name="guid" nodeId="8644a233">_kHAA0DUsEeSZU_LgSfWBxQ</attribute>
+<attribute name="presentationName" nodeId="70048420">Identify the trigger</attribute>
+<attribute name="briefDescription" nodeId="5b3d1e87"></attribute>
+<attribute name="suppressed" nodeId="1fc104c6">false</attribute>
+<attribute name="orderingGuide" nodeId="d7fe0e37"></attribute>
+<attribute name="variabilityType" nodeId="2e167ea6">na</attribute>
+<attribute name="sectionName" nodeId="d9b49e93"></attribute>
+<attribute name="sectionDescription" nodeId="fed2015f">&lt;p&gt;
+    What specifically, will cause the need to implement the contingency plan?
+&lt;/p&gt;
+&lt;p&gt;
+    Decide which actions need to be taken and when.
+&lt;/p&gt;
+&lt;p&gt;
+    Determine who is in charge at each stage and what type of reporting process they must follow.
+&lt;/p&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="f223b9d0">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_hUwHYDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_contingency_plan_38E05216.html" Name="define_contingency_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define contingency plan" Id="_hUwHYDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="6c02d3d5"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Identify all stakeholder needs" Id="_ukmBEDUsEeSZU_LgSfWBxQ" ShapeiconUrl="images/guidance.gif" nodeId="55ef8af0" Url="" Name="Identify all stakeholder needs" BackPath="">
+<copyright nodeId="21389cea">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="6b78faf6">Identify all stakeholder needs</attribute>
+<attribute name="guid" nodeId="c1131a6f">_ukmBEDUsEeSZU_LgSfWBxQ</attribute>
+<attribute name="presentationName" nodeId="b8a26130">Identify all stakeholder needs</attribute>
+<attribute name="briefDescription" nodeId="a2029202"></attribute>
+<attribute name="suppressed" nodeId="b15edebf">false</attribute>
+<attribute name="orderingGuide" nodeId="7834c771"></attribute>
+<attribute name="variabilityType" nodeId="7b53c095">na</attribute>
+<attribute name="sectionName" nodeId="620f866c"></attribute>
+<attribute name="sectionDescription" nodeId="b553f4e0">Query&amp;nbsp;people throughout the company to&amp;nbsp;identify what they must have, at a minimum, to continue operations.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="7b8733ad">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_hUwHYDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_contingency_plan_38E05216.html" Name="define_contingency_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define contingency plan" Id="_hUwHYDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="c2256312"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Review data object dependencies" Id="_FVJsgEIjEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="3cd42f47" Url="" Name="Review data object dependencies" BackPath="">
+<copyright nodeId="847437a9">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="245000">Review data object dependencies</attribute>
+<attribute name="guid" nodeId="5cf011ed">_FVJsgEIjEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="ac41765d">Review data object dependencies</attribute>
+<attribute name="briefDescription" nodeId="3a6532df"></attribute>
+<attribute name="suppressed" nodeId="d6c12cf1">false</attribute>
+<attribute name="orderingGuide" nodeId="9bcc0521"></attribute>
+<attribute name="variabilityType" nodeId="9c158b6c">na</attribute>
+<attribute name="sectionName" nodeId="fdba14c0"></attribute>
+<attribute name="sectionDescription" nodeId="eb3ebd9e"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="8e63bdce">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_hUwHYDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_contingency_plan_38E05216.html" Name="define_contingency_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define contingency plan" Id="_hUwHYDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="8892e092"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Review confidence interval of cutover duration in the plan" Id="_JcD3gEIjEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="42608ed9" Url="" Name="Review confidence interval of cutover duration in the plan" BackPath="">
+<copyright nodeId="fdf10838">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="f91c7931">Review confidence interval of cutover duration in the plan</attribute>
+<attribute name="guid" nodeId="5eb18000">_JcD3gEIjEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="7ba8f475">Review confidence interval of cutover duration in the plan</attribute>
+<attribute name="briefDescription" nodeId="1775b8d0"></attribute>
+<attribute name="suppressed" nodeId="ed9af807">false</attribute>
+<attribute name="orderingGuide" nodeId="b3d0683f"></attribute>
+<attribute name="variabilityType" nodeId="3f0cb595">na</attribute>
+<attribute name="sectionName" nodeId="dfedfcb2"></attribute>
+<attribute name="sectionDescription" nodeId="33428d43"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="440e88a8">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_hUwHYDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_contingency_plan_38E05216.html" Name="define_contingency_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define contingency plan" Id="_hUwHYDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="bdb11803"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Review critical path of cutover plan" Id="_IbZrwEIjEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="9941c48e" Url="" Name="Review critical path of cutover plan" BackPath="">
+<copyright nodeId="ec84029b">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="baa3bde7">Review critical path of cutover plan</attribute>
+<attribute name="guid" nodeId="6c26141e">_IbZrwEIjEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="76e7e67d">Review critical path of cutover plan</attribute>
+<attribute name="briefDescription" nodeId="5630944"></attribute>
+<attribute name="suppressed" nodeId="3ee7e7dd">false</attribute>
+<attribute name="orderingGuide" nodeId="aa92170"></attribute>
+<attribute name="variabilityType" nodeId="2cef11ad">na</attribute>
+<attribute name="sectionName" nodeId="9ba04589"></attribute>
+<attribute name="sectionDescription" nodeId="cd8af9df"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="8b1f2de8">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_hUwHYDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_contingency_plan_38E05216.html" Name="define_contingency_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define contingency plan" Id="_hUwHYDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="2ecf0d51"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Determine appropriate contingency for each data object" Id="_MrFYQEIjEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="5ed1961d" Url="" Name="Determine appropriate contingency for each data object" BackPath="">
+<copyright nodeId="8e3e0a0f">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="4ffedbf5">Determine appropriate contingency for each data object</attribute>
+<attribute name="guid" nodeId="fa33d9af">_MrFYQEIjEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="b334aaa4">Determine appropriate contingency for each data object</attribute>
+<attribute name="briefDescription" nodeId="cc694610"></attribute>
+<attribute name="suppressed" nodeId="27e44d05">false</attribute>
+<attribute name="orderingGuide" nodeId="98fb6d73"></attribute>
+<attribute name="variabilityType" nodeId="13752d7d">na</attribute>
+<attribute name="sectionName" nodeId="c21f139b"></attribute>
+<attribute name="sectionDescription" nodeId="6beb0824"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="4db5f085">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_hUwHYDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_contingency_plan_38E05216.html" Name="define_contingency_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define contingency plan" Id="_hUwHYDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="eb978f36"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Define success" Id="_2kugYDUsEeSZU_LgSfWBxQ" ShapeiconUrl="images/guidance.gif" nodeId="823bc61" Url="" Name="Define success" BackPath="">
+<copyright nodeId="eacd8031">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="7fe97b35">Define success</attribute>
+<attribute name="guid" nodeId="edf64c97">_2kugYDUsEeSZU_LgSfWBxQ</attribute>
+<attribute name="presentationName" nodeId="f2d55cb0">Define success</attribute>
+<attribute name="briefDescription" nodeId="998a6f48"></attribute>
+<attribute name="suppressed" nodeId="20d82af0">false</attribute>
+<attribute name="orderingGuide" nodeId="5ef59291"></attribute>
+<attribute name="variabilityType" nodeId="9b3be4e2">na</attribute>
+<attribute name="sectionName" nodeId="3c80ba67"></attribute>
+<attribute name="sectionDescription" nodeId="331f7dd4">What will the&amp;nbsp;organization need to do to return to normal business operations?</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="3d2d7b0d">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_hUwHYDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_contingency_plan_38E05216.html" Name="define_contingency_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define contingency plan" Id="_hUwHYDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="291be215"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Review contingency and contingency impact with stakeholders" Id="_Pxz4oEIjEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="86c9dd07" Url="" Name="Review contingency and contingency impact with stakeholders" BackPath="">
+<copyright nodeId="3dbd8bb6">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="43930ba8">Review contingency and contingency impact with stakeholders</attribute>
+<attribute name="guid" nodeId="71be2475">_Pxz4oEIjEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="7fc51d29">Review contingency and contingency impact with stakeholders</attribute>
+<attribute name="briefDescription" nodeId="ec18dd6e"></attribute>
+<attribute name="suppressed" nodeId="24bb08d6">false</attribute>
+<attribute name="orderingGuide" nodeId="afc4eb14"></attribute>
+<attribute name="variabilityType" nodeId="73bc1b35">na</attribute>
+<attribute name="sectionName" nodeId="8a6f32d2"></attribute>
+<attribute name="sectionDescription" nodeId="9103d128"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="7501f425">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_hUwHYDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_contingency_plan_38E05216.html" Name="define_contingency_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define contingency plan" Id="_hUwHYDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="91b3158"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Sign off contingency plan" Id="_R8wtQEIjEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="8051600c" Url="" Name="Sign off contingency plan" BackPath="">
+<copyright nodeId="c77880e5">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="8dd43141">Sign off contingency plan</attribute>
+<attribute name="guid" nodeId="337de23b">_R8wtQEIjEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="a3b541a2">Sign off contingency plan</attribute>
+<attribute name="briefDescription" nodeId="1f8a2162"></attribute>
+<attribute name="suppressed" nodeId="15dbd8fb">false</attribute>
+<attribute name="orderingGuide" nodeId="bd9e63c"></attribute>
+<attribute name="variabilityType" nodeId="bc923c">na</attribute>
+<attribute name="sectionName" nodeId="bd8403fd"></attribute>
+<attribute name="sectionDescription" nodeId="95e68bc9"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="bb3c9fea">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_hUwHYDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_contingency_plan_38E05216.html" Name="define_contingency_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define contingency plan" Id="_hUwHYDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="4c1e0f2c"></Element>
+</referenceList>
+</Element>
+</referenceList>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="performedBy" nodeId="535bc612">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Solution Architect" Id="_MaaBsNNoEe-Fuo3rkO5x4w" ShapeiconUrl="images/role.gif" nodeId="c65ea191" Url="process.adv.eya_oracle.base/roles/soln_architect_1699084C.html" Name="soln_architect" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="mandatoryInput" nodeId="4de50d7d">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Functional Requirement" Id="_JUXPcMRiEeapHOG_ozfrTg" ShapeiconUrl="images/artifact.gif" nodeId="1a92104e" Url="core.gen.common.base/workproducts/func_rqmt_95C4EC3B.html" Name="func_rqmt" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Non-Functional Requirements" Id="_jbA9YAIPEeS9erBHLNmxUg" ShapeiconUrl="images/artifact.gif" nodeId="da2b85d2" Url="core.gen.common.base/workproducts/non_func_rqmts_18CC3776.html" Name="non_func_rqmts" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="output" nodeId="a5c8ec56">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Contingency Plan" Id="_JFfeMPdmEeOgTqoejOJlgA" ShapeiconUrl="images/artifact.gif" nodeId="f47f3ea3" Url="core.ops.common.base/workproducts/contingency_plan_7F6741B2.html" Name="contingency_plan" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="additionallyPerformedBy" nodeId="34d5374d">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Analyst" Id="_W7RhoAk9EeOR5fNLLJCc5g" ShapeiconUrl="images/role.gif" nodeId="1a2bc0e9" Url="core.default.role_def.base/roles/analyst_46D75ED7.html" Name="analyst" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Functional Architect" Id="_EZAaoMxjEe-ZJLQgqxU0kQ" ShapeiconUrl="images/role.gif" nodeId="85ec10ef" Url="process.adv.eya_oracle.base/roles/func_architect_A28F4FB1.html" Name="func_architect" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Technical Lead" Id="_6At4MCygEe-bo7_6LoJ2iQ" ShapeiconUrl="images/role.gif" nodeId="ee47c5f3" Url="process.adv.eya_oracle.base/roles/tech_lead_30CEAD95.html" Name="tech_lead" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Transition Lead" Id="_C2LiJz8gEeOOEPaNsP0t0A" ShapeiconUrl="images/role.gif" nodeId="3dac2f5b" Url="core.default.role_def.base/roles/transition_lead_D1C56254.html" Name="transition_lead" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="steps" nodeId="64a15308">
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Keep the plan simple" Id="_UcOKADUsEeSZU_LgSfWBxQ" ShapeiconUrl="images/guidance.gif" nodeId="51067ee3" Url="" Name="Keep the plan simple" BackPath="">
+<copyright nodeId="1ac6a5c1">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="c74efef6">Keep the plan simple</attribute>
+<attribute name="guid" nodeId="40347893">_UcOKADUsEeSZU_LgSfWBxQ</attribute>
+<attribute name="presentationName" nodeId="c21a37a1">Keep the plan simple</attribute>
+<attribute name="briefDescription" nodeId="6d1d874a"></attribute>
+<attribute name="suppressed" nodeId="5bc3a1ee">false</attribute>
+<attribute name="orderingGuide" nodeId="b58ef05d"></attribute>
+<attribute name="variabilityType" nodeId="aa0521e3">na</attribute>
+<attribute name="sectionName" nodeId="ca2c646f"></attribute>
+<attribute name="sectionDescription" nodeId="fec54d00">Use clear, plain language</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="b78e8137">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_hUwHYDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_contingency_plan_38E05216.html" Name="define_contingency_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define contingency plan" Id="_hUwHYDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="b1915728"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Define time periods" Id="_WiaacDUsEeSZU_LgSfWBxQ" ShapeiconUrl="images/guidance.gif" nodeId="a1afa93a" Url="" Name="Define time periods" BackPath="">
+<copyright nodeId="bc7e9c57">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="2d855e94">Define time periods</attribute>
+<attribute name="guid" nodeId="8a5bcb1e">_WiaacDUsEeSZU_LgSfWBxQ</attribute>
+<attribute name="presentationName" nodeId="7f4382ef">Define time periods</attribute>
+<attribute name="briefDescription" nodeId="3fb3c0de"></attribute>
+<attribute name="suppressed" nodeId="a9780744">false</attribute>
+<attribute name="orderingGuide" nodeId="a2bec6e4"></attribute>
+<attribute name="variabilityType" nodeId="e802dfe">na</attribute>
+<attribute name="sectionName" nodeId="582f7c93"></attribute>
+<attribute name="sectionDescription" nodeId="69cfc85f">&lt;p&gt;
+    What must be done during the first hour of the plan being implemented? The first day? The first week?
+&lt;/p&gt;
+&lt;p&gt;
+    If the team looks at the plan in this way, they&apos;re less likely to leave out important details.
+&lt;/p&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="23c4f5df">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_hUwHYDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_contingency_plan_38E05216.html" Name="define_contingency_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define contingency plan" Id="_hUwHYDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="57e01a0d"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Identify the trigger" Id="_kHAA0DUsEeSZU_LgSfWBxQ" ShapeiconUrl="images/guidance.gif" nodeId="a347dda1" Url="" Name="Identify the trigger" BackPath="">
+<copyright nodeId="a95b4baf">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="afd5940e">Identify the trigger</attribute>
+<attribute name="guid" nodeId="9ab06357">_kHAA0DUsEeSZU_LgSfWBxQ</attribute>
+<attribute name="presentationName" nodeId="cbb4ba1b">Identify the trigger</attribute>
+<attribute name="briefDescription" nodeId="3fe1f3b0"></attribute>
+<attribute name="suppressed" nodeId="38b056b2">false</attribute>
+<attribute name="orderingGuide" nodeId="78324821"></attribute>
+<attribute name="variabilityType" nodeId="7760b6e2">na</attribute>
+<attribute name="sectionName" nodeId="a5359c47"></attribute>
+<attribute name="sectionDescription" nodeId="5f279b4">&lt;p&gt;
+    What specifically, will cause the need to implement the contingency plan?
+&lt;/p&gt;
+&lt;p&gt;
+    Decide which actions need to be taken and when.
+&lt;/p&gt;
+&lt;p&gt;
+    Determine who is in charge at each stage and what type of reporting process they must follow.
+&lt;/p&gt;</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="10ac43eb">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_hUwHYDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_contingency_plan_38E05216.html" Name="define_contingency_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define contingency plan" Id="_hUwHYDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="15dd4c3c"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Identify all stakeholder needs" Id="_ukmBEDUsEeSZU_LgSfWBxQ" ShapeiconUrl="images/guidance.gif" nodeId="76839968" Url="" Name="Identify all stakeholder needs" BackPath="">
+<copyright nodeId="8fd9c968">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="7934b229">Identify all stakeholder needs</attribute>
+<attribute name="guid" nodeId="3d56645a">_ukmBEDUsEeSZU_LgSfWBxQ</attribute>
+<attribute name="presentationName" nodeId="83547f42">Identify all stakeholder needs</attribute>
+<attribute name="briefDescription" nodeId="f14abe81"></attribute>
+<attribute name="suppressed" nodeId="ef6c1acf">false</attribute>
+<attribute name="orderingGuide" nodeId="fa41aec5"></attribute>
+<attribute name="variabilityType" nodeId="888fec9d">na</attribute>
+<attribute name="sectionName" nodeId="3704149b"></attribute>
+<attribute name="sectionDescription" nodeId="d9a01c4d">Query&amp;nbsp;people throughout the company to&amp;nbsp;identify what they must have, at a minimum, to continue operations.</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="613a126c">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_hUwHYDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_contingency_plan_38E05216.html" Name="define_contingency_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define contingency plan" Id="_hUwHYDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="fdd8def5"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Review data object dependencies" Id="_FVJsgEIjEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="2f96b28e" Url="" Name="Review data object dependencies" BackPath="">
+<copyright nodeId="22971f2e">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="93b7eac3">Review data object dependencies</attribute>
+<attribute name="guid" nodeId="56b796dc">_FVJsgEIjEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="4fa05110">Review data object dependencies</attribute>
+<attribute name="briefDescription" nodeId="c6e8b62"></attribute>
+<attribute name="suppressed" nodeId="eaeaa222">false</attribute>
+<attribute name="orderingGuide" nodeId="7f498c10"></attribute>
+<attribute name="variabilityType" nodeId="cd7c45ce">na</attribute>
+<attribute name="sectionName" nodeId="e26704d9"></attribute>
+<attribute name="sectionDescription" nodeId="1624816e"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="a60b822b">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_hUwHYDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_contingency_plan_38E05216.html" Name="define_contingency_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define contingency plan" Id="_hUwHYDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="3d5c0e16"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Review confidence interval of cutover duration in the plan" Id="_JcD3gEIjEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="e2b12d5f" Url="" Name="Review confidence interval of cutover duration in the plan" BackPath="">
+<copyright nodeId="11b56e65">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="ef295086">Review confidence interval of cutover duration in the plan</attribute>
+<attribute name="guid" nodeId="a19ddd9c">_JcD3gEIjEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="13ef9578">Review confidence interval of cutover duration in the plan</attribute>
+<attribute name="briefDescription" nodeId="a0cd1fa"></attribute>
+<attribute name="suppressed" nodeId="64a06df6">false</attribute>
+<attribute name="orderingGuide" nodeId="476f578e"></attribute>
+<attribute name="variabilityType" nodeId="1e1141a0">na</attribute>
+<attribute name="sectionName" nodeId="ccf3da86"></attribute>
+<attribute name="sectionDescription" nodeId="32c5d685"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="2b430adb">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_hUwHYDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_contingency_plan_38E05216.html" Name="define_contingency_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define contingency plan" Id="_hUwHYDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="586c4bb"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Review critical path of cutover plan" Id="_IbZrwEIjEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="12c45a1b" Url="" Name="Review critical path of cutover plan" BackPath="">
+<copyright nodeId="b0f5f65c">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="e3d4d09a">Review critical path of cutover plan</attribute>
+<attribute name="guid" nodeId="8f5879c7">_IbZrwEIjEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="36d4dfd1">Review critical path of cutover plan</attribute>
+<attribute name="briefDescription" nodeId="6fc1258e"></attribute>
+<attribute name="suppressed" nodeId="18df62db">false</attribute>
+<attribute name="orderingGuide" nodeId="893baf70"></attribute>
+<attribute name="variabilityType" nodeId="6d4ee4ff">na</attribute>
+<attribute name="sectionName" nodeId="b25e3e50"></attribute>
+<attribute name="sectionDescription" nodeId="fb599a47"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="86f9c5dc">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_hUwHYDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_contingency_plan_38E05216.html" Name="define_contingency_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define contingency plan" Id="_hUwHYDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="47c928e7"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Determine appropriate contingency for each data object" Id="_MrFYQEIjEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="7582a92d" Url="" Name="Determine appropriate contingency for each data object" BackPath="">
+<copyright nodeId="75fe6322">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="1d9a86c2">Determine appropriate contingency for each data object</attribute>
+<attribute name="guid" nodeId="67438e05">_MrFYQEIjEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="1e1e26fd">Determine appropriate contingency for each data object</attribute>
+<attribute name="briefDescription" nodeId="ed32f66f"></attribute>
+<attribute name="suppressed" nodeId="3121cc62">false</attribute>
+<attribute name="orderingGuide" nodeId="f03b9a97"></attribute>
+<attribute name="variabilityType" nodeId="6da38d52">na</attribute>
+<attribute name="sectionName" nodeId="c88ea3cf"></attribute>
+<attribute name="sectionDescription" nodeId="11dd4288"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="1eac6778">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_hUwHYDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_contingency_plan_38E05216.html" Name="define_contingency_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define contingency plan" Id="_hUwHYDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="579422b1"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Define success" Id="_2kugYDUsEeSZU_LgSfWBxQ" ShapeiconUrl="images/guidance.gif" nodeId="8f603adf" Url="" Name="Define success" BackPath="">
+<copyright nodeId="4aa8711d">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="994253c6">Define success</attribute>
+<attribute name="guid" nodeId="87150de2">_2kugYDUsEeSZU_LgSfWBxQ</attribute>
+<attribute name="presentationName" nodeId="b59a7bff">Define success</attribute>
+<attribute name="briefDescription" nodeId="f5edad44"></attribute>
+<attribute name="suppressed" nodeId="8e171b83">false</attribute>
+<attribute name="orderingGuide" nodeId="20f3f351"></attribute>
+<attribute name="variabilityType" nodeId="3d2a71f7">na</attribute>
+<attribute name="sectionName" nodeId="307f71e4"></attribute>
+<attribute name="sectionDescription" nodeId="f412a444">What will the&amp;nbsp;organization need to do to return to normal business operations?</attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="815e8bd">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_hUwHYDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_contingency_plan_38E05216.html" Name="define_contingency_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define contingency plan" Id="_hUwHYDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="3be091cc"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Review contingency and contingency impact with stakeholders" Id="_Pxz4oEIjEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="d2af86c0" Url="" Name="Review contingency and contingency impact with stakeholders" BackPath="">
+<copyright nodeId="378f82ca">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="4945b338">Review contingency and contingency impact with stakeholders</attribute>
+<attribute name="guid" nodeId="a3240128">_Pxz4oEIjEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="4552018e">Review contingency and contingency impact with stakeholders</attribute>
+<attribute name="briefDescription" nodeId="778dec3e"></attribute>
+<attribute name="suppressed" nodeId="43282287">false</attribute>
+<attribute name="orderingGuide" nodeId="59256882"></attribute>
+<attribute name="variabilityType" nodeId="e27ffba6">na</attribute>
+<attribute name="sectionName" nodeId="21794a61"></attribute>
+<attribute name="sectionDescription" nodeId="52e728d2"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="227c9f05">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_hUwHYDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_contingency_plan_38E05216.html" Name="define_contingency_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define contingency plan" Id="_hUwHYDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="22a178ae"></Element>
+</referenceList>
+</Element>
+<Element Type="Section" TypeName="Section" NodeiconUrl="" DisplayName="Sign off contingency plan" Id="_R8wtQEIjEeW5Je4_Pavktg" ShapeiconUrl="images/guidance.gif" nodeId="316a24bb" Url="" Name="Sign off contingency plan" BackPath="">
+<copyright nodeId="335d082f">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="895a91a2">Sign off contingency plan</attribute>
+<attribute name="guid" nodeId="a90a4fd6">_R8wtQEIjEeW5Je4_Pavktg</attribute>
+<attribute name="presentationName" nodeId="c148d608">Sign off contingency plan</attribute>
+<attribute name="briefDescription" nodeId="88f495ec"></attribute>
+<attribute name="suppressed" nodeId="a9c84b67">false</attribute>
+<attribute name="orderingGuide" nodeId="6a830f3b"></attribute>
+<attribute name="variabilityType" nodeId="788df3fa">na</attribute>
+<attribute name="sectionName" nodeId="23efe725"></attribute>
+<attribute name="sectionDescription" nodeId="3a97c7bc"></attribute>
+<referenceList name="Section_TaskDescriptors" nodeId="e2824c5d">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_hUwHYDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_contingency_plan_38E05216.html" Name="define_contingency_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define contingency plan" Id="_hUwHYDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="1771b5e8"></Element>
+</referenceList>
+</Element>
+</referenceList>
+<referenceList name="Task_TaskDescriptors" nodeId="d2f6523e">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_hUwHYDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_contingency_plan_38E05216.html" Name="define_contingency_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define contingency plan" Id="_hUwHYDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="7afc551e"></Element>
+</referenceList>
+<referenceList name="VariabilityElement_ImmediateVarieties" nodeId="57ac7ce0"></referenceList>
+<reference name="performingRole" nodeId="11d258f7">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Solution Architect" Id="_MaaBsNNoEe-Fuo3rkO5x4w" ShapeiconUrl="images/role.gif" nodeId="58913868" Url="process.adv.eya_oracle.base/roles/soln_architect_1699084C.html" Name="soln_architect" BackPath="./../../"></Element>
+</reference>
+<referenceList name="customCategories" nodeId="7ed30e7b">
+<Element Type="CustomCategory" TypeName="Custom Category" NodeiconUrl="" DisplayName="Tasks" Id="_0Sj48KDNEeOMmqbYX27PPA" ShapeiconUrl="core.default.nav_view.base/customcategories/resources/cat_task51.png" nodeId="c9b8dceb" Url="core.default.nav_view.base/customcategories/task_list_CDC9CEA6.html" Name="task_list" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="a3b859eb">
+<Element TypeName="Task Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw,_hUwHYDHHEe-ymZgH1AiGoQ" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/define_contingency_plan_38E05216.html" Name="define_contingency_plan" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define contingency plan" Id="_hUwHYDHHEe-ymZgH1AiGoQ" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="2314ea67">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="58e7adf9" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="b6dbec18">eya_oracle</attribute>
+<attribute name="guid" nodeId="ebfb015">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="f2cc259f">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="8457520f"></attribute>
+<attribute name="suppressed" nodeId="37061967">false</attribute>
+<attribute name="orderingGuide" nodeId="92cdba63"></attribute>
+<attribute name="isAbstract" nodeId="227c5790">false</attribute>
+<attribute name="shapeicon" nodeId="b7837d22"></attribute>
+<attribute name="nodeicon" nodeId="d5a1477"></attribute>
+<attribute name="prefix" nodeId="d6456cc"></attribute>
+<attribute name="isPlanned" nodeId="43bb3067">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="58976623">false</attribute>
+<attribute name="isOptional" nodeId="1c70c1a1">false</attribute>
+<attribute name="isRepeatable" nodeId="202bcac5">false</attribute>
+<attribute name="isOngoing" nodeId="d9da2424">false</attribute>
+<attribute name="isEventDriven" nodeId="302e1694">false</attribute>
+<attribute name="variabilityType" nodeId="221a9d4">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Test" Id="_esTcsYs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA" nodeId="322c230d" Url="process.adv.eya_oracle.base/deliveryprocesses/test_E5EB30E9.html" Name="test" BackPath="./../../">
+<attribute name="name" nodeId="bbfab02c">test</attribute>
+<attribute name="guid" nodeId="a220241c">_esTcsYs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="c9c8304d">Test</attribute>
+<attribute name="briefDescription" nodeId="bf4eeb1f">Perform tests on the integrated Oracle services solution and prepare for cutover and deployment. Additionally, design and prepare training materials.</attribute>
+<attribute name="suppressed" nodeId="6d00b5e1">false</attribute>
+<attribute name="orderingGuide" nodeId="f8ee57e8"></attribute>
+<attribute name="isAbstract" nodeId="e20458f5">false</attribute>
+<attribute name="shapeicon" nodeId="20f21930"></attribute>
+<attribute name="nodeicon" nodeId="dcc9d840"></attribute>
+<attribute name="prefix" nodeId="641fa6d6"></attribute>
+<attribute name="isPlanned" nodeId="c261b054">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="1ed16a64">false</attribute>
+<attribute name="isOptional" nodeId="3a847715">false</attribute>
+<attribute name="isRepeatable" nodeId="b57c1d7e">false</attribute>
+<attribute name="isOngoing" nodeId="c18a4dfb">false</attribute>
+<attribute name="isEventDriven" nodeId="9f447b85">false</attribute>
+<attribute name="variabilityType" nodeId="ad2de284">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Prepare for Cutover and Deployment" Id="_vkzykdplEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_esTcsYs6Ee6Z58NF8Wy6XA,_vkzykdplEe6TH6yb1zVWhw" nodeId="f03481f0" Url="process.adv.eya_oracle.base/deliveryprocesses/prepare_cutover_deployment_CE7AA5F6.html" Name="prepare_cutover_deployment" BackPath="./../../">
+<attribute name="name" nodeId="ef29d436">prepare_cutover_deployment</attribute>
+<attribute name="guid" nodeId="a483526d">_vkzykdplEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="f70b1a16">Prepare for Cutover and Deployment</attribute>
+<attribute name="briefDescription" nodeId="fc5ed1a5">Define the approach, plan and governance tasks to manage the transition of the target state Oracle solution into the production environment.</attribute>
+<attribute name="suppressed" nodeId="829746af">false</attribute>
+<attribute name="orderingGuide" nodeId="6d29b0bd"></attribute>
+<attribute name="isAbstract" nodeId="ae6b1c18">false</attribute>
+<attribute name="shapeicon" nodeId="a1ba9e2d"></attribute>
+<attribute name="nodeicon" nodeId="662d5ee3"></attribute>
+<attribute name="prefix" nodeId="6d20fb35"></attribute>
+<attribute name="isPlanned" nodeId="8fb52f7b">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="f194ab53">false</attribute>
+<attribute name="isOptional" nodeId="cf9a7e74">false</attribute>
+<attribute name="isRepeatable" nodeId="f760ea0b">false</attribute>
+<attribute name="isOngoing" nodeId="6894155c">false</attribute>
+<attribute name="isEventDriven" nodeId="bf7767b1">false</attribute>
+<attribute name="variabilityType" nodeId="c3bf2fb7">extends</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

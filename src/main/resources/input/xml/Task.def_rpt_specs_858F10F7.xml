@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" TypeName="Task" Url="process.adv.eya_oracle.base/tasks/def_rpt_specs_858F10F7.html" Name="def_rpt_specs" BackPath="./../../" Type="Task" NodeiconUrl="" performingRoleName="Functional Architect" DisplayName="Define reporting specifications" Id="_HX6wwNAFEe6H-rjlu9wPlA" ShapeiconUrl="images/task.gif" lang="en" nodeId="3cb170c5">
+<copyright nodeId="227e59c7">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="e7650a83">def_rpt_specs</attribute>
+<attribute name="guid" nodeId="b1a89bd9">_HX6wwNAFEe6H-rjlu9wPlA</attribute>
+<attribute name="presentationName" nodeId="37cae1ed">Define reporting specifications</attribute>
+<attribute name="briefDescription" nodeId="b75b4935">For in-scope reports that need to be custom developed, document the specifications for implementing the reports in the future state.</attribute>
+<attribute name="suppressed" nodeId="54358cca">false</attribute>
+<attribute name="orderingGuide" nodeId="6438354f"></attribute>
+<attribute name="isAbstract" nodeId="bf24b57">false</attribute>
+<attribute name="shapeicon" nodeId="90b987e5"></attribute>
+<attribute name="nodeicon" nodeId="9571b698"></attribute>
+<attribute name="variabilityType" nodeId="e5d0d11">na</attribute>
+<reference name="presentation" nodeId="ff2fcd7a">
+<Element Type="TaskDescription" TypeName="Task Description" NodeiconUrl="" DisplayName="Define reporting specifications" Id="-lzQYWgW3UxygifYloINylg" ShapeiconUrl="images/guidance.gif" nodeId="22801427" Url="" Name="def_rep_specs,_HX6wwNAFEe6H-rjlu9wPlA" BackPath="">
+<copyright nodeId="6a28d093">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="d0b5bb37">def_rep_specs,_HX6wwNAFEe6H-rjlu9wPlA</attribute>
+<attribute name="guid" nodeId="ac360941">-lzQYWgW3UxygifYloINylg</attribute>
+<attribute name="presentationName" nodeId="a5814001">Define reporting specifications</attribute>
+<attribute name="briefDescription" nodeId="36edd178"></attribute>
+<attribute name="suppressed" nodeId="b58a053d">false</attribute>
+<attribute name="orderingGuide" nodeId="812d3e3d"></attribute>
+<attribute name="authors" nodeId="25ca9083"></attribute>
+<attribute name="changeDate" nodeId="625ac7a">Mon Oct 14 06:18:32 EDT 2024</attribute>
+<attribute name="changeDescription" nodeId="be3f70b8">OCT 2024 - Baseline Version</attribute>
+<attribute name="version" nodeId="1be2b658"></attribute>
+<attribute name="mainDescription" nodeId="a6929d37">&lt;p&gt;
+    Document the type of report (system generated vs. manual), purpose, data source, frequency of generation and audience.
+&lt;/p&gt;</attribute>
+<attribute name="externalId" nodeId="11a480e"></attribute>
+<attribute name="keyConsiderations" nodeId="587d6fe9"></attribute>
+<attribute name="longPresentationName" nodeId="287973a5"></attribute>
+<attribute name="purpose" nodeId="5aa36e64"></attribute>
+<attribute name="alternatives" nodeId="971a05b4"></attribute>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="performedBy" nodeId="fdf0b6b6">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Functional Architect" Id="_EZAaoMxjEe-ZJLQgqxU0kQ" ShapeiconUrl="images/role.gif" nodeId="9ed0c541" Url="process.adv.eya_oracle.base/roles/func_architect_A28F4FB1.html" Name="func_architect" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="mandatoryInput" nodeId="a70a3509">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Reports Inventory" Id="_mucqoBiIEeiUrLVnagqYpA" ShapeiconUrl="images/artifact.gif" nodeId="2822b6ae" Url="core.i_t.common.base/workproducts/reports_inventory_C3C06125.html" Name="reports_inventory" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Requirements Traceability Matrix" Id="_7I8toC9GEeSJ-4uKHZ771A" ShapeiconUrl="images/artifact.gif" nodeId="1611b2e5" Url="core.gen.common.base/workproducts/rqmts_traceability_matrix_6BABB1C5.html" Name="rqmts_traceability_matrix" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="output" nodeId="12848706">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Reporting Specifications " Id="_nj9-EAxHEeSH-8b382SNHg" ShapeiconUrl="images/artifact.gif" nodeId="ee7ee873" Url="core.i_t.common.base/workproducts/rpt_specs_2985A9E0.html" Name="rpt_specs" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="additionallyPerformedBy" nodeId="25678bc4">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Analyst" Id="_W7RhoAk9EeOR5fNLLJCc5g" ShapeiconUrl="images/role.gif" nodeId="49e09857" Url="core.default.role_def.base/roles/analyst_46D75ED7.html" Name="analyst" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="Task_TaskDescriptors" nodeId="e88b1ad7">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_DAQiEdAHEe6H-rjlu9wPlA,_2HDlkNAHEe6H-rjlu9wPlA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/def_rpt_specs_858F10F7.html" Name="def_rpt_specs" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define reporting specifications" Id="_2HDlkNAHEe6H-rjlu9wPlA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="731e28b0"></Element>
+</referenceList>
+<reference name="performingRole" nodeId="7ada979e">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Functional Architect" Id="_EZAaoMxjEe-ZJLQgqxU0kQ" ShapeiconUrl="images/role.gif" nodeId="d3cd8599" Url="process.adv.eya_oracle.base/roles/func_architect_A28F4FB1.html" Name="func_architect" BackPath="./../../"></Element>
+</reference>
+<referenceList name="customCategories" nodeId="b53508d9">
+<Element Type="CustomCategory" TypeName="Custom Category" NodeiconUrl="" DisplayName="Tasks" Id="_0Sj48KDNEeOMmqbYX27PPA" ShapeiconUrl="core.default.nav_view.base/customcategories/resources/cat_task51.png" nodeId="2829128a" Url="core.default.nav_view.base/customcategories/task_list_CDC9CEA6.html" Name="task_list" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="48463743">
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_DAQiEdAHEe6H-rjlu9wPlA,_2HDlkNAHEe6H-rjlu9wPlA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/def_rpt_specs_858F10F7.html" Name="def_rpt_specs" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define reporting specifications" Id="_2HDlkNAHEe6H-rjlu9wPlA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="8a328f8f">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Business Functional Design" Id="_C-aFkZLKEe6Ji6GnvvUfqw" relProcessPath="_C-aFkZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw" nodeId="c7962ad9" Url="process.adv.eya_oracle.base/capabilitypatterns/bus_func_design_wkstrm_3B7B6F5B.html" Name="bus_func_design_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="feb9eaba">bus_func_design_wkstrm</attribute>
+<attribute name="guid" nodeId="b7816f74">_C-aFkZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="c2b5863">Business Functional Design</attribute>
+<attribute name="briefDescription" nodeId="4bba591e"></attribute>
+<attribute name="suppressed" nodeId="63f69c1">false</attribute>
+<attribute name="orderingGuide" nodeId="93773147"></attribute>
+<attribute name="isAbstract" nodeId="a1cee189">false</attribute>
+<attribute name="shapeicon" nodeId="40288ca"></attribute>
+<attribute name="nodeicon" nodeId="b87a017d"></attribute>
+<attribute name="prefix" nodeId="80c02603">workstream</attribute>
+<attribute name="isPlanned" nodeId="a5ba8dfc">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="56d50283">false</attribute>
+<attribute name="isOptional" nodeId="60f05e56">false</attribute>
+<attribute name="isRepeatable" nodeId="76512e6e">false</attribute>
+<attribute name="isOngoing" nodeId="76b15bbe">false</attribute>
+<attribute name="isEventDriven" nodeId="861b5388">false</attribute>
+<attribute name="variabilityType" nodeId="868c8e14">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Document Reporting Specifications" Id="_DAQiEdAHEe6H-rjlu9wPlA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_DAQiEdAHEe6H-rjlu9wPlA" nodeId="d65951e5" Url="process.adv.eya_oracle.base/capabilitypatterns/document_repo_specfic_B64C19E5.html" Name="document_repo_specfic" BackPath="./../../">
+<attribute name="name" nodeId="9adcde39">document_repo_specfic</attribute>
+<attribute name="guid" nodeId="97f16cce">_DAQiEdAHEe6H-rjlu9wPlA</attribute>
+<attribute name="presentationName" nodeId="3644a2f9">Document Reporting Specifications</attribute>
+<attribute name="briefDescription" nodeId="4e318f46">For the in-scope reports, document the specifications needed to implement the reports in the future state. Include the relevant data sources and where possible, provide mock-ups.</attribute>
+<attribute name="suppressed" nodeId="a95219e4">false</attribute>
+<attribute name="orderingGuide" nodeId="2bfe71f0"></attribute>
+<attribute name="isAbstract" nodeId="49c3198a">false</attribute>
+<attribute name="shapeicon" nodeId="b1ed04a5"></attribute>
+<attribute name="nodeicon" nodeId="12fa702e"></attribute>
+<attribute name="prefix" nodeId="1976b6b8"></attribute>
+<attribute name="isPlanned" nodeId="7571602b">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="73bee3ab">false</attribute>
+<attribute name="isOptional" nodeId="ec2160eb">false</attribute>
+<attribute name="isRepeatable" nodeId="baf0f2a1">false</attribute>
+<attribute name="isOngoing" nodeId="54b35ab0">false</attribute>
+<attribute name="isEventDriven" nodeId="9f89c3fb">false</attribute>
+<attribute name="variabilityType" nodeId="9b333cc">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Task Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_DAQiEdAHEe6H-rjlu9wPlA,_2HDlkNAHEe6H-rjlu9wPlA" ConcreteType="Task" Url="process.adv.eya_oracle.base/tasks/def_rpt_specs_858F10F7.html" Name="def_rpt_specs" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Define reporting specifications" Id="_2HDlkNAHEe6H-rjlu9wPlA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="b5d09f2c">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="69b2fe06" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="b6d58518">eya_oracle</attribute>
+<attribute name="guid" nodeId="6fee6216">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="dc6f23ae">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="830c7670"></attribute>
+<attribute name="suppressed" nodeId="4b7bd921">false</attribute>
+<attribute name="orderingGuide" nodeId="2bc916c0"></attribute>
+<attribute name="isAbstract" nodeId="529f3f35">false</attribute>
+<attribute name="shapeicon" nodeId="cd0ba5fa"></attribute>
+<attribute name="nodeicon" nodeId="51e0282a"></attribute>
+<attribute name="prefix" nodeId="dbf06ee4"></attribute>
+<attribute name="isPlanned" nodeId="aa5bbc6e">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="5500ba8c">false</attribute>
+<attribute name="isOptional" nodeId="59ea9e8">false</attribute>
+<attribute name="isRepeatable" nodeId="c46f7075">false</attribute>
+<attribute name="isOngoing" nodeId="513cc5e1">false</attribute>
+<attribute name="isEventDriven" nodeId="44cf7d8c">false</attribute>
+<attribute name="variabilityType" nodeId="f892bef2">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Confirm and Design" Id="_bRCPsIs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA" nodeId="4d2a83db" Url="process.adv.eya_oracle.base/deliveryprocesses/confirm_and_design_29FFDB9.html" Name="confirm_and_design" BackPath="./../../">
+<attribute name="name" nodeId="908cfc3c">confirm_and_design</attribute>
+<attribute name="guid" nodeId="37b8d84c">_bRCPsIs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="19a2d535">Confirm and Design</attribute>
+<attribute name="briefDescription" nodeId="d3c320d3">Define business requirements, map process flows and facilitate fit-gap workshops. Define technology and testing strategies. Develop the master configuration workbook, RICEFW inventory and prepare for progressive build cycles.</attribute>
+<attribute name="suppressed" nodeId="d883261">false</attribute>
+<attribute name="orderingGuide" nodeId="26269527"></attribute>
+<attribute name="isAbstract" nodeId="909975bc">false</attribute>
+<attribute name="shapeicon" nodeId="cdec5db2"></attribute>
+<attribute name="nodeicon" nodeId="e53b7d32"></attribute>
+<attribute name="prefix" nodeId="fb324303"></attribute>
+<attribute name="isPlanned" nodeId="3c33c183">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="4666354e">false</attribute>
+<attribute name="isOptional" nodeId="4957efec">false</attribute>
+<attribute name="isRepeatable" nodeId="dc6357ed">false</attribute>
+<attribute name="isOngoing" nodeId="b38395da">false</attribute>
+<attribute name="isEventDriven" nodeId="2119cb98">false</attribute>
+<attribute name="variabilityType" nodeId="d3b2bd5f">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Document Reporting Specifications" Id="_xYN3cdpFEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA,_xYN3cdpFEe6TH6yb1zVWhw" nodeId="c6cb459a" Url="process.adv.eya_oracle.base/deliveryprocesses/document_repo_specfic_713C6E6A.html" Name="document_repo_specfic" BackPath="./../../">
+<attribute name="name" nodeId="363c1e9e">document_repo_specfic</attribute>
+<attribute name="guid" nodeId="6770dd91">_xYN3cdpFEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="d3b649b0">Document Reporting Specifications</attribute>
+<attribute name="briefDescription" nodeId="c06e1a59">For the in-scope reports, document the specifications needed to implement the reports in the future state. Include the relevant data sources and where possible, provide mock-ups.</attribute>
+<attribute name="suppressed" nodeId="c12d7d42">false</attribute>
+<attribute name="orderingGuide" nodeId="ba28297b"></attribute>
+<attribute name="isAbstract" nodeId="bde6fc67">false</attribute>
+<attribute name="shapeicon" nodeId="a6ffc0c8"></attribute>
+<attribute name="nodeicon" nodeId="4b717c17"></attribute>
+<attribute name="prefix" nodeId="ef91a194"></attribute>
+<attribute name="isPlanned" nodeId="5db543ed">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="4dfb9fe5">false</attribute>
+<attribute name="isOptional" nodeId="d0edf699">false</attribute>
+<attribute name="isRepeatable" nodeId="a3e38c8a">false</attribute>
+<attribute name="isOngoing" nodeId="aac12f4e">false</attribute>
+<attribute name="isEventDriven" nodeId="99466cb5">false</attribute>
+<attribute name="variabilityType" nodeId="b8db8dd8">extends</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

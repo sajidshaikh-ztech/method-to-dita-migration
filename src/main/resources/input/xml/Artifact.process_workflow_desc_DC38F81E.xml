@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Process Workflow Model - Descriptive" Id="_1ngSMP4NEeOEaam52Zfv4w" ShapeiconUrl="images/artifact.gif" lang="en" nodeId="710129e8" Url="core.bus.common.base/workproducts/process_workflow_desc_DC38F81E.html" Name="process_workflow_desc" BackPath="./../../">
+<copyright nodeId="9a123867">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="b4c72047">process_workflow_desc</attribute>
+<attribute name="guid" nodeId="aba1a55b">_1ngSMP4NEeOEaam52Zfv4w</attribute>
+<attribute name="presentationName" nodeId="6e834427">Process Workflow Model - Descriptive</attribute>
+<attribute name="briefDescription" nodeId="613517ad">A graphical depiction of the sequence and dependencies between a set of related activities or sub-processes. It represents a process with foundational process concepts such as pools and lanes, tasks and sub-processes, and sequence flow.</attribute>
+<attribute name="suppressed" nodeId="3a97cb8e">false</attribute>
+<attribute name="orderingGuide" nodeId="b32cb4f8"></attribute>
+<attribute name="isAbstract" nodeId="6bcd9375">false</attribute>
+<attribute name="shapeicon" nodeId="7e85a970"></attribute>
+<attribute name="nodeicon" nodeId="b953f025"></attribute>
+<attribute name="variabilityType" nodeId="3bcf1685">na</attribute>
+<reference name="presentation" nodeId="6111e3b4">
+<Element Type="ArtifactDescription" TypeName="Artifact Description" NodeiconUrl="" DisplayName="Process Workflow Model - Descriptive" Id="-F2WeB5DmqPa-57CEYdzbWA" ShapeiconUrl="images/guidance.gif" nodeId="8050d39" Url="" Name="process_workflow_desc,_1ngSMP4NEeOEaam52Zfv4w" BackPath="">
+<copyright nodeId="dbccc1cf">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="37ef3905">process_workflow_desc,_1ngSMP4NEeOEaam52Zfv4w</attribute>
+<attribute name="guid" nodeId="4907256c">-F2WeB5DmqPa-57CEYdzbWA</attribute>
+<attribute name="presentationName" nodeId="9e128efd">Process Workflow Model - Descriptive</attribute>
+<attribute name="briefDescription" nodeId="f887528d"></attribute>
+<attribute name="suppressed" nodeId="5823c657">false</attribute>
+<attribute name="orderingGuide" nodeId="5af917a0"></attribute>
+<attribute name="authors" nodeId="f6857242">process.adv.proc_design.base</attribute>
+<attribute name="changeDate" nodeId="c62ef037">Fri Feb 24 15:46:39 EST 2017</attribute>
+<attribute name="changeDescription" nodeId="5720576c">FEB 2017 - split out separate WPs for Process Map, Analytical, Executable  and qualified name as Descriptive|JUN 2016 - simplified purpose, main description, brief outline and key considerations|APR 2016 - fix clipped text in purpose|DEC 2015 - renamed from Process Design|NOV 2015 - corrected grammar and spelling mistakes||SEP 2015 - removed an example. Attached new guidance elements.||AUG 2014 – baseline version</attribute>
+<attribute name="version" nodeId="f94eda2e"></attribute>
+<attribute name="mainDescription" nodeId="52ab83f3"></attribute>
+<attribute name="externalId" nodeId="6f98cbfe"></attribute>
+<attribute name="keyConsiderations" nodeId="1abb04c0"></attribute>
+<attribute name="longPresentationName" nodeId="464cf50e"></attribute>
+<attribute name="purpose" nodeId="2c88dca6">&lt;p&gt;
+    Descriptive process workflow models can be used to understand the current processes or designing new or updated
+    processes. Depending on the level they are developed to they are useful for:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        Communicating process flows to stakeholders for strategic discussions of a process to be improved or implemented
+        along with identifying potential problem areas.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Identifying process improvement opportunities through the examination of bottlenecks, consumption of resources,
+        hand-offs, leading practices, policies, business rules etc.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Providing a basis for process benchmarking.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Detailed process design or redesign in order to analyze and optimize process efficiency, or extract requirements.
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="impactOfNotHaving" nodeId="4858321b"></attribute>
+<attribute name="reasonsForNotNeeding" nodeId="29a918e8"></attribute>
+<attribute name="briefOutline" nodeId="aaecca7">&lt;ul&gt;
+    &lt;li&gt;
+        Activities (with attributes)
+    &lt;/li&gt;
+    &lt;li&gt;
+        Artifacts (Resource/Inputs/Outputs/Outcomes)
+    &lt;/li&gt;
+    &lt;li&gt;
+        Actors (people, organizations, systems, external agents)
+    &lt;/li&gt;
+    &lt;li&gt;
+        Gateways
+    &lt;/li&gt;
+    &lt;li&gt;
+        Sequence flow
+    &lt;/li&gt;
+    &lt;li&gt;
+        Data, Information or Message Flows
+    &lt;/li&gt;
+    &lt;li&gt;
+        Pools/Lanes/Swimlanes
+    &lt;/li&gt;
+    &lt;li&gt;
+        Events
+    &lt;/li&gt;
+    &lt;li&gt;
+        Data Stores
+    &lt;/li&gt;
+    &lt;li&gt;
+        Connectors
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="representationOptions" nodeId="c51a2b">&lt;p&gt;
+    The workflows can be built using various notations such as, but not limited to: ANSI Flowchart, BPMN (Business Process
+    Modeling Notation), and EPC (Event-Driven Process Chain).
+&lt;/p&gt;</attribute>
+<attribute name="representation" nodeId="82ee8cd2"></attribute>
+<attribute name="notation" nodeId="f44988b3"></attribute>
+</Element>
+</reference>
+<referenceList sortValue="Manual" name="guidelines" nodeId="bf824f1a">
+<Element Type="Guideline" TypeName="Guideline" NodeiconUrl="" DisplayName="BPMN Guide" Id="_aWo-0BYeEeeKeoxbEicZrA" ShapeiconUrl="images/guidance.gif" nodeId="818cf6cb" Url="core.bus.common.base/guidances/guidelines/bpmn_guide_A0343DD5.html" Name="bpmn_guide" BackPath="./../../../"></Element>
+<Element Type="Guideline" TypeName="Guideline" NodeiconUrl="" DisplayName="EPC Guide" Id="_riEwEBYeEeeKeoxbEicZrA" ShapeiconUrl="images/guidance.gif" nodeId="e875cbd0" Url="core.bus.common.base/guidances/guidelines/epc_guide_4818835.html" Name="epc_guide" BackPath="./../../../"></Element>
+<Element Type="Guideline" TypeName="Guideline" NodeiconUrl="" DisplayName="Process Mapping and Modeling Guide" Id="_-D-lABYeEeeKeoxbEicZrA" ShapeiconUrl="images/guidance.gif" nodeId="bed85a28" Url="core.bus.common.base/guidances/guidelines/proc_mapping_modeling_guide_5094EB06.html" Name="proc_mapping_modeling_guide" BackPath="./../../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="templates" nodeId="cd362383">
+<Element Type="Template" TypeName="Template" NodeiconUrl="" DisplayName="BPMN Notation Stencil" Id="_zuUyMGH_EeWnlqpOcEV9tQ" ShapeiconUrl="images/template.gif" nodeId="52593265" Url="core.bus.common.base/guidances/templates/bpmn_stencil_528174AC.html" Name="bpmn_stencil" BackPath="./../../../"></Element>
+<Element Type="Template" TypeName="Template" NodeiconUrl="" DisplayName="Process Model" Id="_oqEYYFgsEeWuS4En1ohJ7g" ShapeiconUrl="images/template.gif" nodeId="decced26" Url="core.bus.common.base/guidances/templates/proc_model_E9CADD06.html" Name="proc_model" BackPath="./../../../"></Element>
+</referenceList>
+<referenceList name="WorkProduct_WorkProductDescriptors" nodeId="add514f1">
+<Element TypeName="Work Product Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_EKiuscz4Ee63wsgFeJIztg,_MpvdAAY6Ee-Nnt_NYpTIpA_1ngSMP4NEeOEaam52Zfv4w" ConcreteType="Artifact" Url="core.bus.common.base/workproducts/process_workflow_desc_DC38F81E.html" Name="process_workflow_desc" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Process Workflow Model - Descriptive" Id="_MpvdAAY6Ee-Nnt_NYpTIpA_1ngSMP4NEeOEaam52Zfv4w" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="946179c7"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_YTuvEcXoEe6pmdl9Vi4qww,_qGA-EM5xEe63wsgFeJIztg_1ngSMP4NEeOEaam52Zfv4w" ConcreteType="Artifact" Url="core.bus.common.base/workproducts/process_workflow_desc_DC38F81E.html" Name="process_workflow_desc" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Process Workflow Model - Descriptive" Id="_qGA-EM5xEe63wsgFeJIztg_1ngSMP4NEeOEaam52Zfv4w" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="e4b9c879"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_Loy20c3mEe63wsgFeJIztg,_bdPMcM6VEe63wsgFeJIztg_1ngSMP4NEeOEaam52Zfv4w" ConcreteType="Artifact" Url="core.bus.common.base/workproducts/process_workflow_desc_DC38F81E.html" Name="process_workflow_desc" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Process Workflow Model - Descriptive" Id="_bdPMcM6VEe63wsgFeJIztg_1ngSMP4NEeOEaam52Zfv4w" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="5da97e8a"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,__xcGcDDOEe-TauTqJPNl_g_1ngSMP4NEeOEaam52Zfv4w" ConcreteType="Artifact" Url="core.bus.common.base/workproducts/process_workflow_desc_DC38F81E.html" Name="process_workflow_desc" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Process Workflow Model - Descriptive" Id="__xcGcDDOEe-TauTqJPNl_g_1ngSMP4NEeOEaam52Zfv4w" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="2fbd1eec"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_pcbi0c6jEe63wsgFeJIztg,_WmJucM6lEe63wsgFeJIztg_1ngSMP4NEeOEaam52Zfv4w" ConcreteType="Artifact" Url="core.bus.common.base/workproducts/process_workflow_desc_DC38F81E.html" Name="process_workflow_desc" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Process Workflow Model - Descriptive" Id="_WmJucM6lEe63wsgFeJIztg_1ngSMP4NEeOEaam52Zfv4w" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="967fa138"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_4QOfkc6pEe63wsgFeJIztg,_jfi_UM9AEe63wsgFeJIztg_1ngSMP4NEeOEaam52Zfv4w" ConcreteType="Artifact" Url="core.bus.common.base/workproducts/process_workflow_desc_DC38F81E.html" Name="process_workflow_desc" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Process Workflow Model - Descriptive" Id="_jfi_UM9AEe63wsgFeJIztg_1ngSMP4NEeOEaam52Zfv4w" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="401ea82"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_TVvgYZLKEe6Ji6GnvvUfqw&amp;path=_TVvgYZLKEe6Ji6GnvvUfqw,_cKZPgblvEe6NptHkoN3Rkw,_zuZFULlvEe6NptHkoN3Rkw_1ngSMP4NEeOEaam52Zfv4w" ConcreteType="Artifact" Url="core.bus.common.base/workproducts/process_workflow_desc_DC38F81E.html" Name="process_workflow_desc" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Process Workflow Model - Descriptive" Id="_zuZFULlvEe6NptHkoN3Rkw_1ngSMP4NEeOEaam52Zfv4w" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="962ef697"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA,_tK6FoDDNEe-TauTqJPNl_g_1ngSMP4NEeOEaam52Zfv4w" ConcreteType="Artifact" Url="core.bus.common.base/workproducts/process_workflow_desc_DC38F81E.html" Name="process_workflow_desc" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Process Workflow Model - Descriptive" Id="_tK6FoDDNEe-TauTqJPNl_g_1ngSMP4NEeOEaam52Zfv4w" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="2bf01f92"></Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_MerLgdE_Ee6Y56Jk6jqfOA,_7bzD4NE_Ee6Y56Jk6jqfOA_1ngSMP4NEeOEaam52Zfv4w" ConcreteType="Artifact" Url="core.bus.common.base/workproducts/process_workflow_desc_DC38F81E.html" Name="process_workflow_desc" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Process Workflow Model - Descriptive" Id="_7bzD4NE_Ee6Y56Jk6jqfOA_1ngSMP4NEeOEaam52Zfv4w" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="5b56b31c"></Element>
+</referenceList>
+<referenceList name="WorkProduct_OutputFrom_Tasks" nodeId="137243a2">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Conduct fit gap analysis" Id="_KGxk0M5yEe63wsgFeJIztg" ShapeiconUrl="images/task.gif" nodeId="da95dccc" Url="process.adv.eya_oracle.base/tasks/conduct_fit_gap_analysis_A3EEB3D0.html" Name="conduct_fit_gap_analysis" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Define business process inventory" Id="_V9zz0MXYEe6pmdl9Vi4qww" ShapeiconUrl="images/task.gif" nodeId="75a9d42c" Url="process.adv.eya_oracle.base/tasks/def_bus_process_inv_B278C3EE.html" Name="def_bus_process_inv" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Document custom to-be process flows" Id="_vwaAIM6UEe63wsgFeJIztg" ShapeiconUrl="images/task.gif" nodeId="3f2702ef" Url="process.adv.eya_oracle.base/tasks/doc_custom_to_be_proc_7C8ACA44.html" Name="doc_custom_to_be_proc" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Identify risks in process flows" Id="_RYt2sLigEe6mIfhV0mJMlA" ShapeiconUrl="images/task.gif" nodeId="efd52e5a" Url="process.adv.eya_oracle.base/tasks/iden_risks_process_flows_197E6EB2.html" Name="iden_risks_process_flows" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Map requirements to business process flows" Id="_vIqn0MXaEe6pmdl9Vi4qww" ShapeiconUrl="images/task.gif" nodeId="dc859ed1" Url="process.adv.eya_oracle.base/tasks/map_rqmt_bus_process_52EDA383.html" Name="map_rqmt_bus_process" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Review standard flows and pre-solutioned assets" Id="_mr7PEM5sEe63wsgFeJIztg" ShapeiconUrl="images/task.gif" nodeId="a0afd66f" Url="process.adv.eya_oracle.base/tasks/review_std_flows_assets_23260B24.html" Name="review_std_flows_assets" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="WorkProduct_Deliverables" nodeId="7cb174be">
+<Element ShowFullMethodContent="false" Type="Deliverable" TypeName="Deliverable" NodeiconUrl="" DisplayName="Business Process Documents" Id="_Bl5PcM6fEe63wsgFeJIztg" ShapeiconUrl="images/deliverable.gif" nodeId="548febdb" Url="process.adv.eya_oracle.base/workproducts/bus_process_docs_CA5C3CDF.html" Name="bus_process_docs" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Deliverable" TypeName="Deliverable" NodeiconUrl="" DisplayName="Master Business Process Inventory" Id="_B0tbkMz_Ee63wsgFeJIztg" ShapeiconUrl="images/deliverable.gif" nodeId="83acc91f" Url="process.adv.eya_oracle.base/workproducts/master_bus_proc_inv_E79F6C03.html" Name="master_bus_proc_inv" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="WorkProduct_InputTo_Tasks" nodeId="dd687cd6">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Conduct fit gap analysis" Id="_KGxk0M5yEe63wsgFeJIztg" ShapeiconUrl="images/task.gif" nodeId="bd03e8a8" Url="process.adv.eya_oracle.base/tasks/conduct_fit_gap_analysis_A3EEB3D0.html" Name="conduct_fit_gap_analysis" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Define controls" Id="_OgkfAMEeEe6bZYQTbJkTNg" ShapeiconUrl="images/task.gif" nodeId="2cfabb9e" Url="process.adv.eya_oracle.base/tasks/def_controls_38278C76.html" Name="def_controls" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Document RICEFW objects" Id="_X_Bp0M89Ee63wsgFeJIztg" ShapeiconUrl="images/task.gif" nodeId="1a53a5d2" Url="process.adv.eya_oracle.base/tasks/doc_ricefw_objs_FD1BEC13.html" Name="doc_ricefw_objs" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Document configurations" Id="_FCZj0M6lEe63wsgFeJIztg" ShapeiconUrl="images/task.gif" nodeId="999515c9" Url="process.adv.eya_oracle.base/tasks/doc_config_2FBA3060.html" Name="doc_config" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Document security and controls design specifications" Id="_2ybNYLjHEe6mIfhV0mJMlA" ShapeiconUrl="images/task.gif" nodeId="dc581c7b" Url="process.adv.eya_oracle.base/tasks/doc_sec_ctrls_design_specs_1A56723A.html" Name="doc_sec_ctrls_design_specs" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Document target state data flow" Id="_6nX9UNE_Ee6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="9baa753a" Url="process.adv.eya_oracle.base/tasks/doc_target_data_flow_7670F84B.html" Name="doc_target_data_flow" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Finalize master business process inventory" Id="_q4YpwMz-Ee63wsgFeJIztg" ShapeiconUrl="images/task.gif" nodeId="e802f563" Url="process.adv.eya_oracle.base/tasks/fin_master_bus_proc_inv_47CC1A83.html" Name="fin_master_bus_proc_inv" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Finalize to-be business process documents" Id="_xEq40M6eEe63wsgFeJIztg" ShapeiconUrl="images/task.gif" nodeId="a1c69bc" Url="process.adv.eya_oracle.base/tasks/fin_tobe_bus_proc_docs_87A44A7C.html" Name="fin_tobe_bus_proc_docs" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Identify business process owners" Id="_fRv_wM2sEe63wsgFeJIztg" ShapeiconUrl="images/task.gif" nodeId="98ef729a" Url="process.adv.eya_oracle.base/tasks/iden_bus_proc_owners_AFF74CCC.html" Name="iden_bus_proc_owners" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Identify risks in process flows" Id="_RYt2sLigEe6mIfhV0mJMlA" ShapeiconUrl="images/task.gif" nodeId="fd19478a" Url="process.adv.eya_oracle.base/tasks/iden_risks_process_flows_197E6EB2.html" Name="iden_risks_process_flows" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Map source system data fields to target" Id="_WqAhoNFAEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="eb4fba08" Url="process.adv.eya_oracle.base/tasks/map_src_sys_data_target_sys_data_36E2F89A.html" Name="map_src_sys_data_target_sys_data" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Review standard flows and pre-solutioned assets" Id="_mr7PEM5sEe63wsgFeJIztg" ShapeiconUrl="images/task.gif" nodeId="81164e0" Url="process.adv.eya_oracle.base/tasks/review_std_flows_assets_23260B24.html" Name="review_std_flows_assets" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="modifyRoles" nodeId="e16f07f5">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Analyst" Id="_W7RhoAk9EeOR5fNLLJCc5g" ShapeiconUrl="images/role.gif" nodeId="8fe65cf5" Url="core.default.role_def.base/roles/analyst_46D75ED7.html" Name="analyst" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Functional Architect" Id="_EZAaoMxjEe-ZJLQgqxU0kQ" ShapeiconUrl="images/role.gif" nodeId="624ce382" Url="process.adv.eya_oracle.base/roles/func_architect_A28F4FB1.html" Name="func_architect" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Security and Controls Lead" Id="_wH46wLiVEe6mIfhV0mJMlA" ShapeiconUrl="images/role.gif" nodeId="4433bcdf" Url="process.adv.eya_oracle.base/roles/sec_controls_lead_1D93838B.html" Name="sec_controls_lead" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="mandatoryInputToTasks" nodeId="fcbe51d8">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Conduct fit gap analysis" Id="_KGxk0M5yEe63wsgFeJIztg" ShapeiconUrl="images/task.gif" nodeId="16223843" Url="process.adv.eya_oracle.base/tasks/conduct_fit_gap_analysis_A3EEB3D0.html" Name="conduct_fit_gap_analysis" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Define controls" Id="_OgkfAMEeEe6bZYQTbJkTNg" ShapeiconUrl="images/task.gif" nodeId="d02c2aa1" Url="process.adv.eya_oracle.base/tasks/def_controls_38278C76.html" Name="def_controls" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Document RICEFW objects" Id="_X_Bp0M89Ee63wsgFeJIztg" ShapeiconUrl="images/task.gif" nodeId="5d315dd7" Url="process.adv.eya_oracle.base/tasks/doc_ricefw_objs_FD1BEC13.html" Name="doc_ricefw_objs" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Document configurations" Id="_FCZj0M6lEe63wsgFeJIztg" ShapeiconUrl="images/task.gif" nodeId="d2dfc0ad" Url="process.adv.eya_oracle.base/tasks/doc_config_2FBA3060.html" Name="doc_config" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Document security and controls design specifications" Id="_2ybNYLjHEe6mIfhV0mJMlA" ShapeiconUrl="images/task.gif" nodeId="12582e56" Url="process.adv.eya_oracle.base/tasks/doc_sec_ctrls_design_specs_1A56723A.html" Name="doc_sec_ctrls_design_specs" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Document target state data flow" Id="_6nX9UNE_Ee6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="1ed190e5" Url="process.adv.eya_oracle.base/tasks/doc_target_data_flow_7670F84B.html" Name="doc_target_data_flow" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Finalize master business process inventory" Id="_q4YpwMz-Ee63wsgFeJIztg" ShapeiconUrl="images/task.gif" nodeId="6cdc83ce" Url="process.adv.eya_oracle.base/tasks/fin_master_bus_proc_inv_47CC1A83.html" Name="fin_master_bus_proc_inv" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Finalize to-be business process documents" Id="_xEq40M6eEe63wsgFeJIztg" ShapeiconUrl="images/task.gif" nodeId="87ae4526" Url="process.adv.eya_oracle.base/tasks/fin_tobe_bus_proc_docs_87A44A7C.html" Name="fin_tobe_bus_proc_docs" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Identify business process owners" Id="_fRv_wM2sEe63wsgFeJIztg" ShapeiconUrl="images/task.gif" nodeId="cdfeba2c" Url="process.adv.eya_oracle.base/tasks/iden_bus_proc_owners_AFF74CCC.html" Name="iden_bus_proc_owners" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Identify risks in process flows" Id="_RYt2sLigEe6mIfhV0mJMlA" ShapeiconUrl="images/task.gif" nodeId="2809f2c4" Url="process.adv.eya_oracle.base/tasks/iden_risks_process_flows_197E6EB2.html" Name="iden_risks_process_flows" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Map source system data fields to target" Id="_WqAhoNFAEe6Y56Jk6jqfOA" ShapeiconUrl="images/task.gif" nodeId="1d803b21" Url="process.adv.eya_oracle.base/tasks/map_src_sys_data_target_sys_data_36E2F89A.html" Name="map_src_sys_data_target_sys_data" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Review standard flows and pre-solutioned assets" Id="_mr7PEM5sEe63wsgFeJIztg" ShapeiconUrl="images/task.gif" nodeId="611cab64" Url="process.adv.eya_oracle.base/tasks/review_std_flows_assets_23260B24.html" Name="review_std_flows_assets" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="outputFromTasks" nodeId="c1f1c396">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Conduct fit gap analysis" Id="_KGxk0M5yEe63wsgFeJIztg" ShapeiconUrl="images/task.gif" nodeId="68f162a2" Url="process.adv.eya_oracle.base/tasks/conduct_fit_gap_analysis_A3EEB3D0.html" Name="conduct_fit_gap_analysis" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Define business process inventory" Id="_V9zz0MXYEe6pmdl9Vi4qww" ShapeiconUrl="images/task.gif" nodeId="d1034925" Url="process.adv.eya_oracle.base/tasks/def_bus_process_inv_B278C3EE.html" Name="def_bus_process_inv" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Document custom to-be process flows" Id="_vwaAIM6UEe63wsgFeJIztg" ShapeiconUrl="images/task.gif" nodeId="ece44b93" Url="process.adv.eya_oracle.base/tasks/doc_custom_to_be_proc_7C8ACA44.html" Name="doc_custom_to_be_proc" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Identify risks in process flows" Id="_RYt2sLigEe6mIfhV0mJMlA" ShapeiconUrl="images/task.gif" nodeId="d0e5de94" Url="process.adv.eya_oracle.base/tasks/iden_risks_process_flows_197E6EB2.html" Name="iden_risks_process_flows" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Map requirements to business process flows" Id="_vIqn0MXaEe6pmdl9Vi4qww" ShapeiconUrl="images/task.gif" nodeId="ccce5b00" Url="process.adv.eya_oracle.base/tasks/map_rqmt_bus_process_52EDA383.html" Name="map_rqmt_bus_process" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Review standard flows and pre-solutioned assets" Id="_mr7PEM5sEe63wsgFeJIztg" ShapeiconUrl="images/task.gif" nodeId="1099ea1e" Url="process.adv.eya_oracle.base/tasks/review_std_flows_assets_23260B24.html" Name="review_std_flows_assets" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="c0bf6efa">
+<Element TypeName="Work Product Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_EKiuscz4Ee63wsgFeJIztg,_MpvdAAY6Ee-Nnt_NYpTIpA_1ngSMP4NEeOEaam52Zfv4w" ConcreteType="Artifact" Url="core.bus.common.base/workproducts/process_workflow_desc_DC38F81E.html" Name="process_workflow_desc" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Process Workflow Model - Descriptive" Id="_MpvdAAY6Ee-Nnt_NYpTIpA_1ngSMP4NEeOEaam52Zfv4w" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="617f1fc8">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Business Functional Design" Id="_C-aFkZLKEe6Ji6GnvvUfqw" relProcessPath="_C-aFkZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw" nodeId="b336f795" Url="process.adv.eya_oracle.base/capabilitypatterns/bus_func_design_wkstrm_3B7B6F5B.html" Name="bus_func_design_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="78644a4d">bus_func_design_wkstrm</attribute>
+<attribute name="guid" nodeId="457abb5b">_C-aFkZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="6124816">Business Functional Design</attribute>
+<attribute name="briefDescription" nodeId="e5ce5068"></attribute>
+<attribute name="suppressed" nodeId="20722810">false</attribute>
+<attribute name="orderingGuide" nodeId="e3a39067"></attribute>
+<attribute name="isAbstract" nodeId="be3a3123">false</attribute>
+<attribute name="shapeicon" nodeId="2259ccd9"></attribute>
+<attribute name="nodeicon" nodeId="7ba465c7"></attribute>
+<attribute name="prefix" nodeId="3d580d2a">workstream</attribute>
+<attribute name="isPlanned" nodeId="c41eb5e8">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="78e78e43">false</attribute>
+<attribute name="isOptional" nodeId="995646f3">false</attribute>
+<attribute name="isRepeatable" nodeId="e52f9b27">false</attribute>
+<attribute name="isOngoing" nodeId="de316971">false</attribute>
+<attribute name="isEventDriven" nodeId="49828e00">false</attribute>
+<attribute name="variabilityType" nodeId="e39bd3f8">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Define Master Business Process Inventory" Id="_EKiuscz4Ee63wsgFeJIztg" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_EKiuscz4Ee63wsgFeJIztg" nodeId="20c40768" Url="process.adv.eya_oracle.base/capabilitypatterns/define_mstr_bus_proc_inv_1A50D7DC.html" Name="define_mstr_bus_proc_inv" BackPath="./../../">
+<attribute name="name" nodeId="5ff59c36">define_mstr_bus_proc_inv</attribute>
+<attribute name="guid" nodeId="5616c6dd">_EKiuscz4Ee63wsgFeJIztg</attribute>
+<attribute name="presentationName" nodeId="d128530a">Define Master Business Process Inventory</attribute>
+<attribute name="briefDescription" nodeId="1619cbd">Confirm with key client stakeholders the complete set of out-of-the-box Oracle business processes and any EY pre-solutioned process assets that will be included in the target state and identify client process owners.</attribute>
+<attribute name="suppressed" nodeId="184586d2">false</attribute>
+<attribute name="orderingGuide" nodeId="f94d1021"></attribute>
+<attribute name="isAbstract" nodeId="90ef4ced">false</attribute>
+<attribute name="shapeicon" nodeId="80e7cdff"></attribute>
+<attribute name="nodeicon" nodeId="5467766a"></attribute>
+<attribute name="prefix" nodeId="43860d61"></attribute>
+<attribute name="isPlanned" nodeId="b929d03">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="a1f20d14">false</attribute>
+<attribute name="isOptional" nodeId="50c6282f">false</attribute>
+<attribute name="isRepeatable" nodeId="491c793d">false</attribute>
+<attribute name="isOngoing" nodeId="356d121f">false</attribute>
+<attribute name="isEventDriven" nodeId="e89d7a39">false</attribute>
+<attribute name="variabilityType" nodeId="c2774db9">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_EKiuscz4Ee63wsgFeJIztg,_MpvdAAY6Ee-Nnt_NYpTIpA_1ngSMP4NEeOEaam52Zfv4w" ConcreteType="Artifact" Url="core.bus.common.base/workproducts/process_workflow_desc_DC38F81E.html" Name="process_workflow_desc" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Process Workflow Model - Descriptive" Id="_MpvdAAY6Ee-Nnt_NYpTIpA_1ngSMP4NEeOEaam52Zfv4w" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="f321e4c3">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="1754dbc8" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="c38c9554">eya_oracle</attribute>
+<attribute name="guid" nodeId="76143b70">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="6006fd11">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="681e3ad3"></attribute>
+<attribute name="suppressed" nodeId="b25d5023">false</attribute>
+<attribute name="orderingGuide" nodeId="c42021e7"></attribute>
+<attribute name="isAbstract" nodeId="334ad1e6">false</attribute>
+<attribute name="shapeicon" nodeId="b817bd8"></attribute>
+<attribute name="nodeicon" nodeId="dbe40e5d"></attribute>
+<attribute name="prefix" nodeId="4b6b5d42"></attribute>
+<attribute name="isPlanned" nodeId="e89c5d05">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="faf86190">false</attribute>
+<attribute name="isOptional" nodeId="27fdecad">false</attribute>
+<attribute name="isRepeatable" nodeId="3eecbd12">false</attribute>
+<attribute name="isOngoing" nodeId="99a9dad9">false</attribute>
+<attribute name="isEventDriven" nodeId="b5a2c1c">false</attribute>
+<attribute name="variabilityType" nodeId="74ca7e86">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Confirm and Design" Id="_bRCPsIs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA" nodeId="673ae657" Url="process.adv.eya_oracle.base/deliveryprocesses/confirm_and_design_29FFDB9.html" Name="confirm_and_design" BackPath="./../../">
+<attribute name="name" nodeId="f32bf4f0">confirm_and_design</attribute>
+<attribute name="guid" nodeId="486f064a">_bRCPsIs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="e059119e">Confirm and Design</attribute>
+<attribute name="briefDescription" nodeId="208c560d">Define business requirements, map process flows and facilitate fit-gap workshops. Define technology and testing strategies. Develop the master configuration workbook, RICEFW inventory and prepare for progressive build cycles.</attribute>
+<attribute name="suppressed" nodeId="7ce97deb">false</attribute>
+<attribute name="orderingGuide" nodeId="88fb73d4"></attribute>
+<attribute name="isAbstract" nodeId="b263288b">false</attribute>
+<attribute name="shapeicon" nodeId="8022b526"></attribute>
+<attribute name="nodeicon" nodeId="3bd9e22b"></attribute>
+<attribute name="prefix" nodeId="5f68b0f9"></attribute>
+<attribute name="isPlanned" nodeId="e4f83397">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="f19f6acf">false</attribute>
+<attribute name="isOptional" nodeId="9645f7a4">false</attribute>
+<attribute name="isRepeatable" nodeId="bc42d7d7">false</attribute>
+<attribute name="isOngoing" nodeId="d136218f">false</attribute>
+<attribute name="isEventDriven" nodeId="b0244db1">false</attribute>
+<attribute name="variabilityType" nodeId="413ddad9">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Define Master Business Process Inventory" Id="_zIY6ETC0Ee-TauTqJPNl_g" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA,_zIY6ETC0Ee-TauTqJPNl_g" nodeId="a8a3e3bd" Url="process.adv.eya_oracle.base/deliveryprocesses/define_mstr_bus_proc_inv_EF82E60B.html" Name="define_mstr_bus_proc_inv" BackPath="./../../">
+<attribute name="name" nodeId="5b4ae326">define_mstr_bus_proc_inv</attribute>
+<attribute name="guid" nodeId="9414574a">_zIY6ETC0Ee-TauTqJPNl_g</attribute>
+<attribute name="presentationName" nodeId="1cd29baa">Define Master Business Process Inventory</attribute>
+<attribute name="briefDescription" nodeId="b2359f8e">Confirm with key client stakeholders the complete set of out-of-the-box Oracle business processes and any EY pre-solutioned process assets that will be included in the target state and identify client process owners.</attribute>
+<attribute name="suppressed" nodeId="2f903c35">false</attribute>
+<attribute name="orderingGuide" nodeId="b2e7330"></attribute>
+<attribute name="isAbstract" nodeId="cbbf5790">false</attribute>
+<attribute name="shapeicon" nodeId="b00f744"></attribute>
+<attribute name="nodeicon" nodeId="90e4a69d"></attribute>
+<attribute name="prefix" nodeId="a475cbe7"></attribute>
+<attribute name="isPlanned" nodeId="9542711e">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="7e5d3447">false</attribute>
+<attribute name="isOptional" nodeId="78d55b88">false</attribute>
+<attribute name="isRepeatable" nodeId="2eb92eda">false</attribute>
+<attribute name="isOngoing" nodeId="a7584cbb">false</attribute>
+<attribute name="isEventDriven" nodeId="44b1942">false</attribute>
+<attribute name="variabilityType" nodeId="b661729f">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_YTuvEcXoEe6pmdl9Vi4qww,_qGA-EM5xEe63wsgFeJIztg_1ngSMP4NEeOEaam52Zfv4w" ConcreteType="Artifact" Url="core.bus.common.base/workproducts/process_workflow_desc_DC38F81E.html" Name="process_workflow_desc" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Process Workflow Model - Descriptive" Id="_qGA-EM5xEe63wsgFeJIztg_1ngSMP4NEeOEaam52Zfv4w" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="8835ff9d">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Business Functional Design" Id="_C-aFkZLKEe6Ji6GnvvUfqw" relProcessPath="_C-aFkZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw" nodeId="a116bcb2" Url="process.adv.eya_oracle.base/capabilitypatterns/bus_func_design_wkstrm_3B7B6F5B.html" Name="bus_func_design_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="886ecfa4">bus_func_design_wkstrm</attribute>
+<attribute name="guid" nodeId="ccc1ffd6">_C-aFkZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="db856b7a">Business Functional Design</attribute>
+<attribute name="briefDescription" nodeId="2cafca4"></attribute>
+<attribute name="suppressed" nodeId="210453bc">false</attribute>
+<attribute name="orderingGuide" nodeId="dd989f4a"></attribute>
+<attribute name="isAbstract" nodeId="f8f3544e">false</attribute>
+<attribute name="shapeicon" nodeId="f42740a"></attribute>
+<attribute name="nodeicon" nodeId="3a5753c4"></attribute>
+<attribute name="prefix" nodeId="c423d35c">workstream</attribute>
+<attribute name="isPlanned" nodeId="49ff9575">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="e8252660">false</attribute>
+<attribute name="isOptional" nodeId="6aaf20cf">false</attribute>
+<attribute name="isRepeatable" nodeId="48a69d72">false</attribute>
+<attribute name="isOngoing" nodeId="1e5a99f6">false</attribute>
+<attribute name="isEventDriven" nodeId="b7f2b881">false</attribute>
+<attribute name="variabilityType" nodeId="802b8d2d">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Conduct Fit Gap Workshops" Id="_YTuvEcXoEe6pmdl9Vi4qww" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_YTuvEcXoEe6pmdl9Vi4qww" nodeId="979e6d37" Url="process.adv.eya_oracle.base/capabilitypatterns/conduct_fit_gap_workshops_A4C4E3BE.html" Name="conduct_fit_gap_workshops" BackPath="./../../">
+<attribute name="name" nodeId="1a1ebb71">conduct_fit_gap_workshops</attribute>
+<attribute name="guid" nodeId="1a40562">_YTuvEcXoEe6pmdl9Vi4qww</attribute>
+<attribute name="presentationName" nodeId="2c1c0d17">Conduct Fit Gap Workshops</attribute>
+<attribute name="briefDescription" nodeId="efc80675">During each of the fit gap workshop sessions, walk the client stakeholders through the Oracle standard (out-of-the-box base) process flows as well as EY&apos;s pre-solutioned business process assets and determine their fit to the client&apos;s requirements.</attribute>
+<attribute name="suppressed" nodeId="7efdc4e2">false</attribute>
+<attribute name="orderingGuide" nodeId="ff994cfc"></attribute>
+<attribute name="isAbstract" nodeId="11e8f57f">false</attribute>
+<attribute name="shapeicon" nodeId="329b567c"></attribute>
+<attribute name="nodeicon" nodeId="8a8dd570"></attribute>
+<attribute name="prefix" nodeId="974cdf92"></attribute>
+<attribute name="isPlanned" nodeId="b37574cc">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="9501474e">false</attribute>
+<attribute name="isOptional" nodeId="4f260a4e">false</attribute>
+<attribute name="isRepeatable" nodeId="21e09167">false</attribute>
+<attribute name="isOngoing" nodeId="396e30c9">false</attribute>
+<attribute name="isEventDriven" nodeId="1ca67660">false</attribute>
+<attribute name="variabilityType" nodeId="aa6e6df">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_YTuvEcXoEe6pmdl9Vi4qww,_qGA-EM5xEe63wsgFeJIztg_1ngSMP4NEeOEaam52Zfv4w" ConcreteType="Artifact" Url="core.bus.common.base/workproducts/process_workflow_desc_DC38F81E.html" Name="process_workflow_desc" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Process Workflow Model - Descriptive" Id="_qGA-EM5xEe63wsgFeJIztg_1ngSMP4NEeOEaam52Zfv4w" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="9141f2f">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="578ea5de" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="c1d2a2fe">eya_oracle</attribute>
+<attribute name="guid" nodeId="98e3b627">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="b6dac3e1">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="bbe76891"></attribute>
+<attribute name="suppressed" nodeId="1ae59c22">false</attribute>
+<attribute name="orderingGuide" nodeId="9c3efd91"></attribute>
+<attribute name="isAbstract" nodeId="3b6e0fdb">false</attribute>
+<attribute name="shapeicon" nodeId="22c4f36a"></attribute>
+<attribute name="nodeicon" nodeId="4bfd177f"></attribute>
+<attribute name="prefix" nodeId="ad28b32b"></attribute>
+<attribute name="isPlanned" nodeId="5e1b9aa">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="33fba4be">false</attribute>
+<attribute name="isOptional" nodeId="15209ba1">false</attribute>
+<attribute name="isRepeatable" nodeId="2e75d1fa">false</attribute>
+<attribute name="isOngoing" nodeId="662f36d1">false</attribute>
+<attribute name="isEventDriven" nodeId="832d9c49">false</attribute>
+<attribute name="variabilityType" nodeId="5082221b">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Confirm and Design" Id="_bRCPsIs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA" nodeId="3eeb9c11" Url="process.adv.eya_oracle.base/deliveryprocesses/confirm_and_design_29FFDB9.html" Name="confirm_and_design" BackPath="./../../">
+<attribute name="name" nodeId="1de793e2">confirm_and_design</attribute>
+<attribute name="guid" nodeId="51407e42">_bRCPsIs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="b2525c98">Confirm and Design</attribute>
+<attribute name="briefDescription" nodeId="60176e0c">Define business requirements, map process flows and facilitate fit-gap workshops. Define technology and testing strategies. Develop the master configuration workbook, RICEFW inventory and prepare for progressive build cycles.</attribute>
+<attribute name="suppressed" nodeId="da55eb81">false</attribute>
+<attribute name="orderingGuide" nodeId="3f9bd75b"></attribute>
+<attribute name="isAbstract" nodeId="4ef94c73">false</attribute>
+<attribute name="shapeicon" nodeId="4e335910"></attribute>
+<attribute name="nodeicon" nodeId="3670ac6a"></attribute>
+<attribute name="prefix" nodeId="e85bad1a"></attribute>
+<attribute name="isPlanned" nodeId="bf6fc649">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="78a8f7d4">false</attribute>
+<attribute name="isOptional" nodeId="53574d5e">false</attribute>
+<attribute name="isRepeatable" nodeId="c8e144f">false</attribute>
+<attribute name="isOngoing" nodeId="edf4dc2e">false</attribute>
+<attribute name="isEventDriven" nodeId="8ecef331">false</attribute>
+<attribute name="variabilityType" nodeId="82c55410">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Conduct Fit Gap Workshops" Id="_WFNZQdpFEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA,_WFNZQdpFEe6TH6yb1zVWhw" nodeId="65de4944" Url="process.adv.eya_oracle.base/deliveryprocesses/conduct_fit_gap_workshops_AD582591.html" Name="conduct_fit_gap_workshops" BackPath="./../../">
+<attribute name="name" nodeId="46504950">conduct_fit_gap_workshops</attribute>
+<attribute name="guid" nodeId="7def7efa">_WFNZQdpFEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="5141aec6">Conduct Fit Gap Workshops</attribute>
+<attribute name="briefDescription" nodeId="92f944e7">During each of the fit gap workshop sessions, walk the client stakeholders through the Oracle standard (out-of-the-box base) process flows as well as EY&apos;s pre-solutioned business process assets and determine their fit to the client&apos;s requirements.</attribute>
+<attribute name="suppressed" nodeId="8e11fe6c">false</attribute>
+<attribute name="orderingGuide" nodeId="902a4ee8"></attribute>
+<attribute name="isAbstract" nodeId="94acd69">false</attribute>
+<attribute name="shapeicon" nodeId="74d6fe45"></attribute>
+<attribute name="nodeicon" nodeId="c6daaa37"></attribute>
+<attribute name="prefix" nodeId="9071be23"></attribute>
+<attribute name="isPlanned" nodeId="d3720e7b">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="3ebe487d">false</attribute>
+<attribute name="isOptional" nodeId="93541de6">false</attribute>
+<attribute name="isRepeatable" nodeId="3e7341ca">false</attribute>
+<attribute name="isOngoing" nodeId="224ad2d7">false</attribute>
+<attribute name="isEventDriven" nodeId="920968b3">false</attribute>
+<attribute name="variabilityType" nodeId="bf54798b">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_Loy20c3mEe63wsgFeJIztg,_bdPMcM6VEe63wsgFeJIztg_1ngSMP4NEeOEaam52Zfv4w" ConcreteType="Artifact" Url="core.bus.common.base/workproducts/process_workflow_desc_DC38F81E.html" Name="process_workflow_desc" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Process Workflow Model - Descriptive" Id="_bdPMcM6VEe63wsgFeJIztg_1ngSMP4NEeOEaam52Zfv4w" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="f712740f">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Business Functional Design" Id="_C-aFkZLKEe6Ji6GnvvUfqw" relProcessPath="_C-aFkZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw" nodeId="e0a38b9a" Url="process.adv.eya_oracle.base/capabilitypatterns/bus_func_design_wkstrm_3B7B6F5B.html" Name="bus_func_design_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="d1c377d">bus_func_design_wkstrm</attribute>
+<attribute name="guid" nodeId="db01220f">_C-aFkZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="3ab73711">Business Functional Design</attribute>
+<attribute name="briefDescription" nodeId="24869aab"></attribute>
+<attribute name="suppressed" nodeId="651901ce">false</attribute>
+<attribute name="orderingGuide" nodeId="57277036"></attribute>
+<attribute name="isAbstract" nodeId="501fb8ca">false</attribute>
+<attribute name="shapeicon" nodeId="ef182ba9"></attribute>
+<attribute name="nodeicon" nodeId="b926e31b"></attribute>
+<attribute name="prefix" nodeId="c9607d6f">workstream</attribute>
+<attribute name="isPlanned" nodeId="fa58627f">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="c6216a09">false</attribute>
+<attribute name="isOptional" nodeId="17f796db">false</attribute>
+<attribute name="isRepeatable" nodeId="df03a0b3">false</attribute>
+<attribute name="isOngoing" nodeId="75cfd6d7">false</attribute>
+<attribute name="isEventDriven" nodeId="baab1132">false</attribute>
+<attribute name="variabilityType" nodeId="4470633f">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Conduct Business Process Elaboration Workshops" Id="_Loy20c3mEe63wsgFeJIztg" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_Loy20c3mEe63wsgFeJIztg" nodeId="ec728392" Url="process.adv.eya_oracle.base/capabilitypatterns/conduct_bus_proc_elab_ws_34393A49.html" Name="conduct_bus_proc_elab_ws" BackPath="./../../">
+<attribute name="name" nodeId="5c90244a">conduct_bus_proc_elab_ws</attribute>
+<attribute name="guid" nodeId="a424050b">_Loy20c3mEe63wsgFeJIztg</attribute>
+<attribute name="presentationName" nodeId="97e656a4">Conduct Business Process Elaboration Workshops</attribute>
+<attribute name="briefDescription" nodeId="ba253256">For requirements that are a partial fit or no fit to Oracle&apos;s standard process flows and EY&apos;s pre-solutioned assets, conduct process elaboration workshops to further analyze the gaps, discuss alternatives and finalize next steps.</attribute>
+<attribute name="suppressed" nodeId="a0292e2b">false</attribute>
+<attribute name="orderingGuide" nodeId="34d143a0"></attribute>
+<attribute name="isAbstract" nodeId="603dedb7">false</attribute>
+<attribute name="shapeicon" nodeId="ddf2fadc"></attribute>
+<attribute name="nodeicon" nodeId="2462d4d5"></attribute>
+<attribute name="prefix" nodeId="560e98ca"></attribute>
+<attribute name="isPlanned" nodeId="953dd0df">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="aee6ffac">false</attribute>
+<attribute name="isOptional" nodeId="a9c684ac">false</attribute>
+<attribute name="isRepeatable" nodeId="fb215ae0">false</attribute>
+<attribute name="isOngoing" nodeId="e6085c90">false</attribute>
+<attribute name="isEventDriven" nodeId="76c53485">false</attribute>
+<attribute name="variabilityType" nodeId="9a3a21da">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_Loy20c3mEe63wsgFeJIztg,_bdPMcM6VEe63wsgFeJIztg_1ngSMP4NEeOEaam52Zfv4w" ConcreteType="Artifact" Url="core.bus.common.base/workproducts/process_workflow_desc_DC38F81E.html" Name="process_workflow_desc" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Process Workflow Model - Descriptive" Id="_bdPMcM6VEe63wsgFeJIztg_1ngSMP4NEeOEaam52Zfv4w" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="b050b897">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="c06ada6e" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="da14e056">eya_oracle</attribute>
+<attribute name="guid" nodeId="14ed4210">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="899bdabb">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="c637da9c"></attribute>
+<attribute name="suppressed" nodeId="a7ae5fc">false</attribute>
+<attribute name="orderingGuide" nodeId="3e8255d8"></attribute>
+<attribute name="isAbstract" nodeId="d6055330">false</attribute>
+<attribute name="shapeicon" nodeId="843abfb2"></attribute>
+<attribute name="nodeicon" nodeId="ed1534bd"></attribute>
+<attribute name="prefix" nodeId="64148ae"></attribute>
+<attribute name="isPlanned" nodeId="63e36bf4">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="fbc0a819">false</attribute>
+<attribute name="isOptional" nodeId="b8543192">false</attribute>
+<attribute name="isRepeatable" nodeId="81806b5">false</attribute>
+<attribute name="isOngoing" nodeId="fba6c1fe">false</attribute>
+<attribute name="isEventDriven" nodeId="eb26fe0a">false</attribute>
+<attribute name="variabilityType" nodeId="e9b914e7">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Confirm and Design" Id="_bRCPsIs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA" nodeId="c58b8bac" Url="process.adv.eya_oracle.base/deliveryprocesses/confirm_and_design_29FFDB9.html" Name="confirm_and_design" BackPath="./../../">
+<attribute name="name" nodeId="b2230563">confirm_and_design</attribute>
+<attribute name="guid" nodeId="df48581e">_bRCPsIs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="14c3e3d3">Confirm and Design</attribute>
+<attribute name="briefDescription" nodeId="d61da32f">Define business requirements, map process flows and facilitate fit-gap workshops. Define technology and testing strategies. Develop the master configuration workbook, RICEFW inventory and prepare for progressive build cycles.</attribute>
+<attribute name="suppressed" nodeId="101dec57">false</attribute>
+<attribute name="orderingGuide" nodeId="1e2974b9"></attribute>
+<attribute name="isAbstract" nodeId="d82918de">false</attribute>
+<attribute name="shapeicon" nodeId="9f6efd27"></attribute>
+<attribute name="nodeicon" nodeId="bb291996"></attribute>
+<attribute name="prefix" nodeId="a8786cc4"></attribute>
+<attribute name="isPlanned" nodeId="ae294789">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="4839fb57">false</attribute>
+<attribute name="isOptional" nodeId="a14e188a">false</attribute>
+<attribute name="isRepeatable" nodeId="3d428a1">false</attribute>
+<attribute name="isOngoing" nodeId="4434dd30">false</attribute>
+<attribute name="isEventDriven" nodeId="d161d4e1">false</attribute>
+<attribute name="variabilityType" nodeId="1a41867f">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Conduct Business Process Elaboration Workshops" Id="_YPs64dpFEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA,_YPs64dpFEe6TH6yb1zVWhw" nodeId="52173aa9" Url="process.adv.eya_oracle.base/deliveryprocesses/conduct_bus_proc_elab_ws_8244D0ED.html" Name="conduct_bus_proc_elab_ws" BackPath="./../../">
+<attribute name="name" nodeId="96d11df9">conduct_bus_proc_elab_ws</attribute>
+<attribute name="guid" nodeId="c4448915">_YPs64dpFEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="ed74e718">Conduct Business Process Elaboration Workshops</attribute>
+<attribute name="briefDescription" nodeId="7903f6b1">For requirements that are a partial fit or no fit to Oracle&apos;s standard process flows and EY&apos;s pre-solutioned assets, conduct process elaboration workshops to further analyze the gaps, discuss alternatives and finalize next steps.</attribute>
+<attribute name="suppressed" nodeId="9d21657a">false</attribute>
+<attribute name="orderingGuide" nodeId="6245bb45"></attribute>
+<attribute name="isAbstract" nodeId="1f2e3ff1">false</attribute>
+<attribute name="shapeicon" nodeId="fb37157c"></attribute>
+<attribute name="nodeicon" nodeId="badfe225"></attribute>
+<attribute name="prefix" nodeId="722856f0"></attribute>
+<attribute name="isPlanned" nodeId="b96afda0">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="a5134607">false</attribute>
+<attribute name="isOptional" nodeId="35456fc6">false</attribute>
+<attribute name="isRepeatable" nodeId="3ea36f15">false</attribute>
+<attribute name="isOngoing" nodeId="6b590e66">false</attribute>
+<attribute name="isEventDriven" nodeId="e4595dff">false</attribute>
+<attribute name="variabilityType" nodeId="ed880067">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,__xcGcDDOEe-TauTqJPNl_g_1ngSMP4NEeOEaam52Zfv4w" ConcreteType="Artifact" Url="core.bus.common.base/workproducts/process_workflow_desc_DC38F81E.html" Name="process_workflow_desc" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Process Workflow Model - Descriptive" Id="__xcGcDDOEe-TauTqJPNl_g_1ngSMP4NEeOEaam52Zfv4w" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="ba4f2390">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Business Functional Design" Id="_C-aFkZLKEe6Ji6GnvvUfqw" relProcessPath="_C-aFkZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw" nodeId="6bd0c550" Url="process.adv.eya_oracle.base/capabilitypatterns/bus_func_design_wkstrm_3B7B6F5B.html" Name="bus_func_design_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="9185ba1b">bus_func_design_wkstrm</attribute>
+<attribute name="guid" nodeId="53c670d">_C-aFkZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="1e8eb5de">Business Functional Design</attribute>
+<attribute name="briefDescription" nodeId="383c9f23"></attribute>
+<attribute name="suppressed" nodeId="2e834364">false</attribute>
+<attribute name="orderingGuide" nodeId="838a34ca"></attribute>
+<attribute name="isAbstract" nodeId="b7807e63">false</attribute>
+<attribute name="shapeicon" nodeId="f55dfab0"></attribute>
+<attribute name="nodeicon" nodeId="3dc1afef"></attribute>
+<attribute name="prefix" nodeId="e7bb79f4">workstream</attribute>
+<attribute name="isPlanned" nodeId="50fa120f">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="36179cfd">false</attribute>
+<attribute name="isOptional" nodeId="6bc0d52b">false</attribute>
+<attribute name="isRepeatable" nodeId="1dfe0e6b">false</attribute>
+<attribute name="isOngoing" nodeId="8fd00b08">false</attribute>
+<attribute name="isEventDriven" nodeId="1121b804">false</attribute>
+<attribute name="variabilityType" nodeId="1ff334aa">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_pcbi0c6jEe63wsgFeJIztg,_WmJucM6lEe63wsgFeJIztg_1ngSMP4NEeOEaam52Zfv4w" ConcreteType="Artifact" Url="core.bus.common.base/workproducts/process_workflow_desc_DC38F81E.html" Name="process_workflow_desc" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Process Workflow Model - Descriptive" Id="_WmJucM6lEe63wsgFeJIztg_1ngSMP4NEeOEaam52Zfv4w" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="99b34b7">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Business Functional Design" Id="_C-aFkZLKEe6Ji6GnvvUfqw" relProcessPath="_C-aFkZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw" nodeId="76d9b488" Url="process.adv.eya_oracle.base/capabilitypatterns/bus_func_design_wkstrm_3B7B6F5B.html" Name="bus_func_design_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="264e9254">bus_func_design_wkstrm</attribute>
+<attribute name="guid" nodeId="12c02fb5">_C-aFkZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="fb2c3750">Business Functional Design</attribute>
+<attribute name="briefDescription" nodeId="179685ab"></attribute>
+<attribute name="suppressed" nodeId="610bbd2e">false</attribute>
+<attribute name="orderingGuide" nodeId="10797601"></attribute>
+<attribute name="isAbstract" nodeId="8aaff6f4">false</attribute>
+<attribute name="shapeicon" nodeId="4bb54c18"></attribute>
+<attribute name="nodeicon" nodeId="996ec204"></attribute>
+<attribute name="prefix" nodeId="68508fa3">workstream</attribute>
+<attribute name="isPlanned" nodeId="219f0135">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="a00c737">false</attribute>
+<attribute name="isOptional" nodeId="691ac1a2">false</attribute>
+<attribute name="isRepeatable" nodeId="c62aab12">false</attribute>
+<attribute name="isOngoing" nodeId="971065ce">false</attribute>
+<attribute name="isEventDriven" nodeId="b6f1cf81">false</attribute>
+<attribute name="variabilityType" nodeId="de55228b">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Create Master Configurations Workbook" Id="_pcbi0c6jEe63wsgFeJIztg" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_pcbi0c6jEe63wsgFeJIztg" nodeId="ee99c5a5" Url="process.adv.eya_oracle.base/capabilitypatterns/create_mas_config_wb_7F100F61.html" Name="create_mas_config_wb" BackPath="./../../">
+<attribute name="name" nodeId="5aa850b1">create_mas_config_wb</attribute>
+<attribute name="guid" nodeId="1536507">_pcbi0c6jEe63wsgFeJIztg</attribute>
+<attribute name="presentationName" nodeId="21d50f31">Create Master Configurations Workbook</attribute>
+<attribute name="briefDescription" nodeId="3a9e4ef3">Define the configurations that are needed to enable the in-scope business processes in the target state and document any necessary steps, values and screenshots.</attribute>
+<attribute name="suppressed" nodeId="b67f87f">false</attribute>
+<attribute name="orderingGuide" nodeId="6b5b99cd"></attribute>
+<attribute name="isAbstract" nodeId="d442f6c5">false</attribute>
+<attribute name="shapeicon" nodeId="8bec5317"></attribute>
+<attribute name="nodeicon" nodeId="4e095f42"></attribute>
+<attribute name="prefix" nodeId="ebfa535d"></attribute>
+<attribute name="isPlanned" nodeId="ec777504">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="e1095f07">false</attribute>
+<attribute name="isOptional" nodeId="ad9798bc">false</attribute>
+<attribute name="isRepeatable" nodeId="425dd718">false</attribute>
+<attribute name="isOngoing" nodeId="5f4c544f">false</attribute>
+<attribute name="isEventDriven" nodeId="31e6d72b">false</attribute>
+<attribute name="variabilityType" nodeId="37150632">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_pcbi0c6jEe63wsgFeJIztg,_WmJucM6lEe63wsgFeJIztg_1ngSMP4NEeOEaam52Zfv4w" ConcreteType="Artifact" Url="core.bus.common.base/workproducts/process_workflow_desc_DC38F81E.html" Name="process_workflow_desc" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Process Workflow Model - Descriptive" Id="_WmJucM6lEe63wsgFeJIztg_1ngSMP4NEeOEaam52Zfv4w" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="17cb719a">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="ee9f6faa" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="ee68278a">eya_oracle</attribute>
+<attribute name="guid" nodeId="e0681549">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="173db9f">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="d7aa5b"></attribute>
+<attribute name="suppressed" nodeId="868bc189">false</attribute>
+<attribute name="orderingGuide" nodeId="9ae659cd"></attribute>
+<attribute name="isAbstract" nodeId="f4feb3a3">false</attribute>
+<attribute name="shapeicon" nodeId="48e1160c"></attribute>
+<attribute name="nodeicon" nodeId="ec8d2ce2"></attribute>
+<attribute name="prefix" nodeId="210369fb"></attribute>
+<attribute name="isPlanned" nodeId="f82eb3b7">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="9f3ed6a6">false</attribute>
+<attribute name="isOptional" nodeId="3b0c165b">false</attribute>
+<attribute name="isRepeatable" nodeId="32d06189">false</attribute>
+<attribute name="isOngoing" nodeId="76e82895">false</attribute>
+<attribute name="isEventDriven" nodeId="fad5eadd">false</attribute>
+<attribute name="variabilityType" nodeId="1dc2ee41">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Confirm and Design" Id="_bRCPsIs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA" nodeId="d9737264" Url="process.adv.eya_oracle.base/deliveryprocesses/confirm_and_design_29FFDB9.html" Name="confirm_and_design" BackPath="./../../">
+<attribute name="name" nodeId="9c875353">confirm_and_design</attribute>
+<attribute name="guid" nodeId="a4ed6b37">_bRCPsIs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="3fba055">Confirm and Design</attribute>
+<attribute name="briefDescription" nodeId="88c8a09e">Define business requirements, map process flows and facilitate fit-gap workshops. Define technology and testing strategies. Develop the master configuration workbook, RICEFW inventory and prepare for progressive build cycles.</attribute>
+<attribute name="suppressed" nodeId="6150b6ed">false</attribute>
+<attribute name="orderingGuide" nodeId="b0762d59"></attribute>
+<attribute name="isAbstract" nodeId="da467a78">false</attribute>
+<attribute name="shapeicon" nodeId="836dd740"></attribute>
+<attribute name="nodeicon" nodeId="6bac0bb6"></attribute>
+<attribute name="prefix" nodeId="20877253"></attribute>
+<attribute name="isPlanned" nodeId="30bb39bd">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="625d49ee">false</attribute>
+<attribute name="isOptional" nodeId="a6b04b87">false</attribute>
+<attribute name="isRepeatable" nodeId="105fd6">false</attribute>
+<attribute name="isOngoing" nodeId="273e7b8e">false</attribute>
+<attribute name="isEventDriven" nodeId="cf484716">false</attribute>
+<attribute name="variabilityType" nodeId="ae1ea45e">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Create Master Configurations Workbook" Id="_p42i4dpFEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA,_p42i4dpFEe6TH6yb1zVWhw" nodeId="f17b8fe3" Url="process.adv.eya_oracle.base/deliveryprocesses/create_mas_config_wb_6067C66E.html" Name="create_mas_config_wb" BackPath="./../../">
+<attribute name="name" nodeId="2ab3d8bd">create_mas_config_wb</attribute>
+<attribute name="guid" nodeId="72868a72">_p42i4dpFEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="3534aacd">Create Master Configurations Workbook</attribute>
+<attribute name="briefDescription" nodeId="21143c78">Define the configurations that are needed to enable the in-scope business processes in the target state and document any necessary steps, values and screenshots.</attribute>
+<attribute name="suppressed" nodeId="2bdab56a">false</attribute>
+<attribute name="orderingGuide" nodeId="730aaab7"></attribute>
+<attribute name="isAbstract" nodeId="55f6654d">false</attribute>
+<attribute name="shapeicon" nodeId="6a737155"></attribute>
+<attribute name="nodeicon" nodeId="d8f77d71"></attribute>
+<attribute name="prefix" nodeId="70e0bad5"></attribute>
+<attribute name="isPlanned" nodeId="791aa364">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="a311b84c">false</attribute>
+<attribute name="isOptional" nodeId="93f87a4">false</attribute>
+<attribute name="isRepeatable" nodeId="b7089ff">false</attribute>
+<attribute name="isOngoing" nodeId="2f2d6a73">false</attribute>
+<attribute name="isEventDriven" nodeId="77244052">false</attribute>
+<attribute name="variabilityType" nodeId="1ce92ca3">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_4QOfkc6pEe63wsgFeJIztg,_jfi_UM9AEe63wsgFeJIztg_1ngSMP4NEeOEaam52Zfv4w" ConcreteType="Artifact" Url="core.bus.common.base/workproducts/process_workflow_desc_DC38F81E.html" Name="process_workflow_desc" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Process Workflow Model - Descriptive" Id="_jfi_UM9AEe63wsgFeJIztg_1ngSMP4NEeOEaam52Zfv4w" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="b97f40cd">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Business Functional Design" Id="_C-aFkZLKEe6Ji6GnvvUfqw" relProcessPath="_C-aFkZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw" nodeId="d7e2d2ba" Url="process.adv.eya_oracle.base/capabilitypatterns/bus_func_design_wkstrm_3B7B6F5B.html" Name="bus_func_design_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="27765880">bus_func_design_wkstrm</attribute>
+<attribute name="guid" nodeId="1a133cdd">_C-aFkZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="1bbe4053">Business Functional Design</attribute>
+<attribute name="briefDescription" nodeId="6123b59"></attribute>
+<attribute name="suppressed" nodeId="ab7505d8">false</attribute>
+<attribute name="orderingGuide" nodeId="15f0b531"></attribute>
+<attribute name="isAbstract" nodeId="c44dad5e">false</attribute>
+<attribute name="shapeicon" nodeId="e58ab6fd"></attribute>
+<attribute name="nodeicon" nodeId="e17f02a9"></attribute>
+<attribute name="prefix" nodeId="416ff03b">workstream</attribute>
+<attribute name="isPlanned" nodeId="727348a">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="681afbfa">false</attribute>
+<attribute name="isOptional" nodeId="905208cd">false</attribute>
+<attribute name="isRepeatable" nodeId="d41b8353">false</attribute>
+<attribute name="isOngoing" nodeId="dc9a1bfa">false</attribute>
+<attribute name="isEventDriven" nodeId="b791a306">false</attribute>
+<attribute name="variabilityType" nodeId="505fa3c3">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Create Master RICEFW Inventory" Id="_4QOfkc6pEe63wsgFeJIztg" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_4QOfkc6pEe63wsgFeJIztg" nodeId="4e1b495a" Url="process.adv.eya_oracle.base/capabilitypatterns/create_mas_eicefw_inv_E3B89B66.html" Name="create_mas_eicefw_inv" BackPath="./../../">
+<attribute name="name" nodeId="bba1451e">create_mas_eicefw_inv</attribute>
+<attribute name="guid" nodeId="5597c197">_4QOfkc6pEe63wsgFeJIztg</attribute>
+<attribute name="presentationName" nodeId="19b8ee18">Create Master RICEFW Inventory</attribute>
+<attribute name="briefDescription" nodeId="d5d1b335">Inventory the RICEFW (reports, interfaces, conversions, extensions, forms and workflows) objects that need to be developed to enable the requirements that can not be met by standard out-of-the-box Oracle functionality or EY pre-solutioned business process assets.</attribute>
+<attribute name="suppressed" nodeId="6ebcdfc3">false</attribute>
+<attribute name="orderingGuide" nodeId="e1054f6a"></attribute>
+<attribute name="isAbstract" nodeId="3bd8ffe3">false</attribute>
+<attribute name="shapeicon" nodeId="2011ab4d"></attribute>
+<attribute name="nodeicon" nodeId="6621dc14"></attribute>
+<attribute name="prefix" nodeId="5d6e582c"></attribute>
+<attribute name="isPlanned" nodeId="bc9ff7e8">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="e5eb6a2b">false</attribute>
+<attribute name="isOptional" nodeId="f30140f9">false</attribute>
+<attribute name="isRepeatable" nodeId="23988e77">false</attribute>
+<attribute name="isOngoing" nodeId="b4401f47">false</attribute>
+<attribute name="isEventDriven" nodeId="1df027ee">false</attribute>
+<attribute name="variabilityType" nodeId="6e34a8d5">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_C-aFkZLKEe6Ji6GnvvUfqw&amp;path=_C-aFkZLKEe6Ji6GnvvUfqw,_4QOfkc6pEe63wsgFeJIztg,_jfi_UM9AEe63wsgFeJIztg_1ngSMP4NEeOEaam52Zfv4w" ConcreteType="Artifact" Url="core.bus.common.base/workproducts/process_workflow_desc_DC38F81E.html" Name="process_workflow_desc" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Process Workflow Model - Descriptive" Id="_jfi_UM9AEe63wsgFeJIztg_1ngSMP4NEeOEaam52Zfv4w" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="8c24bcd">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="b9b31f84" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="7fcdae2d">eya_oracle</attribute>
+<attribute name="guid" nodeId="e89672e9">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="bde95a8f">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="9f7a772b"></attribute>
+<attribute name="suppressed" nodeId="66d39f55">false</attribute>
+<attribute name="orderingGuide" nodeId="84b2fb9a"></attribute>
+<attribute name="isAbstract" nodeId="794bb089">false</attribute>
+<attribute name="shapeicon" nodeId="b5439bd0"></attribute>
+<attribute name="nodeicon" nodeId="5d1eeede"></attribute>
+<attribute name="prefix" nodeId="3ba0b430"></attribute>
+<attribute name="isPlanned" nodeId="cb4fce70">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="3abde138">false</attribute>
+<attribute name="isOptional" nodeId="353874f1">false</attribute>
+<attribute name="isRepeatable" nodeId="b3a13bed">false</attribute>
+<attribute name="isOngoing" nodeId="6b872b2e">false</attribute>
+<attribute name="isEventDriven" nodeId="dd54d8e3">false</attribute>
+<attribute name="variabilityType" nodeId="4b5d5a8">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Confirm and Design" Id="_bRCPsIs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA" nodeId="9e697575" Url="process.adv.eya_oracle.base/deliveryprocesses/confirm_and_design_29FFDB9.html" Name="confirm_and_design" BackPath="./../../">
+<attribute name="name" nodeId="38ae461a">confirm_and_design</attribute>
+<attribute name="guid" nodeId="e95ced28">_bRCPsIs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="fd10e85a">Confirm and Design</attribute>
+<attribute name="briefDescription" nodeId="57a1ea3a">Define business requirements, map process flows and facilitate fit-gap workshops. Define technology and testing strategies. Develop the master configuration workbook, RICEFW inventory and prepare for progressive build cycles.</attribute>
+<attribute name="suppressed" nodeId="bc96cbc7">false</attribute>
+<attribute name="orderingGuide" nodeId="34598c13"></attribute>
+<attribute name="isAbstract" nodeId="d82d08a3">false</attribute>
+<attribute name="shapeicon" nodeId="b33876ab"></attribute>
+<attribute name="nodeicon" nodeId="68e75fc4"></attribute>
+<attribute name="prefix" nodeId="8a37511f"></attribute>
+<attribute name="isPlanned" nodeId="d54f611d">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="cddc17fb">false</attribute>
+<attribute name="isOptional" nodeId="e7f7b613">false</attribute>
+<attribute name="isRepeatable" nodeId="8ac6a883">false</attribute>
+<attribute name="isOngoing" nodeId="2ec12c0">false</attribute>
+<attribute name="isEventDriven" nodeId="47f03785">false</attribute>
+<attribute name="variabilityType" nodeId="78f17f67">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Create Master RICEFW Inventory" Id="_rwv4odpFEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA,_rwv4odpFEe6TH6yb1zVWhw" nodeId="84cec344" Url="process.adv.eya_oracle.base/deliveryprocesses/create_mas_eicefw_inv_F9D14DDB.html" Name="create_mas_eicefw_inv" BackPath="./../../">
+<attribute name="name" nodeId="1b9e1805">create_mas_eicefw_inv</attribute>
+<attribute name="guid" nodeId="4c1bcc64">_rwv4odpFEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="cece2a74">Create Master RICEFW Inventory</attribute>
+<attribute name="briefDescription" nodeId="cc0f5307">Inventory the RICEFW (reports, interfaces, conversions, extensions, forms and workflows) objects that need to be developed to enable the requirements that can not be met by standard out-of-the-box Oracle functionality or EY pre-solutioned business process assets.</attribute>
+<attribute name="suppressed" nodeId="bb8bab44">false</attribute>
+<attribute name="orderingGuide" nodeId="3f84b5de"></attribute>
+<attribute name="isAbstract" nodeId="88158a97">false</attribute>
+<attribute name="shapeicon" nodeId="d967f029"></attribute>
+<attribute name="nodeicon" nodeId="bf016c0c"></attribute>
+<attribute name="prefix" nodeId="2729fc49"></attribute>
+<attribute name="isPlanned" nodeId="18979214">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="442d68ea">false</attribute>
+<attribute name="isOptional" nodeId="4f20250b">false</attribute>
+<attribute name="isRepeatable" nodeId="5952fcc2">false</attribute>
+<attribute name="isOngoing" nodeId="deee85fa">false</attribute>
+<attribute name="isEventDriven" nodeId="64ed8c37">false</attribute>
+<attribute name="variabilityType" nodeId="1d76ecbd">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_TVvgYZLKEe6Ji6GnvvUfqw&amp;path=_TVvgYZLKEe6Ji6GnvvUfqw,_cKZPgblvEe6NptHkoN3Rkw,_zuZFULlvEe6NptHkoN3Rkw_1ngSMP4NEeOEaam52Zfv4w" ConcreteType="Artifact" Url="core.bus.common.base/workproducts/process_workflow_desc_DC38F81E.html" Name="process_workflow_desc" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Process Workflow Model - Descriptive" Id="_zuZFULlvEe6NptHkoN3Rkw_1ngSMP4NEeOEaam52Zfv4w" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="a9e3b2de">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Security and Controls" Id="_TVvgYZLKEe6Ji6GnvvUfqw" relProcessPath="_TVvgYZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_TVvgYZLKEe6Ji6GnvvUfqw&amp;path=_TVvgYZLKEe6Ji6GnvvUfqw" nodeId="36f8a004" Url="process.adv.eya_oracle.base/capabilitypatterns/sec_controls_wkstrm_DFD76F11.html" Name="sec_controls_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="a3a23879">sec_controls_wkstrm</attribute>
+<attribute name="guid" nodeId="e3342ca4">_TVvgYZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="2b13e778">Security and Controls</attribute>
+<attribute name="briefDescription" nodeId="202a903"></attribute>
+<attribute name="suppressed" nodeId="7f5cdf00">false</attribute>
+<attribute name="orderingGuide" nodeId="90289e6c"></attribute>
+<attribute name="isAbstract" nodeId="3c57fa8b">false</attribute>
+<attribute name="shapeicon" nodeId="54d58b21"></attribute>
+<attribute name="nodeicon" nodeId="492158d5"></attribute>
+<attribute name="prefix" nodeId="23f4e43c">workstream</attribute>
+<attribute name="isPlanned" nodeId="d8c9bc94">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="fa9e8f83">false</attribute>
+<attribute name="isOptional" nodeId="c46e54da">false</attribute>
+<attribute name="isRepeatable" nodeId="427644fb">false</attribute>
+<attribute name="isOngoing" nodeId="84eaa5d">false</attribute>
+<attribute name="isEventDriven" nodeId="d85cb93d">false</attribute>
+<attribute name="variabilityType" nodeId="57ca3ec0">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Design Security and Controls" Id="_cKZPgblvEe6NptHkoN3Rkw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_TVvgYZLKEe6Ji6GnvvUfqw&amp;path=_TVvgYZLKEe6Ji6GnvvUfqw,_cKZPgblvEe6NptHkoN3Rkw" nodeId="5a9b7bc9" Url="process.adv.eya_oracle.base/capabilitypatterns/design_security_controls_9B9960EB.html" Name="design_security_controls" BackPath="./../../">
+<attribute name="name" nodeId="5335a750">design_security_controls</attribute>
+<attribute name="guid" nodeId="a2695310">_cKZPgblvEe6NptHkoN3Rkw</attribute>
+<attribute name="presentationName" nodeId="8b6aa965">Design Security and Controls</attribute>
+<attribute name="briefDescription" nodeId="bfcf9595">Mark potential risks in to-be (future state) business process flows and begin identifying relevant controls for these risks. Identify the roles and users in the target state Oracle platform and define the security and controls design specifications.</attribute>
+<attribute name="suppressed" nodeId="748ea549">false</attribute>
+<attribute name="orderingGuide" nodeId="8fae0aeb"></attribute>
+<attribute name="isAbstract" nodeId="37c66a5a">false</attribute>
+<attribute name="shapeicon" nodeId="3cb92f89"></attribute>
+<attribute name="nodeicon" nodeId="597ae089"></attribute>
+<attribute name="prefix" nodeId="2474e6f1"></attribute>
+<attribute name="isPlanned" nodeId="32cfd9be">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="eb0ea8a9">false</attribute>
+<attribute name="isOptional" nodeId="b9658be2">false</attribute>
+<attribute name="isRepeatable" nodeId="2ea2f555">false</attribute>
+<attribute name="isOngoing" nodeId="e8d71966">false</attribute>
+<attribute name="isEventDriven" nodeId="d75f9a7a">false</attribute>
+<attribute name="variabilityType" nodeId="b8893f46">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_TVvgYZLKEe6Ji6GnvvUfqw&amp;path=_TVvgYZLKEe6Ji6GnvvUfqw,_cKZPgblvEe6NptHkoN3Rkw,_zuZFULlvEe6NptHkoN3Rkw_1ngSMP4NEeOEaam52Zfv4w" ConcreteType="Artifact" Url="core.bus.common.base/workproducts/process_workflow_desc_DC38F81E.html" Name="process_workflow_desc" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Process Workflow Model - Descriptive" Id="_zuZFULlvEe6NptHkoN3Rkw_1ngSMP4NEeOEaam52Zfv4w" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="18172b0a">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="cedb5ff3" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="796cd6f7">eya_oracle</attribute>
+<attribute name="guid" nodeId="8f9e2410">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="75bf33fe">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="ae3f20d1"></attribute>
+<attribute name="suppressed" nodeId="11b19f7f">false</attribute>
+<attribute name="orderingGuide" nodeId="b3393573"></attribute>
+<attribute name="isAbstract" nodeId="c052197">false</attribute>
+<attribute name="shapeicon" nodeId="1a4170ca"></attribute>
+<attribute name="nodeicon" nodeId="464a8522"></attribute>
+<attribute name="prefix" nodeId="62f9bd15"></attribute>
+<attribute name="isPlanned" nodeId="cc4c1783">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="72fd4d74">false</attribute>
+<attribute name="isOptional" nodeId="bcd8cd70">false</attribute>
+<attribute name="isRepeatable" nodeId="72314ca9">false</attribute>
+<attribute name="isOngoing" nodeId="af2cdb46">false</attribute>
+<attribute name="isEventDriven" nodeId="4f951d9">false</attribute>
+<attribute name="variabilityType" nodeId="18a07f0c">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Confirm and Design" Id="_bRCPsIs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA" nodeId="c6db03e0" Url="process.adv.eya_oracle.base/deliveryprocesses/confirm_and_design_29FFDB9.html" Name="confirm_and_design" BackPath="./../../">
+<attribute name="name" nodeId="ef779812">confirm_and_design</attribute>
+<attribute name="guid" nodeId="730182ef">_bRCPsIs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="d4bce3cf">Confirm and Design</attribute>
+<attribute name="briefDescription" nodeId="ec3d349">Define business requirements, map process flows and facilitate fit-gap workshops. Define technology and testing strategies. Develop the master configuration workbook, RICEFW inventory and prepare for progressive build cycles.</attribute>
+<attribute name="suppressed" nodeId="37903266">false</attribute>
+<attribute name="orderingGuide" nodeId="8e52b19"></attribute>
+<attribute name="isAbstract" nodeId="ed82d0bf">false</attribute>
+<attribute name="shapeicon" nodeId="18ae8b61"></attribute>
+<attribute name="nodeicon" nodeId="c94e8e77"></attribute>
+<attribute name="prefix" nodeId="ebc49be1"></attribute>
+<attribute name="isPlanned" nodeId="3d39982f">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="3a5fa6de">false</attribute>
+<attribute name="isOptional" nodeId="29643518">false</attribute>
+<attribute name="isRepeatable" nodeId="c9808b56">false</attribute>
+<attribute name="isOngoing" nodeId="7bdde158">false</attribute>
+<attribute name="isEventDriven" nodeId="1fb3493f">false</attribute>
+<attribute name="variabilityType" nodeId="8efd3b0e">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Design Security and Controls" Id="_0MNCIY_YEe-WuNJ6Gy8NYQ" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA,_0MNCIY_YEe-WuNJ6Gy8NYQ" nodeId="93dd2f3e" Url="process.adv.eya_oracle.base/deliveryprocesses/design_security_controls_6DDE172A.html" Name="design_security_controls" BackPath="./../../">
+<attribute name="name" nodeId="57ac1ec3">design_security_controls</attribute>
+<attribute name="guid" nodeId="a68a1df3">_0MNCIY_YEe-WuNJ6Gy8NYQ</attribute>
+<attribute name="presentationName" nodeId="b0b3958">Design Security and Controls</attribute>
+<attribute name="briefDescription" nodeId="941979b9">Mark potential risks in to-be (future state) business process flows and begin identifying relevant controls for these risks. Identify the roles and users in the target state Oracle platform and define the security and controls design specifications.</attribute>
+<attribute name="suppressed" nodeId="8050bf95">false</attribute>
+<attribute name="orderingGuide" nodeId="bc1954e3"></attribute>
+<attribute name="isAbstract" nodeId="85aaaab5">false</attribute>
+<attribute name="shapeicon" nodeId="ac036508"></attribute>
+<attribute name="nodeicon" nodeId="dbb8d12c"></attribute>
+<attribute name="prefix" nodeId="c43050b3"></attribute>
+<attribute name="isPlanned" nodeId="fa894a39">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="cfe0add">false</attribute>
+<attribute name="isOptional" nodeId="e1923033">false</attribute>
+<attribute name="isRepeatable" nodeId="5ce4136e">false</attribute>
+<attribute name="isOngoing" nodeId="d76d43fb">false</attribute>
+<attribute name="isEventDriven" nodeId="83f0b3a">false</attribute>
+<attribute name="variabilityType" nodeId="700ca883">extends</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA,_tK6FoDDNEe-TauTqJPNl_g_1ngSMP4NEeOEaam52Zfv4w" ConcreteType="Artifact" Url="core.bus.common.base/workproducts/process_workflow_desc_DC38F81E.html" Name="process_workflow_desc" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Process Workflow Model - Descriptive" Id="_tK6FoDDNEe-TauTqJPNl_g_1ngSMP4NEeOEaam52Zfv4w" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="68b77337">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="e3fe3906" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="9849a803">eya_oracle</attribute>
+<attribute name="guid" nodeId="8c14fa22">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="c4e7cf22">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="2cfefa76"></attribute>
+<attribute name="suppressed" nodeId="c617bde5">false</attribute>
+<attribute name="orderingGuide" nodeId="6d0584cf"></attribute>
+<attribute name="isAbstract" nodeId="d5747951">false</attribute>
+<attribute name="shapeicon" nodeId="3829e820"></attribute>
+<attribute name="nodeicon" nodeId="35af8e41"></attribute>
+<attribute name="prefix" nodeId="b1100290"></attribute>
+<attribute name="isPlanned" nodeId="7f1c7abe">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="78df4e88">false</attribute>
+<attribute name="isOptional" nodeId="7371baf0">false</attribute>
+<attribute name="isRepeatable" nodeId="ca2ab257">false</attribute>
+<attribute name="isOngoing" nodeId="b1b3684a">false</attribute>
+<attribute name="isEventDriven" nodeId="8ffd5205">false</attribute>
+<attribute name="variabilityType" nodeId="d2319064">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Confirm and Design" Id="_bRCPsIs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA" nodeId="169f8533" Url="process.adv.eya_oracle.base/deliveryprocesses/confirm_and_design_29FFDB9.html" Name="confirm_and_design" BackPath="./../../">
+<attribute name="name" nodeId="ca03f03d">confirm_and_design</attribute>
+<attribute name="guid" nodeId="815478c1">_bRCPsIs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="232231b9">Confirm and Design</attribute>
+<attribute name="briefDescription" nodeId="7f110523">Define business requirements, map process flows and facilitate fit-gap workshops. Define technology and testing strategies. Develop the master configuration workbook, RICEFW inventory and prepare for progressive build cycles.</attribute>
+<attribute name="suppressed" nodeId="15ee1e62">false</attribute>
+<attribute name="orderingGuide" nodeId="8229a8ff"></attribute>
+<attribute name="isAbstract" nodeId="88bd5c58">false</attribute>
+<attribute name="shapeicon" nodeId="68fe6662"></attribute>
+<attribute name="nodeicon" nodeId="8293e0b2"></attribute>
+<attribute name="prefix" nodeId="a00d9dda"></attribute>
+<attribute name="isPlanned" nodeId="1be36865">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="af93f45a">false</attribute>
+<attribute name="isOptional" nodeId="edbdf2a8">false</attribute>
+<attribute name="isRepeatable" nodeId="8af61f8a">false</attribute>
+<attribute name="isOngoing" nodeId="ef6efa9c">false</attribute>
+<attribute name="isEventDriven" nodeId="b9a0e4fb">false</attribute>
+<attribute name="variabilityType" nodeId="e2166cd6">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_MerLgdE_Ee6Y56Jk6jqfOA,_7bzD4NE_Ee6Y56Jk6jqfOA_1ngSMP4NEeOEaam52Zfv4w" ConcreteType="Artifact" Url="core.bus.common.base/workproducts/process_workflow_desc_DC38F81E.html" Name="process_workflow_desc" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Process Workflow Model - Descriptive" Id="_7bzD4NE_Ee6Y56Jk6jqfOA_1ngSMP4NEeOEaam52Zfv4w" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="696c17ac">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="Data Conversion" Id="_K4NTYZLKEe6Ji6GnvvUfqw" relProcessPath="_K4NTYZLKEe6Ji6GnvvUfqw" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw" nodeId="6630703b" Url="process.adv.eya_oracle.base/capabilitypatterns/data_conv_wkstrm_3E4842D.html" Name="data_conv_wkstrm" BackPath="./../../">
+<attribute name="name" nodeId="db3f9b1d">data_conv_wkstrm</attribute>
+<attribute name="guid" nodeId="395f9510">_K4NTYZLKEe6Ji6GnvvUfqw</attribute>
+<attribute name="presentationName" nodeId="6b0862f3">Data Conversion</attribute>
+<attribute name="briefDescription" nodeId="6ff80a81"></attribute>
+<attribute name="suppressed" nodeId="453c641a">false</attribute>
+<attribute name="orderingGuide" nodeId="7550756a"></attribute>
+<attribute name="isAbstract" nodeId="d70b4225">false</attribute>
+<attribute name="shapeicon" nodeId="7f335790"></attribute>
+<attribute name="nodeicon" nodeId="a71da090"></attribute>
+<attribute name="prefix" nodeId="6e3691ab">workstream</attribute>
+<attribute name="isPlanned" nodeId="c4ef7f6">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="72bcdc30">false</attribute>
+<attribute name="isOptional" nodeId="93a7735c">false</attribute>
+<attribute name="isRepeatable" nodeId="c354b973">false</attribute>
+<attribute name="isOngoing" nodeId="37e2610a">false</attribute>
+<attribute name="isEventDriven" nodeId="3fdf683d">false</attribute>
+<attribute name="variabilityType" nodeId="1702c2e3">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Document Data Mapping and Conversion Specifications" Id="_MerLgdE_Ee6Y56Jk6jqfOA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_MerLgdE_Ee6Y56Jk6jqfOA" nodeId="d7e8b7e" Url="process.adv.eya_oracle.base/capabilitypatterns/doc_data_map_conv_spec_A6041C48.html" Name="doc_data_map_conv_spec" BackPath="./../../">
+<attribute name="name" nodeId="18c2af40">doc_data_map_conv_spec</attribute>
+<attribute name="guid" nodeId="abf6eb21">_MerLgdE_Ee6Y56Jk6jqfOA</attribute>
+<attribute name="presentationName" nodeId="8134b3a3">Document Data Mapping and Conversion Specifications</attribute>
+<attribute name="briefDescription" nodeId="dd8e280">Understand the data flows, map data to processes and define the data conversion specifications.</attribute>
+<attribute name="suppressed" nodeId="7b8afeff">false</attribute>
+<attribute name="orderingGuide" nodeId="30d3098b"></attribute>
+<attribute name="isAbstract" nodeId="7aef3ead">false</attribute>
+<attribute name="shapeicon" nodeId="d3687ce9"></attribute>
+<attribute name="nodeicon" nodeId="ff5b22ac"></attribute>
+<attribute name="prefix" nodeId="d9c1c4de"></attribute>
+<attribute name="isPlanned" nodeId="c9acc74">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="35ecd006">false</attribute>
+<attribute name="isOptional" nodeId="4d553e2b">false</attribute>
+<attribute name="isRepeatable" nodeId="8a20947a">false</attribute>
+<attribute name="isOngoing" nodeId="be6eb9aa">false</attribute>
+<attribute name="isEventDriven" nodeId="6ef0ecf9">false</attribute>
+<attribute name="variabilityType" nodeId="f2d5f36f">na</attribute>
+</Element>
+</Element>
+<Element TypeName="Work Product Descriptor" queryString="?proc=_K4NTYZLKEe6Ji6GnvvUfqw&amp;path=_K4NTYZLKEe6Ji6GnvvUfqw,_MerLgdE_Ee6Y56Jk6jqfOA,_7bzD4NE_Ee6Y56Jk6jqfOA_1ngSMP4NEeOEaam52Zfv4w" ConcreteType="Artifact" Url="core.bus.common.base/workproducts/process_workflow_desc_DC38F81E.html" Name="process_workflow_desc" BackPath="./../../" Type="WorkProductDescriptor" NodeiconUrl="" DisplayName="Process Workflow Model - Descriptive" Id="_7bzD4NE_Ee6Y56Jk6jqfOA_1ngSMP4NEeOEaam52Zfv4w" relProcessPath="" ShapeiconUrl="images/workdes_lg_dgm32.gif" nodeId="3eb97bd2">
+<Element Type="DeliveryProcess" TypeName="Delivery Process" NodeiconUrl="" DisplayName="EYA for Oracle Services" Id="_ZPFugYWGEe6eeJPl4ThOkA" relProcessPath="_ZPFugYWGEe6eeJPl4ThOkA" ShapeiconUrl="images/deliveryprocess.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA" nodeId="9e72bcb4" Url="process.adv.eya_oracle.base/deliveryprocesses/eya_oracle_887DC6B3.html" Name="eya_oracle" BackPath="./../../">
+<attribute name="name" nodeId="d675f8d">eya_oracle</attribute>
+<attribute name="guid" nodeId="4082c1e7">_ZPFugYWGEe6eeJPl4ThOkA</attribute>
+<attribute name="presentationName" nodeId="10b89d0b">EYA for Oracle Services</attribute>
+<attribute name="briefDescription" nodeId="f5fd7f3f"></attribute>
+<attribute name="suppressed" nodeId="d045faab">false</attribute>
+<attribute name="orderingGuide" nodeId="8229125f"></attribute>
+<attribute name="isAbstract" nodeId="8323b2e">false</attribute>
+<attribute name="shapeicon" nodeId="3b97cf7a"></attribute>
+<attribute name="nodeicon" nodeId="5c91f5f8"></attribute>
+<attribute name="prefix" nodeId="6dac047e"></attribute>
+<attribute name="isPlanned" nodeId="cdf05bdf">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="e4ef606d">false</attribute>
+<attribute name="isOptional" nodeId="9f477150">false</attribute>
+<attribute name="isRepeatable" nodeId="f1dbb2db">false</attribute>
+<attribute name="isOngoing" nodeId="7c23d667">false</attribute>
+<attribute name="isEventDriven" nodeId="e7a633d5">false</attribute>
+<attribute name="variabilityType" nodeId="f8e4e7c9">replaces</attribute>
+</Element>
+<Element Type="Phase" TypeName="Phase" NodeiconUrl="" DisplayName="Confirm and Design" Id="_bRCPsIs6Ee6Z58NF8Wy6XA" relProcessPath="" ShapeiconUrl="images/phase.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA" nodeId="b508a624" Url="process.adv.eya_oracle.base/deliveryprocesses/confirm_and_design_29FFDB9.html" Name="confirm_and_design" BackPath="./../../">
+<attribute name="name" nodeId="35eb6e5d">confirm_and_design</attribute>
+<attribute name="guid" nodeId="80314b5c">_bRCPsIs6Ee6Z58NF8Wy6XA</attribute>
+<attribute name="presentationName" nodeId="7fceae14">Confirm and Design</attribute>
+<attribute name="briefDescription" nodeId="fd71527c">Define business requirements, map process flows and facilitate fit-gap workshops. Define technology and testing strategies. Develop the master configuration workbook, RICEFW inventory and prepare for progressive build cycles.</attribute>
+<attribute name="suppressed" nodeId="5ae04094">false</attribute>
+<attribute name="orderingGuide" nodeId="2c5d427"></attribute>
+<attribute name="isAbstract" nodeId="32a4ed3b">false</attribute>
+<attribute name="shapeicon" nodeId="4a25ca28"></attribute>
+<attribute name="nodeicon" nodeId="25b92f04"></attribute>
+<attribute name="prefix" nodeId="3dbaa245"></attribute>
+<attribute name="isPlanned" nodeId="f0346e3d">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="f810c686">false</attribute>
+<attribute name="isOptional" nodeId="af94e0da">false</attribute>
+<attribute name="isRepeatable" nodeId="9cdff8b6">false</attribute>
+<attribute name="isOngoing" nodeId="61f34e57">false</attribute>
+<attribute name="isEventDriven" nodeId="3e3cf344">false</attribute>
+<attribute name="variabilityType" nodeId="ec3aef96">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Document Data Mapping and Conversion Specifications" Id="_5-KZkdpFEe6TH6yb1zVWhw" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_ZPFugYWGEe6eeJPl4ThOkA&amp;path=_ZPFugYWGEe6eeJPl4ThOkA,_bRCPsIs6Ee6Z58NF8Wy6XA,_5-KZkdpFEe6TH6yb1zVWhw" nodeId="ca9e831e" Url="process.adv.eya_oracle.base/deliveryprocesses/doc_data_map_conv_spec_D490D6E3.html" Name="doc_data_map_conv_spec" BackPath="./../../">
+<attribute name="name" nodeId="336d5211">doc_data_map_conv_spec</attribute>
+<attribute name="guid" nodeId="283b6325">_5-KZkdpFEe6TH6yb1zVWhw</attribute>
+<attribute name="presentationName" nodeId="470cc6c7">Document Data Mapping and Conversion Specifications</attribute>
+<attribute name="briefDescription" nodeId="8acff38b">Understand the data flows, map data to processes and define the data conversion specifications.</attribute>
+<attribute name="suppressed" nodeId="a4fdcd96">false</attribute>
+<attribute name="orderingGuide" nodeId="20320c9e"></attribute>
+<attribute name="isAbstract" nodeId="fcb12282">false</attribute>
+<attribute name="shapeicon" nodeId="b2f5f88a"></attribute>
+<attribute name="nodeicon" nodeId="7a8dcd58"></attribute>
+<attribute name="prefix" nodeId="8f728213"></attribute>
+<attribute name="isPlanned" nodeId="22695eeb">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="53454ccc">false</attribute>
+<attribute name="isOptional" nodeId="35ecbaf1">false</attribute>
+<attribute name="isRepeatable" nodeId="ab92830e">false</attribute>
+<attribute name="isOngoing" nodeId="6b43166b">false</attribute>
+<attribute name="isEventDriven" nodeId="b4804d69">false</attribute>
+<attribute name="variabilityType" nodeId="7a6227fd">extends</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>

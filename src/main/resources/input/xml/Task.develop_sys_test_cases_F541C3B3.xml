@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop system test cases" Id="_2yjhYCmaEeW4VNZE0V9FcA" ShapeiconUrl="images/task.gif" lang="en" nodeId="a73f0181" Url="practice.ita.delv.it_test.base/tasks/develop_sys_test_cases_F541C3B3.html" Name="develop_sys_test_cases" BackPath="./../../">
+<copyright nodeId="8898ff63">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="871c40dc">develop_sys_test_cases</attribute>
+<attribute name="guid" nodeId="62cebb2b">_2yjhYCmaEeW4VNZE0V9FcA</attribute>
+<attribute name="presentationName" nodeId="a23b5b83">Develop system test cases</attribute>
+<attribute name="briefDescription" nodeId="7a94f8b5">Define a set of conditions to test whether the solution behaves as expected.</attribute>
+<attribute name="suppressed" nodeId="ad46db10">false</attribute>
+<attribute name="orderingGuide" nodeId="4235db50"></attribute>
+<attribute name="isAbstract" nodeId="25f1a177">false</attribute>
+<attribute name="shapeicon" nodeId="1de50ebc"></attribute>
+<attribute name="nodeicon" nodeId="2b7b170c"></attribute>
+<attribute name="variabilityType" nodeId="85fe8314">extends</attribute>
+<reference name="presentation" nodeId="6804d2a3">
+<Element Type="TaskDescription" TypeName="Task Description" NodeiconUrl="" DisplayName="Develop system test cases" Id="-bea-j42KMY3pS6zL4cC2JA" ShapeiconUrl="images/guidance.gif" nodeId="147a0679" Url="" Name="develop_s_i_test_cases,_2yjhYCmaEeW4VNZE0V9FcA" BackPath="">
+<copyright nodeId="69581bbe">&lt;a class=&quot;elementLink&quot;
+href=&quot;./../../../core.default.release_copyright.base/guidances/supportingmaterials/ey_notices_1B019690.html&quot;
+guid=&quot;_vcAl0FwkEeGtTMZzjeOSgQ&quot;&gt;&amp;#169; 2012, 2022 EYGM Limited. All Rights Reserved.&lt;/a&gt; &lt;br /&gt;
+&lt;a  
+href=&quot;https://prod.paans.sbp.eyclienthub.com/viewnotice?a=3370CA11-0233-40CC-B985-6F1434DA4B78&amp;r=Global&amp;l=EN&amp;pt=1&quot;
+ target=&quot;_blank&quot;  &gt;Privacy Notice&lt;/a&gt;&lt;br /&gt;&lt;p/&gt;&lt;a   href=&quot;https://eyus.sharepoint.com/sites/MethodsCoE/&quot; target=&quot;_blank&quot;  &gt;Powered by Global Methods&lt;/a&gt; &lt;a  
+href=&quot;https://sites.ey.com/sites/Consulting_Methods&quot; target=&quot;_blank&quot;  &gt;in conjunction with Consulting Methods&lt;/a&gt;</copyright>
+<attribute name="name" nodeId="16d9d516">develop_s_i_test_cases,_2yjhYCmaEeW4VNZE0V9FcA</attribute>
+<attribute name="guid" nodeId="4c63ce11">-bea-j42KMY3pS6zL4cC2JA</attribute>
+<attribute name="presentationName" nodeId="43a6e055">Develop system test cases</attribute>
+<attribute name="briefDescription" nodeId="a627c333"></attribute>
+<attribute name="suppressed" nodeId="86c800ea">false</attribute>
+<attribute name="orderingGuide" nodeId="7e1b6096"></attribute>
+<attribute name="authors" nodeId="d7bf239e"></attribute>
+<attribute name="changeDate" nodeId="796a5ddb">Thu Jul 30 17:16:20 EDT 2015</attribute>
+<attribute name="changeDescription" nodeId="e0dd7e2">JUL 2022 - added instructions (aka main description), updated purpose|JAN 2016 - fixed grammatical and spelling errors|OCT 2015 - Grammatical and style errors in the steps were fixed.</attribute>
+<attribute name="version" nodeId="1a8736b7"></attribute>
+<attribute name="mainDescription" nodeId="32f93547">&lt;p&gt;
+    Document the details of each test case that includes the steps to be performed, pre-requisites (entry criteria), and
+    the post-conditions (exit criteria) necessary to indicate a successful completion.
+&lt;/p&gt;</attribute>
+<attribute name="externalId" nodeId="a422bdc6"></attribute>
+<attribute name="keyConsiderations" nodeId="30bcfd6">&lt;p&gt;
+    When performing this task, consider the following:
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        When a scenario is tested, what would the result look like? This is the expected result of the test case.
+    &lt;/li&gt;
+    &lt;li&gt;
+        Are there any dependencies related to this case? Can the implementation of this test case run independently or are
+        external inputs needed?
+    &lt;/li&gt;
+    &lt;li&gt;
+        Are there any prerequisite conditions for a test case?
+    &lt;/li&gt;
+    &lt;li&gt;
+        What needs to be verified (e.g. does the application login function as expected)?
+    &lt;/li&gt;
+    &lt;li&gt;
+        What data is needed to perform the execution conditions?
+    &lt;/li&gt;
+    &lt;li&gt;
+        What actions need to be performed in each step (e.g. is login to an application required)?
+    &lt;/li&gt;
+    &lt;li&gt;
+        How should the action be performed (e.g. should the login window open followed by entering a username and
+        password)?
+    &lt;/li&gt;
+    &lt;li&gt;
+        What is the result of the action performed (e.g. is the login successful)?
+    &lt;/li&gt;
+    &lt;li&gt;
+        Each step of the test case should consider the positive, negative, boundary and invalid values of the expected
+        results to&amp;nbsp;confirm a&amp;nbsp;conclusive test.
+    &lt;/li&gt;
+&lt;/ul&gt;</attribute>
+<attribute name="longPresentationName" nodeId="fb5956f8"></attribute>
+<attribute name="purpose" nodeId="146c4675">To provide standard, repeatable testing that validates the entire solution, including interfaces with external systems,
+fulfills solution requirements.</attribute>
+<attribute name="alternatives" nodeId="33403b2b"></attribute>
+</Element>
+</reference>
+<reference name="variabilityBasedOnElement" nodeId="7fcadcdb">
+<Element ShowFullMethodContent="false" Type="Task" TypeName="Task" NodeiconUrl="" DisplayName="Develop test cases" Id="_oXYFsHncEeSYMYqbqbHk3g" ShapeiconUrl="images/task.gif" nodeId="ae0d0168" Url="practice.ita.delv.it_test.base/tasks/develop_test_cases_C200988A.html" Name="develop_test_cases" BackPath="./../../"></Element>
+</reference>
+<referenceList sortValue="Manual" name="performedBy" nodeId="3c7f75d5">
+<Element ShowFullMethodContent="false" Type="Role" TypeName="Role" NodeiconUrl="" DisplayName="Tester" Id="_LCfPjjRjEeO6HZrLUe5nxQ" ShapeiconUrl="images/role.gif" nodeId="2c6d2fcb" Url="core.default.role_def.base/roles/tester_B8C2206D.html" Name="tester" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="mandatoryInput" nodeId="c03eda33">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Requirements Traceability Matrix" Id="_7I8toC9GEeSJ-4uKHZ771A" ShapeiconUrl="images/artifact.gif" nodeId="36298406" Url="core.gen.common.base/workproducts/rqmts_traceability_matrix_6BABB1C5.html" Name="rqmts_traceability_matrix" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Test Plan" Id="_Kme30OX3EeOqmb5IikO7mw" ShapeiconUrl="images/artifact.gif" nodeId="5a597237" Url="core.i_t.common.base/workproducts/test_plan_4519A68.html" Name="test_plan" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Test Scenario" Id="_5czZEOYBEeOqmb5IikO7mw" ShapeiconUrl="images/artifact.gif" nodeId="37f27cdc" Url="core.i_t.common.base/workproducts/test_scenario_917A181F.html" Name="test_scenario" BackPath="./../../"></Element>
+</referenceList>
+<referenceList sortValue="Manual" name="output" nodeId="ae7b9035">
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Requirements Traceability Matrix" Id="_7I8toC9GEeSJ-4uKHZ771A" ShapeiconUrl="images/artifact.gif" nodeId="2a2a51ba" Url="core.gen.common.base/workproducts/rqmts_traceability_matrix_6BABB1C5.html" Name="rqmts_traceability_matrix" BackPath="./../../"></Element>
+<Element ShowFullMethodContent="false" Type="Artifact" TypeName="Work Product" NodeiconUrl="" DisplayName="Test Case" Id="_ufvyIHncEeSYMYqbqbHk3g" ShapeiconUrl="images/artifact.gif" nodeId="cea3e6e3" Url="core.i_t.common.base/workproducts/test_case_8FD80E72.html" Name="test_case" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="Task_TaskDescriptors" nodeId="395db660">
+<Element TypeName="Task Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_8vJT6JK5EeSEOeG-bGncjA,_zt6N4Dc-EeWp1olIN1xWiA" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/develop_sys_test_cases_F541C3B3.html" Name="develop_sys_test_cases" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop system test cases" Id="_zt6N4Dc-EeWp1olIN1xWiA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="9b7f413d"></Element>
+</referenceList>
+<referenceList name="customCategories" nodeId="3554f648">
+<Element Type="CustomCategory" TypeName="Custom Category" NodeiconUrl="" DisplayName="Tasks" Id="_0Sj48KDNEeOMmqbYX27PPA" ShapeiconUrl="core.default.nav_view.base/customcategories/resources/cat_task51.png" nodeId="e643358e" Url="core.default.nav_view.base/customcategories/task_list_CDC9CEA6.html" Name="task_list" BackPath="./../../"></Element>
+</referenceList>
+<referenceList name="descriptors" nodeId="1a36ec79">
+<Element TypeName="Task Descriptor" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_8vJT6JK5EeSEOeG-bGncjA,_zt6N4Dc-EeWp1olIN1xWiA" ConcreteType="Task" Url="practice.ita.delv.it_test.base/tasks/develop_sys_test_cases_F541C3B3.html" Name="develop_sys_test_cases" BackPath="./../../" Type="TaskDescriptor" NodeiconUrl="" DisplayName="Develop system test cases" Id="_zt6N4Dc-EeWp1olIN1xWiA" relProcessPath="" ShapeiconUrl="images/taskdes_lg_dgm32.gif" nodeId="4098ec5d">
+<Element Type="CapabilityPattern" TypeName="Capability Pattern" NodeiconUrl="" DisplayName="IT Testing (Levels)" Id="_HkiWIeW9EeOeOeyRJA3ZBg" relProcessPath="_HkiWIeW9EeOeOeyRJA3ZBg" ShapeiconUrl="images/capabilitypattern.gif" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg" nodeId="78c00c65" Url="practice.ita.delv.it_test.assign/capabilitypatterns/it_test_levels_9A95B916.html" Name="it_test_levels" BackPath="./../../">
+<attribute name="name" nodeId="33c51575">it_test_levels</attribute>
+<attribute name="guid" nodeId="934aae">_HkiWIeW9EeOeOeyRJA3ZBg</attribute>
+<attribute name="presentationName" nodeId="eb00fab3">IT Testing (Levels)</attribute>
+<attribute name="briefDescription" nodeId="4b892534"></attribute>
+<attribute name="suppressed" nodeId="943f988f">false</attribute>
+<attribute name="orderingGuide" nodeId="e935e057"></attribute>
+<attribute name="isAbstract" nodeId="fe63e1e1">false</attribute>
+<attribute name="shapeicon" nodeId="945fe0b7"></attribute>
+<attribute name="nodeicon" nodeId="7360fb4a"></attribute>
+<attribute name="prefix" nodeId="435dff8d"></attribute>
+<attribute name="isPlanned" nodeId="e38479fd">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="ab13eeb7">false</attribute>
+<attribute name="isOptional" nodeId="9592e091">false</attribute>
+<attribute name="isRepeatable" nodeId="cd8a8021">false</attribute>
+<attribute name="isOngoing" nodeId="16dd9392">false</attribute>
+<attribute name="isEventDriven" nodeId="b9aab3">false</attribute>
+<attribute name="variabilityType" nodeId="b277ee3e">na</attribute>
+</Element>
+<Element Type="Activity" TypeName="Activity" NodeiconUrl="" DisplayName="Design System Tests" Id="_8vJT6JK5EeSEOeG-bGncjA" relProcessPath="" ShapeiconUrl="images/activity.gif" queryString="?proc=_HkiWIeW9EeOeOeyRJA3ZBg&amp;path=_HkiWIeW9EeOeOeyRJA3ZBg,_8vJT6JK5EeSEOeG-bGncjA" nodeId="cc24a948" Url="practice.ita.delv.it_test.assign/capabilitypatterns/Design System Tests_F084FCC4.html" Name="Design System Tests" BackPath="./../../">
+<attribute name="name" nodeId="57aea718">Design System Tests</attribute>
+<attribute name="guid" nodeId="59dcf977">_8vJT6JK5EeSEOeG-bGncjA</attribute>
+<attribute name="presentationName" nodeId="be8d6597">Design System Tests</attribute>
+<attribute name="briefDescription" nodeId="a2767c34">Define how to validate that the behavior of the entire system, including internal and external systems, fulfills solution requirements.</attribute>
+<attribute name="suppressed" nodeId="aeeafd8d">false</attribute>
+<attribute name="orderingGuide" nodeId="ad1e52c"></attribute>
+<attribute name="isAbstract" nodeId="f9424b41">false</attribute>
+<attribute name="shapeicon" nodeId="116d3093"></attribute>
+<attribute name="nodeicon" nodeId="3b310d08"></attribute>
+<attribute name="prefix" nodeId="74ba52fd"></attribute>
+<attribute name="isPlanned" nodeId="bd998429">true</attribute>
+<attribute name="hasMultipleOccurrences" nodeId="65b9288f">false</attribute>
+<attribute name="isOptional" nodeId="aa3ba223">false</attribute>
+<attribute name="isRepeatable" nodeId="527c7b7">false</attribute>
+<attribute name="isOngoing" nodeId="87143aef">false</attribute>
+<attribute name="isEventDriven" nodeId="4d2e22e4">false</attribute>
+<attribute name="variabilityType" nodeId="112c5890">na</attribute>
+</Element>
+</Element>
+</referenceList>
+</Element>
