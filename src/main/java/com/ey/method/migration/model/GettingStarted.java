@@ -8,7 +8,7 @@ import jakarta.persistence.*;
 public class GettingStarted {
 
     @Id
-    @Column(name = "contextID", length = 25)
+    @Column(name = "contextID", length = 36)
     private String contextID;
 
     @Id
