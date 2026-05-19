@@ -48,6 +48,7 @@ public class MigrationService implements CommandLineRunner {
     private final WbsRepository wbsRepository;
     private final WorkProductToGuidanceRepository workProductToGuidanceRepository;
     private final DeliverablePartsRepository deliverablePartsRepository;
+    private final GettingStartedRepository gettingStartedRepository;
     private final JdbcTemplate jdbcTemplate;
 
     private String currentContextId;
@@ -74,6 +75,7 @@ public class MigrationService implements CommandLineRunner {
                             WbsRepository wbsRepository,
                             WorkProductToGuidanceRepository workProductToGuidanceRepository,
                             DeliverablePartsRepository deliverablePartsRepository,
+                            GettingStartedRepository gettingStartedRepository,
                             JdbcTemplate jdbcTemplate) {
         this.deliveryProcessDefinitionRepository = deliveryProcessDefinitionRepository;
         this.activityRepository = activityRepository;
@@ -97,6 +99,7 @@ public class MigrationService implements CommandLineRunner {
         this.wbsRepository = wbsRepository;
         this.workProductToGuidanceRepository = workProductToGuidanceRepository;
         this.deliverablePartsRepository = deliverablePartsRepository;
+        this.gettingStartedRepository = gettingStartedRepository;
         this.jdbcTemplate = jdbcTemplate;
     }
 
@@ -126,6 +129,9 @@ public class MigrationService implements CommandLineRunner {
         if (methodXml.getGuidances() != null) {
             migrateGuidances(methodXml.getGuidances());
         }
+
+        // Migrate Getting Started definitions from secondary XMLs
+        migrateGettingStarted();
 
         // 5. Extract Work Products (Outcomes, Master Definitions, and Deliverables)
         if (methodXml.getWorkProducts() != null) {
@@ -1108,12 +1114,86 @@ public class MigrationService implements CommandLineRunner {
             "TaskDefinition", "WorkstreamDefinition", "DeliverableDefinition", "GuidanceDefinition", 
             "GuidanceToGuidance", "RoleToGuidance", "TaskToRole", "TaskToWorkProduct", 
             "TaskToGuidance", "WorkstreamToTask", "TaskUsage", "WBS", "WorkProductToGuidance", 
-            "DeliverableParts"
+            "DeliverableParts", "GettingStarted"
         };
         for (String table : tables) {
             jdbcTemplate.execute("TRUNCATE TABLE " + table);
         }
         jdbcTemplate.execute("SET FOREIGN_KEY_CHECKS = 1");
         logger.info("Truncation complete.");
+    }
+
+    private void migrateGettingStarted() {
+        logger.info("Migrating Getting Started definitions from secondary XMLs...");
+        try {
+            File dir = new File("src/main/resources/input/xml/");
+            if (!dir.exists() || !dir.isDirectory()) {
+                logger.warn("Secondary XML directory not found: {}", dir.getAbsolutePath());
+                return;
+            }
+
+            File[] files = dir.listFiles((d, name) -> name.startsWith("udt.getting_started_") && name.endsWith(".xml"));
+            if (files == null || files.length == 0) {
+                logger.info("No udt.getting_started_*.xml files found.");
+                return;
+            }
+
+            for (File file : files) {
+                logger.info("Processing Getting Started XML: {}", file.getName());
+                try {
+                    JAXBContext context = JAXBContext.newInstance(ElementDetailXml.class);
+                    Unmarshaller unmarshaller = context.createUnmarshaller();
+                    ElementDetailXml detailXml = (ElementDetailXml) unmarshaller.unmarshal(file);
+
+                    // Create master GuidanceDefinition
+                    GuidanceDefinition guidanceDef = new GuidanceDefinition();
+                    guidanceDef.setContextID(currentContextId);
+                    guidanceDef.setGuidanceID(detailXml.getId());
+                    guidanceDef.setType("Getting Started");
+                    guidanceDef.setName(detailXml.getName());
+                    guidanceDef.setPresentationName(detailXml.getDisplayName());
+                    guidanceDef.setBriefDescription("");
+
+                    // Read detailed fields
+                    guidanceDef.setChangeHistory(detailXml.getAttributeValue("changeDescription"));
+                    String changeDateStr = detailXml.getAttributeValue("changeDate");
+                    if (changeDateStr != null && !changeDateStr.isEmpty()) {
+                        try {
+                            SimpleDateFormat sdf = new SimpleDateFormat("EEE MMM dd HH:mm:ss zzz yyyy");
+                            guidanceDef.setChangeDate(sdf.parse(changeDateStr));
+                        } catch (Exception e) {
+                            logger.warn("Failed to parse changeDate '{}' for GettingStarted guidance", changeDateStr);
+                        }
+                    }
+                    String url = detailXml.getUrl();
+                    if (url != null && url.contains("/")) {
+                        guidanceDef.setOriginatingProcess(url.split("/")[0]);
+                    }
+
+                    guidanceDefinitionRepository.save(guidanceDef);
+
+                    GettingStarted gettingStarted = new GettingStarted();
+                    gettingStarted.setContextID(currentContextId);
+                    gettingStarted.setGuidanceID(detailXml.getId());
+                    gettingStarted.setName(detailXml.getName());
+                    gettingStarted.setPresentationName(detailXml.getDisplayName());
+
+                    gettingStarted.setBackground(detailXml.getAttributeValue("problem"));
+                    gettingStarted.setHowToApply(detailXml.getAttributeValue("goals"));
+                    gettingStarted.setConsiderations(detailXml.getAttributeValue("background"));
+                    gettingStarted.setSizing(detailXml.getAttributeValue("mainDescription"));
+                    gettingStarted.setStaffing(detailXml.getAttributeValue("application"));
+                    gettingStarted.setNextSteps(detailXml.getAttributeValue("levelsOfAdoption"));
+                    gettingStarted.setPurpose(detailXml.getAttributeValue("additionalInfo"));
+
+                    gettingStartedRepository.save(gettingStarted);
+                    logger.info("Successfully migrated Getting Started definition for id: {}", detailXml.getId());
+                } catch (Exception e) {
+                    logger.error("Error parsing Getting Started XML: {}", file.getName(), e);
+                }
+            }
+        } catch (Exception e) {
+            logger.error("Error migrating Getting Started definitions", e);
+        }
     }
 }

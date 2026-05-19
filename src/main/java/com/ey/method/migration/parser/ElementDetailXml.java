@@ -10,6 +10,21 @@ public class ElementDetailXml {
     @XmlAttribute(name = "Url")
     private String url;
 
+    @XmlAttribute(name = "Type")
+    private String type;
+
+    @XmlAttribute(name = "TypeName")
+    private String typeName;
+
+    @XmlAttribute(name = "DisplayName")
+    private String displayName;
+
+    @XmlAttribute(name = "Id")
+    private String id;
+
+    @XmlAttribute(name = "Name")
+    private String name;
+
     @XmlElement(name = "attribute")
     private List<AttributeXml> attributes;
 
@@ -21,6 +36,26 @@ public class ElementDetailXml {
 
     public String getUrl() {
         return url;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public String getTypeName() {
+        return typeName;
+    }
+
+    public String getDisplayName() {
+        return displayName;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
     }
 
     public List<AttributeXml> getAttributes() {
