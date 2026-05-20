@@ -233,6 +233,34 @@ These tables are populated by iterating through top-level collection tags in the
     *   `name` -> `presentationName`
     *   `brief-description` -> `mainDescription`
 
+### Getting Started (`GettingStarted` Table)
+*   **Source Tag**: Independent files matching pattern `udt.getting_started_*.xml` in `src/main/resources/input/xml/` folder.
+*   **Mapping**:
+    *   `id` -> `guidanceID`
+    *   `name` -> `name`
+    *   `displayName` -> `presentationName`
+    *   `problem` attribute -> `background`
+    *   `goals` attribute -> `howToApply`
+    *   `background` attribute -> `considerations`
+    *   `mainDescription` attribute -> `sizing`
+    *   `application` attribute -> `staffing`
+    *   `levelsOfAdoption` attribute -> `nextSteps`
+    *   `additionalInfo` attribute -> `purpose`
+
+### Pursuit Support (`PursuitSupport` Table)
+*   **Source Tag**: Independent files matching pattern `udt.pursuit_support_*.xml` in `src/main/resources/input/xml/` folder.
+*   **Mapping**:
+    *   `id` -> `guidanceID`
+    *   `name` -> `name`
+    *   `displayName` -> `presentationName`
+    *   `problem` attribute -> `solutionOverview`
+    *   `goals` attribute -> `elevatorPitch`
+    *   `background` attribute -> `valueProp`
+    *   `mainDescription` attribute -> `positioning`
+    *   `application` attribute -> `scoping`
+    *   `levelsOfAdoption` attribute -> `estimating`
+    *   `additionalInfo` attribute -> `additionalInfo`
+
 ---
 
 ## 4. Technical Constraints

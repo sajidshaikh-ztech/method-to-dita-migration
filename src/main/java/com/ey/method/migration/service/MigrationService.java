@@ -49,6 +49,7 @@ public class MigrationService implements CommandLineRunner {
     private final WorkProductToGuidanceRepository workProductToGuidanceRepository;
     private final DeliverablePartsRepository deliverablePartsRepository;
     private final GettingStartedRepository gettingStartedRepository;
+    private final PursuitSupportRepository pursuitSupportRepository;
     private final JdbcTemplate jdbcTemplate;
 
     private String currentContextId;
@@ -76,6 +77,7 @@ public class MigrationService implements CommandLineRunner {
                             WorkProductToGuidanceRepository workProductToGuidanceRepository,
                             DeliverablePartsRepository deliverablePartsRepository,
                             GettingStartedRepository gettingStartedRepository,
+                            PursuitSupportRepository pursuitSupportRepository,
                             JdbcTemplate jdbcTemplate) {
         this.deliveryProcessDefinitionRepository = deliveryProcessDefinitionRepository;
         this.activityRepository = activityRepository;
@@ -100,6 +102,7 @@ public class MigrationService implements CommandLineRunner {
         this.workProductToGuidanceRepository = workProductToGuidanceRepository;
         this.deliverablePartsRepository = deliverablePartsRepository;
         this.gettingStartedRepository = gettingStartedRepository;
+        this.pursuitSupportRepository = pursuitSupportRepository;
         this.jdbcTemplate = jdbcTemplate;
     }
 
@@ -132,6 +135,7 @@ public class MigrationService implements CommandLineRunner {
 
         // Migrate Getting Started definitions from secondary XMLs
         migrateGettingStarted();
+        migratePursuitSupport();
 
         // 5. Extract Work Products (Outcomes, Master Definitions, and Deliverables)
         if (methodXml.getWorkProducts() != null) {
@@ -1194,6 +1198,80 @@ public class MigrationService implements CommandLineRunner {
             }
         } catch (Exception e) {
             logger.error("Error migrating Getting Started definitions", e);
+        }
+    }
+
+    private void migratePursuitSupport() {
+        logger.info("Migrating Pursuit Support definitions from secondary XMLs...");
+        try {
+            File dir = new File("src/main/resources/input/xml/");
+            if (!dir.exists() || !dir.isDirectory()) {
+                logger.warn("Secondary XML directory not found: {}", dir.getAbsolutePath());
+                return;
+            }
+
+            File[] files = dir.listFiles((d, name) -> name.startsWith("udt.pursuit_support_") && name.endsWith(".xml"));
+            if (files == null || files.length == 0) {
+                logger.info("No udt.pursuit_support_*.xml files found.");
+                return;
+            }
+
+            for (File file : files) {
+                logger.info("Processing Pursuit Support XML: {}", file.getName());
+                try {
+                    JAXBContext context = JAXBContext.newInstance(ElementDetailXml.class);
+                    Unmarshaller unmarshaller = context.createUnmarshaller();
+                    ElementDetailXml detailXml = (ElementDetailXml) unmarshaller.unmarshal(file);
+
+                    // Create master GuidanceDefinition
+                    GuidanceDefinition guidanceDef = new GuidanceDefinition();
+                    guidanceDef.setContextID(currentContextId);
+                    guidanceDef.setGuidanceID(detailXml.getId());
+                    guidanceDef.setType("Pursuit Support");
+                    guidanceDef.setName(detailXml.getName());
+                    guidanceDef.setPresentationName(detailXml.getDisplayName());
+                    guidanceDef.setBriefDescription("");
+
+                    // Read detailed fields
+                    guidanceDef.setChangeHistory(detailXml.getAttributeValue("changeDescription"));
+                    String changeDateStr = detailXml.getAttributeValue("changeDate");
+                    if (changeDateStr != null && !changeDateStr.isEmpty()) {
+                        try {
+                            java.text.SimpleDateFormat sdf = new java.text.SimpleDateFormat("EEE MMM dd HH:mm:ss zzz yyyy");
+                            guidanceDef.setChangeDate(sdf.parse(changeDateStr));
+                        } catch (Exception e) {
+                            logger.warn("Failed to parse changeDate '{}' for PursuitSupport guidance", changeDateStr);
+                        }
+                    }
+                    String url = detailXml.getUrl();
+                    if (url != null && url.contains("/")) {
+                        guidanceDef.setOriginatingProcess(url.split("/")[0]);
+                    }
+
+                    guidanceDefinitionRepository.save(guidanceDef);
+
+                    PursuitSupport pursuitSupport = new PursuitSupport();
+                    pursuitSupport.setContextID(currentContextId);
+                    pursuitSupport.setGuidanceID(detailXml.getId());
+                    pursuitSupport.setName(detailXml.getName());
+                    pursuitSupport.setPresentationName(detailXml.getDisplayName());
+
+                    pursuitSupport.setSolutionOverview(detailXml.getAttributeValue("problem"));
+                    pursuitSupport.setElevatorPitch(detailXml.getAttributeValue("goals"));
+                    pursuitSupport.setValueProp(detailXml.getAttributeValue("background"));
+                    pursuitSupport.setPositioning(detailXml.getAttributeValue("mainDescription"));
+                    pursuitSupport.setScoping(detailXml.getAttributeValue("application"));
+                    pursuitSupport.setEstimating(detailXml.getAttributeValue("levelsOfAdoption"));
+                    pursuitSupport.setAdditionalInfo(detailXml.getAttributeValue("additionalInfo"));
+
+                    pursuitSupportRepository.save(pursuitSupport);
+                    logger.info("Successfully migrated Pursuit Support definition for id: {}", detailXml.getId());
+                } catch (Exception e) {
+                    logger.error("Error parsing Pursuit Support XML: {}", file.getName(), e);
+                }
+            }
+        } catch (Exception e) {
+            logger.error("Error migrating Pursuit Support definitions", e);
         }
     }
 }
