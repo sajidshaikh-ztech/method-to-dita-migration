@@ -16,6 +16,7 @@ This document outlines the logic, source XML elements, and attribute mappings us
     *   `name` -> `name`
     *   `description` -> `mainDescription`
     *   `sponsor`, `steward`, `publish`, `foundation`, etc. -> Respective columns.
+    *   `name` attribute of secondary `DeliveryProcess.*.xml` -> `shortname` (VARCHAR(50))
 
 ---
 
@@ -260,6 +261,29 @@ These tables are populated by iterating through top-level collection tags in the
     *   `application` attribute -> `scoping`
     *   `levelsOfAdoption` attribute -> `estimating`
     *   `additionalInfo` attribute -> `additionalInfo`
+
+### Release Information (`ReleaseInformation` Table)
+*   **Source Tag**: Independent XML files matching the pattern `udt.<shortname>_info*.xml` in the `src/main/resources/input/xml/` folder. The `<shortname>` is retrieved from the `DeliveryProcessDefinition` table.
+*   **Mapping**:
+    *   `id` -> `guidanceID`
+    *   `name` -> `name`
+    *   `presentationName` -> `presentationName`
+    *   `problem` attribute -> `whatsNew` ("What's New")
+    *   `goals` attribute -> `revisionHistory` ("Revision History")
+    *   `background` attribute -> `acknowledgements` ("Contributors")
+    *   `mainDescription` attribute -> `internalHistory` ("Internal Change History")
+    *   `application` attribute -> `designerCommentary` ("Designer Commentary")
+    *   `levelsOfAdoption` attribute -> `lastReviewed` (DATE, parsed with a fallback parsing logic for standard Java Date formatting)
+    *   `processID` (from `DeliveryProcessDefinition`) -> `processID`
+    *   `contextID` -> `contextID`
+
+### Plan Attachments (`PlanAttachments` Table)
+*   **Source Tag**: `<method>` tag (at the very top of `method.xml`) and `<guidance>` of type `"Project Plan"`.
+*   **Mapping**:
+    *   `plan-xlsx` attribute (from `<method>`) -> `excelPlan` (VARCHAR(255) to store full URL)
+    *   `plan-mpp` attribute (from `<method>`) -> `projectPlan` (VARCHAR(255) to store full URL)
+    *   `id` attribute (from `<guidance>` of `type="Project Plan"`) -> `guidanceID`
+    *   `contextID` (relational GUID of current run) -> `contextID`
 
 ---
 

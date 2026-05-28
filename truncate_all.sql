@@ -23,4 +23,6 @@ TRUNCATE TABLE WorkProductToGuidance;
 TRUNCATE TABLE DeliverableParts;
 TRUNCATE TABLE GettingStarted;
 TRUNCATE TABLE PursuitSupport;
+TRUNCATE TABLE PlanAttachments;
+TRUNCATE TABLE ReleaseInformation;
 SET FOREIGN_KEY_CHECKS = 1;

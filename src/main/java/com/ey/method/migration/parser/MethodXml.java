@@ -36,6 +36,12 @@ public class MethodXml {
     @XmlAttribute(name = "gsc")
     private String gsc;
 
+    @XmlAttribute(name = "plan-xlsx")
+    private String planXlsx;
+
+    @XmlAttribute(name = "plan-mpp")
+    private String planMpp;
+
     @XmlElement(name = "process-item")
     private ProcessItemXml rootProcessItem;
 
@@ -76,4 +82,6 @@ public class MethodXml {
     public java.util.List<MethodRoleXml> getMethodRoles() { return methodRoles; }
     public java.util.List<TaskXml> getTasks() { return tasks; }
     public java.util.List<WorkstreamXml> getWorkstreams() { return workstreams; }
+    public String getPlanXlsx() { return planXlsx; }
+    public String getPlanMpp() { return planMpp; }
 }

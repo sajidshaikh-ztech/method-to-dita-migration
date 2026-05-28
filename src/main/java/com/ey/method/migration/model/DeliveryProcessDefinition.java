@@ -64,6 +64,9 @@ public class DeliveryProcessDefinition {
     @Column(name = "childWBS", length = 25)
     private String childWBS;
 
+    @Column(name = "shortname", length = 50)
+    private String shortname;
+
     // Getters and Setters
     public String getProcessID() { return processID; }
     public void setProcessID(String processID) { this.processID = processID; }
@@ -121,4 +124,7 @@ public class DeliveryProcessDefinition {
 
     public String getChildWBS() { return childWBS; }
     public void setChildWBS(String childWBS) { this.childWBS = childWBS; }
+
+    public String getShortname() { return shortname; }
+    public void setShortname(String shortname) { this.shortname = shortname; }
 }
