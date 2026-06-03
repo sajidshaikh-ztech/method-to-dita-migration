@@ -23,17 +23,20 @@ public class WorkProductMigrator {
     private final DeliverableDefinitionRepository deliverableDefinitionRepository;
     private final WorkProductToGuidanceRepository workProductToGuidanceRepository;
     private final DeliverablePartsRepository deliverablePartsRepository;
+    private final WorkProductToWorkProductRepository workProductToWorkProductRepository;
 
     public WorkProductMigrator(OutcomeDefinitionRepository outcomeDefinitionRepository,
                                WorkProductDefinitionRepository workProductDefinitionRepository,
                                DeliverableDefinitionRepository deliverableDefinitionRepository,
                                WorkProductToGuidanceRepository workProductToGuidanceRepository,
-                               DeliverablePartsRepository deliverablePartsRepository) {
+                               DeliverablePartsRepository deliverablePartsRepository,
+                               WorkProductToWorkProductRepository workProductToWorkProductRepository) {
         this.outcomeDefinitionRepository = outcomeDefinitionRepository;
         this.workProductDefinitionRepository = workProductDefinitionRepository;
         this.deliverableDefinitionRepository = deliverableDefinitionRepository;
         this.workProductToGuidanceRepository = workProductToGuidanceRepository;
         this.deliverablePartsRepository = deliverablePartsRepository;
+        this.workProductToWorkProductRepository = workProductToWorkProductRepository;
     }
 
     public void migrateWorkProducts(List<WorkProductXml> workProductsXml, String currentContextId) {
@@ -80,6 +83,7 @@ public class WorkProductMigrator {
         logger.info("Migrating Work Product relationships...");
         int wp2gCount = 0;
         int partsCount = 0;
+        int wp2wpCount = 0;
         for (WorkProductXml xml : workProductsXml) {
             // Junction table for WorkProduct-to-Guidance
             if (xml.getGuidanceIds() != null) {
@@ -104,8 +108,22 @@ public class WorkProductMigrator {
                     partsCount++;
                 }
             }
+
+            // Junction table for WorkProduct-to-WorkProduct (composition of Work Products)
+            if ("Work Product".equalsIgnoreCase(xml.getType()) && xml.getWorkProductIds() != null) {
+                for (String childWpId : xml.getWorkProductIds()) {
+                    WorkProductToWorkProduct wp2wp = new WorkProductToWorkProduct();
+                    wp2wp.setContextID(currentContextId);
+                    wp2wp.setWorkProductID(xml.getId());
+                    wp2wp.setRelatedWorkProductID(childWpId);
+                    wp2wp.setRelationshipType("Component");
+                    workProductToWorkProductRepository.save(wp2wp);
+                    wp2wpCount++;
+                }
+            }
         }
-        logger.info("Migrated {} WorkProduct-to-Guidance relations and {} DeliverableParts", wp2gCount, partsCount);
+        logger.info("Migrated {} WorkProduct-to-Guidance relations, {} DeliverableParts, and {} WorkProduct-to-WorkProduct relations", 
+                    wp2gCount, partsCount, wp2wpCount);
     }
 
     private void enrichOutcomeWithDetails(OutcomeDefinition outcome, String methodLink) {

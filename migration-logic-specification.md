@@ -53,6 +53,14 @@ These tables are populated by a **recursive traversal** of the `<process-item>` 
     *   Child element `id` -> `childID`
     *   Ordered sequence index -> `index` (Mapped as `itemIndex` in Java)
 
+### Predecessors (`Predecessor` Table)
+*   **Logic**: During the WBS hierarchy traversal, predecessor links are extracted from the `<predecessors>/<predecessor>` nested tags. Because predecessor references inside the `<predecessor>` tags use sequence indices (e.g. `index="211"`), a multi-pass approach resolves these indices to the target process-item's physical UUID `id`.
+*   **Mapping**:
+    *   Current process-item `id` -> `WBSID`
+    *   Predecessor element `id` (looked up via the predecessor's `index`) -> `dependentOn`
+    *   Predecessor `type` attribute -> `dependencyType`
+    *   `contextID` -> `contextID`
+
 ---
 
 ## 3. Flat Methodology Definitions

@@ -25,6 +25,10 @@ public class ProcessItemXml {
     @XmlElement(name = "process-item")
     private List<ProcessItemXml> children = new ArrayList<>();
 
+    @XmlElementWrapper(name = "predecessors")
+    @XmlElement(name = "predecessor")
+    private List<PredecessorXml> predecessors = new ArrayList<>();
+
     public String getId() { return id; }
     public String getName() { return name; }
     public String getType() { return type; }
@@ -33,4 +37,5 @@ public class ProcessItemXml {
     public Integer getIndex() { return index; }
     public String getMethodLink() { return methodLink; }
     public List<ProcessItemXml> getChildren() { return children; }
+    public List<PredecessorXml> getPredecessors() { return predecessors; }
 }

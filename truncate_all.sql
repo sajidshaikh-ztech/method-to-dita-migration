@@ -25,4 +25,12 @@ TRUNCATE TABLE GettingStarted;
 TRUNCATE TABLE PursuitSupport;
 TRUNCATE TABLE PlanAttachments;
 TRUNCATE TABLE ReleaseInformation;
+TRUNCATE TABLE Predecessor;
+TRUNCATE TABLE ProcessToGuidance;
+TRUNCATE TABLE StepDefinition;
+TRUNCATE TABLE TaskToStep;
+TRUNCATE TABLE TeamDefinition;
+TRUNCATE TABLE TeamToTask;
+TRUNCATE TABLE WorkProductToWorkProduct;
 SET FOREIGN_KEY_CHECKS = 1;
+

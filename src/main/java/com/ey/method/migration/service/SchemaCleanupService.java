@@ -79,7 +79,10 @@ public class SchemaCleanupService {
             "TaskDefinition", "WorkstreamDefinition", "DeliverableDefinition", "GuidanceDefinition", 
             "GuidanceToGuidance", "RoleToGuidance", "TaskToRole", "TaskToWorkProduct", 
             "TaskToGuidance", "WorkstreamToTask", "TaskUsage", "WBS", "WorkProductToGuidance", 
-            "DeliverableParts", "GettingStarted", "PursuitSupport", "PlanAttachments", "ReleaseInformation"
+            "DeliverableParts", "GettingStarted", "PursuitSupport", "PlanAttachments", "ReleaseInformation",
+            "Predecessor", "ProcessToGuidance",
+            "StepDefinition", "TaskToStep", "TeamDefinition", "TeamToTask",
+            "WorkProductToWorkProduct"
         };
         for (String table : tables) {
             jdbcTemplate.execute("TRUNCATE TABLE " + table);

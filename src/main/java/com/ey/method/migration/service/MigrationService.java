@@ -147,7 +147,7 @@ public class MigrationService implements CommandLineRunner {
 
         if (methodXml.getRootProcessItem() != null) {
             logger.info("Migrating WBS Hierarchy...");
-            processHierarchyMigrator.traverseAndMigrateProcessItems(methodXml.getRootProcessItem(), deliveryProcessId, currentContextId);
+            processHierarchyMigrator.migrateWbsAndPredecessors(methodXml.getRootProcessItem(), deliveryProcessId, currentContextId);
         }
 
         relationshipAuditService.performPostMigrationAudit(currentContextId);
